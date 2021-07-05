@@ -6,9 +6,12 @@
         <author type="creator">RAYFAN</author>
         <critdates>
             <created date="2021-07-05"/>
+            <!--RAYFAN-->
+            <revised modified="2021-07-05"/>
         </critdates>
         
         <data name="产品" value="销售云"></data>
+        <data name="产品系列" value="PAAS"></data>
     </topicmeta>
     <topicref href="badges_intro.md" format="markdown">
         <topicref href="badges_typical-use--case.md" format="markdown"/>
