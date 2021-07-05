@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7112575-717C243-1F14AA515451551-9D1B14">
+  <title>编辑规则组合</title>
+  <shortdesc>在编辑规则组合时，允许编辑规则组合的基本信息，以及已包含的各项产品价格规则。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击规则组合名称，进入规则组合的详情页。</cmd>
+      </step>
+      <step>
+        <cmd>在页面右上角，单击<b>编辑</b>。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic48_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>编辑规则组合的基本信息，例如名称、生效/失效时间、所属部门等。</cmd>
+      </step>
+      <step>
+        <cmd>允许继续添加符合该规则组合的产品规则和价格规则。单击<b>添加产品价格规则</b>，从列表中选择已经关联了该规则组合的产品价格规则。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ugcpq_topic48_image004.png">
+            </image>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在产品价格规则列表中，允许删除已有的产品规则和价格规则，方便更改规则组合的促销策略。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>NOTE </p>
+      <ul>
+        <li>从规则组合中删除的规则只是暂时从该规则组合中删除，并没有从系统中删除。</li>
+      </ul>
+      <ol>
+        <li>单击<b>保存</b>，完成规则组合编辑。</li>
+      </ol>
+      <p>如果规则组合所包含的产品价格规则需要调整，允许在规则组合的详情页，直接添加对应的产品规则和价格规则。</p>
+      <p>在规则组合详情页，单击<b>新建</b>，选择需要添加的具体规则。</p>
+      <p>
+        <fig>
+          <image href="../graphics/ugcpq_topic48_image006.png">
+          </image>
+        </fig>
+      </p>
+      <p>更多关于产品规则和价格规则的说明，请参考<xref href="../concepts/ugcpq_产品价格规则.dita">产品价格规则</xref>。</p>
+    </result>
+  </taskbody>
+</task>

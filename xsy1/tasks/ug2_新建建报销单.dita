@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B630AA-2415239-154A7A759414F41-062A6E">
+  <title>新建建报销单</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击页面右上角<b>︙&gt;报销单</b>，进入报销单列表。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic43_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>新建报销单</b>，选择报销单的业务类型，进入对应的报销单页面。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ug2_topic43_image004.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在新建报销单页面，填写报销单相关信息。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic43_image006.png" />
+            </fig>
+          </p>
+          <p>
+            <image href="../graphics/ug2_topic43_image008.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>填写完报销单信息后，可以选择是否新增费用还是选择未报销费用。</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>选择<b>新增费用</b>，会弹出费用新增界面，进行填写，</li>
+      </ul>
+      <p>
+        <fig>
+          <image href="../graphics/ug2_topic43_image010.png" />
+        </fig>
+      </p>
+      <ul>
+        <li>选择<b>未报销费用</b>会显示出费用列表进行选择。</li>
+      </ul>
+      <p>
+        <image href="../graphics/ug2_topic43_image012.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

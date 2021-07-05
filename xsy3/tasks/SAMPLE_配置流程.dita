@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7111705-3A1F154-A715175DA3039A3-F700BE">
+  <title>配置流程</title>
+  <taskbody>
+    <context>
+      <p>
+        <xref href="SAMPLE_创建流程.dita">创建流程</xref>完成后，会自动进入到流程设计器页面。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic14_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 图中序号 说明</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>按钮栏，用于流程的管理。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/SAMPLE_topic14_image003.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic14_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 节点区，包含各种类型的节点，从此处拖拽节点到 3 号区域中进行流程图的绘制。</info>
+      </step>
+      <step>
+        <cmd>画布，流程配置主要工作区，用于绘制、配置流程。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/SAMPLE_topic14_image003.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic14_image004.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 辅助操作栏，辅助流程的配置，例如，属性配置、校验。</info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

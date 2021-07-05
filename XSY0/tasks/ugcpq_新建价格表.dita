@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB127197-C419531-9F254A874558EB9-CD776F">
+  <title>新建价格表</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>在价格表列表页面，单击<b>新建价格表</b>。</cmd>
+      </step>
+      <step>
+        <cmd>填写价格表信息，其中带<b>*</b>号的项为必填项。必填项和常用项均支持用户在系统后台通过<b>表单布局</b>功能设置。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic16_image002.png" />
+            </fig>
+          </p>
+          <table>
+            <tgroup cols="2" colsep="1" rowsep="1">
+              <colspec colname="col1" />
+              <colspec colname="col2" />
+              <tbody>
+                <row>
+                  <entry colname="col1">
+                    <b>配置项</b>
+                  </entry>
+                  <entry colname="col2">
+                    <b>说明</b>
+                  </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 价格表名称 </entry>
+                  <entry colname="col2"> 手动为价格表输入一个名称，例如积分兑换价格表。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 所有人 </entry>
+                  <entry colname="col2"> 默认为当前价格表的创建人，并且不允许修改。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 所属部门 </entry>
+                  <entry colname="col2"> 为价格表选择一个所属部门。只有属于该部门的成员或对该部门有查看和编辑权限的人员才能看到价格表。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 启用状态 </entry>
+                  <entry colname="col2"> 新价格表默认的状态为启用，允许手动调整为禁用。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 从下列价格表复制 </entry>
+                  <entry colname="col2"> 新的价格表可以从已有的价格表中复制，单击<b>+</b>号，添加成功后，系统将自动关联选中的价格表。 </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成价格表新建。</cmd>
+      </step>
+      <step>
+        <cmd>在价格表详情页面，单击<b>相关</b>，然后单击<b>编辑</b>图标，可以为价格表添加产品明细。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ugcpq_topic16_image004.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

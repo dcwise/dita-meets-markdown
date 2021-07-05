@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B3BA27-52539F2-5A8C11941564987-0E8CEE">
+  <title>企业微信</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击页面右下方的企业微信图标进入企业微信详情页面。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>企业微信分为三大模块，包括【最近聊天】、【同事】、【讨论组】。</p>
+      <ul>
+        <li>【最近聊天】：显示最近与同事或讨论组进行的交流记录。</li>
+        <li>【同事】：在同事目录中可以看到权限范围内全公司的所有同事，单击具体同事即可发起聊天。</li>
+        <li>【讨论组】：讨论组即为多人聊天群组，同事之间可以在讨论组中进行多人交流。<fig><image href="../graphics/ug2_topic26_image002.png" /></fig><ol><li>单击具体同事或者讨论组即可查看历史聊天记录，可以发送文字消息、图片、文件以及表情。</li><li>在聊天界面，单击同事名字右侧的下拉箭头按钮即可展开功能面板。</li></ol></li>
+        <li>可选择置顶聊天、消息免打扰，还可以添加聊天成员。</li>
+        <li>当聊天成员大于两人后，该聊天会自动转换成讨论组。可以修改讨论组名称、添加讨论组成员。</li>
+        <li>若需退出讨论组，单击<b>退出讨论组</b>即可。若需废弃讨论组，由讨论组发起人单击<b>解散讨论组</b>即可。</li>
+      </ul>
+      <p>
+        <image href="../graphics/ug2_topic26_image004.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

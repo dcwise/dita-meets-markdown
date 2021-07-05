@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB1E15A4-0456AA1-A7C165159745558-141FDE">
+  <title>编辑流程</title>
+  <taskbody>
+    <context>
+      <p>
+        <b>
+          <i>NOTE 1. </i>
+        </b>
+        <i>在编辑流程之前，建议先了解</i>
+        <xref href="../concepts/SAMPLE_流程的状态.dita">
+          <i>流程的状态</i>
+        </xref>
+        <i>。</i>
+      </p>
+      <p>遵循以下步骤，编辑流程：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          <image href="../graphics/SAMPLE_topic22_image002.png" />在<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中，单击流程名称左侧的 。</cmd>
+      </step>
+      <step>
+        <cmd>在展开的列表中单击流程名称。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/SAMPLE_topic22_image004.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击流程名称后，将进入到流程设计器页面，在流程设计器页面的画布中可对流程节点进行修改，关于配置流程节点的详细信息请参考<xref href="SAMPLE_配置流程.dita">配置流程</xref>。</cmd>
+      </step>
+      <step>
+        <cmd>流程编辑修改完成后，单击按钮栏的<b>保存</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>NOTE </b>流程修改完成后，不会自动生效，需要手动启用流程。</p>
+      </required-cleanup>
+      <p id="_bookmark71">
+        <b>创建新版本</b>
+      </p>
+      <p>
+        <b>
+          <i>NOTE </i>
+        </b>
+        <i>在创建新版本之前，建议先了解</i>
+        <xref href="../concepts/SAMPLE_流程的状态.dita">
+          <i>流程的状态</i>
+        </xref>
+        <i>。</i>
+      </p>
+      <p>对于启用和禁用状态的流程不能编辑 （此处的编辑指在画布中修改流程节点及相关配置），但可以以创建新版本的方式进行修改。</p>
+      <p>每个流程都可以有多个版本 , 基于任何一个版本创建新版本，都会以当前版本为基础，自动复制出一个新的版本，新复制版本的状态为 “ 设计 ”。</p>
+      <p>遵循以下步骤，创建新版本：</p>
+      <ol>
+        <li>
+          <image href="../graphics/SAMPLE_topic22_image002.png" />在<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中，单击流程名称左侧的 。</li>
+        <li>
+          <image href="../graphics/SAMPLE_topic22_image006.png" />在展开的列表中，单击流程名称左侧的 。</li>
+        <li>在弹出的菜单中单击<b>创建新版本</b>。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic22_image008.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>单击<b>创建新版本</b>后，将自动复制出一个新的版本，在流程设计器中可以对新复制版本进行修改。</li>
+        <li>流程编辑修改完成后，单击按钮栏的<b>保存</b>。<p><b><i>NOTE 1. </i></b><i>一个流程的版本数量没有限制。</i></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>流程创建新版本后，新版本不会自动生效，需要手动启用流程。</p></required-cleanup><ol><li><i>一个流程虽然可以有多个版本，但同时只能有一个版本生效。</i><p id="启用流程"><b>启用流程</b></p><p><b><i>NOTE </i></b><i>在启用流程之前，建议先了解</i><xref href="../concepts/SAMPLE_流程的状态.dita"><i>流程的状态</i></xref><i>。</i></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b><b>NOTE 1.
+ </b>流程中必须要包含一个开始节点（含提交人节点）、至少一个结束节点。如果不满足此条件，则启用流程失败。</p></required-cleanup><ol><li><i>如果在流程中已经有其他启用的版本，则在启用当前版本的同时，会自动禁用已启用版本。</i></li><li><i>流程启用成功后，建议对流程进行全面测试，以确保流程可以正常执行。</i></li></ol></li></ol></li>
+      </ol>
+      <p>只有启用状态的流程才会被执行。以下两种方式都可以启用流程：</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>第一种方式</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <image href="../graphics/SAMPLE_topic22_image002.png" />在<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中，单击流程名称左侧的 。</li>
+        <li>在展开的列表中点击流程名称。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic22_image004.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>单击流程名称后，将进入到流程设计器页面，在流程设计器页面，单击按钮栏中的<b>启用</b>。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic22_image010.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>第二种方式</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <image href="../graphics/SAMPLE_topic22_image002.png" />在<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中，单击流程名称左侧的 。</li>
+        <li>
+          <image href="../graphics/SAMPLE_topic22_image006.png" />在展开的列表中，单击流程名称左侧的 。</li>
+        <li>在弹出的菜单中单击<b>启用</b>。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic22_image012.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

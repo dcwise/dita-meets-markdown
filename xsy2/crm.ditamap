@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<bookmap xml:lang="en-us" id="bookmap-1">
+  <title></title>
+  <frontmatter>
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="concepts/crm_第一章_概述_标题1_加粗_18pt.dita">
+    <topicref href="tasks/crm_销售易概述_标题2_加粗_14pt.dita" />
+    <topicref href="concepts/crm_paas平台核心组件.dita">
+      <topicref href="concepts/crm_数据模型构建_标题3_加粗_12pt.dita">
+        <topicref href="concepts/crm_业务逻辑与流程_标题4_加粗_11pt.dita" />
+      </topicref>
+      <topicref href="tasks/crm_业务对象.dita" />
+      <topicref href="tasks/crm_存储空间.dita" />
+    </topicref>
+    <topicref href="concepts/crm_相关产品版本配套说明.dita" />
+  </chapter>
+  <chapter href="concepts/crm_第二章_设置用户和权限.dita" />
+  <chapter href="concepts/crm_第三章_其他.dita" />
+</bookmap>

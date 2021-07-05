@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A763B24B-1745517-F1541973BBF4376-98CCDD">
+  <title>查看任务</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击页面右上角<b>︙&gt;任务</b>，查看任务列表。</cmd>
+        <info>
+          <p>“我的任务”和“我分配的”只显示未完成的任务，已完成的任务可以通过单击红框中按钮查看。</p>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic11_image001.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击任务名称可以查看到任务的详情，并可以在右上角看到该任务的完成状态。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ug2_topic11_image003.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>完成任务后可以勾选任务标题前面的方框，该任务状态变更为“已完成”。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ug2_topic11_image005.png" />
+        </fig>
+      </p>
+    </result>
+  </taskbody>
+</task>

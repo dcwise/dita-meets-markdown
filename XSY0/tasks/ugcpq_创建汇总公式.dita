@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7175197-C471595-39FA8710191551C-FD279E">
+  <title>创建汇总公式</title>
+  <shortdesc>汇总公式的计算方式包括求和、平均值、计数、最大值和最小值，一般用来统计产品的数量或各种明细的总金额。</shortdesc>
+  <taskbody>
+    <context>
+      <p>以买手机赠送一个充电宝为例。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击<b>汇总公式</b>，选择<b>产品总量</b>为汇总值的来源字段。</cmd>
+      </step>
+      <step>
+        <cmd>由于促销策略是以买手机为前提，那么汇总值需要计算订单中手机的总数量是否大于等于1，计算方式需要选择<b>SUM求和</b>。</cmd>
+      </step>
+      <step>
+        <cmd>设置筛选条件，将产品总量的值设置为大于等于1。单击<b>添加更多条件</b>，可以根据实际促销场景添加多条筛选条件。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic64_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成汇总公式新建。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

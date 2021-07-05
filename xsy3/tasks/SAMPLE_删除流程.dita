@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B174E7-A7D4024-5364AAF15871015-155542">
+  <title>删除流程</title>
+  <taskbody>
+    <context>
+      <p>
+        <b>
+          <i>NOTE 1. </i>
+        </b>
+        <i>删除流程之前，建议先了解</i>
+        <xref href="../concepts/SAMPLE_流程的状态.dita">
+          <i>流程的状态</i>
+        </xref>
+        <i>。</i>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          <i>此处的删除流程，指删除流程的某个版本。如果流程仅有一个版本，则删除流程版本后，将删除整个流程。</i>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <i>如果流程有执行过的流程实例数据，则不允许删除。</i>
+        </cmd>
+      </step>
+    </steps>
+    <result>
+      <p>对于不再需要使用的流程可以将其删除，遵循以下步骤，删除流程。</p>
+      <ol>
+        <li>
+          <image href="../graphics/SAMPLE_topic24_image002.png" />在<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中，单击流程名称左侧的 。</li>
+        <li>
+          <image href="../graphics/SAMPLE_topic24_image004.png" />在展开的列表中，单击流程名称左侧的 。</li>
+        <li>在弹出的菜单中单击<b>删除</b>。</li>
+      </ol>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic24_image006.png" />
+        </fig>
+      </p>
+    </result>
+  </taskbody>
+</task>

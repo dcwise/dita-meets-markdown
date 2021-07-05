@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A411777C-1253951-F54AA65161BEE76-13D085">
+  <title>产品目录管理</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>单击<b>新建产品</b>后面的下拉箭头，选择<b>产品目录管理</b>。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic4_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>默认一级目录为产品，单击<b>+</b>号，可以在产品下添加目录，例如电子产品、健身器材、食品等类别。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ugcpq_topic4_image004.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>每一个产品目录中还支持添加子产品目录，例如在电子产品目录下添加电脑、小家电、电器套餐等。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic4_image006.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击编辑、删除图标可以重新编辑目录的名称或者删除目录。如果被删除的目录下存在子目录，需要先逐一删除子目录。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ugcpq_topic4_image008.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>导出产品目录</b>，可以将目录以CSV格式存入本地，方便在本地编辑目录内容。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

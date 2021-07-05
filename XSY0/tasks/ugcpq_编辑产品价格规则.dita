@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1517797-1453391-F24AB5945903B43-997CD9">
+  <title>编辑产品价格规则</title>
+  <shortdesc>编辑产品价格规则时，产品规则和价格规则可以分开编辑。</shortdesc>
+  <taskbody>
+    <context>
+      <p>在产品规则详情页或者价格规则详情页可以继续新建规则条件和规则行为，并且也支持更改绑定的规则组合，使产品规则和价格规则能够适应更多类型的规则组合。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在CRM首页，单击<b>产品价格规则</b>。</cmd>
+      </step>
+      <step>
+        <cmd>选择一条规则，在该规则的详情页，单击<b>规则条件</b>标签，可以查看所有的规则条件；单击<b>规则行为</b>，可以查看所有的规则行为。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>+</b>号，可以继续新建规则条件或者规则行为。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic58_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在页面右上角，单击<b>编辑</b>，可以编辑产品价格规则的基本信息，包括关联的规则组合、规则名称、触发顺序等。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成产品价格规则编辑。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

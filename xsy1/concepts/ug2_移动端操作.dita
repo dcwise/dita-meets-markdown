@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B61AA2-4B17253-1157D1D941556C3-59F3DF">
+  <title>移动端操作</title>
+  <shortdesc>新版靠前移动端操作与旧版相似，在页面进行了优化。用地图的形式突出考勤点和当前位置的距离感，在页面里面可以实时定位，移动的时候可以清楚的看到与考勤点的距离变化。另外，正常打卡和外勤打卡的按钮颜色不同，都记录到考勤表里面。</shortdesc>
+  <conbody>
+    <ul>
+      <li>考勤点打卡界面</li>
+    </ul>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic39_image002.png" />
+      </fig>
+    </p>
+    <ul>
+      <li>外勤打卡界面</li>
+    </ul>
+    <p>
+      <image href="../graphics/ug2_topic39_image004.png" /> <image href="../graphics/ug2_topic39_image006.png" /></p>
+  </conbody>
+</concept>

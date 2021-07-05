@@ -1,0 +1,41 @@
+*[class ~= "front-page/front-page-title"]:after(1) {
+    display:block;
+    content: "草稿";
+    font-size: large;
+    color: red;
+    text-align:center;
+    font-family: "Noto Sans SC";
+}
+
+*[class ~= "front-page/front-page-title"]:after(2) {
+    display:block;
+    content: "DO NOT 分发许可";
+    font-size: large;
+    color: red;
+    text-align:center;
+	font-size: large;
+    font-style: italic;
+    font-family: "Noto Sans SC";
+}
+
+@page front-page {
+    background-image: url("us-letter.svg");
+    background-position:center;
+}
+
+
+*[class ~= "topic/image"] {
+        prince-image-resolution: 1800dpi;
+        -ah-image-resolution: 1800dpi;
+        image-resolution: 1800dpi;
+}    
+/*.wh_top_menu ul {
+  background-color: @menuBgr;
+}*/
+.wh_top_menu ul a {
+  color: #0564f5;
+}
+/* The submenus */
+.wh_top_menu ul ul {
+  background-color: #0564f5;
+}

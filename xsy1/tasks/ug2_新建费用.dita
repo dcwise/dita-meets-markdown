@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB3B0A2B-1451595-4A8711597413DA2-76A141">
+  <title>新建费用</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击<b><i>CRM&gt;费用</i></b>，显示费用列表页面。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic47_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击列表右上角的<b>新建费用</b>按钮。</cmd>
+      </step>
+      <step>
+        <cmd>在【新建费用】页面根据提示填写新建费用信息。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ug2_topic47_image004.png" />
+          </p>
+          <p>其中关联业务可以选择多个业务对象，具体以页面显示为准，需要在文本框输入关联对象主题关键字后，在出现的选项中关联。已经关联业务信息并且已经审批通过的费用是不能够修改和删除的。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>按钮完成新费用的创建。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

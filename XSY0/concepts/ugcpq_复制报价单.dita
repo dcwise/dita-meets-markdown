@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12517-5797424-599125AD2945190-D2980C">
+  <title>复制报价单</title>
+  <shortdesc>对已有报价单进行编辑时，可以采用复制报价单的方式，将原有的报价单信息留存，并在复制的报价单上进行修改。</shortdesc>
+  <conbody>
+    <p>NOTE </p>
+    <ul>
+      <li>复制报价单不会复制相关状态、审批信息；</li>
+      <li>复制时如果客户不可用、产品状态变化，或者产品价格表价格发生变化时，会提示用户相关内容。</li>
+    </ul>
+    <p>在报价单详情页面，单击<b>…</b>&gt;<b>复制</b>，复制当前的报价单。</p>
+  </conbody>
+</concept>

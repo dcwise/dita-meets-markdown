@@ -47,5 +47,7 @@ pwd
 
 sh $DITA_OT/bin/dita \
     --format=webhelp-responsive \
-    --input=dita-badges.ditamap \
+    --input=manualset.ditamap \
     --output=bin/out
+	-Dwebhelp.logo.image=https://www.xiaoshouyi.com/wp-content/uploads/2020/11/logo_2020_@2X_b.png
+	-Dwebhelp.publishing.template=xsyCENTEROFEXCELLENCE.zip

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7630AA2-2417452-15F25A87A105159-755662">
+  <title>查看报销单</title>
+  <shortdesc>已创建的报销单可以单击页面右上角<b>︙&gt;报销单</b>进行查看；也可以通过单击<b>CRM&gt;费用</b>，选择<b>查看报销单</b>进行查看。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic44_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A717B457-D404564-AF214D75154556A-686984">
+  <title>审批提交人撤回审批</title>
+  <shortdesc>在审批结束前，审批提交人可以撤回审批申请。例如临时取消了出差工作，出差申请人撤回出差相关的审批。</shortdesc>
+  <conbody>
+    <p>通过<xref href="SAMPLE_查看所有审批.dita">办公下的审批</xref>进入到审批列表中，可以在审批列表的<b>审批操作</b>列进行，也可以单击流程标题后，进入到数据详情页中进行撤回。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/SAMPLE_topic33_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>系统管理员进行流程监控 | <b>103</b></p>
+  </conbody>
+</concept>

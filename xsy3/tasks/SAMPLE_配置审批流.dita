@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A417B4E1-7D44536-4F2154A8616551F-223AE9">
+  <title>配置审批流</title>
+  <shortdesc>遵循以下步骤，配置审批流：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录销售易系统 （https://crm.xiaoshouyi.com），在左侧导航栏底部单击<b>设置 </b>&gt; <b>系统设置</b>进入系统后台。</cmd>
+      </step>
+      <step>
+        <cmd>在左侧导航菜单中，单击<b>流程中心 </b>&gt; <b>审批流程</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【审批流程管理】页面，单击<b>添加审批流程</b>。</cmd>
+      </step>
+      <step>
+        <cmd>设置流程的基本信息，设置完成后，单击<b>保存</b>。关于配置项的详细信息请参考<xref href="SAMPLE_创建流程.dita">创建流程</xref>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/SAMPLE_topic8_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在流程设计器页面，绘制请假审批流程图。关于各类型节点的详细信息请参考<xref href="SAMPLE_绘制审批流程图.dita">绘制审批流程图</xref>。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/SAMPLE_topic8_image004.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>双击<b>提交申请</b>节点，配置提交节点属性，设置完成后，单击<b>保存。</b>关于提交节点配置项的详细信息请参考<xref href="SAMPLE_绘制审批流程图.dita#A7B175A7-2564AF5-4812594159D5389-597CDD/_bookmark24">配置提交节点属性</xref>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/SAMPLE_topic8_image006.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在流程设计器页面，双击审批节点，配置审批节点属性，关于审批节点配置项的详细信息请参考<xref href="#task731/_bookmark31">配置审批节点属性</xref>。</cmd>
+        <substeps>
+          <substep>
+            <cmd>直属上级审批节点
+ （本示例中为节点 1），设置基本属性和审批人，设置完成后，单击<b>保存</b>。</cmd>
+            <info>
+              <p>
+                <image href="../graphics/SAMPLE_topic8_image008.png" />
+              </p>
+              <p>
+                <fig>
+                  <image href="../graphics/SAMPLE_topic8_image010.png" />
+                </fig>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>直属上级的上级审批节点 （本示例中为节点 2），设置基本属性和审批人，</cmd>
+          </substep>
+        </substeps>
+        <info>
+          <p>设置完成后，单击<b>保存</b>。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic8_image012.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+          <p>
+            <fig>
+              <image href="../graphics/SAMPLE_topic8_image014.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在流程设计器页面，双击条件节点
+ （本示例中为网关 1），配置条件节点名称，设置完成后，单击<b>保存</b>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic8_image016.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在流程设计器页面，双击条件分支的连线，设置分支条件。关于分支条件配置项的详细信息请参考<xref href="#task731/_bookmark28">配置网关分支属性</xref>。</cmd>
+        <substeps>
+          <substep>
+            <cmd>小于等于 3 天的分支 （本示例中为条件 2 的连线），设置完成后，单击<b>保存</b>。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <fig>
+                            <image href="../graphics/SAMPLE_topic8_image018.png" />
+                          </fig>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>大于 3 天的分支 （本示例中为条件 1 的连线），设置完成后，单击<b>保存</b>。</cmd>
+          </substep>
+        </substeps>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic8_image020.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>审批流全部配置完成，在流程设计器页面，单击按钮栏的<b>保存</b>。（下图为配置 完成的流程图）</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/SAMPLE_topic8_image022.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在流程设计器页面，单击按钮栏的<b>启用</b>，启用流程。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A151717C-14395F2-1A714415217B09F-5E52AB">
+  <title>新建组合产品的产品约束关系</title>
+  <shortdesc id="_Hlk520395680">组合产品下的每一个产品选项可能存在依赖或互斥的关系，产品经理或管理员，需要根据产品选项的不同情况，将依赖或互斥关系添加到组合产品中。</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>依赖：选择购买一个产品时，需要与另一个产品绑定销售。例如购买手机流量加油包，必须先购买一个流量套餐后，才可以购买流量加油包。</li>
+        <li>互斥：选择购买一个产品时，不能选择购买另一个产品。例如购买手机流量5元包30M流量与10元包60M流量就是<i>互斥的产品</i>，不能同时选择。</li>
+      </ul>
+      <p>NOTE </p>
+      <ul>
+        <li>新建产品约束时，互为约束关系的两种产品选项不能相同。</li>
+      </ul>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击<b>CRM</b>&gt;<b>产品</b>，进入产品列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>找到一个组合产品，单击名称，进入该组合产品的详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>相关</b>页签，找到<b>产品约束</b>，然后单击后面的+号，添加产品的约束关系。</cmd>
+      </step>
+      <step>
+        <cmd>填写产品约束信息，其中带<b>*</b>号的项为必填项。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic10_image002.png" />
+            </fig>
+          </p>
+          <table>
+            <tgroup cols="2" colsep="1" rowsep="1">
+              <colspec colname="col1" />
+              <colspec colname="col2" />
+              <tbody>
+                <row>
+                  <entry colname="col1">
+                    <b>配置项</b>
+                  </entry>
+                  <entry colname="col2">
+                    <b>说明</b>
+                  </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 产品约束名称 </entry>
+                  <entry colname="col2"> 手动输入一个产品约束名称，例如产品A和产品B二选一。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 组合产品名称 </entry>
+                  <entry colname="col2"> 系统会自动显示当前的组合产品名称，并且组合产品名称不允许编辑。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 被约束产品选项 </entry>
+                  <entry colname="col2"> 单击<b>+</b>号，从现有的产品选项中选择需要被约束的产品。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 产品选项 </entry>
+                  <entry colname="col2"> 单击<b>+</b>号，从现有的产品选项中选择一个产品。产品选项与被约束的产品选项不能是同一种产品。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 约束方式 </entry>
+                  <entry colname="col2"> 单击下拉箭头，选择一个约束方式。约束方式包括依赖关系和互斥关系。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 启用状态 </entry>
+                  <entry colname="col2"> 启用状态默认为<b>启用</b>，也允许手动调整为<b>禁用</b>。 </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成产品约束关系新建。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

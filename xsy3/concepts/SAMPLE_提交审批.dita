@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A17B45AD-464AAF2-154C15159741555-BC3890">
+  <title>提交审批</title>
+  <shortdesc>审批提交按钮位于数据的详情页中，审批申请人需要手动单击审批提交按钮启动审批流程。</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/SAMPLE_topic27_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>根据实际情况，选择审批人、抄送人，然后设置审批的紧急程度以及相关的审批说明。</p>
+    <p>
+      <image href="../graphics/SAMPLE_topic27_image004.png" />
+    </p>
+  </conbody>
+</concept>

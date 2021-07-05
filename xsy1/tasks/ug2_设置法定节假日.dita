@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A763B24B-1415391-F24D11157155253-75958A">
+  <title>设置法定节假日</title>
+  <shortdesc>法定节假日是指根据各国、各民族的风俗习惯或纪念要求，由国家法律统一规定的用以进行庆祝及度假的休息时间。此处设置的法定节假日是平时工作休息日的补充。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在销售易后台系统首页，单击<b>业务参数设定</b>-&gt;工作<b>时间管理</b>，显示【工作时间管理】页面。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic35_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击右上角<b>法定节假日设置</b>按钮，进入法定节假日设置页面，缺省时区为东八区。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ug2_topic35_image004.png" />
+      </p>
+      <ul>
+        <li>选择要法定节假日的年份，单击<b>提示文案</b>，可以对该年的节假日进行说明。</li>
+        <li>单击<b>+添加节假日</b>，新建节假日明细 </li>
+        <li>在出现的文本框中输入节假日名称和时间，如元旦、清明、国庆等。</li>
+        <li>单击√，保存设置。<ol><li>添加完节假日明细后，单击<b>保存</b>完成设置。</li></ol></li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

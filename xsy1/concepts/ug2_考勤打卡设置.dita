@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7BB10AA-2745231-15871C19415558A-3773B7">
+  <title>考勤打卡设置</title>
+  <shortdesc>NOTE </shortdesc>
+  <conbody>
+    <ul>
+      <li>如果当前租户未开通新版考勤功能，则考勤按钮将被屏蔽</li>
+      <li>新建工作时间组时，如果没有设置人员和排期，则该工作时间组对应考勤按钮会置灰。</li>
+    </ul>
+    <p>在【工作时间管理】页面，单击已有工作时间组对应的<b>考勤</b>按钮，进入考勤设置页面。</p>
+    <ul>
+      <li>设置考勤规则</li>
+      <li>高级设置：用于设置弹性打卡时间，是否允许外勤打开及条件限制。</li>
+      <li>补卡设置：勾选了允许补卡，但是没有填写补卡次数和允许补卡的天数，就不限制次数跟天数。</li>
+      <li>考勤审批人：开启此功能后，非正常打卡都需要进行审批。</li>
+      <li>考勤方式</li>
+      <li>考勤地点：员工在设置的考勤地点有效范围内打卡，即为正常考勤。</li>
+      <li>WiFi考勤：添加WiFi的相关信息，必须连接这个WiFi然后打卡才是内勤，即正常上班。</li>
+    </ul>
+  </conbody>
+</concept>

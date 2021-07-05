@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7112575-1947535-FAA175197415562-C4A728">
+  <title>同步报价单</title>
+  <shortdesc id="_Hlk520392211">通过<b>同步</b>功能可以将报价单的明细内容同步至销售机会明细。</shortdesc>
+  <conbody>
+    <p>在报价单详情页面，单击<b>…</b>&gt;<b>同步</b>。</p>
+    <p>同步后报价单会记录报价单的最近同步时间，同时系统会在报价单以及销售机会（商机）下发送动态。</p>
+  </conbody>
+</concept>

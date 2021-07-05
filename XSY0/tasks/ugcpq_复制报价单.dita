@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B15571-9C41243-95311F214AA1615-975191">
+  <title>复制报价单</title>
+  <shortdesc id="_Hlk520389928">当需要对已有报价单进行编辑时，可采用复制报价单的方式，将原有的报价单信息保留，并在复制的报价单上进行修改。</shortdesc>
+  <taskbody>
+    <context>
+      <p>修改时，原有报价单的信息会被默认带出，确认基本信息后，单击<b>确定</b>，进入价格配置页面，此时，原有报价单的价格会被自动带出。编辑明细或者单击重新计算时，对于已失效的阶梯价格表（未启用/已过失效时间）会被自动过滤。</p>
+      <p>NOTE </p>
+      <ul>
+        <li>复制报价单不会复制相关状态和审批信息；</li>
+        <li>复制时如果客户状态为不可用，那么产品状态变化、或者产品价格表价格发生变化时，会提示用户相关内容。</li>
+      </ul>
+    </context>
+    <steps>
+      <step>
+        <cmd>在报价单列表页面，选择一个报价单，单击名称，进入报价单详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>在右上方单击<b>…</b>&gt;<b>复制</b>，复制当前报价单的内容并进行修改。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>
