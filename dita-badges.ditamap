@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>内容徽标</title>
+    <topicmeta>
+      
+        <author type="contributor">RAYFAN</author>
+      
+        <critdates>
+            <!--RAYFAN-->
+            <revised modified="2021-07-05"/>
+        </critdates>
+   <data name="平台支持" value="企业微信" ></data>
+    </topicmeta>
+    <topicref keys="badgelib" href="library_content-badges.dita"/>
+    <topicref href="library_content-badges.dita"/>
+    <topicref href="Untitled1.dita"/>
+    <topicref href="conrefpush.dita" processing-role="resource-only"/>
+</map>

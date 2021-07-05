@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_usl_ncs_qfb">
+    <title>Conref push</title>
+    <body>
+ 
+        <p conaction="pushbefore">
+            <image href="images/badge_cloud-compute_small_yes.png">
+                 <alt>This topic applies exclusively to Cloud Compute.</alt>
+            </image>
+            <ph> This topic applies exclusively to Cloud Compute.</ph>
+        </p>
+        <p conaction="mark" conref="Untitled1.dita#untitled/p_first-para" />
+        
+    </body>
+</topic>

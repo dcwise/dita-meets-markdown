@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="untitled">
+    <title>举例说明CONPUSH 功能</title>
+    <abstract>
+        <shortdesc>Short description</shortdesc>
+        <p>Topic badge</p>
+    </abstract>
+    <prolog>
+        <author type="contributor">RAYFAN</author>
+        <critdates>
+            <!--RAYFAN-->
+            <revised modified="2021-07-05"/>
+        </critdates>
+    </prolog>
+    
+    
+    <body>
+<section>
+    <title>Section title</title>
+    <p>Section badge reference</p>
+    <p>. . .</p>
+            <p conref="library_content-badges.dita#library1/p_badge_tag_cloud-connect_topic_yes"/>
+</section>
+        <p conkeyref="badgelib/p_badge_tag_cloud-compute_topic_yes"/> 
+        <section>
+            <title>Conref push example</title>
+            <p id="p_first-para">The badge should be inserted above this paragraph. </p>
+            <p>. . . </p>
+        </section>
+    </body>
+</topic>

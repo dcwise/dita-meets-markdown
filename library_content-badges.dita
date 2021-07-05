@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="library1">
+    <title>Library: Content badges</title>
+    <body>
+        <p></p>
+        <section id="section_icon-based-topic-badges">
+            <title>Topics: Icon-based badges</title>
+            <p id="p_badge_icon_cloud-compute_topic_yes">
+                <image href="images/badge_cloud-compute_small_yes.png">
+                    <alt>This topic applies exclusively to Cloud Compute.</alt>
+                </image>
+                <ph> This topic applies exclusively to Cloud Compute.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-compute_topic_no">
+                <image href="images/badge_cloud-compute_small_no.png">
+                    <alt>This topic does not apply to Cloud Compute.</alt>
+                </image>
+                <ph> This topic does not apply to Cloud Compute.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-connect_topic_yes">
+                <image href="images/badge_cloud-connect_small_yes.png">
+                    <alt>This topic applies exclusively to Cloud Connect.</alt>
+                </image>
+                <ph> This topic applies exclusively to Cloud Connect.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-connect_topic_no">
+                <image href="images/badge_cloud-connect_small_no.png">
+                    <alt>This topic does not apply to Cloud Connect.</alt>
+                </image>
+                <ph> This topic does not apply to Cloud Connect.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-net_topic_yes">
+                <image href="images/badge_cloud-net_small_yes.png">
+                    <alt>This topic applies exclusively to Cloud Net.</alt>
+                </image>
+                <ph> This topic applies exclusively to Cloud Net.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-net_topic_no">
+                <image href="images/badge_cloud-net_small_no.png">
+                    <alt>This topic does not apply to Cloud Net.</alt>
+                </image>
+                <ph> This topic does not apply to Cloud Net.</ph>
+            </p>
+        </section>
+        <section id="section_icon-based-section-badges">
+            <title>Sections: Icon-based badges</title>
+            <p id="p_badge_icon_cloud-compute_section_yes">
+                <image href="images/badge_cloud-compute_small_yes.png">
+                    <alt>This section applies exclusively to Cloud Compute.</alt>
+                </image>
+                <ph> This section applies exclusively to Cloud Compute.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-compute_section_no">
+                <image href="images/badge_cloud-compute_small_no.png">
+                    <alt>This section does not apply to Cloud Compute.</alt>
+                </image>
+                <ph> This section does not apply to Cloud Compute.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-connect_section_yes">
+                <image href="images/badge_cloud-connect_small_yes.png">
+                    <alt>This section applies exclusively to Cloud Connect.</alt>
+                </image>
+                <ph> This section applies exclusively to Cloud Connect.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-connect_section_no">
+                <image href="images/badge_cloud-connect_small_no.png">
+                    <alt>This section does not apply to Cloud Connect.</alt>
+                </image>
+                <ph> This section does not apply to Cloud Connect.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-net_section_yes">
+                <image href="images/badge_cloud-net_small_yes.png">
+                    <alt>This section applies exclusively to Cloud Net.</alt>
+                </image>
+                <ph> This section applies exclusively to Cloud Net.</ph>
+            </p>
+            <p id="p_badge_icon_cloud-net_section_no">
+                <image href="images/badge_cloud-net_small_no.png">
+                    <alt>This section does not apply to Cloud Net.</alt>
+                </image>
+                <ph> This section does not apply to Cloud Net.</ph>
+            </p>
+        </section>
+        <section id="section_tag-based-topic-badges">
+            <title>Topics: Tag-based badges</title>
+            <p id="p_badge_tag_cloud-compute_topic_yes">
+                <image href="images/tag_cloud-compute_supported.svg">
+                    <alt>This topic applies exclusively to Cloud Compute.</alt>
+                </image>
+                <ph> This topic applies exclusively to Cloud Compute.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-compute_topic_no">
+                <image href="images/tag_cloud-compute_not-supported.svg">
+                    <alt>This topic does not apply to Cloud Compute.</alt>
+                </image>
+                <ph> This topic does not apply to Cloud Compute.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-connect_topic_yes">
+                <image href="images/tag_cloud-connect_supported.svg">
+                    <alt>This topic applies exclusively to Cloud Connect.</alt>
+                </image>
+                <ph> This topic applies exclusively to Cloud Connect.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-connect_topic_no">
+                <image href="images/tag_cloud-connect_not-supported.svg">
+                    <alt>This topic does not apply to Cloud Connect.</alt>
+                </image>
+                <ph> This topic does not apply to Cloud Connect.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-net_topic_yes">
+                <image href="images/tag_cloud-net_supported.svg">
+                    <alt>This topic applies exclusively to Cloud Net.</alt>
+                </image>
+                <ph> This topic applies exclusively to Cloud Net.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-net_topic_no">
+                <image href="images/tag_cloud-net_supported.svg">
+                    <alt>This topic does not apply to Cloud Net.</alt>
+                </image>
+                <ph> This topic does not apply to Cloud Net.</ph>
+            </p>
+        </section>
+        <section id="section_tag-based-section-badges">
+            <title>Sections: Tag-based badges</title>
+            <p/>
+            <p id="p_badge_tag_cloud-compute_section_yes">
+                <image href="images/tag_cloud-compute_supported.svg">
+                    <alt>This section applies exclusively to Cloud Compute.</alt>
+                </image>
+                <ph> This section applies exclusively to Cloud Compute.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-compute_section_no">
+                <image href="images/tag_cloud-compute_not-supported.svg">
+                    <alt>This section does not apply to Cloud Compute.</alt>
+                </image>
+                <ph> This section does not apply to Cloud Compute.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-connect_section_yes">
+                <image href="images/tag_cloud-connect_supported.svg">
+                    <alt>This section applies exclusively to Cloud Connect.</alt>
+                </image>
+                <ph> This section applies exclusively to Cloud Connect.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-connect_section_no">
+                <image href="images/tag_cloud-connect_not-supported.svg">
+                    <alt>This section does not apply to Cloud Connect.</alt>
+                </image>
+                <ph> This section does not apply to Cloud Connect.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-net_section_yes">
+                <image href="images/tag_cloud-net_supported.svg">
+                    <alt>This section applies exclusively to Cloud Net.</alt>
+                </image>
+                <ph> This section applies exclusively to Cloud Net.</ph>
+            </p>
+            <p id="p_badge_tag_cloud-net_section_no">
+                <image href="images/tag_cloud-net_not-supported.svg">
+                    <alt>This section does not apply to Cloud Net.</alt>
+                </image>
+                <ph> This section does not apply to Cloud Net.</ph>
+            </p>
+        </section>
+    </body>
+</topic>
