@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 <task xml:lang="en-us" id="A7111705-3A1F154-A715175DA3039A3-F700BE">
   <title>配置流程</title>
+  <prolog>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-07-06"/>
+    </critdates>
+  </prolog>
   <taskbody>
     <context>
       <p>
@@ -32,22 +39,8 @@
         </info>
       </step>
       <step>
-        <info>
-          <table>
-            <tgroup cols="1" colsep="1" rowsep="1">
-              <colspec colname="c1" align="left" />
-              <tbody>
-                <row>
-                  <entry colname="c1">
-                    <fig>
-                      <image href="../graphics/SAMPLE_topic14_image003.png" />
-                    </fig>
-                  </entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table>
- 节点区，包含各种类型的节点，从此处拖拽节点到 3 号区域中进行流程图的绘制。</info>
+        <cmd> 节点区，包含各种类型的节点，从此处拖拽节点到 3 号区域中进行流程图的绘制。
+</cmd>
       </step>
       <step>
         <cmd>画布，流程配置主要工作区，用于绘制、配置流程。</cmd>
@@ -58,22 +51,9 @@
         </info>
       </step>
       <step>
-        <info>
-          <table>
-            <tgroup cols="1" colsep="1" rowsep="1">
-              <colspec colname="c1" align="left" />
-              <tbody>
-                <row>
-                  <entry colname="c1">
-                    <fig>
-                      <image href="../graphics/SAMPLE_topic14_image004.png" />
-                    </fig>
-                  </entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table>
- 辅助操作栏，辅助流程的配置，例如，属性配置、校验。</info>
+        <cmd>
+        
+ 辅助操作栏，辅助流程的配置，例如，属性配置、校验。</cmd>
       </step>
     </steps>
   </taskbody>
