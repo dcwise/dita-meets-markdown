@@ -47,5 +47,5 @@ pwd
 
 sh $DITA_OT/bin/dita \
     --format=webhelp-responsive \
-    --input=source/markdown-dita/garage.ditamap \
+    --input=dita-badges.ditamap \
     --output=bin/out
