@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map xml:lang="zh-CN">
-  <title>销售易文档中心</title>
+  <title>文档卓越中心</title>
   <topicmeta>
     <author type="creator">RAYFAN</author>
     <critdates>
       <created date="2021-07-05"/>
       <!--RAYFAN-->
       <revised modified="2021-07-05"/>
+      <!--RAYFAN-->
+      <revised modified="2021-07-06"/>
     </critdates> 
     
 
@@ -19,7 +21,6 @@
   <topichead>
     <topicmeta><navtitle>CPQ-产品产品描述</navtitle></topicmeta>
     <topicref href="XSY0/ugcpq.ditamap" format="ditamap"/>
-   
   </topichead>
   
   <topichead>
@@ -27,16 +28,9 @@
     <topicref href="xsy2/crm.ditamap" format="ditamap"/>
   </topichead>
 
-
   <topichead>
     <topicmeta><navtitle>PaaS平台-新版审批流的设计与管理册</navtitle></topicmeta>
     <topicref href="xsy3/SAMPLE.ditamap" format="ditamap"/>
-  </topichead>
-
-
-  <topichead>
-    <topicmeta><navtitle>PaaS平台可视化流程使用手册</navtitle></topicmeta>
-    <topicref href="xsy4/pass.ditamap" format="ditamap"/>
   </topichead>
   
   
