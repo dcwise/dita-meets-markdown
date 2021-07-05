@@ -1,0 +1,22 @@
+------START-LICENSE-KEY------
+
+Registration_Name=teamwise @ 139.com
+
+Company=-
+
+Category=Enterprise
+
+Component=Publishing-Engine
+
+Version=23
+
+Number_of_Licenses=1
+
+Date=06-04-2021
+
+Trial=31
+
+SGN=MCwCFGkaokASBUu06feCDgboP3DAkDYYAhQ5kPNdBCq2R3tPdbK9bQZsAcQA2g\=\=
+
+
+-------END-LICENSE-KEY-------
