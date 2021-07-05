@@ -1,5 +1,5 @@
 ------START-LICENSE-KEY------
-Registration_Name=13466560061 @ 139.com
+Registration_Name=rf @ digitalcontent.cn
 
 Company=-
 
@@ -11,11 +11,10 @@ Version=23
 
 Number_of_Licenses=1
 
-Date=05-17-2021
+Date=07-05-2021
 
 Trial=31
 
-SGN=MC0CFQCKY56+HOfVSRKSH4/73701e0ThZQIUNF04kKJgk1jqAx/GPnH+NMgAL5o\=
-
+SGN=MCwCFHLnD6ywOwfeiov5qxTSII8bfqDSAhRy99jFRZL2o6W5RVLWmPegb1Dt1w\=\=
 
 -------END-LICENSE-KEY-------
