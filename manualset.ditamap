@@ -3,7 +3,14 @@
 <map xml:lang="zh-CN">
   <title>文档卓越中心</title>
   <topicmeta>
-    <author type="creator">RAYFAN</author>
+    <author type="contributor">RAYFAN</author>
+      <copyright>
+        <copyryear year="2021"></copyryear>
+        <copyrholder>北京仁科互动信息科技有限公司</copyrholder>
+      </copyright>
+
+    
+
     <critdates>
       <created date="2021-07-05"/>
       <!--RAYFAN-->
@@ -11,7 +18,11 @@
       <!--RAYFAN-->
       <revised modified="2021-07-06"/>
     </critdates> 
+
+
     
+
+   
 
  
     
