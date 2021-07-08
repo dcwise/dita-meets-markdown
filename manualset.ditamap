@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map xml:lang="zh-CN">
+<map xml:lang="zh-cn">
   <title>销售易文档卓越中心</title>
   <topicmeta>
     <author type="contributor">RAYFAN</author>
@@ -17,6 +17,8 @@
       <revised modified="2021-07-05"/>
       <!--RAYFAN-->
       <revised modified="2021-07-06"/>
+      <!--RAYFAN-->
+      <revised modified="2021-07-08"/>
     </critdates> 
 
 
@@ -30,7 +32,7 @@
 
   
   <topichead>
-    <topicmeta><navtitle>CPQ-产品产品描述</navtitle></topicmeta>
+    <topicmeta><navtitle>CPQ-产品描述</navtitle></topicmeta>
     <topicref href="XSY0/ugcpq.ditamap" format="ditamap"/>
   </topichead>
   
