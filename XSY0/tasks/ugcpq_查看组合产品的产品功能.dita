@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB151571-97C4724-5395311F2716715-5191BF">
+  <title>查看组合产品的产品功能</title>
+  <shortdesc>产品功能指产品所具有的特定职能，对产品选项的分类。</shortdesc>
+  <taskbody>
+    <context>
+      <p>例如：手机中，分为64G内存、128G内存和256G内存，则这些产品都属于内存类，则设置产品功能为内存，在内存下添加产品选项：64G内存、128G内存和256G内存。</p>
+      <p>设置了组合产品之后，可在组合产品的详情页中，查看该组合产品的产品功能。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在产品列表页，单击一个组合产品名称，进入该组合产品详情页。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>产品功能</b>，进入该组合产品的产品功能列表。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic72_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击一个产品功能名称，例如配置类，进入该产品功能详情页面。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ugcpq_topic72_image004.png">
+        </image>
+      </p>
+      <ul>
+        <li>单击<b>产品选项</b>页签，可以看到该功能下所包含的产品选项。</li>
+        <li>单击<b>资料</b>页签，可以看到该产品功能的基本资料。</li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

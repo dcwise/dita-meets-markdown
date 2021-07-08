@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B63B1A-A247451-91F21547A151456-FA1493">
+  <title>报销单</title>
+  <shortdesc>报销单已经刷成标准实体，布局、字段、列表展示的信息以及触发规则、审批流都可以进行配置，同样在BI报表里面也可以查到报销单的相关数据。</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

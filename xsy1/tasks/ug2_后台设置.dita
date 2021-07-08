@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B6B10A-4B17455-91154A87C1C5197-4156A5">
+  <title>后台设置</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易后台系统首页，单击<b>办公设置</b>&gt;<b>考勤点管理，</b>可以对公司的考勤进行设置。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic28_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>添加考勤点</b>，按照提示信息进行填写，设置对公司人员的考勤规则。</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>目前只支持固定时间考勤设置。</li>
+        <li>支持设置多个考勤地址。</li>
+        <li>填写上下班时间，最多支持一天打卡三次。</li>
+        <li>考勤人员只能在一个考勤组里面。<p><image href="../graphics/ug2_topic28_image004.png" /></p><ol><li>单击<b>保存</b>，完成考勤规则的设置。</li></ol></li>
+      </ul>
+      <p>设置好考勤规则后，在考勤点管理页面可以对考勤规则进行修、删除和禁用等操作。</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB63B0A2-2417452-1391F2154A8C151-974156">
+  <title>创建工作报告</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击页面右上角<b>︙&gt;工作报告</b>。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic20_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>+</b>，创建新的工作报告，工作报告可以按需求选择日报、周报、月报。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ug2_topic20_image004.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>填写相关内容后即可提交工作报告或者先保存为草稿后续提交。</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>只有用户部门为销售的，在提交日报时才会有系统汇总功能，系统会将当日、当周或者当月的业绩（赢单金额、合同金额）和新增（客户数、商机数）情况汇总至工作报告中。</li>
+        <li>批阅人首次是需要填写，再次提交时会默认之前提交的批阅人，如果想更改批阅人手动输入即可。</li>
+      </ul>
+      <p>
+        <fig>
+          <image href="../graphics/ug2_topic20_image006.png" />
+        </fig>
+      </p>
+    </result>
+  </taskbody>
+</task>

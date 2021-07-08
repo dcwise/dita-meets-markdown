@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB15A245-64AA1F2-57D1D19157CDD75-4C6A5F">
+  <title>空白值参与运算出现非期待结果的解决方案</title>
+  <conbody>
+    <p>当值为空白的字段参与计算时，可能会出现非期待的结果，建议通过函数 <xref href="#concept75/_bookmark151">IsNUll </xref>或者 <xref href="#concept75/_bookmark157">NullValue </xref>判断参与运算的字段是否为空白，然后进行处理。</p>
+  </conbody>
+</concept>

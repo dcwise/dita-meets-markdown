@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB115574-45331F1-785159556BE2B6D-DFB65F">
+  <title>编辑汇总值</title>
+  <shortdesc>对于已经存在的汇总值，可以通过编辑功能，编辑汇总值的名称、来源对象、所属部门、和汇总公式或计算公式。</shortdesc>
+  <conbody>
+    <p>编辑成功后，引用了该汇总值的产品规则和价格规则会同步更新。</p>
+  </conbody>
+</concept>

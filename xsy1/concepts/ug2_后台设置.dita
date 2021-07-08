@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A31AA224-1452139-F217151711EE7A3-BF58E6">
+  <title>后台设置</title>
+  <shortdesc>登录销售易后台系统首页，单击<b>办公设置</b>&gt;<b>日程，</b>可以对日程的类型、字段进行管理，并且可以选择是否开启腾讯视频会议集成功能。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic7_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

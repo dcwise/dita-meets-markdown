@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<bookmap xml:lang="en-us" id="bookmap-1">
+  <title>PaaS平台可视化流程使用手册</title>
+  <bookmeta>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-07-05"/>
+    </critdates>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="concepts/pass_联系我们.dita" />
+  <chapter href="concepts/pass_阅读指南.dita" />
+  <chapter href="concepts/pass_目录.dita" />
+  <chapter href="concepts/pass_第一章_可视化流程简介.dita" />
+  <chapter href="concepts/pass_第二章_可视化流程的配置.dita">
+    <topicref href="concepts/pass_配置流程.dita">
+      <topicref href="concepts/pass_设置流程阶段.dita" />
+      <topicref href="concepts/pass_设置阶段推进规则.dita" />
+      <topicref href="concepts/pass_设置阶段推进事件.dita" />
+      <topicref href="concepts/pass_设置阶段任务.dita" />
+      <topicref href="concepts/pass_设置阶段关键信息.dita" />
+    </topicref>
+    <topicref href="concepts/pass_删除流程.dita" />
+  </chapter>
+  <chapter href="concepts/pass_第三章_可视化流程的执行.dita" />
+  <chapter href="concepts/pass_第四章_可视化流程的配置示例.dita">
+    <topicref href="concepts/pass_设计流程.dita" />
+    <topicref href="concepts/pass_创建并配置流程.dita">
+      <topicref href="concepts/pass_设置流程中需要执行的触发事件.dita" />
+      <topicref href="concepts/pass_创建流程并添加流程阶段.dita" />
+      <topicref href="concepts/pass_设置阶段任务和关键信息.dita" />
+      <topicref href="concepts/pass_设置阶段推进规则1.dita" />
+      <topicref href="tasks/pass_设置阶段推进事件.dita" />
+    </topicref>
+    <topicref href="tasks/pass_执行流程.dita" />
+  </chapter>
+</bookmap>

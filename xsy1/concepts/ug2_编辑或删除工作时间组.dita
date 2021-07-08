@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B63104-B742153-1254A7D315756DE-9DD2D7">
+  <title>编辑或删除工作时间组</title>
+  <shortdesc>在【工作时间管理】页面，可以对已有工作时间组进行编辑排班、修改人员、修改时间、修改名称或删除操作。</shortdesc>
+  <conbody>
+    <p>编辑工作时间组</p>
+    <p>选择要编辑的工作时间组，按需求执行相应操作，具体参数解释清参考新建工作时间组。</p>
+    <p>NOTE </p>
+    <p>新建工作时间组时，如果没有设置人员和排期，则该工作时间组对应的编辑排版按钮、修改人员按钮会置灰。</p>
+    <p>删除通工作时间组</p>
+    <p>对于不再需要使用的工作时间组可以将其删除。</p>
+    <p>NOTE </p>
+    <p>删除操作不受该工作时间组是否被引用限制，但建议删除前先进行确认，以免影响相关业务正常使用。</p>
+  </conbody>
+</concept>

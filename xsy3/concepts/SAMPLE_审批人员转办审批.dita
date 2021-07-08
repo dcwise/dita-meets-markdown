@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7BB4E5A-7D42536-4A1A8D15157455C-453931">
+  <title>审批人员转办审批</title>
+  <shortdesc>审批人因特殊原因不能进行审批时，可以将审批转给其他人，由其他人代为审批。例如部门经理由于休假，将审批转给助理处理。</shortdesc>
+  <conbody>
+    <p>通过<xref href="SAMPLE_查看所有审批.dita">办公下的审批</xref>进入到审批列表，在审批列表中单击流程标题后，进入到数据详情页中进行转办。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/SAMPLE_topic32_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

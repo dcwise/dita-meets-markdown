@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B17571-7471593-9F214A8797415B0-7B3CDD">
+  <title>阶梯价格表</title>
+  <shortdesc>移动端的阶梯价格表实体不支持编辑和添加的操作。</shortdesc>
+  <conbody>
+    <p>在阶梯价格表列表页，单击一个阶梯价格表名称，可查看该阶梯价格表详情。</p>
+    <p>
+      <fig>
+        <image href="../graphics/ugcpq_topic75_image002.png">
+        </image>
+      </fig>
+      <image href="../graphics/ugcpq_topic75_image004.png">
+      </image>
+    </p>
+  </conbody>
+</concept>

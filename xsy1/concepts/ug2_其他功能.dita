@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B1024B-17231F4-8F1394155D99B62-4A73A6">
+  <title>其他功能</title>
+  <shortdesc>除了以上可以对文件进行权限控制，还可以对上传的文件进行收藏、下载、复制、移动、删除、重命名、发送、发送动态、分享、更新等操作，部分操作动作可以在操作记录里面看到。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic17_image002.png" />
+      </fig>
+    </p>
+    <p>分享文档</p>
+    <p>App上有分享开关，需要先设置是否允许分享，才可以在Web端对文档发起分享链接的操作，该分享链接的功能支持外部人员对文件进行预览，是否允许下载，在分享的时候可以做到控制。如果要取消分享，可以直接关闭分享开关，已分享的链接随之失效。</p>
+    <p>如果需要分享给内部人员查看该文档，在权限支持的情况下，可以通过直接复制文档链接的方式发给相关人员，相关人员查看的时候需要登录销售易系统才可以看到，另外一种方式是直接发送到对应人员的销售易企业微信上。</p>
+    <p>
+      <image href="../graphics/ug2_topic17_image004.png" />
+    </p>
+    <p>下载功能</p>
+    <p>Web端可以指定路径进行下载文件，然后用本地应用打开；在移动端，下载后的文档信息可以在<b>办公&gt;知识库&gt;传输列表</b>中进行查看。</p>
+    <p>发送动态</p>
+    <p>用户直接把文件信息发送到工作圈里面，右下角可以选择发送出去的范围。</p>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic17_image006.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

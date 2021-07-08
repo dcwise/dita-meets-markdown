@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7425171-9C71243-3915485571B4ADD-388D13">
+  <title>新建组合产品的产品功能</title>
+  <shortdesc id="_Hlk520394908">产品功能指产品所具有的特定职能，也是对产品选项的分类。</shortdesc>
+  <taskbody>
+    <context>
+      <p>例如手机中，分为64G内存、128G内存和256G内存，那么这些产品都属于内存类，可以将上述产品的功能设置为内存，并在内存下添加产品选项：64G内存、128G内存和256G内存。</p>
+      <p>设置了组合产品之后，产品经理或管理员可以在组合产品的详情页中，配置产品功能，明确产品大类。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击<b>CRM</b>&gt;<b>产品</b>，进入产品列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>选择一个组合产品，单击名称，进入该组合产品的详情页。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>相关</b>页签，找到<b>产品功能</b>，并单击右边的<b>+</b>号，添加新的产品功能。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic9_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>填写产品功能信息，其中带*号的项为必填项，然后单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>序号：用于确定报价或订单中，某一个组合产品配置时，产品功能的排列顺序。</li>
+        <li>产品功能名称：产品选项的大类名称。</li>
+      </ul>
+      <ol>
+        <li>单击<b>产品功能</b>，可查看产品功能的详情。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7157972-4951215-6161597123E6F56-1C565F">
+  <title>编辑阶梯价格表及阶梯价格表明细</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>在报价单明细页面，选择一个组合产品，并单击右边阶梯价格表的编辑图标。</cmd>
+      </step>
+      <step>
+        <cmd>选择一个价格表类型，例如<b>定价</b>。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>&gt;</b>号，进入阶梯价格表明细页面，编辑定价模型、起始数量、截至数量、价格、折扣和减价额。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic82_image002.png">
+              </image>
+            </fig>
+            <image href="../graphics/ugcpq_topic82_image004.png">
+            </image>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成阶梯价格表编辑。</cmd>
+      </step>
+      <step>
+        <cmd>如果您还需要添加更多阶梯价格表，单击右下角的<b>添加明细</b>，可为该组合产品新增一个阶梯价格表。</cmd>
+      </step>
+      <step>
+        <cmd>选择一个定价模型，并填写起始数量、截止数量、价格等信息，然后单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ugcpq_topic82_image006.png">
+          </image>
+        </fig>
+      </p>
+    </result>
+  </taskbody>
+</task>

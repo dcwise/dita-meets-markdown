@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="zh-cn">
+  <title>销售易文档卓越中心</title>
+  <topicmeta>
+    <author type="contributor">RAYFAN</author>
+      <copyright>
+        <copyryear year="2021"></copyryear>
+        <copyrholder>北京仁科互动信息科技有限公司</copyrholder>
+      </copyright>
+
+    
+
+    <critdates>
+      <created date="2021-07-05"/>
+      <!--RAYFAN-->
+      <revised modified="2021-07-05"/>
+      <!--RAYFAN-->
+      <revised modified="2021-07-06"/>
+      <!--RAYFAN-->
+      <revised modified="2021-07-08"/>
+    </critdates> 
+
+
+    
+
+   
+
+ 
+    
+  </topicmeta>
+
+  
+  <topichead>
+    <topicmeta><navtitle>CPQ-产品描述</navtitle></topicmeta>
+    <topicref href="XSY0/ugcpq.ditamap" format="ditamap"/>
+  </topichead>
+  
+  <topichead>
+    <topicmeta><navtitle>销售易CRM服务云管理员操作手册</navtitle></topicmeta>
+    <topicref href="xsy2/crm.ditamap" format="ditamap"/>
+  </topichead>
+
+  <topichead>
+    <topicmeta><navtitle>PaaS平台-新版审批流的设计与管理册</navtitle></topicmeta>
+    <topicref href="xsy3/SAMPLE.ditamap" format="ditamap"/>
+  </topichead>
+  
+  
+  
+  
+  
+  <topichead navtitle="销售易CRM协同办公操作手册">
+    <topicref href="xsy1/ug2.ditamap" format="ditamap"/>
+  </topichead>
+</map>

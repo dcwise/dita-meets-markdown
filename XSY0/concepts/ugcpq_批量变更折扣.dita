@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7112157-1249539-4A67574155196BC-B7DA43">
+  <title>批量变更折扣</title>
+  <shortdesc>在报价单明细页面，单击<b>快捷操作</b>，手动输入<b>批量变更折扣</b>的数值，或直接输入<b>客户目标价格</b>，然后单击<b>应用</b>，更改该报价单的总金额。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ugcpq_topic83_image002.png">
+        </image>
+      </fig>
+    </p>
+  </conbody>
+</concept>

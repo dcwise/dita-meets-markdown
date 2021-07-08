@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B310A4-12311A8-7F1751915563F23-1DF23A">
+  <title>知识库</title>
+  <shortdesc>知识库功能介绍：可以在知识库中查看个人，公司，合作伙伴（需要有对应的权限），收藏文档，与我共享，我分享的，相关文档信息。知识库也支持搜索功能；其中个人文件里面可能是直接上传到个人文件里面的，另外从某个对象下面上传的文档信息也会在个人里面看到。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击页面右上角<b>︙&gt;知识库</b>。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic13_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>进入知识库的页面，执行相关操作。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ug2_topic13_image004.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

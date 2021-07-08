@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B11714-7123319-15A87D1C5157138-1F6A96">
+  <title>报价单转订单</title>
+  <shortdesc>一个销售机会下可以创建多个报价单，但只能有一个主报价单，只有主报价单才能生成订单。</shortdesc>
+  <taskbody>
+    <context>
+      <p>订单生效后，对应的销售机会下将不允许再创建主报价单。如果需要变更销售机会下的主报价单，需要先将已生效的订单失效，否则系统会给出错误提示。</p>
+      <p>报价单转订单时会将默认的相关信息带至订单。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在报价单详情页，单击<b>…</b>&gt;<b>新建订单</b>。</cmd>
+      </step>
+      <step>
+        <cmd>选择价格表类型和相应产品，然后单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

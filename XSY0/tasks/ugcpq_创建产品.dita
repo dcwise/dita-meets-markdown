@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A257197C-129391F-15487151F626B24-A344F7">
+  <title>创建产品</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>单击<b>CRM</b>&gt;<b>产品</b>，进入产品列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>新建产品</b>，进入产品新建页面。</cmd>
+      </step>
+      <step>
+        <cmd>填写产品信息，其中带*号的项为必填项。必填项和非必填项均支持用户在系统后台通过<b>表单布局</b>设置。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic3_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>如果为组合产品，需要先选中<b>组合产品</b>，然后为组合产品添加<b>产品选项</b>。不选中组合产品，不会出现产品选项的配置页面。更多关于组合产品的新建，请参考<xref href="ugcpq_新建组合产品.dita">新建组合产品</xref>。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成产品新建。如果产品设置了审批流，需要先提交审批，待审批通过后才能够选择该产品。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

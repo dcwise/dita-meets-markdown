@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB0A2417-5259F25-871214644D5F369-EF0F7E">
+  <title>在线预览</title>
+  <shortdesc>上传的文件支持常用的Word，Excel，PDF，图片，mp3/mp4格式的视频进行在线预览，部分PDF文件支持跳转浏览器进行预览。</shortdesc>
+  <taskbody>
+    <context>
+      <p>Web端浏览器在线预览的时候，需要设置允许Flash插件才可以正常预览。如果已经设置好支持Flash插件，遇到以下报错，请执行以下步骤尝试解决。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击左上方的小锁头（以谷歌浏览器为例）。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic16_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在Flash对应的地方选择允许，然后重新加载页面打开文件，即可在线预览该文档信息。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ug2_topic16_image004.png" />
+      </p>
+      <p>
+        <fig>
+          <image href="../graphics/ug2_topic16_image006.png" />
+        </fig>
+      </p>
+      <p>此外，文件预览页面，还可以在文档的右侧看到详情和评论的信息，详情里面有对文档的打分、阅读的次数、下载的次数、被收藏的次数、上传者的信息、所属部门、可以编辑文档标签，文档描述，以及可以看到版本的信息。</p>
+      <p>
+        <image href="../graphics/ug2_topic16_image008.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A751517C-4145591-1A81515941551F2-E5B365">
+  <title>编辑报价单明细</title>
+  <shortdesc>在报价单明细页面，可以编辑该报价单所包含的产品、产品折扣和阶梯价格表。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在报价单详情页，单击<b>报价单明细</b>，进入该报价单明细页面。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic80_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击右上角的<b>编辑</b>，进入报价单明细的编辑页面。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ugcpq_topic80_image004.png">
+        </image>
+      </p>
+      <ul>
+        <li>单击①，可以直接编辑该组合产品的数量、额外折扣或销售金额。额外折扣和销售金额可以任选一项编辑，折扣百分比和金额会联动更新。具体操作步骤，请参考<xref href="../concepts/ugcpq_编辑组合产品的整体价格.dita">编辑组合产品的整体价格</xref>。</li>
+        <li>单击②，可以打开当前组合产品的阶梯价格表列表，然后单击<b>&gt;</b>号，编辑阶梯价格表明细。具体操作步骤，请参考<xref href="ugcpq_编辑阶梯价格表及阶梯价格表明细.dita">编辑阶梯价格表及阶梯价格表明细</xref>。</li>
+        <li>单击③，可以直接更改该报价单所包含的产品。新产品被添加后，报价单上原有的产品以及产品明细会被删除。</li>
+        <li>单击④，可以批量编辑该报价单的折扣。具体操作步骤，请参考<xref href="../concepts/ugcpq_批量变更折扣.dita">批量变更折扣</xref>。</li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7121717-C425395-3914A8791751974-512CEC">
+  <title>查看组合产品的产品约束关系</title>
+  <shortdesc>组合产品下的每一个产品选项可能存在依赖或互斥的关系。</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>依赖：选择购买一个产品时，需要与另一个产品绑定销售。例如移动手机流量加油包，必须购买了流量套餐后，才可购买流量加油包。</li>
+        <li>互斥：选择购买一个产品时，不能选择购买另一个产品。例如移动手机流量5元包30M流量与10元包60M流量就是<i>互斥的产品</i>，不能同时选择。</li>
+      </ul>
+    </context>
+    <steps>
+      <step>
+        <cmd>在产品列表页面，单击一个组合产品名称，进入该组合产品的详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>产品约束</b>，进入产品约束列表页面。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic73_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击一个产品约束名称，例如约束1，进入该产品约束的详情页面。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ugcpq_topic73_image004.png">
+        </image>
+      </p>
+    </result>
+  </taskbody>
+</task>

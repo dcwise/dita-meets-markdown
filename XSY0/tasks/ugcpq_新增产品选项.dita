@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B11217-517C415-39111548F515974-155943">
+  <title>新增产品选项</title>
+  <shortdesc>在产品经理或管理员设置了组合产品之后，如果想在组合产品中添加新的产品选项，可以在组合产品的详情页中添加。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>选择一个组合产品，单击名称，进入组合产品的详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>相关</b>页签，找到<b>产品选项</b>，然后单击<b>+</b>号。</cmd>
+      </step>
+      <step>
+        <cmd>从已有的产品列表中选择需要添加的产品，并填写产品选项信息，其中带<b>*</b>号的项为必填项。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成产品选项新增。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

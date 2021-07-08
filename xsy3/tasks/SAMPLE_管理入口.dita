@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A17B41A0-2453412-5487D5159741590-7D4495">
+  <title>管理入口</title>
+  <shortdesc>遵循以下步骤，进入 【审批流程管理】页面：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录销售易系统 （https://crm.xiaoshouyi.com），在左侧导航栏底部单击设</cmd>
+        <info>
+          <p>
+            <b>置 </b>&gt; <b>系统设置</b>进入系统后台页面。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>在左侧导航菜单中单击<b>流程中心 </b>&gt; <b>流程监控</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

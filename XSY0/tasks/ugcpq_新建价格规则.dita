@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B11519-7C41245-95391F214B12519-417286">
+  <title>新建价格规则</title>
+  <shortdesc>以买手机赠送1个充电宝为例，充电宝为赠品，那么赠品的价格需要单独设置为0。被设置为赠品的充电宝，只有在该产品价格规则中，单价才会为0。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在CRM首页，单击<b>产品价格规则</b>&gt;<b>新建产品价格规则</b>&gt;<b>价格规则</b>。</cmd>
+      </step>
+      <step>
+        <cmd>单击+号，关联一个规则组合。规则组合必须与产品规则保持一致。</cmd>
+      </step>
+      <step>
+        <cmd>手动输入产品价格规则的基本信息，其中规则名称、触发顺序、触发范围、触发步骤、触发时机、启用状态和所属部门为必填项。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic56_image002.png">
+              </image>
+            </fig>
+          </p>
+          <table>
+            <tgroup cols="2" colsep="1" rowsep="1">
+              <colspec colname="col1" />
+              <colspec colname="col2" />
+              <tbody>
+                <row>
+                  <entry colname="col1">
+                    <b>配置项</b>
+                  </entry>
+                  <entry colname="col2">
+                    <b>说明</b>
+                  </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 规则名称 </entry>
+                  <entry colname="col2" translate="no"> 推荐用场景描述作为规则名称，方便销售人员在列表中查看。例如，买手机赠品充电宝，价格为0。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 触发顺序 </entry>
+                  <entry colname="col2"> 设置一个触发顺序。为了使该价格规则适应多种不同的产品规则，可以将价格规则的触发顺序尽量往后排。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 触发范围 </entry>
+                  <entry colname="col2"> 选择一个触发范围。订单或者报价单。推荐与产品规则的触发范围保持一致。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 触发步骤 </entry>
+                  <entry colname="col2"> 推荐与产品规则的触发步骤保持一致。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 触发时机 </entry>
+                  <entry colname="col2"> 如果无法确定触发的时机，推荐选择<b>任何时候</b>。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 启用状态 </entry>
+                  <entry colname="col2"> 默认的状态为启用，允许手动设置为不启用。推荐与产品规则的启用状态保持一致。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 生效/失效时间 </entry>
+                  <entry colname="col2"> 手动设置生效和失效的时间，时间可以精确到分钟。如果价格规则本身的状态为不启用，即使到了生效时间，该价格规则也不会生效和启用。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 所属部门 </entry>
+                  <entry colname="col2"> 推荐与产品规则的所属部门保持一致。 </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>规则条件</b>&gt;<b>新建规则条件</b>，为价格规则设置一个触发条件。</cmd>
+        <info>
+          <p>用户需要先购买手机，作为赠品的充电宝价格才能为0，那么价格规则的规则条件就是用户购买了手机。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>输入条件名称，并选择一个所属部门。推荐与产品规则的所属部门保持一致。</cmd>
+      </step>
+      <step>
+        <cmd>设置汇总值，让手机的总数量大于等于1。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ugcpq_topic56_image004.png">
+            </image>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>规则行为</b>&gt;<b>新建规则行为</b>，为规则条件匹配一个对应的行为。</cmd>
+        <info>
+          <p>如果规则条件为用户购买了手机，那么对应的规则行为就是赠品充电宝的价格更改为0。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>输入规则行为的基本信息，其中，行为名称、业务类型和所属部门为必填项。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic56_image006.png">
+              </image>
+            </fig>
+          </p>
+          <table>
+            <tgroup cols="2" colsep="1" rowsep="1">
+              <colspec colname="col1" />
+              <colspec colname="col2" />
+              <tbody>
+                <row>
+                  <entry colname="col1">
+                    <b>配置项</b>
+                  </entry>
+                  <entry colname="col2">
+                    <b>说明</b>
+                  </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 行为名称 </entry>
+                  <entry colname="col2" translate="no"> 推荐使用场景描述作为行为名称，方便销售人员在列表中查看。例如，赠品充电宝的价格为0。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 业务类型 </entry>
+                  <entry colname="col2"> 业务类型与创建的产品价格规则类型相关联。如果创建的规则为产品规则，那么业务类型默认为产品行为；如果创建的规则为价格规则，默认的业务类型为价格行为。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 提示标签/提示文案 </entry>
+                  <entry colname="col2"> 方便用户在下单时可以通过提示文案知晓当前所享受的促销策略。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 所属部门 </entry>
+                  <entry colname="col2"> 推荐与产品规则的所属部门保持一致。 </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>更改价格</b>，更改赠品充电宝的价格。无论充电宝的销售单价是多少，作为赠品时，销售单价一律需要更改为0。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>产品中可能包含多种类型的充电宝，为了不改变其他不作为赠品的充电宝价格，可以通过添加筛选条件，明确哪一种充电宝可以作为赠品，每一单中出现赠品充电宝的数量又是多少。</p>
+      <p>
+        <image href="../graphics/ugcpq_topic56_image008.png">
+        </image>
+      </p>
+      <ul>
+        <li>选择销售单价字段，并将字段的值设置为0。这样被设置为赠品的充电宝在该产品价格规则中，销售单价会被变更为0。更改的价格只在该规则中生效，并不会更改充电宝原有的单价。</li>
+        <li>添加筛选条件，只更改可作为赠品的充电宝价格，并且将转为赠品的充电宝数量设置为1，也就是每下一张订单，只赠送一个充电宝。</li>
+      </ul>
+      <ol>
+        <li>单击<b>保存</b>，完成价格规则新建。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

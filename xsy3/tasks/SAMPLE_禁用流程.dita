@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B7B4E1-5A7401F-154A7C945351FBF-9806A2">
+  <title>禁用流程</title>
+  <taskbody>
+    <context>
+      <p>
+        <b>
+          <i>NOTE </i>
+        </b>
+        <i>在禁用流程之前，建议先了解</i>
+        <xref href="../concepts/SAMPLE_流程的状态.dita">
+          <i>流程的状态</i>
+        </xref>
+        <i>。</i>
+      </p>
+      <p>对于目前暂时不需要使用的流程可以将其状态设置为 “ 禁用 ”，禁用的流程不会被执行，有需要时可以再启用。</p>
+      <p>以下两种方式都可以禁用流程：</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>第一种方式</p>
+      </required-cleanup>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          <image href="../graphics/SAMPLE_topic23_image002.png" />在<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中，单击流程名称左侧的 。</cmd>
+      </step>
+      <step>
+        <cmd>在展开的列表中点击流程名称。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/SAMPLE_topic23_image004.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击流程名称后，将进入到流程设计器页面，在流程设计器页面，单击按钮栏中的<b>禁用</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic23_image006.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>第二种方式</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <image href="../graphics/SAMPLE_topic23_image002.png" />在<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中，单击流程名称左侧的 。</li>
+        <li>
+          <image href="../graphics/SAMPLE_topic23_image008.png" />在展开的列表中，单击流程名称左侧的 。</li>
+        <li>在弹出的菜单中单击<b>禁用</b>。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic23_image010.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

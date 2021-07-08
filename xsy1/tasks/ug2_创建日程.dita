@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A743B0A2-24B7539-2154A7C15517F11-CD9021">
+  <title>创建日程</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击页面右上角<b>︙&gt;日程</b>。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic2_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>+新建日程</b>，或双击空白区域创建新的日程。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ug2_topic2_image004.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在创建日程页面，填写日程内容</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>类型：创建日程后，不同类型的日程会以颜色进行区分，方便用户查看，管理员可以通过后台设置以及对应的颜色。。</li>
+        <li>定时提醒：定时提醒功能将在日程开始前通过手机推送的方式发送提醒。</li>
+        <li>参与人员：可以查看他人日程以便协调日期。</li>
+        <li>关联业务：可以关联日程相关业务对象。</li>
+        <li>私密：设置为私密后，该日程会标记为蓝色。</li>
+        <li>单击<b>添加备注、附件</b>，可以添加备注和上传相关附件。<fig><image href="../graphics/ug2_topic2_image006.png" /></fig><ol><li>单击<b>新建日程</b>，完成日程创建。</li></ol></li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

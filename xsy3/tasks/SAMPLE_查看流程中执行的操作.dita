@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABBE77D4-264A1F1-54C1515915D6228-31A67B">
+  <title>查看流程中执行的操作</title>
+  <shortdesc>在审批通过前、通过后等事件发生时可以执行指定的操作。遵循以下步骤，查看流程中所有需要执行的操作：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          <image href="../graphics/SAMPLE_topic21_image002.png" />在<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中，单击流程名称左侧的 。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/SAMPLE_topic21_image004.png" />在展开的列表中，单击流程名称左侧的 。</cmd>
+      </step>
+      <step>
+        <cmd>在弹出的菜单中单击<b>引用关系</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic21_image006.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

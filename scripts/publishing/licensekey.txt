@@ -1,0 +1,20 @@
+------START-LICENSE-KEY------
+Registration_Name=rf @ digitalcontent.cn
+
+Company=-
+
+Category=Enterprise
+
+Component=Scripting
+
+Version=23
+
+Number_of_Licenses=1
+
+Date=07-05-2021
+
+Trial=31
+
+SGN=MCwCFHLnD6ywOwfeiov5qxTSII8bfqDSAhRy99jFRZL2o6W5RVLWmPegb1Dt1w\=\=
+
+-------END-LICENSE-KEY-------

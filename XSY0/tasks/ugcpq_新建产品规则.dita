@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B12577-C471253-93191F1487B1174-55D971">
+  <title>新建产品规则</title>
+  <shortdesc>以购买手机送1个充电宝为例，产品规则需要设置为正向和反向两种：</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>正向：购买手机，赠送1个充电宝。</li>
+        <li>反向：删除手机，同时删除充电宝。</li>
+      </ul>
+    </context>
+    <steps>
+      <step>
+        <cmd>在CRM首页，单击<b>产品价格规则</b>&gt;<b>新建产品价格规则</b>&gt;<b>产品规则</b>。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>+</b>号，关联一个规则组合。根据规则组合的场景来设置产品价格规则。</cmd>
+      </step>
+      <step>
+        <cmd>手动输入产品价格规则的基本信息，其中规则名称、触发顺序、触发范围、触发步骤、触发时机、启用状态和所属部门为必填项。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic55_image002.png">
+              </image>
+            </fig>
+          </p>
+          <table>
+            <tgroup cols="2" colsep="1" rowsep="1">
+              <colspec colname="col1" />
+              <colspec colname="col2" />
+              <tbody>
+                <row>
+                  <entry colname="col1">
+                    <b>配置项</b>
+                  </entry>
+                  <entry colname="col2">
+                    <b>说明</b>
+                  </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 规则名称 </entry>
+                  <entry colname="col2"> 手动输入一个产品价格规则名称。规则名称可以直接使用关联的规则组合名称。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 触发顺序 </entry>
+                  <entry colname="col2"> 手动输入一个数字，产品价格规则会根据数字由小到大的顺序依次触发。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 触发范围 </entry>
+                  <entry colname="col2"> 选择一个规则触发的范围，例如是在创建订单时触发还是创建报价单时触发。触发范围决定了在设置汇总值时，来源字段来自于订单还是报价单。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 触发步骤 </entry>
+                  <entry colname="col2" translate="no"> 客户在下订单时，由于赠品的价格为0，所以需要在计算价格的时候触发该规则，将赠品的价格更改为0，所以触发的步骤为<b>价格配置</b>。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 触发时机 </entry>
+                  <entry colname="col2"> 赠品通常会作为订单明细添加到订单中，所以触发的时机可以选择加载明细时。如果不确定具体的触发时机，也可以选择<b>任何时候</b>。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 启用状态 </entry>
+                  <entry colname="col2"> 产品规则的默认状态为启用。允许手动设置为不启用。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 生效日期/失效日期 </entry>
+                  <entry colname="col2"> 手动设置产品规则的生效和失效日期，日期可以精确到分钟。如果产品规则的状态为不启用，即使到了生效日期，该产品规则也不会生效和启用。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 所属部门 </entry>
+                  <entry colname="col2"> 为规则选择一个所属部门。选择后，只有对该部门有查看和编辑权限的人员才能够看见该条规则。 </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>规则条件</b>&gt;<b>新建规则条件</b>，为产品规则设置触发的必要条件。只有满足了规则条件才可以触发对应的规则行为。</cmd>
+        <info>
+          <p>买手机赠送1个充电宝的正向规则条件为：用户购买了手机。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>手动输入条件名称，并选择一个所属部门。规则条件的所属部门最好与产品价格规则的所属部门保持一致。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ugcpq_topic55_image004.png">
+            </image>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>通过汇总值，将手机的总数量值设置为大于等于1，也就是当手机的总数量为1个或者更多的时候，可以认定为用户购买了手机并触发后续的规则行为。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ugcpq_topic55_image006.png">
+          </image>
+        </fig>
+      </p>
+      <ul>
+        <li>单击<b>+</b>号，选择需要的汇总值名称。汇总值支持自定义添加，并且能够关联标准业务对象。</li>
+        <li>选择需要的运算方式。运算方式包括大于、小于、等于、包含、不包含等运算式。</li>
+        <li>选择运算的目标类型。运算的目标类型包括值、字段和汇总值。例如，设置手机的数量大于等于一个值，并且值为1。</li>
+      </ul>
+      <p>汇总值允许用户自定义设置，并且可以根据下单的场景选择来源对象，例如，订单明细、报价单明细等。更多关于汇总值的说明，请参考<xref href="../concepts/ugcpq_汇总值.dita">汇总值</xref>。</p>
+      <ol>
+        <li>如果汇总值无法满足规则需求，也可以通过系统中的标准字段来设置规则条件。单击输入来源字段，选择运算符和目标类型，并为目标类型赋值。<p><image href="../graphics/ugcpq_topic55_image008.png"></image></p><p>来源字段与产品规则的<b>触发范围</b>有关，如果规则的触发范围为订单，那么来源字段只能从订单和订单明细中选择。</p></li>
+        <li>单击<b>保存</b>，完成正向规则条件设置。</li>
+        <li>单击<b>新建规则行为</b>，为设置的规则条件匹配对应的规则行为。<p>如果规则条件为购买了手机，那么与之匹配的规则行为就是赠送1个充电宝。</p></li>
+        <li>填写规则行为的基本信息，其中，行为名称、业务类型和所属部门为必填项。</li>
+      </ol>
+      <p>
+        <fig>
+          <image href="../graphics/ugcpq_topic55_image010.png">
+          </image>
+        </fig>
+      </p>
+      <ul>
+        <li>行为名称：推荐用场景描述来设置行为名称，方便销售人员查找和使用。</li>
+        <li>业务类型：业务类型与创建的产品价格规则类型相关联。如果创建的规则为产品规则，那么业务类型默认为产品行为；如果创建的规则为价格规则，默认的业务类型为价格行为。</li>
+        <li>所属部门：为规则行为选择一个所属部门。规则行为的所属部门推荐与规则条件的所属部门保持一致。</li>
+        <li>提示标签/提示文案：方便用户在下订单时，能够通过提示文案知晓当前所享受的促销策略。</li>
+      </ul>
+      <ol>
+        <li>选择产品及选项配置，设置与规则条件匹配的规则行为。例如，当满足用户购买了手机这个规则条件时，充电宝会被自动添加到订单明细中。</li>
+      </ol>
+      <p>
+        <image href="../graphics/ugcpq_topic55_image012.png">
+        </image>
+      </p>
+      <ul>
+        <li>选择一个规则行为需要作用的范围，例如，产品。</li>
+        <li>选择一个产品行为类型，例如，增加。</li>
+        <li>单击<b>+</b>号，从产品对象中选择一个需要增加的产品，例如，充电宝。</li>
+      </ul>
+      <p>NOTE </p>
+      <ul>
+        <li>请确保，需要增加或删除的目标对象，已经被添加到了产品中。</li>
+        <li>输入产品需要添加的数量，例如，1。</li>
+      </ul>
+      <ol>
+        <li>单击<b>保存</b>，完成正向规则行为的新建。</li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>新建反向产品规则</b>
+        </p>
+      </required-cleanup>
+      <p>
+        <b>反向的产品规则为：用户删除手机，同时从订单明细中删除充电宝。</b>
+      </p>
+      <ol>
+        <li>在CRM首页，单击<b>产品价格规则</b>&gt;<b>新建产品价格规则</b>&gt;<b>产品规则</b>。</li>
+        <li>单击<b>+</b>号，关联一个规则组合。规则组合必须与正向的产品规则保持一致。</li>
+        <li>手动输入产品价格规则的基本信息，其中规则名称、触发顺序、触发范围、触发步骤、触发时机、启用状态和所属部门为必填项。<fig><image href="../graphics/ugcpq_topic55_image014.png"></image></fig><table><tgroup cols="2" colsep="1" rowsep="1"><colspec colname="col1" /><colspec colname="col2" /><tbody><row><entry colname="col1"><b>配置项</b></entry><entry colname="col2"><b>说明</b></entry></row><row><entry colname="col1"> 规则名称 </entry><entry colname="col2"> 推荐用反向的场景描述作为规则名称，方便销售人员在列表中查看。例如，删除手机，删除赠品充电宝。 </entry></row><row><entry colname="col1"> 触发顺序 </entry><entry colname="col2"> 手动输入触发顺序。顺序的数字不能与正向的产品规则重复。 </entry></row><row><entry colname="col1"> 触发范围 </entry><entry colname="col2"> 触发范围与正向产品规则的触发范围保持一致。 </entry></row><row><entry colname="col1"> 触发步骤 </entry><entry colname="col2"> 触发步骤与正向产品规则的触发步骤保持一致。 </entry></row><row><entry colname="col1"> 触发时机 </entry><entry colname="col2"> 如果不确定触发的时机，可以选择<b>任何时候</b>。 </entry></row><row><entry colname="col1"> 启用状态 </entry><entry colname="col2"> 推荐与正向的产品规则保持一致。 </entry></row><row><entry colname="col1"> 所属部门 </entry><entry colname="col2"> 推荐与正向的产品规则保持一致。 </entry></row></tbody></tgroup></table></li>
+        <li>
+          <b>单击规则条件&gt;新建规则条件，为反向的产品规则设置规则条件。</b>
+          <p>
+            <b>正向的规则条件为用户购买了手机，那么反向的规则条件就是用户没有购买手机，手机的总数量为0。</b>
+          </p>
+        </li>
+        <li>
+          <b>输入条件名称，并为该规则条件设置汇总值。汇总值可以选择手机总数量，并且值为0。</b>
+          <p>
+            <image href="../graphics/ugcpq_topic55_image016.png">
+            </image>
+          </p>
+        </li>
+        <li>
+          <b>单击规则行为&gt;新建规则行为，为规则条件匹配一个对应的行为。</b>
+          <p>
+            <b>如果规则条件为用户没有购买手机，那么对应的规则行为就是删除属于赠品的充电宝。</b>
+          </p>
+        </li>
+        <li>
+          <b>填写规则行为的基本信息，其中，行为名称、业务类型和所属部门为必填项。</b>
+          <fig>
+            <image href="../graphics/ugcpq_topic55_image018.png">
+            </image>
+          </fig>
+        </li>
+        <li>
+          <b>单击产品及选项配置，设置与规则条件相匹配的规则行为。例如，用户没有购买手机，那么在订单明细中会自动删除作为赠品的充电宝。</b>
+        </li>
+      </ol>
+      <p>
+        <image href="../graphics/ugcpq_topic55_image020.png">
+        </image>
+      </p>
+      <ul>
+        <li>选择一个规则行为需要作用的范围，例如，产品。</li>
+        <li>选择一个产品行为类型，例如，删除。</li>
+        <li>单击<b>+</b>号，选择一个需要删除的产品，例如，充电宝。需要删除的充电宝数量并不确定，所以不用赋值。</li>
+        <li>筛选条件：订单明细中，可能存在多个充电宝，为了避免删除不属于赠品范畴的充电宝，需要利用筛选条件，只将赠品类的充电宝删除。赠品类的产品单价为0，需要通过<b>价格规则</b>进行设置，更多关于价格规则的说明，请参考<xref href="ugcpq_新建价格规则.dita">新建价格规则</xref>。</li>
+      </ul>
+      <p>例如，在订单明细中，通过产品名称字段，从产品中找到充电宝；再通过销售单价字段，找到单价为0的充电宝。这样，当满足用户没有购买手机这个条件时，订单明细中单价为0的充电宝会被自动删除。</p>
+      <ol>
+        <li>
+          <b>单击保存，完成反向产品规则设置。</b>
+        </li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

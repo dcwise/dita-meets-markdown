@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12175-1971459-531925A71457451-7ECFB4">
+  <title>阶梯价格表明细</title>
+  <shortdesc>折扣价格表中，分层定价和阶梯定价的阶梯价格表明细设置方式相同，但价格的计算方式不同。</shortdesc>
+  <conbody>
+    <p>例如，某一产品定价方式如下表所示。</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>定价模型</b>
+            </entry>
+            <entry colname="col2">
+              <b>数量范围</b>
+            </entry>
+            <entry colname="col3">
+              <b>价格</b>
+            </entry>
+          </row>
+          <row>
+            <entry morerows="1" colname="col1"> 平价 </entry>
+            <entry colname="col2" translate="no"> 0-100 </entry>
+            <entry colname="col3" translate="no"> 5000 </entry>
+          </row>
+          <row>
+            <entry colname="col2" translate="no"> 100-200 </entry>
+            <entry colname="col3" translate="no"> 10000 </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 单价 </entry>
+            <entry colname="col2" translate="no"> 200+ </entry>
+            <entry colname="col3" translate="no"> 80 </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>采用了折扣价格表后最终价格为：</p>
+    <table>
+      <tgroup cols="6" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <colspec colname="col6" />
+        <thead>
+          <row>
+            <entry>
+              <b>定价模型</b>
+            </entry>
+            <entry>
+              <b>数量范围</b>
+            </entry>
+            <entry>
+              <b>折扣</b>
+            </entry>
+            <entry>
+              <b>减价额</b>
+            </entry>
+            <entry>
+              <b>购买数量</b>
+            </entry>
+            <entry>
+              <b>最终价格（元）</b>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry colname="col1"> 平价 </entry>
+            <entry colname="col2" translate="no"> 0-100 </entry>
+            <entry colname="col3"> - </entry>
+            <entry colname="col4" translate="no"> 500 </entry>
+            <entry colname="col5" translate="no"> 50 </entry>
+            <entry colname="col6" translate="no"> 5000-500=4500 </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 单价 </entry>
+            <entry colname="col2" translate="no"> 100-200 </entry>
+            <entry colname="col3" translate="no"> 70% </entry>
+            <entry colname="col4"> - </entry>
+            <entry colname="col5" translate="no"> 150 </entry>
+            <entry colname="col6" translate="no"> 10000-500-150╳（1-70%）╳50=7250 </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 单价 </entry>
+            <entry colname="col2" translate="no"> 200+ </entry>
+            <entry colname="col3"> - </entry>
+            <entry colname="col4" translate="no"> 50 </entry>
+            <entry colname="col5" translate="no"> 250 </entry>
+            <entry colname="col6" translate="no"> 20000-500-80╳（1-70%）╳100-50╳50=14600 </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <ul>
+      <li>当该产品购买数量在0-100区间时，该产品的最终价格为：最终定价-减价额。</li>
+      <li>当该产品购买数量在100-200区间时，该产品的最终价格为：区间2定价-区间1减价额-区间2减价额（购买数量╳（1-折扣）╳有效数量）。</li>
+      <li>当该产品购买数量在200+时，该产品的最终价格为：区间3定价-区间1减价额-区间2减价额（单价╳（1-折扣）╳区间2的有效数量）-区间3减价额（单价减价额╳区间3有效数量）</li>
+    </ul>
+    <section>
+      <title>
+        <b>分层定价</b>
+      </title>
+      <p>例如，某一产品定价方式如下表所示。</p>
+      <table>
+        <tgroup cols="3" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>定价模型</b>
+              </entry>
+              <entry colname="col2">
+                <b>数量范围</b>
+              </entry>
+              <entry colname="col3">
+                <b>价格</b>
+              </entry>
+            </row>
+            <row>
+              <entry morerows="1" colname="col1"> 平价 </entry>
+              <entry colname="col2" translate="no"> 0-100 </entry>
+              <entry colname="col3" translate="no"> 5000 </entry>
+            </row>
+            <row>
+              <entry colname="col2" translate="no"> 100-200 </entry>
+              <entry colname="col3" translate="no"> 10000 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 单价 </entry>
+              <entry colname="col2" translate="no"> 200+ </entry>
+              <entry colname="col3" translate="no"> 80 </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <p>采用了折扣价格表后最终价格为：</p>
+      <table>
+        <tgroup cols="6" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <colspec colname="col6" />
+          <thead>
+            <row>
+              <entry>
+                <b>定价模型</b>
+              </entry>
+              <entry>
+                <b>数量范围</b>
+              </entry>
+              <entry>
+                <b>折扣</b>
+              </entry>
+              <entry>
+                <b>减价额</b>
+              </entry>
+              <entry>
+                <b>购买数量</b>
+              </entry>
+              <entry>
+                <b>最终价格（元）</b>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1"> 平价 </entry>
+              <entry colname="col2" translate="no"> 0-100 </entry>
+              <entry colname="col3"> - </entry>
+              <entry colname="col4" translate="no"> 500 </entry>
+              <entry colname="col5" translate="no"> 50 </entry>
+              <entry colname="col6" translate="no"> 5000-500=4500 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 单价 </entry>
+              <entry colname="col2" translate="no"> 100-200 </entry>
+              <entry colname="col3" translate="no"> 90% </entry>
+              <entry colname="col4"> - </entry>
+              <entry colname="col5" translate="no"> 150 </entry>
+              <entry colname="col6" translate="no"> （10000+5000）-500-（15000÷150╳0.1╳50）=14480 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 单价 </entry>
+              <entry colname="col2" translate="no"> 200+ </entry>
+              <entry colname="col3"> - </entry>
+              <entry colname="col4" translate="no"> 50 </entry>
+              <entry colname="col5" translate="no"> 250 </entry>
+              <entry colname="col6" translate="no"> （5000+10000+50╳80）-[(500+19000)÷(250╳10%╳100+50╳50)]=18996 </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <ul>
+        <li>当该产品购买数量在0-100区间时，该产品的最终价格为：最终定价-减价额</li>
+        <li>当该产品购买数量在100-200区间时，该产品的最终价格为：（区间1定价+区间2定价）-区间1减价额-区间1减价额（区间1定价+区间2定价÷购买数量╳（1-折扣）╳有效数量）</li>
+        <li>当该产品购买数量在200+时，该产品的最终价格为：区间1、2、3定价总和-区间1减价额-区间2减价额（定价总和÷购买数量╳（1-区间2折扣）╳区间2的有效数量）-区间3减价额（单价减价额╳区间3有效数量）</li>
+      </ul>
+    </section>
+  </conbody>
+</concept>

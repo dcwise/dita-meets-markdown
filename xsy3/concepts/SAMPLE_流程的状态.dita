@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B17574-0245364-AA1F215A8151971-55577F">
+  <title>流程的状态</title>
+  <shortdesc>7.</shortdesc>
+  <conbody>
+    <p>每个流程都包含一个 ” 状态 “ 属性，用于标识该流程是否可以被启用、禁用或者删除等，在<xref href="SAMPLE_流程列表.dita">流程列表</xref>中可以查看流程的状态，下表对状态进行了详细说明。</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>状态</b>
+            </entry>
+            <entry colname="col2">
+              <b>说明</b>
+            </entry>
+            <entry colname="col3">
+              <b>允许的操作</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 设计 </entry>
+            <entry colname="col2"> 没有被启用过的流程，都处于 </entry>
+            <entry colname="col3"> 编辑流程属性 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> 设计的状态。 </entry>
+            <entry colname="col3"> 编辑流程 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3"> 创建新版本 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3"> 启用流程 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3"> 禁用流程 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3"> 删除流程 </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 启用 </entry>
+            <entry colname="col2"> 流程生效，只有启用状态的流 </entry>
+            <entry colname="col3"> 创建新版本 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2"> 程才会被执行。 </entry>
+            <entry colname="col3"> 禁用流程 </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 禁用 </entry>
+            <entry colname="col2"> 禁用状态的流程不会被执行。 </entry>
+            <entry colname="col3"> 编辑流程属性 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3"> 创建新版本 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3"> 启用流程 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3"> 删除流程 （如果流程没有执行过的流程实例数据，则可以删除） </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

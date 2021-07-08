@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B17123-19F215A-86115571551AD92-65DE30">
+  <title>复制报价单</title>
+  <shortdesc>当产品经理或管理员需要对已有报价单编辑时，可采用复制报价单的方式，将原有的报价单信息留存，并在复制的报价单上进行修改。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在报价单列表页面，单击一个报价单编号，进入该报价单详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>在页面右上角，单击<b>…</b>&gt;<b>复制报价单</b>，复制当前的报价单内容。</cmd>
+      </step>
+      <step>
+        <cmd>填写报价单内容，然后单击<b>下一步</b>。</cmd>
+      </step>
+      <step>
+        <cmd>编辑原有报价单的报价单明细，然后单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>如果需要新增产品，单击<b>+</b>号，从现有产品列表中添加产品。</p>
+    </result>
+  </taskbody>
+</task>

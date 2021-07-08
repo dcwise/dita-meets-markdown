@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1125175-7C71245-3911F2154891D51-571551">
+  <title>编辑报价单</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>进入报价单列表，单击报价单名称，进入报价单详情页。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>详细资料</b>&gt;<b>编辑资料</b>，编辑报价单的基本信息。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成报价单编辑。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

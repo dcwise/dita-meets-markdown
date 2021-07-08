@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7117E17-742564A-1F1571F401EB1BF-A6C2CB">
+  <title>执行审批流</title>
+  <shortdesc>流程启用成功后，用户可以在数据的详情页中提交审批申请，然后审批人员进行审批。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/SAMPLE_topic9_image002.png" />
+      </fig>
+    </p>
+    <p>审批流的配置与管理 | <b>18</b></p>
+  </conbody>
+</concept>

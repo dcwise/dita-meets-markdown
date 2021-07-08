@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A43B10A2-B175139-15A871515114817-CEB03C">
+  <title>接受日程</title>
+  <shortdesc>对于被邀请参加的日程，系统给参与人员发送通知提醒，并且会在参与人员的日程详情页面给出提示，单击提示信息，可以接受或拒绝该日程。被拒绝的日程将不会显示在日程详情页中。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic3_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

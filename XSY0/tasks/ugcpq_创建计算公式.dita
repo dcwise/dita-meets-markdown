@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7121719-7725395-39115415574F1D9-8F3A4C">
+  <title>创建计算公式</title>
+  <shortdesc>计算公式支持销售人员通过不同的计算公式类型创建自定义公式，以满足特殊的促销需求。</shortdesc>
+  <taskbody>
+    <context>
+      <p>以买10部手机赠送2个充电宝为例。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击<b>计算公式</b>，并选择<b>数字/货币</b>作为计算类型。</cmd>
+      </step>
+      <step>
+        <cmd>当无法进行计算时，可以选择取0或者取空值。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>插入函数</b>，并选择CEILING。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>插入汇总值</b>，选择<b>产品手机的总数量</b>，并将总数量除以10。这样通过该函数就可以将数值舍入为大于等于其本身的最小整数。最终的表达式为：</cmd>
+        <info>
+          <p>CEILING（&lt;<i>产品手机总数量</i>&gt;/10）</p>
+          <p>产品手机总数量可以通过汇总公式创建，更多关于汇总公式的说明，请参考<xref href="ugcpq_创建汇总公式.dita">创建汇总公式</xref>。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>由于当手机总数量满10个以后，会赠送2个充电宝，所以表达式需要乘以2。最终的表达式为：</cmd>
+        <info>
+          <p>2* CEILING（&lt;<i>产品手机总数量</i>&gt;/10）</p>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic65_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成计算公式新建。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B1BE74-04AF254-A8197F74FD5D8A6-03BB45">
+  <title>审批人员加签审批</title>
+  <shortdesc>审批人员可以根据需要，临时邀请其他人员参与当前节点的审批。</shortdesc>
+  <conbody>
+    <p>通过<xref href="SAMPLE_查看所有审批.dita">办公下的审批</xref>进入到审批列表，在审批列表中单击流程标题后，进入到数据详 情页中进行加签。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/SAMPLE_topic31_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

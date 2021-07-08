@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A717BE5A-740436A-A54A855715C2186-3CAD42">
+  <title>创建流程</title>
+  <shortdesc>遵循以下步骤，创建审批流程：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在 【审批流程管理】页面，单击<b>添加审批流程</b>。</cmd>
+      </step>
+      <step>
+        <cmd>设置流程的基本信息。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/SAMPLE_topic13_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 配置项 说明</p>
+          <p>流程名称 标识流程的信息，此名称会显示在 【审批流程管理】页面的<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中。为便于流程之间的区分以及通过流程名称更直观的了解流程的作用，建议使用有实际意义的内容作为流程的名称。</p>
+          <p>
+            <image href="../graphics/SAMPLE_topic13_image003.png" />
+          </p>
+          <p>业务对象 与流程相关的对象，即设置哪个对象上的数据执行该审批流程。</p>
+          <p>创建流程 | <b>22</b></p>
+          <p>
+            <b>配置项 说明</b>
+          </p>
+          <p>业务类型 流程关联对象的业务类型，即设置流程关联对象上的哪个业务类型的数据执行该审批流程。</p>
+          <p>
+            <fig>
+              <image href="../graphics/SAMPLE_topic13_image003.png" />
+            </fig>
+          </p>
+          <p>序号 每个对象的每种业务类型下都可以启用多个审批流，当记录符合多个审批流的执行条件时，将按照此处设置的序列号 （升序）选择序列号最小的审批流执行。</p>
+          <required-cleanup>
+            <p>
+              <b>[heading h5 could not be placed here]: </b>
+              <table>
+                <tgroup cols="1" colsep="1" rowsep="1">
+                  <colspec colname="c1" align="left" />
+                  <tbody>
+                    <row>
+                      <entry colname="c1">
+                        <image href="../graphics/SAMPLE_topic13_image003.png" />
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <b>NOTE </b>序列号最小的审批流审批结束后，如果还有其他符合执行条件的审批流，还可再次提交审批，同样会在其他符合条件的审批流中选择序列号最小的执
+ 行。</p>
+          </required-cleanup>
+          <p>流程说明 对流程的说明，说明信息会显示在 【审批流程管理】页面的<xref href="../concepts/SAMPLE_流程列表.dita">流程列表</xref>中。为便于流程之间的区分以及快速了解流程的作用，建议填写内容为流程功能的简要说明。</p>
+          <p>
+            <fig>
+              <image href="../graphics/SAMPLE_topic13_image005.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>配置流程 | <b>23</b></p>
+    </result>
+  </taskbody>
+</task>

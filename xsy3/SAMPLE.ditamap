@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<bookmap xml:lang="en-us" id="bookmap-1">
+  <title>PaaS平台-新版审批流的设计与管理</title>
+  <bookmeta>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-07-05"/>
+    </critdates>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="concepts/SAMPLE_声明.dita" />
+  <chapter href="concepts/SAMPLE_联系我们.dita" />
+  <chapter href="tasks/SAMPLE_阅读指南.dita" />
+  <chapter href="concepts/SAMPLE_第一章_审批流简介.dita">
+    <topicref href="concepts/SAMPLE_概述.dita" />
+    <topicref href="concepts/SAMPLE_快速了解审批流的配置.dita">
+      <topicref href="concepts/SAMPLE_场景描述.dita" />
+      <topicref href="tasks/SAMPLE_配置审批流.dita" />
+      <topicref href="concepts/SAMPLE_执行审批流.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/SAMPLE_第二章_审批流的配置与管理.dita">
+    <topicref href="concepts/SAMPLE_创建流程前的准备工作.dita" />
+    <topicref href="tasks/SAMPLE_配置入口.dita" />
+    <topicref href="tasks/SAMPLE_创建流程.dita" />
+    <topicref href="tasks/SAMPLE_配置流程.dita">
+      <topicref href="tasks/SAMPLE_配置概述.dita" />
+      <topicref href="tasks/SAMPLE_绘制审批流程图.dita" />
+      <topicref href="concepts/SAMPLE_保存流程.dita" />
+    </topicref>
+    <topicref href="concepts/SAMPLE_管理流程.dita">
+      <topicref href="concepts/SAMPLE_流程列表.dita" />
+      <topicref href="concepts/SAMPLE_流程的状态.dita" />
+      <topicref href="tasks/SAMPLE_查看流程中执行的操作.dita" />
+      <topicref href="tasks/SAMPLE_编辑流程.dita" />
+      <topicref href="tasks/SAMPLE_禁用流程.dita" />
+      <topicref href="tasks/SAMPLE_删除流程.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/SAMPLE_第三章_审批流的执行.dita">
+    <topicref href="concepts/SAMPLE_用户操作说明.dita">
+      <topicref href="concepts/SAMPLE_提交审批.dita" />
+      <topicref href="concepts/SAMPLE_审批人员进行审批.dita" />
+      <topicref href="concepts/SAMPLE_查看所有审批.dita" />
+      <topicref href="concepts/SAMPLE_查看审批历史.dita" />
+      <topicref href="concepts/SAMPLE_审批人员加签审批.dita" />
+      <topicref href="concepts/SAMPLE_审批人员转办审批.dita" />
+      <topicref href="concepts/SAMPLE_审批提交人撤回审批.dita" />
+    </topicref>
+    <topicref href="concepts/SAMPLE_系统管理员进行流程监控.dita">
+      <topicref href="tasks/SAMPLE_管理入口.dita" />
+      <topicref href="tasks/SAMPLE_流程实例管理.dita" />
+    </topicref>
+    <topicref href="concepts/SAMPLE_特殊情况说明.dita">
+      <topicref href="tasks/SAMPLE_操作符_表达式对于_null_的处理方式.dita" />
+      <topicref href="concepts/SAMPLE_空白值参与运算出现非期待结果的解决方案.dita" />
+    </topicref>
+  </chapter>
+</bookmap>

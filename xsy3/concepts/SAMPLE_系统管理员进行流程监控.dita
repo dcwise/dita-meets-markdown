@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B117BE-7424536-4A1F54A71015155-522BA2">
+  <title>系统管理员进行流程监控</title>
+  <shortdesc>审批流执行过程中，系统管理员可以进行流程监控。流程监控指对审批流程执行时的流程实例和任务实例进行管理。流程实例指审批流执行时流程级别的实例。任务实例指审批流程执行时对于每个审批人而言的实例。</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

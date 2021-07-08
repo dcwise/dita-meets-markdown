@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B63B10-A224B17-59F15A515745569-644134">
+  <title>新建报销单</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击<b><i>CRM&gt;费用</i></b>，显示费用列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击列表右上角的<b>新建报销单</b>按钮。</cmd>
+      </step>
+      <step>
+        <cmd>在【新建报销单】页面根据企业要求格式提示填写报销单信息。</cmd>
+        <info>
+          <p>一张报销单可以添加多个费用。</p>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic49_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>按钮完成报销单的创建。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

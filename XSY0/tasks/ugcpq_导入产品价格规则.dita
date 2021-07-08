@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B12577-C471243-519F54A87115975-593284">
+  <title>导入产品价格规则</title>
+  <shortdesc>如果需要添加大量的产品价格规则，可以选择导入功能，将产品规则和价格规则批量导入，然后按照规则组合对产品价格规则再做调整。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在CRM首页，单击<b>产品价格规则</b>。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>导入产品价格规则</b>，选择需要导入的具体规则类型。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic57_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>可以先<b>下载数据模板</b>，模板中不需要的项目可以删除，但是表头名称不能更改，表头行不能删除。</cmd>
+      </step>
+      <step>
+        <cmd>当导入的数据与已有的数据出现重复时，可以选择覆盖导入、不导入和不导入新数据，仅覆盖重复数据三种方式。</cmd>
+      </step>
+      <step>
+        <cmd>从本地选择格式为CSV的文件，然后单击<b>开始导入</b>。如果导入失败，系统会给出错误提示，按照提示修改好内容后，可以重新导入。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

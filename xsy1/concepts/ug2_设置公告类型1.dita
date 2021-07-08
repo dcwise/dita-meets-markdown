@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B6B10A-274591F-217B3174565B758-9BF54B">
+  <title>设置公告类型</title>
+  <shortdesc>在销售易后台系统首页，单击<b>办公设置&gt;合作伙伴公告，</b>可以自定义公告类型。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic57_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

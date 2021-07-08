@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1217519-7C59531-91410146AF371E8-5AB9F7">
+  <title>编辑产品选项</title>
+  <shortdesc>产品经理或管理员可以对组合产品中的产品进行修改，例如修改组合产品中的产品数量或者更改某个组合产品下所包含的子产品。</shortdesc>
+  <taskbody>
+    <context>
+      <p>NOTE)</p>
+      <ul>
+        <li>任何组合产品下都可以包含另一个组合产品。但是整体组合产品的层级不能超过五级。</li>
+      </ul>
+    </context>
+    <steps>
+      <step>
+        <cmd>选择一个组合产品，单击名称，进入该组合产品的详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>相关</b>页签，找到<b>产品选项</b>，然后单击<b>编辑</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>如果产品被设置了失效日期，当系统当前日期超过了失效日期时，该组合产品可视为失效产品。失效的组合产品可以被删除。</p>
+    </result>
+  </taskbody>
+</task>

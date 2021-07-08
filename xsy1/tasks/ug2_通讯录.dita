@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB631021-4515391-F548C59415561F6-FF1C42">
+  <title>通讯录</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击页面右上角<b>︙&gt;通讯录</b>。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic24_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>进入通讯录页面，查看相关信息。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>对通讯录的信息可以按照同事、部门、合作伙伴三个维度来分类进行查看，也可以通过搜索名称或筛选进行查看。</p>
+      <ul>
+        <li>在【部门】中可以按照公司部门查看通讯录权限内各部门的相关同事。</li>
+        <li>在【同事】中可以查看通讯录权限内所有的同事信息。</li>
+        <li>通讯录权限由系统管理员在后台配置。<p><image href="../graphics/ug2_topic24_image004.png" /></p><ol><li>单击下图红框中按钮，可以对通讯录中的同事进行关注。<p>关注之后，所关注人发的工作圈信息都可以收到。</p><fig><image href="../graphics/ug2_topic24_image006.png" /></fig></li><li>单击下图红框中按钮，可以打开<b>同事收藏夹</b>。<p><b>同事收藏夹</b>可以方便用户在发布动态和评论时@多人和添加团队成员。</p><p><image href="../graphics/ug2_topic24_image008.png" /></p></li><li>单击下图红框中按钮，可以给该同事创建任务或者日程信息，或者发送企业微信消息进行联系。<fig><image href="../graphics/ug2_topic24_image010.png" /></fig></li><li>单击通讯录中姓名，可以看到该同事填写的资料信息。</li></ol></li>
+      </ul>
+      <p>
+        <image href="../graphics/ug2_topic24_image012.png" /> </p>
+    </result>
+  </taskbody>
+</task>

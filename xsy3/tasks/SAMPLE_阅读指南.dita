@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A17B4E17-5AD45A1-2154A87D165112C-87828F">
+  <title>阅读指南</title>
+  <shortdesc>
+    <b>手册目标</b>
+  </shortdesc>
+  <taskbody>
+    <context>
+      <p>本文档主要介绍销售易PaaS 平台新版审批流设计器的配置方法。</p>
+      <p>
+        <b>手册约定</b>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>本文档中所有标识为 <b><i>NOTE </i></b>的部分表示需要您特别关注的内容。</cmd>
+      </step>
+      <step>
+        <cmd>由于系统不断更新，当文档中图片与有差别时，请以系统为准。</cmd>
+      </step>
+      <step>
+        <cmd>本文档中的所有内容均基于旗舰版编写，如果您使用的版本为非旗舰版，则可能不包含其中的部分功能。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>目录</p>
+    </result>
+  </taskbody>
+</task>

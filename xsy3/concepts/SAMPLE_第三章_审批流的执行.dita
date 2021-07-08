@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A71EAD02-534AF4A-87C11115994C17A-DA8490">
+  <title>第三章	审批流的执行</title>
+  <shortdesc>审批流的执行 | <b>94</b></shortdesc>
+  <conbody>
+    <p>本章主要介绍执行审批流时，提交、审批以及查看审批进度等相关操作的方法。关于创建、配置审批流的详细信息请参考<xref href="SAMPLE_第二章_审批流的配置与管理.dita">审批流的配置与管理</xref>。</p>
+    <ul>
+      <li>
+        <xref href="SAMPLE_用户操作说明.dita">用户操作说明</xref>
+      </li>
+      <li>
+        <xref href="SAMPLE_审批人员进行审批.dita">审批人员进行审批</xref>
+      </li>
+      <li>
+        <xref href="SAMPLE_查看所有审批.dita">查看所有审批</xref>
+      </li>
+      <li>
+        <xref href="SAMPLE_查看审批历史.dita">查看审批历史</xref>
+      </li>
+      <li>
+        <xref href="SAMPLE_审批人员加签审批.dita">审批人员加签审批</xref>
+      </li>
+      <li>
+        <xref href="SAMPLE_审批人员转办审批.dita">审批人员转办审批</xref>
+      </li>
+      <li>
+        <xref href="SAMPLE_审批提交人撤回审批.dita">审批提交人撤回审批</xref>
+      </li>
+    </ul>
+    <p>用户操作说明 | <b>95</b></p>
+  </conbody>
+</concept>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B21757-C743531-1F254A8B1975142-A8B61F">
+  <title>删除规则组合</title>
+  <shortdesc>NOTE </shortdesc>
+  <conbody>
+    <ul>
+      <li>规则组合删除后不可恢复，请谨慎操作。</li>
+    </ul>
+    <p>只有状态为未锁定的规则组合可以被删除。</p>
+    <p>规则组合可以从列表页和详情页中删除。从列表页中可以选择多条规则组合进行删除，而详情页中，只能删除当前的规则组合。</p>
+    <p>规则组合删除后，组合中所包含的产品规则和价格规则并不会被同时删除。</p>
+  </conbody>
+</concept>

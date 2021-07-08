@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB517571-747151F-54A881975502AB6-04D685">
+  <title>汇总值</title>
+  <shortdesc>汇总值能够针对一个报价单或订单中的明细的字段做汇总计算，例如，某一种产品进行买10赠2的促销活动，销售人员可以通过设置汇总值，将客户订单中参加此次活动的产品数量进行汇总计算，当产品数量达到10，可以自动在订单明细中新增2个产品作为赠品。</shortdesc>
+  <conbody>
+    <p>汇总值能够对整单产品进行批量折扣处理，或者推行更多的优惠政策。汇总值支持多种汇总计算方式以及自定义计算方式，方便销售人员根据具体的销售策略，便捷地计算报价单或者订单的明细字段。</p>
+  </conbody>
+</concept>

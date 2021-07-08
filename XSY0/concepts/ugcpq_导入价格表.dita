@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12175-19C4712-55311F154711594-15C654">
+  <title>导入价格表</title>
+  <shortdesc>通过导入功能，将价格表和价格表明细导入到系统中。除了导入，价格表也支持导出，导出后的价格表格式为CSV文件。</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

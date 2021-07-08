@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A71297C1-4595319-1F214875197444B-F7BDBE">
+  <title>编辑报价单</title>
+  <shortdesc>已保存的报价单支持销售人员进行再次编辑。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在报价单列表页面，选择一个报价单，单击编号，进入该报价单详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>编辑</b>，可对报价单的基本信息进行编辑。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>相关</b>页签，找到<b>报价单明细</b>，然后单击<b>编辑</b>，可对报价单明细进行编辑。</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>当报价单中的产品禁用或失效时，需要单击<b>齿轮</b>对失效产品进行更新。</li>
+        <li>当报价单中的阶梯价格表失效或需要修改阶梯价格表时，需要单击<b>阶梯价格表</b>更新价格表的信息。</li>
+        <li>当需要更新整体报价单中的价格信息时，可以单击<b>重新计算</b>从而更新报价单的价格。</li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

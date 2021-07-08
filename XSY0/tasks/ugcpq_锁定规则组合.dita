@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB125171-43991F1-54AB115154FAF58-58C5D5">
+  <title>锁定规则组合</title>
+  <shortdesc>为了避免他人随意修改规则组合，可以将规则组合锁定。锁定后的规则组合既不能修改也不允许删除。如果需要编辑该规则组合，必须先将其解锁。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击规则组合名称，进入规则组合详情页。</cmd>
+      </step>
+      <step>
+        <cmd>在页面右上角，单击<b>...</b>&gt;<b>锁定</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

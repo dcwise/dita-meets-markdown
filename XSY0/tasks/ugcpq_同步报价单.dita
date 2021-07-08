@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1125759-7471245-91154A876125159-7455BA">
+  <title>同步报价单</title>
+  <shortdesc>您可以通过同步功能将报价单明细的信息同步至销售机会明细。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在报价单列表页，单击一个报价单编号，进入该报价单详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>…</b>&gt;<b>同步到销售机会</b>。同步后，销售机会的明细会被报价单的明细内容替代，如果您确认需要同步，单击<b>立即同步</b>，否则，单击<b>取消</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B21797-472919F-2154A8117518D6A-5EC1E1">
+  <title>产品选项阶梯价格表</title>
+  <shortdesc>产品经理也可将此阶梯价格表与组合产品下的某一个产品选项进行关联，用于决定该产品在组合产品中的最终价格。</shortdesc>
+  <conbody>
+    <p>NOTE </p>
+    <ul>
+      <li>关联的产品序号不能相同。</li>
+    </ul>
+    <p>
+      <fig>
+        <image href="../graphics/ugcpq_topic25_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

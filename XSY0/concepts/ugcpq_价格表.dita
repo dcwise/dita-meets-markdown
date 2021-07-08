@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1257571-9741243-1F587117155F6E1-B1BDF6">
+  <title>价格表</title>
+  <shortdesc id="_什么是价格表">价格表是根据公司的市场策略制定的一系列产品的销售价格，可以根据不用的区域、客户类型、销售角色来制定多套的价格表。</shortdesc>
+  <conbody>
+    <p>系统默认自带标准价格表，标准价格表中包含系统全部的产品，并能够自动同步更新的产品。其中，产品的价格表价格等同于产品的标准价格，且不可修改。</p>
+  </conbody>
+</concept>

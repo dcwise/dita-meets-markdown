@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7115175-1C47125-95311F171751974-1551DD">
+  <title>分层定价</title>
+  <shortdesc>NOTE </shortdesc>
+  <conbody>
+    <ul>
+      <li>阶梯定价的最终价格以每一层级的价格为准。</li>
+      <li>分层定价的最终价格需要根据购买数量，将每一层级的价格进行累计。</li>
+    </ul>
+    <p>分层定价和阶梯定价的阶梯价格表明细设置方式相同，但价格的计算方式不同，分层定价的价格计算方式如下表所示。</p>
+    <table>
+      <tgroup cols="5" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>定价模式</b>
+            </entry>
+            <entry colname="col2">
+              <b>数量范围（个）</b>
+            </entry>
+            <entry colname="col3">
+              <b>价格（元）</b>
+            </entry>
+            <entry colname="col4">
+              <b>购买数量（个）</b>
+            </entry>
+            <entry colname="col5">
+              <b>最终价格（元）</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>平价</b>
+            </entry>
+            <entry colname="col2" translate="no"> 0-100 </entry>
+            <entry colname="col3" translate="no"> 2000 </entry>
+            <entry colname="col4" translate="no"> 50 </entry>
+            <entry colname="col5" translate="no"> 2000 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>单价</b>
+            </entry>
+            <entry colname="col2" translate="no"> 100-200 </entry>
+            <entry colname="col3" translate="no"> 50 </entry>
+            <entry colname="col4" translate="no"> 150 </entry>
+            <entry colname="col5" translate="no"> 2000+50╳50=4500 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>单价</b>
+            </entry>
+            <entry colname="col2" translate="no"> 200+ </entry>
+            <entry colname="col3" translate="no"> 30 </entry>
+            <entry colname="col4" translate="no"> 300 </entry>
+            <entry colname="col5" translate="no"> 2000+100╳50+100╳30=10000 </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <ul>
+      <li>当该产品购买数量在0-100区间时，该产品的最终价格为平价确定的价格。</li>
+      <li>当该产品购买数量在100-200区间时，该产品的最终价格为：0-100区间的总价格+（购买数量-100)╳单价。</li>
+      <li>当该产品购买数量在200+时，该产品的最终价格为：0-100区间的总价格+100-200区间总价格+（购买数量-200）╳单价。</li>
+    </ul>
+  </conbody>
+</concept>

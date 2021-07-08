@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A76024B7-4513121-548715117F1D5FA-575664">
+  <title>创建任务</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击页面右上角<b>︙&gt;任务</b>。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic9_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>+</b>，创建新的任务。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ug2_topic9_image004.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在创建任务页面，填写任务信息。</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>定时提醒：定时提醒功能将在任务开始前通过手机推送的方式发送提醒。</li>
+        <li>负责人员：可以选择非当前创建人。单击<b>添加批量分配任务</b>，可以添加多个负责人和参与人。</li>
+        <li>关联业务：可以关联任务相关业务对象。<fig><image href="../graphics/ug2_topic9_image006.png" /></fig><ol><li>单击<b>新建任务</b>，完成任务创建。</li></ol></li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

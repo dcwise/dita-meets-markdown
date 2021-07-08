@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A4D94201-821B426-91F154A8111D3F9-8E1518">
+  <title>第一章 概述（标题1 加粗 18pt）</title>
+  <shortdesc>本文档介绍了管理员如何对销售易后台系统进行设置。<i>（正文 10.5pt）</i></shortdesc>
+  <conbody>
+    <p>主题<i>（Topic 12pt）</i></p>
+    <ul>
+      <li>销售易概述 <i>（Bullet 10.5pt）</i></li>
+      <li>销售易CRM名词说明</li>
+      <li>销售易后台系统</li>
+    </ul>
+  </conbody>
+</concept>

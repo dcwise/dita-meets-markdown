@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<bookmap xml:lang="en-us" id="bookmap-1">
+  <title>销售易CRM协同办公操作手册</title>
+  <bookmeta>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-07-05"/>
+    </critdates>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="concepts/ug2_日程.dita">
+    <topicref href="tasks/ug2_创建日程.dita" />
+    <topicref href="concepts/ug2_接受日程.dita" />
+    <topicref href="tasks/ug2_查看日程.dita" />
+    <topicref href="concepts/ug2_筛选日程.dita" />
+    <topicref href="concepts/ug2_查看其他人日程.dita" />
+    <topicref href="concepts/ug2_后台设置.dita" />
+  </chapter>
+  <chapter href="concepts/ug2_任务.dita">
+    <topicref href="tasks/ug2_创建任务.dita" />
+    <topicref href="concepts/ug2_接受任务.dita" />
+    <topicref href="tasks/ug2_查看任务.dita" />
+    <topicref href="concepts/ug2_分配任务.dita" />
+  </chapter>
+  <chapter href="tasks/ug2_知识库.dita">
+    <topicref href="concepts/ug2_管理文件夹.dita" />
+    <topicref href="concepts/ug2_上传文件.dita" />
+    <topicref href="tasks/ug2_在线预览.dita" />
+    <topicref href="concepts/ug2_其他功能.dita" />
+  </chapter>
+  <chapter href="concepts/ug2_审批.dita" />
+  <chapter href="concepts/ug2_工作报告.dita">
+    <topicref href="tasks/ug2_创建工作报告.dita" />
+    <topicref href="concepts/ug2_查看工作报告.dita" />
+    <topicref href="concepts/ug2_收藏工作报告.dita" />
+    <topicref href="concepts/ug2_后台设置1.dita" />
+  </chapter>
+  <chapter href="tasks/ug2_通讯录.dita" />
+  <chapter href="tasks/ug2_群组.dita" />
+  <chapter href="tasks/ug2_企业微信.dita" />
+  <chapter href="concepts/ug2_考勤_旧版.dita">
+    <topicref href="tasks/ug2_后台设置.dita" />
+    <topicref href="tasks/ug2_移动端操作.dita" />
+    <topicref href="concepts/ug2_考勤统计报表.dita" />
+  </chapter>
+  <chapter href="concepts/ug2_考勤_新版.dita">
+    <topicref href="concepts/ug2_与旧版功能对比.dita" />
+    <topicref href="concepts/ug2_使用限制.dita" />
+    <topicref href="concepts/ug2_后台设置2.dita">
+      <topicref href="tasks/ug2_设置法定节假日.dita" />
+      <topicref href="tasks/ug2_新建工作时间组.dita" />
+      <topicref href="concepts/ug2_编辑或删除工作时间组.dita" />
+      <topicref href="concepts/ug2_考勤打卡设置.dita" />
+    </topicref>
+    <topicref href="concepts/ug2_移动端操作.dita" />
+    <topicref href="concepts/ug2_考勤统计报表1.dita" />
+  </chapter>
+  <chapter href="concepts/ug2_报销单.dita">
+    <topicref href="concepts/ug2_后台设置3.dita" />
+    <topicref href="tasks/ug2_新建建报销单.dita" />
+    <topicref href="concepts/ug2_查看报销单.dita" />
+  </chapter>
+  <chapter href="concepts/ug2_费用.dita">
+    <topicref href="concepts/ug2_后台设置4.dita" />
+    <topicref href="tasks/ug2_新建费用.dita" />
+    <topicref href="tasks/ug2_编辑费用.dita" />
+    <topicref href="tasks/ug2_新建报销单.dita" />
+  </chapter>
+  <chapter href="concepts/ug2_部门公告.dita">
+    <topicref href="tasks/ug2_创建部门公告.dita" />
+    <topicref href="concepts/ug2_查看部门公告.dita" />
+    <topicref href="concepts/ug2_设置公告类型.dita" />
+  </chapter>
+  <chapter href="concepts/ug2_合作伙伴公告.dita">
+    <topicref href="tasks/ug2_创建合作伙伴公告.dita" />
+    <topicref href="concepts/ug2_查看合作伙伴公告_新闻公告.dita" />
+    <topicref href="concepts/ug2_设置公告类型1.dita" />
+  </chapter>
+  <chapter href="tasks/ug2_工作圈.dita" />
+</bookmap>

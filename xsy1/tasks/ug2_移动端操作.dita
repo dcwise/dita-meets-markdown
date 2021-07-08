@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A763B0A2-24B5253-91F2154A8C51741-556FEC">
+  <title>移动端操作</title>
+  <shortdesc>NOTE </shortdesc>
+  <taskbody>
+    <context>
+      <p>考勤功能只能在移动端进行打卡，在Web端进行统计。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录移动端首页，单击<b>办公&gt;考勤</b>，进入打卡页面。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic29_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在打卡页面中，可以看到管理员对考勤人员设置的上下班打卡时间，在底部可以看到当前所在的位置、与考勤点的距离以及<b>打卡</b>按钮。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ug2_topic29_image004.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在打卡页面中，单击正常打卡的时间下的<b>查看统计图</b>按钮，进入考勤统计图页面。</cmd>
+        <info>
+          <p>该页面统计了当天考勤人员的上班时间、打卡排名信息、下班时间，以及工作时长信息。</p>
+          <p>
+            <image href="../graphics/ug2_topic29_image006.png" /> <image href="../graphics/ug2_topic29_image008.png" /></p>
+        </info>
+      </step>
+      <step>
+        <cmd>在打卡页面中，单击右上方的<b>记录</b>按钮，进入考勤记录页面。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>该页面可以查看所有的打卡记录信息，包含每次正常打卡和外勤打卡的记录。只能查看到当月的记录信息，如果是异常考勤，可以在这里发起原因说明，选择对应的人员进行审批。所有信息后续会在考勤的报表里面体现出来。</p>
+      <p>
+        <fig>
+          <image href="../graphics/ug2_topic29_image010.png" />
+        </fig>
+        <image href="../graphics/ug2_topic29_image012.png" />
+      </p>
+      <ul>
+        <li>如果当前用户有管理员，可以选择“全部考勤记录”查看其他人员的考勤记录信息。可以通过下图的一些筛选条件进行查询，考勤状态有：正常（正常打卡上下班的记录）、迟到、早退、缺卡、设备异常（同一天的上下班打卡在不同的手机上操作的）、，地点异常（外勤打卡）。</li>
+        <li>如果有提交审批的考勤，可以选择“提交给我的考勤记录”进行审批。</li>
+      </ul>
+      <p>
+        <fig>
+          <image href="../graphics/ug2_topic29_image014.png" />
+        </fig>
+        <image href="../graphics/ug2_topic29_image016.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

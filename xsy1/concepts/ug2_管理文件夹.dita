@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B63BAA-2B41954-F517451EE0A01C3-7B2415">
+  <title>管理文件夹</title>
+  <shortdesc>支持新建文件夹，文件夹可以进行移动，删除，重命名，权限设置，复制。</shortdesc>
+  <conbody>
+    <ul>
+      <li>在“个人”里面新建的文件夹只有当前用户自己可以看到。</li>
+      <li>在“公司”里面创建的文件夹，可以为指定用户或部分赋予编辑或查看的权限，也可以控制是否允许在该文件夹里面上传文件。</li>
+    </ul>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic14_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

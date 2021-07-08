@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB6B10AA-224B742-15392154A871515-971556">
+  <title>新建工作时间组</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>在【工作时间管理】页面，单击<b>新增工作时间组</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在【新建工作时间组】页面输入要建立的工作时间组名称，单击<b>下一步</b>。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ug2_topic36_image002.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>选择工作时间类型后，单击<b>下一步</b>。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ug2_topic36_image004.png" />
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>根据所选工作时间类型不同，设置工作时间。</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>固定班制</li>
+      </ul>
+      <p>
+        <fig>
+          <image href="../graphics/ug2_topic36_image006.png" />
+        </fig>
+      </p>
+      <table>
+        <tgroup cols="2" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <thead>
+            <row>
+              <entry> 参数 </entry>
+              <entry> 说明 </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1"> 工作日设置 </entry>
+              <entry colname="col2"> 可以选择展开下拉列表自定义选择星期一到星期日的任意时间为工作日 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 时区选择 </entry>
+              <entry colname="col2"> 缺省为租户开通时当前的时区，支持展开可选择的时区列表，可以选择其他的时区。 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 上下班时间设置 </entry>
+              <entry colname="col2"> 不能删除，但支持修改，下班时间必须晚于上班时间。 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 设置法定节假日自动排休 </entry>
+              <entry colname="col2"> 缺省不勾选，勾选后将会按照当前年度国家公布的法定节假日进行排休，右侧有【单击查看】可以在文字按钮旁弹窗显示当年放假时间安排。 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 特殊日期调整 </entry>
+              <entry colname="col2"> 可以自定义设置具体某个日期的上班或休息状态，包括【添加工作日】和【添加休息日】，添加工作日或休息日与之前的工作日或法定节假日时间有重合的，以特殊日期调整为主，优先级最高。 </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <ul>
+        <li>排班制</li>
+      </ul>
+      <p>
+        <image href="../graphics/ug2_topic36_image008.png" />
+      </p>
+      <table>
+        <tgroup cols="2" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <thead>
+            <row>
+              <entry> 参数 </entry>
+              <entry> 说明 </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1"> 添加班次 </entry>
+              <entry colname="col2" translate="no"> 支持最多3个班次，缺省显示第一班可以手动添加其他班次。 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 时区选择 </entry>
+              <entry colname="col2"> 缺省为租户开通时当前的时区，支持展开可选择的时区列表，可以选择其他的时区。 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 班次名称 </entry>
+              <entry colname="col2"> 用于区别排班班次，最多两个汉字。 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 班次颜色 </entry>
+              <entry colname="col2"> 缺省一个色值，支持用户手动更改。 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 上下班时间设置 </entry>
+              <entry colname="col2"> 不能删除，但支持修改，下班时间必须晚于上班时间。 </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <ul>
+        <li>自由工时<fig><image href="../graphics/ug2_topic36_image010.png" /></fig><ol><li>设置完工作时间后，如果不需要设置成员和排期，可以直接单击<b>保存</b>。</li></ol></li>
+        <li>如果客户服务云场景中进行人工咨询设置时需要引入工作时间组，则该工作时间组不能选择人员并排期。</li>
+        <li>保存成功后将不可再添加人员、排期以及考勤设置。<ol><li>选择考勤人员，单击<b>保存并排期</b>。<p>如果同时选择部门或个人，二者取并集。可以将派工主管设置有权限查看的人员，这样派工主管就可以在前台查看到该工作时间组的相关工作时间安排。</p><p><image href="../graphics/ug2_topic36_image012.png" /></p></li><li>在排班界面为参加考勤的人员进行排班。<p>根据工作时间类型不同，排班界面显示也稍有不同，但操作一致，下图以排班制为例进行说明。</p><fig><image href="../graphics/ug2_topic36_image014.png" /></fig></li><li>单击<b>保存</b>按钮，完成工作时间设置。</li></ol></li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

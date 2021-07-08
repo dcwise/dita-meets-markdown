@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7D90821-2569121-5487151F1395798-64AAC5">
+  <title>数据模型构建（标题3 加粗 12pt）</title>
+  <shortdesc>为一个业务实体，有时也可以是用来展示业务对象之间的关联关系。一个业务对象将包含多个字段作为属性描述，一个业务对象也可以被其他的业务对象所引用。</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

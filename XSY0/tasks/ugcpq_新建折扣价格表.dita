@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7125757-197C471-5391121A87C3515-415382">
+  <title>新建折扣价格表</title>
+  <shortdesc>产品经理在阶梯价格表中可新建折扣价格表，用来覆盖价格表和标准价格表。最终产品价格以阶梯价格表为准。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击<b>CRM</b>&gt;<b>阶梯价格表</b>，进入阶梯价格表列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击右上角的<b>新建阶梯价格表</b>&gt;<b>折扣价格表</b>。</cmd>
+      </step>
+      <step>
+        <cmd>填写折扣价格表信息，其中带<b>*</b>号的项为必填项。必填项和常用项均支持在系统后台通过<b>表单布局</b>功能设置，更多关于表单布局的说明，请参考系统后台的帮助文档。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ugcpq_topic27_image002.png" />
+        </fig>
+      </p>
+      <ul>
+        <li>产品阶梯价格表：将此定价表与组合产品进行关联，在该组合产品或单个产品的最终价格表价格上进行打折。</li>
+        <li>产品选项阶梯价格表：将此折扣定价表与产品选项相关联，在定价时，在产品选项的最终价格表价格的基础上进行打折。</li>
+        <li>产品功能阶梯价格表：将此折扣价格表与产品功能相关联，在定价时，在产品功能所对应的所有产品选项的最终价格表价格的基础上进行打折。</li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

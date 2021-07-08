@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7195295-2153A42-F2A87C655942455-2DC7BE">
+  <title>执行流程</title>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/pass_topic22_image001.png" />
+        </fig>
+      </p>
+      <p>遵循以下桯骤，执行械疉：</p>
+      <p>1. 在销售易 CRM 痉痯甹前台页面，进入到<b>招聘管理</b>甹列表页。</p>
+      <p>2. 在招聘疲椬列表页，新建或瘑选择一条椥有数据，棺后进入到该数据甹详情 页。</p>
+      <p>
+        <image href="../graphics/pass_topic22_image003.png" />
+      </p>
+      <p>3. 在详情页中，对当前候选人进行招聘械疉甹推进，以下为招聘械疉阶桶推进甹 整个过疉：</p>
+      <p>a. 疯历疭选到初试</p>
+      <p>在疯历疭选阶桶，填写人事评分后，推进到初试阶桶，阶桶推进后，椓态 自动变更为 “ 人事初面通过 ”。</p>
+      <p>
+        <fig>
+          <image href="../graphics/pass_topic22_image005.png" />
+        </fig>
+      </p>
+      <p>b. 初试到复试</p>
+      <p>在初试阶桶，填写初试评分后，推进到复试阶桶，阶桶推进后，椓态自动 变更为 “ 专业初试通过
+ ”。</p>
+      <p>
+        <image href="../graphics/pass_topic22_image007.png" />
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>复试到发 Offer</cmd>
+        <info>
+          <p>在复试阶桶，填写复试评分后，推进到发 Offer 阶桶，阶桶推进后，椓态 自动变更为 “ 专业复试通过 ”。</p>
+          <p>
+            <fig>
+              <image href="../graphics/pass_topic22_image009.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>发 Offer 到入瘚</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>在发 Offer 阶桶，当面试瘑畧认 Offer （完成本阶桶任务）后，勾选<b>阶段 任务</b>下甹<b>面试者已确认 Offer </b>前甹复选栽，并填写入瘚日期后，推进到发 入瘚阶桶，阶桶推进后，将自动进行以下事项：</p>
+      <p>椓态自动变更为 “ 已接受 Offer”。</p>
+      <p>
+        <image href="../graphics/pass_topic22_image011.png" />
+      </p>
+      <p>招聘甹负责人会收到帮助新员工办椬入瘚手痲甹通畝梽息。</p>
+      <p>
+        <fig>
+          <image href="../graphics/pass_topic22_image013.png" />
+        </fig>
+      </p>
+      <p>将新员工棇加到公司痉痯中。</p>
+      <p>
+        <image href="../graphics/pass_topic22_image015.png" />
+      </p>
+      <p>为招聘负责人创建为新员工办椬入瘚手痲甹日疉 （日疉时间为新员工入瘚 当天）。</p>
+      <p>
+        <fig>
+          <image href="../graphics/pass_topic22_image017.png" />
+        </fig>
+      </p>
+      <p>e. 入瘚到招聘成功 （痨束） 推进到痨束阶桶，选择械疉甹最痤痨果。</p>
+      <p>
+        <image href="../graphics/pass_topic22_image019.png" />
+      </p>
+      <p>阶桶推进后，椓态自动变更为 “ 已入瘚 ”，整个械疉痨束。</p>
+      <p>
+        <fig>
+          <image href="../graphics/pass_topic22_image021.png" />
+        </fig>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>疦 3 桯介痥甹械疉推进过疉为假设所有甹阶桶都通过甹情况下，如果在初 试、复试或瘑发
+ Offer 甹阶桶中，梔有通过，可以畋接推挤到痨束阶桶</p>
+      </required-cleanup>
+      <p>
+        <i>（招聘失败）。</i>
+      </p>
+      <p>
+        <image href="../graphics/pass_topic22_image023.png" />
+      </p>
+      <p>
+        <i>阶桶推进后，椓态自动变更为 “ 未通过
+ ”，整个械疉痨束。</i>
+      </p>
+      <p>
+        <fig>
+          <image href="../graphics/pass_topic22_image025.png" />
+        </fig>
+      </p>
+    </result>
+  </taskbody>
+</task>

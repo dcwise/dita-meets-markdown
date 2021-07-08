@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B57719-7125331-14A8715513E37CB-EB29E5">
+  <title>编辑组合产品的整体价格</title>
+  <shortdesc>在报价单明细页面，单击+号或-号编辑该组合产品的购买数量。<b>额外折扣</b>和<b>销售金额</b>，可以任选一项编辑，折扣百分比和金额数值会联动更新。</shortdesc>
+  <conbody>
+    <p>编辑完成后，单击<b>确定</b>。</p>
+    <p>
+      <fig>
+        <image href="../graphics/ugcpq_topic81_image002.png">
+        </image>
+      </fig>
+    </p>
+  </conbody>
+</concept>

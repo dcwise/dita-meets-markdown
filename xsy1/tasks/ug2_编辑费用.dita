@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B310A2-259F214-A7A1C1594155647-292370">
+  <title>编辑费用</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击<b><i>CRM&gt;费用</i></b>，显示费用列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击费用列表中对应选项的名称，进入费用详情页面。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>在费用详情页面可修改、删除费用以及查看操作记录。</p>
+      <p>
+        <fig>
+          <image href="../graphics/ug2_topic48_image002.png" />
+        </fig>
+      </p>
+    </result>
+  </taskbody>
+</task>

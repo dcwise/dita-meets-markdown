@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B14757-D24564F-25414515955E0ED-756C73">
+  <title>查看审批历史</title>
+  <shortdesc>审批申请人和审批人都可以查看当前已经完成的审批节点的审批情况。</shortdesc>
+  <conbody>
+    <p>
+      <image href="../graphics/SAMPLE_topic30_image002.png" />通过<xref href="SAMPLE_查看所有审批.dita">办公下的审批</xref>进入到审批列表中。在审批列表中，单击<b>审批历史</b>列的 查看所有已经完成的审批节点的审批结果。</p>
+    <p>
+      <fig>
+        <image href="../graphics/SAMPLE_topic30_image004.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

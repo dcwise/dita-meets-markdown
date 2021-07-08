@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7411571-C472453-95311154878517F-1677D9">
+  <title>导入产品</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>单击<b>新建产品</b>后面下拉箭头，选择<b>导入产品</b>。</cmd>
+      </step>
+      <step>
+        <cmd>下载数据模板，按照模板中的项目整理要导入的产品。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>NOTE </p>
+      <ul>
+        <li>模板中的表头名称不可更改，表头行不能删除；</li>
+        <li>项目顺序可以调整，不需要的项目可以删减；</li>
+        <li>其中产品名称、产品目录、标准价格、销售单位和启用状态为必填项，必须保留；</li>
+        <li>导入文件的大小请勿超过1MB。</li>
+      </ul>
+      <ol>
+        <li>选择数据重复时的操作，<b>不导入</b>或者<b>覆盖导入</b>。</li>
+        <li>单击<b>添加文件</b>，将编辑好的产品文件上传到系统。</li>
+        <li>单击<b>开始导入</b>，导入产品文件。如果导入失败，系统会给出错误提示，按照提示修改好内容后，可以重新导入。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

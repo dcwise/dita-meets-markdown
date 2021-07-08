@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB17B41A-7404521-AF1191553292B76-D1A4BB">
+  <title>流程列表</title>
+  <shortdesc>流程创建完成后，可以在流程列表中查看以及管理流程。在 【审批流程管理】页面，查看流程列表。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/SAMPLE_topic19_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

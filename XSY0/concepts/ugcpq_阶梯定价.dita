@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB125175-7141459-19F24A6159415A0-C54A99">
+  <title>阶梯定价</title>
+  <shortdesc>NOTE)</shortdesc>
+  <conbody>
+    <ul>
+      <li>阶梯价格表明细必须包含所有的数量范围，且各层级起始数量与截至数量需连接。例如0-100，100-500，500-无穷。此时如果产品的数量为100，默认取0-100区间的价格。</li>
+    </ul>
+    <p>当定价方式为<b>阶梯定价</b>时，需要填写阶梯定价明细。阶梯定价明细就是用来划分各层级的起始数量与截止数量。</p>
+    <p>
+      <fig>
+        <image href="../graphics/ugcpq_topic22_image002.png" />
+      </fig>
+    </p>
+    <ul>
+      <li>定价模型分为平价和单价两种。<ul><li>平价：一口价；在有效的数量范围内，价格不变。</li><li>单价：单个产品的价格。</li></ul></li>
+      <li>起始数量/截至数量：根据数量区间确定价格。</li>
+      <li>价格：明确单价或平价的价格。</li>
+    </ul>
+    <p>例如某一产品的定价方式如下：</p>
+    <table>
+      <tgroup cols="5" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <colspec colname="col5" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>定价模式/操作</b>
+            </entry>
+            <entry colname="col2">
+              <b>数量范围（个）</b>
+            </entry>
+            <entry colname="col3">
+              <b>价格（元）</b>
+            </entry>
+            <entry colname="col4">
+              <b>购买数量（个）</b>
+            </entry>
+            <entry colname="col5">
+              <b>最终价格（元）</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>单价</b>
+            </entry>
+            <entry colname="col2" translate="no"> 0-100 </entry>
+            <entry colname="col3" translate="no"> 50 </entry>
+            <entry colname="col4" translate="no"> 50 </entry>
+            <entry colname="col5" translate="no"> 50╳50=2500 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>平价</b>
+            </entry>
+            <entry colname="col2" translate="no"> 100-200 </entry>
+            <entry colname="col3" translate="no"> 5000 </entry>
+            <entry colname="col4" translate="no"> 150 </entry>
+            <entry colname="col5" translate="no"> 5000 </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>平价</b>
+            </entry>
+            <entry colname="col2" translate="no"> 200+ </entry>
+            <entry colname="col3" translate="no"> 8000 </entry>
+            <entry colname="col4" translate="no"> 300 </entry>
+            <entry colname="col5" translate="no"> 8000 </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <ul>
+      <li>当该产品购买数量在0-100区间时，该产品的最终价格为：购买数量╳单价。</li>
+      <li>当该产品购买数量在100-200区间时，该产品的最终价格为：设定的平价价格。</li>
+    </ul>
+  </conbody>
+</concept>

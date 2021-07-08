@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7117B47-5D44536-A12154A87D11574-15DB18">
+  <title>操作符 / 表达式对于 NULL 的处理方式</title>
+  <shortdesc>当为计算公式类型字段设置值时，可能会出现参与计算的字段值为
+ NULL （字段值为空白）的情况，下面主要介绍各运算符 / 表达式在
+ NULL 值参与运算时的处理方式，如下表所示。</shortdesc>
+  <taskbody>
+    <context>
+      <p>运算符 / 表达式 处理方式</p>
+      <p>加法 （+） 数字 +NULL=NULL NULL+ 数字 =NULL 日期
+ +NULL=NULL</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic38_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <image href="../graphics/SAMPLE_topic38_image002.png" />
+        <fig>
+          <image href="../graphics/SAMPLE_topic38_image003.png" />
+        </fig>
+        <image href="../graphics/SAMPLE_topic38_image002.png" />日期时间 +NULL=NULL NULL+NULL=NULL</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic38_image004.png" />
+        </fig>
+      </p>
+      <p>
+        <image href="../graphics/SAMPLE_topic38_image002.png" />
+        <image href="../graphics/SAMPLE_topic38_image002.png" />减法 （-） 数字 -NULL=NULL NULL- 数字 =NULL 日期
+ -NULL=NULL</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic38_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <image href="../graphics/SAMPLE_topic38_image002.png" />
+        <fig>
+          <image href="../graphics/SAMPLE_topic38_image003.png" />
+        </fig>
+        <image href="../graphics/SAMPLE_topic38_image003.png" />日期时间 -NULL=NULL
+ NULL- 日 期 =NULL NULL- 日期时间 =NULL NULL-NULL=NULL</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic38_image004.png" />
+        </fig>
+      </p>
+      <p>
+        <image href="../graphics/SAMPLE_topic38_image004.png" />
+        <fig>
+          <image href="../graphics/SAMPLE_topic38_image005.png" />
+        </fig>
+        <image href="../graphics/SAMPLE_topic38_image006.png" />乘法 （*） 两个参数中任意一个为 NULL，结果为 NULL 除法 （/） 两个参数中任意一个为 NULL，结果为 NULL 幂表 两个参数中任意一个为 NULL，结果为 NULL</p>
+      <p>特殊情况说明 | <b>174</b></p>
+      <p>
+        <b>运算符 / 表达式 处理方式</b>
+      </p>
+      <p>字符串链接 （&amp;） 假设参与运算的为 v1 和
+ v2，那么分为以下几种情况：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>如果 v1 和 v2 都为 NULL，则结果为 NULL。</cmd>
+      </step>
+      <step>
+        <cmd>如果 v1 为 NULL，v2 不为 NULL，则结果为 v2。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/SAMPLE_topic38_image004.png" />如果 v1 不为 NULL，v2 为
+ NULL，则结果为 v1。布尔表达式 操作符包括 =、==、&gt;、&lt;、&gt;=、&lt;=、!= 和
+ &lt;&gt;</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>假设参与运算的为 v1 和 v2，那么分为以下几种情况：</p>
+      <ol>
+        <li>如果 v1 和 v2 都为 NULL，则 v1 和
+ v2 通过上述运算符进行比较的结果如下：<p>当操作符为 = 或者 == 时，结果为 TRUE。</p><p>当操作符为 &gt;、&lt;、&gt;=、&lt;=、!= 或者 &lt;&gt; 时，结果为
+ FALSE。</p></li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic38_image004.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 如果 v1 和 v2 中任意一个 NULL，而另一个非 NULL， 则
+ v1 和 v2 通过上述任意一个运算符进行比较的结果都为 FALSE。</li>
+      </ol>
+      <p>逻辑表达式 操作符包括 &amp;&amp; 和
+ ||</p>
+      <p>假设参与运算的为 v1 和 v2，那么分为以下几种情况：</p>
+      <ol>
+        <li>如果 v1 和 v2 都为 NULL，则 v1 和
+ v2 通过上述任意一个运算符进行运算的结果都为
+ FALSE。</li>
+        <li>如果 v1 和 v2 中任意一个 NULL，而另一个非 NULL， 则
+ v1 和 v2 通过上述运算符进行运算的结果如下：</li>
+      </ol>
+      <p>当操作符为 &amp;&amp; 时，结果为 FALSE。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic38_image007.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 当操作符为 || 时，结果以另一个非 NULL 的值的结果为准。</p>
+      <p>| <b>175</b></p>
+    </result>
+  </taskbody>
+</task>

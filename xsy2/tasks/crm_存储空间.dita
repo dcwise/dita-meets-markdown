@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7429421-24B4235-6F154A8715117F1-6F3F7D">
+  <title>存储空间</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>存储空间说明（Table Title 斜体 10pt）</cmd>
+      </step>
+    </steps>
+    <result>
+      <table>
+        <tgroup cols="5" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <colspec colname="col3" />
+          <colspec colname="col4" />
+          <colspec colname="col5" />
+          <thead>
+            <row>
+              <entry> 存储空间<i>（Table Heading 加粗白色 10.5pt）</i></entry>
+              <entry> 免费版 </entry>
+              <entry> 专业版 </entry>
+              <entry> 企业版 </entry>
+              <entry> 旗舰版 </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry colname="col1"> 公司租户<i>（Table Text 10.5pt）</i></entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 用户/个 </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1">
+              </entry>
+              <entry colname="col2">
+              </entry>
+              <entry colname="col3">
+              </entry>
+              <entry colname="col4">
+              </entry>
+              <entry colname="col5">
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </result>
+  </taskbody>
+</task>

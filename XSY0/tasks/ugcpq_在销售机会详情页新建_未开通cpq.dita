@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB25197C-4459387-519455DDF518D08-C83C4A">
+  <title>在销售机会详情页新建（未开通CPQ）</title>
+  <shortdesc>NOTE </shortdesc>
+  <taskbody>
+    <context>
+      <p>一个销售机会下可以创建一个或者多个报价单。</p>
+      <p>在销售机会详情页中新建时，需要先创建一个销售机会。更多关于销售机会的创建，请参考《销售易CRM_销售云用户操作手册-网页端》。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在CRM首页，单击<b>销售机会</b>，进入销售机会列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>选择一个销售机会，单击名称，进入该销售机会详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>新建</b>&gt;<b>新建报价单</b>，并选择一种业务类型。如果没有为报价单设置其他业务类型，系统会自动选择默认业务类型。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic33_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>填写报价单中的信息，其中带*号的项为必填项。必填项和常用项均支持用户在系统后台通过<b>表单布局</b>功能设置。</cmd>
+        <info>
+          <p>
+            <image href="../graphics/ugcpq_topic33_image004.png">
+            </image>
+          </p>
+          <table>
+            <tgroup cols="2" colsep="1" rowsep="1">
+              <colspec colname="col1" />
+              <colspec colname="col2" />
+              <tbody>
+                <row>
+                  <entry colname="col1">
+                    <b>配置项</b>
+                  </entry>
+                  <entry colname="col2">
+                    <b>说明</b>
+                  </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 报价单编号 </entry>
+                  <entry colname="col2"> 系统会自动为报价单编号，无需手动填写。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 报价时间 </entry>
+                  <entry colname="col2"> 系统自动以当前的时间点作为报价时间，但允许手动修改。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 阶段 </entry>
+                  <entry colname="col2"> 单击箭头选择一个合适的报价阶段。默认的报价阶段为<b>草稿</b>。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 所属部门 </entry>
+                  <entry colname="col2"> 单击<b>+</b>号，为报价单选择一个所属部门。 </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </info>
+      </step>
+      <step>
+        <cmd>单击+号，从产品列表中选择产品，产品的名称和价格会自动显示在<b>报价单明细</b>列表中。</cmd>
+        <info>
+          <p>在报价单明细中，您可以选择适合的价格表，并且产品的销售单价、数量和折扣也允许手动修改原有数值。修改后，销售金额会自动计算。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成报价单新建。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>如果在未开通CPQ功能的情况下还需要对报价单进行更多的操作，请参考<xref href="../concepts/ugcpq_未开通cpq.dita">未开通CPQ</xref>。</p>
+    </result>
+  </taskbody>
+</task>
