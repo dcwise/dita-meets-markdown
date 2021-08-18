@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B5A523-B575441-1F54A7655315AC8-8DFF21">
+  <title>用户状态变更的处理说明</title>
+  <shortdesc>在企业微信中修改通讯录时，部分操作在销售易系统中的自动处理方式如下表所 示：</shortdesc>
+  <conbody>
+    <p>企业微信中的操作 销售易系统中的处理</p>
+    <p>禁用用户 禁用用户</p>
+    <p>
+      <fig>
+        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic42_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic42_image002.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 启用用户 启用用户</p>
+    <p>删除用户 • 未激活用户</p>
+    <p>删除用户</p>
+    <ul>
+      <li>已激活用户</li>
+    </ul>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic42_image003.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 用户为离职状态。</p>
+    <p>
+      <b>NOTE </b>上表仅对一般情况进行了说明，对于一些特殊情况( 例如在企业微信中删除的用户，在销售易系统中存在业务数据)，请查看销售易系统具体的通知消息。</p>
+  </conbody>
+</concept>

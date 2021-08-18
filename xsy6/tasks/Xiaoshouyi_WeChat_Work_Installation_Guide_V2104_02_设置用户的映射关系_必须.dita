@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A4752B75-4524712-158715254AAD829-E79B7F">
+  <title>设置用户的映射关系 （必须）</title>
+  <shortdesc>
+    <b>NOTE 1. </b>本章节在介绍时，默认已经开启了通讯录同步功能。</shortdesc>
+  <taskbody>
+    <context>
+      <required-cleanup>
+        <p id="单独设置每个用户的映射关系">
+          <b>[heading h6 could not be placed here]: </b>单独设置每个用户的映射关系</p>
+      </required-cleanup>
+      <p>有两种方式可以为单个用户设置映射关系。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>方式一：通过用户信息设置</p>
+      </required-cleanup>
+      <p>遵循以下步骤，设置用户的映射关系：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在销售易系统后台页面的左侧导航菜单中，单击<b>用户和权限管理 </b>&gt; <b>部门 / 用户管理</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【部门
+ / 用户管理】页面，勾选需要设置的用户。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>编辑</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【编辑用户】页面，将用户的企业微信账号填写到<b>企业微信账号</b>部分。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image004.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>方式二：通过外部账户绑定设置</p>
+      </required-cleanup>
+      <p>遵循以下步骤，设置用户的映射关系：</p>
+      <ol>
+        <li>在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt; <b>外部账户绑定</b>。</li>
+        <li>在 【外部认证列表】页面，单击<b>导出</b>按钮上的 <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image006.png" /> ，在弹出的菜单中单击<b>导出企业微信账号</b>导出企业微信中的用户信息。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image008.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>在 【外部认证列表】页面，单击<b>未绑定用户列表</b>标签。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image010.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>在未绑定用户列表中，单击相应部门后<b>操作</b>下的<b>账号绑定</b>。</li>
+        <li>在<b>外部应用账号</b>中填写<xref href="#A4752B75-4524712-158715254AAD829-E79B7F/_bookmark38">第2 步</xref>中获取到<b>企业微信账号</b>。</li>
+        <li>绑定成功后，在 【外部认证列表】页面，单击<b>已绑定用户列表</b>标签，可查看绑定成功的用户。</li>
+      </ol>
+      <p>
+        <b>NOTE </b>当需要对大量用户进行绑定操作时，可单击<b>批量编辑</b>让未绑定用户列表中所有用户的企<b>外部应用账号</b>变为可编辑状态，从而提高配置效率。</p>
+      <required-cleanup>
+        <p id="批量设置用户的映射关系">
+          <b>[heading h6 could not be placed here]: </b>批量设置用户的映射关系</p>
+      </required-cleanup>
+      <p>遵循以下步骤，批量设置用户的映射关系：</p>
+      <ol>
+        <li>在销售易系统后台页面的左侧导航菜单中，单击<b>集成 &gt; 外部账户绑定</b>。</li>
+        <li id="_bookmark38">在 【外部认证列表】页面，单击<b>导出</b>按钮上的 <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image011.png" /> ，在弹出的菜单中单击<b>导出企业微信账号</b>导出企业微信中的用户信息。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image008.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li id="_bookmark39">在 【外部认证列表】页面，单击<b>导出</b>导出销售易系统中的用户信息。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image013.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li id="_bookmark40">根据用户账号的匹配关系，将<xref href="#A4752B75-4524712-158715254AAD829-E79B7F/_bookmark38">第2 步</xref>中获取到的<b>企业微信账号</b>，填写到<xref href="#A4752B75-4524712-158715254AAD829-E79B7F/_bookmark39">第3步</xref>的<b>外部应用账号</b>中。</li>
+        <li>
+          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image014.png" />在 【外部认证列表】页面，单击<b>导入</b>。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image016.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>选择文件编码 选择 GB18030 （简体中文）。上传文件 选择<xref href="#A4752B75-4524712-158715254AAD829-E79B7F/_bookmark40">第4 步</xref>中的文件。</p></li>
+        <li>
+          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic18_image017.png" />设置完成后，单击<b>开始导入</b>。</li>
+        <li>导入成功后，在 【外部认证列表】页面，单击<b>已绑定用户列表</b>标签，可查看绑定成功的用户。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

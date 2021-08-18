@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABDB5310-D2A4743-55F215A7A155253-741555">
+  <title>数据批量转移历史</title>
+  <taskbody>
+    <context>
+      <p>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_用户业务数据批量转移.dita">用户业务数据批量转移</xref>的转移结果可在数据批量转移历史中查看。
+ 遵循以下步骤，查看数据批量转移日志 :</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在左侧导航菜单中单击<b>日志审计 </b>&gt; <b>数据批量转移日志</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【数据批量转移历史】页面，在数据批量转移历史的列表中，单击某个转移请求编号可查看此次转移日志的详细信息，也可对转移失败的数据重新进行转移操作。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>| <b>222</b></p>
+    </result>
+  </taskbody>
+</task>

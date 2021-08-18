@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A74D7B51-0D7A534-521512487A15B57-F12CAB">
+  <title>阅读指南</title>
+  <shortdesc>
+    <b>手册目标</b>
+  </shortdesc>
+  <taskbody>
+    <context>
+      <p>本文档主要介绍PaaS 平台中自定义对象、通用选项集相关功能的配置方法以及业务数据批量处理的方法。</p>
+      <p>
+        <b>手册约定</b>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>本文档中所有标识为 <b>NOTE
+ </b>的部分表示需要您特别关注的内容。</cmd>
+      </step>
+      <step>
+        <cmd>由于系统不断更新，当文档中图片与系统有差别时，请以系统为准。</cmd>
+      </step>
+      <step>
+        <cmd>本文档中的所有内容均基于旗舰版编写，如果您使用的版本为非旗舰版，则可能不包含其中的部分功能。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

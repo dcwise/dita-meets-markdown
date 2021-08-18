@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A75A475B-752441F-487F15741A51BA8-0842CC">
+  <title>前提条件</title>
+  <shortdesc>在安装销售易标准应用或者自定义应用之前，需要先进行以下几项操作：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          <xref href="#A75A475B-752441F-487F15741A51BA8-0842CC/_bookmark16">在企业微信后台中创建应用</xref>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="#A75A475B-752441F-487F15741A51BA8-0842CC/_bookmark18">在企业微信后台获取配置所需参数</xref>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="#A75A475B-752441F-487F15741A51BA8-0842CC/_bookmark26">绑定企业关系</xref>
+          <required-cleanup>
+            <p id="_bookmark16">
+              <b>[heading h6 could not be placed here]: </b>在企业微信后台中创建应用</p>
+          </required-cleanup>
+        </cmd>
+        <info>
+          <p>遵循以下步骤，在企业微信微信后台中创建应用：</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>企业微信管理员登录企业微信后台管理平台 https://work.weixin.qq.com。</cmd>
+          </substep>
+          <substep>
+            <cmd>登录成功后，在企业微信管理平台中，单击<b>应用管理</b>标签。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <fig>
+                            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image002.png" />
+                          </fig>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>在应用管理页面的<b>自建</b>部分，单击<b>创建应用</b>。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image004.png" />
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>设置应用的 logo、名称等，设置完成后，单击<b>创建应用</b>。应用创建成功后， 将跳转到应用的详情页面。</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image006.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <required-cleanup>
+        <p id="_bookmark18">
+          <b>[heading h6 could not be placed here]: </b>在企业微信后台获取配置所需参数</p>
+      </required-cleanup>
+      <p>在创建应用之前，需要先获取以下几个参数的内容：企业 ID、AgentID、Secret、iOS schema、Android schema、。</p>
+      <p>遵循以下步骤，获取以上几个参数的内容：</p>
+      <ol>
+        <li id="_bookmark19">企业微信管理员登录企业微信后台管理平台 https://work.weixin.qq.com。</li>
+        <li>登录成功后，进入<b>我的企业 </b>&gt; <b>企业信息</b>页面获取 “ <b>企业 ID</b>” 的内容。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image008.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li id="_bookmark20">单击<b>应用管理</b>标签 , 在<b>自建</b>部分找到创建好的应用，单击该应用进入到应用详情页面，获取 <b>AgentID </b>和 <b>Secret </b>两个参数的内容。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image010.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>在应用详情页面，找到<b>开发者接口</b>部分，单击<b>企业微信授权登录</b>中的<b>设置</b>，将 出现下图所示页面。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image012.png" /></entry></row></tbody></tgroup></table></p><p id="_bookmark21">在 【企业微信授权登录】页面，获取 <b>iOS schema </b>和 <b>Android schema
+ </b>两个参数的内容。</p><ol><li>获取 iOS schema 参数的内容。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image014.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>获取 Android schema 参数的内容。</li></ol><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image014.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li id="_bookmark23">在应用详情页面，找到<b>开发者接口</b>部分，单击<b>网页授权及 JS-SDK </b>中的<b>设置可信域名</b>，将出现下图所示页面。<ol><li>在 【设置可信域名】页面，单击<b>申请校验域名</b>。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image016.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>在出现的内容中单击<b>下载文件</b>。</li></ol><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image018.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li id="_bookmark24">在应用详情页面，找到<b>功能</b>部分，单击<b>接收消息</b>中的<b>设置 API 接收</b>，将出现下图所示页面。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image020.png" /></fig></entry></row></tbody></tgroup></table></p><ol><li>获取 Token 参数的内容。<p>单击 Token 部分的<b>随机获取</b>生成。</p></li><li>获取 EncodingAESKey 参数的内容。</li></ol></li>
+      </ol>
+      <p>单击 EncodingAESKey 部分的<b>随机获取</b>生成。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>NOTE </b>此处仅获取
+ Token 和EncodingAESKey 的信息，暂时不需要配置页面中的内容，详细的配置方法请参考企业微信后台配置接收消息（以自建应用方式安装标准应用时必须）。</p>
+      </required-cleanup>
+      <required-cleanup>
+        <p id="_bookmark26">
+          <b>[heading h6 could not be placed here]: </b>绑定企业关系</p>
+      </required-cleanup>
+      <p>绑定企业关系指设置销售易系统和企业微信中企业的映射关系。 遵循以下步骤，绑定企业关系：</p>
+      <ol>
+        <li>登录销售易系统，在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</li>
+        <li>在 【企业微信集成应用】页面设置企业关系。<p><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image022.png" /></p><p>配置项 说明</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image023.png" /></fig></entry></row></tbody></tgroup></table>
+ 企业微信
+ ID 输入<xref href="#A75A475B-752441F-487F15741A51BA8-0842CC/_bookmark19">此步</xref>中获取到的企业 ID 内容。</p><p>企业微信名称 在一些位置会显示企业微信名称，建议设置为企业微信 中的企业名称。</p><p><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic13_image024.png" /></p></li>
+        <li>设置完成后，单击<b>绑定企业微信 ID</b>。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

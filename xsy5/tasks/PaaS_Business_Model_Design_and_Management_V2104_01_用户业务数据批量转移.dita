@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABD7B531-0245345-2151FA871253715-C9C8E8">
+  <title>用户业务数据批量转移</title>
+  <shortdesc>当需要将某个用户下的一个或者多个对象下的业务数据转移给其他某个用户时，可 以通过用户业务数据批量转移实现。</shortdesc>
+  <taskbody>
+    <context>
+      <p>遵循以下步骤，进行用户业务数据批量转移 :</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在左侧导航菜单中，单击<b>数据管理 </b>&gt; <b>用户业务数据批量转移</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【用户业务数据批量转移】页面，设置业务数据转移的源用户、目标用户以及需要转移哪个对象的数据。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic40_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>转移</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>数据批量转移历史 | <b>221</b></p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A75A7B75-2876454-11F21A87D145535-A553F1">
+  <title>补充用户信息 （不建议通过此方式配置）</title>
+  <shortdesc>应用添加完成后，根据应用的可见范围，会自动同步企业微信中相应的用户信息到 销售易系统中，但由于在安装应用时，尚未开启通讯录同步功能，所以同步的信息 并非用户的真实信息。</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>用户信息补充主要用于将用户 ID 改为真实的用户名称。遵循以下步骤，补充用户信息：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在销售易系统后台页面的左侧导航菜单中，单击<b>集成 &gt; 外部账户绑定</b>。</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark88">在 【外部认证列表】页面，单击<b>导出</b>按钮上的 <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image004.png" /> ，在弹出的菜单中单击<b>导出企业微信账号</b>导出企业微信中的用户信息。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image006.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在销售易系统后台页面的左侧导航菜单中，单击<b>用户和权限管理 &gt; 部门 / 用户管理</b>。</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark89">在 【部门 / 用户管理】页面，单击<b>新建用户</b>按钮上的 <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image004.png" /> ，在弹出的菜单中单击<b>导出用户</b>导出销售易系统中的用户信息。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image008.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在 【部门 / 用户管理】页面，单击<b>新建用户</b>按钮上的 <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image004.png" /> ，在弹出的菜单中单击<b>导入用户</b>。</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark90">在 【导入用户】页面中，单击<b>下载数据模板</b>。</cmd>
+        <info>
+          <p>对此表进行以下修改操作：根据<xref href="#A75A7B75-2876454-11F21A87D145535-A553F1/_bookmark88">第2 步</xref>和<xref href="#A75A7B75-2876454-11F21A87D145535-A553F1/_bookmark89">第6 步</xref>中获取到的信息，填写用户信息 （填写项请参考下图）。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image010.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在 【导入用户】页面，设置其他配置项。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image012.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 配置项 说明</p>
+          <p>账号 选择用邮箱作为账号。</p>
+          <p>
+            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image013.png" />
+          </p>
+          <p>
+            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image014.png" />选择文件编码 选择 GB18030( 简体中文)。当手机号或公司邮箱重复时 选择覆盖更新。</p>
+          <p>
+            <fig>
+              <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image013.png" />
+            </fig>
+          </p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image015.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 选择文件 选择<xref href="#A75A7B75-2876454-11F21A87D145535-A553F1/_bookmark90">第6 步</xref>中的文件。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>开始导入</b>。</cmd>
+      </step>
+      <step>
+        <cmd>导入成功后，在销售易系统后台页面的左侧导航菜单中 , 单击<b>集成 &gt; 外部账户绑定</b>，在 【外部认证列表】的<b>已绑定用户列表</b>中可以查看补充完成的用户信息。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic30_image017.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

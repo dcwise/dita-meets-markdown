@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB51A41F-254F155-2375C53B4F22190-994F1E">
+  <title>了解对象之间的关系</title>
+  <conbody>
+    <p>与在数据库中建立表之间的关系类似，在销售易系统中，对象之间的关系可分为以 下两种：一般关联关系和主子明细。通过<xref href="../tasks/PaaS_Business_Model_Design_and_Management_V2104_01_设置字段.dita#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark43">关联关系</xref>类型的字段可以建立一对一和一 对多的对象关系，例如订单和产品之间是典型的多对多关系。<xref href="../tasks/PaaS_Business_Model_Design_and_Management_V2104_01_设置字段.dita#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark45">主子明细</xref>属于关联关 系的一种特殊情况，通常子对象依附于主对象而存在，例如订单和订单明细。</p>
+    <p>在页面中查看数据时，也可以查看或操作与其相关的数据。例如，在市场活动的<b>相 关</b>中查看关联对象 “ 线索 ” 的数据。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic11_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>了解数据展示页面 | <b>6</b></p>
+  </conbody>
+</concept>

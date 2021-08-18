@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7BD7B53-102A7A4-35121487F452374-15555D">
+  <title>了解标准字段和自定义字段</title>
+  <shortdesc>在销售易系统中，字段分为标准字段和自定义字段。标准字段是标准对象或者创建 自定义对象时，系统预置的字段，例如所有人、创建人、创建日期。自定义字段主 要根据具体的业务情况，存储特定的信息，例如，在自定义对象订车单中，创建一 个名称为 “ 预计提车日 ” 的自定义字段，存储客户计划提车的日期。</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic10_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>了解对象之间的关系 | <b>5</b></p>
+  </conbody>
+</concept>

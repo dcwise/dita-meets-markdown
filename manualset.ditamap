@@ -19,14 +19,13 @@
       <revised modified="2021-07-06"/>
       <!--RAYFAN-->
       <revised modified="2021-07-08"/>
+      <!--RAYFAN-->
+      <revised modified="2021-08-10"/>
+      <!--RAYFAN-->
+      <revised modified="2021-08-18"/>
     </critdates> 
 
-
     
-
-   
-
- 
     
   </topicmeta>
 
@@ -47,6 +46,15 @@
   </topichead>
   
   
+  
+  <topichead navtitle="PaaS 平台中自定义对象">
+    <topicref href="xsy5/PaaS_Business_Model_Design_and_Management_V2104_01.ditamap" format="ditamap"/>
+  </topichead>
+  
+  
+  <topichead navtitle="销售易企业微信安装">
+    <topicref href="xsy6/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02.ditamap" format="ditamap"/>
+  </topichead>  
   
   
   

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7D3D2A4-A4355A1-1237415574E6419-DE1935">
+  <title>配置入口</title>
+  <shortdesc>创建、配置对象和字段都在 【自定义业务对象管理】页面进行。遵循以下步骤，进入
+ 【自定义业务对象管理】页面。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录销售易系统 （<xref href="https://crm.xiaoshouyi.com/" scope="external" format="html">https://crm.xiaoshouyi.com</xref>），在左侧导航栏底部单击<b>设置 </b>&gt; <b>系统设置</b>进入系统后台。</cmd>
+      </step>
+      <step>
+        <cmd>在左侧导航菜单中 , 单击<b>对象和字段 &gt; 对象</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>重塑企业与客户的连接—Neocrm 销售易</p>
+    </result>
+  </taskbody>
+</task>

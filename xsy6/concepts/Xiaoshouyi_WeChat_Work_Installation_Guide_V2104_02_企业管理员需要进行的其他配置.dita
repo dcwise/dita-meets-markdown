@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A757B425-2417F4A-8F12525374155AE-59303B">
+  <title>企业管理员需要进行的其他配置</title>
+  <shortdesc>应用安装成功后，企业管理员根据需要可以进行以下配置：</shortdesc>
+  <conbody>
+    <ul>
+      <li>
+        <xref href="../tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_开启通讯录同步_可选.dita">开启通讯录同步 （可选）</xref>
+      </li>
+      <li>
+        <xref href="../tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户的映射关系_必须.dita">设置用户的映射关系 （必须）</xref>
+      </li>
+      <li>
+        <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户权限_可选.dita">设置用户权限 （可选）</xref>
+      </li>
+      <li>
+        <xref href="../tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业微信后台配置可信域名_必须.dita">企业微信后台配置可信域名 （必须）</xref>
+      </li>
+      <li>
+        <xref href="../tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业微信后台配置单点登录_开启单点登录时必须.dita">企业微信后台配置单点登录 （开启单点登录时必须）</xref>
+      </li>
+      <li>
+        <xref href="../tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业微信后台配置接收消息_以自建应用方式安装标准应用时必须.dita">企业微信后台配置接收消息 （以自建应用方式安装标准应用时必须）</xref>
+      </li>
+      <li>
+        <xref href="../tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_销售管理应用的配置说明.dita">销售管理应用的配置说明</xref>
+      </li>
+    </ul>
+  </conbody>
+</concept>

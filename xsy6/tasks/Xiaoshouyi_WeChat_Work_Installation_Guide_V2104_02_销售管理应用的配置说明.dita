@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB5A83B7-6447148-7C175257455A22A-50457E">
+  <title>销售管理应用的配置说明</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>
+          <xref href="#AB5A83B7-6447148-7C175257455A22A-50457E/_bookmark65">关联企业微信联系人的配置说明</xref>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="#AB5A83B7-6447148-7C175257455A22A-50457E/_bookmark70">企业微信会话内容存档的配置说明</xref>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="#AB5A83B7-6447148-7C175257455A22A-50457E/_bookmark72">销售易日程和企业微信日程同步的配置说明</xref>
+        </cmd>
+      </step>
+    </steps>
+    <result>
+      <required-cleanup>
+        <p id="_bookmark65">
+          <b>[heading h6 could not be placed here]: </b>关联企业微信联系人的配置说明</p>
+      </required-cleanup>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>如果允许用户使用关联企业微信联系人的功能，则企业管理员必须进行一些必要的配置。</p>
+      </required-cleanup>
+      <p>遵循以下步骤，配置关联企业微信联系人功能：</p>
+      <ol>
+        <li>
+          <xref href="#task2383/_bookmark66">开启外部联系人同步功能</xref>
+        </li>
+        <li>
+          <xref href="#AB5A83B7-6447148-7C175257455A22A-50457E/_bookmark68">配置允许使用关联企业微信联系人的用户</xref>
+        </li>
+      </ol>
+      <required-cleanup>
+        <p id="_bookmark67">
+          <b>[heading h6 could not be placed here]: </b>开启外部联系人同步功能</p>
+      </required-cleanup>
+      <ol>
+        <li>登录企业微信后台管理平台https://work.weixin.qq.com。</li>
+        <li>登录成功后，单击<b>客户管理</b>标签。</li>
+        <li>在<b>客户联系</b>页面，单击左侧导航中的<b>客户</b>。</li>
+        <li>在<b>客户</b>页面，单击 <b>API^</b><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image002.png" /></fig></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>在
+ API 部分获取以下值：</p></required-cleanup><ol><li>Secret 的值：<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image004.png" /></entry></row></tbody></tgroup></table></p></li><li>单击<b>接收事件服务器</b>后的<b>设置</b>，在<b>设置接收事件服务器</b>页面，先单击Token 后的<b>随机获取</b>，获取 Token 的值，然后单击EncodingAESKey</li></ol><required-cleanup><p><b>[heading h5 could not be placed here]: </b>后的<b>随机获取</b>获取 EncodingAESKey 的值。此页面不要关闭，后面的步骤中会填写 URL 的值。</p></required-cleanup><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image006.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>登录销售易系统，在销售易系统后台页面找到<b>平台工具</b>，然后单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。如果无法找到对应的入口，请先将后台系统升级为新版。</li>
+        <li>找到<b>企微联系人</b>，然后开启配置按钮。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image008.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>将从企业微信后台获取的 Secret 值、Token 和 EncodingAESKey 的值填入到对应的位置。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image010.png" /></fig></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>复制 URL 地址，然后单击<b>保存</b>，完成销售易后台配置。</p></required-cleanup></li>
+        <li>返回到企业微信后台，将 URL 填入对应的位置。单击<b>保存</b>，完成企业微信后台配置。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image012.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p id="_bookmark68">
+        <b>配置允许使用关联企业微信联系人的用户</b>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>遵循以下步骤，配置允许使用关联企业微信联系人功能的用户：</p>
+      </required-cleanup>
+      <ol>
+        <li>企业微信管理员登录企业微信后台管理平台 https://work.weixin.qq.com。<required-cleanup><p><b>[heading h5 could not be placed here]: </b>登录成功后，在企业微信管理平台中，单击<b>客户联系</b>标签。</p></required-cleanup></li>
+        <li>单击左侧导航中的权限配置，然后在<b>客户联系和客户群</b>的使用范围中单击<p><b>修改</b>。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image014.png" /></fig></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>再次单击<b>修改</b>，从列表中选择成员或者部门，然后单击<b>确认</b>。</p></required-cleanup></li>
+        <li>人员或者部门添加成功后，单击<b>完成</b>。</li>
+      </ol>
+      <required-cleanup>
+        <p id="_bookmark70">
+          <b>[heading h6 could not be placed here]: </b>企业微信会话内容存档的配置说明</p>
+      </required-cleanup>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>如果允许用户使用会话存档的功能，则企业管理员必须进行一些必要的配置。</p>
+      </required-cleanup>
+      <p>在进行开启会话内容存档功能的配置之前，请确保已经开启<xref href="#AB5A83B7-6447148-7C175257455A22A-50457E/_bookmark67">开启外部联系人同</xref><xref href="#AB5A83B7-6447148-7C175257455A22A-50457E/_bookmark67">步功能</xref>。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>遵循以下步骤，开启会话内容存档功能：</p>
+      </required-cleanup>
+      <ol>
+        <li>登录销售易系统后台，在左侧导航菜单中找到<b>平台工具</b>，然后单击<b>对象和字段 </b>&gt; <b>对象</b>。如果找不到对应的路径，请先将系统后台升级为新版。</li>
+        <li>在业务对象列表中找到<b>企微联系人</b>，并单击<b>同步规则设置 </b>&gt; <b>初始化</b>。</li>
+        <li>登录企业微信后台管理平台https://work.weixin.qq.com。</li>
+        <li>登录成功后，单击<b>管理工具 </b>&gt; <b>会话内容存档</b>。如果在页面没有找到<b>会话内容存档</b>，需要联系销售易单独开通此功能。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image016.png" /></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>设置开启互换内容存档的信息。在此页面进行配置时需要验证声纹锁。如果未在微信中设置过，则企业管理员需要先前往微信中设置声纹锁，设置方法请参考扫码后的页面及微信中的向导。</p></required-cleanup></li>
+        <li>在<b>开启范围</b>中，单击<b>修改</b>，可以更改允许使用会话内容存档的用户。更改或添加用户时，请注意版本所限制的最大用户数。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image018.png" /></fig></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>开启的范围可以是个人也可以是部门。选中的人或部门会自动添加到弹窗右侧，单击<b>确认</b>，完成开启范围的修改。</p></required-cleanup><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image020.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>在<b>可信 IP 地址</b>处单击<b>添加</b>，可添加
+ IP 地址。请联系销售易技术支持同事获取租户所在环境的 IP
+ 地址。<required-cleanup><p><b>[heading h5 could not be placed here]: </b>获取 Secret 值并保存，管理员需要将 Secret 值填写到销售易系统中。</p></required-cleanup></li>
+        <li>返回到销售易系统后台，找到<b>平台工具</b>，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</li>
+        <li>在<b>授权信息</b>中，开启<b>留言存档</b>配置按钮。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image022.png" /></fig></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>将从企业微信后台获取到的 Secret 值填入到对应的位置。先复制公钥，管理员需要将公钥填写到企业微信后台。单击<b>保存</b>，完成销售易系统配置。</p></required-cleanup><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image024.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>返回到企业微信后台，找到<b>消息加密公钥</b>，将公钥填入对应的位置，然后单击</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image026.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>保存</b>，完成企业微信后台配置。</p>
+      <required-cleanup>
+        <p id="_bookmark72">
+          <b>[heading h6 could not be placed here]: </b>销售易日程和企业微信日程同步的配置说明</p>
+      </required-cleanup>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>如果允许用户使用日程同步的功能，则企业管理员必须进行一些必要的配置。遵循以下步骤，开启日程同步功能：</p>
+      </required-cleanup>
+      <ol>
+        <li>登录企业微信后台管理平台https://work.weixin.qq.com。</li>
+        <li>登录成功后，单击<b>应用管理 </b>&gt; <b>日程</b>。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image028.png" /></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>获取 Secret 值，并将获取到的值复制或者妥善保存。不要关闭此页面，以便继续填入其他配置。</p></required-cleanup></li>
+        <li>在新标签页中登录销售易系统后台，找到<b>平台工具</b>，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</li>
+        <li>开启<b>日程同步工具</b>设置按钮，并进入设置页面。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image030.png" /></fig></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>将从企业微信后台获取到的 Secret 值填入到对应的位置。</p></required-cleanup></li>
+        <li>返回到企业微信后台，在接收事件服务器处，单击<b>设置</b>。获取到 Token 和EncodingAESKey 的值。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image032.png" /></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b>返回到销售易系统后台，将获取到的 Token 和 EncodingAESKey 的值填入到对应的位置。</p></required-cleanup><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image034.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>先复制 URL 地址，然后单击<b>保存</b>。<required-cleanup><p><b>[heading h5 could not be placed here]: </b><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image036.png" /></entry></row></tbody></tgroup></table>
+ 回到企业微信后台将复制的 URL 地址填入到对应的位置，然后单击<b>保存</b>。</p></required-cleanup></li>
+        <li>在<b>可调用接口的应用</b>处，单击<b>设置</b>，并从列表中选择一个或者多个应用，<p>然后单击<b>确定</b>。选择后，用户就可以通过选中的应用调用日程数据。</p></li>
+        <li>在企业微信客户端，用户可以通过日程中的<b>设置</b>，开启<b>同步系统日历</b>，将与企业微信绑定系统日程同步到企业微信中。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic23_image038.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

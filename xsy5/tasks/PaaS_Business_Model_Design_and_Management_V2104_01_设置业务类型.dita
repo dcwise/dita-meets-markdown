@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7D5302A-7A53521-51F2547557455AA-27A3B8">
+  <title>设置业务类型</title>
+  <shortdesc>以客户为例，公司客户可能包含多种类型，比如渠道商、个人、代理商等，大部分 公司对于不同类型的客户，其关注点可能也不相同，比如对于渠道商可能更关注公 司名称、公司地址等信息，而对于个人客户，则更关注姓名、手机号、邮箱等信 息，业务类型正是解决此问题，可以为不同业务类型分配不同的页面布局。</shortdesc>
+  <taskbody>
+    <context>
+      <p id="新建或编辑业务类型">新建或编辑业务类型</p>
+      <p>遵循以下步骤，新建或编辑业务类型：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在 【自定义对象】页面，单击对象名称。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>业务类型</b>标签。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image001.png" />单击<b>添加业务类型</b>，或单击 修改已有的业务类型。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image003.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 配置项 说明</p>
+          <p>业务类型名称 业务类型的名称，支持汉字、数字、字母等字符。API 名称 系统默认填充，可更改。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image004.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image004.png" />帮助文本 当用户悬停在此业务类型旁的消息图标上时，此文本将自 动显示，建议设置为对业务类型的必要解释。</p>
+          <p>描述 用于记录该业务类型的一些信息。</p>
+          <p>
+            <fig>
+              <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image004.png" />
+            </fig>
+          </p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image005.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 职能 默认为所有职能可用。在创建客户时，只有满足该职能的 用户才能选择到对应的业务类型。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p id="_bookmark22">设置业务类型可见的选项范围</p>
+      <p>当对象中包含单选或者多选类型的字段时，可以通过业务类型来控制单选或者多选 类型字段中选项列表值的显示。更多关于单选和多选类型字段的详细介绍，请参考 <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_设置字段.dita#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark32">单选</xref>和<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_设置字段.dita#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark34">多选</xref>。</p>
+      <ol>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image007.png" />在业务类型列表中，单击 ，进入选项范围设置页面。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image008.png" />假设自定义客户信息中包含一个单选字段 （地区）和一个多选字段 （客户来源），单击
+ ，进入字段的选项范围编辑页面。以单选字段<b>地区</b>为例。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image010.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>在单选字段选项列表中，默认所有值都可见。如果需要设置某个值不可见，则 选中后将其移到<b>可用值</b>列表中，也可以在<b>默认值</b>中设置当前业务类型下该字段 的默认值。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image012.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <b>NOTE 1. </b>设置完成后，如果对单选或者多选字段新增了选项列表值，则新增的选项列表值默认在所有业务类型下都可见。</p>
+      <p>
+        <b>2. </b>触发事件中的更新字段不受此处的限制。即使业务类型设置了某些选项列表值不可见，更新字段值也可以选择所有的选项列表值。</p>
+      <p id="业务类型排序">业务类型排序</p>
+      <p>当对象中添加多种业务类型时，可以对业务类型进行排序，例如将常用的业务类型 放到前面来提高用户的操作效率。此处配置的排序顺序会影响用户在系统前台看到 的业务类型的显示顺序，例如新建数据时看到的业务类型列表。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image014.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>遵循以下步骤，配置业务类型的顺序：</p>
+      <ol>
+        <li>在 【业务类型】页面，单击<b>重新排序</b>。</li>
+        <li>在 【业务类型排序】页面，调整顺序。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image016.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>设置完成后，单击<b>保存设置</b>。</li>
+      </ol>
+      <p id="禁用或删除业务类型">禁用或删除业务类型</p>
+      <p>业务类型添加完成后，可以对其进行禁用或者删除。</p>
+      <p>
+        <b>NOTE </b>默认的业务类型不能被禁用和删除。</p>
+      <p>禁用业务类型</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image018.png" />在业务类型列表页面，单击 ，可以禁用当前的业务类型。</p>
+      <p>删除业务类型</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic18_image020.png" />在业务类型列表页面，单击 ，可以删除自定义的业务类型。</p>
+      <p>
+        <b>NOTE
+ </b>如果业务类型在系统中已经被使用，则该业务类型不允许被删除。</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B7531D-27A44F1-A8A165341583246-3FB02E">
+  <title>附录 A	函数说明</title>
+  <shortdesc>在设置一些值时
+ （例如，为文本类型字段设置默认值、在校验规则中设置校验条件），需要使用 “ 插入函数” 的功能来辅助值的设置。本章主要对
+ “ 插入函数” 中支持的所有函数进行详细的说明。</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

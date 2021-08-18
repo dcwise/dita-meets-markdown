@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B7530D-2AA4545-251154A8D452541-51D03E">
+  <title>对象映射的配置</title>
+  <shortdesc>对象映射配置指配置对象之间字段的映射关系。例如，报价单转订单时，需要将报 价单中的 “ 报价时间 ” 映射到订单中的 “ 下单时间 ”。</shortdesc>
+  <taskbody>
+    <context>
+      <p>遵循以下步骤，设置字段的映射关系 :</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在左侧导航菜单中，单击<b>对象和字段 </b>&gt; <b>对象映射</b>。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic30_image002.png" />在 【对象映射】页面，单击相应对象后<b>映射字段</b>下的 。</cmd>
+      </step>
+      <step>
+        <cmd>在映射规则配置页面，设置映射的目标对象字段。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic30_image004.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

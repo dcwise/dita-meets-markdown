@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B73A44-5F21548-C4553715559FC82-507D10">
+  <title>设置布局</title>
+  <shortdesc>支持不同职能的用户具有不同的页面布局，其使用场景是不同职能的用户在新建或 者编辑信息时需要查看或操作的字段不同。</shortdesc>
+  <taskbody>
+    <context>
+      <p>在布局部分可设置以下内容：</p>
+      <ul>
+        <li>设置详情页布局<p>此布局控制详情页的展示信息，页面布局决定了新建页面和资料页面的布局， 包括字段顺序、是否为常用字段等。包括：</p><ul><li><xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark67">新建或编辑详情页布局</xref></li><li><xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark69">分配详情页布局</xref></li></ul></li>
+        <li>表单布局</li>
+      </ul>
+      <p>此布局控制新建、编辑页面的展示信息，启用后可对新建、编辑页面的字段进 行单独配置。</p>
+      <ul>
+        <li>设置列表布局<p>此布局控制列表的显示顺序、使用的视图、汇总的字段以及按钮的显示。包 括：</p><ul><li><xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark72">设置列表布局</xref></li><li><xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark73">分配列表页布局</xref></li></ul></li>
+        <li>
+          <xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark75">设置列表视图</xref>
+        </li>
+      </ul>
+      <p>列表视图用于列表布局中，系统提供默认的视图，也可以根据需要建立新的视 图。</p>
+      <ul>
+        <li>
+          <xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark79">设置搜索布局</xref>
+        </li>
+      </ul>
+      <p>搜索布局用于设置查找数据列表 （网页端）、数据报表 （网页端）、全局搜索</p>
+      <p>（网页端和移动端）、相关列表 （移动端）和 BI 视图二级列表中需要显示的字段及字段顺序。</p>
+      <p id="设置详情页布局">设置详情页布局</p>
+      <p id="_bookmark67">
+        <b>新建或编辑详情页布局</b>
+      </p>
+      <p>PaaS 平台提供了默认的详情页布局，当默认布局无法满足需求时，也可以创建新的布局，以下两种方式都可以创建新的布局：</p>
+      <ul>
+        <li>复制现有布局并修改</li>
+      </ul>
+      <p>单击详情页后面的复制按钮即可复制现有详情页布局并创建新布局，创建完成 后可以对其进行编辑修改。</p>
+      <ul>
+        <li>直接创建新的布局</li>
+      </ul>
+      <p>单击<b>新建详情页布局</b>可以直接创建新的布局，创建完成后，可以对其进行设 置。</p>
+      <p>此处我们以直接创建新的布局为例进行介绍。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在 【业务对象管理】页面，单击对象名称。</cmd>
+      </step>
+      <step>
+        <cmd>在对象页面，单击<b>布局</b>标签。</cmd>
+      </step>
+      <step>
+        <cmd>在 【布局】页面，单击<b>新建详情页布局</b>后将出现 【详情页面布局】页面，在此页面中，左侧为布局模板和组件区，中间为预览区，右侧为组件属性配置区。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>参考下文对页面布局进行设置，全部设置完成后，单击 【详情页面布局】右上角的<b>保存</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>布局模板</li>
+      </ul>
+      <p>支持 4
+ 种布局模板，单击<b>更改模板</b>后，可以查看并选择布局模板，也可进行宽度设置，其中 “ 自适应 100% 宽度 ” 表示全屏显示，“ 自适应 80% 宽度 ” 表示宽度为全屏宽度的 80%。</p>
+      <p>当选择最后一种模板时，可为其宽度设置为一个固定值。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>布局模板仅适用于从列表页滑出的详情页，如下面两个图所示（以自定义业务对象“ 自定义客户信息”
+ 为例）。</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li>添加组件</li>
+      </ul>
+      <p>组件需要从组件列表中，通过鼠标拖拽到中间预览区的方式放入到页面中。</p>
+      <ul>
+        <li>配置组件</li>
+      </ul>
+      <p>组件被添加到页面后，可以对其进行设置或者删除，其中仅部分组件支持功能设 置，如果组件支持功能设置，则在预览区单击相应组件后，将在右侧的组件功能设 置区显示可设置的内容。如果组件支持删除，则当光标移到已拖拽到页面上的组件 时，将出现删除图标，单击可删除组件。</p>
+      <p>下面详细介绍各组件的设置方法：</p>
+      <p>— 动态 （新）</p>
+      <p>用于动态信息的输入和已有动态信息的显示，此组件不支持功能设置。</p>
+      <ul>
+        <li>活动记录</li>
+      </ul>
+      <p>用于活动记录相关信息的显示，此组件不支持功能设置。</p>
+      <ul>
+        <li>标题和重要信息<p>此组件只能位于页面头部，且不可删除，此组件支持功能设置。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image006.png" /></fig></entry></row></tbody></tgroup></table></p><p>可以设置两部分内容，显示在头部的字段以及按钮，支持自定义按钮，关 于自定义按钮的详细信息请参考设置按钮。设置完成后单击<b>保存</b>。</p><p><b>NOTE 1. </b>标题和重要信息组件最多可支持显示 5 个字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>一个页面最多可添加一个标题和重要信息组件，且只能包含一个标题和重要信息组件。</p></required-cleanup><ol><li>标题和重要信息组件只能位于页面头部。</li></ol></li>
+        <li>资料</li>
+      </ul>
+      <p>此组件一般为标签页的一个页签，关于标签页的详细介绍请参考<xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark68">标签页</xref>。 此组件支持功能设置。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image008.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>资料组件：</p>
+      <p>用于设置详情页的布局。字段显示方式用于设置字段名称和其内容的显示样式；字段展示列数用于设置一行展示的字段个数；字段和资料部分用于设置需要显示哪些字段以及字段的属性 （必填、常用）。分隔线用于将各字段进行分类展示，直接拖拽到资料列表的相应位置，并为其设置名称，
+ 比如图中的 “ 基本信息 ”、“ 系统信息 ” 和 “ 数据权限 ” 均为设置的分隔线。设置完成后单击<b>保存</b>。</p>
+      <p>表单页：</p>
+      <p>用于设置新建数据时和在详情页编辑数据时字段的展现形式。字段展示列 数用于设置字段展示时是单列还是多列；只读字段用于设置是否显示只读 字段；字段和资料部分用于设置需要显示哪些字段以及字段的属性
+ （必填、常用）；分隔线用于将各字段进行分类展示。</p>
+      <ul>
+        <li>动态</li>
+      </ul>
+      <p>用于动态信息的输入和已有动态信息的显示，此组件不支持功能设置。</p>
+      <ul>
+        <li>团队成员</li>
+      </ul>
+      <p>此组件一般为标签页的一个页签，关于标签页的详细介绍请参考<xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark68">标签页</xref>， 团队成员组件不支持功能设置。</p>
+      <ul>
+        <li>流程推进</li>
+      </ul>
+      <p>此组件用于可视化流程的阶段展示及推进，此组件不支持功能设置。</p>
+      <ul>
+        <li>目标视图</li>
+      </ul>
+      <p>此组件用于展示目标视图。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>目标视图组件中只能展示预置视图和目标视图。</p>
+      </required-cleanup>
+      <p>目标视图支持功能设置，在组件功能设置区可以选择现有视图，也可以通 过<b>新建视图</b>创建新的视图，如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image010.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li>BI 视图</li>
+      </ul>
+      <p>此组件用于展示 BI 视图。BI 视图组件支持功能设置，在组件功能设置区可设置要展示视图以及筛选条件等，如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image012.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>下面对上图中的各设置项进行详细的介绍 ,
+ 各项序号与图中序号对应：</p>
+      <ol>
+        <li>新建视图</li>
+      </ol>
+      <p>创建并配置视图。</p>
+      <p>
+        <b>NOTE 1. </b>此项仅当开通了BI 的License 之后可见。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>新创建的视图也必须将其设置为公共视图后，才可以在BI 视图组件中进行展示。</p>
+      </required-cleanup>
+      <ol>
+        <li>创建关联<p>放置在详情页中的 BI 视图，能够接收详情页实体的 ID，设置视图中符合该页面实体的相应实体及字段。</p></li>
+        <li>设置穿透的实体<p>设置单击视图后，跳转到哪一个实体的列表页。</p></li>
+        <li>设置选中视图的筛选条件</li>
+      </ol>
+      <p>设置视图的筛选条件，设置完成后，用户可以基于此处设置的筛选条件 对视图再次进行手动筛选。</p>
+      <ul>
+        <li>BI 看板</li>
+      </ul>
+      <p>用于 BI 看板的展示。</p>
+      <ul>
+        <li>审批</li>
+      </ul>
+      <p>此组件一般位于标签页的 “ 相关 ” 页签中，关于标签页的详细介绍请参考<xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark68">标签页</xref>，审批组件不支持功能设置。</p>
+      <ul>
+        <li>费用</li>
+      </ul>
+      <p>此组件一般位于标签页的 “ 相关 ” 页签中，关于标签页的详细介绍请参考<xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark68">标签页</xref>。</p>
+      <p>费用组件支持功能设置，如下图所示。可以设置在相关列表中显示的字段 等。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image014.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li>文档</li>
+      </ul>
+      <p>此组件一般位于标签页的 “ 相关 ” 页签中关于标签页的详细介绍请参考<xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark68">标签页</xref>，文档组件不支持功能设置。</p>
+      <ul>
+        <li>任务</li>
+      </ul>
+      <p>此组件一般位于标签页的 “ 相关 ” 页签中，关于标签页的详细介绍请参考<xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark68">标签页</xref>，任务组件不支持功能设置。</p>
+      <ul>
+        <li>日程</li>
+      </ul>
+      <p>此组件一般位于标签页的 “ 相关 ” 页签中，关于标签页的详细介绍请参考<xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark68">标签页</xref>，日程组件不支持功能设置。</p>
+      <ul>
+        <li id="_bookmark68">标签页</li>
+      </ul>
+      <p>标签页为容器组件。标签页组件支持功能设置，可以设置标签页包含的页 签及页签名称，输入页签名称，然后单击<b>添加</b>即可，设置完成后单击<b>保存</b>。</p>
+      <p>
+        <b>NOTE </b>标签页组件最多支持设置 10 个页签。</p>
+      <ul>
+        <li>嵌入页面</li>
+      </ul>
+      <p>嵌入页面为容器组件，可嵌入开发的页面和外部系统的页面。</p>
+      <p>嵌入页面组件支持功能设置，可以设置嵌入页面的
+ URL 地址和页面宽度， 设置完成后单击<b>保存</b>。</p>
+      <p>
+        <b>NOTE 1.</b>URL 地址支持http 和https 协议。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>2. </b>当URL 地址的一级域名为“ingageapp.com” （销售易开发者平台页面代码中的页面）时，将默认传递以下三个参数信息：</p>
+      </required-cleanup>
+      <p>objectId：当前详情页对应的业务对象的实体ID。recordId：当前详情页对应的业务数据的数据ID。access_token：调用销售易Open API 所需的认证数据。如有需要，在嵌入页面中可直接使用以上三个参数。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>关于开发者平台页面代码的详细介绍请参考《销售易CRM_PaaS 平台开发手册》中的<b>页面开发</b>一章，关于Open API 的详细介绍请参考《销售易CRM_Open API 使用手册》。</p>
+      </required-cleanup>
+      <ul>
+        <li>栅格容器</li>
+      </ul>
+      <p>栅格 容器中仅可拖入目标视图组件和 BI 视图组件。在组件功能设置区可设置栅格数量。</p>
+      <p>
+        <b>NOTE </b>最多可设置 12 个栅格。</p>
+      <p id="_bookmark69">分配详情页布局</p>
+      <p>详情页布局设置完成后，可为不同职能分配不同的详情页。 遵循以下步骤，分配详情页布局：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>布局</b>标签。</li>
+        <li>在 【布局】页面，单击<b>详情页布局</b>右侧的<b>详情页布局分配</b>。</li>
+        <li>在 【详情页面布局分配】页面，为不同职能设置不同详情页面。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image016.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>设置完成后，单击<b>保存</b>。</li>
+      </ol>
+      <p id="设置表单布局">设置表单布局</p>
+      <p>
+        <b>新建或编辑表单布局</b>
+      </p>
+      <p>销售易 PaaS 平台提供了默认的表单布局，也可以根据需要，建立新的表单布局。遵循以下步骤，新建或编辑表单布局：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>布局</b>标签。</li>
+        <li>在 【布局】页面，单击表单布局中的<b>启用表单布局</b>。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image017.png" />单击<b>表单布局</b>右侧的<b>新建列表页布局</b>，或者单击 修改已有的表单布局。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image019.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>字段配置 设置表单页显示的字段等。</p><p><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image020.png" /></p><p>配置项 说明</p><p>明细设置 <b>NOTE </b>仅当当前对象为主子明细关系中的主对象时，需</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>要设置此项。</p></required-cleanup><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image022.png" /></fig></entry></row></tbody></tgroup></table></p><p>此项用于设置当前对象有多个子对象且子对象支持批量 新建时，表单页中子对象的显示顺序。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image024.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>设置完成后，单击<b>保存</b>。</li>
+      </ol>
+      <p>分配表单布局</p>
+      <p>表单布局设置完成后，可为不同职能分配不同的表单页。 遵循以下步骤，分配表单布局：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>布局</b>标签。</li>
+        <li>在 【布局】页面，单击<b>表单布局</b>右侧的<b>表单布局分配</b>。</li>
+        <li>在 【表单布局分配】页面，为不同职能设置不同的表单页。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image026.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>设置完成后，单击<b>保存</b>。</li>
+      </ol>
+      <p id="设置列表布局">设置列表布局</p>
+      <p id="_bookmark72">
+        <b>新建或编辑列表页布局</b>
+      </p>
+      <p>销售易 PaaS 平台提供了默认的列表页布局，也可以根据需要，建立新的列表页布局。</p>
+      <p>遵循以下步骤，新建或编辑列表页布局：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击 【布局】标签。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image017.png" />在 【布局】页面，单击<b>列表布局</b>右侧的<b>新建列表页布局</b>，或者单击 修改已有的列表页布局。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image028.png" /></fig></entry></row></tbody></tgroup></table></p><p>配置项 说明</p><p>
+ 布局名称 列表布局的名称。</p><p>选择列表视图 选择列表页中包含的视图，关于视图的详细信息请参考<xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark75">设 </xref><xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark75">置列表视图</xref>。</p><p>设置汇总字段 此部分用于设置列表页中数据的汇总方式以及汇总字段。</p><p><b>NOTE 1. </b>汇总函数目前支持Sum （求和）和AVG （求平均值）</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>汇总字段个数目前最多支持 5 个。</p></required-cleanup><ol><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image029.png" /></entry></row></tbody></tgroup></table>
+ 目前支持汇总的字段类型包括整数、实数、货币、计算公式（数字、货币、汇总累计）。</li></ol></li>
+      </ol>
+      <p>选择按钮 此部分用于设置列表页中要显示的按钮，关于按钮的详细 信息请参考设置按钮。</p>
+      <p>BI 视图组件 此部分用于设置列表页中要显示的 BI 视图，可以选择系统预置的视图，也可以选择自定义配置的 BI 视图。关于
+ BI 视图配置的详细信息请参考 《销售易 CRM_ 职能分析云操作手册》。</p>
+      <ul>
+        <li>组件标题</li>
+      </ul>
+      <p>设置视图组件的名称，此名称将作为标题显示在列表页视图展示区域的顶部，如果不设置，将显示为 “BI 视图 ”。</p>
+      <ul>
+        <li>选择视图</li>
+      </ul>
+      <p>选择需要显示的视图。</p>
+      <p>
+        <b>NOTE </b>最多可选择 4 个视图。</p>
+      <ul>
+        <li>设置视图高度</li>
+      </ul>
+      <p>设置所选视图在列表页中展示时的高度。</p>
+      <ul>
+        <li>设置列表视图关联<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image029.png" /></fig></entry></row></tbody></tgroup></table>
+ 设置视图联动的对象。</p><p>BI 看板 用于设置列表页中要显示的 BI 看板，关于 BI 看板配置的详细信息请参考 《销售易 CRM_ 智能分析云操作手册》。</p><p><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image030.png" /></p><ol><li>设置完成后，单击<b>保存</b>。</li></ol></li>
+      </ul>
+      <p id="_bookmark73">分配列表页布局</p>
+      <p>列表布局设置完成后，可为不同职能分配不同的列表页。 遵循以下步骤，分配列表页布局：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>布局</b>标签。</li>
+        <li>在 【布局】页面，单击<b>列表布局</b>右侧的<b>列表页布局分配</b>。</li>
+        <li>在 【列表页布局分配】页面，为不同职能设置不同详情页面。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image032.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>设置完成后，单击<b>保存</b>。</li>
+      </ol>
+      <p id="_bookmark75">设置列表视图</p>
+      <p>
+        <b>新建或编辑列表视图</b>
+      </p>
+      <p>PaaS 平台提供了默认的列表视图，也可以根据需要，建立新的列表视图。遵循以下步骤，新建或编辑列表视图：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>布局</b>标签。</li>
+        <li>，</li>
+        <li>在 【布局】页面，单击<b>列表视图</b>右侧的<image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image034.png" />修改已有的列表视图。</li>
+        <li>设置列表视图参数。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image036.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>视图名称 列表视图的名称。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image030.png" /></entry></row></tbody></tgroup></table>
+ 检索条件 设置视图检索数据的条件，详细介绍请参考<xref href="#A7B73A44-5F21548-C4553715559FC82-507D10/_bookmark76">检索条件</xref>。</p><p>配置项 说明</p><p>显示字段 此部分用于设置视图中默认显示的字段，网页端和移动端 的默认显示字段支持单独设置。</p><ul><li>同步显示字段设置到其它视图<p>勾选此项，表示当前业务对象的其它视图也应用当前 配置。</p></li><li>强制同步用户的个人设置<p>如果用户对视图进行了个性化设置，则以用户自定义 的视图为准。勾选此项，表示忽略用户对视图的所有 自定义配置 （例如字段、列宽），而应用当前配置。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image029.png" /></fig></entry></row></tbody></tgroup></table><b>NOTE </b>如果同时勾选了同步显示字段设置到其它视图和强制同步用户的个人设置，则将当前配置应用到其它视图的同时，也会覆盖其它视图的所有个人设 置。</p></required-cleanup><p>排序规则 此部分用于设置视图中显示各字段时的默认排序规则，即 默认按照哪个字段进行排序以及排序方式 （升序或者降序）。</p><p><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image030.png" /></p><p>配置项 说明</p><p>快捷操作 可以将自定义按钮配置到列表页中，实现快捷操作数据。 配置后，列表页最左侧将增加操作列，操作列展示快捷操 作按钮 （例如下图红框所示部分）。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image038.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>显示形式<p>配置按钮的展现形式，支持图标、文字及图标 + 文字。</p></li><li>同步按钮到所有视图 （包括个人视图）</li></ul><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image030.png" /></entry></row></tbody></tgroup></table>
+ 勾选此项，表示快捷按钮的配置也应用到当前对象的 其他视图，包含用户在系统前台自定义配置的视图。</p></li>
+        <li>设置完成后，单击<b>保存</b>。</li>
+      </ol>
+      <p id="_bookmark76">检索条件</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image040.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>设置视图检索数据的条件，下面对上图中检索条件部分各设置项进行介绍，以下各 项序号与图中序号对应：</p>
+      <ol>
+        <li>选择检索条件的参与字段，此项列表中列出当前业务对象中检索条件支持字段 类型的所有字段。</li>
+        <li>选择条件操作符，条件操作符列表包含的条件操作符根据 1 中所选字段的字段类型不同而不同。</li>
+        <li>此项包括值和字段，即静态值和动态值。</li>
+        <li>相对于 1、2 和 3，设置条件值，当
+ 3 选择 “ 值 ” 时，此项需要输入具体值， 当 3 选择 “ 字段 ” 时，此项需要选择某个字段的值作为输入值。<required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE
+ 1. </b>当 3 选择“ 字段” 时，4
+ 目前仅支持选择“ 当前用户” 的“ 部门” 或者“ 名称
+ ”。</p></required-cleanup><p><b>2. </b>时间类型的字段支持动态范围时间，即当需要设置某个时间类型的字段处于某个时间段时，无需再设置多个条件。具体方法为：在 1 中 选择某个时间类型的字段，在 2 中选择“ 等于（范围）” 的操作符， 然后根据需要在 4
+ 中选择某个时间段的值。</p></li>
+        <li>此项仅勾选<b>启用高级公式</b>时出现，用于设置多个检索条件之间的关系，各检索 条件在公式中使用序号表示，此序号自动生成，位于各检索条件最左侧，公式 规则如下表所示。</li>
+      </ol>
+      <p>公式规则 错误示例
+ （假设有 4 个条件）</p>
+      <p>有 and 和 or, 必须有括号 1 and 2 or
+ 3 and 4</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image041.png" />
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image041.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 一个括号不能同时出现 and 和 or (1 and 2 or 3) and 4</p>
+      <p>不允许出现不存在的编号 1 and 2
+ and 3 and 4 and 5</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image041.png" />
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image042.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 括号必须成对出现 (1 and 2 or 3 and 4</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>当添加新的检索条件时，默认加到检索条件列表的最后，当删除某个检索条件时（删除最后一个检索条件除外），检索条件最左侧的序号将根据现有检索条件个数进行序号的更新，因此当检索条件的个数有变化时，注意修改公式中对应的检索条件序号。</p>
+      </required-cleanup>
+      <p id="设置查找数据列表布局">设置查找数据列表布局</p>
+      <p>
+        <b>应用位置</b>
+      </p>
+      <p>查找数据列表在销售易前台页面的展现形式如下面两个图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image044.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>新建或编辑查找数据列表布局</p>
+      <p>遵循以下步骤，新建或编辑查找数据列表布局：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击 【布局】标签。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image046.png" />在 【布局】页面，单击<b>查找数据列表布局</b>右侧的<b>新建查找布局</b>，或者单击修改已有的列表页布局。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image048.png" /></fig></entry></row></tbody></tgroup></table></p><p>配置项 说明</p><p>
+ 查找布局名称 列表布局的名称，在分配布局时需要使用此名称，建议设 置为有意义的内容。</p><p>字段设置 设置查找数据列表中需要显示的字段。</p><p><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image029.png" /></p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image030.png" /></fig></entry></row></tbody></tgroup></table>
+ 排序规则 设置查找数据列表中的记录 （数据）按照那个字段进行排序以及排序方式。</p></li>
+        <li>设置完成后，单击<b>保存设置</b>。</li>
+      </ol>
+      <p>分配查找布局</p>
+      <p>查找布局设置完成后，可为不同职能分配不同的查找布局。 遵循以下步骤，分配查找布局：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>布局</b>标签。</li>
+        <li>在 【布局】页面，单击<b>查找数据列表布局</b>右侧的<b>查找布局分配</b>。</li>
+        <li>在 【查找列表布局分配】页面，为不同职能设置不同详情页面。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image050.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>设置完成后，单击<b>保存</b>。</li>
+      </ol>
+      <p id="_bookmark79">设置搜索布局</p>
+      <p>在搜索布局部分可设置数据报表、全局搜索、相关列表和 BI 视图二级列表的默认显示字段及字段顺序。</p>
+      <ul>
+        <li>数据报表</li>
+      </ul>
+      <p>数据报表位于销售易前台页面导航菜单<b>统计分析 </b>&gt; <b>报表</b>中，展现形式如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image052.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li>全局搜索<p>全局搜索在销售易前台页面的展现形式如下图所示
+ （以网页端为例）。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image054.png" /></entry></row></tbody></tgroup></table></p><p><b>NOTE </b>如果需要在全局搜索时包含某个对象，需要在<b>业务参数设定 </b>&gt; <b>全文检索</b>中进行设置，上图中以自定义业务对象“
+ 自定义客户信息为例”。</p><ul><li>相关列表<p>相关列表在移动端的展现形式如下面两个图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image056.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>BI 视图二级列表</li></ul></li>
+      </ul>
+      <p>BI 视图二级列表在销售易前台页面的展现形式如下面两个图所示 （以网页端的首页为例）。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image058.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>遵循以下步骤，设置搜索布局：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>布局</b>标签。<p>可以在搜索布局中设置数据报表、全局搜索、相关列表以及 BI 视图二级列表 的默认显示字段，几种布局的修改方法类似。（下图为数据报表的字段配置）</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image060.png" /></fig></entry></row></tbody></tgroup></table></p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>全局搜索布局可以针对是否有数据权限，分别进行显示字段配置。</p></required-cleanup></li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic20_image061.png" />单击其后面的 进行设置。</li>
+        <li>设置完成后，单击<b>保存设置</b>。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

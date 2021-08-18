@@ -1,0 +1,2038 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F">
+  <title>设置字段</title>
+  <shortdesc>字段用于承载对象上业务信息的载体，字段分为系统标准字段和自定义字段，系统 标准字段在创建对象时自动生成，用于存储标准的业务数据，例如创建人、创建时 间。根据数据存储的需求，可以创建自定义字段。</shortdesc>
+  <taskbody>
+    <context>
+      <p id="修改系统标准字段">修改系统标准字段</p>
+      <p>遵循以下步骤，修改系统标准字段：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在 【自定义对象】页面，单击对象名称。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>字段</b>标签。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image002.png" />在
+ 【字段】页面，单击某个系统标准字段后的 ，可以修改字段的部分配置信息，例如，修改字段名称。</cmd>
+      </step>
+      <step>
+        <cmd>修改完成后，单击<b>保存</b>。</cmd>
+        <info>
+          <p id="_bookmark29">新建或编辑自定义字段</p>
+          <p>遵循以下步骤，新建或编辑自定义字段：</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>在 【自定义对象】页面，单击对象名称。</cmd>
+          </substep>
+          <substep>
+            <cmd>单击<b>字段</b>标签。</cmd>
+          </substep>
+          <substep>
+            <cmd>单击<b>添加自定义字段</b>可以创建自定义字段，在创建自定义字段时可以<xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark30">配置字段 </xref><xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark30">属性</xref>、<xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark58">配置字段在布局中的显示以及字权限</xref>。如果需要修改已有字段的配置内 容，单击字段后的 <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image004.png" />。</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+    <result>
+      <p>不同的字段类型决定了该字段的展现形式以及允许存储的内容，支持的自定义字段 类型包括：</p>
+      <ul>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark31">文本</xref>
+        </li>
+        <li>
+          <xref href="#task33507/_bookmark33">单选</xref>
+        </li>
+        <li>
+          <xref href="#task33507/_bookmark35">多选</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark36">文本域</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark37">整数</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark38">实数</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark39">货币</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark40">日期</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark41">时间</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark42">自动编号</xref>
+        </li>
+        <li>
+          <xref href="#task33507/_bookmark44">关联关系</xref>
+        </li>
+        <li>
+          <xref href="#task33507/_bookmark46">主子明细</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark48">引用字段</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark49">计算公式</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark50">电话</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark51">邮箱</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark52">网址</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark53">图片</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark54">文件</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark55">百分比</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark56">布尔型</xref>
+        </li>
+        <li>
+          <xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark57">地理定位</xref>
+        </li>
+      </ul>
+      <p id="_bookmark30">字段类型介绍及字段属性配置说明</p>
+      <ul>
+        <li id="_bookmark31">
+          <b>文本</b>
+          <p>允许用户输入任何字母、数字或者字母和数字的组合。</p>
+          <ul>
+            <li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image006.png" /></fig></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image008.png" /></entry></row></tbody></tgroup></table></p></li>
+            <li>配置项说明<p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image010.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" /></entry></row></tbody></tgroup></table>
+ 为有实际意义的名称，尽量与实际场景贴合。</p><p>配置项 说明</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><ol><li>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</li><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" /></fig></entry></row></tbody></tgroup></table>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。<p>最大长度 不能超过 300。</p><p><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" /></p><p>最小长度 不能小于 0。</p><p>行数 • 单行文本</p><p>适用于内容较少的文本类型字段，</p></li></ol><ul><li>多行文本</li></ul></li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 适用于内容较多的文本类型字段，即当内容较多时， 多行文本的展现形式更便于输入。</p>
+      <p>掩码显示 勾选此项后，该字段的内容在对用户展示时将加掩码显</p>
+      <p>示，可以设置需要掩码的内容及掩码字符。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image014.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <b>NOTE 1. </b>文本掩码仅为显示层控制，在筛选和后台运算中都是按照实际值运算。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>扣框编辑和编辑数据时可看到实际值。</p>
+      </required-cleanup>
+      <ol>
+        <li>文本掩码对默认管理员职能无效，即使设置了文本掩码，默认管理员职能也可以看到实际 值。</li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+ 如果希望某些人不受掩码的限制，能够看到实际值，则可以过职能权限进行控制。在设置职能时，勾选用户和权限管理&gt;
+ 职能管理&gt; 功能权限&gt; 后台功能&gt; 系统功能下的“ 是否可以查看掩码数据？
+ ”，勾选此项表示该职能权限的用户可以查看掩码数据。</p>
+      </required-cleanup>
+      <p>扫码录入 勾选此项，该字段在手机端将支持扫码读取编号的能</p>
+      <p>
+ 力。</p>
+      <p>唯一属性 勾选此项后，该字段的值将不允许重复。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>唯一属性不区分大小写，例如 “AbC” 和“abc” 将被认为是重复数据。</p>
+      </required-cleanup>
+      <p>
+        <b>2. </b>每个对象下只能有一个带唯一属性的字段</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ （含禁用字段）。</p>
+      </required-cleanup>
+      <p>配置项 说明</p>
+      <p>加密存储 数据在数据库中为明文存储，当对数据安全要求比较高 时，可以设置数据加密存储。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>加密存储会影响功能和性能，建议在应对敏感信息安全、合规要求等特殊场景下使用。</p>
+      </required-cleanup>
+      <ol>
+        <li>加密字段的长度最多为 70 个字符。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>加密后的字段，不支持筛选、排序和搜索。</p></required-cleanup></li>
+        <li>加密后的字段，不支持用户操作日志记录。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>加密后的字段，不能再用于后台配置中涉及到筛选、判断的条件中，例如：共享规则、校验规则、查重规则、流程、作为默认值被引用、计算型字段、引用字段的配置中。</p></required-cleanup></li>
+        <li>加密后的字段，不支持查询接口以及在XOQL 中作为条件。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于已有数据的字段，不能再设置加密存储。</p></required-cleanup></li>
+        <li>
+ 字段设置为加密存储后，不能再取消加密存储。<p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" /></entry></row></tbody></tgroup></table>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为文本类型，不能超过 200 个字符。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。</li></ol></li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>2. </b>插入函数支持<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_逻辑类函数.dita">逻辑类函数</xref>和<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_文本类函数.dita">文本类函数</xref>。</p>
+      <ul>
+        <li id="_bookmark32">单选<p>允许用户从定义的列表中选择单个值。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image016.png" /></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image018.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image020.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>配置项 说明</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p>
+      <p>显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p>
+      <p>表单输入控件 ( 网页端) </p>
+      <p>选项信息</p>
+      <p>设置单选类型字段在系统前台页面的展示样式。当选项较少时，建议选择 RadioButton，用户进行选择操作时更加便捷。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+        </fig>
+      </p>
+      <p>配置项 说明</p>
+      <p>添加选项 <b>单个添加选项列表值</b></p>
+      <p>勾选此选项，然后在文本框中输入选项并单击<b>添加</b>，重
+ 复上述步骤可添加多个选项，如果希望将某项设置为默 认值，在单击<b>添加</b>之前勾选默认。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image022.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>可以为选项设置API 名称，在代码中引用选项时可以通过API 名称，以便当选项发生变化时，减少代码的修改次数，降低维护成本。</p>
+      </required-cleanup>
+      <p>批量添加选项列表值</p>
+      <p>勾选此项，单击<b>批量添加</b>，然后在批量添加选项信息框 中输入所有选项，每项内容以换行符作为分隔符，填写 完成并单击<b>确定</b>后，将返回到新建字段窗口，批量添加 的所有信息会显示在选项信息部分，如果选项列表中已 有内容，则会追加到现有内容的后面。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image024.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>配置项 说明</p>
+      <p>添加通用选项 <b>添加选项列表值</b></p>
+      <p>勾选此项，然后从配置的<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_通用选项集的配置.dita">通用选项集</xref>中选择一个通用选 项集。</p>
+      <p>
+        <b>NOTE 1. </b>选项内容最多支持 200 个字符。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>同一个单选字段中的选项内容不能相同。</p>
+      </required-cleanup>
+      <ol>
+        <li>对于单选字段，只支持设置一个默认值。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>最多支持添加 1000 个选项值。</p></required-cleanup><p>调整选项列表值的顺序</p><p>选项添加完成后，可以通过拖拽的方式调整各选项之间 的顺序，各选项之间的顺序为用户选择时显示的列表顺 序。</p><p>修改选项列表值</p><p><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image026.png" />单击选项列表值后的 <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image028.png" />可以修改选项名称，单击选项列表值后的 可以删除选项。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" /></fig></entry></row></tbody></tgroup></table><b>NOTE </b>通过通用选项集添加的选项，不能修改选项的内容，不能删除选项，也不能调整各选项之间的顺序，如果需要更改，必须通过修改通用选项集实现。</p></required-cleanup><ul><li>特殊说明</li></ul></li>
+      </ol>
+      <p>对于单选类型字段，有以下特殊说明：</p>
+      <ol>
+        <li>单选类型字段创建完成后，可以对其选项值进行修改或者删除，但如果 选项值已经被系统 （例如校验规则）引用，则不允许删除该选项值。</li>
+        <li>单选类型字段创建完成后，可以对其选项值进行修改或者删除，只要选项值没有被系统 （例如校验规则）引用，即使已经有数据引用了该选项<p>值，该选项值也允许删除。在删除某个已经存在的选项值时，需要将其 替换为新值或者空值。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image030.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>如果单选项值是引用自通用选项集，则修改字段时，不支持删除选项 值。</li>
+        <li>单选类型字段创建完成后，在修改字段时，可以禁用某个已经存在的选 项值。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image032.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>如果选项值是引用自通用选项集，则在此处不能直接禁用，需要在通用 选项集中进行禁用。</li>
+        <li>如果要禁用的选项值已经被引用，例如在触发规则的条件中被引用，则 不允许被禁用。。</li>
+        <li>选项值禁用后，不会影响历史数据中对于该选项值的引用。</li>
+        <li>触发规则和审批流中的更新字段事件，可以把字段更新为禁用的选项 值。</li>
+        <li>禁用功能目前仅支持自定义对象上的自定义单选类型字段。</li>
+        <li>禁用后，对于历史数据和已经选过该值的数据没有影响。</li>
+      </ol>
+      <ul>
+        <li id="_bookmark34">多选<p>允许用户从定义的列表中选择多个值。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image034.png" /></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image036.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明<p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image038.png" /></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" /></fig></entry></row></tbody></tgroup></table>
+ 为有实际意义的名称，尽量与实际场景贴合。</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p></required-cleanup></li></ul><ol><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" /></entry></row></tbody></tgroup></table>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li></ol></li>
+      </ul>
+      <p>配置项 说明</p>
+      <p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" />显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p>
+      <p>表单输入控件 ( 网页端) </p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" />选项信息</p>
+      <p>设置单选类型字段在系统前台页面的展示样式。当选项较少时，建议选择 RadioButton，用户进行选择操作时更加便捷。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+        </fig>
+      </p>
+      <p>配置项 说明</p>
+      <p>添加选项 <b>单个添加选项列表值</b></p>
+      <p>勾选此项，然后在文本框中输入选项并单击<b>添加</b>，重复
+ 上述步骤可添加多个选项，如果希望将某项或者某些项 设置为默认值，在单击<b>添加</b>之前勾选默认。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image039.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>可以为选项设置API 名称，在代码中引用选项时可以通过API 名称，以便当选项发生变化时，减少代码的修改次数，降低维护成本。</p>
+      </required-cleanup>
+      <p>批量添加选项列表值</p>
+      <p>勾选此项，单击<b>批量添加</b>，然后在批量添加选项信息框 中输入所有选项，每项内容以换行符作为分隔符，填写 完成并单击<b>确定</b>后，将返回到新建字段窗口，批量添加 的所有信息会显示在选项信息部分，如果选项列表中已 有内容，则会追加到现有内容的后面。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image041.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>配置项 说明</p>
+      <p>添加通用选项 <b>添加选项列表值</b></p>
+      <p>勾选此项，然后从配置的<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_通用选项集的配置.dita">通用选项集</xref>中选择一个通用选 项集。</p>
+      <p>
+        <b>NOTE 1. </b>选项内容最多支持 200 个字符。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>同一个多选字段中的选项内容不能相同。</p>
+      </required-cleanup>
+      <ol>
+        <li>最多支持添加 200
+ 个选项值，虽然通用选项集的选项值最多支持添加 1000 个，但多选的选项值引用通用选项集时，最多也只能引用200 个。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>多选类型字段的默认值除在新建或者编辑多选字段时可设置外，也可以设置业务类型的设置业务类型可见的选项范围中设置。如果在设置业务类型的可见选项范围中设置的默认值与在新建或者编辑字段时设置的默认值不同，则以在设置业务类型中设置的默认值为准。</p></required-cleanup><p>调整选项列表值的顺序</p><p>选项添加完成后，可以通过拖拽的方式调整各选项之间 的顺序，各选项之间的顺序为用户选择时显示的列表顺 序。</p><p>修改选项列表值</p><p><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image026.png" />单击选项列表值后的 <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image028.png" />可以修改选项名称，单击选项列表值后的 可以删除选项。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" /></fig></entry></row></tbody></tgroup></table><b>NOTE </b>通过通用选项集添加的选项，不能修改选项的内容，不能删除选项，也不能调整各选项之间的顺序，如果需要更改，必须通过修改通用选项集实现。</p></required-cleanup><ul><li>特殊说明</li></ul></li>
+      </ol>
+      <p>对于多选类型字段，有以下特殊说明：</p>
+      <ol>
+        <li>多选类型字段创建完成后，可以对其选项值进行修改或者删除，但如果 选项值已经被系统 （例如校验规则）引用，则不允许删除该选项值。</li>
+        <li>多选类型字段创建完成后，可以对其选项值进行修改或者删除，只要选项值没有被系统 （例如校验规则）引用，即使已经有数据引用了该选项<p>值，该选项值也允许删除。在删除某个已经存在的选项值时，需要将其 替换为新值或者空值。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image043.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>如果单选项值是引用自通用选项集，则修改字段时，不支持删除选项 值。</li>
+        <li>多选类型字段创建完成后，在修改字段时，可以禁用某个已经存在的选 项值。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image045.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>如果选项值是引用自通用选项集，则在此处不能直接禁用，需要在通用 选项集中进行禁用。</li>
+        <li>如果要禁用的选项值已经被引用，例如在触发规则的条件中被引用，则 不允许被禁用。。</li>
+        <li>选项值禁用后，不会影响历史数据中对于该选项值的引用。</li>
+        <li>触发规则和审批流中的更新字段事件，可以把字段更新为禁用的选项 值。</li>
+        <li>禁用功能目前仅支持自定义对象上的自定义单选类型字段。</li>
+        <li>禁用后，对于历史数据和已经选过该值的数据没有影响。</li>
+      </ol>
+      <ul>
+        <li id="_bookmark36">文本域<p>允许用户输入多行文本，用于存储较大篇幅的描述信息。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image047.png" /></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image049.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明<p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image051.png" /></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p><p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p></required-cleanup></li></ul><ol><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" /></fig></entry></row></tbody></tgroup></table>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。<p>最大长度 不能超过 65535 。</p><p><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" /></p><p>配置项 说明</p><p>最小长度 不能小于 0。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" /></fig></entry></row></tbody></tgroup></table><b>NOTE </b>修改字段的最大长度和最小长度后，只影响新创建或者新修改的数据，不影响历史数据。</p></required-cleanup><p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" /></entry></row></tbody></tgroup></table>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为文本域类型，不能超过 200 个字符。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。</li></ol></li></ol></li>
+      </ul>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>2. </b>插入函数支持<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_逻辑类函数.dita">逻辑类函数</xref>和<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_文本类函数.dita">文本类函数</xref>。</p>
+      <ul>
+        <li id="_bookmark37">整数<p>允许用户输入任意整数数值。</p><ul><li>整数类型介绍</li></ul></li>
+      </ul>
+      <p>新建业务数据时的展现形式如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image053.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>在详情页的展现形式如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image055.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li>配置项说明</li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image057.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>配置项 说明</p>
+      <p>最大长度 不能超过 15。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>修改字段的最大长度和最小长度后，只影响新创建或者新修改的数据，不影响历史数据。</p>
+      </required-cleanup>
+      <p>唯一属性 勾选此项后，该字段的值将不允许重复。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>唯一属性不区分大小写，例如 “AbC” 和“abc” 将被认为是重复数据。</p>
+      </required-cleanup>
+      <ol>
+        <li>每个对象下只能有一个带唯一属性的字段<required-cleanup><p><b>[heading h6 could not be placed here]: </b>
+ （含禁用字段）。</p></required-cleanup><p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" /></fig></entry></row></tbody></tgroup></table>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>配置项 说明</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为整数类型。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。</li></ol></li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>2. </b>插入函数支持<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_数学类函数.dita">数学类函数</xref>。</p>
+      <ul>
+        <li id="_bookmark38">实数<p>允许用户输入任意实数数值。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image059.png" /></fig></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image061.png" /></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image063.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>最大长度 小数点左侧的数字位数。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+        </fig>
+      </p>
+      <p>配置项 说明</p>
+      <p>小数点位数 小数点右侧的数字位数，范围为 0~14。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>小数点位数的设置仅用于页面显示和页面输入，不用于后台的数据存储。修改小数点位数不会对历史数据进行处理，仅销售易前台显示时进行四舍五入处理。如果您对小数位精度有严格要求，请在数据处理时根据业务要求进行精度处理（例如四舍五入，向上取整等）。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+ 最大长度+ 小数点位数不能超过 15。<p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" /></entry></row></tbody></tgroup></table>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>配置项 说明</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为实数类型。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。</li></ol></li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>2. </b>插入函数支持<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_数学类函数.dita">数学类函数</xref>。</p>
+      <ul>
+        <li id="_bookmark39">货币</li>
+      </ul>
+      <p>允许用户输入货币金额。</p>
+      <p>单货币：默认支持单货币，即只支持 “ 人民币
+ ”。</p>
+      <p>多货币：允许用户输入美元或其他币种金额，系统会根据设置的币种，自动将 输入的金额转化为相应的金额。多货币需要手动开启。</p>
+      <p>— 展现形式</p>
+      <p>单货币：新建业务数据时的展现形式如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image065.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>单货币：在详情页的展现形式如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image067.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>多货币：新建业务数据时的展现形式如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image069.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>多货币：在详情页的展现形式如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image071.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>— 配置项说明</p>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image073.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>配置项 说明</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 最大长度 小数点左侧的数字位数。</p>
+      <p>小数点位数 小数点右侧的数字位数，范围为 0~14。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>小数点位数的设置仅用于页面显示和页面输入，不用于后台的数据存储。修改小数点位数不会对历史数据进行处理，仅销售易前台显示时进行四舍五入处理。如果您对小数位精度有严格要求，请在数据处理时根据业务要求进行精度处理（例如四舍五入，向上取整等）。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 最大长度+ 小数点位数不能超过 15。<p>是否多货币 此项仅当开启多货币时显示，用于设置货币类型。勾选</p><p>“ 单货币 ” 的效果与不开启多货币的效果相同。勾选“ 多货币 ” 后，可创建多货币字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" /></entry></row></tbody></tgroup></table><b>NOTE </b>在创建多货币字段的同时，会自动在对象中额外创建两个系统标准字段（币种和汇率）以及一个自定义字段（本币）。</p></required-cleanup><p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" /></fig></entry></row></tbody></tgroup></table>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>配置项 说明</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为货币类型。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。</li></ol></li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>2. </b>插入函数支持<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_数学类函数.dita">数学类函数</xref></p>
+      <ul>
+        <li id="_bookmark40">日期<p>允许用户输入日期类型的数据，日期类型分为日期和日期 +
+ 时间类型。</p><ul><li>展现形式<p>日期：新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image075.png" /></fig></entry></row></tbody></tgroup></table></p><p>日期：在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image077.png" /></entry></row></tbody></tgroup></table></p><p>日期 + 时间：新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image079.png" /></fig></entry></row></tbody></tgroup></table></p><p>日期 + 时间：在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image081.png" /></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image083.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。<p>配置项 说明</p><p>日期类型 设置日期字段时可设置输入类型为日期或者日期 + 时</p><p>
+ 间，日期类型允许输入日期或从弹出式日历中选择日 期，日期 + 时间类型允许输入日期和时间。</p><p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" /></entry></row></tbody></tgroup></table>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为日期类型。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。</li></ol></li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>2. </b>插入函数支持<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_日期和时间类函数.dita">日期和时间类函数</xref>。</p>
+      <ul>
+        <li id="_bookmark41">时间<p>允许用户输入时间类型的数据。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image085.png" /></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image087.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image089.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image012.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>配置项 说明</p>
+      <p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p>
+      <p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p>
+      <p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image011.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p>
+      <ul>
+        <li id="_bookmark42">自动编号<p>不需要用户输入字段值，字段值根据特定的显示格式自动生成编号，该编号对 于每条新纪录会自动递增。</p><ul><li>展现形式<p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image091.png" /></entry></row></tbody></tgroup></table></p></li><li>配置说明<p>配置项用于配置编号的生成格式等。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image093.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设 置为有实际意义的名称，尽量与实际场景贴合。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>同一 个对象下所有字段的字段名称不能相同。</p></required-cleanup><p>配置项 说明</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线， 但不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“ （两个下划线），用于标识该字段为自定义字段。</p></required-cleanup></li></ul><ol><li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li></ol></li>
+      </ul>
+      <p>显示格式 详细的格式说明可以参考新建字段页面中的<b>显示格式 中的替换变量说明</b>。</p>
+      <p>可以使用固定的文本、连接符、占位符、年月日的占 位符来生成编号的格式。</p>
+      <p>例如，Account-{YYYY}-{MM}-{0000}，其中年月日的占位符是数据创建时的时间所在的年月日，{0000} 表示序列编号，包括在花括号中的一个或多个零代表序列编号本身。花括号中 0 的个数表示将显示的最小数字位数，如果实际编号的位数小于此数，将在其前边置零，支持的最大位数为 10
+ 位。设置了年月日后， 序列编号将按照选择的年月日组件重置序列编号。</p>
+      <p>
+ 可以在编号中引用字段值来实现更多场景。例如，合 同编号中需要包含客户缩写等。</p>
+      <p>开始编号 设置起始编号。</p>
+      <p>配置项 说明</p>
+      <p>为现有记录生成自动编号</p>
+      <p>勾选此项，则按照设定的格式为历史记录自动编号， 为历史记录编号时，将按照历史数据的创建日期进行 累加。不勾选此项，则只对新记录按照设定的格式自 动编号。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>为现有记录生成自动编号只在新建字段时可以勾选，修改字段时不能勾选。</p>
+      </required-cleanup>
+      <ol>
+        <li>如果自动编号格式中包含日期，则在对历史数据进行自动编号时，按照创建此字段的日期进行编号，即不会参考历史记录的创建日期。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>如果后期对于自动编号的格式进行了修改， 则新的格式仅对新数据起作用，历史数据保持旧格式。</p></required-cleanup><p>
+ 帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自 动显示，建议设置为对字段的必要解释。最多不能超 过 100 个字符。</p><p>— 特殊说明</p><p>对于自动编号类型字段，有以下特殊说明：</p><ol><li>自动编号中的年为自然年，非财年。</li><li>根据设置，当不需要重新开始编号时，则从创建的第一条数据起，每创 建一条数据，编号都将自动递增，即使删除之前所有创建的数据，再创 建新的唯一的一条数据，编号在之前的基础上保持递增。</li><li>当显示格式的日期设置到年时，则每年都会从设置的起始编号开始重新编号 ; 当显示格式的日期设置到月时，则每月都会从设置的起始编号开始重新编号 ; 当显示格式的日期设置到天时，则每天都会从设置的起始编号开始重新编号。下图显示了当显示格式的日期设置到天时 （开始编</li></ol></li>
+      </ol>
+      <p>号设置为 1），两天的编号情况 （最后一位为编号，每天都会从 1 开始重新编号）。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image095.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li id="_bookmark43">关联关系</li>
+      </ul>
+      <p>创建一个将此对象链接到另一对象的关系。关联关系字段将保存另一个对象的 唯一标识符，从而将另一个对象作为此对象的父对象。同时，在页面上父对象 可以在相关对象中找到所有与之相关的子对象。</p>
+      <p>使用关联关系字段可以建立一对一和一对多的对象关系。如果需要建立多对多 的关系，可以通过建立中间对象的方式来实现。这样做的好处是：可以在关联 关系中配置其他的字段。例如，订单和产品之间是典型的多对多关系，产品明 细作为中间对象来将这种关系建立起来，此时就可以订单明细对象上配置订单 中产品的数量、折扣等信息。</p>
+      <p>对象间关系建立之后，可以同时定义级联删除规则。例如，对象
+ A 引用了对象B，在对象 B 删除之后，可以选择对象
+ A 同时被删除或者对象 A 引用对象 B
+ 的关联关系字段被清除。实际应用过程中，根据业务需要可以定制不同的级联删除规则。</p>
+      <p>
+        <b>NOTE </b>支持自关联、多次关联和循环关联。</p>
+      <ul>
+        <li>展现形式</li>
+      </ul>
+      <p>新建业务数据时的展现形式如下面 2 个图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image098.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li>配置项说明<p>配置项用于配置关联的对象及关联规则等。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image100.png" /></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>业务对象名称 选择建立关联关系的业务对象。</p><p>
+ 字段名称 字段的名称，支持汉字、数字、字母等字符。建议设 置为有实际意义的名称，尽量与实际场景贴合。</p><p>配置项 说明</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线， 但不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“ （两个下划线），用于标识该字段为自定义字段。</p></required-cleanup><ol><li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li></ol></li>
+      </ul>
+      <p>相关列表名称 关联列表名称，支持汉字、数字、字母等字符。</p>
+      <p>关联列表名称主要应用于以下场景：当一个对象的两个字段同时关联到另外一个相同的对象时，为区分这两种关联关系，可以为两个关联关系设置不同的 “ 相关列表名称 ”。</p>
+      <p>例如，在市场活动中会有客户参加，而客户分为普通客户和经销商，假设 “ 普通客户 ” 和 “ 经销商 ” 为对象 “ 自定义客户信息
+ ” 中的 2 个字段，则在市场活动中将有两个关联关系字段分别关联到 “ 普通客户 ” 字段和 “ 经销商 ” 字段，此时就可以通过设置不同的 “ 相关列表名称 ” 来区分这两种关系。</p>
+      <p>在对象市场活动的相关列表中可以看到设置的相关列 表名称。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image102.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>配置项 说明</p>
+      <p>级联删除 用于配置当删除父对象数据时，如何处理与之有关联 关系的子对象的数据，仅适用于一对多的关联类型。</p>
+      <p>提示不许删除：表示当删除父业务对象数据时，系统 会自动提醒存在相关联的业务关系，并不让用户删掉 该父业务对象。</p>
+      <p>
+ 清理：表示当删除父对象数据时，系统会自动将所有 与之关联的子对象数据的外键字段清空，即解除关联 关系。</p>
+      <p>访问控制规则 不可设置。</p>
+      <p>
+ 自身控制：按照本对象的权限设定规则进行访问控 制，与关联关系所关联的对象无关。</p>
+      <p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自 动显示，建议设置为对字段的必要解释。最多不能超 过 100 个字符。</p>
+      <p>
+ 默认值 字段的默认值 , 默认值显示在销售易前台新建数据页面，新建时自动为该字段填充设置的默认值。<b>插入字 段</b>可以辅助默认值的设置，设置完成后可通过<b>语法检 查</b>查看设置的默认值表达式语法是否正确。</p>
+      <p>查找筛选器 用于限制关联数据的范围，提高用户查找数据的效</p>
+      <p>率。例如，在市场活动上限制关联关系字段
+ “ 客户名称 ” 的数据查找范围，只允许查找类型为
+ “ 客户 ” 的数据，筛选掉类型为 “ 合作伙伴 ” 和 “ 竞争对手“ 的数据。</p>
+      <p>
+ 查找筛选器的配置方法请参考<xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark62">条件配置说明</xref>。</p>
+      <p>关联设置 只允许从筛选结果中关联数据：</p>
+      <p>勾选此项，表示选择父对象数据时，选择的数据必须 符合查找筛选器中配置的条件，不符合条件的数据不 会显示，用户也不能通过搜索的方式搜索到。</p>
+      <p>
+ 不勾选此项，表示仅在用户第一次筛选时从筛选结果 中关联数据，之后用户通过搜索的方式可以搜索到条 件之外的用户权限之内的数据。</p>
+      <ul>
+        <li>特殊说明</li>
+      </ul>
+      <p>对于关联关系类型字段，有以下特殊说明：</p>
+      <ol>
+        <li>仅当用户对父对象有读写权限时，才可以查看并选择父对象数据。</li>
+        <li>当父对象为自定义对象时，即 Picker 列表中的对象为自定义对象时，既可以选择现有父对象数据，也可以新建父对象数据，但新建的父对象数据必须符合查找筛选器中配置的筛选条件。</li>
+        <li>可以在关联关系列表中查询到所有的对象关系。</li>
+      </ol>
+      <ul>
+        <li id="_bookmark45">主子明细<p>主子明细属于关联关系的一种特殊情况，主子明细关系属于 1
+ 对多关联关系的范畴，即创建一个子对象 （子级或 “ 详细信息 ”）与另一对象 （父级或 “ 主 ”）之间的特殊父子关系类型，在页面使用和权限设置中，偏向于将主子对象当做一个整体去使用。例如，有两个对象为订单和订单明细，订单明细依附于订单而存在，当订单删除时，订单明细也会被删除，因此订单为父级，订单明细为子级，此时就可以在订单明细上建立主子明细类型的字段，字段关联到订单对象。</p><ul><li id="_bookmark47">展现形式<p>新建业务数据时的展现形式如下图所示
+ （开启子对象支持批量新建）。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image104.png" /></entry></row></tbody></tgroup></table></p><p>新建业务数据时的展现形式如下面 2 个图所示 （未开启子对象支持批量新建）。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image106.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明<p>配置项用于配置关联的对象及子对象新建的规则等。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image108.png" /></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>业务对象名称 选择建立主子明细的业务对象。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>主子明细关联的父对象，可以是标准对象，也可以是自定义对象，但是部分特殊的标准对象不允许作为父对象。</p></required-cleanup><p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设 置为有实际意义的名称，尽量与实际场景贴合。</p><p>配置项 说明</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线， 但不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“ （两个下划线），用于标识该字段为自定义字段。</p></required-cleanup></li></ul><ol><li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。<p>相关列表名称 关联列表名称，支持汉字、数字、字母等字符。</p><p>
+ 关联列表名称主要应用于以下场景：当一个对象的两个字段同时关联到另外一个相同的对象时，为区分这两种关联关系，可以为两个关联关系设置不同的 “ 相关列表名称 ”。</p><p>级联删除 用于配置当删除父对象数据时，如何处理子对象数 据。</p><p>
+ 由于子对象依附于父对象而存在，因此只支持一种级 联删除规则，即父对象删除子对象自动删除。</p><p>访问控制规则 不可设置。</p><p>
+ 主子明细的访问控制规则为受父对象控制，即按照主 子明细所关联的父对象的权限规则进行访问控制，如 果有多个主子明细父对象，取两个父对象的交集。</p><p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自 动显示，建议设置为对字段的必要解释。最多不能超 过 100 个字符。</p><p>
+ 默认值 字段的默认值 , 默认值显示在销售易前台新建数据页面，新建时自动为该字段填充设置的默认值。<b>插入字 段</b>可以辅助默认值的设置，设置完成后可通过<b>语法检 查</b>查看设置的默认值表达式语法是否正确。</p><p>配置项 说明</p><p>批量新建 勾选 ” 子对象支持批量新建 “：表示在新建父对象数据的同时，可以批量新建多个子对象数据。（<xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark47">展现形
+ </xref><xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark47">式</xref>中的开启子对象支持批量新建）</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>每个业务类型最多支持添加 100 条子对象数据。</p></required-cleanup><p>
+ 不勾选 ” 子对象支持批量新建 “：表示在新建父对象数据后，再单独新建每个子对象数据。（<xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark47">展现形式</xref>中的未开启子对象支持批量新建）</p><p>批量选择依据 仅当勾选 “ 子对象支持批量新建 ” 时出现此项。</p><p>
+ 当子对象有其他关联关系字段，在批量新建子对象 时，可以批量选择关联对象的数据，此项用于设置可 批量选择的关联关系字段。</p><p>随父复制 仅当勾选 “ 子对象支持批量新建 ” 时可配置此项。</p><p>
+ 勾选此项，表示在复制主对象数据时，子对象数据可 随主对象数据一起复制。</p><p>查找筛选器 用于限制关联数据的范围，提高用户查找数据的效</p><p>率。例如，在订单明细上限制主子明细字段 “ 订单” 的数据查找范围，只允许查找 “ 原价 ” 大于10000 的订单数据。</p><p>
+ 查找筛选器的配置方法请参考<xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark62">条件配置说明</xref>。</p><p>关联设置 只允许从筛选结果中关联数据：</p><p>勾选此项，表示选择父对象数据时，选择的数据必须 符合查找筛选器中配置的条件，不符合条件的数据不 会显示，用户也不能通过搜索的方式搜索到。</p><p>
+ 不勾选此项，表示仅在用户第一次筛选时从筛选结果 中关联数据，之后用户通过搜索的方式可以搜索到条 件之外的用户权限之内的数据。</p></li></ol><ul><li>特殊说明</li></ul></li>
+      </ul>
+      <p>对于主子明细类型字段，有以下特殊说明：</p>
+      <ol>
+        <li>主子明细在功能权限上有以下限制：<ol><li>主子明细关联上的功能权限可以分开独立控制。例如，在某一职能上 可以控制用户没有删除权限，但在明细对象上可以有删除权限。另外，字段级权限也可以独立分开控制。</li><li>细数据中的主对象字段的值为必填，因此在默认情况下所有的页面布局上该字段也必须有且必须为必填，通过 API 创建的数据也必须有值且为必填。</li><li>修改明细对象数据时，不允许修改对应的主对象字段的值，即已经建的明细数据不允许修改对应的主数据。在主对象数据详情页上通过相 关列表页新建的明细对象数据在新建时也不允许修改
+ （主对象字段会变成只读状态）。</li><li>主子明细关系可以建立在自定义对象和自定义对象以及标准对象之 间，但是标准对象不能作为自定义对象的明细对象。</li><li>主子明细不支持引用自身，且不支持引用已经引用过的对象。</li><li>如果明细对象上已经有数据，则不允许创建主子明细类型的字段。</li><li>如果主对象数据被锁定，即使用户拥有对明细对象数据的删除权限， 也无法删除成功。</li><li>由于明细对象的所有者与主对象数据的所有者相同，因此明细对象上 没有 【所有者】字段。对于与所有者相关的功能，对子对象不再适用，例如共享规则、转移等功能在明细对象上将被屏蔽。</li></ol></li>
+        <li>主子明细在数据权限上有如下限制：<ol><li>明细对象没有独立的数据权限控制，数据权限由主对象的数据权限继承而来，即明细对象的数据权限与主对象的数据权限相同。所以明细 对象不能创建共享规则以及
+ 【团队成员】功能。</li><li>明细数据关联主对象的数据时，需要对主对象的数据有查看和编辑的权限。同样，只有当对主对象数据有查看和编辑的权限时，才能创建 明细对象的数据。</li><li>主子明细中删除明细对象的数据不会影响相应的主对象数据，而删除主对象数据的同时会自动将明细对象以及明细对象下的明细对象的数 据全部删除
+ （包含在途审批的和审批通过的数据）。</li></ol></li>
+        <li>受主对象控制，即按照主子明细所关联的主对象的权限规则进行访问控 制，如果有多个主子明细主对象，取两个父对象权限的交集。</li>
+        <li>每个对象上最多支持创建 2 个主子明细类型字段。</li>
+        <li>主子明细的层级深度最多支持 3 层，即父子孙，孙对象上不能再创建主子明细类型字段。</li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>主子明细关系的建立不能出现循环的情况。例如，A 关联 B、B 关联C，这种情况下
+ C 就不能再关联 A。</p>
+      </required-cleanup>
+      <ul>
+        <li id="_bookmark48">引用字段<p>引用字段的作用为在两个对象建立关联关系后，可以在子对象上展示父对象的 其他字段。例如，在销售机会中创建引用字段，引用客户对象的详细地址字 段。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示 （不需要用户输入，根据关联数据自动填充）。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image110.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置引用的关联对象及字段。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image112.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设 置为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线， 但不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>业务关联关系 配置需要引用的关联对象，选择已经建立好的关联关</p>
+      <p>
+ 系或主子明细的字段。</p>
+      <p>引用字段 配置需要引用的关联对象上的字段。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>目前不支持引用系统标准字段中的“ 业务类型”。</p>
+      </required-cleanup>
+      <ul>
+        <li id="_bookmark49">计算公式<p>根据定义的公式表达式自动计算值的只读字段，任何参与计算的字段有所更改 时，计算公式字段的值都会自动更新。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>计算字段为异步计算，当在流程中使用计算字段作为条件时，为确保准确性，需要在计算完成后才能提交流程。</p></required-cleanup><ul><li>计算类型支持说明<p>计算公式支持以下计算类型：</p><p>数字</p><p>计算数字值。</p><p>可用字段：数值型字段 （整数，实数）日期型字段 日期时间字段。可用运算符：+ - * / （）。</p><p>示例：报价金额 = 单价 * 数量 * 折扣 + 运费。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>日期和日期时间类型字段，不可与数值型字段混合计算，即日期和日期类型计算，日期时间和日期时间类型计算，数值与数值型计 算，货币与货币计算。不同类型字段混合在公式中，检查时会报 错。</p></required-cleanup><p>日期</p><p>计算日期。</p><p>可用字段：日期字段。可用运算符：+-。</p><p>可用函数：today、date。</p><p>示例：预计结单日期 = 创建日期 + 7。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE 1. </b>日期不可使用运算符：* 和 /，检查时会报错检查时会报错检查时会报错。</p></required-cleanup><p><b>2. </b>日期 + 日期检查时会报错。</p><p>日期 / 时间</p><p>计算日期 / 时间。</p><p>可用字段：日期时间字段。可用运算符：+ -。</p><p>可用函数：now。</p><p>示例：预计解决时间 = 创建时间 + 24。</p><p><b>NOTE 1. </b>日期/ 时间不可使用运算符：* 和/ ，检查时会报错。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>日期时间+ 日期时间，检查时会报错。</p></required-cleanup><p>文本</p><p>通过串联其它字段，创建文本字段。</p><p>可用字段：文本字段、日期、日期时间、数字、自动编号、单选。 可用运算符：&amp; 。</p><p>通过 “” 拼接固定字符串。</p><p>示例：报名订单 = 报名人姓名 &amp; 报名日期。</p><p>货币</p><p>计算美元或其他币种金额，并将字段自动转换为货币格式。 示例 :Gross
+ Margin （毛利）= Amount - Costc。</p><p>百分比</p><p>计算百分比，并自动向数字添加百分号。</p><p>示例 :Discount （折扣）=
+ (Amount - Discounted_Amountc)
+ / Amount。</p><p>汇总累计</p><p>汇总关联对象的数量或某些字段的汇总值、最大值、最小值。 可用对象：主子明细。</p><p>可用字段：关联对象的字段 （数字型、货币型） 可用函数：count、sum、max、min。</p></li><li>配置项说明<p>配置项用于配置字段的基本属性及计算表达式等。</p><p>字段基本属性配置</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image114.png" /></fig></entry></row></tbody></tgroup></table><b>配置项 说明</b></p><p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p><p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p><p>配置项 说明</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p></required-cleanup></li></ul><ol><li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。<p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>计算公式配置</p><p>数字、货币、百分比的计算公式配置项如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image116.png" /></entry></row></tbody></tgroup></table></p><p>配置项 说明</p><p>计算公式 配置字段的计算公式，最终返回值的类型必须为数字类</p><p>
+ 型，插入字段、插入运算符、插入函数可辅助公式的配 置，语法检查用于检查配置的表达式语法是否正确。</p><p>描述 字段描述，建议设置为对字段或者计算公式的必要解 释。</p><p>参与计算的字段值为空时如何处理？</p><p>空白字段认为是 0：如果参与计算的字段的字段值为空，则后续的计算中，该字段值按
+ 0 处理。</p><p>空白字段认为是空白：如果参与计算的字段的字段值为 空，则后续的计算中，该字段值按空处理。</p><p>
+ 小数点位数 小数点右侧的数字位数，范围为 0~14。</p><p>日期、日期 /
+ 时间、文本的计算公式配置项如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image118.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>计算公式 配置字段的计算公式，最终返回值的类型必须为数字类</p><p>
+ 型，插入字段、插入运算符、插入函数可辅助公式的配 置，语法检查用于检查配置的表达式语法是否正确。</p><p>描述 字段描述，建议设置为对字段或者计算公式的必要解 释。</p><p>汇总累计的计算公式配置项如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image120.png" /></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>主对象 当前对象。</p><p>
+ 已关联对象 选择需要汇总的明细对象。</p><p>累计类型 选择汇总方式。</p><p>COUNT：汇总符合条件的记录数。例如，汇总订单明 细中已结清款项的记录数。</p><p>SUM：累加符合条件的字段值。例如，汇总订单明细中 的已交付数量。</p><p>MAX：获取符合条件的字段的最大值。例如，获取订单 明细中已收款金额的最大值。</p><p>
+ MIN：获取符合条件的字段的最大值。例如，获取订单 明细中已收款金额的最小值。</p><p>配置项 说明</p><p>
+ 汇总字段 当累计类型选择 SUM、MAX
+ 或者 MIN 时可设置此项。选择需要汇总的字段。</p><p>过滤条件 配置哪些数据参与汇总。</p><p>此计算包括所有的记录：所有数据都参与汇总。</p><p>此计算仅包括符合下列条件的记录：汇总时只汇总符合 这些条件的数据，其他数据不进行汇总。勾选此项后， 需要配置过滤条件。</p><p>过滤条件的配置方法请参考<xref href="#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark62">条件配置说明</xref>。小数点位数 小数点右侧的数字位数，范围为 0~14。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>当汇总字段的字段类型为百分比时，此处的小数位数应与子对象上需要汇总字段的小数位数保持一致或者大于子对象上需要汇总字段的小数位 数。</p></required-cleanup></li></ol><ul><li>特殊说明</li></ul></li>
+      </ul>
+      <p>对于计算公式类型字段，有以下特殊说明：</p>
+      <ol>
+        <li>在计算公式中所有引用的字段均不考虑权限，如果字段中包含敏感信 息，请使用字段可见性来控制计算公式字段是否对用户可见。</li>
+        <li>除标准对象 “ 客户 ” 和 “ 销售机会 ” 外，其他对象的汇总累计仅支持主子明细，不支持一般关联关系，即在标准对象 “ 客户 ” 和 “ 销售机会 ” 中，汇总字段既支持主子明细，也支持一般关联关系。</li>
+        <li>除标准对象 “ 客户 ” 和 “ 销售机会 ” 外，其他对象筛选条件中目前<p>只支持明细对象字段的筛选。</p></li>
+        <li>计算公式为只读字段，不能修改。</li>
+        <li>计算公式字段只在详情页显示，新建或者编辑时不显示此类型字段。</li>
+      </ol>
+      <ul>
+        <li id="_bookmark50">电话<p>可集成呼叫中心功能，在网页端可直接单击拨打电话，移动端不支持。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image122.png" /></fig></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image124.png" /></entry></row></tbody></tgroup></table></p></li><li>配置项说明<p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image126.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p><p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p><p>配置项 说明</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p></required-cleanup></li></ul><ol><li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li></ol></li>
+      </ul>
+      <p>掩码显示 勾选此项后，该字段的内容在对用户展示时将加掩码显</p>
+      <p>示，即从字段内容的倒数第 5 位开始，往前 4 位以掩码“*” 显示，例如，字段的内容为 “12345678901”， 则对用户展示为
+ “123****8901”。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>当字段的内容长度小于等于 4 位时，即使勾选此项，也不进行掩码显示。</p>
+      </required-cleanup>
+      <ol>
+        <li>当字段的内容长度大于 4
+ 位且小于等于 8 位时，则从字段内容的倒数第 5 位开始往前到第1
+ 位进行掩码显示。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>电话掩码仅为显示层控制，在筛选和后台运算中都是按照实际值运算。</p></required-cleanup></li>
+        <li>扣框编辑和编辑数据时可看到实际值。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>电话掩码对默认管理员职能无效，即使设置了电话掩码，默认管理员职能也可以看到实际 值。</p></required-cleanup></li>
+        <li>
+ 如果希望某些人不受掩码的限制，能够看到实际值，则可以过职能权限进行控制。在设置职能时，勾选用户和权限&gt; 职能管理&gt;
+ 功能权限&gt; 后台功能&gt; 系统功能下的“ 是否可以查看掩码数据？ ”，勾选此项表示该职能权限的用户可以查看掩码数据。</li>
+      </ol>
+      <p>最大长度 不能超过 100。</p>
+      <p>配置项 说明</p>
+      <p>唯一属性 勾选此项后，该字段的值将不允许重复。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>唯一属性不区分大小写，例如 “AbC” 和“abc” 将被认为是重复数据。</p>
+      </required-cleanup>
+      <p>
+        <b>2. </b>每个对象下只能有一个带唯一属性的字段</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+ （含禁用字段）。</p>
+      </required-cleanup>
+      <p>加密存储 数据在数据库中为明文存储，当对数据安全要求比较高 时，可以设置数据加密存储。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>加密存储会影响功能和性能，建议在应对敏感信息安全、合规要求等特殊场景下使用。</p>
+      </required-cleanup>
+      <ol>
+        <li>加密字段的长度最多为 70 个字符。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>加密后的字段，不支持筛选、排序和搜索。</p></required-cleanup></li>
+        <li>加密后的字段，不支持用户操作日志记录。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>加密后的字段，不能再用于后台配置中涉及到筛选、判断的条件中，例如：共享规则、校验规则、查重规则、流程、作为默认值被引用、计算型字段、引用字段的配置中。</p></required-cleanup></li>
+        <li>加密后的字段，不支持查询接口以及在XOQL 中作为条件。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于已有数据的字段，不能再设置加密存储。</p></required-cleanup></li>
+        <li>
+ 字段设置为加密存储后，不能再取消加密存储。<p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>配置项 说明</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为电话类型，不能超过 200 个字符。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。</li></ol></li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p>
+      </required-cleanup>
+      <p>
+        <b>2. </b>插入函数支持<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_逻辑类函数.dita">逻辑类函数</xref>和<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_文本类函数.dita">文本类函数</xref>。</p>
+      <ul>
+        <li id="_bookmark51">邮箱<p>邮箱类型的字段会生成一个邮箱链接，单击后可打开电脑端或者移动端的邮箱 工具，便于快速发送邮件。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image128.png" /></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image130.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image132.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>配置项 说明</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>掩码显示 此项默认不勾选，勾选后，该字段的内容在对用户展示</p>
+      <p>时时将加掩码显示。</p>
+      <p>
+        <b>NOTE 1. </b>邮箱掩码仅为显示层控制，在筛选和后台运算中都是按照实际值运算。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>扣框编辑和编辑数据时可看到实际值。</p>
+      </required-cleanup>
+      <ol>
+        <li>只有对邮箱值有编辑权限的用户，才可单击进行邮件发送。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>邮箱掩码对默认管理员职能无效，即使设置了邮箱掩码，默认管理员职能也可以看到实际 值。</p></required-cleanup></li>
+        <li>
+ 如果希望某些人不受掩码的限制，能够看到实际值，则可以过职能权限进行控制。在设置职能时，勾选用户和权限&gt; 职能管理&gt;
+ 功能权限&gt; 后台功能&gt; 系统功能下的“ 是否可以查看掩码数据？ ”，勾选此项表示该职能权限的用户可以查看掩码数据。</li>
+      </ol>
+      <p>配置项 说明</p>
+      <p>掩码格式 此项仅当勾选 “ 掩码显示 ” 时出现，用于设置该字段</p>
+      <p>的哪部分内容使用掩码显示，支持以下掩码格式：</p>
+      <p>掩码显示所有字符：</p>
+      <p>字段中的所有字符全部使用掩码显示，例如邮箱为“xsy@xiaoshouyi.com”，掩码字符使用 “*”，则掩码显示后为 “******************”。</p>
+      <p>掩码显示邮箱用户名：</p>
+      <p>邮箱 “@” 字符前的所有内容使用掩码显示，例如邮箱为
+ “xsy@xiaoshouyi.com”，掩码字符使用“*”，则掩码显示后为 “***@xiaoshouyi.com”。</p>
+      <p>掩码显示邮箱域名：</p>
+      <p>
+ 邮箱 “@” 字符后的所有内容使用掩码显示，例如邮箱为 “xsy@xiaoshouyi.com”，掩码字符使用“*”，则掩码显示后为 “xsy@**************”。</p>
+      <p>掩码字符 此项仅当勾选 “ 掩码显示 ” 时出现，用于设置掩码显</p>
+      <p>
+ 示时使用的掩码字符，支持“*” 和 “X”。</p>
+      <p>最大长度 不能超过 100。</p>
+      <p>唯一属性 勾选此项后，该字段的值将不允许重复。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>唯一属性不区分大小写，例如 “AbC” 和“abc” 将被认为是重复数据。</p>
+      </required-cleanup>
+      <p>
+        <b>2. </b>每个对象下只能有一个带唯一属性的字段</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+ （含禁用字段）。</p>
+      </required-cleanup>
+      <p>配置项 说明</p>
+      <p>加密存储 数据在数据库中为明文存储，当对数据安全要求比较高 时，可以设置数据加密存储。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>加密存储会影响功能和性能，建议在应对敏感信息安全、合规要求等特殊场景下使用。</p>
+      </required-cleanup>
+      <ol>
+        <li>加密字段的长度最多为 70 个字符。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>加密后的字段，不支持筛选、排序和搜索。</p></required-cleanup></li>
+        <li>加密后的字段，不支持用户操作日志记录。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>加密后的字段，不能再用于后台配置中涉及到筛选、判断的条件中，例如：共享规则、校验规则、查重规则、流程、作为默认值被引用、计算型字段、引用字段的配置中。</p></required-cleanup></li>
+        <li>加密后的字段，不支持查询接口以及在XOQL 中作为条件。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于已有数据的字段，不能再设置加密存储。</p></required-cleanup></li>
+        <li>
+ 字段设置为加密存储后，不能再取消加密存储。<p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>配置项 说明</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为邮箱类型，不能超过 200 个字符。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。</li></ol></li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p>
+      </required-cleanup>
+      <p>
+        <b>2. </b>插入函数支持<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_逻辑类函数.dita">逻辑类函数</xref>和<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_文本类函数.dita">文本类函数</xref>。</p>
+      <ul>
+        <li id="_bookmark52">网址<p>网址类型字段可在前台创建一个网址链接，单击会直接跳转至该网页。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image134.png" /></fig></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image136.png" /></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image138.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>最大长度 不能超过 100。</p>
+      <p>配置项 说明</p>
+      <p>最小长度 不能小于 0。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>修改字段的最大长度和最小长度后，只影响新创建或者新修改的数据，不影响历史数据。</p>
+      </required-cleanup>
+      <p>唯一属性 勾选此项后，该字段的值将不允许重复。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>唯一属性不区分大小写，例如 “AbC” 和“abc” 将被认为是重复数据。</p>
+      </required-cleanup>
+      <ol>
+        <li>每个对象下只能有一个带唯一属性的字段<required-cleanup><p><b>[heading h6 could not be placed here]: </b>
+ （含禁用字段）。</p></required-cleanup><p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>配置项 说明</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为文本类型，不能超过 200 个字符。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。</li></ol></li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p>
+      </required-cleanup>
+      <p>
+        <b>2. </b>插入函数支持<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_逻辑类函数.dita">逻辑类函数</xref>和<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_文本类函数.dita">文本类函数</xref>。</p>
+      <ul>
+        <li id="_bookmark53">图片<p>可单击该字段上传图片。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image140.png" /></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image142.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image144.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>配置项 说明</p>
+      <p>图片数量 设置可上传图片数量，数量范围为 1~9。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE
+ 1. </b>网页端上传图片时，图片格式支持jpg、jpeg、gif 和png，移动端端上传图片时，图片格式仅支持png 格式。</p>
+      </required-cleanup>
+      <ol>
+        <li>单张图片的大小最大支持 80M
+ （网页端和移动端端相同）。</li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+ 一个图片类型字段中，上传的所有图片的总大小无限制（网页端和移动端相同）。</p>
+      </required-cleanup>
+      <p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p>
+      <p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p>
+      <p>上传设置 设置图片上传的方式，支持本地上传和拍照上传。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>如果只勾选“ 拍照上传”，则网页端将不支持该字段上传新的图片。</p>
+      </required-cleanup>
+      <p>水印设置 设置用户上传的图片中，是否增加水印效果，勾选 “</p>
+      <p>添加水印 ”，则表示增加水印效果，默认为不勾选。</p>
+      <p>在勾选 “ 添加水印 ” 后，可设置水印内容，支持以下内容：</p>
+      <p>时间：当前所在时区的时间。</p>
+      <p>定位：默认为当前位置，支持在手机地图中选择地理位 置。</p>
+      <p>当前登录用户：当前登录用户的姓名。</p>
+      <p>引用字段：支持引用某个字段的数据。目前仅支持引用 以下字段类型的数据：文本、单选、整数、实数、货 币、日期、引用字段、电话、邮箱、网址、百分比。</p>
+      <p>
+        <b>NOTE 1. </b>目前水印功能仅支持移动端。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>2. </b>水印将出现在图片的右下方。</p>
+      </required-cleanup>
+      <ul>
+        <li id="_bookmark54">文件</li>
+      </ul>
+      <p>可单击该字段上传文件。</p>
+      <p>
+        <b>NOTE 1. </b>一个文件类型的字段最多可上传 9 个文件。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>上传文件的类型没有限制。</p>
+      </required-cleanup>
+      <ol>
+        <li>每个对象最多可设置 10 个文件类型的字段。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>单个文件大小最大为 80M<b>。</b></p></required-cleanup><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image146.png" /></fig></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image148.png" /></entry></row></tbody></tgroup></table></p></li><li>配置项说明<p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image150.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p><p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p></required-cleanup></li></ul><ol><li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li></ol></li>
+      </ol>
+      <p>配置项 说明</p>
+      <p>
+ 文件数量 设置可上传图片数量，数量范围为 1~9。</p>
+      <p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p>
+      <p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p>
+      <p>上传设置 不可设置，支持本地上传。</p>
+      <ul>
+        <li id="_bookmark55">百分比<p>用户输入百分比数字，自动向数字添加百分号。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image152.png" /></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image154.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image156.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。</li>
+      </ol>
+      <p>最大长度 小数点左侧的数字位数。</p>
+      <p>配置项 说明</p>
+      <p>小数点位数 小数点右侧的数字位数，范围为 0~5。最小长度 不能小于 0。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE 1. </b>小数点位数的设置仅用于页面显示和页面输入，不用于后台的数据存储。修改小数点位数不会对历史数据进行处理，仅销售易前台显示时进行四舍五入处理。如果您对小数位精度有严格要求，请在数据处理时根据业务要求进行精度处理（例如四舍五入，向上取整等）。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+ 最大长度+ 小数点位数不能超过 10。<p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>配置项 说明</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p><p>默认值必须为文本类型，不能超过 200 个字符。</p><p>插入字段、插入运算符和插入函数可以辅助默认值的设 置，设置完成后可通过语法检查查看设置的默认值表达 式语法是否正确。</p><p><b>NOTE 1. </b>关于插入字段，有以下特殊说明：</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>字段选择范围仅支持关联关系上的字段</p></required-cleanup><p>（称为“ 关联字段”），不支持本对象上的字段。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>目前仅自定义对象支持选择关联字段，标准对象仅支持选择“ 当前用户” 中的相应内容。</p></required-cleanup><ol><li>选择的关联字段不支持以下字段类型：关联关系、引用字段和图片。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个字段的默认值，只支持插入同一个关联关系上的字段，即在默认值表达式中，不能同时引用不同关联关系上的字段。</p></required-cleanup></li><li>将默认值中有插入“ 关联字段” 的字段称为“ 动态默认值字段”，一个业务对象最多允许创建 10 个“ 动态默认值字段”。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>“ 当前用户” 目前仅支持插入当前用户的“ 姓名”、“ 语言编码” 和“ 部门”。</p></required-cleanup><p><b>2. </b>插入函数仅支持<xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_数学类函数.dita">数学类函数</xref>。</p></li></ol><ul><li>特殊说明</li></ul></li>
+      </ol>
+      <p>对于百分比类型字段，有以下特殊说明：</p>
+      <ol>
+        <li>百分比类型在前台输入时，只能输入数字，不能输入 %，用户输完失去光标时自动在数据后面加上 %。例如需要输入的值为 10%，则在前台输入时输入
+ 10 即可。</li>
+        <li>分比类型支持前台的筛选和过滤，与输入数据不同之处在于，输入时输入的是 % 前面的数字，但是在筛选和过滤时输入的是实际值，例如要查找 10%，在筛选时则需要输入的值为
+ 0.1。</li>
+      </ol>
+      <ul>
+        <li id="_bookmark56">布尔型<p>以复选框形式展现，用户可以根据实际情况选择是否勾选。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image158.png" /></fig></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image160.png" /></entry></row></tbody></tgroup></table></p></li><li>配置项说明<p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image162.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p><p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p><p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p><p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p><p><b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p></required-cleanup></li></ul><ol><li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。<p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><p>默认值 默认值显示新建业务数据页面，新建时自动为该字段填 充设置的默认值。</p></li></ol><ul><li>特殊说明</li></ul></li>
+      </ul>
+      <p>对于布尔类型字段，有以下特殊说明：</p>
+      <p>新增布尔型字段后，历史数据此类型字段的值为空，对于新增数据则只能 选择“是 ” 或者“否 ”。</p>
+      <ul>
+        <li id="_bookmark57">地理定位<p>用于定义位置，包括经度和纬度组件，可用于计算距离。</p><ul><li>展现形式<p>新建业务数据时的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image164.png" /></entry></row></tbody></tgroup></table></p><p>在详情页的展现形式如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image166.png" /></fig></entry></row></tbody></tgroup></table></p></li><li>配置项说明</li></ul></li>
+      </ul>
+      <p>配置项用于配置字段的属性，以便用户在输入字段值时可以遵循特定的规 则。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image168.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>字段名称 字段的名称，支持汉字、数字、字母等字符。建议设置</p>
+      <p>
+ 为有实际意义的名称，尽量与实际场景贴合。</p>
+      <p>API 名称 在 API 中引用字段时，需要使用 API 名称。</p>
+      <p>系统自动填充，可更改，支持字母、数字和下划线，但 不能以数字开头，且长度不能超过 97 个字符。</p>
+      <p>
+        <b>NOTE 1. </b>同一个对象下所有字段的API 名称不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>对于所有自定义字段，将在设置的API 名称后自动加上”c“
+ （两个下划线），用于标识该字段为自定义字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+ 设置的API 名称不能以”c“ （两个下划线）或者“_” 结尾。<p>小数点位数 小数点右侧的数字位数，范围为 0~5。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>小数点位数的设置仅用于页面显示和页面输入， 不用于后台的数据存储。修改小数点位数不会对历史数据进行处理，仅销售易前台显示时进行四舍五入处理。如果您对小数位精度有严格要求， 请在数据处理时根据业务要求进行精度处理</p></required-cleanup><p>
+ （例如四舍五入，向上取整等）。</p><p>配置项 说明</p><p>帮助文本 当用户悬停在此字段旁的消息图标上时，此文本将自动</p><p>
+ 显示，建议设置为对字段的必要解释。最多不能超过100 个字符。</p><ul><li>特殊说明</li></ul></li>
+      </ol>
+      <p>对于地理定位类型字段，有以下特殊说明：</p>
+      <p>地理位置目前只支持数字，不支持度分秒的格式。</p>
+      <p id="_bookmark58">配置字段在布局中的显示以及字权限</p>
+      <p>对于所有类型的字段，在创建时都可以为其设置布局显示和职能权限。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image170.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>所有布局使用此字段 用于对所有布局进行配置，也为某个页面布局单独进行</p>
+      <p>配置。</p>
+      <p>必填：勾选此项，表示用户在新建或者编辑数据时必须 为该字段设置内容。</p>
+      <p>
+ 常用：勾选此项，表示用户在新建数据时，该字段直接 显示在新建页面中，否则将通过单击新建页面中的
+ “ 查看更多信息
+ &gt;&gt;” 才可以看到该字段。</p>
+      <p>所有职能使用此字段 用于对所有职能进行配置，也为某个页面布局单独进行</p>
+      <p>配置。。</p>
+      <p>可见：该职能对该字段可见。</p>
+      <p>只读：该职能无法修改该字段的内容，只能查看。</p>
+      <p>| <b>137</b></p>
+      <p id="配置字段依赖性">配置字段依赖性</p>
+      <p>在实际应用中，经常会出现需要依赖关系的选项型字段，例如，地区字段中的市、 区，通过配置字段之间的依赖性，可以为单选或者多选字段建立依赖关系。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image172.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>只有单选类型和多选类型的字段可以配置依赖关系，在配置字段依赖性之前，请确保已经建立的单选和多选字段的数量至少为 2 个。</p>
+      </required-cleanup>
+      <p>遵循以下步骤，配置字段依赖性：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>字段</b>标签。</li>
+        <li>在字段页面，单击<b>字段依赖性</b>。</li>
+        <li>在 【字段依赖性】页面，单击<b>新建字段依赖性</b>。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image174.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>控制字段 控制字段选择的内容决定了依赖字段的可选范围。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE 1. </b>控制字段目前仅支持单选类型的字段，
+ 依赖字段支持单选和多选类型的字段。</p></required-cleanup><p><b>2. </b>当控制字段的内容引自系统预置的通用选项集（行业通用选项或者系统通用选项）时，依赖字段也必须选择系统预置的依赖字段。</p><p>依赖字段 依赖字段的可选项取决于控制字段的所选项。 使用通用选项集依赖关系 此项仅当控制字段和依赖字段都引用自通用选项</p><p>集，且两个被引用的通用选项集之间配置了依赖关</p><p>系。</p><p>勾选此项，表示直接使用通用选项集中配置的依赖 关系。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>如果直接使用通用选项集的依赖关系，则后期如果需要改为自定义配置字段的依赖关系，则必须先删除之间配置的依赖关 系。</p></required-cleanup></li>
+        <li>单击<b>下一步</b>，设置选项之间依赖关系。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image176.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>设置完成后，单击<b>保存</b>。</li>
+      </ol>
+      <p>| <b>140</b></p>
+      <p id="禁用或删除字段">禁用或删除字段</p>
+      <p>
+        <b>禁用字段</b>
+      </p>
+      <p>对于目前暂时不需要使用的字段可以将其状态设置为 “ 禁用 ”，有需要时可以再启用。</p>
+      <p>遵循以下步骤，禁用字段：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>字段</b>标签。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image178.png" />在字段列表中，单击要禁用字段的<b>状态</b>下的 。<p><b>NOTE 1. </b>如果字段在系统中已经被使用( 例如在计算公式、校验规则、报表条件中已经被使用），则字段不允许被禁用。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b>如果字段仅在系统中的用户自定义视图中被使用，则字段允许被禁用。禁用成功后，使用该字段的视图在加载过程中将自动删除该字段。用户自定义视图是指用户在销售易前台页面通过“ 自定义检索条件” 设置的视图，如下图所示（图中以自定义业务对象“ 自定义客户信息” 为例）。</p></required-cleanup><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image180.png" /></fig></entry></row></tbody></tgroup></table></p><ol><li>除货币类型字段中随多货币字段自动创建的两个系统标准字段“ 币种” 和“ 汇率” 外，其他的系统标准字段都不允许被禁用。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>如果要禁用的为关联关系类型字段，且该字段被主子明细的批量选择依据选中，则该字段不能被禁用。</p></required-cleanup><p>删除字段</p><p>对于不再需要使用的字段可以将其删除。</p><p>遵循以下步骤，删除字段：</p><ol><li>在 【自定义对象】页面，单击对象名称。</li><li>在对象页面，单击<b>字段</b>标签。</li><li><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image181.png" />在字段列表中，单击要删除字段后的 。<required-cleanup><p><b>[heading h5 could not be placed here]: </b><b>NOTE 1. </b>如果字段在系统中已经被使用( 例如在计算公式、校验规则、报表条件中已经被使用），则字段不允许被删除。</p></required-cleanup><required-cleanup><p><b>[heading h6 could not be placed here]: </b>如果字段仅在系统中的用户自定义视图中被使用，则字段允许被删除。删除成功后，使用该字段的视图在加载过程中将自动删除该字段。用户自定义视图是指用户在销售易前台页面通过“ 自定义检索条件” 设置的视图，如下图所示（图中以自定义业务对象“ 自定义客户信息” 为例）。</p></required-cleanup><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image180.png" /></fig></entry></row></tbody></tgroup></table></p><ol><li>所有的系统标准字段（货币类型字段中随多货币字段自动创建的两个系统标准字段“ 币种” 和“ 汇率”）都不允许被删除。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>如果需要删除货币类型字段中的多货币字段，需要先在货币设置中关闭多币种功能，在删除多货币字段时，如果删除的是本币字段，则自定义的多货币字段会自动转为单货币字段，如果删除的是自定义的多货币字段，则在删除自定义的多货币字段的同时会自动删除本币字段。</p></required-cleanup></li><li>如果要删除的为关联关系类型字段，且该字段被主子明细的批量选择依据选中，则该字段不能被删除。</li></ol></li></ol></li></ol></li>
+      </ol>
+      <p id="字段配置的补充说明">字段配置的补充说明</p>
+      <p id="_bookmark62">
+        <b>条件配置说明</b>
+      </p>
+      <ul>
+        <li>值的配置方式说明</li>
+      </ul>
+      <p>在配置条件时，可以选择 “ 值 ” 的配置方式，以下两种形式都被认为是 “ 值 ” 的配置方式。</p>
+      <p>以下形式出现在创建关联关系和主子明细字段时，配置查找筛选器中。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image183.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>以下形式出现在创建计算公式 - 汇总累计字段时，配置过滤条件中。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image185.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>下面介绍不同类型字段输入值的方法：</p>
+      <ul>
+        <li>文本</li>
+      </ul>
+      <p>手动输入文本内容。</p>
+      <ul>
+        <li>单选</li>
+      </ul>
+      <p>在选项列表中选择一个值。</p>
+      <ul>
+        <li>多选</li>
+      </ul>
+      <p>在选项列表中选择一个或者多个值。</p>
+      <ul>
+        <li>整数</li>
+      </ul>
+      <p>手动输入一个整数值。</p>
+      <ul>
+        <li>实数</li>
+      </ul>
+      <p>手动输入一个实数值。</p>
+      <ul>
+        <li>货币</li>
+      </ul>
+      <p>手动输入一个货币值。</p>
+      <ul>
+        <li>日期</li>
+      </ul>
+      <p>在弹出的日历中选择一个日期。</p>
+      <ul>
+        <li>日期 + 时间<p>在弹出的日历中选择一个日期，在弹出的时间选择器中选择时间，日期和 时间的选择无先后顺序限制。</p><ul><li>自动编号<p>手动输入一个自动编号的值。</p></li><li>计算公式<p>手动输入一个数字值。</p></li><li>电话<p>手动输入一个电话值。</p></li><li>邮箱<p>手动输入一个邮箱值。</p></li><li>网址<p>手动输入一个网址。</p></li><li>百分比<p>手动输入一个百分比值，不需要输入 %。例如，需要输入的值为 50%，则直接输入 50。</p></li><li>布尔型<p>在选项列表中选择“是 ” 或者“否 ”。</p></li><li>关联关系</li></ul></li>
+      </ul>
+      <p>选择关联关系上的字段。</p>
+      <ul>
+        <li>字段的配置方式说明</li>
+      </ul>
+      <p>在配置条件时，可以选择 “ 字段 ” 的配置方式，以下形式出现在创建关联关系和主子明细字段时，配置查找筛选器中。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image187.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>对于字段的配置方式，左侧字段 （图中序号 1）和右侧字段 （图中序号 2）的类型对应说明如下表所示。</p>
+      <p>左侧字段类型 右侧字段类型 说明</p>
+      <p>文本</p>
+      <p>自动编号电话</p>
+      <p>邮箱网址</p>
+      <p>计算公式 _ 文本整数</p>
+      <p>实数</p>
+      <p>货币 百分比</p>
+      <p>计算公式 _ 数值计算公式 _ 货币计算公式 _ 百分比</p>
+      <p>计算公式 _ 汇总累计日期</p>
+      <p>计算公式 _ 日期</p>
+      <p>日期时间</p>
+      <p>计算公式 _ 日期时间</p>
+      <p>文本</p>
+      <p>自动编号电话</p>
+      <p>邮箱网址</p>
+      <p>计算公式 _ 文本整数</p>
+      <p>实数</p>
+      <p>货币 百分比</p>
+      <p>计算公式 _ 数值计算公式 _ 货币计算公式 _ 百分比</p>
+      <p>计算公式 _ 汇总累计日期</p>
+      <p>计算公式 _ 日期</p>
+      <p>日期时间</p>
+      <p>计算公式 _ 日期时间</p>
+      <p>左侧字段为出现类型之一，右侧可支持全部类型，比如左侧已选字段类型为文本，则右侧可选字段类型支持文本、自动编号、电话、邮箱、网址和计算公式 _ 文本。</p>
+      <p>左侧字段为出现类型之一，右侧可支持全部类型，比如左侧已选字段类型为整数，则右侧可选字段类型支持整数、实数货币、百分比、计算公式 _ 数值 、计算公式 _ 货币、计算公式 _ 百分比和计算公式
+ _ 汇总累计。</p>
+      <p>左侧字段为出现类型之一，右侧可支持全部类型，比如左侧已选字段类型为日期，则右侧可选字段类型支持日期和计算公式 _ 日期。</p>
+      <p>左侧字段为出现类型之一，右侧可支持全部类型，比如左侧已选字段类型为日期时间，则右侧可选字段类型支持日期时间和计算公式 _ 日期时间。</p>
+      <p>
+ 单选 单选 无</p>
+      <p>布尔型 布尔型 无</p>
+      <p>左侧字段类型 右侧字段类型 说明</p>
+      <p>关联关系主子明细</p>
+      <p>关联关系主子明细</p>
+      <p>左侧字段为出现类型之一，右侧可支持全部类型，比如左侧已选字段类型为关联关系，则右侧可选字段类型支持关联关系和主子明细。</p>
+      <p>
+        <b>NOTE
+ </b>目前不支持多选类型字段。</p>
+      <ul>
+        <li>高级公式的编写规则</li>
+      </ul>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image189.png" />在配置条件时，单击 <b>+ 添加更多条件</b>可添加条件，每单击 1 次增加 1 个条件， 单击 可删除对应的条件。如果添加了多个条件，则默认多个条件之间的关系 为 “and （与）” 的关系，如果需要自定义各条件之间的关系，则需要使用高级公式。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image191.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>各条件在公式中使用序号表示，此序号自动生成，位于各条件的最左侧。使用and 和 or 自定义条件之间的关系。公式的编写规则如下表所示。</p>
+      <p>公式规则 错误示例
+ （假设有 4 个条件）</p>
+      <p>同时有 and 和 or，必须有括号。 1and2or3and4 一个括号中不能同时出现 and 和 or。 (1and2or3)and4</p>
+      <p>
+ 不允许出现不存在的编号。 1and2and3and4and5</p>
+      <p>括号必须成对出现。 (1and2or3and4</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>当添加新的条件时，默认加到条件列表的最后，当删除某个条件时（删除最后一个条件除外），条件最左侧的序号将根据现有条件个数进行序号的更新，因此选条件的个数有变化时，注意修改公式中对应的条件序号。</p>
+      </required-cleanup>
+      <p>| <b>147</b></p>
+      <p id="字段限制说明">字段限制说明</p>
+      <p>
+        <b>字段数量限制说明</b>
+      </p>
+      <p>同一个对象，不同字段类型及不同字段类型组合后，可添加的字段数量均有限制， 详细信息如下表所示。</p>
+      <table>
+        <tgroup cols="2" colsep="1" rowsep="1">
+          <colspec colname="col1" />
+          <colspec colname="col2" />
+          <tbody>
+            <row>
+              <entry colname="col1">
+                <b>字段类型 / 字段类型组合</b>
+              </entry>
+              <entry colname="col2">
+                <b>可添加字段数量 （个）</b>
+              </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 单选 </entry>
+              <entry colname="col2" translate="no"> 55 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 多选 </entry>
+              <entry colname="col2" translate="no"> 40 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 文本域 </entry>
+              <entry colname="col2" translate="no"> 50 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 整数 </entry>
+              <entry colname="col2" translate="no"> 65 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 引用类型 </entry>
+              <entry colname="col2" translate="no"> 20 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 计算公式 </entry>
+              <entry colname="col2" translate="no"> 10 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 布尔型 </entry>
+              <entry colname="col2" translate="no"> 20 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 图片 </entry>
+              <entry colname="col2" translate="no"> 10 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 文本 + 自动编号 + 计算公式（文本） </entry>
+              <entry colname="col2" translate="no"> 70 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 日期 + 计算公式 （日期） </entry>
+              <entry colname="col2" translate="no"> 40 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 关联关系 + 主子明细 </entry>
+              <entry colname="col2" translate="no"> 25 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 电话 + 邮箱 + 网址 + 地理定位 </entry>
+              <entry colname="col2" translate="no"> 20 </entry>
+            </row>
+            <row>
+              <entry colname="col1"> 实数 + 百分比 + 货币 + 计算公式 （实数）+ 计算公式 （百分比）+ 计算公式 （汇总）+ 计算公式 （货币） </entry>
+              <entry colname="col2" translate="no"> 65 </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>NOTE </b>对于标准对象“ 销售机会”，可添加的单选类型字段数量最多为
+ 75 个， 其他对象请参考上表。</p>
+      </required-cleanup>
+      <p>查看当前可添加的字段数量信息</p>
+      <p>在系统中可以查看当前对象还可创建的各类型字段的数量信息。 遵循以下步骤，查看可添加的字段数量信息：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在设置对象页面，单击 【字段】标签。</li>
+        <li>将鼠标移动到<b>添加自定义字段</b>左边的问号图标上。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic19_image193.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

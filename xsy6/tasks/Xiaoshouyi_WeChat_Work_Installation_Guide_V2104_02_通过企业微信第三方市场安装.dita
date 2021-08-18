@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7723B57-6541115-A755254562D791A-F7CFA3">
+  <title>通过企业微信第三方市场安装</title>
+  <shortdesc>遵循以下步骤，安装配置销售易企业微信应用：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>企业管理员在销售易系统中手动绑定企业关系：</cmd>
+        <substeps>
+          <substep>
+            <cmd>登录企业微信后台管理平台 <xref href="https://work.weixin.qq.com/" scope="external" format="html">https://work.weixin.qq.com</xref>。</cmd>
+          </substep>
+          <substep>
+            <cmd>登录成功后，在企业微信管理平台中，单击<b>我的企业</b>标签。</cmd>
+          </substep>
+          <substep>
+            <cmd id="_bookmark10">在 【企业信息】页面，获取<b>企业 ID </b>的值。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <fig>
+                            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic11_image002.png" />
+                          </fig>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>登录销售易系统，在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt;</cmd>
+          </substep>
+          <substep>
+            <cmd>在 【企业微信集成应用】页面设置企业关系。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic11_image004.png" />
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+ 配置项 说明</p>
+              <p>企业微信 ID 输入 <xref href="#A7723B57-6541115-A755254562D791A-F7CFA3/_bookmark10">c 步</xref>中获取到的企业 ID 内容。</p>
+              <p>
+                <fig>
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic11_image005.png" />
+                </fig>
+              </p>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic11_image006.png" />
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+ 企业微信名称 在一些位置会显示企业微信名称，建议设置为企业微信 中的企业名称。</p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>设置完成后，单击<b>绑定企业微信 ID</b>。</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>添加应用。</cmd>
+        <substeps>
+          <substep>
+            <cmd>在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <fig>
+                            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic11_image008.png" />
+                          </fig>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>在 【企业微信集成应用】页面，单击<b>添加第三方应用</b>。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic11_image010.png" />
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>选择需要安装的应用，单击<b>保存</b>后，进入到 【企业微信扫码安装第三方应用】页面。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <fig>
+                            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic11_image012.png" />
+                          </fig>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>手机端登录企业微信，扫描 【企业微信扫码安装第三方应用】页面中的二维码，并确认安装。</cmd>
+          </substep>
+          <substep>
+            <cmd>在网页端的企业微信第三方应用页面中，可以根据需要，设置该应用的可 见范围。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic11_image014.png" />
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>设置完成后，单击<b>同意以上授权，并添加</b>。应用添加成功后，会自动跳转 到销售易系统。</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>
+          <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_开启通讯录同步_可选.dita">开启通讯录同步 （可选）</xref>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户的映射关系_必须.dita">设置用户的映射关系 （必须）</xref>。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="../concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户权限_可选.dita">设置用户权限 （可选）</xref>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

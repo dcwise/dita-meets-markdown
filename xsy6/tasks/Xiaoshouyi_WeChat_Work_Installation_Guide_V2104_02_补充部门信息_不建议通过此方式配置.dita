@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B5B583-B755472-14C1D5751DC7D80-6C31F0">
+  <title>补充部门信息 （不建议通过此方式配置）</title>
+  <shortdesc>应用添加完成后，根据应用的可见范围，会自动同步企业微信中相应的部门和用户 信息到销售易系统中，但由于在安装应用时，尚未开启通讯录同步功能，所以同步 的信息并非部门的真实信息。</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>部门信息补充主要用于将部门 ID 改为部门名称。遵循以下步骤，补充部门信息：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在销售易系统后台页面的左侧导航菜单中，单击<b>集成 &gt; 外部部门绑定</b>。</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark84">在 【外部部门绑定列表】页面，单击<b>导出企业微信部门</b>导出企业微信中的部门信息。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image004.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在销售易系统后台页面的左侧导航菜单中 , 单击<b>数据管理 &gt; 数据导出</b>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image006.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 配置项 说明</p>
+          <p>对象类型 选择 “ 部门 ”。</p>
+          <p>
+            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image007.png" />
+          </p>
+          <p>配置项 说明</p>
+          <p>字段信息 勾选以下几项：</p>
+          <ul>
+            <li>ID(id)</li>
+            <li>部门名称 (departName)</li>
+            <li>唯一标识 (unionId)</li>
+            <li>
+ 第三方部门名称 (thirdDepartName)</li>
+          </ul>
+          <p>筛选条件 无需设置。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image007.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 选择文件编码 选择 GB18030 （简体中文）。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>开始导出</b>。</cmd>
+      </step>
+      <step>
+        <cmd>导出成功后，在 【监控数据导入导出状态】页面的<b>过去 7 天完成</b>部分，单击相应作业后<b>详情</b>下的<b>查看</b>。</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark85">在 【批量数据加载作业的详细信息】页面的<b>批次</b>部分，单击<b>查看结果</b>将导出的信息保存到本地。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image009.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>对此表进行以下修改操作：</p>
+      <ol>
+        <li>对比此表中的<b>部门名称 </b>（实际内容为企业微信的部门
+ ID）与<xref href="#A7B5B583-B755472-14C1D5751DC7D80-6C31F0/_bookmark84">第2 步</xref>中获取到的<b>部门 id</b>，将<xref href="#A7B5B583-B755472-14C1D5751DC7D80-6C31F0/_bookmark84">第2 步</xref>中获取的相应的<b>部门名称</b>填写到此表的<b>第三方部门名称</b>中。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image011.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li>此表中，将<b>第三方部门名称</b>的内容复制，粘贴到<b>部门名称</b>一列。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image013.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ol>
+        <li>在销售易系统后台页面的左侧导航菜单中 , 单击<b>数据管理 &gt; 数据导入</b>。</li>
+        <li>在 【数据导入】页面，单击<b>启动向导</b>。</li>
+        <li>在<b>选择数据</b>阶段设置导入信息。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image015.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>对象类型 选择 “ 部门 ”。</p><p><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image016.png" /></p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image016.png" /></fig></entry></row></tbody></tgroup></table>
+ 操作类型 选择 “ 更新现有数据 ”。</p><p>选择文件编码 选择 GB18030 （简体中文）。上传文件 选择<xref href="#A7B5B583-B755472-14C1D5751DC7D80-6C31F0/_bookmark85">第6 步</xref>中的文件。</p></li>
+        <li>
+          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image007.png" />设置完成后，单击<b>下一步</b>。</li>
+        <li>在<b>编辑映射</b>阶段设置未匹配上的映射关系，单击<b>下一步</b>。</li>
+        <li>在<b>开始导入</b>阶段单击<b>开始导入</b>。</li>
+        <li>导入成功后，在销售易系统后台页面的左侧导航菜单中 , 单击<b>集成 &gt; 外部部门绑定</b>，在 【外部部门绑定列表】的<b>已绑定部门列表</b>中可以查看补充完成的部门信息。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic29_image018.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

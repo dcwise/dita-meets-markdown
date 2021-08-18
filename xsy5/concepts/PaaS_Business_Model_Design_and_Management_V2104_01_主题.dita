@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7DB5310-D2A4435-211F54A71B51F1D-0F7FC3">
+  <title>主题</title>
+  <conbody>
+    <ul>
+      <li>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_了解对象_字段和数据.dita">了解对象、字段和数据</xref>
+      </li>
+      <li>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_了解标准对象和自定义对象.dita">了解标准对象和自定义对象</xref>
+      </li>
+      <li>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_了解标准字段和自定义字段.dita">了解标准字段和自定义字段</xref>
+      </li>
+      <li>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_了解对象之间的关系.dita">了解对象之间的关系</xref>
+      </li>
+      <li>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_了解数据展示页面.dita">了解数据展示页面</xref>
+      </li>
+    </ul>
+    <p>了解对象、字段和数据 | <b>2</b></p>
+  </conbody>
+</concept>

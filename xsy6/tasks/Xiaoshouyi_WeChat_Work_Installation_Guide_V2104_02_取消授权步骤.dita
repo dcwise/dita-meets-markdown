@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A5A583B5-6447215-48525755EBCB20E-C978E2">
+  <title>取消授权步骤</title>
+  <shortdesc>遵循以下步骤，取消授权企业微信应用：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic34_image002.png" />在 【企业微信集成应用】页面的应用列表中，单击应用后<b>操作</b>下的 。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic34_image004.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在 【删除应用】中，单击<b>删除</b>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic34_image006.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在企业微信后台 【应用】页面中的<b>第三方</b>部分，找到需要取消授权的应用，单击该应用。</cmd>
+      </step>
+      <step>
+        <cmd>在应用详情页面，单击<b>删除应用</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>目前应用删除成功后，不会自动解绑用户企业微信账号与销售易系统账号的映射关系以及其企业与销售易租户的映射关系，因此需要企业管理员手动进行一些解绑操作，详细信息请参考<xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业管理员需要手动进行的配置1.dita">企业管理员需要手动进行的配置</xref>。</p>
+    </result>
+  </taskbody>
+</task>

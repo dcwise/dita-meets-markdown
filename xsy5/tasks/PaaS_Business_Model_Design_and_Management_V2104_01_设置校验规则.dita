@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B7B530-2A4A545-2151254A8C15253-741555">
+  <title>设置校验规则</title>
+  <shortdesc>校验规则用于控制用户输入数据时需要遵循的规则，例如，定金不能大于订单金 额。可以为每个对象设置校验规则，即通过指定错误条件和相应的错误消息，定义 校验规则。</shortdesc>
+  <taskbody>
+    <context>
+      <p>校验规则触发时机</p>
+      <p>校验规则在以下情况都会触发：</p>
+      <ul>
+        <li>新建数据时</li>
+        <li>详情页扣框编辑时</li>
+        <li>前台导入数据时</li>
+        <li>API 创建数据时</li>
+      </ul>
+      <p id="新建或编辑校验规则">新建或编辑校验规则</p>
+      <p>
+        <b>NOTE 1. </b>校验规则不支持业务类型、创建人、修改人、所有人、所属部门等系统标准字段。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>每个对象最多可添加 20 条校验规则。</cmd>
+        <info>
+          <p>遵循以下步骤，新建或编辑校验规则：</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>在 【自定义对象】页面，单击对象名称。</cmd>
+          </substep>
+          <substep>
+            <cmd>在对象页面，单击<b>校验规则</b>标签。</cmd>
+          </substep>
+          <substep>
+            <cmd>
+              <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic21_image001.png" />在 【校验规则】页面，单击<b>新建校验规则</b>，或单击 修改已有的校验规则。</cmd>
+          </substep>
+          <substep>
+            <cmd>设置校验规则参数，图中给出了设置示例。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <fig>
+                            <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic21_image003.png" />
+                          </fig>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+ 配置项 说明</p>
+              <p>规则名称 校验规则的名称，支持汉字、数字、字母等字符。 状态 校验规则的状态，启用或者禁用。</p>
+              <p>
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic21_image004.png" />描述 对校验规则的基本描述。</p>
+              <p>
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic21_image005.png" />
+                </fig>
+              </p>
+              <p>配置项 说明</p>
+              <p>校验条件 最终返回值为布尔型，返回 "
+ 真 " 或 " 假 "。如果公式</p>
+              <p>（表达式）返回 " 真 "，则中止保存并显示错误消息。用户可以更正错误，然后重试。例如上图中对于商机折扣字</p>
+              <p>段，如果商机折扣大于 30%，则显示错误信息。<b>插入字段</b>、<b>插入运算符</b>和<b>插入函数</b>可以辅助校验条件的设置，设 置完成后可通过<b>语法检查</b>查看设置的校验条件表达式语法 是否正确。</p>
+              <p>
+                <b>NOTE 1. 插入字段</b>支持所选业务对象上的字段、关联关系字段的穿透以及当前用户的“ 用户名” 和“ 所在部门”。</p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>设置完成后，单击<b>保存。</b></cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+    <result>
+      <p id="禁用或删除校验规则">禁用或删除校验规则</p>
+      <p>
+        <b>禁用校验规则</b>
+      </p>
+      <p>对于目前暂时不需要使用的校验规则可以将其状态设置为 “ 禁用 ”，有需要时可以再启用。</p>
+      <p>遵循以下步骤，禁用校验规则：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>校验规则</b>标签。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic21_image007.png" />在校验规则列表中，单击要禁用校验规则的<b>状态信息</b>下的 可禁用校验规则。</li>
+      </ol>
+      <p>删除校验规则</p>
+      <p>对于不再需要使用的校验规则可以将其删除。</p>
+      <p>遵循以下步骤，删除校验规则：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>校验规则</b>标签。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic21_image009.png" />在校验规则列表中，单击要删除校验规则后的 可删除校验规则。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

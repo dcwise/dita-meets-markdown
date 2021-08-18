@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7BD7310-D47A453-45215254A87A125-745571">
+  <title>主题</title>
+  <conbody>
+    <ul>
+      <li>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_函数.dita">函数</xref>
+      </li>
+      <li>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_特殊情况说明.dita">特殊情况说明</xref>
+      </li>
+    </ul>
+    <p>函数 | <b>223</b></p>
+  </conbody>
+</concept>

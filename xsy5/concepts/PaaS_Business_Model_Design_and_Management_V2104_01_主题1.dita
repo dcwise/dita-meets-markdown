@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A77B3D7A-455211F-214A8F105257415-5E6F11">
+  <title>主题</title>
+  <conbody>
+    <ul>
+      <li>
+        <xref href="../tasks/PaaS_Business_Model_Design_and_Management_V2104_01_配置入口.dita">配置入口</xref>
+      </li>
+      <li>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_配置对象.dita">配置对象</xref>
+      </li>
+      <li>
+        <xref href="PaaS_Business_Model_Design_and_Management_V2104_01_通用选项集的配置.dita">通用选项集的配置</xref>
+      </li>
+      <li>
+        <xref href="../tasks/PaaS_Business_Model_Design_and_Management_V2104_01_查看对象的关联关系.dita">查看对象的关联关系</xref>
+      </li>
+      <li>
+        <xref href="../tasks/PaaS_Business_Model_Design_and_Management_V2104_01_对象映射的配置.dita">对象映射的配置</xref>
+      </li>
+    </ul>
+    <p>| <b>8</b></p>
+  </conbody>
+</concept>

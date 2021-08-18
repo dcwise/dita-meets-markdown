@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A77B10A4-7A53421-51F547552555E13-E61B5E">
+  <title>空白值参与运算出现非期待结果的解决方案</title>
+  <shortdesc>当值为空白的字段参与计算时，可能会出现非期待的结果。目前有两种方案可提前 对此情况进行处理。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在进行设置时，表中的 NULL 对应界面的设置为 “ 空白字段认为是空白 ” 项，如下图红框部分所示，即当勾选
+ “ 空白字段认为是空白 ” 时，按照上表中描述的处理方式进行运算。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic51_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>通过函数 <xref href="../concepts/PaaS_Business_Model_Design_and_Management_V2104_01_逻辑类函数.dita#A7B7531D-2A47545-212154A87125253-455C37/_bookmark157">IsNUll </xref>或者 <xref href="#task194/_bookmark163">NullValue </xref>判断参与运算的字段是否为空白，然后进行处理。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

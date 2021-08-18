@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB7510DA-474525A-87A132745596A42-596CFD">
+  <title>数学类函数</title>
+  <shortdesc>支持以下数学类函数：</shortdesc>
+  <conbody>
+    <ul>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark177">ABS</xref>
+      </li>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark179">Ceiling</xref>
+      </li>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark181">LN</xref>
+      </li>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark183">Log</xref>
+      </li>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark185">Max</xref>
+      </li>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark187">Min</xref>
+      </li>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark189">Mod</xref>
+      </li>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark191">Round</xref>
+      </li>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark193">SQRT</xref>
+      </li>
+      <li>
+        <xref href="#AB7510DA-474525A-87A132745596A42-596CFD/_bookmark195">Floor</xref>
+      </li>
+    </ul>
+    <p id="_bookmark177">ABS</p>
+    <p>
+      <b>ABS</b>
+    </p>
+    <p>
+      <b>描述 </b>计算一个数字的绝对值。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>ABS(number)</p>
+    <p>返回值为整数型或者实数型。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ number 为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <b>样例 </b>ABS(-7.7) 此公式返回结果为 7.7 ABS(-7) 此公式返回结果为 7</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 注意点 无</p>
+    <p id="_bookmark179">Ceiling</p>
+    <p>
+      <b>Ceiling</b>
+    </p>
+    <p>
+      <b>描述 </b>将一个数字向上取整，即取整为大于等于自身的最小整数。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>CEILING(number) 返回值为实数型。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ number 为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <b>样例 </b>Ceiling(7.1) 此公式返回结果为 8.0 Ceiling(-7.75) 此公式返回结果为
+ -7.0</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <b>注意点 </b>此函数取整时不进行四舍五入，直接向上取整。</p>
+    <p id="_bookmark181">LN</p>
+    <p>
+      <b>LN</b>
+    </p>
+    <p>
+      <b>描述 </b>计算一个数字的自然对数。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>LN(number)</p>
+    <p>返回值为实数型。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ number 为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <b>样例 </b>LN(10)</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 此公式返回结果为 2.302585092994046</p>
+    <p>
+      <b>注意点 </b>1.number 必须为大于 0 的数值，如果为非法值，则前台显示为空。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 2. 返回值的小数位与配置的字段类型上的小数位保持一致。</p>
+    <p id="_bookmark183">Log</p>
+    <p>
+      <b>Log</b>
+    </p>
+    <p>
+      <b>描述 </b>计算 n 的以 10 为底的对数。</p>
+    <p>
+      <b>使用 </b>LOG(number)</p>
+    <p>返回值为实数型。</p>
+    <p>
+ number 为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <b>样例 </b>Log(10)</p>
+    <p>
+ 此公式返回结果为 1.0</p>
+    <p>
+      <b>注意点 </b>1.number 必须为大于 0 的数值，如果为非法值，则前台显示为空。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 2. 返回值的小数位与配置的字段类型上的小数位保持一致。</p>
+    <p id="_bookmark185">Max</p>
+    <p>
+      <b>Max</b>
+    </p>
+    <p>
+      <b>描述 </b>返回一组数据中的最大值。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+    </p>
+    <p>
+      <b>使用 </b>MAX(number,number,…)</p>
+    <p>返回值为整数型或者实数型。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ number 为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <b>样例 </b>Max(1,15,100,100.6) 此公式返回结果为 100.6 Max(-1.5,-2,-3) 此公式返回结果为 -1.5</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+    </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 注意点 无</p>
+    <p id="_bookmark187">Min</p>
+    <p>
+      <b>Min</b>
+    </p>
+    <p>
+      <b>描述 </b>返回一组数据中的最小值。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+    </p>
+    <p>
+      <b>使用 </b>MIN(number,number,…)</p>
+    <p>返回值为整数型或者实数型。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ number 为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <b>样例 </b>Min(-2.1,4,2,5,34) 此公式返回结果为 -2.1</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+    </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 注意点 无</p>
+    <p id="_bookmark189">Mod</p>
+    <p>
+      <b>Mod</b>
+    </p>
+    <p>
+      <b>描述 </b>取余，返回一个数值除以除数后的余数。</p>
+    <p>
+      <b>使用 </b>MOD(number,divisor) 返回值为整数型。</p>
+    <p>number 为被除数，可以为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ divisor 为除数，可以为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <b>样例 </b>MOD(15,4) 此公式返回结果为
+ 3 MOD(-9,-3) 此公式返回结果为 0</p>
+    <p>例如在对象 “ 活动记录 ” 中建立一个验证规则，活动推广开始日期都安排在周末，当安排在工作日时，显示错误信息，如下：</p>
+    <p>MOD(ActivationRecord.start_date-DATEVALUE("1900-1-7"),7)&lt;&gt;0&amp;&amp;MO D(ActivationRecord.start_date-DATEVALUE("1900-1-7"),7)&lt;&gt;6</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ （ActivationRecord 为对象 “ 活动记录
+ ” 的 API 名称，start_date 为对象 “ 活动记录 ” 中的字段 “ 推广开始日期 ” 的 API 名称）</p>
+    <p>
+      <b>注意点 </b>divisor 不能为 0，如果为非法值，则前台显示为空。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+    </p>
+    <p id="_bookmark191">Round</p>
+    <p>
+      <b>Round</b>
+    </p>
+    <p>
+      <b>描述 </b>按指定的位数舍入数值。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>ROUND(number,num_digits) 返回值为实数型。</p>
+    <p>number 为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ num_digits 为需要保留的小数位数 （不含小数点），范围为 0~5。</p>
+    <p>
+      <b>样例 </b>Round(123.678,0) 此公式返回结果为
+ 124 Round(-123.678,0) 此公式返回结果为
+ -124</p>
+    <p>Round(123.6789,2) 此公式返回结果为 123.68</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Round(-123.6789,2) 此公式返回结果为 -123.68</p>
+    <p>
+      <b>注意点 </b>舍入数值时自动按照四舍五入的方式取整。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+    </p>
+    <p id="_bookmark193">SQRT</p>
+    <p>
+      <b>SQRT</b>
+    </p>
+    <p>
+      <b>描述 </b>计算一个数字的正平方根。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>SQRT(number) 返回值为实数型。</p>
+    <p>
+ number 为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <b>样例 </b>SQRT(25) 此公式返回结果为 5.0</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+    </p>
+    <p>
+      <b>注意点 </b>1.number 不能为负数，如果为非法值，则前台显示为空。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 2. 返回值的小数位与配置的字段类型上的小数位保持一致。</p>
+    <p id="_bookmark195">Floor</p>
+    <p>
+      <b>Floor</b>
+    </p>
+    <p>
+      <b>描述 </b>将一个数字向下取整，即取整为小于等于自身的最大整数。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image001.png" />
+    </p>
+    <p>
+      <b>使用 </b>FLOOR(number) 返回值为实数型。</p>
+    <p>
+ number 为整数、实数型字段或者其他要计算的数值。</p>
+    <p>
+      <b>样例 </b>Floor(7.7) 此公式返回结果为 7.0 Floor(-7.35) 此公式返回结果为 -8.0</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic47_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <b>注意点 </b>此函数取整时不进行四舍五入，直接向下取整。</p>
+  </conbody>
+</concept>

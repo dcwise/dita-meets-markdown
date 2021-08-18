@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A75A7B47-8B57565-471F154A8712523-5A2C99">
+  <title>解绑用户的映射关系</title>
+  <shortdesc>遵循以下步骤，解绑用户的映射关系：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在销售易系统后台页面的左侧导航菜单中，单击<b>集成 &gt; 外部账户绑定</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【外部认证列表】页面，单击<b>已绑定用户列表</b>标签。</cmd>
+      </step>
+      <step>
+        <cmd>在绑定用户列表中单击用户后<b>操作</b>下的<b>解除绑定</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

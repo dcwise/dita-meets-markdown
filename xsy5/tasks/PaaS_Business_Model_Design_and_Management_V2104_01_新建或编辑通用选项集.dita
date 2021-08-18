@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABD7510D-2475452-11F2154A87C1125-55539D">
+  <title>新建或编辑通用选项集</title>
+  <shortdesc>当系统预置的通用选项集无法满足需求时，可添加自定义的通用选项集。</shortdesc>
+  <taskbody>
+    <context>
+      <p>遵循以下步骤，新建或编辑自定义通用选项集：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在左侧导航菜单中，单击<b>对象和字段 </b>&gt; <b>通用选项集</b>。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic25_image002.png" />在
+ 【通用选项集列表】页面，单击<b>新建通用选项集</b>，或单击 修改已有的自定义通用选项集。</cmd>
+      </step>
+      <step>
+        <cmd>设置通用选项集参数，图中给出了设置示例<b>。</b></cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic25_image004.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>配置项 说明</b>
+      </p>
+      <p>名称 标识通用选项集的信息，此名称会显示在
+ 【通用选项集列表】页面的通用选项集列表中以及其他需要使用通用选项集的地方。为便于通用选项集之间的区分以及通过名称更直观的了解通用选项集的作用，建议使用有实际意义的内容作为通用选项集的名称。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic25_image005.png" />
+      </p>
+      <p>配置项 说明</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic25_image006.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 描述 对通用选项集的说明，说明信息会显示在
+ 【通用选项集列表】页面的通用选项集列表中。为便于通用选项集之间的区分以及快速了解通用选项集的作用，建议填写内容为通用选项集作用的简要说明。</p>
+      <p>选项信息 <b>单个添加选项列表值</b></p>
+      <p>在文本框中输入选项并单击<b>添加</b>，重复上述步骤可添加 多个选项。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic25_image008.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>配置项 说明</p>
+      <p>选项信息 <b>批量添加选项列表值</b></p>
+      <p>单击<b>批量添加</b>，然后在批量添加选项信息框中输入所有 选项，每项内容以换行符作为分隔符，填写完成并单击 <b>确定</b>后，将返回到新建字段窗口，批量添加的所有信息 会显示在选项信息部分，如果选项列表中已有内容，则 会追加到现有内容的后面。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic25_image010.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <b>NOTE 1. </b>同一个通用选项集中的选项内容不能相同。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>2. </b>最多支持添加 1000 个选项值。</p>
+      </required-cleanup>
+      <p>调整选项列表值的顺序</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic25_image005.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 选项添加完成后，可以通过拖拽的方式调整各选项之间 的顺序，各选项之间的顺序为用户选择时显示的列表顺 序。</p>
+      <p>通用选项集在单选和多选字段中的引用方法请参考<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_设置字段.dita#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark32">单选</xref>和<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_设置字段.dita#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark34">多选</xref>部分的介绍。</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,1149 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B">
+  <title>文本类函数</title>
+  <shortdesc>支持以下文本类函数：</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark199">Begins</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark201">Contains</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark203">Find</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark205">Includes</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark207">IsPickVal</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark209">Left</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark211">Len</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark213">Lower</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark215">LPAD</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark217">MID</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark219">Right</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark221">RPAD</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark223">Substitute</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark225">Text</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark227">Trim</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark229">Upper</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark231">Value</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark233">HyperLink</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B30D-2A47A53-2151F4A8A1C7415-56E59B/_bookmark235">priorValue</xref>
+        </li>
+        <li>
+          <xref href="#task8976/_bookmark237">NumberString</xref>
+        </li>
+      </ul>
+      <p id="_bookmark199">Begins</p>
+      <p>
+        <b>Begins</b>
+      </p>
+      <p>
+        <b>描述 </b>检查文本是否以特定字符或者字符串开头，如果是，则返回 TRUE，否则返回FALSE。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>BEGINS(text, compare_text)</p>
+      <p>返回值为布尔型，返回 TRUE 或者 FALSE。</p>
+      <p>text 为要检查的文本，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ compare_text 为要比较的文本字段或者其他文本值。</p>
+      <p>
+        <b>样例 </b>例如检查对象 “ 订单 ” 中的字段 “ 订单号 ” 是否以 ”SO#” 开头，如下：
+ Begins(Order.order_id, "SO#")</p>
+      <p>
+ （Order 为对象“ 订单” 的 API 名称，order_id 为对象 “ 订单” 中的字段“ 订单号 ”的 API 名称）：</p>
+      <p>
+        <b>注意点 </b>1. 此函数中的参数值区分大小写字母。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2. 如果要检查的文本字段 （text）为空，则此函数返回结果为 FALSE。</p>
+      <p id="_bookmark201">Contains</p>
+      <p>
+        <b>Contains</b>
+      </p>
+      <p>
+        <b>描述 </b>检查文本是否包含特定字符或者字符串，如果包含，则返回 TRUE，否则返回FALSE。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+      </p>
+      <p>
+        <b>使用 </b>CONTAINS(text, compare_text)</p>
+      <p>返回值为布尔型，返回
+ TRUE 或者 FALSE。</p>
+      <p>text 为要检查的文本，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+ compare_text 为要比较的文本，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <b>样例 </b>例如检查对象 “ 商机报备” 中的字段 “ 行业 ” 是否包含 “ 教育 ”，如下： Contains(OpportunityRegister.profession, "
+ 教育 ")</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （OpportunityRegister 为对象 “ 商机报备
+ ” 的 API 名称，profession 为对象“ 商机报备
+ ” 中的字段“ 行业 ”的 API 名称）</p>
+      <p>
+        <b>注意点 </b>1. 此函数中的参数值区分大小写字母。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2. 如果要检查的文本字段 （text）为空，则此函数返回结果为 FALSE。</p>
+      <p id="_bookmark203">Find</p>
+      <p>
+        <b>Find</b>
+      </p>
+      <p>
+        <b>描述 </b>返回一个字符串在另一个字符串中的位置。</p>
+      <p>
+        <b>使用 </b>FIND(search_text, text [, start_num]) 返回值为整数型。</p>
+      <p>search_text 为要查找的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>text 为要搜索的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ start_num 为搜索字符串的起始位置，即从 text 的第几个字符开始从左到右查找 search_text。此参数为可选，如果缺省，则默认从 text 的第一个字符开始搜索。</p>
+      <p>
+        <b>样例 </b>Find("@xiaoshouyi", "xsy@xiaoshouyi.com") 此公式返回结果为
+ 4 Find("@xiaoshouyi", "xsy@xiaoshouyi.com",3) 此公式返回结果为 2</p>
+      <p>
+        <b>注意点 </b>1. 返回的位置为相对值，即相对于开始搜索的位置，开始搜索的位置从 1 开始计。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>当 search_text 在 text 中不存在时，返回 0。</cmd>
+      </step>
+      <step>
+        <cmd>此函数中的参数值区分大小写字母。</cmd>
+      </step>
+      <step>
+        <cmd>如果要检查的文本字段 （text）为空，则此函数返回结果为 0。</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ start_num 参数左右的括号 “[” 和 “]” 仅用于说明此参数为可选参数，不属于参数的一部分，实际使用时应去掉。</info>
+      </step>
+    </steps>
+    <result>
+      <p id="_bookmark205">Includes</p>
+      <p>
+        <b>Includes</b>
+      </p>
+      <p>
+        <b>描述 </b>判断多选字段选项列表中当前选择的值中是否有值等于指定的文本，如果有， 则返回 TRUE，否则返回FALSE。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>INCLUDES(multiselect_picklist_field, text_literal) 返回值为布尔型，返回 TRUE 或者 FALSE。multiselect_picklist_field 为多选类型字段。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ text_literal 为要比较的文本，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <b>样例 </b>例如在对象 “ 客户 ” 中有多选类型字段
+ “ 个人兴趣 ”，需要判断在 “ 个人兴趣 ” 当前选择的选项值中，是否有 “ 体育 ” 的选项，如下：</p>
+      <p>Includes(Account.Favorite, " 体育 ")</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （ Account 为对象“ 客户” 的 API 名称，Favorite 为对象 “ 客户” 中的字段“ 个人兴趣 ”的 API 名称）</p>
+      <p>
+        <b>注意点 </b>此函数判断的范围为多选类型字段当前所有选择的项，而不是多选类型字段可 选的所有项。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+      </p>
+      <p id="_bookmark207">IsPickVal</p>
+      <p>
+        <b>IsPickVal</b>
+      </p>
+      <p>
+        <b>描述 </b>判断单选字段选项列表中当前选择的值是否等于指定的文本文字，如果等于， 则返回 TRUE，否则返回FALSE。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>ISPICKVAL(picklist_field, text_literal)</p>
+      <p>返回值为布尔型，返回
+ TRUE 或者 FALSE。</p>
+      <p>picklist_field 为单选类型字段。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ text_literal 为要比较的文本，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <b>样例 </b>例如在对象 “ 客户 ” 中有单选类型字段
+ “ 国家 ”，需要判断 “ 国家 ” 的当前选项值是否为 “ 俄罗斯 ”，如下：</p>
+      <p>IsPickVal(Customer.country, " 俄罗斯 ")</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （Customer 为对象 “ 客户 ” 的 API 名称，country 为对象 “ 客户 ” 中的字段“ 国家 ”的 API 名称）</p>
+      <p>
+        <b>注意点 </b>此函数判断的范围为单选类型字段当前选择的项，而不是单选类型字段可选的 所有项。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+      </p>
+      <p id="_bookmark209">Left</p>
+      <p>
+        <b>Left</b>
+      </p>
+      <p>
+        <b>描述 </b>对一个字符串从左侧起截取指定长度的字符串。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>LEFT(text, num_chars)</p>
+      <p>返回值为文本型，返回截取的字符串。</p>
+      <p>text 为需要截取的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+ num_chars 为从字符串左侧起需要截取的字符串长度 （字符数）。</p>
+      <p>
+        <b>样例 </b>Left(" 销售易 ",
+ 2) 此公式返回结果为销售Left<xref href="http://www.xiaoshouyi.com/" scope="external" format="html">("w</xref>ww<xref href="http://www.xiaoshouyi.com/" scope="external" format="html">.xiaoshouyi.com", </xref>2) 此公式返回结果为 ww</p>
+      <p>
+        <b>注意点 </b>1. 在此函数中，一个英文字母和一个汉字都被认为是一个字符。</p>
+      <ol>
+        <li>当 num_chars 为 0 或者负数时，此函数的返回结果在前台显示为空。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 当要截取字符串的字段为空时，此函数的返回结果在前台也显示为空。</li>
+      </ol>
+      <p id="_bookmark211">Len</p>
+      <p>
+        <b>Len</b>
+      </p>
+      <p>
+        <b>描述 </b>返回一个文本字符串所包含的字符数。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>LEN(text)</p>
+      <p>返回值为整数型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ text 为需要计算字符数的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <b>样例 </b>Len(" 销售易 ") 此公式返回结果为
+ 3 Len("<xref href="http://www.xiaoshouyi.com/" scope="external" format="html">www.xiaoshouyi.com")</xref> 此公式返回结果为 18</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>注意点 </b>1. 在此函数中，一个英文字母和一个汉字都被认为是一个字符。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2. 当要计算字符数的字段为空时，此函数返回结果为
+ 0。</p>
+      <p id="_bookmark213">Lower</p>
+      <p>
+        <b>Lower</b>
+      </p>
+      <p>
+        <b>描述 </b>将一个文本字符串中的所有字母转换为小写字母。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>LOWER(text)</p>
+      <p>返回值为文本型，返回转换后的文本字符串。</p>
+      <p>
+ text 为需要转换的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <b>样例 </b>
+        <xref href="http://WWW.xiaoshouyi.COM/" scope="external" format="html">Lower("W</xref>WW.xia<xref href="http://WWW.xiaoshouyi.COM/" scope="external" format="html">osh</xref>o<xref href="http://WWW.xiaoshouyi.COM/" scope="external" format="html">uyi.COM"</xref>)</p>
+      <p>此公式返回结果为 <xref href="http://www.xiaoshouyi.com/" scope="external" format="html">www.xiaoshouyi.com</xref> Lower(" 销售易：<xref href="http://WWW.xiaoshouyi.COM/" scope="external" format="html">WWW.xiaoshouyi.COM</xref>")</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 此公式返回结果为销售易<xref href="http://www.xiaoshouyi.com/" scope="external" format="html">：ww</xref>w<xref href="http://www.xiaoshouyi.com/" scope="external" format="html">.xiaoshouyi.com</xref></p>
+      <p>
+        <b>注意点 </b>1. 当 text 中包含非英文字母时，仅对字母部分进行转换，非英文字母部分不做任何处理，原样返回。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2. 当要转换的字段为空时，此函数的返回结果在前台也显示为空。</p>
+      <p id="_bookmark215">LPAD</p>
+      <p>
+        <b>LPAD</b>
+      </p>
+      <p>
+        <b>描述 </b>使用空格或者指定字符串从左侧填充另外一个字符串，使被填充字符串达到指 定长度。</p>
+      <p>
+        <b>使用 </b>LPAD(text, padded_length [, pad_string]) 返回值为文本型，返回填充后的文本字符串。</p>
+      <p>text 为需要被填充的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>padded_length 为填充后字符串需要达到的长度 （字符数）。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ pad_string 为指定的填充字符串。此参数为可选，如果缺省，则默认为一个空格。</p>
+      <p>
+        <b>样例 </b>LPAD("xsy", 10,"a") 此公式返回结果为 aaaaaaaxsy LPAD("xsy", 10," 销售易 ") 此公式返回结果为销售易销售易销 xsy LPAD("xsy", 3,"a") 此公式返回结果为 xsy</p>
+      <p>LPAD("xsy", 2,"a") 此公式返回结果为
+ xs</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ LPAD("xsy", 10) 此公式返回结果为 xsy</p>
+      <p>
+        <b>注意点 </b>1. 在此函数中，一个英文字母和一个汉字都被认为是一个字符。</p>
+      <ol>
+        <li>当填充一次 pad_string 仍然达不到指定长度时，将会多次填充 （见第一个样例）。</li>
+        <li>当多次填充 pad_string 时，在最后一次填充时 pad_string 可能被截取 （见第二个样例）。</li>
+        <li>当 padded_length 的值与 text 的长度相同时，不做任何处理 （见第三个样例）。</li>
+        <li>当 padded_length 的值小于 text 的长度时，自动截取 （见第四个样例）。</li>
+        <li>当使用空格填充时，会自动忽略左侧的空格 （见第五个样例）。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 当被填充的字段为空时，此函数的返回结果在前台也显示为空。</li>
+      </ol>
+      <p id="_bookmark217">MID</p>
+      <p>
+        <b>MID</b>
+      </p>
+      <p>
+        <b>描述 </b>对一个字符串从指定的起始位置开始从左到右截取指定长度的字符串。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>MID(text, start_num, num_chars)</p>
+      <p>返回值为文本型，返回截取的字符串。</p>
+      <p>text 为需要截取的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>start_num 为要截取的字符串起始位置。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ num_chars 为要截取的长度 （字符数）。</p>
+      <p>
+        <b>样例 </b>MID(" 销售易 <xref href="http://www.xiaoshouyi.com/" scope="external" format="html">www.xiaoshouyi.com", </xref>2, 5) 此公式返回结果为售易
+ www</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>注意点 </b>1. 在此函数中，一个英文字母和一个汉字都被认为是一个字符。</p>
+      <ol>
+        <li>当 start_num
+ 为 0 或者负数时，不会报错，将直接从字符串第一个位置开始截取。</li>
+        <li>当 num_chars
+ 的值大于 text 的长度时，不会报错，将直接截取到字符串最后一个字符。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 当要截取字符串的字段为空时，此函数的返回结果在前台也显示为空。</li>
+      </ol>
+      <p id="_bookmark219">Right</p>
+      <p>
+        <b>Right</b>
+      </p>
+      <p>
+        <b>描述 </b>对一个字符串从右侧起截取指定长度的字符串。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>RIGHT(text, num_chars)</p>
+      <p>返回值为文本型，返回截取的字符串。</p>
+      <p>text 为需要截取的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ num_chars 为从字符串右侧起需要截取的字符串长度 （字符数）。</p>
+      <p>
+        <b>样例 </b>Right(" 销售易 ",
+ 2) 此公式返回结果为售易Righ<xref href="http://www.xiaoshouyi.com/" scope="external" format="html">t("ww</xref>w.x<xref href="http://www.xiaoshouyi.com/" scope="external" format="html">iaoshouyi.com", </xref>2) 此公式返回结果为 om</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>注意点 </b>1. 在此函数中，一个英文字母和一个汉字都被认为是一个字符。</p>
+      <ol>
+        <li>当 num_chars 为 0 或者负数时，此函数的返回结果在前台显示为空。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 当要截取字符串的字段为空时，此函数的返回结果在前台也显示为空。</li>
+      </ol>
+      <p id="_bookmark221">RPAD</p>
+      <p>
+        <b>RPAD</b>
+      </p>
+      <p>
+        <b>描述 </b>使用空格或者指定字符串从右侧填充一个字符串，使被填充字符串达到指定长 度。</p>
+      <p>
+        <b>使用 </b>RPAD(text, padded_length [, pad_string]) 返回值为文本型，返回填充后的文本字符串。</p>
+      <p>text 为需要被填充的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>padded_length 为填充后字符串需要达到的长度 （字符数）。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ pad_string 为指定的填充字符串。此参数为可选，如果缺省，则默认为一个空格。</p>
+      <p>
+        <b>样例 </b>RPAD("xsy", 10,"a") 此公式返回结果为 xsyaaaaaaa RPAD("xsy", 10," 销售易 ") 此公式返回结果为 xsy 销售易销售易销RPAD("xsy", 3,"a") 此公式返回结果为 xsy</p>
+      <p>RPAD("xsy", 2,"a") 此公式返回结果为
+ xs</p>
+      <p>
+ RPAD("xsy", 10) 此公式返回结果为 xsy</p>
+      <p>
+        <b>注意点 </b>1. 在此函数中，一个英文字母和一个汉字都被认为是一个字符。</p>
+      <ol>
+        <li>当填充一次 pad_string 仍然达不到指定长度时，将会多次填充 （见第一个样例）。</li>
+        <li>当多次填充 pad_string 时，在最后一次填充时 pad_string 可能被截取 （见第二个样例）。</li>
+        <li>当 padded_length 的值与 text 的长度相同时，不做任何处理 （见第三个样例）。</li>
+        <li>当 padded_length 的值小于 text 的长度时，自动截取 （见第四个样例）。</li>
+        <li>当使用空格填充时，会自动忽略左侧的空格 （见第五个样例）。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 当被填充的字段为空时，此函数的返回结果在前台也显示为空。</li>
+      </ol>
+      <p id="_bookmark223">Substitute</p>
+      <p>
+        <b>Substitute</b>
+      </p>
+      <p>
+        <b>描述 </b>使用指定文本替换文本字符串中的特定文本。</p>
+      <p>
+        <b>使用 </b>SUBSTITUTE(text, old_text, new_text)</p>
+      <p>返回值为文本型，返回替换后的文本字符串。</p>
+      <p>text 为需要替换的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>old_text 为需要被替换的文本，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ new_text 为替换文本，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <b>样例 </b>例如将对象 “ 促销商品 ” 中的字段“ 促销方式 ” 中的 " 打折 " 更改为 “ 满减 ”，如下：</p>
+      <p>Substitute(PromotionCommodity.commodity_way, " 打折 ", " 满减 ")</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （PromotionCommodity 为对象 “ 促销商品
+ ” 的 API 名称， commodity_way 为对象 “ 促销商品 ” 中的字段 " 促销方式 " 的 API 名称）</p>
+      <p>
+        <b>注意点 </b>1. 此函数中的参数值区分大小写字母。</p>
+      <ol>
+        <li>如果 new_text 为 ""，则不做任何处理。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 如果在需要替换的字符串中包含多个需要被替换的文本，则会替换多次。</li>
+      </ol>
+      <p id="_bookmark225">Text</p>
+      <p>
+        <b>Text</b>
+      </p>
+      <p>
+        <b>描述 </b>将实数、整数、日期等其他类型的数据转换为文本类型。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+      </p>
+      <p>
+        <b>使用 </b>TEXT(value)</p>
+      <p>返回值为文本型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ value 为需要转换的数据。</p>
+      <p>
+        <b>样例 </b>例如在对象 " 订单 " 中有两个字段，分别为 " 数量 "
+ 和 " 单位 "，需要将这两个字段进行拼接，如下：</p>
+      <p>Text(Order.quantity)&amp;Order.unit</p>
+      <p>
+ （Order 为对象“ 订单” 的 API 名称，quantity 为对象 “ 订单” 中的字段“ 数量”的 API 名称，unit
+ 为对象 “ 订单” 中的字段 “ 单位”的 API 名称）</p>
+      <p>
+        <b>注意点 </b>1. 当需要转换的数据为百分比类型时，则转换后的文本为实际值 （不带百分号），例如转换的数据为 10%，则转为文本后显示为 0.1。</p>
+      <p>2. 当需要转换的数据为日期类型时，则转换后的文本显示的日期格式为</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ YYYY-MM-DD，其中 YYYY 为四位数表示的年，MM 为两位数表示的月份， DD 为两位数表示的天，连接符- 也将被保留。</p>
+      <p id="_bookmark227">Trim</p>
+      <p>
+        <b>Trim</b>
+      </p>
+      <p>
+        <b>描述 </b>删除文本字符串开头和结尾的所有空格及制表符，文本字符串中间的空格和制 表符不会删除。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>TRIM(text)</p>
+      <p>返回值为文本型，返回删除完成后的字符串。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ text 为需要转换的数据。</p>
+      <p>
+        <b>样例 </b>TRIM(" 销 售 易 <xref href="http://www.xiaoshouyi.com/" scope="external" format="html">www.xiaoshouyi.com</xref> ")
+ 此公式返回结果为销 售 易 <xref href="http://www.xiaoshouyi.com/" scope="external" format="html">www.xiaoshouyi.com</xref></p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 注意点 无</p>
+      <p id="_bookmark229">Upper</p>
+      <p>
+        <b>Upper</b>
+      </p>
+      <p>
+        <b>描述 </b>将一个文本字符串中的所有字母转换为大写字母。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>UPPER(text)</p>
+      <p>返回值为文本型，返回转换后的文本字符串。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ text 为需要转换的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <b>样例 </b>Upper("<xref href="http://WWW.xiaoshouyi.COM/" scope="external" format="html">WWW.xiaoshouyi.COM"</xref>)</p>
+      <p>此公式返回结果为 <xref href="http://WWW.XIAOSHOUYI.COM/" scope="external" format="html">WWW.XIAOSHOUYI.COM</xref> Upper(" 销售易<xref href="http://WWW.xiaoshouyi.COM/" scope="external" format="html">：WWW</xref>.<xref href="http://WWW.xiaoshouyi.COM/" scope="external" format="html">xiaoshouyi.COM"</xref>)</p>
+      <p>
+ 此公式返回结果为销售易<xref href="http://WWW.XIAOSHOUYI.COM/" scope="external" format="html">：WW</xref>W<xref href="http://WWW.XIAOSHOUYI.COM/" scope="external" format="html">.XIAOSHOUYI.COM</xref></p>
+      <p>
+        <b>注意点 </b>1. 当 text 中包含非英文字母时，仅对字母部分进行转换，非英文字母部分不做任何处理，原样返回。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2. 当要转换的字段为空时，此函数的返回结果在前台也显示为空。</p>
+      <p id="_bookmark231">Value</p>
+      <p>
+        <b>Value</b>
+      </p>
+      <p>
+        <b>描述 </b>将表示数值的文本字符串转换为数值。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+      </p>
+      <p>
+        <b>使用 </b>VALUE(text)</p>
+      <p>返回值为整数型或者实数型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ text 为需要转换的字符串，可以为文本字段、双引号括起来的文本字符串或者返回值为文本类型的函数。</p>
+      <p>
+        <b>样例 </b>Value(12.34567) 此公式返回结果为
+ 12.34567</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>注意点 </b>参数 text 的内容应为数字，如果包含除小数点以外的其他非法字符，则前台显示为空。</p>
+      <p id="_bookmark233">HyperLink</p>
+      <p>
+        <b>HyperLink</b>
+      </p>
+      <p>
+        <b>描述 </b>创建超链接。</p>
+      <p>
+        <b>使用 </b>HYPERLINK(url, friendly_name [, target]) 返回值为超链接类型的文本。</p>
+      <p>url 为需要链接到的 Web 地址。</p>
+      <p>friendly_name 为显示的链接文本，即点击此文本将链接到设置的 Web 地址。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ target 为点开超链接的位置，参数值包含 "_blank","_parent","_self","_top"， 该参数的含义与 HTML 中的链接中的参数含义一致。</p>
+      <p>
+        <b>样例 </b>HyperLink("<xref href="http://www.xiaoshouyi.com/" scope="external" format="html">http://www.xiaoshouyi.com"</xref>, " 销售易 ")
+ 或者HyperLink("<xref href="http://www.xiaoshouyi.com/" scope="external" format="html">http://www.xiaoshouyi.com"</xref>, " 销售易 ","_blank")</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>注意点 </b>target 参数左右的括号
+ “[” 和 “]” 仅用于说明此参数为可选参数，不属于参数的一部分，实际使用时应去掉。</p>
+      <p id="_bookmark235">priorValue</p>
+      <p>
+        <b>priorValue</b>
+      </p>
+      <p>
+        <b>描述 </b>用来返回数据修改之前的值。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>priorValue(fieldName)</p>
+      <p>返回值为 fieldName 修改之前的值，参数类型跟随当前字段类型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ fieldName 为本对象上的字段名称，不支持关联对象上的字段引用。</p>
+      <p>
+        <b>样例 </b>无</p>
+      <p>
+        <b>注意点 </b>如果是新建的数据，此函数不会返回空值
+ （Null），而是返回当前字段上的值。</p>
+      <p>例如在对象 “ 客户 ” 上新建一条数据，其中字段 “ 客户名称 ” 的值为“Test”，则使用此函数 priorValue(account.accountName) 的返回值为“Test”。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （account 为对象 “ 客户”的 API 名称，accountName 为对象“ 客户” 中的字段 “ 客户名称 ” 的 API 名称）</p>
+      <p id="NumberString">NumberString</p>
+      <p>
+        <b>NumberString</b>
+      </p>
+      <p>
+        <b>描述 </b>将数值转换为大写的金额字符串。</p>
+      <p>
+        <b>使用 </b>NUMBERSTRING(number)</p>
+      <p>返回值为文本型，返回转换后的大写金额字符串。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ number 为需要转换的数值，可以为整数字段、实数字段、货币字段、百分比字段、具体数值或者返回值为数值类型的函数。</p>
+      <p>
+        <b>样例 </b>NUMBERSTRING(382.42)</p>
+      <p>此公式返回结果为：人民币叁佰捌拾贰元肆角贰分NUMBERSTRING(2329.4)</p>
+      <p>此公式返回结果为：人民币贰仟叁佰贰拾玖圆肆角NUMBERSTRING(2873)</p>
+      <p>此公式返回结果为：人民币贰仟捌佰柒拾叁元整NUMBERSTRING(30029)</p>
+      <p>此公式返回结果为：人民币叁万零贰拾玖元整NUMBERSTRING(329.0038)</p>
+      <p>此公式返回结果为：人民币叁佰贰拾玖元整NUMBERSTRING(-39281)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 此公式返回结果为：人民币负叁万玖仟贰佰捌拾壹元整</p>
+      <p>
+        <b>注意点 </b>1. 目前仅支持人民币大写金额。</p>
+      <ol>
+        <li>NUMBERSTRING 函数生成的值前面自动带人民币，如果实际业务中不需要，则可以使用 SUBSTITUTE 函数将其去掉。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic48_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 最多支持两位小数，超过两位的小数将自动舍掉，且舍掉时不进行四舍五 入。例如，123.349 转换之后的大写金额为：人民币壹佰贰拾叁元叁角肆分。如果需要四舍五入，请使用 Round 函数先四舍五入后再进行转换。</li>
+      </ol>
+      <p>特殊情况说明 | <b>281</b></p>
+    </result>
+  </taskbody>
+</task>

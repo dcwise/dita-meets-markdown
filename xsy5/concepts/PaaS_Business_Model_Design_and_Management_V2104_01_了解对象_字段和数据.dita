@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7D7512A-47A5345-215F254A7615B5F-1253CE">
+  <title>了解对象、字段和数据</title>
+  <shortdesc>基于 PaaS 平台的业务模型构建工具，通过可视化的配置方法，无需编写代码，可以快速实现原始开发方法中的数据库建模。</shortdesc>
+  <conbody>
+    <p>在 PaaS 平台中，<b>对象</b>相当于数据库中的表 （一个对象相当于数据库中的一个表），<b>字段</b>相当于数据库表中的列，<b>数据</b>相当于数据库中的记录。</p>
+    <p>了解标准对象和自定义对象 | <b>3</b></p>
+  </conbody>
+</concept>

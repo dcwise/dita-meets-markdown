@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A757B452-83B5552-44171F54AA10525-37155A">
+  <title>关于应用业务扩展的说明</title>
+  <shortdesc>销售易除了在应用中预置了标准的功能之外，为了满足企业个性化的业务需求，还 提供了企业微信应用的个性化定制能力。例如增加新的功能模块、自定义审批流程 及页面布局等。除此之外，还可以通过 APP 设计器，为不同职能的用户定制个性化的企业微信端应用。</shortdesc>
+  <taskbody>
+    <context>
+      <p>应用的业务扩展基于销售易的 PaaS 平台进行，关于业务扩展开发 (PaaS 平台）的详细信息请参考 PaaS 平台相关文档。</p>
+      <p>遵循以下步骤，获取文档：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录销售易系统，在销售易系统后台页面的顶部右侧，单击<b>帮助文档</b>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic44_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在 【帮助文档】页面中，查看相关文档。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

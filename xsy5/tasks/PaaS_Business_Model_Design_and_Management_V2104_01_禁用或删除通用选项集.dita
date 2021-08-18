@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="ABB1DA45-3521512-154A87571551129-BECDFD">
+  <title>禁用或删除通用选项集</title>
+  <shortdesc>禁用通用选项集的选项列表值</shortdesc>
+  <taskbody>
+    <context>
+      <p>系统中不能直接禁用整个通用选项集，但对于通用选项集中，目前暂时不需要使用 的选项列表值，可以将其状态设置为 “ 禁用 ”，有需要时可以再启用。</p>
+      <p>遵循以下步骤，禁用通用选项集中的选项列表值：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic28_image002.png" />在 【通用选项集列表】页面，单击通用选项集后的 。</cmd>
+      </step>
+      <step>
+        <cmd>在 【编辑通用选项集】页面，在<b>选项信息</b>部分，单击要禁用选项列表值后的 <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic28_image004.png" /> 可禁用选项列表值。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE 1. </b>选项值被禁用后，对于历史数据和已经选过该值的数据没有影响。</p>
+      <p>
+        <b>2.
+ </b>当引用通用选项集的字段为标准对象的单选或者多选字段时，此处的禁用无效，即虽然可以禁用成功，但标准对象中引用该通用选项集的单选或者多选字段仍然可以继续使用被禁用的选项值。</p>
+      <p>删除通用选项集的选项列表值</p>
+      <p>对于通用选项集中，不再需要使用的选项列表值，可以将其删除。</p>
+      <p>遵循以下步骤，删除通用选项集中的选项列表值：</p>
+      <ol>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic28_image002.png" />在 【通用选项集列表】页面，单击通用选项集后的 。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic28_image006.png" />在 【编辑通用选项集列表】页面，在<b>选项信息</b>部分，单击要删除选项列表值后的 可删除选项列表值。</li>
+      </ol>
+      <p>
+        <b>NOTE 1. </b>如果选项列表值已被数据引用，则该选项列表值不允许删除。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic28_image008.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>删除通用选项集</p>
+      <p>对于不再需要使用的通用选项集，可以将其删除。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic28_image006.png" />在 【通用选项集列表】页面的通用选项集列表中，单击相应选项集后的 ，可以删除通用选项集。</p>
+      <p>
+        <b>NOTE 1. </b>系统预置的通用选项集不允许删除。</p>
+      <p>
+        <b>2. </b>如果通用选项集已经被对象引用，则该通用选项集不允许删除。</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B5AB75-28B5756-454171F25487752-7455A9">
+  <title>关于销售易企业微信应用升级的说明</title>
+  <shortdesc>企业微信应用升级一般包括以下几种情况：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>从试用版升级到付费版。</cmd>
+      </step>
+      <step>
+        <cmd>从专业版、企业版等升级到旗舰版。</cmd>
+      </step>
+      <step>
+        <cmd>应用使用人数扩充。</cmd>
+      </step>
+      <step>
+        <cmd>付费版延期。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>对于第一种情况，可在企业微信第三方市场中直接付费购买；对于其他三种情况， 建议先联系销售易技术支持人员，咨询后购买。</p>
+    </result>
+  </taskbody>
+</task>
