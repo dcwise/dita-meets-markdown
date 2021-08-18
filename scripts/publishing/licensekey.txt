@@ -1,5 +1,6 @@
 ------START-LICENSE-KEY------
-Registration_Name=rf @ digitalcontent.cn
+
+Registration_Name=andy.liang @ digitalcontent.cn
 
 Company=-
 
@@ -11,10 +12,10 @@ Version=23
 
 Number_of_Licenses=1
 
-Date=07-05-2021
+Date=08-18-2021
 
 Trial=31
 
-SGN=MCwCFHLnD6ywOwfeiov5qxTSII8bfqDSAhRy99jFRZL2o6W5RVLWmPegb1Dt1w\=\=
+SGN=MCwCFDqsZK/T98JjGUEwONA4r58+8v2/AhR2GjmbrLmtdHzHK1FInMwtdRPQmg\=\=
 
 -------END-LICENSE-KEY-------
