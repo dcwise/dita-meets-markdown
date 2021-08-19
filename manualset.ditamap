@@ -23,6 +23,8 @@
       <revised modified="2021-08-10"/>
       <!--RAYFAN-->
       <revised modified="2021-08-18"/>
+      <!--RAYFAN-->
+      <revised modified="2021-08-19"/>
     </critdates> 
 
     
@@ -33,6 +35,7 @@
   <topichead>
     <topicmeta><navtitle>CPQ-产品描述</navtitle></topicmeta>
     <topicref href="XSY0/ugcpq.ditamap" format="ditamap"/>
+   <topicref href="lightweight.dita" format="mdita"></topicref>
   </topichead>
   
   <topichead>

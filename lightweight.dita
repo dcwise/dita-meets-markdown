@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<topic id="lightweight">
+  <title>LIGHTWEIGHT轻量级 DITA 编写</title>
+  <prolog>
+    <author type="creator">RAYFAN</author>
+    <critdates><created date="2021-08-19"/></critdates>
+  </prolog>
+  <body>
+    <p>可以最大化降低识别标签的时间成本</p>
+  </body>
+</topic>
