@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12245-6365145-CA1F2154A87125C-4152D9">
+  <title>Navigating and Editing Within the Command Window</title>
+  <shortdesc>The standard
+ keys below are provided for navigating and editing text in the command window
+ to cor ect or repeat commands.</shortdesc>
+  <conbody>
+    <ul>
+      <li>UP ARROW (↑), DOWN ARROW (↓), LEFT ARROW (←) and RIGHT ARROW (→)</li>
+      <li>INS (Insert), DEL (Delete)</li>
+      <li>PAGE UP, PAGE
+ DOWN</li>
+      <li>HOME, END</li>
+      <li>BACKSPACE</li>
+    </ul>
+    <p>Using UP ARROW (↑), DOWN ARROW (↓) and pressing ENTER, you can repeat any
+ command used in the current session
+ by cycling through
+ the commands in the command
+ window.</p>
+    <p>By default, pressing CTRL+C
+ copies highlighted text to the Clipboard. Pressing CTRL+V pastes text from
+ the Clipboard to the text window or the command
+ window.</p>
+    <p>If you right-click on the command window or
+ text window, ZWCAD displays a shortcut menu from which you can copy selected text or the entire command history,
+ select those recently used commands, paste text, and access
+ the Options dialog
+ boxof the Command
+ window.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic26_image002.png" />
+      </fig>
+    </p>
+    <p>Right click on the command line</p>
+    <p>In general, a
+ command line with two or three lines of previous prompts is given to several
+ commands, called the command history,
+ which is sufficient for viewing and editing. To see more than one line of command history, you can scroll through
+ the history or resize the command window by dragging its border upwards, or you can press F2 to use the text window.</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic26_image004.png" />
+    </p>
+    <p>Command text window</p>
+    <p>The text window
+ is a window similar to the command window in which you can enter commands and view prompts and
+ messages. With a complete command history for the current ZWCAD session displayed,
+ the text window can be used to view the lengthy output of commands such as
+ LIST, which displays detailed information about objects
+ you select.</p>
+  </conbody>
+</concept>

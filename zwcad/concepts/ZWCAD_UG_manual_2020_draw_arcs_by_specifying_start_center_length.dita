@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A74335E5-34A1125-AC1A79E353DF131-C915EE">
+  <title>Draw Arcs by Specifying Start, Center, Length</title>
+  <shortdesc>Draw an arc by
+ specifying the center of the arc after picking the start point of the arc, then
+ specify the length of the arc. Or using the center, start, Length either,
+ which is actually equal to specifying
+ the included angle.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic257_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

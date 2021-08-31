@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A458-3514534-A1F8715A7E5592D-7BF940">
+  <title>Use Predefined Hatch Patterns</title>
+  <shortdesc>Fills the specified area with different material so as to distinguish project parts. The user can select hatch patterns to distinguish different
+ parts of the object and represent the object materials
+ during the hatching
+ process. 14 ISO hatch patterns are provided, ISO pen width can be
+ specified while selecting ISO hatch patterns. Pen width option
+ is set to determine the pen width
+ of the pattern.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

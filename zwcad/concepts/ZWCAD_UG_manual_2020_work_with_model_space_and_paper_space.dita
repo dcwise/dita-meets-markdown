@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A726836E-4511F14-781257E559B3879-CCB6D7">
+  <title>Work with Model Space and Paper Space</title>
+  <shortdesc>Model space is
+ generally used for designing drawings, creating and editing drawings.
+ Preparations for plotting are usually working on paper space for the
+ drawings on layouts are close to
+ the plotting effects.</shortdesc>
+  <conbody>
+    <p>When you start a
+ drawing session, your initial working area is called model space. Model space
+ is an area in which you create two dimensional and three-dimensional objects
+ based on either the World Coordinate
+ System(WCS) or a user coordinate system(UCS). You view and work in model space
+ while using the Model tab.</p>
+    <p>Your view of this
+ area is a single viewport that fills the screen. You can create additional
+ views on the Model tab,
+ called viewports, which can show the same or different
+ two dimensional or three-dimensional views,
+ all of which are displayed
+ in a tiled manner. You can work
+ in only one of these
+ viewports at a time on the Model
+ tab, and you
+ can print only the current
+ viewport.</p>
+    <p>ZWCAD provides
+ an additional work area, called paper space.
+ The contents of paper space represent the paper layout
+ of your drawing. In this work area, you can create and arrange different views of your model similar
+ to the way you arrange
+ detail drawings or orthogonal views
+ of a model on a sheet of paper.</p>
+    <p>You view and work
+ in paper space while using a Layout tab. Each view, or layout viewport, that
+ you create in paper space provides a
+ window of your drawing in model space. You can create one layout viewport
+ or several. You can place layout viewports anywhere on the screen; their edges can be touching
+ or not, and you can print themall
+ at the same time.</p>
+    <p>You do not need to use paper space
+ to print your drawing, but it offers several advantages:</p>
+    <ul>
+      <li>Print the same drawing
+ with different print
+ settings that you save with each layout,
+ for example, printer
+ configuration files, print style tables,
+ lineweight settings, drawing
+ scale, and more.</li>
+      <li>For a single layout, create
+ multiple layout viewports that print the model at different views and scales.</li>
+      <li>You can toggle the Model space
+ and Paper space by clicking on the tabs, and create viewports on current layout tab to obtain model
+ space for further manipulations. If the drawing is not required to plot multiple viewports, you can plot the drawing
+ directly from Model
+ space.</li>
+      <li>Layout tab is enabled to make
+ relevant plot settings. Paper space is provided in each layout option, and you are allowed to create
+ viewports and specify page setups such as paper size, orientation, and location
+ that can be saved together
+ with the layout.</li>
+      <li>You can save and name the page setup and apply it
+ to other layouts when setting
+ pages. You can also create
+ new layouts using
+ existing layout template
+ file (DWT or DWG).</li>
+    </ul>
+    <p>Click on the
+ Model tab, you can view and edit objects in model space. Crosshairs are
+ activated in the whole drawing. Shown
+ as follows:</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic663_image002.png" />
+      </fig>
+    </p>
+    <p>View and edit objects
+ in model space from the Model tab.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic663_image004.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>View and edit
+ objects in layout from
+ the Model tab.</p>
+    <p>To view and edit objects of
+ model space in viewport created in layout tab, you can double-clicklayout viewport. The crosshairs and mark will be highlighted in the currentviewport.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic663_image006.png" />
+      </fig>
+    </p>
+    <p>Double click viewports to edit</p>
+    <p>To change the
+ current viewport for another one, click on the desired viewport and press
+ CTRL+R to iterate all viewports.</p>
+  </conbody>
+</concept>

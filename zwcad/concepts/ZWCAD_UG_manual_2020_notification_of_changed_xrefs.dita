@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA1A6851-5C4F581-A57915517D6A9D7-496259">
+  <title>Notification of Changed Xrefs</title>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic589_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ After the xrefs having been attached
+ to the drawing, the systemautomatically checks whether the original drawing
+ file is modified
+ in certain intervals since it loaded
+ or reloaded the last time.
+ The xref icon located at the right lower
+ corner of the status bar appears an exclamatory mark once the xref file has
+ been modified, and needs to reload. You can click this icon to open xref Manager to reload the changed xrefs.
+ Xref notification behavior
+ is controlled by the XREFNOTIFYsystemvariable.</p>
+  </conbody>
+</concept>

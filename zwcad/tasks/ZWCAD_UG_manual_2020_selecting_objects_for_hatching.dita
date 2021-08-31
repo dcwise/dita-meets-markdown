@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A356-836E1CA-1F15A8875791E55-D2F940">
+  <title>Selecting objects for hatching</title>
+  <shortdesc>A hatch boundary can be defined
+ by means of selecting anobject,
+ for example, a circle or rectangle. You can assign
+ hatching to a single object
+ or several objects
+ at the same time.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can add
+ hatching to an area enclosed by selected objects to formthe hatch boundary. The
+ hatch is formed within the enclosed
+ area, not the objects themselves. Once a hatch is created,
+ it will be treated as a
+ single object. And the object being hatched changes along with the hatch boundary
+ if the hatch you create is associative.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic634_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select objects for hatching</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Hatch from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>From the Hatch and Gradient dialog
+ box, click the Islanddetectionoption, and then choose one of the following islands:</cmd>
+        <info>
+          <p>
+            <b>Normal </b>Areas separated from the outside of the hatched
+ by an odd number of intersections are hatched.</p>
+          <p>
+            <b>Outer </b>Onlythe outer object
+ andits outer islandare considered for hatching.</p>
+          <p>
+            <b>Ignore </b>The entire object is considered for hatching,
+ theinnerarea will be ignored.</p>
+          <p>
+            <image href="../graphics/ZWCAD_UG_manual_2020_topic634_image002.png" />
+          </p>
+          <p>Normal islands (A), with outer island (B), and with ignoring islands
+ (C).</p>
+        </info>
+      </step>
+      <step>
+        <cmd>To keep any new
+ objects that are created for drawing the boundary hatch, select the Retain Boundaries checkbox under Other
+ options. Existing objects are always retained.</cmd>
+      </step>
+      <step>
+        <cmd>In the Boundaries, click Select Objects
+ button.</cmd>
+      </step>
+      <step>
+        <cmd>In the
+ drawing, click the objects to be hatched individually, and then press Enter when done.</cmd>
+      </step>
+      <step>
+        <cmd>In the Hatch and Gradient dialog box, click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic634_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Select an area for hatching</p>
+      <ol>
+        <li>Choose Draw &gt; Hatch from the main menu.</li>
+        <li>From the Hatch and Gradient dialog
+ box, click the Islanddetectionoption, and then choose one of the following islands:<p><b>Normal </b>Areas separated from the outside of the hatched by an odd number of</p><p>intersections
+ are hatched.</p><p><b>Outer </b>Onlythe outer object
+ andits outer islandare considered for hatching.</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/ZWCAD_UG_manual_2020_topic634_image002.png" /></entry></row></tbody></tgroup></table><b>Ignore </b>The entire object is considered for hatching, theinnerarea will be ignored.</p><p>Normal islands (A), with outer island (B), and with ignoring islands
+ (C).</p></li>
+        <li>To keep any new
+ objects that are created for drawing the boundary hatch, select the Retain Boundaries checkbox under Other
+ options. Existing objects are always retained.</li>
+        <li>In the Boundaries, click Pick Points button.</li>
+        <li>In the drawing, click inside the closed perimeter ofa boundary, not on the boundary itself.
+ If desired, continue
+ clicking inside additionallyclosedperimeters.</li>
+        <li>To complete the selection, press Enter.</li>
+        <li>In the Hatch and Gradient dialog box, click OK.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

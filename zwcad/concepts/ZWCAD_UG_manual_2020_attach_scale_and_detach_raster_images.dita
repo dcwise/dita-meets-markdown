@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A45-685E145-3C4A1114A880559-272F40">
+  <title>Attach, Scale, and Detach Raster Images</title>
+  <shortdesc>Raster images consist of a rectangular grid of small squares or dots known as pixels.</shortdesc>
+  <conbody>
+    <p>As consists of
+ multiple rectangular grids, raster images can be copied, moved, or clipped as
+ we l as a normal object in the
+ drawing. You can change the position and size of the image by dragging its
+ grips. You can also adjust
+ the contrast, transparency, image quality and image frame visibility as well from the menu option "Modify-Object-Image".</p>
+    <p>Image file formats ZWCAD supports most of the frequently used
+ file formats, such as computer
+ graphics, document management, engineering, mapping, and geographic information systems (GIS) and an image file of bitonal, 8-bit gray, 8-bit color, or 24-bit
+ color.</p>
+    <p>Once you have
+ inserted an image with the transparent pixel, the drawing behind the
+ transparent pixel will be displayed when
+ you turn on the image transparency. If you insert
+ a bitonal image,
+ the background color pixel is processed by transparency,
+ either gray or color images are assigned to support transparent pixels.</p>
+    <p>Additionally,
+ when inserting raster images, the file format depends on the content of the file rather than the extension name.
+ The following table
+ display all the image file formats supported by ZWCAD:</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1"> Type: </entry>
+            <entry colname="col2"> Description and versions: </entry>
+            <entry colname="col3">
+              <p>File</p>
+              <p>extension:</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> BMP </entry>
+            <entry colname="col2"> Windows and OS/2 bitmap format </entry>
+            <entry colname="col3"> .bmp </entry>
+          </row>
+          <row>
+            <entry colname="col1"> ECW </entry>
+            <entry colname="col2"> Enhanced Compression Wavelet </entry>
+            <entry colname="col3"> .ecw </entry>
+          </row>
+          <row>
+            <entry colname="col1"> JFIF or JPEG </entry>
+            <entry colname="col2"> Joint Photographics Expert Group </entry>
+            <entry colname="col3"> .jpg or .jpeg </entry>
+          </row>
+          <row>
+            <entry colname="col1"> PCX </entry>
+            <entry colname="col2"> Picture PC Paintbrush Picture </entry>
+            <entry colname="col3"> .pcx </entry>
+          </row>
+          <row>
+            <entry colname="col1"> PNG </entry>
+            <entry colname="col2"> Portable Network Graphic </entry>
+            <entry colname="col3"> .png </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1"> TGA </entry>
+            <entry colname="col2"> True Vision Raster-Based Data Format </entry>
+            <entry colname="col3"> .tga </entry>
+          </row>
+          <row>
+            <entry colname="col1"> TIFF </entry>
+            <entry colname="col2"> Tagged Image File Format </entry>
+            <entry colname="col3"> .tif or .tiff </entry>
+          </row>
+          <row>
+            <entry colname="col1"> GIF </entry>
+            <entry colname="col2"> Graphics Interchange Format </entry>
+            <entry colname="col3"> .gif </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

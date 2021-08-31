@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A368-36E13A1-1F2571A99CD8AE2-6C4247">
+  <title>Edit OLE Objects in Drawings</title>
+  <shortdesc>You can modify an
+ embedded or linked object in its original programfromwithin ZWCAD. When you modify an embedded object, you change the object only in ZWCAD,
+ not its original file (if you pasted the
+ object from an existing file). When you modify a linked file, however, you open
+ and change the original file.</shortdesc>
+  <conbody>
+    <p>Double-click the OLE object to start server applications in which you can edit the OLEobjects. ZWCAD provides two ways to edit OLE objects:
+ one is to link or embed
+ OLE objects which are supportive of other applications into ZWCAD drawings,
+ or you can embed ZWCAD drawings into other applications.</p>
+  </conbody>
+</concept>

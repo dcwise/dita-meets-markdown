@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA2568E5-C487A55-AA79539363CB790-4AD96D">
+  <title>Taper Faces</title>
+  <shortdesc>You can taper the selected face
+ at the specified angle around a baseline. The rotation direction depends on the sequence of specifying the base point.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Positive angle tapers faces in and
+ negative angle tapers faces out. The angle should not be too large in order
+ to the tapered face shrinks
+ to a point before reaching
+ the specified height.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic419_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To taper a solid face</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing &gt; Taper Faces from
+ the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the face(s) to taper, andpress Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a base point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify another point along the axis.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic419_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify a taper angle.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Left: Specify the face(s) to taper (A), a base point(B), a second point along the taper axis(C),
+ and a taper angle</p>
+      <p>Right: The resulting entity with the face tapered
+ to position(D)</p>
+    </result>
+  </taskbody>
+</task>

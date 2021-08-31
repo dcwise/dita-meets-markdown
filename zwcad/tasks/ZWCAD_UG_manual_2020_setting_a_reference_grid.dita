@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12256-365E153-4A11F2181527915-35A3C0">
+  <title>Setting a reference grid</title>
+  <shortdesc>A reference grid displays
+ as a pattern of regularly spaced cells. You can turn the display on and of ,
+ and you can specify how far apart
+ the cells are spaced.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The reference
+ grid extends only to the limits of the drawing, helping you to visualize the
+ boundary of your drawing
+ and to align entities and visualize distances between entities. You can turn the grid on and off as
+ needed. You can also change
+ the spacing of the grid
+ at any time.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic121_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn the grid on and set the grid spacing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Drafting Settings
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Snap and Gridtab.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Grid Onbox.</cmd>
+      </step>
+      <step>
+        <cmd>Under Grid tab, input a value in the Grid X Spacing field and Grid Y Spacing field separately.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>Status bar </b>Right-click on the Grid Display button
+ to choose Settings.</p>
+      <p>
+        <b>TIP </b>To toggle the grid display on and off at any time,
+ click the Grid Display button on the status bar, or press
+ F7.</p>
+    </result>
+  </taskbody>
+</task>

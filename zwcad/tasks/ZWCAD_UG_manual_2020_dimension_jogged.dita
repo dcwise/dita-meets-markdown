@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A1A435-6E14511-F215A87B115A91E-359BF1">
+  <title>Dimension Jogged</title>
+  <shortdesc>The DIMJOGLINE command is available for adding or removing jog symbol for linear
+ dimensions, showing a dimension value
+ differs from its factual measured
+ dimension value. Generally, the value displayed here is greater
+ than the actual
+ measurement value.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The joggedline is composed of two paralleled lines and a connecting line with 40 degrees between
+ them. As for the height of the
+ jogged line, the user can set it from"Other Items" tab either in
+ "New Dimension Style" dialog boxor "Modify Dimension Style" dialog
+ box.</p>
+      <p>After adding jog symbol
+ to the linear dimension, the jog is defaulted to be placed at the center point</p>
+      <p>between first
+ extension line and dimension text or center point based on the dimension text.
+ To relocate jog symbol, you can
+ adjust the position of dimension text or specify the new position to locate jog
+ after reselecting dimension.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic532_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To add a jog to the linear dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Jogged Linear from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select a linear dimension.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic532_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify a point on the dimensionline to determine the
+ jog symbol, or press ENTER directly to positionthe jog symbol in thedefault place.</info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

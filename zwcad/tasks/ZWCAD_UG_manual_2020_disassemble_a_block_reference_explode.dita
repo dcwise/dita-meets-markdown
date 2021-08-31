@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A3568-65E111F-21548BB591E597E-5E639D">
+  <title>Disassemble a Block Reference (Explode)</title>
+  <shortdesc>To modify one or more objects
+ within a block separately, you can use Explode tool from Modify toolbar, and restore this block after
+ you have modified
+ these objects using one of the following
+ methods:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Create a new block definition</li>
+        <li>Redefine the existing
+ block definition</li>
+        <li>You can automatically explode
+ block references as you insert them by selecting the Explode block upon insertion option in the Insert
+ Block dialog box. Thus, the block reference will be automatically exploded with each object
+ inserted into the drawingg separately.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic568_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To explode
+ a block</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Explode
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the block you want to explode.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

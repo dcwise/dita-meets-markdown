@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A75683E1-4C14A8C-5391E535A2B8A4E-74192A">
+  <title>Circles</title>
+  <shortdesc>The default method for drawing a circle is to specify a center point and radius. You can draw
+ circles using any of the following methods:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Center, Radius</li>
+        <li>Center, Diameter</li>
+        <li>Two points</li>
+        <li>Three points</li>
+        <li>Tangent, Tangent, Radius</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic260_image001.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Tangent, Tangent,
+ Tangent</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic260_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a circle by specifying
+ its center and radius</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Circle
+ &gt; Center, Radius from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the center point.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic260_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the radius of the circle.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Center point (A) and radius (B)</p>
+    </result>
+  </taskbody>
+</task>

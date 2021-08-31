@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA243568-51341F2-54A87B16505A79E-352BF1">
+  <title>Create Diameter Dimensions</title>
+  <shortdesc>You can create
+ diameter dimensions for circles or arcs to measure their diameters. Creating
+ diameter dimensions resembles creating radial dimensions.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can create
+ various diameter dimensions based on the location and size of circles or arc,
+ and the settings of the
+ dimension style. Either
+ drawing a center mark or line is controlled
+ by the dimension style. If the dimension line is created inside a
+ circle or arc, the center mark or line is not drawn. The system variable
+ DIMCEN controls whether
+ the center mark
+ or line is displayed.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic523_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a diametral dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Diameter
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the arc or circle.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic523_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the dimension
+ line location.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the circle (A), and then specify the dimension line location (B).</p>
+    </result>
+  </taskbody>
+</task>

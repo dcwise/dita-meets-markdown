@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A722A435-635134A-5815575359B8E2E-ABDDD7">
+  <title>Clip Raster Images</title>
+  <shortdesc>You can get the
+ desired part of the image displayed through image clip, and also improve the
+ redraw speed so as to define the display and
+ plot area of the image.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Two types of
+ clipping boundary are provided as rectangle composed by lines and polyline. The
+ vertex within an image boundary even
+ if self-intersected vertex should be
+ specified when you define new boundaries. Here rectangle boundary
+ is the default pattern of clipping boundary. Only one clipping</p>
+      <p>boundary is assigned for each image instance, but multiple instances of
+ the same image can be assigned with different boundaries.</p>
+      <p>The clipped image can be
+ displayed within clipping boundary, and also displayed inside its original boundary.</p>
+      <p>You can remove the clipping
+ boundary of an image and use the original frame of the image to display the clipped image instead. But the boundary
+ of the image to be clipped must be visible.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic649_image002.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic649_image003.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To clip an image in the shape of a rectangle</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Clip&gt;
+ Image from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the edge of the image you want to clip.</cmd>
+      </step>
+      <step>
+        <cmd>If prompted, type N (New boundary)
+ to create a new clipping
+ boundary.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Rectangular.</cmd>
+      </step>
+      <step>
+        <cmd>Define the first corner of the clipping rectangle.</cmd>
+      </step>
+      <step>
+        <cmd>Define the
+ second corner of the clipping rectangle. The selected image is clipped
+ so that only the interior
+ of the rectangle is visible.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic649_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To clip an image in the shape of a polygon</p>
+      <ol>
+        <li>Choose Modify &gt; Clip&gt;
+ Image from the main menu.</li>
+        <li>Select the edge of the image you want to clip.</li>
+        <li>If prompted, type N (New boundary)
+ to create a new clipping
+ boundary.</li>
+        <li>Choose Polygonal.</li>
+        <li>Select the points for the
+ polygon, and then press Enter when
+ the polygon is complete. The selectedimage is clippedsoonly the interior of the polygonis visible.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic649_image003.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn clipping on or off for an image</p>
+      <ol>
+        <li>Choose Modify &gt; Clip&gt; Image from the main menu.</li>
+        <li>Select the edge of the image for which you want to turn clipping on
+ or off.</li>
+        <li>Type ON or OFF.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic649_image004.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To remove clipping froman image</p>
+      <ol>
+        <li>Choose Modify &gt; Clip&gt;
+ Image from the main menu.</li>
+        <li>Select the edge of the image for which you want to remove clipping.</li>
+        <li>Type D (Delete).</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A23145-3A12185-55A9153727EBE1D-7B386D">
+  <title>Create Horizontal and Vertical Dimensions</title>
+  <shortdesc>As you create
+ linear dimensions, the system automatically applies a horizontal or vertical
+ dimension depending on the specified
+ extension line origins or the location where you select an object. However, you can create
+ a dimension by specifying it be horizontal or vertical.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic513_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ In the following illustration, by
+ default, a horizontal dimension is created unless you specify a vertical one.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic513_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a horizontal or vertical dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Linear
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter and then select the object dimension.</cmd>
+      </step>
+      <step>
+        <cmd>Or, you can insert the dimension by specifying the first
+ and second extension line origins.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the dimension line location.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic513_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

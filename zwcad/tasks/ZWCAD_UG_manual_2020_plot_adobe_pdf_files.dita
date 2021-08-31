@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12435-836E4CA-F15A7965B57E558-0065D6">
+  <title>Plot Adobe PDF Files</title>
+  <shortdesc>Adobe PDF file can be created fromdrawing using PDF driver.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Portable Document
+ Format (PDF) is a standard of the electronic file change. The PDF file can be
+ used on any system operation like
+ Windows, Unix and so on. More and more document is using PDF now, such as e-books, product introduction,
+ network information, e-mails. PDF has become a standard for digitized information.</p>
+      <p>
+        <b>Note: </b>The Adobe Reader R7 or higher version is needed
+ on view the published PDF file. The version</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>is needed for Microsoft
+ Windows 7.</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/ZWCAD_UG_manual_2020_topic728_image001.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ Steps for PDF printing:</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+          </substep>
+          <substep>
+            <cmd>Choose DWG To PDF.pc5
+ for the Name option from the Printer/plotter area on the Plot dialog
+ box.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click OK.</cmd>
+          </substep>
+          <substep>
+            <cmd>Specify the location
+ andthe name for the PDF file in Browse for Plot File dialog box.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click Save.</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic728_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Steps for adding PDF plotter</p>
+      <ol>
+        <li>The drawing
+ can be published as PDF file format
+ if you adding PDF plotter
+ though Add plotter
+ wizard. Steps for adding PDF plotter as follow:</li>
+        <li>Select File &gt; Plotter
+ Manager from the mainmenu.</li>
+        <li>Select Next after you read the introductionin Add Plotter - Introduction Page.</li>
+        <li>Select My Computer from the Add Plotter - Begin page, and click Next.</li>
+        <li>In Add Plotter -
+ Plotter Model page, select Adobe PDF from Manufactures option and select
+ PDF from Models
+ option. Click Next to continue.</li>
+        <li>Activate the Plot to File check box from Add Plotter
+ - Ports page, and click Next.</li>
+        <li>In Add Plotter - Plotter Name page, input your
+ configuration file name, or use the default name
+ andclick Next.</li>
+        <li>Click Finish in Add Plotter - Finish page to finish your adding.</li>
+        <li>The new Plot Configuration file (PC5) is set up.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

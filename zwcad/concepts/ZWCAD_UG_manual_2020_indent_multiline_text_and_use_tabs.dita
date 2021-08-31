@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA22A436-8351453-41215A7A10571E5-35B887">
+  <title>Indent Multiline Text and Use Tabs</title>
+  <shortdesc>On the In-Place Text Editor, you can control
+ the appearance of text objects and create a list by specifying the tap stops and indenting text. The
+ setting of tap stops and indent made before typing text are applied to all the texts. You can also assign the settings to the selected
+ paragraphs.</shortdesc>
+  <conbody>
+    <p>The arrowheads on
+ the ruler are used to define the indent of text. The above one is designed to
+ specify the first line indent,
+ while the other
+ one is designed to specify
+ the paragraph indent.</p>
+    <p>While you dragging the indent mark on the ruler, the L mark is displayed
+ to represent the tab stops. You can delete customtabs by moving the Lmark away from the ruler.</p>
+  </conbody>
+</concept>

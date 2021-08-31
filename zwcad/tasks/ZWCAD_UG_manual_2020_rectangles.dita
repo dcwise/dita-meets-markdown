@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A43535-13C1115-A8C1A1E5116F113-51C93E">
+  <title>Rectangles</title>
+  <shortdesc>With ZWCAD,
+ rectangles are closed polylines with four sides. You draw a rectangle by
+ specifying its opposite corners. The
+ rectangle is normally aligned parallel to the current snap and grid alignment,
+ but you can use the Rotated option to align
+ the rectangle to any angle.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic246_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a rectangle</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Rectangle from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify one corner of the rectangle.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic246_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the opposite
+ corner of the rectangle.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Opposite corners
+ (A and B) Resulting rectangle</p>
+      <p>You can edit each
+ side of a rectangle individually using the Edit Polyline tool on the Modify II
+ toolbar. You can convert the sides into individual line
+ objects using the Explode tool
+ on the Modify toolbar.</p>
+      <p>
+        <b>TIP </b>To control the line width of the rectangle, type “w” in the command
+ line, then type the desired
+ value of line width.
+ After you change the width of the
+ line, the new width setting remains
+ in effect for subsequent rectangles until you change it again.</p>
+    </result>
+  </taskbody>
+</task>

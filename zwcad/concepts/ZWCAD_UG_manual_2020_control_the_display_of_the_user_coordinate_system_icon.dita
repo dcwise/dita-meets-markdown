@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7256836-5E13CA1-154A8C152575A6C-CD6525">
+  <title>Control the Display of the User Coordinate System Icon</title>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic231_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ By default, the UCS icon is
+ displayed in the lower-left corner of the current viewport, which indicates the location and orientation of the current
+ UCS. You can also control
+ whether the UCS icon is displayed at the origin point. There are two types of UCS icons:
+ 2D icon and 3D icon.</p>
+    <p>Displaying 2D or 3D UCS icon is controlled by the UCSICON command.
+ Yo u can display
+ the UCS icon at the UCS
+ origin point to indicate the origin and orientation of the current UCS using
+ the UCSICON command.</p>
+    <p>A cross is displayed
+ in the icon if the UCS icon is displayed
+ at the corner of the current UCS; otherwise, there is no cross
+ in the icon.</p>
+    <p>If the drawing area has multiple viewports, each viewport displays
+ its own UCS icon.</p>
+    <p>There are various
+ ways of displaying the UCS icon, shown as follows, which help you visualize the orientation of the drawing
+ plane.</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic231_image002.png" />
+    </p>
+    <p>The UCSICON
+ can also change the size and color of the UCS
+ icon.</p>
+  </conbody>
+</concept>

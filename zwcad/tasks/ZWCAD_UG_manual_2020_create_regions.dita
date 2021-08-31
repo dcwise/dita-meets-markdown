@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A453-534A112-58C1D5B71535A3C-B47383">
+  <title>Create Regions</title>
+  <shortdesc>You can convert a closed object
+ into a two-dimensionalregion. After you create a region, you can modify it
+ using the various three-dimensional tools. For example, you can create a region
+ from a square, and then extrude
+ the square to create a three-dimensionalcube.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can create
+ regions fromclosed objects, such as polylines, polygons, circles, ellipses,
+ closed splines, and donuts.</p>
+      <p>Creating regions
+ typically has no visible effect
+ on a drawing. However, if the original
+ object had a width or lineweight, that
+ information is lost when
+ you create the region.</p>
+      <p>Regions can be
+ used for applying hatching and shading and extracting design information, such
+ as the centroid, and
+ using MASSPROP to analyze properties, such as area.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic298_image001.png" />
+        </fig>
+      </p>
+      <p>Besides using
+ closed 2D objects, you also have various options to create a region, such as
+ connecting multiple loops or endpoints of open curves. However, the closed area inside the unclosed objects
+ wil not form regions. For example, crossed
+ arcs or intersected curves.</p>
+      <p>BOUNDARY creates
+ region by specifying inner points of the closed area, to form a boundary with existing objects. If the objects are
+ intersected with each other, ZWCAD takes the closed area nearest to the selected
+ points as a boundary.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic298_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Meanwhile, a combined region is created through the union, subtract or intersect among several areas. When using a union, subtract or intersect
+ for complex regions, you can fill the area and analyze its area as well. The following region objects show
+ combined areas of the union, subtract or intersect orderly: Objects combined
+ using UNION:</p>
+      <p>Objects combined
+ using SUBTRACT:</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic298_image003.png" />
+        </fig>
+      </p>
+      <p>Objects combined
+ using INTERSECT:</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic298_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic298_image005.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a region</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Region from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects to create the region.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>The command bar displays a message
+ that describes how many regions were created.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

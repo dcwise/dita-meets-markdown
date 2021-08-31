@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A2356836-1453CF1-A87B1591E7DB0D7-42F5F9">
+  <title>Update Attached External References</title>
+  <shortdesc>If the
+ xref drawings are changed, you can update
+ the xref to the latest version whenever
+ you want.</shortdesc>
+  <conbody>
+    <p>To update
+ a xref, start Xref Manager
+ using XREF command.
+ The status of updated xrefs displayed in the list is "Needs reloading", and you
+ can update these xrefs by clicking the Reload button.</p>
+    <p>Once the xrefs
+ are reloaded, the system automatically updates each xref when you open the
+ attached drawing file directly to show the latest xrefs.</p>
+  </conbody>
+</concept>

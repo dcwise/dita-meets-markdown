@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB122A46-83615C4-1F4852571275F91-601E85">
+  <title>Set the Viewing Direction</title>
+  <shortdesc>You view three-dimensionaldrawings by setting the viewing direction. The viewing direction establishes the viewing position, the Cartesian coordinate corresponding to the viewpoint looking
+ back at the origin point, the
+ 0,0,0 coordinate. When you view a drawing fromthe default viewpoint (0,0,1),
+ you see a plan view of the drawing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can change
+ the viewing direction to look at the drawing from a different vantage point or
+ to work on a three-dimensionalmodel froma different orientation.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic97_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set a
+ new viewing direction</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose View &gt; 3D Views &gt; Viewpoint from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe preset button.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe preset view youwant to use.</cmd>
+      </step>
+      <step>
+        <cmd>You can set the current viewing
+ direction to the plan view of the current user
+ coordinate system (UCS), a
+ previouslysaved UCS, or the World Coordinate System (WCS).</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic97_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To dynamically set a view direction</p>
+      <ol>
+        <li>Choose View &gt; 3D Views &gt; Viewpoint from the main menu.</li>
+        <li>Clickthe appropriate tools to dynamically change the viewpoint.</li>
+        <li>To complete the command,
+ click OK.</li>
+        <li>You can
+ dynamicallyrotate the viewpoint within the XY plane andrelative to the XY plane, and you can pan and zoom the
+ drawing. As you change the viewpoint, the drawing display
+ automaticallyupdates.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic97_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To display a plan view of the
+ current drawing</p>
+      <ol>
+        <li>Choose View &gt; 3D Views &gt; Plan View from the main menu.</li>
+        <li>It concludes three plan views: Current UCS, World UCS, and
+ Named UCS. Choose one what
+ you want.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

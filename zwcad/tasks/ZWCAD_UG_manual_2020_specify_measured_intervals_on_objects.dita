@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A435-68365E1-53C4A54A871D565-7E535A">
+  <title>Specify Measured Intervals on Objects</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic195_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Use MEASURE to mark an object at specified
+ intervals with either points or blocks. The last segment of a measured
+ object may be shorter than
+ the interval you specify.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic195_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To measure intervals along an object and mark themusing point objects</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Point &gt; Measure from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic195_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the segment
+ length, and then press Enter.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Left: When you select the object by pointing, intervals are measured from the end closest to the point at which you</p>
+      <p>select the object (A)</p>
+      <p>Right: Blocks or point objects (B) are placed along the object at the specified interval</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic195_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To measure intervals along
+ an object and mark themusing blocks</p>
+      <ol>
+        <li>Choose Draw &gt; Point &gt; Measure from the mainmenu.</li>
+        <li>Select the object.</li>
+        <li>On the command line, type b (block).</li>
+        <li>Type the name of the
+ block you want to insert as the marker.</li>
+        <li>Enter y to align the blocks
+ withthe measured object.
+ Enter n to use a rotation angle of 0 degrees.</li>
+        <li>Specify the segment length,
+ and then press Enter.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A12A3563-5E1411F-215A7C6579E55A4-CD3B25">
+  <title>Define the UCS Location</title>
+  <shortdesc>You can define a UCS in several
+ ways:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Specify a new origin, new XY plane, or new Z axis.</li>
+      <li>Align the
+ new UCS with an existing
+ object.</li>
+      <li>Align the
+ new UCS with the current viewing
+ direction.</li>
+      <li>Rotate the current UCS around any of its axes.</li>
+      <li>Apply a
+ new Z-depth to an existing
+ UCS.</li>
+      <li>Apply a
+ UCS by selecting a face.</li>
+    </ul>
+  </conbody>
+</concept>

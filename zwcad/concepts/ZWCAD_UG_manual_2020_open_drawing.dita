@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12243-563C4A1-214A87B10525C45-2122E8">
+  <title>Open drawing</title>
+  <shortdesc>Uses Open on the
+ File menu or Standard toolbar to open Select File dialog box, from which you
+ can select the desired file. You can
+ also open a drawing by dragging a drawing into anywhere outside(apart from) the drawing area. However, if you drag a
+ drawing into the drawing area of an open drawing, the new drawing is inserted into the open drawing as a block
+ reference instead of opening it.</shortdesc>
+  <conbody>
+    <p>You can also
+ double-click drawing to launch ZWCAD program to open it. If ZWCAD is running,
+ the drawing opens in the current session.</p>
+    <p>Change the default drawing
+ folder</p>
+    <p>Each time you
+ launch ZWCAD, the path you specified to open the latest drawing is displayed in
+ each standard file selection dialog
+ box. You can also specify
+ a default path to ZWCAD by changing the default drawing folder.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A568-36E43C4-A11F254A8714A5A-791E59">
+  <title>Dynamic Blocks</title>
+  <shortdesc>Dynamic Block is
+ a kind of block contains parameters and actions. It was built based on the
+ block. Dynamic block has the properties of the block,
+ which is uniquely
+ flexible and intelligent.</shortdesc>
+  <conbody>
+    <p>Currently, ZWCAD supports the display of dynamic blocks, the display and editing
+ of dynamic block</p>
+    <p>customgrips, and the editing
+ and saving of dynamic blocks.</p>
+    <p>The property
+ of dynamic block is "block reference"; the dynamic
+ block can be partially adjusted
+ by using key points or via the Properties tab.</p>
+    <p>You cannot
+ perform "Non-uniform scaling" on the dynamic block directly if forced
+ to operate, it will become a common
+ block without "dynamic" characteristics. For example, the following
+ operations will make dynamic
+ blocks lose "dynamic" characteristics:</p>
+    <ul>
+      <li>Insert a dynamic block by
+ using unequal XYZ scale factors in the Insert dialog box via command INSERT;</li>
+      <li>Select a dynamic
+ block, and then
+ modify it by using unequal
+ XYZ scale factors
+ in the Properties;</li>
+      <li>Modify a dynamic
+ block by using unequal XYZ scale factors
+ via command BSCALE;</li>
+      <li>Refedit a dynamic block, and then save to exit.</li>
+    </ul>
+  </conbody>
+</concept>

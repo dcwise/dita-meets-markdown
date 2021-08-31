@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A3583-6E153CA-11F2154A87C452A-79535A">
+  <title>Entering absolute Cartesian coordinates</title>
+  <shortdesc>The 2D plane is
+ an XY plane, also called construction plane. The 2D plane is similar to a flat
+ sheet of grid paper. If you want to use Cartesian
+ coordinate values to specify a point, enter an X value and Yvalue separated
+ by a comma (X, Y). The X value of a Cartesian
+ coordinate is the positive or negative distance,
+ in units, alongwith
+ the X-axis. The Yvalue of a Cartesian
+ coordinate is the positive
+ or negative distance, in units, alongwith the Y-axis. The origin (0, 0) indicates
+ where the X, Yaxes intersect.</shortdesc>
+  <conbody>
+    <p>To enter absolute
+ Cartesian coordinates, type the coordinate location of the point in the command
+ bar. For example, to use absolute
+ Cartesian coordinates to draw a line from the origin (0,0) to a point 3 units to the right and 1 unit above the origin,
+ start the Line command and respond to the prompts
+ as follows:</p>
+    <p>Specify the first point:
+ 0,0 </p>
+    <p>Specify the next point or [Angle/Length/Undo]: @3,1 </p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic201_image001.png" />
+      </fig>
+    </p>
+    <p>Drawing a line using the absolute Cartesian coordinate method.</p>
+  </conbody>
+</concept>

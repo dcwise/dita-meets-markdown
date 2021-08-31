@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB12A458-365E153-4A1F15487A52C74-1452D9">
+  <title>Using the status bar</title>
+  <shortdesc>If you elect not to use the command
+ bar, the status
+ bar displays information about the selected command or tool. It also displays the current cursor
+ coordinates, mode settings, and other information about cur ent settings.</shortdesc>
+  <taskbody>
+    <context>
+      <p>In addition
+ to displaying information, the status bar is a quick way to access many features.</p>
+      <p>You can click status
+ bar items to make changes,
+ and right click
+ items to display shortcut menus
+ that a low you more choices.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic42_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>From left to right
+ :</p>
+      <p>Status bar</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Cursor Coordinates (x,y,z).</cmd>
+      </step>
+      <step>
+        <cmd>Snap Mode.</cmd>
+      </step>
+      <step>
+        <cmd>Grid
+ Display.</cmd>
+      </step>
+      <step>
+        <cmd>Ortho Mode.</cmd>
+      </step>
+      <step>
+        <cmd>Polar Tracking.</cmd>
+      </step>
+      <step>
+        <cmd>Object Snap.</cmd>
+      </step>
+      <step>
+        <cmd>Object Snap Tracking.</cmd>
+      </step>
+      <step>
+        <cmd>Dynamic UCS.</cmd>
+      </step>
+      <step>
+        <cmd>Dynamic input.</cmd>
+      </step>
+      <step>
+        <cmd>Show/Hide Lineweight.</cmd>
+      </step>
+      <step>
+        <cmd>Cycle select.</cmd>
+      </step>
+      <step>
+        <cmd>Model or Paper space.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

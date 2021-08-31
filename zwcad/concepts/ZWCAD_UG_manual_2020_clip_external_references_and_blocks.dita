@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7124568-551257D-50A53597DA6A439-F0DFF9">
+  <title>Clip External References and Blocks</title>
+  <shortdesc>You can define a
+ clipping boundary through XCLIP command once a xref has been attached to the drawing,
+ the clipping boundary defined by users are allowed to display only a part of
+ the xrefs and compress the displaying of the external
+ geometric objects.</shortdesc>
+  <conbody>
+    <p>The clipping
+ boundary is composed
+ of coplanar lines and polyline
+ as well. But self-intersecting polylines are not available
+ for creating clipping
+ boundary.</p>
+    <p>XCLIP can be used
+ for generating or removing clipping boundaries, generating polylines
+ fromclipping boundary or displaythe part
+ being clipped for one
+ or more xrefs or blocks.
+ XCLIP only affects
+ the single object of xref, retain the xref definitions unchanged.
+ The part of xref or block inside the clipping
+ boundary is still visible,
+ while the remaining parts are invisible. The geometric drawing
+ being referenced itself is unchanged, only its displaying way is edited.</p>
+    <p>You can use XCLIP to do the following:</p>
+    <ul>
+      <li>Create new clipping
+ boundary</li>
+      <li>Remove existing boundary</li>
+      <li>Generate polyline objects that are concurrent with thevertexof clipping
+ boundary.</li>
+      <li>Turn on or off xref Clipping</li>
+    </ul>
+    <p>If xclip is turned on, all the clipping
+ boundaries will be started to display the clipped part
+ of a xref. If the xclip is turned off, the clipping
+ boundaries will not be displayed, only display the drawings in xrefs containing contents both inside or outside the clipping boundary. The clipping boundary
+ can't be restored once removed. The xref having
+ been clipped can be modified, moved, or copied
+ as those unclipped xrefs. While
+ modifying the xrefs, the clipping boundary moves together with the xrefs. If
+ the xref attached to the drawing
+ contain nested clipped
+ xrefs, these xrefs will be displayed as it was after clipping. The nested xref is also clipped
+ if superior xref has been
+ clipped.</p>
+  </conbody>
+</concept>

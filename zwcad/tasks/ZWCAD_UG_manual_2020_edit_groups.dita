@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7245635-E4C4A17-7791E55A18BD218-DEC748">
+  <title>Edit Groups</title>
+  <shortdesc>You can add or remove group members
+ and rename groups
+ in the Group dialog box. You can also do the operation
+ such as copy, mirror
+ and arrange as well
+ as giving a description.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can remove members
+ of a group from selecting objects on the drawing by clicking the Remove entities
+ from Group button.
+ If a group member is included in a deleted
+ block, the object
+ is removed from the
+ drawing and also from the group. The group maintains defined even all the group
+ members are removed.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic324_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To modify a group and its
+ objects</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the command line, type GROUP.</cmd>
+      </step>
+      <step>
+        <cmd>Select the group you want to modify.</cmd>
+      </step>
+      <step>
+        <cmd>Under Modify Selected Group, do one or more of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Enter a new name, and then click Rename
+ Group.</cmd>
+      </step>
+      <step>
+        <cmd>Enter a new description, andthen click Change
+ Group Description.</cmd>
+      </step>
+      <step>
+        <cmd>Select whether you want the groupto
+ be selectable in the drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Click Add
+ Entities to Group, select the objects to add to the group, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Click Remove Entities from Group, select the objects to remove from the group,</cmd>
+        <info>
+          <p>and then
+ press Enter.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>In the Group dialog box, click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>You can delete group definition by clicking Un-group
+ entities button. The group is also removed from the drawing; however,
+ the group members
+ remain in the drawing.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic324_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To ungroup
+ objects</p>
+      <ol>
+        <li>On the command line, type GROUP.</li>
+        <li>Select the group to delete.</li>
+        <li>Under Modify Selected Group, click Un-group
+ Entities.</li>
+        <li>Click OK.</li>
+      </ol>
+      <p>Exploding a group deletes it from a drawing; however, objects that were
+ part of the group remain in the drawing.</p>
+      <p>The group's member order can be changed (the order in which the objects
+ were selected). There are two ways to reorder
+ group members.</p>
+      <ul>
+        <li>Change the serial number of individual members
+ or arranges of group members.</li>
+        <li>Reverse the ranking of all
+ members. The number of the first object in each group starts from 0
+ rather than 1.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic324_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change
+ the order of objects
+ in a group</p>
+      <ol>
+        <li>On the command line, type group.</li>
+        <li>Under Modify Selected Group, click Reorder
+ Entities.</li>
+        <li>In the Reorder Grouped Entities dialog box, select the group youwant to reorder.</li>
+        <li>To see the order of objects in the group, click Highlight. Follow the prompts that display to view the
+ objects one by one.</li>
+        <li>To reverse the order of all objects in the group,
+ click Reverse Order.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic324_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change the order of specific
+ objects or a range of objects:</p>
+      <ol>
+        <li>In Remove from Position, enter the current
+ position of the object.</li>
+        <li>In Place to Position,
+ enter the new position of the object.</li>
+        <li>In Number of
+ Objects, enter the number of objects or range of objects to reorder. For example, if youare changing
+ the order of onlyone object,
+ enter 1.</li>
+        <li>Click Reorder.<p><b>NOTE </b>The objects
+ ina group are numbered
+ 0, 1, 2, 3, and so on.</p></li>
+        <li>Click OK, and then click OK again.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

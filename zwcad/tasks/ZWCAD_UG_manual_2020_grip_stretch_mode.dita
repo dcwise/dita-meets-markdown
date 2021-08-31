@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7125835-41154A7-157915516570FAA-BDD76E">
+  <title>Grip Stretch Mode</title>
+  <shortdesc>Stretch mode is
+ the default mode for grip editing. Once you have selected entities, click the
+ grips on entities to display command
+ line prompt as follows:</shortdesc>
+  <taskbody>
+    <context>
+      <p>Specify the stretch
+ point or [Base point/Copy/Undo/eXit]: </p>
+      <p>Under the prompt,
+ you can specify a new position in the drawing area where the grip is expected
+ to be stretched. You should notice
+ that when stretching grips on the selected grips such as single text point, insertion point of block reference, the
+ midpoint of a line, the center of circle and grips on point object, the whole entity will be moved
+ without changing the size and shape of grips. The type of entities determines whether the grips are capable of being stretched. For example, to stretch
+ a corner of a rectangle, select the corner grips, to stretch a line, select
+ the endpoint grips. Not all of the objects are
+ enabled grip stretching.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic390_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Stretch Entities
+ using Grip Stretch</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select entities to stretch.</cmd>
+      </step>
+      <step>
+        <cmd>Clickon grips of the entity to highlight the selected gripandactivate the grip mode as Stretch.</cmd>
+      </step>
+      <step>
+        <cmd>Dynamic input box displayed
+ on screen showing
+ the following manipulations:</cmd>
+        <info>
+          <p>Specify "B(Base point)" option to locate the grip.</p>
+          <p>Specify "C(Copy)" option to create a copy of the
+ entity being stretched. Specify "U(Undo)" option
+ to abort thelast
+ stretch.</p>
+          <p>Specify "X(eXit)" option to exit stretch manipulation.</p>
+          <p>Specify target
+ location for stretching directly.</p>
+        </info>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic390_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Move the pointing
+ device to specify
+ target location, the selected grip on entities
+ will be stretched based on itself (or the new base point).</info>
+      </step>
+    </steps>
+    <result>
+      <p>To stretch an object using grips, select the object (A), select a grip (B), and drag the grip to its new location (C).</p>
+    </result>
+  </taskbody>
+</task>

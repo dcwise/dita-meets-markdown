@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A1283E-1453C4A-11F21A87053A713-924DFC">
+  <title>Projected Tolerance Zones</title>
+  <shortdesc>Projected
+ tolerance zones control the height of the fixed perpendicular part of the
+ extension area, and control tolerance accuracy by positional tolerances.</shortdesc>
+  <conbody>
+    <p>Before you set
+ the symbol to projected tolerance zones, you set a height value to specify the
+ minimum projected tolerance zone. The
+ following illustration shows the projected tolerance zone height and symbol appearing in a frame.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic540_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

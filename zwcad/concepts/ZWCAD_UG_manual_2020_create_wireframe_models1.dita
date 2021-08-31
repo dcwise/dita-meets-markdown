@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A4353-45CF218-15A79E5A68B86A4-D2192A">
+  <title>Create Wireframe Models</title>
+  <shortdesc>You can create wireframe models by positioning any 2D planar object
+ anywhere in 3D space, using the following methods:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Specifying the 3D coordinate, which is X, Y, and Z location
+ of the object.</li>
+      <li>Setting the default workplane (the XYplane of the UCS) on which you will draw the object.</li>
+      <li>Positioning an object by moving
+ or copying to its proper 3D location
+ after you create it.</li>
+    </ul>
+  </conbody>
+</concept>

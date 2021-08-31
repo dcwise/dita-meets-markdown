@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA435631-434A115-4A155A759FE27E9-CAD8D7">
+  <title>Load and Unload Raster Images</title>
+  <shortdesc>If excessive
+ raster images exist in the current drawing, you can unload the undesired images
+ so as to raise the capability of your
+ computer. Once the raster image is unloaded
+ from the drawing, it'll be displayed
+ as image boundary disabled for plotting. And the links of the image does not
+ change after unloaded. If too many
+ images attached to the drawing cause memory lacking in process of opening the drawing,
+ the systemautomatically unload
+ part of image
+ files.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Once unloaded,
+ you can reload the images already unloaded fromthe drawing. If you close the
+ unloaded drawing after saving it, this drawing
+ file is only available by reloading it next time you
+ open the drawing.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic655_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To unload and reload a raster
+ image</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Image Manager from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the file you want to unloador reload.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>To unload the image soonly its outer edge displays,
+ click Unload.</cmd>
+      </step>
+      <step>
+        <cmd>To reload the image
+ so its contents displayandprint, click Reload.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

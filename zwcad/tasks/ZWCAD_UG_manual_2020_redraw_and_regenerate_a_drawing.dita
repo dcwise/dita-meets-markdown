@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A456-E4534A1-1F215495C44512C-E15E9D">
+  <title>Redraw and Regenerate a Drawing</title>
+  <shortdesc>As you work on a drawing, visual elements may remain after the completion
+ of a command. You can remove these
+ elements by refreshing, or redraw, the display.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic72_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To redraw (refresh) the current window display</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose View &gt; Redraw from the main menu.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Information about
+ drawing entities is stored in a database as floating point values, ensuring a
+ high level of precision. Sometimes a drawing
+ must be recalculated, or regenerated, fromthe floating point database to convert those values to the appropriate
+ screen coordinates. This occurs automatically. You can also manually
+ initiate a regeneration. When the drawing
+ is regenerated, it is also redrawn.</p>
+      <p>To regenerate the
+ current window, type REGEN on the
+ command line. If more than one window is displayed, type REGENALL to regenerate all the windows.</p>
+    </result>
+  </taskbody>
+</task>

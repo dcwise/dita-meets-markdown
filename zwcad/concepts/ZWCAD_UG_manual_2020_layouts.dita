@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12368-365145C-A1114A8781D65A7-153971">
+  <title>Layouts</title>
+  <shortdesc>Layout displays the
+ results on a plotted page. You can create as many layouts as you need. Each
+ layout is saved on its own layout
+ tab and can be associated with a different
+ page setup.</shortdesc>
+  <conbody>
+    <p>All the elements
+ to be displayed on a plotted page, such as title blocks and notes, are drawn in
+ paper space in a layout. The objects
+ in the drawing are created in model space. To view these objects in the layout, you should create
+ layout viewports.</p>
+  </conbody>
+</concept>

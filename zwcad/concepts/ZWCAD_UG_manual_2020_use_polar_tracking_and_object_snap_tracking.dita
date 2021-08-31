@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A45-63E1453-C41F2154A87F6A7-9E3CB0">
+  <title>Use Polar Tracking and Object Snap Tracking</title>
+  <shortdesc>Auto tracking
+ includes polar tracking
+ and object snap tracking. You can turn them on and off by repressing POLAR
+ and OTRACK button
+ on the Status Bar.</shortdesc>
+  <conbody>
+    <p>When the polar tracking mode is on,
+ the cursor moves along the specified angle. When the object snap tracking
+ is on, the cursor moves along an alignment path based on the snap point.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A43-5686545-3C4A11548C1C5B5-9E35A2">
+  <title>Dishes</title>
+  <shortdesc>You can create a three-dimensionaldish. The latitude lines of a dish are always parallel
+ with the xy plane of
+ the current UCS; the central axis is always parallel with the z-axis. You
+ position a dish by specifying its center point. You determine the size of a dish by specifying either its radius or its diameter.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic288_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a dish as a three-dimensionalsurface</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Surfaces &gt; 3D Surfaces
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type DI (DIsh).</cmd>
+      </step>
+      <step>
+        <cmd>Specify the center andradius
+ or diameter as described previously.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

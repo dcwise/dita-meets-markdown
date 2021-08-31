@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A463-6E14C4A-1248D5A9135A569-5A2C20">
+  <title>Group Objects</title>
+  <shortdesc>A group is a
+ saved set of objects which you can choose and modify together or separately as
+ needed. Groups provide an easy way to edit
+ the drawing units as a unit. You can add or remove
+ objects to or from the groups as needed.</shortdesc>
+  <conbody>
+    <p>The objects
+ within a group can be edited as a unit, which resembles blocks. However, the
+ groups are saved from session to
+ session. And you can easily edit individual objects in groups, but in blocks,
+ you have to explode blocks
+ before you edit them. Groups cannot be shared with
+ other drawings.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A45-636ECA1-1F21548B1452C41-4331E8">
+  <title>Create a Drawing Template File</title>
+  <shortdesc>When you need to
+ create several drawings with the default settings, you can save time by
+ creating a template file designed to
+ create the same drawing files so that you donot need to specify default
+ settings each time you start.
+ Conventions and settings
+ commonly stored in template files include:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Unit type and precision</li>
+      <li>Title blocks, borders,
+ and logos</li>
+      <li>Layer names</li>
+      <li>Snap, Grid, and Ortho settings</li>
+      <li>Grid limits</li>
+      <li>Dimension styles</li>
+      <li>Text styles</li>
+      <li>Linetypes</li>
+    </ul>
+  </conbody>
+</concept>

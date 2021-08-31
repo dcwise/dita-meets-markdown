@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A24368E4-5127154-5A9135962FE9820-5332FD">
+  <title>Programming ZWCAD</title>
+  <shortdesc>ZWCAD supports almost the same list of APIs as does AutoCAD.
+ You can easily port your plugins or add-ons to ZWCAD.</shortdesc>
+  <conbody>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>ZWCAD API</b>
+            </entry>
+            <entry colname="col2">
+              <b>Notes</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>LISP</b>
+            </entry>
+            <entry colname="col2">
+              <p>Provided in Std and Pro and it should run correctly in ZWCAD</p>
+              <p>without any modification</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>VBA</b>
+            </entry>
+            <entry colname="col2"> Provided in Pro only, support 32/64bit </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ZRX</b>
+            </entry>
+            <entry colname="col2"> Provided in Pro only </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>.NET</b>
+            </entry>
+            <entry colname="col2"> Provided in Pro only </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>You can get the transferring documents from<xref href="https://www.zwsoft.com/zwcad/download-center/" scope="external" format="html">https://www.zwsoft.com/zwcad/download-center</xref>/</p>
+  </conbody>
+</concept>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A14368-645CA1F-54815759E535A6B-0FAD6E">
+  <title>Change the Properties of Objects</title>
+  <shortdesc>You can change the layer, thickness, linetype, color, and linetype scale
+ of one or more entities. Depending on the
+ type of entity or entities you select, you can also change other properties,
+ such as the start point and endpoint
+ of lines, the center point
+ and radius of circles, and the vertices
+ of polylines.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can modify
+ all the properties of all entities simultaneously. For example, using the
+ select command</p>
+      <p>and the Select by Properties
+ option, select all blue entities
+ and change their color to green.</p>
+      <p>In the Properties dialog box, changes that you make in the Layer, Color, Thickness, Lineweight, Linetype and Linetype Scale
+ affect all selected entities.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic404_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To modify properties of objects</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Properties from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects.</cmd>
+      </step>
+      <step>
+        <cmd>In the Properties
+ palette, change the desired properties.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>The Properties palette settings that display when no objects
+ are selected determine
+ the properties of new objects when
+ you draw them.</p>
+    </result>
+  </taskbody>
+</task>

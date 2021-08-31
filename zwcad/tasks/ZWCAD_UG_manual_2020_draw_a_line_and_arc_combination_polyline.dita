@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1224366-514C11F-14755A7E331D163-1D13EE">
+  <title>Draw a line and arc combination polyline</title>
+  <shortdesc>Polylines consist
+ of multiple lines and arcs. When drawing a polyline, use the endpoint of the
+ previous line segment as the start point
+ of next arc segment. You can specify angle, center, direction, and radius of the circle
+ for drawing arcs, and specify
+ a center point
+ and an endpoint as well.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic241_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a line segment followed
+ by an arc polyline segment</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Polyline from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoint.</cmd>
+      </step>
+      <step>
+        <cmd>At the command prompt, choose
+ Arc.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoint of the arc segment.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the command,
+ Press ENTER.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic241_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>You can edit entire
+ polylines and individual segments using the Edit Polyline
+ tool on the Modify II toolbar. You can convert
+ polylines into arc and line entities using
+ the Explode tool
+ on the Modify toolbar.</p>
+    </result>
+  </taskbody>
+</task>

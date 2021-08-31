@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A86-5453C4A-1F254A8B1765791-E35BF1">
+  <title>Dimension Arrow Flip</title>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic535_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Sometimes users want to flip over
+ the dimension arrow as it displays awfully under narrow space or the arrow
+ looks not comfortable in the drawing. You can use command “AIDIMFLIPARROW” or right click on the dimension to flip the arrow</p>
+    <p>(Flip the dimension arrow)</p>
+  </conbody>
+</concept>

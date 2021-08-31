@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A435-6836E15-4A11F2154A8A55A-79E56B">
+  <title>Undo a Single Action</title>
+  <shortdesc>You can reverse
+ to the last operation by pressing Undo button on the Standard toolbar or
+ entering U on the command line. Some
+ commands contain the Undo option, so you can enter u to reverse to the last operation without exiting the command. For
+ example, when creating a line or polyline, you can enter U to undo the latest
+ drawn line segment.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

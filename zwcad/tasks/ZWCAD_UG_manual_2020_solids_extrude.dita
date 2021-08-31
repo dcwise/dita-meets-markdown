@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2A366-543C41F-254CD75A79155CB-B473E3">
+  <title>Solids Extrude</title>
+  <shortdesc>EXTRUDE
+ extrudes the profiles of the
+ selected object along the
+ chosen path to create solids.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The entities you
+ can extrude are planar 3D faces, closed polylines, polygons, circles, ellipses,
+ closed splines, donuts, and regions.
+ You cannot extrude objects contained within a block or polylines that have crossing or self-intersecting segments.</p>
+      <p>To extrude the
+ objects that are lines or arcs intersect with polylines, you can use Join
+ option of PEDIT command to convert
+ theminto multiple single polyline objects or convert theminto regions before
+ using PEDIT command.</p>
+      <p>When an arc is
+ part of a tapered extrusion, you need to set a small value to the angle of the arc, because larger angle may cause the outline to become a point before
+ it attaches to the specified height.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic294_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic294_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create an extruded solid</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids
+ &gt; Extrude from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object to extrude.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic294_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the extrusion path, or specify the height.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the object to extrude (A) and the extrusion Path (B) The resulting extruded surface mesh</p>
+    </result>
+  </taskbody>
+</task>

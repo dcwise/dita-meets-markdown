@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22438-365E453-C41F215A8F0591D-68B828">
+  <title>Setting the current layer</title>
+  <shortdesc>When you start a
+ drawing, objects are created in the current layer. By default, the layer 0 is
+ set to the current layer, but you can
+ also create a new one and make it current. Either frozen or xref-dependent layer cannot be set to the current
+ layer. Any subsequent
+ objects you create
+ are associated with the cur ent layer and use its color and linetype.</shortdesc>
+  <taskbody>
+    <context>
+      <p>To make a layer current</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic148_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Layer from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Layer Properties Manager dialog box, select a layer and then click the Set Current button
+ to make the layer current.</cmd>
+      </step>
+      <step>
+        <cmd>Clicks OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

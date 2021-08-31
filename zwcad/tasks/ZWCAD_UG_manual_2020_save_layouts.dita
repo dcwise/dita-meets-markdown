@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A24353E1-43CA111-A881505750AD4C4-EB7039">
+  <title>Save layouts</title>
+  <shortdesc>Any drawing
+ created in ZWCAD can be saved as template drawing file (.dwt) together with all
+ the objects and layout settings.
+ Using the SAveas option of LAYOUT command to save the layout as new DWT file. By
+ default, template files are saved in
+ the Templates Search Path located under the corresponding position in Files tab of Options
+ dialog box. Like drawing template file, Layout template file go with the same extension name that contains
+ some irrelevant information to the layouts.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When saving
+ a drawing containing new layouts as a template
+ file, all the named objects
+ used in the layout (such as blocks,
+ layers and dimension styles) will be saved as well. The defined table options
+ are imported
+ as part of the layout settings together with a template file. Once a template
+ file is saved using the SAveas
+ option of LAYOUT
+ command, the define table options
+ will not be inserted together
+ with the layout.</p>
+      <p>Use PURGE
+ command to clear the
+ undesired define table options.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic673_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To save a layout
+ as a drawing template</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Type LAYOUT and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type SA (SAveas).</cmd>
+      </step>
+      <step>
+        <cmd>Type the name of the layout that you want to save, and then
+ press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>In
+ the Create Drawing File dialog box, specify a file name and location for the
+ drawing template file
+ you are saving.</cmd>
+      </step>
+      <step>
+        <cmd>In Files of Type, select Drawing
+ Template (*.dwt), and then choose Save.</cmd>
+      </step>
+      <step>
+        <cmd>After you save a layout as a template, you can use the template when you create new drawings.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>You can also import the template's layouts into another
+ drawing.</p>
+    </result>
+  </taskbody>
+</task>

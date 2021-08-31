@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A58351-53C41A8-735791E55969B6D-332B6D">
+  <title>Include notes in transmittal package</title>
+  <shortdesc>The report file is automatically generated while generating transmittal package
+ and saved in the transmittal package together with the files list of
+ the transmittal package as well. Meanwhile, this report includes dependent files associative to the drawing
+ file (such as xrefs, fonts)
+ as well as instructions about how
+ to process these files so as to enable using for included drawing files. The
+ information that user input in the Enter notes to include with this transmittal is also included
+ in the report file.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

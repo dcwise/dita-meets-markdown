@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7583614-53A1121-4A8965AE5920FF0-655DD6">
+  <title>EPS</title>
+  <shortdesc>EPS format
+ is housed PostScript file, a drawing
+ file can be exported as EPS file using PLOT command.</shortdesc>
+  <conbody>
+    <p>PostScript file
+ formats are most available for desktop publishing applications. With plotting
+ capability of high resolution, this
+ file format is suited for raster images, such as GIF, PCX, and TIFF. Once you
+ have converted the drawing into
+ PostScript format, you can use PostScript font.</p>
+    <p>To export files
+ as EPS from layout tab, you should execute from"File-Plot" menu to
+ start the Plot dialog box. Choose
+ ZWCAD Virtual Eps Plotter 1.0 fromthe Name pull-down list in Printer/plotter area,
+ and then click OK to close the Plot dialog box.
+ Next, the Browse for Plot File dialog boxopens, in which users can specify
+ the saving path and file name, and save the file with extensions .eps.</p>
+  </conbody>
+</concept>

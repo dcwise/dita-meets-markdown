@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A72A566E-3CA15A7-917A91E7C8AB296-C42A47">
+  <title>Link Drawings</title>
+  <shortdesc>When you link a
+ ZWCAD drawing to another document, the other document contains only a reference to the ZWCAD drawing file, rather than the
+ actual drawing. You link data in a saved ZWCAD file so that
+ the other programcan find the data and display
+ it.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Linking works well when
+ you want to include the same ZWCAD data in more
+ than one document. When you update the
+ data, you need to update it in only one location. The versions that are linked to
+ other documents reflect
+ the changes automatically.</p>
+      <p>Linking a ZWCAD file to another
+ document does not increase the file size the way embeddinga ZWCAD object
+ does. However, links require more maintenance. To transport the data, you must
+ make sure to transfer all
+ linked files to the other
+ computer.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic754_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To link a ZWCAD file to another
+ document</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Open the drawing you want to link.</cmd>
+        <info>
+          <p>
+            <b>NOTE </b>Because a link is a reference
+ to a file, you can link only files that are saved to a location on a disk.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>In the other program,
+ open the document inwhich youwant to include the ZWCAD drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Choose that program's command for inserting objects.</cmd>
+      </step>
+      <step>
+        <cmd>In Microsoft®
+ Office programs, choose Insert &gt; Object. In the Object dialog box, click the Create From File tab. Specify the name of the drawing file youwant to link.
+ Select the Link To File check box, and then click OK. The drawing
+ appears in the document, with a link to the original ZWCAD file.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

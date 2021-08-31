@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA22A436-8E5A1F4-A711E5596F582D6-53386D">
+  <title>Import ACIS SAT Files</title>
+  <shortdesc>You can import
+ geometry objects stored in SAT (ASCII) files using ACISIN or IMPORT commands. SAT (ASCII) files store entities
+ as solids, regions
+ or ACIS. ZWCAD converts the model to a
+ body object or to solids and regions
+ if the body is a true solid or a true region.
+ After the conversion, ZWCAD creates new objects using its ShapeManager modeler and performs
+ 3D operations and solids editing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic758_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To import an ACIS file</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; ACIS File
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the directory containing the SAT file.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the SAT file you want to open.</cmd>
+      </step>
+      <step>
+        <cmd>Click Open.</cmd>
+      </step>
+      <step>
+        <cmd>Command line ACISIN</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

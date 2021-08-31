@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7123563-6E134A1-2548252C4214242-E159DD">
+  <title>Reduce the Time Required to Save a Drawing File</title>
+  <shortdesc>In order to
+ reduce the time of saving a drawing file, you can specify the incremental save
+ percentage on the Open and Save tab of Options dialog
+ boxor from the ISAVEPERCENT systemvariable.</shortdesc>
+  <conbody>
+    <p>The incremental
+ save updates only the portions of the saved drawing file you changed. Drawing
+ files will contain a percentage of
+ potentially wasted space when you use incremental saves. This percentage increases after each incremental save
+ until it reaches the specified maximum value, and then a full save is performed.</p>
+    <p>When the
+ ISAVEPERCENT system variable is set to 0, all saves are full saves. This option
+ required more time to save a drawing
+ file but can reduce the
+ size of drawing files. It is recommended you perform a full save before transmitting or archiving a drawing.</p>
+  </conbody>
+</concept>

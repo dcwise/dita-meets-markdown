@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12A43-685E43C-412154A87A10557-9E559B">
+  <title>Align Single-Line Text</title>
+  <shortdesc>When you create text, you can set the text alignment
+ before you specify
+ the start point.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You set the alignment by choosing Justify
+ in the command line prompt.
+ By default, thetext
+ is left justified.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic445_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic445_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can also align text so that it
+ fits or aligns with two points. The Align option creates text that scales up or down while maintaining a constant
+ height/width ratio; the Fit option expands or compresses the text to fit between the two points.</p>
+      <p>Left: Text aligned
+ between two points maintains a constant
+ height/width ratio Right: Text fit between two points expands or compresses to fit</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic445_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To specify the line text alignment</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Text &gt; Single
+ Line Text from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type J (Justify) andpress
+ ENTER.</cmd>
+      </step>
+      <step>
+        <cmd>Type an alignment option. For example, enter BR to align text at its bottom-right corner.</cmd>
+      </step>
+      <step>
+        <cmd>Type the text, and then
+ press Enter at the end of each new line.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the command,
+ press Enter again.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

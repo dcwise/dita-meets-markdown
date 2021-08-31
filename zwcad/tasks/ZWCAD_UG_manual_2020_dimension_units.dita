@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A4-8365345-7B45AE9167DB8EE-73866D">
+  <title>Dimension Units</title>
+  <shortdesc>You can determine
+ the appearance and format of the
+ primary and alternate dimension units.
+ The preview frame on the upper right corner of the Modify Dimension Style dialog boxshows
+ the appearance of the</shortdesc>
+  <taskbody>
+    <context>
+      <p>dimensions based on the current dimension
+ style settings.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic504_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ On
+ the Primary Units of the Modify Dimension
+ Style dialog box, you can set the primary units for linear and
+ angular dimensions, including unit format, numeric precision and so on. These
+ settings control the display of dimension
+ values. For linear dimension, you can
+ also specify the prefixor suffix.
+ The specified prefix replaces the prefixes used for diameter
+ and radius dimensions (Ø and R, respectively).</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic504_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To round off dimensions</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Style from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Dimension
+ Style Manager dialogbox, select the style youwish to change and choose Modify.</cmd>
+      </step>
+      <step>
+        <cmd>In the Modify Dimension
+ Style dialog box, click the Primary Units
+ tab.</cmd>
+      </step>
+      <step>
+        <cmd>In the Linear
+ Dimensions and Angular Dimensions fields, type or select the nearest value
+ to which youwant
+ to roundoff dimensions.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Close to exit.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE
+ </b>You can also specify units for linear dimensions using the DIMLUNIT systemvariable. You can specify fraction
+ formats using the DIMFRAC systemvariable.</p>
+    </result>
+  </taskbody>
+</task>

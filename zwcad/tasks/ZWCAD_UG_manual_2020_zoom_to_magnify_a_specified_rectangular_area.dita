@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2A48514-534A1F2-158791252741424-2E159D">
+  <title>Zoom to Magnify a Specified Rectangular Area</title>
+  <shortdesc>You can specify a rectangular area defined
+ by two corners to display
+ the objects within
+ that area as large as possible.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="2" colsep="1" rowsep="1">
+            <colspec colname="col2" />
+            <colspec colname="col4" />
+            <tbody>
+              <row>
+                <entry align="left" colname="col2">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic76_image003.png" />
+                  </fig>
+                </entry>
+                <entry align="left" colname="col4">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic76_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The lower-left corner of the specified area becomes the lower-left corner of the new view.</p>
+      <p>Zoom in using Window</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic76_image005.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To zoom into an area using a window</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose View &gt; Zoom &gt; Window
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select one corner of the window
+ aroundthe area you want to magnify.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the opposite corner
+ of the window around the area youwant to magnify.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

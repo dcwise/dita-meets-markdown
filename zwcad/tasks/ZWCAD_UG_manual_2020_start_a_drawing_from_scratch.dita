@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B12A46-835E145-3C4A1147A135571-433128">
+  <title>Start a Drawing from Scratch</title>
+  <shortdesc>You can select either
+ imperial or metric units for the new drawing if you choose Start from Scratch
+ in the New Drawing dialog box. The
+ setting you select determines default values which are used for many systemvariables controlling text, dimensions, grid, snap, and the default
+ linetype and hatch pattern file.</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>
+          <b>Imperial</b>. A new drawing with the
+ imperial measurement system. The drawing uses internal default values, and
+ the default boundary
+ is 12 × 9 inches.</li>
+        <li>
+          <b>Metric</b>. A new drawing with the metric
+ measurement system. The drawing uses internal default
+ values, and the default boundary
+ is 420 × 297 millimeters.</li>
+      </ul>
+      <p>When you start
+ ZWCAD, there are three options for choosing to draw. You can start fromscratch
+ using default settings, you can start
+ froma template file with a preset environment, or you can use a wizard to step you through
+ the process, in each case, you can choose the conventions and defaults you want to use.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic47_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To start a drawing
+ fromscratch</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the File menu, click New. (STARTUP=1)</cmd>
+      </step>
+      <step>
+        <cmd>In the New Drawing
+ dialog box, click Default Settings.</cmd>
+      </step>
+      <step>
+        <cmd>Under Default Settings, click either English(feet and inches) or Metric.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

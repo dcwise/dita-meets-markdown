@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122A45-68365E1-45CA1F147A259E3-592B97">
+  <title>Change Multiline Text</title>
+  <shortdesc>You can change the properties of multiline text in the Properties palette.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic462_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To edit multiline text</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Type DDEDIT and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Select the multiline text.</cmd>
+      </step>
+      <step>
+        <cmd>Edit the text in the In-Place
+ Text Editor.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic462_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change multiline text properties</p>
+      <ol>
+        <li>Select a multiline text object.</li>
+        <li>Right-click the selected object andthen click Properties on the shortcut
+ menu.</li>
+        <li>In the Properties palette,
+ enter any new text and change formatting and other properties as needed.</li>
+      </ol>
+      <p>Double-clicking
+ opens the In-Place Text Editor, from which, you can modify the contents and
+ formats of text.</p>
+    </result>
+  </taskbody>
+</task>

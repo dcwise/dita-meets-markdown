@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A43-681453C-4A11F25A859AC19-57967E">
+  <title>Ltype gen</title>
+  <shortdesc>Changes the
+ linetype of a polyline. When this option is off, linetypes are generated
+ starting and ending with a dashed line at each vertex.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

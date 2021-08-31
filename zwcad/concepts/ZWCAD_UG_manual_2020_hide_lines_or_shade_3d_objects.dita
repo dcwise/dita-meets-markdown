@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA123568-6E141F1-A814567915221F3-91467F">
+  <title>Hide Lines or Shade 3D Objects</title>
+  <shortdesc>Hides or shapes
+ for 3D objects in the current drawing suppresses the display of the objects
+ (partly or entirely) that are
+ located behind other objects or generates a simply shaded
+ image displayed in the cur ent</shortdesc>
+  <conbody>
+    <p>view.</p>
+  </conbody>
+</concept>

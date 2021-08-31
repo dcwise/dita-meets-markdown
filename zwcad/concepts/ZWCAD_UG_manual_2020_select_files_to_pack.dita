@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A365-5C41F4A-8913505A72F9C2B-32B86D">
+  <title>Select files to pack</title>
+  <shortdesc>Starts Create Transmittal dialog box, which provides two tabs for viewing and selecting files
+ to be packed.</shortdesc>
+  <conbody>
+    <ul>
+      <li>Files Tree:<p>Displays drawing
+ files in a tree structure together with their
+ associative files (xrefs,
+ fonts, raster images). You can expand or collapse this
+ structure to display or hide the included dependent files. By default, drawing files and dependent files are
+ included in the transmittal package automatically. Unless you deselect
+ it by clicking on the check mark
+ in front of each file.</p></li>
+      <li>Files Table:<p>Displays drawing
+ files in forms of a list together with their associative files (xrefs, fonts,
+ raster images). In which the detail information of each file such as file name,
+ saving path, type, version size and date are listed. Transmittal
+ package includes all these files automatically.
+ You can deselect it by clicking on
+ the check mark in front of each file in order to control the included contents of each transmittal package.</p><p>Once you have performed the eTransmit function
+ for a drawing file, the common file types you can automatically add to the transmittal package
+ are:</p></li>
+      <li>*.dwg (root
+ drawing file and all of its attached
+ xrefs)</li>
+      <li>Various image file types (raster
+ image files that attach to root drawing
+ or xref externally)</li>
+      <li>*.fmp (font mapping
+ files)</li>
+      <li>User select or deselect files
+ having been added into the transmittal package by clicking at the check box in front of the file or manually select files you want to
+ include in the transmittal package by clicking at the Add File button
+ on Files Tree or Files Table.</li>
+      <li>The common file types that are not automatically added to a transmittal package are:</li>
+      <li>*.shx(Compiled shape files used for text styles or complexlinetypes)</li>
+      <li>*.ttf (True
+ Type font files used for text styles)</li>
+    </ul>
+    <p>All these files
+ generally contain information about the object in initially formatted drawings
+ or some specific information of
+ applications run with the product, the receiver can still normally view the transmitted drawing in spite
+ of lacking these
+ files.</p>
+  </conbody>
+</concept>

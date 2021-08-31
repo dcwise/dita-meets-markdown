@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA122368-5E453C4-A11215A7C1C5757-91E532">
+  <title>Create a Solid Box</title>
+  <shortdesc>You can create
+ rectangular boxes or cubes. A boxconsists of six rectangular surface planes.
+ The base of the boxis always parallel
+ with the xy plane of the current
+ UCS. You position
+ the boxby specifying either a corner or the
+ center of the box. You determine the size of the boxby either specifying a
+ second corner and the height;
+ defining the box to be a cube and then providing its length; or specifying the
+ length, width, and height.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic284_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The length of the boxis mapping to
+ X-axis of current UCS, and its width maps to the Yaxis, and height maps to the Z axis.</p>
+      <p>RECTANG or PLINE
+ command creates a rectangle or closed polyline fromwhich you can create a box using EXTRUDE. The 3D command
+ creates a boxshape
+ defined by surfaces
+ only.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic284_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a box</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids &gt; Box from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first corner of the base.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the opposite corner
+ of the base.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic284_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the height.</info>
+      </step>
+    </steps>
+    <result>
+      <p>First corner of the base (A), the opposite
+ corner of the base (B), and the height (C)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic284_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a box as a three-dimensionalsurface</p>
+      <ol>
+        <li>Choose Draw &gt; Surfaces
+ &gt; 3D Surfaces from the mainmenu.</li>
+        <li>On the command line, type B (Box).</li>
+        <li>Specify the first corner
+ of the base.</li>
+        <li>Specify the opposite corner
+ of the base.</li>
+        <li>Specify the height.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

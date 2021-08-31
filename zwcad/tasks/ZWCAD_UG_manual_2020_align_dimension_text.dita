@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A5-14C1F5A-715571E5359571C-5A9B5F">
+  <title>Align Dimension Text</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic496_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Whether the text is inside or
+ outside the extension line, it has no effect on the justification of dimension text. You can choose whether the text is
+ aligned with the dimension lines or remains horizontal. The following
+ figures show the combination of these two options. The default justification is horizontal.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic496_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To align dimension text with the dimension line</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Style.</cmd>
+      </step>
+      <step>
+        <cmd>In the Dimension
+ Style Manager dialogbox, select the style youwish to change and choose Modify.</cmd>
+      </step>
+      <step>
+        <cmd>In the Modify Dimension
+ Style dialog box, click the Text tab.</cmd>
+      </step>
+      <step>
+        <cmd>Make your selections.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Close to exit.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA22A563-6553CA1-21A8A5A7131DCBE-04D96D">
+  <title>Section</title>
+  <shortdesc>You can create a region using the intersection of solid objects
+ and a plane with the SECTION command.
+ After selecting objects, the systemcreates a region on the current layer
+ and inserts theminto the location of the section.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Methods to define a section:</p>
+      <ul>
+        <li>Specifies three points
+ to define a sectioning plane.</li>
+        <li>Align the sectioning
+ plane with a circle, ellipse,
+ arc, 2D spline or 2D polyline object.</li>
+        <li>Specifies a point lied on the sectioning plane and a point lied on the normal of the defined section.</li>
+        <li>Align the sectioning
+ plane with the plane of the current view.</li>
+        <li>Specifies a point to determine
+ the location of the sectioning plane on the XY, YZ or ZX plane, and aligns the sectioning plane
+ with the XY, YZ, or ZX plane
+ of the current UCS.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic411_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To section an object</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids &gt; Section from
+ the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects to cross section.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following:</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Specify three points to define the cross-section plane.
+ (The first point defines the origin, while the secondpoint defines
+ the X-axis and the third point defines
+ the Y axis.)</p>
+      <p>Type O and press Enter to select an object that defines the cross-sectional
+ plane.</p>
+      <p>Specify an axisby typing
+ Z and pressing Enter.</p>
+    </result>
+  </taskbody>
+</task>

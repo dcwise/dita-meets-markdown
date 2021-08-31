@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA22A435-865E43C-1F2154875491E3D-68B8A8">
+  <title>Create and Name Layers</title>
+  <shortdesc>You can create an unlimited number of
+ layers in every drawing and use those layers for organizing information. When you create a
+ new layer, it is initially
+ assigned the color
+ white (or black,
+ depending on your systemsettings) and the linetype
+ CONTINUOUS. By default, a new layer is also visible. After you create
+ and name a layer, you can change
+ its color, linetype, visibility, and other
+ properties.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Layers can have alphanumeric names up to 255 characters long.</p>
+      <p>In many cases, the layer names you choose are dictated by corporate,
+ industry, or client standards. The Layer
+ Properties Manager sorts layers alphabetically by name.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic147_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create
+ a new layer</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Layer from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe New Layer button.</cmd>
+      </step>
+      <step>
+        <cmd>Type a name for the new layer.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic147_image001.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ To change a layer name in the current
+ drawing</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>Choose Format &gt; Layer from the mainmenu.</cmd>
+          </substep>
+          <substep>
+            <cmd>In the Layer Properties
+ Manager dialog box, click the name of the layeryou
+ want to change.</cmd>
+          </substep>
+          <substep>
+            <cmd>Type a new name and click OK.</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>You cannot rename the 0 layer.</p>
+    </result>
+  </taskbody>
+</task>

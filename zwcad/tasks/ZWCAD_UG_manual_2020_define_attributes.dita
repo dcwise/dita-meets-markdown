@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A72A3581-4341115-487B137E357C557-F66D9D">
+  <title>Define Attributes</title>
+  <shortdesc>You add an
+ attribute to a drawing by first defining it and then saving it as part of a
+ block definition. To define an
+ attribute, you specify the characteristics of the attribute, including its tag,
+ prompt, and default text; insert coordinates and text
+ formatting, and attribute flags (hidden, fixed, validate, defined, lock position and multiple lines).</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic571_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To define an
+ attribute</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Block &gt; Define
+ Attributes from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Define Attribute
+ dialog box, type the tag, prompt, anddefault text.</cmd>
+      </step>
+      <step>
+        <cmd>Under Insert Coordinates, specify the location of the attribute, or click Select to select a point in the
+ drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Under Attribute Flags, select
+ the optional attribute
+ modes.</cmd>
+      </step>
+      <step>
+        <cmd>Under Text, specify the text characteristics.</cmd>
+      </step>
+      <step>
+        <cmd>To add the attribute to the drawing,
+ do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Click Define to
+ add the attribute and keep the dialog box active
+ so you can define another attribute.</cmd>
+      </step>
+      <step>
+        <cmd>Click Define and Exit to addthe attribute and end the command.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

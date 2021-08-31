@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7224335-5C4A215-4AA5A71555692AE-AC2790">
+  <title>Use Other Selection Options</title>
+  <shortdesc>Typing SELECT and entering?
+ displays all selection options, fromwhich, you can choose a proper one. Remove Selection
+ from Multiple Objects</shortdesc>
+  <conbody>
+    <p>Under the prompt of Select objects,
+ you can type R and choose a selection to remove objects
+ from the selection
+ set. You also can enter
+ A to add objects to the selection set.</p>
+    <p>Holding down
+ SHIFT and selecting objects again, the selected objects would be removed from
+ the selection set.</p>
+  </conbody>
+</concept>

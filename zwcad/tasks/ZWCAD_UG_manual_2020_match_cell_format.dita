@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA2A5665-E454F14-A87B1525A791535-94DF0C">
+  <title>Match cell format</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic551_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Operating Steps:</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Click "Match Cell" button on
+ the Table toolbar,
+ and then use the format of a selected cell (source cell) to replace
+ that of any other cell (destination cell).</cmd>
+      </step>
+      <step>
+        <cmd>The mouse
+ pointer becomes a brush. Then you can
+ match the destinationcells by clicking them.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

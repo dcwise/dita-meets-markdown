@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B122A3-568553C-411F15487D1755C-7142D9">
+  <title>Pointer Input</title>
+  <shortdesc>Enable pointer
+ input, and the coordinate where the lhair located is displayed in the tooltip
+ next to the cursor. When the command
+ prompts to specify the second point or next point, you can directly input at the cursor
+ position.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic33_image002.png" />
+      </fig>
+    </p>
+    <p>Pointer input</p>
+    <p>By default, the
+ pointer input is displayed and inputting with the polar format and relative
+ coordinates. Use Pointer Input
+ Settings to determine whether the coordinate is displayed in polar format or
+ Cartesian format, with relative or
+ absolute coordinate. You can also switch between polar format and Cartesian format with an
+ angel symbol(&lt;) or a comma(,), switch between relative coordinate and
+ absolute coordinate with a pound
+ sign(#) or an at sign(@).</p>
+  </conbody>
+</concept>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A4356-835153C-A112A87D455A715-C473E3">
+  <title>Select Objects</title>
+  <shortdesc>You can create a selection set that consists
+ of one or more objects
+ before you modify
+ them.</shortdesc>
+  <conbody>
+    <p>Use any of the following methods
+ to create a selection set:</p>
+    <ul>
+      <li>Choose a command or tool first, and then select objects.</li>
+      <li>Select objects first,
+ and then choose a command or tool (most objects).</li>
+      <li>Select objects by pointing, and then use grips to modify them.</li>
+    </ul>
+  </conbody>
+</concept>

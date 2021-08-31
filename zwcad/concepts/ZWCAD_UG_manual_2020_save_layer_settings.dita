@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7224353-614C121-548F51A91E5357A-5B77D1">
+  <title>Save Layer Settings</title>
+  <shortdesc>Layer settings
+ include:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Layer states, such as on, frozen, locked,
+ plot and freeze automatically in a new viewport.</li>
+      <li>Layer properties, such as color,
+ linetype, lineweight and plot style.</li>
+    </ul>
+    <p>You can save
+ layer settings alternatively. For example, you can choose to save only
+ Frozen/Thawed settings of the layers in a drawing, ignoring all other settings.
+ When you restore the layer states, all settings remain as they are currently set except whether
+ each layer is frozen or thawed.</p>
+    <p>You can export named
+ layer states to a LAS file for use in other drawings
+ using the Layer
+ States Manager. The layer states of xref cannot
+ be exported.</p>
+  </conbody>
+</concept>

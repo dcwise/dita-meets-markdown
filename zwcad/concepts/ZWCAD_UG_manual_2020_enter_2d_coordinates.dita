@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A122A435-68365E4-534A254A871435A-91E35A">
+  <title>Enter 2D Coordinates</title>
+  <shortdesc>When working in
+ two dimensions, you specify points on the xy plane. You can specify any point
+ as an absolute coordinate (or
+ Cartesian coordinate), using the exact x coordinate and y coordinate locations relative
+ to the origin (the (0,0)
+ coordinate point at which the two axes intersect), or as a relative coordinate in relation to the previous
+ point. You can also specify
+ points using relative
+ or absolute polar
+ coordinates, which locate a point using
+ a distance and an angle.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

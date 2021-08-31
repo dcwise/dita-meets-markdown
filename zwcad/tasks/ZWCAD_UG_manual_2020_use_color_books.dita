@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA22A566-51451F2-14A2A79135A1DA5-7B2AD1">
+  <title>Use Color Books</title>
+  <shortdesc>ZWCAD uses color
+ books to store collections of colors. For example, you can store a unique color scheme for a client
+ in a color book and then use colors only fromthat color book for the client's
+ drawings. You may have a color
+ book given to you by a client, developed by a third party, or you can create
+ your own. Each color book has a .acb
+ extension and is saved in Extensible Markup Language (XML) format. By default, color books are stored in the ...Support\color folder under ZWCAD installation directory.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic167_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a color book</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Start an XML editor
+ program.</cmd>
+      </step>
+      <step>
+        <cmd>Create a new XML file using
+ the format below as
+ a guide.</cmd>
+        <info>
+          <p>&lt;colorBook&gt;</p>
+          <p>&lt;bookName&gt;Color</p>
+          <p>book sample&lt;/bookName&gt;</p>
+          <p>&lt;colorPage&gt;</p>
+          <p>&lt;pageColor&gt;&lt;RGB8&gt;&lt;red&gt;0&lt;/red&gt;&lt;green&gt;0&lt;/green&gt;&lt;blue&gt;0&lt;/blue&gt;&lt;/RGB8&gt;</p>
+          <p>&lt;/pageColor&gt;&lt;colorEntry&gt;</p>
+          <p>&lt;colorName&gt;Orange&lt;/colorName&gt;</p>
+          <p>&lt;RGB8&gt;&lt;red&gt;255&lt;/red&gt;&lt;green&gt;128&lt;/green&gt;&lt;blue&gt;0&lt;/blue&gt;&lt;/RGB8&gt;</p>
+          <p>&lt;/colorEntry&gt;</p>
+          <p>&lt;colorEntry&gt;</p>
+          <p>&lt;colorName&gt;Light Green&lt;/colorName&gt;</p>
+          <p>&lt;RGB8&gt;&lt;red&gt;128&lt;/red&gt;&lt;green&gt;192&lt;/green&gt;&lt;blue&gt;128&lt;/blue&gt;&lt;/RGB8&gt;</p>
+          <p>&lt;/colorEntry&gt;</p>
+          <p>&lt;colorEntry&gt;</p>
+          <p>&lt;colorName&gt;Gray&lt;/colorName&gt;</p>
+          <p>&lt;RGB8&gt;&lt;red&gt;128&lt;/red&gt;&lt;green&gt;128&lt;/green&gt;&lt;blue&gt;128&lt;/blue&gt;&lt;/RGB8&gt;</p>
+          <p>&lt;/colorEntry&gt;</p>
+          <p>&lt;/colorPage&gt;</p>
+          <p>&lt;/colorBook&gt;</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Save the color book in XML format and with a .acb extension.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>Your color book can contain
+ an unlimited number of colors
+ using the &lt;colorEntry&gt; and</p>
+      <p>&lt;/colorEntry&gt; tags.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic167_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To load a color book</p>
+      <ol>
+        <li>Save the color bookin
+ the folder where ZWCAD searches
+ for color books.
+ By default, this is the same folder
+ where youinstalled ZWCAD.</li>
+        <li>To select a color book color</li>
+        <li>Click Select
+ Color in the desired dialog box, such as Layers, Properties, or Multiline Text.
+ The Select Color dialog box opens.</li>
+        <li>Clickthe Color Books tab.</li>
+        <li>Select a color book from the list.</li>
+        <li>Clickthe desired color.</li>
+        <li>Click OK.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

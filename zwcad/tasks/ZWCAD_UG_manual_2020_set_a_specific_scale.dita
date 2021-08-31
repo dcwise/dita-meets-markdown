@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A71A4586-54534A1-12548791456A9E5-59A447">
+  <title>Set a Specific Scale</title>
+  <shortdesc>The plot scale together
+ with plot unit and drawing
+ unit must be specified before plotting. For example, if you select the paper size to mm,
+ entering 1 under mm and 10 under Units blank produces a plotted drawing
+ with each plotted
+ unit represents 10 actual millimeters.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The following figure shows an instance of plotting objects
+ at three different scales.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic705_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic705_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To automatically scale the drawing
+ for printing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>If necessary, click the desired Layout tabor the Model tab.</cmd>
+      </step>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>To scale the drawing
+ to fit on one printed page, in Plot Scale,
+ click Fit to Paper.</cmd>
+      </step>
+      <step>
+        <cmd>Select Save Changes to Layout, andthen click Applyto Layout.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic705_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To specify
+ the scale factor yourself</p>
+      <ol>
+        <li>If necessary, click the desired Layout
+ tabor the Model tab.</li>
+        <li>Choose File &gt; Plot from the mainmenu.</li>
+        <li>In Plot Scale, do one of the following:</li>
+        <li>Select a predefined scale. For example, choose 1:2
+ if you want 1 printedunit (inch or millimeter) to equal 2 drawing units.</li>
+        <li>Select Custom, and then under User Defined Scale,
+ type the ratioof printed units<p>of measure (inches
+ or millimeters) to drawing units.</p></li>
+        <li>Select Save Changes to Layout, andthen click Applyto Layout.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

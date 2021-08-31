@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12356-8365453-C4A1F21A81025C7-414529">
+  <title>Dimension Input</title>
+  <shortdesc>Enable dimension
+ input, when the command prompts to specify the second point, a distance and
+ angel dimension input is displayed
+ in the tooltip.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic34_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>Dimension input</p>
+    <p>When using grip editing to stretch an object, the available dimension
+ input includes:</p>
+    <ul>
+      <li>Resulting Dimension</li>
+      <li>Angel Change</li>
+      <li>Length Change</li>
+      <li>Arc Radius</li>
+      <li>Absolute Angel</li>
+    </ul>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic34_image004.png" />
+    </p>
+    <p>A：Resulting Dimension; B：Angle Change; C：Length Change; D：Absolute Angle</p>
+    <p>You can switch
+ between these dimension fields with the TABkey. If only some of the dimension
+ fields are needed,
+ you can set
+ it in Dimension Input Settings.</p>
+    <p>For dimension input, after enteringone field and press TAB key, if there still other fields to be specified, a sign will be
+ displayed behind the one already entered, and the cursor is constrained to move
+ in a specified range. As shown below,
+ after specifying the angle field, the endpoint of the line is limited to move in the direction of 45 degrees.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic34_image006.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>Angle field is locked</p>
+  </conbody>
+</concept>

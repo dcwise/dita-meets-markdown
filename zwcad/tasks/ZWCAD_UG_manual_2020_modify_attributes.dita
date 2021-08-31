@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A122A456-83EC41F-58B5A91E559C55F-E6C6ED">
+  <title>Modify Attributes</title>
+  <shortdesc>You can edit an attribute definition before you associate it with a block
+ and before it is saved as part of a block
+ definition.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic572_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To edit an attribute definition</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the command line, type DDEDIT.</cmd>
+      </step>
+      <step>
+        <cmd>Select the attribute definition text to edit.</cmd>
+      </step>
+      <step>
+        <cmd>Modify the attribute tag, prompt and default text in the Edit Attribute Definition
+ that displays.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

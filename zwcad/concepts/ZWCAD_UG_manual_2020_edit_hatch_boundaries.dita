@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A43-563545A-1F154A815BA9155-96BBD0">
+  <title>Edit Hatch Boundaries</title>
+  <shortdesc>Hatch boundaries
+ are capable of copy, move and stretch as well as other objects, but for a large
+ number of object combinations, the
+ geometric drawings for editing hatches may cause unpredictable results. It's suggested to abort hatch if necessary
+ and remove the hatched blocks
+ to generate new ones.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

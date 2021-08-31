@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA22A436-83E14CA-11214A35B79153C-FAB691">
+  <title>Work With Spelling Dictionary</title>
+  <shortdesc>Most drawings
+ contain text that is not recognized as spelled correctly, even
+ though it is spelled
+ correctly. For example, if your company name Zaffer, Inc. appears in all of your drawings,
+ the company name will appear as misspelled every time you check
+ the spelling of drawing text. You can easily add words to a customdictionary so that any word in
+ the customdictionary is recognized
+ as spelled correctly.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The customdictionary
+ is independent of any spelling dictionary you have chosen to use. You can check the spelling of text using one dictionary,
+ check the spelling of the same or other text using a different dictionary, and in both cases, your
+ customdictionary is used.</p>
+      <p>
+        <b>TIP </b>You can also add custom words to the custom
+ dictionary directly during spell checking of text. In the Check Spelling dialog, click Add to add the currently
+ found word to the customdictionary.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic478_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To download
+ and install a new dictionary</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Execute SPELL on the command line, select one or more text entities,
+ andthen in the Check Spelling
+ dialog box, click Change Dictionaries.</cmd>
+      </step>
+      <step>
+        <cmd>Click Download.</cmd>
+      </step>
+      <step>
+        <cmd>From the web page
+ that displays (or from a different
+ web page), download the desired dictionary.</cmd>
+      </step>
+      <step>
+        <cmd>Unzip the contents of the downloaded file to \MyDocuments\HunSpell, or the location
+ where you installed
+ spelling dictionaries for ZWCAD.</cmd>
+      </step>
+      <step>
+        <cmd>Click Change Dictionaries again, whichwill
+ loadthe newly installed dictionary.</cmd>
+      </step>
+      <step>
+        <cmd>In Main Dictionary,
+ select the desireddictionary.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic478_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To use a dictionary
+ already installed on your computer</p>
+      <ol>
+        <li>Copy the existing dictionary (DIC
+ file) to \MyDocuments\HunSpell, or to the location where you install spelling dictionaries for
+ ZWCAD. Or addthe folder to the existing dictionary to the list of folders where
+ ZWCAD searches for dictionaries. Choose Tools &gt; Options from the main menu, and then click
+ Files andadd the folder location to the corresponding paths.</li>
+        <li>Execute SPELL on
+ the command line, select one or more text entities, andthen in the Check Spelling
+ dialog box, click Change Dictionaries.</li>
+        <li>In Main Dictionary, select
+ the desireddictionary.</li>
+        <li>Click OK.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

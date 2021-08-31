@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A45-65E5C41-1214881655A9535-6BBED0">
+  <title>Overview of Hatch Patterns and Fills</title>
+  <shortdesc>Fills an enclosed area or selected
+ objects with a hatch pattern or gradient
+ fill.</shortdesc>
+  <conbody>
+    <p>Filling the specified area with different material so as to distinguish project parts. These
+ patterns are both predefined and user-defined.</p>
+    <p>Solid-filled areas can be created using the following three methods.</p>
+    <ul>
+      <li>Hatches with solid patterns (BHATCH)</li>
+      <li>2D solids (SOLID)</li>
+      <li>Wide polylines, traces or donuts
+ (PLINE, TRACE or DONUT)</li>
+    </ul>
+    <p>Gradient hatch
+ refers to a kind of hatch pattern among different gradations within one or two
+ colors. Which can be used to increase
+ the drawing demonstration effects or use as a background.</p>
+    <p>To create
+ a hatch, you should specify
+ hatch area first which is so-called hatch boundary, various
+ methods of creating hatch
+ boundaries are provided as well as creating associative hatch for controlling
+ the hatch pattern updated
+ along with the boundary changes.
+ If the specified boundary is not a closed area, you can set
+ maximum gap which is controlled by systemvariable HPGAPTOL when using the
+ object as pattern boundary, any gap
+ within this value range will be taken
+ as a closed boundary. But this gap is only available for lines and arcs, they'll be
+ joined if extended. When creating hatch patterns, you can specify the draw order of the patterns to decide
+ to hatch before or after the boundaries or set it in front or at the backof all objects.</p>
+  </conbody>
+</concept>

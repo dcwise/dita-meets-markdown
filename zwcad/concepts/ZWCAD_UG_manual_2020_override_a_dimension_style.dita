@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA122A56-65E14A1-1F14AB65A5791E5-359BF1">
+  <title>Override a Dimension Style</title>
+  <shortdesc>Overriding a dimension style changes a dimensioning
+ system variable without changing the cur ent
+ dimension. You can define dimension style overrides for the following situations:</shortdesc>
+  <conbody>
+    <p>For individual dimensions, you may want to modify some properties of dimensions, such as suppressing</p>
+    <p>a dimension's
+ extension lines or modifying text and arrowhead placement so that they do not
+ overlap drawing geometry, without creating a new dimension style.</p>
+    <p>Set up overrides to the current dimension
+ style. As you have created a dimension style override, all dimensions that are created in this dimension style include the
+ overrides, until you delete overrides, save the overrides to
+ a new style, or make another style current. For example, you can change the
+ extension lines' color
+ on the Lines and Arrows tab by
+ clicking the Override button in the Dimension Style Manager, and keep the current
+ dimension style unchanged. However, the new value for color is stored in thesystem variable DIMCLRE. The extension lines of the dimension you create will apply the
+ new color. The dimension style overrides can be saved as the current dimension
+ style.</p>
+    <p>Dimension style includes some common
+ dimension characteristics that are suited
+ to be saved permanently, and
+ some are applied on an individual basis that can be applied more effectively as overrides.
+ For example, a single type of arrowhead is often used in a drawing, so it is
+ suited to be saved as part of the
+ dimension style. However, suppression of extension lines often applies in
+ individual cases only and is more suited to a dimension
+ style override.</p>
+    <p>The overrides
+ apply to the dimension you are creating and all subsequent dimensions that are
+ created with it until you reverse it or set another dimension style to current.</p>
+  </conbody>
+</concept>

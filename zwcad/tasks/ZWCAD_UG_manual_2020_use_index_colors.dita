@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22436-836515C-4A1F25712657EDA-7277D1">
+  <title>Use Index Colors</title>
+  <shortdesc>There are 255 standard
+ indexcolors and two additional color properties that are often referred to as colors (BYLAYER and BYBLOCK). You can use seven of the 255 standard indexcolors by name: red,
+ yellow, green, cyan, blue,
+ magenta, and white. (Numbers eight and nine are not named.) Each indexcolor has
+ a unique number from 1 to 255. The two additional color
+ properties are BYLAYER
+ and BYBLOCK. These color
+ properties cause an entity to adopt the color either of the layer or of the
+ block in which it is a member.
+ BYLAYER is color
+ number 256, and BYBLOCK is color number
+ 0. In all commands for which you would use a color, you can indicate
+ BYLAYER and BYBLOCK as well as by
+ numbers 256 and 0, respectively.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic165_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select an indexcolor</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Click Select
+ Color in the desired dialog box, such as Layers, Properties, or Multiline Text.
+ The Select Color dialog box opens.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Index Color tab.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe color of your choice,
+ or type the color number in the Color box.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

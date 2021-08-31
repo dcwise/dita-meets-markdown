@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7125661-45C1215-477574576715F96-20C885">
+  <title>Save a View</title>
+  <shortdesc>When you name and save a
+ view, the following settings
+ are saved:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Magnification, center point, and view direction</li>
+      <li>The location of the view: the Model tab or a specific
+ layout tab</li>
+      <li>Layer visibility in the drawing
+ at the time the view is saved</li>
+      <li>User coordinate system</li>
+      <li>3D perspective and clipping</li>
+    </ul>
+    <p>If you have divided the drawing window into
+ multiple views, you can save the current window arrangement so that you can
+ recall it to the screen later. The number and placement of the windows are saved exactly as they are currently displayed. The settings for each window
+ are also saved.</p>
+  </conbody>
+</concept>

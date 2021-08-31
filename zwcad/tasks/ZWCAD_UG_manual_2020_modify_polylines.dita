@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122A46-365E534-11F4A871325A715-34237A">
+  <title>Modify Polylines</title>
+  <shortdesc>You can modify
+ any type of two dimensional or three-dimensionalpolyline. Objects such as
+ rectangles, polygons, and donuts, as
+ well as three-dimensionalobjects such as pyramids, cylinders, and spheres, are all editable polylines</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can edit
+ a polyline by opening or closing it, by changing
+ its overall width or the widths of individual segments, and by
+ converting a polyline with straight line segments into a flowing curve or an approximation
+ of a spline. In addition, you can use the Edit Polyline tool to edit individual
+ vertices, adding, removing, or moving
+ vertices. You can also add new segments to an existing polyline, change the linetypes of a polyline,
+ and reverse the direction or order of the vertices.</p>
+      <p>To modify a polyline, you first select
+ the polyline and then select
+ a polyline editing
+ option. The available
+ options vary depending on whether the selected polyline
+ is a two dimensional or three-dimensionalobject. If the
+ selected object is not a polyline, the Edit Polyline
+ tool provides the option of turning it into one. You can convert
+ only arcs and lines into polylines. If several arcs or lines are joined endpoint to endpoint, they can all be selected and
+ turned into one polyline.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic371_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To convert an object into a polyline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Object &gt; Polyline from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type Y.</cmd>
+      </step>
+      <step>
+        <cmd>On
+ the command line, type another
+ option, or press
+ Enter to complete the command.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

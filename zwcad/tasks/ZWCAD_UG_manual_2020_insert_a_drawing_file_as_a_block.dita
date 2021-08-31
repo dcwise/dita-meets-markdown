@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A468-143C11F-28253A79E35C7E5-EC367D">
+  <title>Insert a Drawing File as a Block</title>
+  <shortdesc>You are required
+ to specify insertion point, scaling and rotation angle while inserting the
+ drawing file into the drawing. If external references are included in the block,
+ the xrefs may not be normally displayed
+ unless it has been inserted
+ or attached to target drawing.
+ You can redefine insertion point, scale factor,</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic560_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ and rotation angle each time you insert the drawing, as the following
+ picture shows:</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic560_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To insert an entire drawing into the current
+ drawing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Block from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Insert Block dialog box, under Insert,
+ click On File.</cmd>
+      </step>
+      <step>
+        <cmd>Type the path and the drawing
+ file name, or click Browse to specify
+ the file from the Insert
+ Blockdialog box.</cmd>
+      </step>
+      <step>
+        <cmd>If you want to use the pointing device to specify
+ the insertion point, scale, and</cmd>
+        <info>
+          <p>rotation, select
+ Specify On-Screen. Otherwise, enter values in the Insertion
+ Point, Scale, and Rotationboxes.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>If you want the
+ objects in the block to be inserted
+ as individual objects instead of as a single block,
+ select Explode blockuponinsertion.</cmd>
+      </step>
+      <step>
+        <cmd>Click Insert.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>You can specify the insertion point, scale factors,
+ and rotation angle in the Insert Block dialog
+ box before inserting the block. You can also control whether the block
+ is exploded back into its original component objects
+ after insertion. If you want to explode
+ the block immediately, select the Explode
+ Upon Insertion check
+ box.</p>
+    </result>
+  </taskbody>
+</task>

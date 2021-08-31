@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A4585453-AF54A72-A753929C5E2BDA0-5D3B6D">
+  <title>PDF</title>
+  <shortdesc>The PLOT command
+ is available for exporting the drawing as a PDF file.</shortdesc>
+  <taskbody>
+    <context>
+      <p>PDF files allow
+ you to distribute your drawing to others for viewing in Adobe® Acrobat ®
+ Reader®, which is free software that
+ users can download. PDF files can also be viewed, reviewed, and edited in Adobe® Acrobat.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic766_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To export
+ a drawing to a PDF file</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Choose DWG To PDF.pc5
+ for the Name option from the Printer/plotter area on the Plot dialog
+ box.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the location
+ andthe name for the PDF file in Browse for Plot File dialog box.</cmd>
+      </step>
+      <step>
+        <cmd>Click Save.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

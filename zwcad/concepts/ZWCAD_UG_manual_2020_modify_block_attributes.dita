@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7123851-3C41154-A7B155A1E359C55-FE669D">
+  <title>Modify Block Attributes</title>
+  <shortdesc>You can use the Block Attribute Manager to modify
+ attributes in block
+ definitions. For example,
+ you can modify the following items:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Attributes of blocks can be displayed after modification</li>
+      <li>Text properties that define how attribute text is displayed
+ in the drawing</li>
+      <li>Properties that define the
+ layer that the attribute is on and the attribute line's color, weight, and type</li>
+      <li>By default, attribute changes
+ you make are applied to all existing block references in the cur ent drawing. If constant attributes or nested attribute blocks are affected by
+ your changes, use REGEN to update the display of those blocks
+ in the drawing area.</li>
+    </ul>
+  </conbody>
+</concept>

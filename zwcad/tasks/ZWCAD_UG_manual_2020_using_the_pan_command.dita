@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B35614-11F1548-7610525C4EBE3F9-5DD92D">
+  <title>Using the Pan command</title>
+  <shortdesc>You can move
+ the drawing in any direction using
+ the pan command. Panning
+ shifts or slides
+ the view of the drawing horizontally, vertically, or
+ diagonally. The magnification of the drawing remains the same, as does its orientation in space. The only change
+ is the portion of the drawing displayed.</shortdesc>
+  <taskbody>
+    <context>
+      <p>To pan, you can use any of the following
+ methods:</p>
+      <ul>
+        <li>For precise panning, specify
+ two points defining the magnitude and direction of the pan. The first point, or base point, indicates the
+ starting point of the pan. The second point indicates the amount
+ of pan displacement relative to the first
+ point.</li>
+        <li>To pan in real time, use the Pan Real-time
+ tool on the Standard toolbar.</li>
+        <li>If you have a mouse
+ with a wheel, press and hold the wheel, and then move the mouse.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic84_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To pan in real time</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose View &gt; Pan &gt; Realtime
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Move the cursor in the direction you want to pan.</cmd>
+      </step>
+      <step>
+        <cmd>To stop panning, press Enter, ESC or choose Exit from the shortcut menu.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic84_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To pan using a mouse with a wheel</p>
+      <p>1. Press and hold the wheel,
+ and then move the mouse in the directionyou want to pan.</p>
+      <p>(The MBUTTONPAN system variable
+ controls this feature.)</p>
+    </result>
+  </taskbody>
+</task>

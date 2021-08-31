@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22356-85E145C-A1F2148D5791E57-C1959E">
+  <title>Close</title>
+  <shortdesc>When you close a
+ polyline, the program draws a straight polyline segment from the last vertex of
+ the polyline to the first vertex. The
+ system considers the polyline open unless you close it using the Close option.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic374_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To close an open polyline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Object &gt;
+ Polyline from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the polyline.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type C (Close).</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic374_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ On the commandline, type another option, or press Enter to complete the command.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Closing an open polyline
+ adds a straight polyline segment
+ between the first (A) and last (B) vertices</p>
+    </result>
+  </taskbody>
+</task>

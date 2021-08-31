@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B22A35-8651453-41F54A761D5CEE7-9FDA9D">
+  <title>Select and Use the Current Viewport</title>
+  <shortdesc>To make the desired
+ viewport the current
+ viewport, you click on it through the existing viewports. When the cursor stays
+ at the current viewport, it is displayed as crosshairs instead of an arrow. You
+ cannot change the current viewport when a view command is in progress.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

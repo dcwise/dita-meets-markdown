@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7243568-543A11F-215A8125A1E57D9-EB9A8F">
+  <title>Control the Text Style in Dimensions</title>
+  <shortdesc>You can set the
+ text style for dimension text on the Text tab of the Modify Dimension Style
+ dialog box. You can also specify a dimension text color and a height irrelevant to the height
+ value set by current
+ text style. Choose the "draw frame around the text" creates
+ a frame when you
+ create dimension text.</shortdesc>
+  <conbody>
+    <p>The text styles applied to dimensions are the same as the one applied
+ to all text created in your drawing.</p>
+  </conbody>
+</concept>

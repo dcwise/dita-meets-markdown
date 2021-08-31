@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A435-5E45CA1-254A87A17E5165D-FADD6E">
+  <title>Copy Properties Between Objects</title>
+  <shortdesc>Using Match Properties, you can copy some or all properties of one object
+ to other objects. The types of properties that can be copied include, but are not limited to:</shortdesc>
+  <conbody>
+    <ul>
+      <li>color</li>
+      <li>layer</li>
+      <li>linetype</li>
+      <li>linetype scale</li>
+      <li>lineweight</li>
+      <li>3D thickness</li>
+    </ul>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic405_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ By
+ default, all applicant properties are copied along with the objects.
+ You can also specify the desired properties to copy at the Property
+ settings dialog boxby typing MATCHPROP.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A722A468-5E5F2A7-A15A153526C9709-0AD6AD">
+  <title>Create chamfer</title>
+  <shortdesc>Using CHAMFER
+ creates chamfers for the adjacent planes. While creating fillets, the system prompts you to specify a distancefor the first and
+ second object. The first object is the base plane and the second one is another plane.</shortdesc>
+  <taskbody>
+    <context>
+      <p>After specifying the chamfer distance, you have to select edges to fillet.
+ You can select all edges of the base plane byselecting an edge using
+ Loop option. Get more details
+ fromthe CHAMFER command.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic409_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To chamfer
+ a solid</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Chamfer
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the edge of the base surface to chamfer.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following:</cmd>
+        <info>
+          <p>To select a different surface, type N (Next) and press
+ Enter. To use the current
+ surface, press Enter.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Specify the distance on first entity.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the distance between
+ second entity.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Specify the edges to chamfer.</cmd>
+      </step>
+      <step>
+        <cmd>To select all edges aroundthe
+ base surface, type L (Loop) and press Enter.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

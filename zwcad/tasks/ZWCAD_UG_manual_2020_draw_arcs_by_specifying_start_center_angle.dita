@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7124353-6514C4A-1F158C5A71A1DF1-1511EE">
+  <title>Draw Arcs by Specifying Start, Center, Angle</title>
+  <shortdesc>Under command line prompts for drawing arcs, draw an arc by specifying a start point and included an angle.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic256_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic256_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The included angle determines the endpoint of the arc. Use the Start, End, Angle method
+ when you know both endpoints but cannot snap to a center point.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic256_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw an arc by specifying
+ two points and an included
+ angle</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Arc &gt; Start,
+ End, Angle from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoint.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic256_image004.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify an included angle. To draw an arc in a counterclockwise
+ direction, enter a positive value for the included angle.
+ To draw an arc ina clockwise
+ direction, enter a negative value for the includedangle.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Start point (A), endpoint (B), and included
+ an angle (C)</p>
+    </result>
+  </taskbody>
+</task>

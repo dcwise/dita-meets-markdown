@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA122A43-56365E5-3C4AF154A879C91-E39C98">
+  <title>About VBA</title>
+  <shortdesc>VBA is a kind of programming language
+ including a variety of Microsoft applications program environment (such as WORD,
+ EXCEL, etc.). Microsoft VBA is a type of program environment for objects,
+ capable of providing developing function as Visual Basic 6 (VB). The main difference between
+ VBA and VB is that VBA runs together with ZWCAD in the same
+ process space, and provides intellective and frequent programenvironment.</shortdesc>
+  <conbody>
+    <p>VBA provides
+ application integration for those application programs supportive of VBA. That
+ is to say, ZWCAD (using other applications database) can be Automation controlling programs such as Microsoft Word or Excel
+ and other applications.</p>
+    <p>You should purchasean independent developed version of Visual Basic
+ 6, providing ZWCAD VBA with extra components, such as external
+ database engine and report forms
+ compiling function.</p>
+    <p>Four advantages of realizing VBA in ZWCAD:</p>
+    <ul>
+      <li>VBA and its environment are prone to study and apply.</li>
+      <li>VBA is capable
+ of running together
+ with ZWCAD in the same process space and facilitate the<p>programoperating.</p></li>
+      <li>Rapid and effective construction of dialog box, which
+ enables developers to constructprototype applications and receive design
+ feedback quickly.</li>
+      <li>The project is both independent
+ and embedded supported. Which provides developers with flexible ways to release
+ their applications.</li>
+    </ul>
+    <p>VBA applications are saved in Projects files.
+ ZWCAD® VBA project is a combination
+ of the code module, class module, and
+ window. All these modules and windows run together to execute specified function. The project can be stored in
+ both ZWCAD drawings and also can be stored as an independent file.</p>
+    <p>You can open VBA manager through
+ ZWCAD menu option "Tools-Macro-VBA Manager" to view VBA project in which you are allowed
+ to create, load and close
+ projects.</p>
+    <p>Open VBA environment</p>
+    <p>VBA has its own interface
+ environment. You can execute from the menu "Tools -Macro-Visual Basic Editor" to open the Visual Basic programand display
+ VBA environment window
+ which is short for IDE,</p>
+    <p>i.e. Integrated
+ Development Environment.</p>
+    <p>ZWCAD VBA project
+ is a collection of code modules, classes, and forms, here module is
+ self-include program code segment,
+ and a project is capable of containing multiple modules. These modules and forms run together to performgiven functions.</p>
+    <p>You can add new
+ modules by selecting "Insert – Module" menu option from the Visual
+ Basic project window. And next to
+ open module file editor window, in which you can write codes. Meanwhile, a new module
+ icon will be added to the module
+ list in "Project" window with default
+ name as Modual1.</p>
+    <p>ZWCAD is running while opening VBA environment, you can toggle to ZWCAD
+ platformfromthe last option on "View" menu in VBA IDE.</p>
+  </conbody>
+</concept>

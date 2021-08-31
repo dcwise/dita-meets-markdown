@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12435-686E145-C4A12187F15571E-55A3C0">
+  <title>Setting the text height</title>
+  <shortdesc>The text height setting controls the height of the
+ text, measured in drawing units. Set this value initia
+ ly</shortdesc>
+  <taskbody>
+    <context>
+      <p>so that text used
+ for your most common annotations, when scaled to the size at which you will
+ print a drawing, measures
+ 1/8-inch high on the printed
+ drawing.</p>
+      <p>For example,
+ if you plan to print
+ your drawing at 1/8" = 1'-0" and you
+ want your text to be 1/8-inch high in the final drawing, create that text 1 foot high
+ (in your real-world drawing units)
+ so that when you
+ print it, it appears 1/8-inch
+ high on the paper.</p>
+      <p>You must create text 4 feet high that you want to print 1/2-inch high.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic116_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set the
+ text height</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Text Style from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Type a value in the Fixed Text Height
+ under Text Measurements.</cmd>
+      </step>
+      <step>
+        <cmd>Press OK to save the current
+ settings.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>The default text height applies only if the current
+ text style height is 0.0. Otherwise, the text
+ height for the current style
+ takes precedence.</p>
+    </result>
+  </taskbody>
+</task>

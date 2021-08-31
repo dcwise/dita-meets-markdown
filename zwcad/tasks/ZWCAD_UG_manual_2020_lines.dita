@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A3536-CA11F15-87C7A791E53564C-D63B25">
+  <title>Lines</title>
+  <shortdesc>A line consists of two points: a start point and an endpoint. You can
+ connect a series of lines, but each line segment is considered a separate line object.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic234_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a line</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Line
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point.</cmd>
+      </step>
+      <step>
+        <cmd>Complete the
+ first line segment by specifying the endpoint. To undo the previous line segment during the Line command,
+ enter u (undo) and then press ENTER. Specify
+ the endpoints of any additional line segments.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter to complete the command.</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic234_image002.png" />To start a new line at the endpoint of the last line drawn,
+ start the Line command again and press Enter
+ directlyat the "Specify first point:" prompt.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Start point
+ (A) and endpoint (B).</p>
+      <p>If the last object you drew was an arc, you can also draw a line connect to and starting
+ fromthe endpoint of the arc.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic234_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a line as a continuation fromthe end of an arc</p>
+      <ol>
+        <li>Choose Draw &gt; Line from the mainmenu.</li>
+        <li>Take the end of an arc as the start point
+ of theline.</li>
+        <li>Specify the length of the line.</li>
+      </ol>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic234_image003.png" />
+        </fig>
+      </p>
+      <p>The endpoint of the previous arc (A) and length of the line (B).</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7AA4363-6E45C4A-1255715ADD49142-DD91D8">
+  <title>Extend Objects</title>
+  <shortdesc>You can extend
+ objects so that they end at a boundary defined by other objects. You can also
+ extend objects to the point at which
+ they would intersect an implied boundary edge. When extending objects, you first select the boundary edges and
+ then specify the objects to extend by way of selecting themone by one or using
+ the fence selection method.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can extend arcs, lines, two-dimensional
+ polylines, and rays. Arcs, circles, ellipses, lines, splines, polylines, rays, infinite lines,
+ and viewports on a Layout
+ tab can act as boundary
+ edges.</p>
+      <p>In this example, you extend the lines precisely
+ to a circle, which is the boundary
+ edge.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic348_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic348_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To extend an object</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Extend from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select one or more objects as boundaryedges, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object to extend.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic348_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select another object
+ to extend, or press Enter to complete
+ the command.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To extend objects, select the boundary
+ edge (A), and then select
+ the objects to extend (B)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic348_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To extend an object to an implied
+ boundary</p>
+      <ol>
+        <li>Choose Modify &gt; Extend
+ from the main menu.</li>
+        <li>Select one or more boundary edges,
+ and then press Enter.</li>
+        <li>On the command line, type E (Edge).</li>
+        <li>On the command line, type E (Extend).</li>
+        <li>Select the object to extend.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic348_image004.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select another object to extend,
+ or press Enter to complete
+ the command.</li>
+      </ol>
+      <p>Select the boundary
+ edge (A), and then select the objects
+ to extend (B)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic348_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To extend several objects using the fence selection method</p>
+      <ol>
+        <li>Choose Modify &gt; Extend from the main menu.</li>
+        <li>Select one or more boundary edges,
+ and then press Enter.</li>
+        <li>On the command line, type F (Fence).</li>
+        <li>Specify the first point
+ of the fence.</li>
+        <li>Specify the second point of the fence.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic348_image005.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the next fence point,
+ or press Enter to complete
+ the command.</li>
+      </ol>
+      <p>Select the boundary edge (A), and then specify the first point (B) and second point (C) o f the fence</p>
+      <p>TRIM can also be used to extend objects.
+ At the prompts of selecting entities, holding down SHIFT and selecting objects
+ to extend. As a result,
+ the objects are extending instead
+ of trimming.</p>
+    </result>
+  </taskbody>
+</task>

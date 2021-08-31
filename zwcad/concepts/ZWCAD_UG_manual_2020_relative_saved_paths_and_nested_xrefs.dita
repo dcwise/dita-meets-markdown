@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A122A366-5E15C4A-12A851E591DA413-9D7429">
+  <title>Relative Saved Paths and Nested Xrefs</title>
+  <shortdesc>You can specify
+ saving path individually for the xrefs that are attached to the drawing in Xref
+ Manager dialog box. You can select the saving path as full path, relative
+ path or no path.</shortdesc>
+  <conbody>
+    <p>If the xref to be
+ attached is a nested xref, its relative saving path means the position relative
+ to the host computer.</p>
+  </conbody>
+</concept>

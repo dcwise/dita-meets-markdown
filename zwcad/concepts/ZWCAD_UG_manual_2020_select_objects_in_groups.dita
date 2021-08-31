@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A435-E43C1F2-1548765A7915556-952C70">
+  <title>Select Objects in Groups</title>
+  <shortdesc>You can type a group name to select a group at the prompt
+ of Select entities. If the system
+ variable PICKSTYLE is set to 1 or 3, you can select
+ any objects of the group.</shortdesc>
+  <conbody>
+    <p>When you select an object
+ that is a member of more than one groups,
+ all the objects from that groups</p>
+    <p>containing the selected object
+ are selected.</p>
+  </conbody>
+</concept>

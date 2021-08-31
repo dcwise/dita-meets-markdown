@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7243586-5E1453C-4A1F2147B155A79-1E55F1">
+  <title>Create Ordinate Dimensions</title>
+  <shortdesc>Ordinate dimensions are used to measure the perpendicular distance
+ froman origin point
+ called the datum to
+ a feature, such as a hole in a part. Ordinate dimensions are comprised of a
+ leader line with an X or Y value.
+ These dimensions are called datumdimensions. X or Yvalue is calculated in the
+ current UCS, and leaders are drawn
+ along the orthographic direction at the current UCS. The dimension values are
+ the absolute values. By maintaining
+ accurate offsets of the features from the datum, these dimensions can prevent escalating errors.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic524_image001.png" />
+        </fig>
+      </p>
+      <p>X ordinate
+ dimensions show the distance of a feature from the datumalong the X-axis. And
+ Yordinate dimensions show the
+ distance along the Y-axis. The systemdetermines whether the dimension is X or Y ordinate dimension depending on the
+ point you specify. If the distance is greater for the Y value, the systemcreates an X ordinate
+ dimension. Otherwise, the systemcreates a Y ordinate dimension.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic524_image002.png" />
+      </p>
+      <p>X and Y ordinate
+ values are determined by the absolute coordinate value of the current UCS.
+ Before creating ordinate
+ dimensions, it recommends
+ you to reset the UCS origin to coincide
+ with the datum.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic524_image003.png" />
+        </fig>
+      </p>
+      <p>In the ordinate
+ dimensions, the dimension text is always aligned with the ordinate leader line,
+ ignoring the text orientation defined
+ by the current dimension style. You can also supply your own text or accept the default
+ one.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic524_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create an ordinate
+ dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Ordinate
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the point for an ordinate
+ dimension.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the ordinate leader endpoint.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic524_image005.png" />
+        </fig>
+      </p>
+      <p>Select the ordinate
+ point (A), and then specify the ordinate
+ leader endpoint (B).</p>
+      <p>
+        <b>TIP </b>To select precise
+ ordinate points, use entity snaps.</p>
+    </result>
+  </taskbody>
+</task>

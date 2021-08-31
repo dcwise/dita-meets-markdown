@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA124843-CA1F154-87A16057E551D17-09065D">
+  <title>Copy Edges</title>
+  <shortdesc>Copying edges of 3D solids are similar to
+ copying faces of 3D solids. All edges are copied as the independent lines, arcs,
+ ellipses or spline objects. However, the properties keep the same as the cur
+ ent layer. After you specify the location
+ of placing the copy, you can performone of the following methods:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Basepoint: You must specify
+ two points on the drawing. The first one is a base point; the other one determines the location of the copy.</li>
+        <li>Vector: You need to specify a point to determine the location of the copy. The base point is the original point (0,0,0).</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic423_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To copy an edge</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids
+ Editing &gt; Copy Edges from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the edge(s) to copy,
+ and press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a base point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify an endpoint.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Left: Specify the edge(s) to copy (A), the base point (B), and the endpoint(C) Right: The resulting entity with the edge copied</p>
+    </result>
+  </taskbody>
+</task>

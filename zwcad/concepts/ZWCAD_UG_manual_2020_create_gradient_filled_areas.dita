@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A45-635E15C-41215887A7935D7-22F940">
+  <title>Create Gradient-Filled Areas</title>
+  <shortdesc>Fills the area with gradient appearance, which is a type of solid hatch
+ represents a solid entity as well. Gradient hatch refers to a kind of hatch pattern among different gradations within one or two colors. Which can be used to increase the drawing demonstration effects or use as a background.</shortdesc>
+  <conbody>
+    <p>Like creating other hatch patterns, you can create gradient hatch as well
+ as associative gradient hatch in the same way. But the color assigned in gradient hatch
+ can't be controlled by print style.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2A5E4-1254A87-955955CDAE6B521-C42A47">
+  <title>Embed OLE Objects in Drawings</title>
+  <shortdesc>Embed an object
+ into your ZWCAD drawing when you want to keep all the data you work with in one file or if you want to transfer the file to other computers. You can embed
+ data fromprograms that support object linking
+ and embedding.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When you embed
+ data fromanother program, ZWCAD becomes the container for that data. The object embedded
+ in the ZWCAD drawing becomes
+ part of the ZWCAD file. When you edit the data, you open its programfrom within the ZWCAD
+ drawing.</p>
+      <p>Any changes you
+ make to the embedded data exist only in the ZWCAD drawing, so it is not
+ necessary to keep that data in a separate
+ file. If the data does exist in a separate file,
+ the original file
+ doesnot change when you
+ modify the embedded object in ZWCAD.
+ Also, changes to the original file do not af ect the</p>
+      <p>embedded object in the ZWCAD drawing.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic744_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To embed another program's object into a ZWCAD drawing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Open the file that contains the data you want.</cmd>
+      </step>
+      <step>
+        <cmd>In the file, select
+ the data youwant
+ to embed in the ZWCAD drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Choose that program's commandto place data on the Clipboard. Usually, you choose Edit &gt;
+ Copy from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the ZWCAD window,
+ display the drawingin
+ which youwant to embed the object.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Edit &gt;
+ Paste from the main menu, or click the Paste from Clipboard tool on the Standard toolbar.</cmd>
+      </step>
+      <step>
+        <cmd>The data on the
+ Clipboard is pasted into the drawing as an embedded object. The object appears in the center of the view,
+ but you can select and move it by moving the
+ cursor.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>The OLE objects
+ that are supportive of other applications will not be updated along with the
+ objects in source document
+ when embedding into ZWCAD drawings.</p>
+      <p>ZWCAD provides
+ various methods to embed drawings:
+ such as copy the object to the clipboard, paste it to ZWCAD drawing files, and then embed it
+ to ZWCAD drawing. You can embed a
+ company icon created by other applications into ZWCAD drawings.</p>
+      <p>With the embedding
+ feature, you can also embed
+ OLEobjects into ZWCAD drawings without
+ specifying links. A .txt file will be changed into
+ mtext once embedded
+ into the drawing,
+ with its file name displayed together.</p>
+      <p>Once embedded
+ into current drawing, you can adjust the object's size according to the
+ proportion of drawing unit. And also scaling text that is included in OLE objects
+ by specifying point size.</p>
+    </result>
+  </taskbody>
+</task>

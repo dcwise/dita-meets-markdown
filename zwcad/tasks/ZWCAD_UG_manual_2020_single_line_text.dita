@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA2A4358-365E534-A1F214A7A105791-53596B">
+  <title>Single-Line Text</title>
+  <shortdesc>You can use TEXT command to create a single or multiline text. Each line text is an independent object which can be modified.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Before typing text, you can specify the text style and the way to align at the prompt of creating text. The text style is applied to both of a single
+ and multiline text objects. The justification way determined which part of text justify with an insert
+ point.</p>
+      <p>Characters
+ created by MTEXT can be applied to independent text styles, but the single line
+ text cannot do that.</p>
+      <p>Press ENTER
+ if you have typed some characters, and then the command line prompts to input characters for the next row of text. While creating single
+ line text, you are also enabled to extend or compress certain
+ single line text object in specified space to meet
+ with your need by means of selecting
+ Align or Fit option from the TEXT command
+ line prompt.</p>
+      <p>To
+ create text</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic444_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Text &gt; Single
+ Line Text from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point for the text.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the height of the text.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the text rotationangle.</cmd>
+      </step>
+      <step>
+        <cmd>Type the text, and then press Enter at the end of each
+ new line.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the command,
+ press Enter again.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>If you've already created text and want
+ new text to appear immediately below the previous text, Choose Draw &gt; Text &gt; Single Line Text. When prompted for
+ start point, press Enter. The new text will keep the same height
+ and rotation angle
+ as the previous text.</p>
+    </result>
+  </taskbody>
+</task>

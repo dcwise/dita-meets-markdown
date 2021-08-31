@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A22A4385-E53CA11-F525A715A2218E1-33867F">
+  <title>Set the Units Format</title>
+  <shortdesc>You can set
+ the display format of the unit. These formats include
+ scientific, decimal, engineering, architectural and fractional notation. To enter
+ architectural feet and inches format, you can indicate feet using the prime symbol ('), for example,
+ 72'3. You do not need to specify inches by entering quotation marks (").</shortdesc>
+  <conbody>
+    <p>You can set the
+ unit type and precision in the Quick Setup wizard, the Advanced Setup wizard,
+ or the Units Control dialog box.
+ These settings control how your coordinate, offset, and distance entries are interpreted, and how coordinates and distances are displayed.</p>
+    <p>The input format
+ of three-dimension coordinates is the same as the input format of the
+ two-dimension coordinates: scientific, decimal, engineering, architectural and fractional notation.</p>
+    <p>The unit format
+ for creating and listing objects, measuring distance and displaying coordinate
+ locations is different from the dimension units setting used in creating
+ dimension values.</p>
+    <p>With ZWCAD, you
+ typically draw at full size (1:1 scale), and then set a scale factor when you
+ print or plot your drawing. Before
+ you begin drawing, however, you need to determine the relationship between drawing units and real-world units.</p>
+    <p>For example, you
+ can decide whether one linear drawing unit represents an inch, a foot, a meter,
+ or a mile. In addition, you can specify the way the program measures
+ angles. For both linear and angular units,
+ you can also set the degree of display precision, such as the number of decimal
+ places or sma lest denominator used
+ when displaying fractions. The precision settings affect only the display of
+ distances, angles, and coordinates.
+ ZWCAD always stores distances, angles, and coordinates using floating point accuracy.</p>
+  </conbody>
+</concept>

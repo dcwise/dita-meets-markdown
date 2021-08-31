@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122A35-686514C-A11F25A871655A7-9E556B">
+  <title>Shell</title>
+  <shortdesc>You can create a
+ shell at the specified thickness. One 3D solid only create a shell, and the
+ system has to move away from the
+ existing face before creating a new face. The tangent faces are seen as a face
+ while moving.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic428_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To shell
+ a solid</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing &gt; Shell from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object you want to shell.</cmd>
+      </step>
+      <step>
+        <cmd>Remove any faces youdon't
+ want to include.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic428_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify an offset
+ distance.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the entity, and then select
+ faces to remove (A) and (B), then specify an offset distance</p>
+    </result>
+  </taskbody>
+</task>

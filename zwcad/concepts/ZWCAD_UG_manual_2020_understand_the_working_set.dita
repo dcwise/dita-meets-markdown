@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12635-E145CA1-F2154A878150A79-1E5359">
+  <title>Understand the Working Set</title>
+  <shortdesc>Objects contained
+ in the working set are components of selected references. ZWCAD extracts
+ selected objects fromthe selected
+ xrefs to edit in the current drawing, these objects having been extracted froma set called working
+ set. Objects in working set can be changed and saved and
+ the xrefs or block definitions can be updated.</shortdesc>
+  <conbody>
+    <p>When constructing the workingset, all the excluded objects
+ of the working set may be fading
+ displayed.</p>
+  </conbody>
+</concept>

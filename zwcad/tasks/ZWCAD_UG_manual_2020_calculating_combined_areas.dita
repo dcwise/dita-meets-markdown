@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AAA46835-13CA1F2-14F4A1E535A2B2D-94FE28">
+  <title>Calculating combined areas</title>
+  <shortdesc>You can find the total area of several combined regions by specifying points or by selecting objects. You can also subtract the areas of objects or polygons froma
+ running total.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic187_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To add areas to calculate a combined area</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Inquiry &gt; Area from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type a (add).</cmd>
+      </step>
+      <step>
+        <cmd>Using one of the following methods,
+ identifythe first area:</cmd>
+      </step>
+      <step>
+        <cmd>Specify points defining a polygon, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Type o (object), select the
+ objects you want to add and then press Enter to complete the selection.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the command, press Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic187_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To subtract
+ areas when calculating a combined area</p>
+      <ol>
+        <li>Choose Tools &gt; Inquiry &gt; Area from the main menu.</li>
+        <li>On the command line, type a (add).</li>
+        <li>Using one of the following methods,
+ identifythe first area:</li>
+        <li>Specify points defining a polygon, and then press Enter.</li>
+        <li>Type o (object), select the
+ objects you want to add and then press Enter to complete the selection.</li>
+        <li>On the command line, type s (subtract).</li>
+        <li>Using one of the following methods,
+ identifythe area to be subtracted:</li>
+        <li>Specify points defining a polygon, and then press Enter.</li>
+        <li>Type o (object),
+ select the objects you want to subtract
+ and then press Enter to complete the selection.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic187_image002.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ To complete the command, press Enter.</li>
+      </ol>
+      <p>To calculate
+ the area of the gasket
+ using the Area command, first, add the area of the entire gasket (A), and then subtract
+ the areas of the two circles (B and C)</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A2245683-5E15314-A815A7350DC2097-B7B189">
+  <title>Select a Paper Size for a Layout</title>
+  <shortdesc>The paper size
+ here refers to the size of the drawing. When you start Plot dialog boxin Layout
+ tab, you can assign the paper type
+ from a pull-down list of the Paper Size text box. The Paper size is directly previewed fromthe sketch with its size and
+ units. The available paper types provided in the pull-down list are decided by the current
+ configuration. If you want to configure plotters to export raster images, you must specify output size by pixels.
+ The paper size can be customized in the Plotter Configuration Editor.</shortdesc>
+  <conbody>
+    <p>If you specified
+ a systemplotter, the paper size is decided by the default paper settings
+ provided in the Windows control
+ panel. If any changes have been set to the paper size in Plot dialog box, the
+ new size will be saved in the layout
+ to be used instead of the size in PCP.</p>
+  </conbody>
+</concept>

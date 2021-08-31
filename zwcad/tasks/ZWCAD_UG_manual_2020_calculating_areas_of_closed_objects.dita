@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A123865E-12A87F1-C5A791E53A17424-F13928">
+  <title>Calculating areas of closed objects</title>
+  <shortdesc>You can find the area of any
+ closed object. In addition, the programcalculates either the circumference or the perimeter of the object,
+ depending on the type of object you select.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic186_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To calculate
+ the area of a closed object</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Inquiry &gt; Area from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type o (object).</cmd>
+      </step>
+      <step>
+        <cmd>Select the closed object.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

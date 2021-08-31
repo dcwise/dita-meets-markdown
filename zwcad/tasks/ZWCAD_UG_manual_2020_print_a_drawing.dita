@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A56-5E143C4-A11F87155359159-AA4417">
+  <title>Print a drawing</title>
+  <shortdesc>The print setting options available under each tab on the Print dialog
+ boxwere described in the previous sections.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <b>NOTE </b>You cannot
+ print a rendered image directly to a printer. To print
+ a rendered image, you must first save the drawing to a different
+ format and then print it from another
+ graphics program.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic710_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To print a drawing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>If necessary, click the desired Layout
+ tabor the Model tab.</cmd>
+      </step>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>From the Plot dialog box, make anyadjustments to the settings.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>Instead of using the print settings you saved
+ with your layout, you can select Previous Plot form the
+ Name pull-down list in Page Setup area.</p>
+    </result>
+  </taskbody>
+</task>

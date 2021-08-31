@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A1456E-14A11F2-487A1509551706D-FABD6E">
+  <title>Properties palette</title>
+  <shortdesc>The Properties
+ palette shows all properties of the specified object. You can change themin
+ this palette. When selecting multiple
+ objects, the Properties palette shows the command properties of the selected objects.</shortdesc>
+  <conbody>
+    <p>If none of the objects is selected, the Properties palette
+ displays the general
+ properties of the current layer,
+ View properties as well as the UCS information.</p>
+    <p>By default, double-click an object opens Properties palette if the
+ Properties palette is hidden. This operation
+ is not available when the objects are block, hatch pattern, text, multiline,
+ external reference or gradient fill.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12436-85E153C-A11F5A8772C7414-233EE8">
+  <title>Save and Restore Profiles</title>
+  <shortdesc>Creating profiles
+ for different users or projects and sharing profiles by importing and exporting
+ profile files are enabled in ZWCAD.</shortdesc>
+  <conbody>
+    <p>By default, your
+ current options are stored in a profile named Default. The current profile
+ name, as well as the current drawing
+ name, is displayed
+ in the Options dialog boxin ZWCAD.</p>
+    <p>ZWCAD stores the
+ profile information in the system registry and saves it as a text file (an ARG
+ file). ZWCAD also organizes essential
+ data and maintains changes in the registry as required. If you make changes
+ to your current profile during a ZWCAD session and you want to save those changes
+ in the ARG file, you must
+ export the profile. When you export the profile with the current profile name,
+ ZWCAD updates the ARGfile with the new settings. You can re-import
+ the profile into ZWCAD to update your profile settings.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA246354-54A11F4-A87150A791E533C-BB38E3">
+  <title>Turning wipeout frames on or off</title>
+  <shortdesc>Each wipeout has
+ a frame along its boundary. Wipeout frames can be turned on or off for any
+ drawing. When wipeout frames are on,
+ you can select and modify wipeouts. You may want to turn off wipeout frames when it's time to print.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic303_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn wipeout frames on or off</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Wipeout from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Choose F (Frames).</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic303_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Choose On or Off.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Wipeout frames turned
+ on Wipeout frames turned off</p>
+    </result>
+  </taskbody>
+</task>

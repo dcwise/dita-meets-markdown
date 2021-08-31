@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12456-36E453C-4F25487955A7E53-9A4647">
+  <title>Assign Plot Style Tables to Layouts</title>
+  <shortdesc>Controls the
+ plotting style for objects in layouts using different plot styles assigned to
+ each layout. The specified plot style tables
+ affect both model space and paper space
+ objects.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If you specified named plot style
+ for a drawing, each object in the drawing either is assigned
+ a plot style directly or inherits
+ a plot style fromits layer.</p>
+      <p>If a xref has been inserted
+ into your current
+ drawing, all defined
+ plot style tables
+ will be inserted
+ as we l. You can assign plot style tables
+ globally for all layouts (including the Model tab), or individually for the Model tab or a Layout tab. Assigning a
+ plot style table to an individual layout allows you to further customize the layouts you use to print a drawing.</p>
+      <p>However,
+ assigning different named plot style tables to various layouts may result in
+ mismatched plot style names.
+ In this case, objects
+ are printed using
+ their default properties.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic715_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To assign plot
+ style tables</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>If necessary, click the desired Layout tab, or click the Model tab.</cmd>
+      </step>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Under Plot Style Table (pen assignments), select a plot style table in the one of the following:</cmd>
+        <info>
+          <p>
+            <b>None </b>— Applies no plot style table.
+ Objects plot according to their own properties.</p>
+          <p>
+            <b>Monochrome
+ </b>— Plots all colors as black.</p>
+          <p>
+            <b>New </b>— Creates a new plot style table.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Select Save Changes to Layout, andthen click Applyto Layout.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>When your drawing was first created it was set up to use either color-dependent or named plot style tables.</p>
+    </result>
+  </taskbody>
+</task>

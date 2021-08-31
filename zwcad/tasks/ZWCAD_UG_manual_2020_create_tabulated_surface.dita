@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA245683-6543C4A-11F215A8C535A91-E535A2">
+  <title>Create Tabulated Surface</title>
+  <shortdesc>Creates a polygon
+ mesh defined by a path and a direction vector. The path curve defines the
+ surface of the polygon mesh. The objects like a line, arc, circle,
+ ellipse, or 2D or 3D polyline can be
+ used as outline curves for defining
+ polygons. Both lines and open 2D or 3D polylines
+ are used as the direction vector.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic280_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Tabulated surface meshes are used
+ as a serial of a paralleled polygon on the specified path, you should draw direction vector
+ and original object
+ before creating a Tabulated Surface.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic280_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create an extruded
+ surface mesh</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Surfaces
+ &gt; Tabulated Surface
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object to extrude.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic280_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the extrusion
+ path.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the object to extrude (A) and the extrusion path (B) The resulting extruded surface mesh</p>
+      <p>
+        <b>NOTE
+ </b>An extruded
+ mesh is different froman extruded
+ solid. If you want to extrude an object and convert it to a three dimensional solid, use the Extrude command.</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A43-836E453-C411F5A1D5B5791-E55971">
+  <title>Plot Settings</title>
+  <shortdesc>When you create a drawing, you do most of your work on the Model
+ tab. At any time you can print your drawing
+ to see how it looks
+ on paper. It's easy to startup printing,
+ and then later
+ create layouts and custom print settings
+ to enhance your printed output.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic698_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To start printing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Set the printer and relevant parameters, and then click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>There are many options
+ that you can set before
+ printing, such as the scale of the drawing, print
+ area, print style tables,
+ and more.</p>
+      <p>Before you print, you can set up many aspects
+ of printing:</p>
+      <ul>
+        <li>Select and configure
+ plotting device.</li>
+        <li>Specify paper size and orientation.</li>
+        <li>Specify the size of the paper used for plotting, including
+ which portion of a drawing
+ to print and the origin
+ of the print area.</li>
+        <li>Choose whether to print and scale lineweights.</li>
+        <li>Choose whether to implement
+ print style tables to control
+ colors, pen widths, line types, and lineweights.</li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

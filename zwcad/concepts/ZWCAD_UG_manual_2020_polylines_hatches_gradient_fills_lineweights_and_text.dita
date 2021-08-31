@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA435635-E45C41F-2487341352142D4-614398">
+  <title>Polylines, Hatches, Gradient Fills, Lineweights, and Text</title>
+  <shortdesc>You can simplify
+ the display of certain kinds of objects, such as wide polylines, donuts, solid-fi led polygons (2D solids),
+ hatches, gradient fills and text, to improve the display performance and speed up</shortdesc>
+  <conbody>
+    <p>of creating
+ test plots.</p>
+  </conbody>
+</concept>

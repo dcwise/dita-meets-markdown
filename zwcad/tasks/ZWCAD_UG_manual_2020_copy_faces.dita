@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7123583-5E13C1F-1555A795936DB97-04D9AD">
+  <title>Copy Faces</title>
+  <shortdesc>You can copy faces of 3D solids
+ to the specified location. The selected faces are seen as an independent region or solid
+ object. After creating
+ copies, you can performone of the following
+ methods:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Basepoint: You must specify
+ two points on the drawing. The first one is a base point; the other one determines the location of the copy.</li>
+        <li>Vector: You need to specify a point to determine the location of the copy. The base point is the original point (0,0,0).</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic421_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To copy a solid face</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing
+ &gt; Copy Faces from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the face(s) to copy, andpress Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a base point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify an endpoint.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Left: Specify the face(s) to copy (A), the base point (B), and the endpoint(C) Right: The resulting entity with the face copied</p>
+    </result>
+  </taskbody>
+</task>

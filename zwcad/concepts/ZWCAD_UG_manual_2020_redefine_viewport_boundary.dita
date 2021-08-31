@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A35-8365E14-53CA1215478CA5A-79E591">
+  <title>Redefine Viewport Boundary</title>
+  <shortdesc>Boundaries of viewports can be redefined
+ by VPCLIP command.</shortdesc>
+  <conbody>
+    <p>Once selected the
+ viewport to be clipped, you can specify existing objects as a new boundary or
+ specify new boundary point. You should notice that the boundary is neither displayed nor clipped if the layer on which the boundary of non-rectangular
+ viewport locates. If you close the boundary layer rather than freeze it, the viewport
+ will be clipped.</p>
+  </conbody>
+</concept>

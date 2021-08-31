@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A722A435-686145C-411A8115A71E55C-B438E3">
+  <title>Drawing wipeouts using polygons and polylines</title>
+  <shortdesc>Wipeouts are created using
+ existing polygons, closed
+ zero-width polylines made up of only line segments, or new polylines that you draw
+ while using the WIPEOUT command.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic302_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a wipeout</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Wipeout from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoint of each segment.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic302_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ After specifying the last endpoint, press Enter.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Drawing without
+ wipeout Drawing with wipeout</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic302_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a wipeout using an existing polygon
+ or polyline</p>
+      <ol>
+        <li>Choose Draw &gt; Wipeout from the mainmenu.</li>
+        <li>Choose P (Polyline).</li>
+        <li>Select the closed polyline
+ to use for the wipeout.</li>
+        <li>Choose one of the following:</li>
+      </ol>
+      <p>Yes — Creates the wipeout and deletes the
+ polyline used to create the wipeout. No — Creates the wipeout andkeeps
+ the polyline used to create the wipeout.</p>
+    </result>
+  </taskbody>
+</task>

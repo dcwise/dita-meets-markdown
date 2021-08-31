@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A435-68365E1-3A1F254A714561E-3A7CB2">
+  <title>Using the right-hand rule</title>
+  <shortdesc>To visualize
+ how ZWCAD works with three-dimensionalspace, use a technique known as the right-hand rule. Hold up your right
+ hand in a loose fist
+ with your palmfacing you. Extend your
+ thumb in the direction of the positive x-axis and your
+ indexfinger upward in the direction of the positive y-axis. Then extend your middle finger
+ straight toward you in the direction of the z-axis.
+ These three fingers
+ are now pointing in the positive
+ x, y, and z directions, respectively.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic205_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ You can also use the right-hand rule to determine
+ the positive rotation
+ direction. Point your thumb in the positive
+ direction of the axis about which you want to rotate, and then curl the rest of your fingers toward
+ your palm. These
+ fingers are curling
+ in the positive rotation direction.</p>
+    <p>The right-hand rule helps you determine the positive direction
+ of the x, y, and z-axes and the positive
+ rotation direction.</p>
+  </conbody>
+</concept>

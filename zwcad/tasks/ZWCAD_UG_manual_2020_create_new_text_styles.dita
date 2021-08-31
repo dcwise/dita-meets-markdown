@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A722A585-E14C4AF-2154A145A7535CF-AB3641">
+  <title>Create new text styles</title>
+  <shortdesc>When you apply some settings that the STANDARD does not have to
+ the text, you have to create a new text style or change the current text style.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Before creating a
+ text style, you have to specify a name which can be up to 255 characters. The
+ name can contain characters,
+ underscore, hyphen, dollar sign and other special characters that are not used
+ by Microsoft Windows
+ or ZWCAD.</p>
+      <p>You can also modify the current text style in the Text Style dialog box.</p>
+      <p>Some style settings have different effects on single-line and multiline
+ text objects. For example, the Upside Down and Backwards options are not available for multiline text objects.</p>
+      <p>You can also rename an existing
+ text style except for the STANDARD.</p>
+      <p>Except for the STANDARD text style, all text styles can be removed using PURGEcommand or deleted from the Text
+ Style dialog box.</p>
+      <p>Certain
+ formatting applied to individual characters within multiline text may not be retained. The formatting
+ not to be retained includes bold, font, height and obliquing. The formatting
+ that can be retained includes
+ color, stack and underscore.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic467_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create
+ a text style</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Text Style from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Click New, type a new text style name and then click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Under Text Measurements, specify the Text Height, Width Factor, and Oblique Angle.</cmd>
+      </step>
+      <step>
+        <cmd>Under Text Font, select
+ the name, style,
+ language, and bigfont
+ you want to use.</cmd>
+      </step>
+      <step>
+        <cmd>Under Text Generation, select the check boxes
+ you want to indicate the direction for printedtext to appear.</cmd>
+      </step>
+      <step>
+        <cmd>Click Apply, andthen click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

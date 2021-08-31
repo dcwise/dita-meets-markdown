@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA235665-4C4A14A-7D5AE535718BD71-D5EC78">
+  <title>Copy Objects</title>
+  <shortdesc>You can copy one or more entities, making one copy or multiple
+ copies within the current drawing.
+ You can also copy entities between drawings.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can duplicate objects
+ within the current drawing. The default method
+ is to create a selection set and then specify a base point,
+ and a displacement point, for the copy.</p>
+      <p>While specifying
+ two points, you can enter two coordinates to copy objects with the relative
+ distance. The location of copies
+ is determined by the relative
+ coordinate. You do not have to enter coordinate with the @ as the relative
+ coordinate is assumed.</p>
+      <p>To copy objects
+ at the specified distance, you can specify the distance directly when the Ortho
+ Mode or Polar Tracking is on.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic327_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Create only one copy of object one time</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Copy from
+ the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type O (mOde).</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type S (Single).</cmd>
+      </step>
+      <step>
+        <cmd>Specify the base point.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic327_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the displacement point.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Object to copy (A), base point (B), and displacement point (C) Result</p>
+      <p>You can copy objects more than one time until
+ you press ENTER to exit COPY operation.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic327_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Create multiple
+ copies for selected
+ object one time</p>
+      <ol>
+        <li>Choose Modify &gt; Copy from
+ the mainmenu.</li>
+        <li>Select the objects, and then press Enter.</li>
+        <li>On the command line, type O (mOde).</li>
+        <li>On the command line, type M (Multiple).</li>
+        <li>Specify the base point.</li>
+        <li>Specify the displacement point of the first copy.</li>
+        <li>Specify the displacement point of the next copy.</li>
+        <li>Continue specifying displacement points to place additional copies.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic327_image003.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ To complete the command,
+ press Enter.</li>
+      </ol>
+      <p>Left: To make multiple copies
+ of an object, select the object to copy (A), specify the base point (B), and then specify
+ the
+ displacement points (C, D, and E)</p>
+      <p>Right: Result</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A45-8365E1C-4A1F1547D110A95-52F37A">
+  <title>Chamfer by Specifying Distances</title>
+  <shortdesc>The chamfer
+ distance is the amount each entity is trimmed or extended to meet the chamfer
+ line or to intersect the other. If both chamfer distances are 0, chamfering trims or extend
+ the two entities until they intersect instead of creating a chamfer line.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The default setting for the first distance is the last one
+ you have specified, and the second distance is the same as the first one. However,
+ you can reset the desired
+ chamfer distance.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic353_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To chamfer two objects
+ using the distance-distance method</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Chamfer
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type D (Distance).</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first chamfer
+ distance.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second chamfer
+ distance.</cmd>
+      </step>
+      <step>
+        <cmd>Select the first object to chamfer.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic353_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the second
+ object to chamfer.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Left: Select the first (A) and second (B) objects</p>
+      <p>Right: The chamfer is drawn, based on the first (C) and second (D) chamfer distances</p>
+    </result>
+  </taskbody>
+</task>

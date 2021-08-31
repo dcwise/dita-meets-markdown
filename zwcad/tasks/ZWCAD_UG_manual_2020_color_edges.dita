@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22456-65441F1-5A7A65A1E5963C9-09D9AD">
+  <title>Color Edges</title>
+  <shortdesc>You can assign a color to the
+ edges of 3D solids. The specified color of edges overwrites the color of the layer on which the edges are drawn.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic424_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To color an edge</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing &gt; Color Edges from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the edge(s) to color, andpress
+ Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a color.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

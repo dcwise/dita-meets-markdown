@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A12A4143-A11F835-1571E5362E9652B-DA2F6D">
+  <title>Package Files for Internet Transmission</title>
+  <shortdesc>With the
+ application of etransmit, you can accomplish transmitting drawing files
+ together with their associative files
+ through the Internet in forms of transmittal packages. The associative files
+ included in the transmittal package are xrefs,
+ fonts, raster images,
+ etc.</shortdesc>
+  <conbody>
+    <p>Generally, all of
+ the included files such as xrefs, raster images , and fonts will be ignored
+ when you sending drawings to others.
+ The receiver may not be able to display the transmitted drawing because of lacking
+ these associative files.
+ Using etransmit can help preventing
+ such circumstances and decrease the error probability to a certain
+ extent.</p>
+  </conbody>
+</concept>

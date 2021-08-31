@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22435-6836553-C1F15487F150A79-53A3B0">
+  <title>Using isometric snap</title>
+  <shortdesc>You can use the Isometric Snap option to create two-dimensionalisometric drawings. With the isometric option, you are simply drawing a simulated three-dimensional
+ view on a 2D plane, much the same as you might draw on a piece of paper.
+ Do not confuse isometric drawings
+ with three-dimensionaldrawings. You create three-dimensionaldrawings in three-dimensionalspace.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The isometric
+ option always uses three preset planes, which are denoted as left, right, and top.</p>
+      <p>You cannot alter
+ the arrangement of these planes. If the snap angle is 0, the three isometric
+ axes are 30 degrees, 90 degrees, and 150 degrees.</p>
+      <p>When you check
+ the Isometric Snap option and select an isometric plane, the snap intervals,
+ grid, and crosshairs align with the
+ current plane. The grid is always shown as isometric and uses y coordinates to calculate
+ the grid spacing.
+ If you click the Draw Orthogonal check box, the programrestricts the drawing of entities
+ to the current isometric plane.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic123_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn the Isometric Snap And Grid option on</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Drafting
+ Settings from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Snap and Gridtab.</cmd>
+      </step>
+      <step>
+        <cmd>In Snap Type tab, select the Isometric Snap check box.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic123_image003.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>Tip </b>To choose a different isometric
+ plane and toggle
+ between three isometric planes, press F5.</p>
+    </result>
+  </taskbody>
+</task>

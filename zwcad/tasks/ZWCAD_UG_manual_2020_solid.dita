@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA1A4358-515C11F-14A81052A7E5392-7B2F90">
+  <title>SOLID</title>
+  <shortdesc>With the Plane
+ tool, you can draw rectangular, triangular, or quadrilateral areas filled with
+ a solid color. The default method
+ is to specify the corners of the plane. After you specify the first two
+ corners, the plane is displayed as
+ you specify the remaining corners. The program prompts you for the third point and then the fourth
+ point.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic641_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a quadrilateral plane</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Surfaces &gt; 2D Solid from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the thirdpoint.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the fourth point.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the command, press Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic641_image002.png" />
+      </p>
+      <p>After you select the first two points (A) and (B), the sequence in which you select the third (C) and fourth (D) points determines the shape of the resulting
+ quadrilateral plane.</p>
+    </result>
+  </taskbody>
+</task>

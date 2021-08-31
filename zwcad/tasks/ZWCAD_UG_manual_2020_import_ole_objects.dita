@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A435-634C112-17A79E57CA3E52A-96C4A7">
+  <title>Import OLE Objects</title>
+  <shortdesc>Inserts information of other applications that support OLEobjects.</shortdesc>
+  <taskbody>
+    <context>
+      <p>ZWCAD provides two ways of inserting OLE objects: embed and link. With the different that a link can be updated whenever
+ you want, embedding is unable to update because
+ of lack of links.</p>
+      <p>You can use the following
+ method to control
+ the visibility of the inserted
+ OLE objects:</p>
+      <p>Insert OLEobjects to the drawing
+ on thecurrent layer. Turn off the layer or freeze it to disable displaying OLE objects in the layer.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic739_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To embed an object froman existing file within ZWCAD</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose <b>Insert &gt; OLE Object </b>from
+ the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the <b>Insert Object </b>dialog box, click <b>Create From File</b>.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the file by doing one of the following:</cmd>
+        <substeps>
+          <substep>
+            <cmd>Type a path and file name in the File box.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click <b>Browse </b>to select a file.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Select Display
+ As Icon if you want that program's icon to appear in the drawing instead
+ of the data.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic739_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a new embedded object within ZWCAD</p>
+      <ol>
+        <li>Choose <b>Insert &gt; OLE Object
+ </b>from the main menu.</li>
+        <li>In the <b>Insert Object </b>dialog box, click <b>Create New</b>.</li>
+        <li>From the <b>Object Type </b>list,
+ select the type of object
+ youwant to create,
+ and then click<p>OK.</p></li>
+        <li>The program for creating
+ that object opens within ZWCAD.</li>
+        <li>Create the object in the other program.</li>
+        <li>Choose <b>File &gt; Exit </b>to
+ close the program.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

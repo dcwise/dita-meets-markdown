@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A436-613C115-4A87955A71E57CD-8619C7">
+  <title>Limits for Inserting OLE Objects</title>
+  <shortdesc>ZWCAD set some
+ limits when linking or embedding the OLEobjects. All these inherent limits are
+ used for designing OLE objects.</shortdesc>
+  <conbody>
+    <p>OLE objects
+ are not displayed or plotted
+ on xrefs or block references.</p>
+    <p>Modifications made for plotting rotation are
+ not reflected on OLE objects when using Microsoft Windows systemplotter. Change plot orientation in Windows Plotting
+ systemconfiguration dialog box.</p>
+    <p>ZWCAD limits the size of the spreadsheet that is imported as OLE object. If
+ import too large a spreadsheet, you can reduce the column width and row
+ height, and reduce the font size or partly paste the spreadsheet so as to divide the OLE objects into several
+ objects in smaller size. Before importing OLE objects into other
+ applications, use Windows
+ copyclip viewer to preview OLE object.</p>
+  </conbody>
+</concept>

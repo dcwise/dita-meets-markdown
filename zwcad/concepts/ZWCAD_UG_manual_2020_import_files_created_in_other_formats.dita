@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72A4566-1434111-4A81153597CD8E1-664247">
+  <title>Import Files Created in Other Formats</title>
+  <shortdesc>To open and use drawings or graphics generated with other applications in thespecified format.
+ ZWCAD supports mutual
+ conversion between DXF and WMF format. Use the commands relative to each file types to convert
+ formats among them. You can also convert
+ formats by opening
+ or import files.</shortdesc>
+  <conbody>
+    <p>ZWCAD supports
+ the input file format containing: DXF, DWG, DWT, SAT, WMF. In which, DWG, DXF, DWT are imported using Open command.
+ DXF refers to drawing exchange format, DWG refers to standard drawing file, and DWT refers to template drawing
+ file. The additional SAT and WMF file should be imported
+ by relevant commands.</p>
+  </conbody>
+</concept>

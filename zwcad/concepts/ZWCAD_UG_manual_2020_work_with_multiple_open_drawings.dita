@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB224568-6E45C41-F2154BC525C7442-322EE8">
+  <title>Work with Multiple Open Drawings</title>
+  <shortdesc>You can open
+ multiple drawings at one time in ZWCAD. There are several methods for switching
+ a drawing to another.</shortdesc>
+  <conbody>
+    <ul>
+      <li>Acting the drawing
+ by clicking it.</li>
+      <li>Uses shortcut keys of &lt;Ctrl+F6&gt; or &lt;Ctrl+Tab&gt;.</li>
+      <li>You can change the display
+ styles to Cascade, Tile Vertically or Tile Horizontally from the Window menu. You can also use Arrange
+ Icons to align icons if there are several minimum drawings.</li>
+      <li>You can quickly reference
+ other drawings to copy and paste between drawings. You can also use Match command to copy properties from objects
+ in one drawing to objects in another drawing. Object snaps, the Copy with Basepoint (COPYBASE) command, and the
+ Paste to Original Coordinates (PASTEORIG) command is used to ensure
+ accurate placement, especia
+ ly when copying objects fromone
+ drawing to another.</li>
+    </ul>
+  </conbody>
+</concept>

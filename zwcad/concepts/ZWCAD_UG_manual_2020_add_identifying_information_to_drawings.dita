@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB22A458-36E1453-CA11A7B1355C714-531228">
+  <title>Add identifying information to drawings</title>
+  <shortdesc>You can find the specified drawings more easily by
+ adding keywords or other information to them
+ in the <b>Drawing Properties </b>dialog boxopened fromthe File menu. The drawing properties such as title,
+ author, subject, keyword or
+ other important information can help identify drawings more easily. You can
+ also assign hyperlink addresses and multiple customproperties to your drawings.</shortdesc>
+  <conbody>
+    <p>The Drawing Properties dialog boxcontains the following drawing
+ information:</p>
+    <ul>
+      <li>
+        <b>General</b>. It contains the drawing type, location, size and other information.
+ This information is stored
+ by the operatingsystemand can be read-only. You can change these values only
+ through Windows Explorer.</li>
+      <li>
+        <b>Summary</b>. This tap contains
+ the drawing properties such as author,
+ title, and subject.</li>
+      <li>
+        <b>Statistics</b>. The drawing size, created
+ date and latest modified date and other information are displayed in this tap.</li>
+      <li>
+        <b>Custom</b>. Specifies the customfile
+ properties.</li>
+    </ul>
+  </conbody>
+</concept>

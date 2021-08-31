@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA145865-E3CA187-DA71EA11852718A-A05748">
+  <title>Limit the Size of Arrays</title>
+  <shortdesc>If there are a
+ large number of rows and columns for a rectangular array, the systemtakes a
+ long time to create
+ the copies. By default, the number of array elements generates by one command
+ is not over 100,000. The value is stored in the system variable MaxArray. It ranges
+ from 100 to 10000000. If you want to change the value of MaxArray, you must type
+ MaxArray with the capitalization shown.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

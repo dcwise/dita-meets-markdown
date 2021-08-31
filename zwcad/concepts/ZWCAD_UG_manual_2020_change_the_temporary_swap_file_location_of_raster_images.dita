@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA14686E-3CA1F15-815791E539B1327-9CACD7">
+  <title>Change the Temporary Swap File Location of Raster Images</title>
+  <shortdesc>The temporary swap
+ file is useful when you want to reduce the memory space that image file
+ occupies. Windows Temp folder is the
+ default saving path provided by the system, you can also specify a new Temporary
+ File Search Path in Files tab on Options dialog
+ box.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

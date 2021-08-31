@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7AA5636-5E145C4-11214A87155A791-E53571">
+  <title>Page Setups</title>
+  <shortdesc>Specify page
+ settings for the layout you create through Page Setup and Plot Setup dialog
+ box, controls whether to display
+ layout tab or Model tab. Page setup can be applied to other layouts once it's
+ saved with a given name.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

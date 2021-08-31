@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2A356-86543C4-A15A875679E535A-42F37A">
+  <title>Chamfer by Specify Length and Angle</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic355_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can chamfer objects by
+ specifying a start point and an angle. To chamfer two objects using the distance-angle method</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Chamfer
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type A (Angle).</cmd>
+      </step>
+      <step>
+        <cmd>Specify chamfer length on the first line.</cmd>
+      </step>
+      <step>
+        <cmd>Specify chamfer angle from the first line.</cmd>
+      </step>
+      <step>
+        <cmd>Select the first object
+ to chamfer.</cmd>
+      </step>
+      <step>
+        <cmd>Select the second object to chamfer.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic355_image002.png" />
+      </p>
+      <p>Left: Select the first (A) and second (B) objects</p>
+      <p>Right: The chamfer is drawn, based on the distance (C) and the angle (D)</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7124686-51454A1-F158325E57444FA-939F28">
+  <title>Display Lineweights in Model Space</title>
+  <shortdesc>In model space, a 0-value
+ lineweight is displayed as a pixel, and other lineweights are displayedwith a</shortdesc>
+  <conbody>
+    <p>pixel width proportional to their real-unit
+ value.</p>
+    <p>In model space,
+ the lineweight display does not change with the zoomfactor. A lineweight value
+ that is represented by a width of
+ several pixels is always displayed using the same number of pixels. Unless you use LWEIGHT command to open Lineweight
+ Settings dialog boxand change the display scale, the lineweight display scale keeps unchanged. In addition, the
+ lineweight display scale does not af ect the
+ lineweight plotting value.</p>
+    <p>Lineweight that are
+ represented more than one pixels increase regeneration time. Turning off the display
+ of lineweight optimizes
+ the performance of the program.</p>
+    <p>In model space, press LWT button on the status toolbar to turn thelineweightdisplay on and off.</p>
+  </conbody>
+</concept>

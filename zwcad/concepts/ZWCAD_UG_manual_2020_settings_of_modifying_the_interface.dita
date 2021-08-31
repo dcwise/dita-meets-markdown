@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B22438-36543C4-AF2154A87D1C55C-4145D9">
+  <title>Settings of modifying the interface</title>
+  <conbody>
+    <ul>
+      <li>Automatic Save (Open and Save
+ tab) — Save your drawing at specified time intervals. To use this option, in the Options dialog box,
+ Open and Save tab, select Automatic Save and enter the interval in minutes.</li>
+      <li>Color Scheme (Display tab): Change interface
+ theme fromdark to light.</li>
+      <li>Color (Display tab) — Specify the background colors used in
+ the layout and Model tabs and the
+ color used
+ for prompts and crosshairs.</li>
+      <li>Grip color (Selection tab): Change color of different types of grip.</li>
+      <li>Font (Display tab) — Change
+ the fonts used in the ZWCAD window and in the text window. This setting does not affect
+ the text in your drawings.</li>
+      <li>Search Path (Files tab) — Set
+ the search path ZWCAD uses to find drawing support files such as text fonts,
+ drawings, linetypes, and hatch patterns.</li>
+    </ul>
+  </conbody>
+</concept>

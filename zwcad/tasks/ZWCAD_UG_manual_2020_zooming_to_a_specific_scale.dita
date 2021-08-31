@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A122435C-4A21548-7915C742CB9E793-9DAD4D">
+  <title>Zooming to a specific scale</title>
+  <shortdesc>You can increase
+ or decrease the magnification of your view by a precise scale factor measured
+ relative to the overall size of the drawing or in relation
+ to the current display. When you change
+ the magnification factor, the portion of the drawing located
+ at the center of the current viewport remains centered on the screen.</shortdesc>
+  <taskbody>
+    <context>
+      <p>To change the magnification
+ of the view relative to the overall
+ size of the drawing, type a number representing
+ the magnification scale factor. For example, if you type a scale factor of 2,
+ the drawing appears at twice its
+ original size. If you type a magnification factor of .5, the drawing appears at
+ half its original size.</p>
+      <p>You can also
+ change the magnification of the drawing relative to its current magnification
+ by adding an x after the magnification scale factor. For example, if you type a scale factor of 2x, the drawing changes to
+ twice its current size. If you type a magnification factor of .5x, the drawing
+ changes to half its cur ent size.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic79_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To zoom to a specific scale relative to the current
+ display</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose View &gt; Zoom &gt; Scale from the mainmenu. Or On the Zoom toolbar,
+ click the Zoom Scale. Or</cmd>
+        <info>
+          <p>Type ZOOM in the commandline, choose
+ the Scale option and then press Enter.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Type the scale factor,
+ followed by an x (such
+ as 2x).</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

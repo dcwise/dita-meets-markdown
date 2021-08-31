@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A22A43-6865E14-3C4A11F1581C579-E35971">
+  <title>Lock the Scale of Layout Viewports</title>
+  <shortdesc>Some proportions
+ maybe required for displaying details of different hierarchy when creating
+ viewports. If you want to scale the
+ viewport once you have set the viewport scale, the scaling factor changes along with the viewport scales. You can lock
+ the scale factor before scaling to retain the viewport proportion. Locks the scale set in the selected viewport.
+ You can modify the geometric drawings in the current viewport without changing the
+ viewport scale once the scale is locked. While unlocking viewport scale again will disable
+ many commands used for viewing
+ such as VPOINT, PLAN, and VIEW.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

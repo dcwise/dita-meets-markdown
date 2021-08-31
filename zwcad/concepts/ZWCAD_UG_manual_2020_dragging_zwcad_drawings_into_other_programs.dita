@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA122A35-3613A15-4A71AA7E5357CAE-B5AA47">
+  <title>Dragging ZWCAD drawings into other programs</title>
+  <shortdesc>If the other
+ program in which you want to include ZWCAD drawings is compatible with ActiveX,
+ an alternative
+ to pasting drawings with menu commands is to drag drawing file icons from
+ Windows Explorer into the other document. Dragging and dropping drawings does not
+ use the Clipboard, so data on the Clipboard is not affected.</shortdesc>
+  <conbody>
+    <p>When you drag a
+ ZWCAD drawing file from Windows Explorer, you link or embed the entire drawing in the other
+ document. When you drag the file,
+ the cursor changes
+ in response to the action
+ you take.</p>
+    <p>
+      <b>TIP </b>Before
+ you drag a drawing, position
+ the Windows Explorer
+ window and the other program's window so you can see the file icon and the document
+ in which you want to drop it.</p>
+    <p>To drag and embed drawings
+ into another document</p>
+    <p>Select
+ the icon for the drawing file, and then drag the drawing
+ into the document.</p>
+  </conbody>
+</concept>

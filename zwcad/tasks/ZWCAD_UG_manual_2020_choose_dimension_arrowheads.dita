@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A4-83515CA-F24A1DA91E3971C-9DE97F">
+  <title>Choose Dimension Arrowheads</title>
+  <shortdesc>You can control
+ the appearance and size of arrowheads or hook marks placed at the ends of
+ dimension lines.
+ Any changes you make affect the current dimension style. The appearance of the
+ selected arrowhead is displayed in the preview frame placed at the upper right
+ corner of the Modify Dimension Style or New Dimension
+ Style dialog box.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can specify
+ different arrowheads for both ends of a dimension line and for leader lines.
+ The First arrow is toward the first
+ extension line; The Second arrow is toward the second extension line. Blocks defined
+ in the drawing also display
+ in the three Arrowhead lists as user-definedarrows. You can usethese
+ blocks to create and assign your own arrowheads. The Arrow Size value determines the size of the arrowhead, measured in drawing
+ units. You can also use tick marks instead of arrowheads.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic490_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To choose an arrowhead</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Style from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Dimension Style Manager dialog
+ box, select the style you want to change and click Modify button.</cmd>
+      </step>
+      <step>
+        <cmd>In the Modify Dimension
+ Style dialog box, click the Lines and Arrows tab.</cmd>
+      </step>
+      <step>
+        <cmd>Make your selections under the Arrowheads.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Close to exit.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>You can also specify
+ leader arrow types using the DIMLDRBLK systemvariable.</p>
+    </result>
+  </taskbody>
+</task>

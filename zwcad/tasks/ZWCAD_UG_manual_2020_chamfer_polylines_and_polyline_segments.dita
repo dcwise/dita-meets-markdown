@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A335-E1453C4-124A7D1555A791E-35A47A">
+  <title>Chamfer Polylines and Polyline Segments</title>
+  <shortdesc>You can create a
+ chamfer line for two segments of a polyline that are adjacent or separated by
+ no more than one arc segment.
+ As shown in the illustration, if they separated
+ by an arc segment, the arc is deleted and replaced
+ with a chamfer line.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic356_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic356_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To chamfer
+ selected vertices in a polyline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Chamfer
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the polyline along the segment
+ where you want to begin the chamfer.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic356_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the polyline
+ along the segment
+ where you want to end the chamfer.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the polyline
+ along the (A) and (B) segments</p>
+    </result>
+  </taskbody>
+</task>

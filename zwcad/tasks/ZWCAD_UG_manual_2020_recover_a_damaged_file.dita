@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B122A4-35845CA-1F5487B1D55C452-3322E8">
+  <title>Recover a Damaged File</title>
+  <shortdesc>You can recover
+ some or all of data by reverting to a backup file or using commands to find and
+ cor ect errors if a drawing
+ file is damaged.
+ A drawing file may be damaged by a hardware
+ failure, power outage,
+ and systemcrash. You can minimize
+ loss by saving
+ files frequently.</shortdesc>
+  <taskbody>
+    <context>
+      <p>ZWCAD can recover a slightly damaged
+ drawing file while opening it.</p>
+      <p>If a drawing is
+ damaged, you can use RECOVER command to check and attempt to open it. Then uses AUDIT command
+ to find and correct errors.</p>
+      <p>Though ZWCAD can recover
+ a damaged drawing
+ file, it is not sure that the recovery drawing is the same exactly as the original one. You had
+ better create a backup file if the drawing is important. On the Open and Save tabof Options dialog box, you
+ can specify the backup file are created when you save drawings and set the proper interval time for
+ saving. Then a backup copy file with a ".bak" extension is created when you save the named drawing once
+ again. After that, a backup file is always updated while you executing the command SAVE or SAVEAS.</p>
+      <p>If ZWCAD exits
+ unexpectedly, it attempts to rename the current backup file in order to avoid
+ covering the original
+ one.</p>
+      <p>You can recover a drawing file by saving a ".bak" file to a ".dwg" file.</p>
+      <p>Files can become
+ damaged for many reasons. For example, if you are working on a drawing during a power outage, a systemcrash, or a hardware
+ failure, your drawing file may become damaged. ZWCAD allows you to open and
+ check damaged files to attempt
+ file recovery.</p>
+      <p>Recovering a file attempts to open one of the following file types:</p>
+      <ul>
+        <li>Standard drawing files with a ".dwg" extension.</li>
+        <li>Drawing Exchange Format
+ files with a ".dxf" file extension.</li>
+        <li>Drawing templates with a ".dwt" file extension.</li>
+      </ul>
+      <p>You can also audit any open file to check it for errors.
+ You specify whether you want ZWCAD to fixany errors that are found automatically. ZWCAD
+ fixes as many errors as possible and any errors that cannot be fixed are reported as "Ignored" in the Prompt
+ History window.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic59_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To open a damaged
+ file</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Drawing
+ Utilities &gt; Recover
+ from the main menu</cmd>
+      </step>
+      <step>
+        <cmd>In Files of Type, choose the type of file you want to recover.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the directory containing the damaged file.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the damaged file youwant to recover.</cmd>
+      </step>
+      <step>
+        <cmd>Click Open.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic59_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To check errors for a drawing
+ file</p>
+      <ol>
+        <li>To choose from the opened drawing, click on
+ File &gt; Drawing Utilities &gt; Audit from the main menu.</li>
+        <li>Input Y or N to
+ determine whether to fix the errors
+ that are automaticallyfound by ZWCAD.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

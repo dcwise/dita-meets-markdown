@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A3-55E4C11-F254A75A791E1D7-AEC748">
+  <title>Move Objects</title>
+  <shortdesc>You can move
+ objects to a new place without changing the objects. You can type a coordinate
+ value for the new position in the Properties palette.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The following image shows how to move an object. Perform
+ MOVE command and then select
+ an object</p>
+    </context>
+    <steps>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic336_image001.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ to move; specify a base point (2)
+ and Displacement point (3). The object is moved from point 2 to the point
+ 3.<p>In addition to specifying a base point or displacement point on the drawing, you can also type coordinate value on the command line. The Vector
+ option is also used to define a new position.</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/ZWCAD_UG_manual_2020_topic336_image002.png" /></entry></row></tbody></tgroup></table>
+ To move entities</p></info>
+        <substeps>
+          <substep>
+            <cmd>Choose Modify &gt; Move from the main menu.</cmd>
+          </substep>
+          <substep>
+            <cmd>Select the objects, and then press Enter.</cmd>
+          </substep>
+          <substep>
+            <cmd>Specify the base point.</cmd>
+          </substep>
+          <substep>
+            <info>
+              <table>
+                <tgroup cols="1" colsep="1" rowsep="1">
+                  <colspec colname="c1" align="left" />
+                  <tbody>
+                    <row>
+                      <entry colname="c1">
+                        <fig>
+                          <image href="../graphics/ZWCAD_UG_manual_2020_topic336_image003.png" />
+                        </fig>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+ Specify the displacement point.</info>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+    <result>
+      <p>To move an object, select it (A), and then specify the base point (B) and the displacement point (C)</p>
+      <p>You can also move objects
+ using grips. To move an object through
+ dragging its grips, select the object to get its grips highlighted, and then click
+ the desired grip and drag it to a new position. The grip you select depends on the type of object you're
+ moving. For example, to move a line object, select the midpoint grip. To move a curved object, such as an arc,
+ circle, or ellipse,
+ select the center
+ point grip. Not all objects
+ can be moved
+ using grips.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic336_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To move an object using grips</p>
+      <ol>
+        <li>Select the object.</li>
+        <li>Clicka grip to select it.</li>
+        <li>Drag the object to where you want to relocate it.</li>
+        <li>Clickto release.</li>
+      </ol>
+      <p>When all
+ endpoints of selected objects are
+ within a selection window, the
+ STRETCH command is equivalent to the MOVE command. The Ortho or Polar Tracking
+ can help you move objects
+ along to the exact direction.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic336_image004.png" />
+        </fig>
+      </p>
+      <p>From the picture above,
+ the Door is contained entirely
+ in the selection window, so the door can be moved to the specified
+ location. And the wall lines are only partially within the selection
+ area, as a result, the</p>
+      <p>door moves with the wall.</p>
+      <p>You can specify the distance
+ the objects to move while the Ortho or Polar
+ Tracking mode is on.</p>
+    </result>
+  </taskbody>
+</task>

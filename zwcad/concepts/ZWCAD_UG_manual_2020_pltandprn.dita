@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A12A4366-54C4125-165A5A9E5594248-3F0656">
+  <title>PLT&amp;PRN</title>
+  <shortdesc>With the PLTPLOT
+ command, you can performbatch plot function to print multiple PLT or PRN files at one time in a specified printer.</shortdesc>
+  <conbody>
+    <p>Select PLT files
+ or PRN files by clicking the Add Sheets button on the Batch Plot dialog boxto set
+ the files you want to plot. Besides,
+ you can also save the files listed in the current plot file list as a
+ ".TXT" file by using the Save Sheet List button on the Batch Plot dialog box, and then you can load the saved.TXT file to add all the files
+ it includes to the current list in the future.</p>
+    <p>The plot list
+ displays name and path of the file, the PLT file or PRN file will be displayed
+ together with its saving
+ path. While the TXT file will be displayed without
+ its file path.</p>
+    <p>Before batch plotting, you can set all the files in the plot list, and also selective
+ plot part of the files from the plot list.</p>
+  </conbody>
+</concept>

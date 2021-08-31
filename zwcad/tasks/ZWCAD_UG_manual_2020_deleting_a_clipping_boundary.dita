@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A46-8365143-C4A11F47B1D45A7-9E5359">
+  <title>Deleting a clipping boundary</title>
+  <shortdesc>If you no longer need a clipping
+ boundary for an external reference, you can delete it.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic597_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To delete a clipping
+ boundary</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Clip&gt;
+ Xref from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the external references to clip. If desired, you canalsoselect blocks.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Choose D (Delete), and then
+ press Enter.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

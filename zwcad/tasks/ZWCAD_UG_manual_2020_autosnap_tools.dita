@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7124356-836453C-A11F215A8715B59-153CB0">
+  <title>AutoSnap Tools</title>
+  <shortdesc>The automatic
+ snap tool is a visual aid tool for snapping that help you see and use object
+ snaps more efficiently. When any
+ object snap is on, the systemdisplays a marker and a tooltip when you move your cursor on over a snap point. AutoSnap
+ turns on automatically when an object snap is on. By default, AutoSnap marker, tooltip and magnet are
+ on. You can change the settings of AutoSnap on the Options dialog box.</shortdesc>
+  <taskbody>
+    <context>
+      <p>AutoSnap consists
+ of the following snap tools:</p>
+      <ul>
+        <li>Marker. The object snap
+ location is displayed when the cursor moves over or near an object. Marker
+ shape is determined by the snap
+ it is marking.</li>
+        <li>Tooltip. Indicates which part of the object
+ you are snapping to in a flag at the cursor location.</li>
+        <li>Magnet. Attracts and locks the
+ cursor onto the nearest detected snap points. Provides a visual that is similar
+ to snapping to a grid.</li>
+        <li>Aperture box. Surrounds the
+ crosshairs and defines an area within which, when you move the cursor, the system evaluates objects for
+ object snaps. You can determine the aperture box is displayed or not,
+ and the aperture
+ boxsize can be changed too.<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/ZWCAD_UG_manual_2020_topic128_image001.png" /></fig></entry></row></tbody></tgroup></table>
+ To change the size of the object snap target box</p><ol><li>Choose Tools &gt; Options
+ from the mainmenu.</li><li>Switch to the Drafting
+ tab.</li><li>Under Aperture Size, slide to adjust
+ the desired size.</li><li>Click OK.</li></ol></li>
+      </ul>
+    </context>
+  </taskbody>
+</task>

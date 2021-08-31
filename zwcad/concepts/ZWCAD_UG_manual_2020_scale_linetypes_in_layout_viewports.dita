@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A22A35-365E453-C4A11F28855A791-E53971">
+  <title>Scale Linetypes in Layout Viewports</title>
+  <shortdesc>Scaling linetypes
+ is enabled to be manipulated based on both drawing units and paper space.</shortdesc>
+  <conbody>
+    <p>System variable
+ PSLTSCALE is used to setup linetype scaling factor for objects displayed in different proportion. If PSLTSCALE is set to 1,
+ current linetype is set to dash line, and then draw lines in paper space. Create viewport with the proportion
+ of 1x, set this layout viewport as current and then draw lines using the dashes
+ linetype. These two dashes
+ are of the same appearance. If the viewport scaling
+ factor is set to 2x, then the linetype scaling factor of dashes
+ are consistent both in layout and layout viewports.</p>
+    <p>Scaling drawing
+ space units if the systemvariable PSLTSCALE is on, the linetype scale is
+ determined by viewport scale. If you
+ set systemvariable TILEMODEto 0, dashes length of
+ objects in model space is based on
+ drawing units. Linetypes keep the same even if various scaling factors are used
+ for cur ent views. Dash lines share the
+ same length with that of paper space, thus, you can still use LTSCALE and CELTSCALE to control the lengthof dashes.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic686_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ The following figure shows:
+ linetype scale on the left has been adjusted to dashes scaled to paper space, regardless of the scale of views.
+ The figure on the right matches
+ the scale of linetype
+ with each view.</p>
+  </conbody>
+</concept>

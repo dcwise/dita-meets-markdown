@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7124368-6553C12-A8C45274452EC62-ED11B5">
+  <title>Specify Command Options</title>
+  <shortdesc>Once you have
+ entered a command on the command line, ZWCAD displays either a set of options
+ or a dialog box. To choose a
+ different option, enter one of the options in the brackets (either uppercase or lowercase
+ letter is OK), and then press <b>ENTER or SPACEBAR</b>.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

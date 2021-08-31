@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12A43-6865E43-C4A11F2547A155C-4145D9">
+  <title>Displaying commands on a shortcut menu</title>
+  <shortdesc>Shortcut menus provide
+ quick access to specific commands. A shortcut menu displays when you right- click an object, toolbar, status bar, the
+ Model tab name, or a Layout tab name. The selections presented in the shortcut menu depend on what you clicked.</shortdesc>
+  <conbody>
+    <p>When you right-click
+ a toolbar, the programdisplays a shortcut menu that lets you toggle the command bar, status bar, and various
+ toolbars on and off. If you select one or more objects
+ and then right click, the programdisplays a shortcut
+ menu fromwhich you can choose
+ a command to modify the selected objects.
+ To display a shortcut menu from which you can choose an object snap,
+ press and hold down the Shift key, and then right-click anywhere within the drawing window.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B23654-3C4A112-5795257141424C2-1E1E9D">
+  <title>Zoom in Real Time</title>
+  <shortdesc>With the Real-time option, you zoomdynamically by moving your pointing device
+ up or down. By right- clicking, you can display
+ a shortcut menu with additional viewing options.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic77_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To zoom in real time</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose View &gt; Zoom
+ &gt; Realtime from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Hold the left mouse
+ button, then drag the cursor.</cmd>
+      </step>
+      <step>
+        <cmd>To zoom in, move the cursor
+ up the screen; to zoom out, move the cursor
+ down the screen.</cmd>
+      </step>
+      <step>
+        <cmd>To stop zooming, release
+ the mouse button.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic77_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To zoom using a mouse with a wheel</p>
+      <ol>
+        <li>Rotate the wheel away from you to zoom in or toward youto zoom out.</li>
+        <li>Each rotation
+ of the wheel away from youzooms out .8 times; each rotationtoward you zooms in 1.25 times.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

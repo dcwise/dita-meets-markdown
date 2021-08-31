@@ -2,6 +2,13 @@
 <task xml:lang="en-us" id="AB5AB23B-5756424-41F214A1523745A-45B5CB">
   <title>企业微信后台配置可信域名 （必须）</title>
   <shortdesc>为确保应用可以正常访问，需要在企业微信后台配置可信域名。 遵循以下步骤，配置可信域名：</shortdesc>
+  <prolog>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-08-23"/>
+    </critdates>
+  </prolog>
   <taskbody>
     <context>
     </context>
@@ -108,17 +115,22 @@
             </info>
           </substep>
           <substep>
-            <cmd>单击图中下方的<b>申请校验域名</b>。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>勾选用于 OAuth2.0 回调的可信域名是否校验。</p></required-cleanup></cmd>
+            <cmd>单击图中下方的<b>申请校验域名</b>。</cmd>
+          </substep>
+          <substep>
+            <cmd>选用于 OAuth2.0 回调的可信域名是否校验。</cmd>
             <info>
               <p>
-                <table>
+                <table id="table_opl_yft_rqb">
                   <tgroup cols="1" colsep="1" rowsep="1">
-                    <colspec colname="c1" align="left" />
+                    <colspec colname="c1" align="left"/>
                     <tbody>
                       <row>
                         <entry colname="c1">
-                          <fig>
-                            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic20_image012.png" />
+                          <fig id="fig_ppl_yft_rqb">
+                            <image
+                              href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic20_image012.png"
+                              id="image_qpl_yft_rqb"/>
                           </fig>
                         </entry>
                       </row>

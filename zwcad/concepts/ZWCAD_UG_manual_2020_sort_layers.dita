@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12238-365E153-CA1F15715A7E314-D5A7D1">
+  <title>Sort Layers</title>
+  <shortdesc>From the Layer
+ Properties Manager, you can click the column heading to sort layers by their
+ properties in that column. The properties include layer name,
+ visibility, color, lineweight, plotted style and linetype. And layer names can be sorted in descending or ascending alphabetical/numerical order.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

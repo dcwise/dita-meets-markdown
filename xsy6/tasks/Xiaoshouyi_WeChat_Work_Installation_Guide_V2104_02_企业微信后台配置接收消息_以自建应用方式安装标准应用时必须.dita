@@ -2,6 +2,13 @@
 <task xml:lang="en-us" id="AA7478B5-7564244-71F516525371554-FAF969">
   <title>企业微信后台配置接收消息 （以自建应用方式安装标准应用时必须）</title>
   <shortdesc>接收消息需要在企业微信后台配置，分为以下几个步骤：</shortdesc>
+  <prolog>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-08-23"/>
+    </critdates>
+  </prolog>
   <taskbody>
     <context>
     </context>
@@ -17,13 +24,9 @@
         </cmd>
       </step>
     </steps>
-    <result>
-      <required-cleanup>
-        <p id="_bookmark58">
-          <b>[heading h6 could not be placed here]: </b>在销售易系统获取配置所需参数</p>
-      </required-cleanup>
-      <p>在配置之前，需要先获取以下几个参数的内容：URL、IOS Bundle
- ID、安卓应用签名、安卓应用包名。</p>
+    <result> 
+        <p id="_bookmark58">在销售易系统获取配置所需参数</p>
+        <p>在配置之前，需要先获取以下几个参数的内容：URL、IOS Bundle ID、安卓应用签名、安卓应用包名。</p>
       <p>遵循以下步骤，获取以上几个参数的内容：</p>
       <ol>
         <li>登录销售易系统，在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</li>
@@ -50,10 +53,10 @@
           </tgroup>
         </table>
       </p>
-      <required-cleanup>
+
         <p id="_bookmark61">
-          <b>[heading h6 could not be placed here]: </b>在企业微信后台配置相关参数</p>
-      </required-cleanup>
+在企业微信后台配置相关参数</p>
+      
       <p>遵循以下步骤，在企业微信后台配置相关参数：</p>
       <ol>
         <li>企业微信管理员登录企业微信后台管理平台 https://work.weixin.qq.com。</li>

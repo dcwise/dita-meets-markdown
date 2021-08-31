@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7AA366E-1453411-24A7155A791ADA7-BA77D1">
+  <title>Filter and Sort the List of Layers</title>
+  <shortdesc>Limits the display of layer name listed in the
+ Layer Properties Manager and sorts them by name or by properties, such as color and visibility.</shortdesc>
+  <conbody>
+    <p>You can use a layer filter limits the
+ display of layer names in the Layer Properties Manager. The following properties can be included
+ in the filter definition:</p>
+    <ul>
+      <li>Whether layers are set to be plotted</li>
+      <li>Layer names, colors,
+ linetypes, lineweights, and plot styles</li>
+      <li>Whether layers are locked or unlocked</li>
+      <li>Whether layers are turned on or off</li>
+      <li>Whether layers are frozen or thawed in the current viewport or all viewports</li>
+    </ul>
+    <p>When setting filter conditions, you can also use wild-card characters to filter names
+ by name. For example, typing nare* displays layer name preceded with nare,
+ just click Add button if the filter name has been specified.</p>
+    <p>You can
+ also use invert filter to display layer names that
+ do not be included filter
+ definition. For example,</p>
+    <p>if all the site plan information
+ of a drawing is contained in multiple layers, which include the word lite as part of the layer name, you should first define the filter by way
+ of specifying filter name and inputting</p>
+    <p>*lite* in layer name option, and then click Invert Filter option to display all the information excluded</p>
+    <p>from the site plan information.</p>
+    <p>Name Layer Filters lists default filters and other saved
+ filters created in the current drawing. The three default filters are shown
+ as follows:</p>
+    <ul>
+      <li>Show all layers.</li>
+      <li>Show all used layers.</li>
+      <li>Show all Xref_dependent layers.</li>
+    </ul>
+    <p>The newly created filters are displayed in the
+ Name Layer Filters at the Layer Properties Manager. These filters are saved with
+ the drawing.</p>
+  </conbody>
+</concept>

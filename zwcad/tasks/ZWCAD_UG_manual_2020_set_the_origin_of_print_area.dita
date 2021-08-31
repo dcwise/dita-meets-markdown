@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A6835-E534A12-147945A9535AA44-654E17">
+  <title>Set the Origin of Print Area</title>
+  <shortdesc>You can specify
+ the position of the drawing to be plotted on a paper by entering a positive or
+ negative value in the X and YOffset boxes.
+ Select Center on Paper to locate the drawing at the center
+ of the paper. The offset
+ value makes a compensation to the page pitch by aligning the left
+ lower corner of the
+ title bar with that of the drawing paper. The offset is usually negative,
+ determined by measuring the distance between the page edge and plot information.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic702_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To specify the print
+ area origin</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>If necessary, click the desired Layout tabor the Model tab.</cmd>
+      </step>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following in the Plot Offset area:</cmd>
+      </step>
+      <step>
+        <cmd>To center the specified
+ print area on the printed page, select the Center the Plot check box.</cmd>
+      </step>
+      <step>
+        <cmd>To specify anorigin for the print
+ area, type the X and Y coordinates.</cmd>
+      </step>
+      <step>
+        <cmd>Select Save Changes to Layout, andthen
+ click Applyto Layout.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

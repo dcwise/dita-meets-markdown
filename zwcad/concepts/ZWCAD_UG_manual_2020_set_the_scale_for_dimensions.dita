@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A45-3615A15-7BAAE559716D8ED-73620D">
+  <title>Set the Scale for Dimensions</title>
+  <shortdesc>Set the scale for dimensions. Setting dimension
+ scale depends on the method you use to lay out and plot drawings.</shortdesc>
+  <conbody>
+    <p>Dimension scale
+ has effects on the size of dimension geometry relative to the objects in the
+ drawing. In addition to text height
+ and arrowhead size, dimension scale affects offsets in dimension as well, such
+ as the extension line origin
+ offset. When you create dimensions, it's recommended to set the size and of set to values that represent
+ their actual plotted size. However,
+ the tolerances, measured
+ lengths, coordinates, and angles
+ cannot be applied
+ to the overall
+ scale factor.</p>
+    <p>The method you lay out your
+ drawing determines how to set the dimension scale. The method of creating
+ dimensions in a drawing layout
+ is shown as follows:</p>
+    <p>Dimension in
+ model space for plotting in model space. If you want to create dimensions that
+ are scaled correctly for plotting,
+ you have to set the systemvariable DIMSCALEto the inverse of the desired plot scale.
+ For example, if the plot scale is 1/4, you have to set DIMSCALEto 4.</p>
+    <p>Dimension in
+ model space for plotting in paper space. If you want to create dimensions that
+ are scaled automatically for display
+ in a paper space layout, you have to set the DIMSCALEto 0. This method is useful when you encounter the following
+ situations: the dimensions in a drawing need to be referenced by other drawings (xrefs); when you create
+ isometric dimensions in 3D isometric views. To prevent the dimensions in one layout viewport
+ frombeing displayed in other layout viewports, it's recommended to create
+ a dimensioning layer for each layout viewport
+ that is frozen in all other layout
+ viewports.</p>
+    <p>Dimension in
+ layouts. You can create dimensions in paper space by selecting model space
+ objects or by specifying object snap locations on model space objects. The dimensions created
+ in a paper space layout
+ do not need additional scaling: there is no need to change the default value of
+ DIMLFAC and DIMSCALE.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A2368365-145C112-A7B175A5791E535-947F0C">
+  <title>Datum Reference Frames</title>
+  <shortdesc>A datumreference
+ consists of values and modifying symbols. A datumis a theoretically exact
+ geometric reference that measures
+ and verifies a theoretically exact point, axis, or plane. The system provides
+ up to three datum reference letters and relative symbols followed by
+ the tolerance value. Two or three mutually
+ perpendicular planes performbest when you applying these datumreferences. They
+ are jointly called datumreference frame.</shortdesc>
+  <conbody>
+    <p>The following
+ illustration shows a datumreference frame that consists
+ of three perpendicular planes.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic539_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A36-836E3CA-15A7C15575A91E5-3ACFB2">
+  <title>Understanding how coordinate systems work</title>
+  <shortdesc>The Cartesian
+ coordinate systemuses three perpendicular axes —x, y, and z—to specify points
+ in three- dimensional space. Every
+ location in a drawing can be represented as a point relative to a (0,0,0) coordinate point, referred to as the origin. To draw a two-dimensional entity,
+ you specify horizontal</shortdesc>
+  <conbody>
+    <p>coordinate positions along the x-axis and vertical coordinate positions along the y-axis. Thus, everypoint on a plane can be represented as a coordinate
+ pair composed of an x coordinate and a y coordinate. Positive coordinates are
+ located above and to the right of the origin; negative coordinates are located
+ to the left and below
+ the origin.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic214_image001.png" />
+      </fig>
+    </p>
+    <p>The three perpendicular axes of the Cartesian coordinate system</p>
+    <p>When you work in two
+ dimensions, you need enter only the x and y coordinates; the programassumes that the z-axis value is always the
+ current elevation. When you work in three dimensions, however, you must also specify the z-axis value. When
+ you look at a plan view of your drawing (a view from above, looking down), the z-axis extends straight up out of the screen at a
+ 90-degree angle to the xy plane. Positive coordinates are located above the xy
+ plane, and negative coordinates are below the plane.</p>
+    <p>All ZWCAD
+ drawings use a fixed coordinate system, called the World Coordinate
+ System(WCS), and every point in a drawing has a specific x,y,z coordinate in the WCS. You can also define arbitrary coordinate systems located anywhere in three-dimensional space. These are called user coordinate systems and can be located anywhere
+ in the WCS and oriented
+ in any direction.</p>
+    <p>You can create as
+ many user coordinate systems as you want, saving or redefining them to help you construct three-dimensionalentities. By
+ defining a UCS within the WCS, you can simplify the creation of most three-dimensionalentities into combinations of two-dimensionalentities.</p>
+    <p>To help you keep
+ your bearings in the current coordinate system, the program displays a
+ coordinate systemicon. When you begin
+ a new drawing, you are automatically in the WCS, indicated by the letter W in the icon. When you display a drawing
+ in plan view, you see the coordinate system icon from the top, with the z-axis directed straight toward you. When you
+ display a three-dimensional drawing in a view other than plan view, the coordinate systemicon changes to reflect
+ your new viewpoint.</p>
+    <p>
+      <b>TIP
+ </b>The visible
+ portions of the axes are the positive
+ directions.</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic214_image002.png" />
+    </p>
+    <p>WCS icon Plan UCS icon 3D View WCS icon</p>
+  </conbody>
+</concept>

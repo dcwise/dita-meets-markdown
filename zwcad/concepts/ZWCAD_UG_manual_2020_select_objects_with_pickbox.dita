@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A14358-6E145CA-25A155A9E35A696-AE2C90">
+  <title>Select objects with pickbox</title>
+  <shortdesc>You can select objects
+ using a mouse or another pointing device. The mouse or other pointing device is represented of square pickboxon the
+ drawing area. When selecting an object, the cursor square pickbox should be in the position of an object but not inside it. The size of pickbox can be changed on the Selection tab of Options
+ dialog box.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

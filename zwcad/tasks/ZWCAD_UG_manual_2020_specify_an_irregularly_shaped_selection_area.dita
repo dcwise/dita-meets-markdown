@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12243-15411F2-1547D154A753696-EA2C20">
+  <title>Specify an Irregularly Shaped Selection Area</title>
+  <shortdesc>You can select
+ objects with an irregularly shaped
+ area defined by the specified points. Under the prompt of SELECT command,
+ you can select objects entirely
+ enclosed by the selection area
+ with the WPolygon, or the objects
+ enclosed or crossed
+ by the selection area with the CPolygon.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic317_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic317_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select objects using WPolygon</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Activate an object modification command.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type WP (WPolygon).</cmd>
+      </step>
+      <step>
+        <cmd>Specify the vertices of the polygon.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the selectionpolygon, press Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic317_image003.png" />
+        </fig>
+      </p>
+      <p>Window Polygon by specifying
+ the vertices of the polygon
+ (A, B, and C) Resulting selection</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA122A66-5145C4A-F1487D255A79135-A4237A">
+  <title>Disassociate Compound Objects</title>
+  <shortdesc>You can convert a
+ complex entity, such as a block or polyline, from a single entity into its
+ component parts. Exploding a
+ polyline, rectangle, donut, polygon, dimension, or leader reduces it to a
+ collection of individual line and arc entities that you can then modify individually. Blocks are converted
+ to the individual entities, possibly including other,
+ nested blocks that composed the original entity.</shortdesc>
+  <conbody>
+    <p>With the following
+ exceptions, exploding an entity usually has no visible effect on a drawing:</p>
+    <ul>
+      <li>If the original polyline had a
+ width, the width information is lost when you explode it. The resulting
+ lines and arcs follow the centerline of the original
+ polyline. If you explode a donut, its width becomes
+ 0.</li>
+      <li>If you explode a block containing attributes, the attributes are
+ lost, but the original attribute definitions are retained. The colors and linetypes of objects in exploded block references can be modified individually.</li>
+    </ul>
+    <p>Colors, linetypes, lineweights, and print
+ styles assigned BYBLOCK
+ may be different after exploding an entity because they
+ will adopt the default color, linetype, lineweight, and print style until
+ inserted into another block.</p>
+  </conbody>
+</concept>

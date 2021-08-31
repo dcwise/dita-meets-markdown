@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1225835-1453A12-14A7145B71E559A-A54E17">
+  <title>Specify the Area to Plot</title>
+  <shortdesc>To determine where to plot the drawing, you must specify an area for the drawing. The following options
+ under Plot Area are provided
+ in The Plot dialog box.</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Display. Plots the contents displayed
+ in the currentview.</li>
+        <li>View. Plots a view saved
+ previously with the VIEW command. You can select a named view from the list provided. This option is unavailable if there are no saved views in the drawing.</li>
+        <li>Extents. Plots the portion of the current
+ space of the drawing
+ that contains objects.</li>
+        <li>Limits/Layout. When printing
+ from model space, the content of specified drawing limits will be printed. When you plot a layout,
+ entities in the printable area will be printed. The printable area's origin coordinate is calculated
+ fromits (0,0) point, and its print area is determined by the size of the drawing paper.</li>
+        <li>Window. Plots any portion of
+ the drawing you specify within the rectangle window. Click the Window button to use a pointing device to
+ specify opposite corners of the area to be plotted, and then return
+ to the Plot dialog box.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic708_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To specify a portion
+ of the drawing to print</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>If necessary, click the desired Layout tabor the Model tab.</cmd>
+      </step>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Under Print Area, clickone
+ of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Display – Plots the current view on the screen.</cmd>
+      </step>
+      <step>
+        <cmd>View – Plots the selected saved view.</cmd>
+      </step>
+      <step>
+        <cmd>Extents – Plots the contents within
+ the specified drawing
+ extents.</cmd>
+      </step>
+      <step>
+        <cmd>Limits/Layout –
+ Plots the contents withinthe
+ specifieddrawing limits or entities in the printable area.</cmd>
+      </step>
+      <step>
+        <cmd>Window – Plots the portionof the drawing contained
+ in the specified window. Click</cmd>
+        <info>
+          <p>the Window button to use a pointing device
+ to specify opposite
+ corners of the area to be plotted,
+ and then returnto
+ the Plot dialog
+ box.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Select Save Changes to Layout, andthen click Applyto Layout.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1243683-6543C4A-1F2154A87C13579-1E5352">
+  <title>Create 3D surfaces</title>
+  <shortdesc>You can create a
+ three-dimensional face, which consists of a section of a plane in
+ three-dimensional space. You define a three-dimensionalface by specifying the x,y,z coordinates of three or more corners.</shortdesc>
+  <taskbody>
+    <context>
+      <p>After you specify the fourth point, the
+ program continues to prompt you for additional faces by alternating prompts
+ for the third point and fourth point to
+ allow you to build a complexthree-dimensional object.
+ Each three or four-sided plane is created
+ as a separate three-dimensionalface object.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic275_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a three-dimensionalface</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Surfaces
+ &gt; 3D Face from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first point of the three-dimensional face.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second, third,
+ and fourth points.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the thirdand fourth points for additional faces.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the command, press Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>Any or all edges of a three-dimensionalface can be
+ invisible to allow you to more accurately model objects with holes in them. As the programprompts you for the
+ corner points, in the prompt box, choose Invisible to make the next edge invisible.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic275_image002.png" />
+      </p>
+      <p>An example of a three-dimensionalmodel created
+ using three-dimensionalfaces.</p>
+    </result>
+  </taskbody>
+</task>

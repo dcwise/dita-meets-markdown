@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A22636-51AF21A-871DB571E1D9DB1-995A8F">
+  <title>Position Dimension Text Vertically</title>
+  <shortdesc>The vertical
+ text placement is the position
+ of the text relative to the dimension. You can place
+ text above, below,
+ or centered within
+ the dimension line,
+ or use the JIS dimensions.</shortdesc>
+  <conbody>
+    <p>Above places
+ dimension text above the dimension line; Outside places dimension text on the
+ side far from the point you specify
+ for the dimension line; Centered places dimension text medially within the dimension
+ line; JIS places dimension text according to the Japan industry standard.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic498_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ In the ANSI standards, centered
+ dimension text splits the dimension line. In the ISO standards, centered text places
+ above or outside the dimension line. In the
+ following illustrations, ISO standards allow
+ angular dimension text to display
+ in any of the ways shown.</p>
+    <p>The justification
+ and other settings may affect the vertical alignment of text. If you select Horizontal Alignment, text inside the extension lines
+ and centered within the dimension is placed horizonta ly, as shown in the leftmost
+ figure above.</p>
+  </conbody>
+</concept>

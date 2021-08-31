@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A36-351453C-4AF1487F5A5791E-535CB0">
+  <title>Change Grid and Snap Spacing</title>
+  <shortdesc>You can turn Grid and Snap-onand
+ off and specify their spacing
+ on the Snap and Grid tab at the Drafting
+ Settings dialog box. Grid spacing does not have to match snap spacing. A wide grid spacing can be
+ used as a reference while a closer
+ grid spacing helps
+ you specify points
+ accurately.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12453-544A5A7-BA791E167BE1793-3862CD">
+  <title>Display Lateral Tolerances</title>
+  <shortdesc>Lateral tolerance
+ represents a value that the amount a measured distance can vary. You can
+ control the degree of accuracy needed
+ for a future by specifying tolerances in manufacturing. A feature is some aspect of a part,
+ such as a line, axis,
+ point, or surface.</shortdesc>
+  <conbody>
+    <p>You can append tolerances to the dimension
+ text directly. These
+ dimension tolerances indicate
+ the largest and smallest permissible size. You can
+ also apply geometric tolerances to indicate deviations of form, profile, location,
+ orientation, and runout.</p>
+    <p>You can specify exact
+ measurements for lateral
+ tolerances theoretically. They
+ are called basic dimensions and have a boxdrawn
+ around them.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic508_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Deviation tolerances represent the
+ plus and minus values that are appended to the dimension values. If the deviation
+ tolerances are equal, the ± signs precede them and they are known as
+ symmetrical. Otherwise, the plus value locates
+ above the minus value. Shown
+ in the following figures.</p>
+    <p>If you apply
+ the tolerance as a limit, ZWCAD calculates a maximum and minimum value using the positive and negative values provided. These values
+ replace the original dimension values. The upper tolerance locates above the lower if you specify deviation
+ tolerances.</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic508_image002.png" />
+    </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic508_image003.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ The vertical placement of tolerance
+ values that is relative to the main dimension text can be specified. For example, you can align the tolerances with the top, middle,
+ or bottomof the dimension text.</p>
+    <p>You can also control how to suppress
+ zero for tolerance values, as you can with the primary
+ and alternate units. The effect of suppressing zero in
+ lateral tolerance is the same as suppressing zero in the primary and alternate units.</p>
+  </conbody>
+</concept>

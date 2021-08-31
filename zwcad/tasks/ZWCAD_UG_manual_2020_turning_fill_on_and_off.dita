@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A3568-365E54A-1147F135A7E35B1-7943E8">
+  <title>Turning Fill on and off</title>
+  <shortdesc>You can reduce the time it takes to display or print a drawing by turning off the display
+ of solid fill. When Fill is turned off, all filled entities,
+ such as wide polylines and planes, display
+ and print as outlines. When you turn Fill on or off, you must redraw the drawing before
+ the change is displayed.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic178_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn Fill on or off</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Options
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Display tab.</cmd>
+      </step>
+      <step>
+        <cmd>Under Display Performance, select
+ or clear the Apply Solid Fill checkbox.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic178_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Choose View &gt; Redraw from the main menu.</info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

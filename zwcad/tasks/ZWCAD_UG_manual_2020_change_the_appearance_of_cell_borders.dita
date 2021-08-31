@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2435683-65E4341-F214A87B5A71E54-24DEFC">
+  <title>Change the appearance of cell borders</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic549_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Operating Steps:</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select one cell in the table.</cmd>
+      </step>
+      <step>
+        <cmd>Click "Cell Borders" button on the Table toolbar
+ to open the "Cell Border
+ Properties" dialog box.</cmd>
+      </step>
+      <step>
+        <cmd>In this dialog box, set the lineweight andcolor
+ properties of cell borders.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK to finish setting.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic549_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

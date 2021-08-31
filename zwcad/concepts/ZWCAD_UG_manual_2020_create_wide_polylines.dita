@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A356-35E4112-15AC05A71E35A31-D131EE">
+  <title>Create Wide Polylines</title>
+  <shortdesc>You can draw polylines of various widths
+ by using the Width
+ and Halfwidth options of PLINEcommand. The Width and Halfwidth options set the width of the next
+ polyline segments you draw. You can set the
+ width of individual segments and make themtaper gradually fromone width to another.</shortdesc>
+  <conbody>
+    <p>Zero (0) width produces
+ a thin line. Widths greater
+ than zero produce
+ wide lines, which are filled
+ if Fill</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic243_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ mode is on and outlined if Fill
+ mode is off. The Halfwidth option sets width by specifying the distance from the center of the wide polyline to an outside
+ edge.</p>
+    <p>If you chose Width
+ option, prompts in command line require you to enter
+ starting width and ending width.
+ While entering different value results in a varying width from the start
+ point to its end. Both the start point and endpoint are located at the center
+ of the Wide polyline.</p>
+  </conbody>
+</concept>

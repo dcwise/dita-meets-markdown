@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB2A4568-365E13C-AF14A7125714211-E15EDD">
+  <title>Zooming in and out</title>
+  <shortdesc>One of the
+ easiest ways to change the magnification of the drawing is to zoom in or out by
+ a preset increment. On the Zoomtoolbar, the Zoom In tool doubles
+ the current magnification of the drawing.
+ The</shortdesc>
+  <conbody>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic74_image002.png" />Zoom Out
+ tool reduces the magnification of the drawing by half. The portion of
+ the drawing located at the center of the current viewport
+ remains centered on the screen
+ as you zoomin and out.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic74_image004.png" />
+      </fig>
+    </p>
+    <p>Zoom out zoom in</p>
+  </conbody>
+</concept>

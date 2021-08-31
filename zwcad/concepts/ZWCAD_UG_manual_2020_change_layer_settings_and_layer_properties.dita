@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72A4568-45F14A7-F155A9E5A714DA7-B2A7D1">
+  <title>Change Layer Settings and Layer Properties</title>
+  <shortdesc>Everything in a
+ drawing is associated with a layer, in the course of creating a drawing, you can
+ modify what you draw by renaming
+ layer name, modifying the properties of a layer (color and linetype), or placing objects
+ fromone layer to another.</shortdesc>
+  <conbody>
+    <p>If you create an
+ object on a wrong layer, you can reassign it to another layer. Unless the
+ linetype, color or other properties
+ of the object has been specified explicitly, the object acquires the properties
+ of the new layer.</p>
+    <p>You can change
+ layer properties in the layer control on the Layers toolbar or in the Layer
+ Properties Manager. Click the icons
+ to change settings. However, layer names and colors can be changed only in the Layer Properties Manager.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA122356-8361453-C41F215A7C37579-1E53A2">
+  <title>Create Surfaces</title>
+  <shortdesc>3D meshes use
+ planar embedded surfaces as its surface. Defined fromthe vertexposition of
+ initial mesh network-axis and
+ secondary network-axis (the direction of M and N), in which Vertex of initial
+ mesh network-axis points to the M
+ direction, and N direction points to secondary network-axis. Similar to the function of X and Yaxis on XYplane, M
+ and N are designated individually to the vertexposition of row and column, Meshes
+ are available both
+ in 2D and 3D spaces,
+ mainly used in 3D spaces.</shortdesc>
+  <conbody>
+    <p>Meshes can help
+ solving the problemof using features like hiding, shade and render other than
+ physical properties (weight, quality,
+ the center of gravity) that is unavailable in using wireframe. You can also create irregular geometric drawings with
+ meshes, such as a 3D topographical model of mountainous terrain.</p>
+    <p>Either closed or
+ open meshes can be created, the following pictures show each meshes open or
+ closed individually in M and N direction:</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic274_image001.png" />
+      </fig>
+    </p>
+    <p>Various methods
+ are used for creating a mesh, both using keyboard way to specify mesh parameter
+ or operating 3D command to draw the
+ planar mesh, the size of M and N of a mesh determines the number of lines drawn on each direction.</p>
+  </conbody>
+</concept>

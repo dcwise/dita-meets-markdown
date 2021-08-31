@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A433-51CA125-A87A1255A715359-CFB491">
+  <title>Work with Text Styles</title>
+  <shortdesc>The text style is
+ applied to the text objects. You can use text style to control the text font,
+ size, angle, direction and other
+ features. By default, the current text style is STANDARD, and you have to make other text
+ styles current when you want
+ to apply them.</shortdesc>
+  <conbody>
+    <p>The STANDARD text style has the following
+ default properties:</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1"> Setting </entry>
+            <entry colname="col2"> Default </entry>
+            <entry colname="col3"> Description </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Style name </entry>
+            <entry colname="col2"> STANDARD </entry>
+            <entry colname="col3"> Name with up to 255 characters </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Font name </entry>
+            <entry colname="col2"> txt.shx </entry>
+            <entry colname="col3"> the file associated with a font (character style) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Big Font </entry>
+            <entry colname="col2"> None </entry>
+            <entry colname="col3"> Special shape definition file used for a non-ASCII character set, such as Kanji </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Height </entry>
+            <entry colname="col2" translate="no"> 0 </entry>
+            <entry colname="col3"> Character height </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Width factor </entry>
+            <entry colname="col2" translate="no"> 1 </entry>
+            <entry colname="col3"> Expansion or compression of the characters </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Obliquing angle </entry>
+            <entry colname="col2" translate="no"> 0 </entry>
+            <entry colname="col3"> The slant of the characters </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Backward </entry>
+            <entry colname="col2"> No </entry>
+            <entry colname="col3"> Backward text </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Upside down </entry>
+            <entry colname="col2"> No </entry>
+            <entry colname="col3"> Upside-down text </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Vertical </entry>
+            <entry colname="col2"> No </entry>
+            <entry colname="col3"> Vertical or horizontal text </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>You can modify
+ the current text style or create a new text style directly. You can also delete
+ the created text style but not the default
+ STANDARD text style.</p>
+  </conbody>
+</concept>

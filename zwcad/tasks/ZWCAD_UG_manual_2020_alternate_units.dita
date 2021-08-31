@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2683145-3A1FAB4-565A357E267BED7-B9862D">
+  <title>Alternate Units</title>
+  <shortdesc>You can create a dimension in two systems
+ of measurement simultaneously in a drawing.
+ This feature is helpful
+ when you want to add feet and inches dimensions in a drawing created using
+ metric un its. The alternative units
+ appear in square brackets ([]) in the dimension text. Alternative units can be
+ applied to linear dimensions only.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If you turn
+ alternative-units dimensioning on when editing a linear
+ dimension, the measurement is multiplied by a specified alternate scale value.
+ This value indicates the number of alternate units per current unit of measurement. The default fault
+ value for imperial
+ units is 25.4, which represents that each inch is equivalent to 25.4 millimeters. The default value
+ for metric units is 0.0394, which represents that each millimeter
+ is equivalent to 0.0394 inches. The precision for alternate units determines
+ the number of decimal
+ places.</p>
+      <p>For example,
+ for imperial units, if you specify
+ the default value of 25.4 to the alternate scale setting and</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>to the alternate precision, the dimension is shown
+ in the following figure.</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic505_image001.png" />
+            </fig>
+          </p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic505_image002.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ To create
+ an alternate dimension</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>Choose Dimension &gt; Style.</cmd>
+          </substep>
+          <substep>
+            <cmd>In the Dimension
+ Style Manager dialogbox, select the style youwish to change and choose Modify.</cmd>
+          </substep>
+          <substep>
+            <cmd>In the Modify Dimension
+ Style dialog box, click the Alternate Units tab.</cmd>
+          </substep>
+          <substep>
+            <cmd>Clickthe Display Alternate Units check box.</cmd>
+          </substep>
+          <substep>
+            <cmd>Make your selections.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click OK.</cmd>
+          </substep>
+          <substep>
+            <cmd>Choose Close to exit.</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+  </taskbody>
+</task>

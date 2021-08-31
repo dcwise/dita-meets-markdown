@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122A35-6865E14-534A1114A878145-39E539">
+  <title>Set Paths to Externally Referenced Drawings</title>
+  <shortdesc>You can set thesavingpath for the xrefs that are changed after attached to the drawingwhen you selecting a savingpath for the xrefs, three types are provided
+ for you: Full path, Relative
+ path, and No path.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Full Path</p>
+      <p>Full path refers
+ to the path that marked by local disk or network server driver. By default, the
+ path for saving the xref files is a
+ Relative path, but this path lacks flexibility, once the file is changed, the
+ path becomes invalid.</p>
+      <p>Relative Path</p>
+      <p>Relative path refers to path assigned
+ by folders including
+ current driver or original drawing
+ file. The user can move the original files among multiple drivers within the folder
+ at the same hierarchy without affecting updating
+ xrefs.</p>
+      <p>You can't set the relative path in local disk or network server driver.
+ The relative paths for xref original files are assigned
+ as follows:</p>
+      <ul>
+        <li>\: Look in the root folder of the host drawing's drive</li>
+        <li>path: Fromthe folder
+ of the host drawing, follow
+ the specified path</li>
+        <li>\path: Fromthe root folder, follow
+ the specified path</li>
+        <li>.\path: Fromthe folder
+ of the host drawing, follow
+ the specified path</li>
+        <li>..\path: Fromthe folder of the host drawing, move up one folder level
+ and follow the specified path</li>
+        <li>..\..\path: From the folder of the
+ host drawing, move up two folder levels and follow the specified path</li>
+      </ul>
+      <p>If you have
+ changed the path that includes the xref drawings, such as moving the file or
+ save it to a different path or disk,
+ then all the relative paths of the xref must be changed individually so as to
+ adapt to the new position of its references.</p>
+      <p>No Path</p>
+      <p>Specifies the path type of
+ inserting xref as No path, the xref will not save the path
+ information, if you want to search the original file of xref, you can search through
+ the following ways:</p>
+      <ul>
+        <li>Search for the current folder of the originaldrawing</li>
+        <li>Search for the Xrefs File Search Path defined in File tab in
+ Options dialog box.</li>
+        <li>Search for the start folder assigned by shortcut of Windows applications</li>
+      </ul>
+      <p>No Path is useful when users want to move their drawings to another or an unknown folder hierarchy.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic600_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change the path for a single external
+ reference</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Xref Manager from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the external reference whose path you want to change.</cmd>
+      </step>
+      <step>
+        <cmd>In Xref Found At, do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Enter a new filename
+ or location.</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic600_image002.png" />Click , select the xref under a new path
+ in the Select New Path dialog box that displays, and then click Open.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Save Path, andthen click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>You cannot recursively reference
+ a drawing fromthe same original
+ drawing.</p>
+    </result>
+  </taskbody>
+</task>

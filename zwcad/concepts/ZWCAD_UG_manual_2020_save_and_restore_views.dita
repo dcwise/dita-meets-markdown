@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA4368E1-4C4F15A-71652C4429E9F95-DD924D">
+  <title>Save and Restore Views</title>
+  <shortdesc>You can save
+ views by name and restore themfor plotting or when you need to refer to
+ specific details. A named
+ view is comprised
+ of specific magnification, location, and orientation.</shortdesc>
+  <conbody>
+    <p>You can also
+ restore up to 10 previous views. When you end drawing, the previous views
+ cannot be restored. If you want to
+ restore views among sessions, you have to save the drawing along with views by name.</p>
+    <p>When you restore views, you can
+ view all saved
+ views along with
+ their information. You can delete
+ views when you do not need them.
+ A drawing can be saved
+ along with unlimited views.</p>
+  </conbody>
+</concept>

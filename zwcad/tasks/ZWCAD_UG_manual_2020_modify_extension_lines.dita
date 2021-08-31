@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA2A4383-65E4112-11C55A95595DC5A-9B5A8F">
+  <title>Modify Extension Lines</title>
+  <shortdesc>Extension lines
+ have the following properties: color, lineweight, distance beyond extension
+ lines, of set from start of extension
+ lines, and visibility. You can set these properties on the Lines and Arrows tab
+ of the Modify
+ Dimension Style dialog
+ box.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If extension lines are unnecessary or there
+ is not enough space to display
+ extension lines, you can suppress one or both of them.</p>
+      <p>The distance
+ beyond extension lines
+ means that how far the extension lines extend beyond
+ the dimension line.</p>
+      <p>Start offset is the distance between the extension line origin
+ and the start of the extension
+ line, also ca led extension origin
+ offset. Shown as follows:</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic489_image001.png" />
+        </fig>
+      </p>
+      <p>The first
+ extension line lies on the side where you specified the first extension line
+ origin. If you create a dimension for a line, you do not specify the extension line
+ origin. Because the endpoint of the line closet
+ to the specified point becomes the origin of the first extension line.
+ Generally, the extension lines are
+ perpendicular to the dimension line. However, if there is not space, you can
+ make them oblique, shown in the figure above.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic489_image002.png" />You can control settings affecting
+ dimension lines, extension lines, and center marks. Any changes you make affect the current dimension style. The
+ image tile on the right side of the Modify Dimension Settings dialog boxshows the appearance of the dimensions based on the current dimension style settings.</p>
+      <ul>
+        <li>
+          <b>A </b>Extend beyond dimlines.</li>
+        <li>
+          <b>B </b>Baseline spacing.</li>
+        <li>
+          <b>C </b>Offset from the origin.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic489_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set the color for dimension lines</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Style from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Dimension
+ Style Manager dialogbox, select the style youwish to change and choose Modify.</cmd>
+      </step>
+      <step>
+        <cmd>In the Modify Dimension
+ Style dialog box, click the Lines and Arrows tab.</cmd>
+      </step>
+      <step>
+        <cmd>Make your selections under the Dimension Lines.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Close to exit.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

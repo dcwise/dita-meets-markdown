@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A33513-411254A-8781A79E35ED24E-747389">
+  <title>Set the Lineweight Scale for a Layout</title>
+  <shortdesc>Even if plot scale of layouts is assigned, it's enabled to scale the lineweight at a certain scale. Scaling the lineweight is nothing to do with the
+ plot scale when plotting drawings, which is mainly used for the lines
+ included in the objects to be plotted.</shortdesc>
+  <conbody>
+    <p>In most cases,
+ you choose to plot layouts with default plotting scale of 1:1. However, to plot
+ the layout scaled by paper size A on another paper size E, you should scale lineweights to fit the new plot
+ scale.</p>
+  </conbody>
+</concept>

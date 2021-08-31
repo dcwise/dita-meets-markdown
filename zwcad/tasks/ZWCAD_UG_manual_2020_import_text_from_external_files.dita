@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22435-6835134-A1125A7A111A932-B988B7">
+  <title>Import Text from External Files</title>
+  <shortdesc>You can input
+ text (TXT and other) contents into the drawing froman external file by selecting
+ Import Text option fromthe right-clickmenu of the In-Place
+ Text Editor, and display the text in the drawing
+ that imported from an external
+ file as a mtext object.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Importing text
+ from external files provides users with infinite flexibility while manipulating,
+ you can operate fromcreating text
+ file for standard annotations firstly, and then insert these text into the
+ drawing as mtext objects for subsequent editing
+ and resetting its formats.</p>
+      <p>Text imported
+ fromexternal files (TXT and
+ other) uses current text style.
+ Additionally, the external
+ files imported into the In-Place Text Editor retain its
+ source document style for text height, and retain the original setting
+ for line break
+ and enter symbol.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic452_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To Import Text file</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select Draw &gt; Text &gt; Multiline
+ Text from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify two
+ corners of the multiline textbox separately to define the width of the mtext object.</cmd>
+      </step>
+      <step>
+        <cmd>Right-click on the In-Place
+ Text Editor, and then select
+ Import Text from the shortcut
+ menu that pops up.</cmd>
+      </step>
+      <step>
+        <cmd>Select the desiredtext
+ file from the Select File dialog box, and then click Open. The text contents of the text file will be inserted
+ into the position
+ where the cursorstays within the In-Place Text Editor.</cmd>
+      </step>
+      <step>
+        <cmd>Modify text contents to be inserted on your demand.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK on the In-Place Text Editor to save the modification and exit the editor.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>If you drag an
+ external file into the drawing directly, it will be displayed as OLEobject.
+ Additionally, if you use theclipboard
+ to copy text from other applications and paste it into current drawing
+ directly, the text will be displayed as OLEobjects.</p>
+    </result>
+  </taskbody>
+</task>

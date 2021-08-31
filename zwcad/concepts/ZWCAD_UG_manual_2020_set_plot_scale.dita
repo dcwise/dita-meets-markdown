@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A435-835E145-3CA12587945771E-559A57">
+  <title>Set Plot Scale</title>
+  <shortdesc>Plot-scale of the
+ drawing can be specified directly fromthe Scale pulldown list in Plot Scale
+ area of Plot dialog box. You can
+ also choose Custom to set desired plot scale or choose Fit to Paper to scale
+ the drawing to fit onto the selected
+ paper size.</shortdesc>
+  <conbody>
+    <p>Generally, you
+ draw objects at their actual size. That is, you decide which unit to be applied
+ to the size (an
+ inch, a millimeter, a meter) and draw
+ objects at a 1:1 scale. For example, if you select the measurement unit as millimeters, then every unit in your drawing represents a millimeter. When you plot the
+ drawing, you either specify a precise scale or fit the image to the paper.
+ Plotting is usually working under precise
+ proportion.</p>
+    <p>The plot scale set here represents the ratio of plot unit and theactualunit used for drawing
+ models.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A22A4356-8651453-C4A1F21548A71E3-59A457">
+  <title>Use Plot Styles</title>
+  <shortdesc>ZWCAD uses plot styles to change the appearance of your printed
+ drawing without modifying the actual objects
+ in your drawing. Assigning plot styles allows you to customize the Color, GrayScale, Screening, and Lineweight that are used to print
+ your drawing. Plot styles help you control
+ what your drawing
+ looks like when it is printed.</shortdesc>
+  <conbody>
+    <p>Because plot styles are saved in plot style
+ tables, which are files located
+ on your computer,
+ disk, or server,
+ you can reuse them to help eliminate the need to reconfigure your print
+ settings each time you print a drawing.
+ You can save plot styles in a named file for each of your clients. You can even
+ share the file with coworkers, or
+ store the files on a network to ensure that everyone in your office uses the
+ same standards.</p>
+  </conbody>
+</concept>

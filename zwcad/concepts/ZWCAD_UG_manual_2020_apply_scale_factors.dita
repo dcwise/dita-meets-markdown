@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12456-86E1453-CA11F154A81565A-9153B0">
+  <title>Apply scale factors</title>
+  <shortdesc>You can set the following factor
+ to determine whether
+ the drawing is plotted on the model
+ space or paper space.</shortdesc>
+  <conbody>
+    <ul>
+      <li>Text. Sets text height in the text style (STYLE)
+ or in the process of creating text.
+ The text plotted</li>
+    </ul>
+    <p>height should be set in proportion to scale factor in model space. The text created
+ on the layout should be set at 1:1.</p>
+    <ul>
+      <li>Dimension. Sets dimension scale in the dimension
+ style (DIMSTYLE) or through system variable
+ DIMSCALE.</li>
+      <li>Linetype. To plot objects from the Model tap, use
+ system variables CELTSCALE and LTSCALE to set the scale for non-continuous lines.
+ To plot objects
+ froma layout (paper
+ space), use systemvariable PSLTCALE.</li>
+      <li>Hatch. Sets hatch scale in the Hatch and Gradient
+ dialog box or through system variable HPSCALE.</li>
+      <li>View. When you plot a drawing from a layout, you may need to use ZOOM
+ XP command, where XP is a ratio that is relative
+ to the paper size (scale
+ factor of reciprocal).</li>
+    </ul>
+  </conbody>
+</concept>

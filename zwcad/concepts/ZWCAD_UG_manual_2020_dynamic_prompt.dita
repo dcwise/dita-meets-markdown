@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B122A4-356836E-453C4121A7D115C-7152D9">
+  <title>Dynamic Prompt</title>
+  <shortdesc>Enable dynamic
+ prompt, the command prompt is displayed near the cursor, and you can respondat
+ the cursor just as that on the
+ command line. Dynamic prompt has no effecton commandline input, you can still response and input on the command
+ line. When using dynamic input, press Down key to see the options in command prompt, and a black dot
+ is displayed in front of the selected option, and you can input it by press
+ ENTER key.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

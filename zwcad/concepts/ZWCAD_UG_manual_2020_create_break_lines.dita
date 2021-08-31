@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A46-855C4A1-215487D1455795A-BB4733">
+  <title>Create Break Lines</title>
+  <shortdesc>Creates a polyline and inserts the breakline symbol.
+ Options are provided
+ to control the relative size and appearance of the breakline symbol and an
+ extension of the polyline beyond the selected start and end points.</shortdesc>
+  <conbody>
+    <p>To use your own
+ block for the breakline symbol, make sure that the block contains two point
+ objects on the Defpoints
+ layer. Those point
+ objects determine the placement of the symbol and how the line will be broken.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic300_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>NOTE </b>Current settings of DIMSCALEare capable
+ of controlling the terminal size of break
+ line flexibly.</p>
+  </conbody>
+</concept>

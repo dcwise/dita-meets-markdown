@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A456-865144A-F214A7191395AEB-9B9A8F">
+  <title>Control Dimension Elements</title>
+  <shortdesc>You can modify the appearance of dimension lines, extension lines,
+ arrowheads, and center marks. Modify Dimension Lines</shortdesc>
+  <conbody>
+    <p>On the Lines and Arrows tab of the Modify Dimension
+ Style dialog box, you can set the color of dimension lies, lineweight, ticks beyond extending theline, baseline spacing,
+ and visibility.</p>
+    <p>Only when the
+ arrowheads are assigned as oblique stroke arrowheads, architectural tick,
+ Integral, dot small or none
+ arrowheads, you can set the displacement explains how far the dimension line
+ extends beyond the extend lines, otherwise, this setting is not available.</p>
+    <p>You can also set the baseline spacing to control
+ the spacing between
+ successive dimension lines.</p>
+    <p>If text splits a dimension line, you can specify whether
+ each part of the dimension line is visible
+ or not.</p>
+  </conbody>
+</concept>

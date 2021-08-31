@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A71A4636-E531F89-15A79E397CA16B5-2A12A7">
+  <title>Update Links</title>
+  <shortdesc>Display the links contained in current drawing
+ in the Links dialog performed from OLELINKS command.
+ With this command, you can setup methods to update links for each
+ settingused for linking information, either automatic or manual.</shortdesc>
+  <conbody>
+    <p>By default,
+ the OLElinks created
+ in ZWCAD drawing
+ are an automatic update.</p>
+  </conbody>
+</concept>

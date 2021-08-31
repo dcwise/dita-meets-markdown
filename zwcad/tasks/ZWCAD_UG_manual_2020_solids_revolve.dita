@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12436-65E14C4-112154A8CD567E5-5B38E3">
+  <title>Solids Revolve</title>
+  <shortdesc>REVOLVE command revolves a 2D object to the
+ specified certain angle to form solids. The revolving axis can be X, Y axis of current UCS as well as lines,
+ polylines.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Similar to
+ EXTRUDE, the REVOLVE command easily
+ helps drawing the details of a drawing that is
+ hard to implement by the common
+ outline.</p>
+      <p>To revolve the
+ objects that are lines or arcs intersect with polylines, you can use Join option
+ of PEDIT command to convert theminto
+ multiple single polyline objects, and then perform REVOLVE command. Objects can be revolved are closed
+ polylines, polygons, rectangles, circles, ellipses, regions and so on. On the contrary, the objects can't be revolved
+ are 3D objects, objects that are
+ included in a block, polylines
+ with intersections and transections or unclosed polylines.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic295_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic295_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a revolved
+ solid</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids
+ &gt; Revolve from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object to revolve.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following to define the axis of revolution:</cmd>
+      </step>
+      <step>
+        <cmd>Specify a start point
+ and an endpoint.</cmd>
+      </step>
+      <step>
+        <cmd>Type o and press Enter to select anobject
+ that determines the axis.</cmd>
+      </step>
+      <step>
+        <cmd>Type x and press Enter to select the x-axis.</cmd>
+      </step>
+      <step>
+        <cmd>Type y and press Enter to select the y-axis.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic295_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the angle of revolution.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Left: Select the object to revolve (A) and the axis (B) about which to revolve
+ it, followed by the angle of revolution Right: The resulting revolved
+ solid</p>
+    </result>
+  </taskbody>
+</task>

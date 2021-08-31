@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22436-815A11A-87B791E3979613F-046FF9">
+  <title>Reloading external references</title>
+  <shortdesc>When you open or
+ print a drawing, any external references in the drawing are updated
+ automatically. If a drawing is
+ already open and a referenced drawing is modified, you can update the current
+ drawing manually to display the latest version
+ of the referenced drawing. You may also want to reload an external reference that has been unloaded temporarily.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic591_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To reload an external
+ reference</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Xref Manager from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the external reference
+ to reload.</cmd>
+      </step>
+      <step>
+        <cmd>Click Reload.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

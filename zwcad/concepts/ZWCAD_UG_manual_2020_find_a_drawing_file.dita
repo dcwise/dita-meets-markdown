@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B122A4-568365E-434A1F214A81574-4512E8">
+  <title>Find a drawing file</title>
+  <shortdesc>Clicking
+ Tools &gt; Find button fromthe Select File dialog boxdisplays Find dialog box,
+ from which you can search
+ drawing byname, location and date filters.</shortdesc>
+  <conbody>
+    <p>You can preview the selected drawing in the
+ Select File dialog box. When the
+ system variable RASTERPREVIEW is on, a preview image with BMP format
+ is generated and saved with the drawing. op</p>
+  </conbody>
+</concept>

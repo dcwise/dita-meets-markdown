@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A224355E-145C4F1-58A1D65A351DC5D-E9BA8F">
+  <title>Control the Location of Dimension Text</title>
+  <shortdesc>ZWCAD provides three justification settings: Horizontal,Aligned with dimension line, and ISO Standard.
+ You can also specify other
+ location for the text. Most
+ of the settings are interdependent.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic495_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

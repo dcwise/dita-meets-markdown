@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA122566-5E453C4-A12154A87B5B5A7-91E359">
+  <title>Binding a xref to a drawing</title>
+  <shortdesc>External references are not part
+ of the drawing. Rather, they are links to an externally referenced file. To provide
+ a copy of a drawing containing external references to someone else, you must
+ also provide al the external reference files. In addition,
+ the user receiving the drawings must either recreate the same paths you used when linking the external
+ references or change
+ the paths for the external
+ references.</shortdesc>
+  <taskbody>
+    <context>
+      <p>To provide
+ a copy of a drawing
+ that contains external
+ references, it is often easier
+ to first bind
+ the external references to the drawing. Binding the
+ external references make thema permanent part of the drawing, which is similar to inserting a separate
+ drawing as a block. You can bind external references that are attached directly to the current drawing;
+ you cannot bind nested external references. Xrefs rely on the naming sentence of named objects from
+ "Block name|Definition name"to"Block name$n$Definition name". Thus, you can create unique
+ named objects for relative definition tables that are bind to a l the xref in the current
+ drawing.</p>
+      <p>If select Insert,
+ the xref will be inserted into the drawing after converted to blocks as
+ inserting reference drawings. Xref
+ relies on named object, using the xref name removed from the names but not
+ using the "Block name|Definition
+ name" sentence. If internal named objects have the same name with bound
+ xref names in the drawing to be
+ inserted, new names will not be added in the symbol table, and the bound xrefs rely on named objects
+ adopts properties of named objects
+ local defined.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic598_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To bind an existing
+ external reference to a drawing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Xref Manager from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the external reference
+ to bind.</cmd>
+      </step>
+      <step>
+        <cmd>Click Bind.</cmd>
+      </step>
+      <step>
+        <cmd>In the Bind Xrefs dialog box, choose one of the following:</cmd>
+        <info>
+          <p>
+            <b>Bind </b>Binds the external reference
+ and creates a unique name for each namedobject, such as
+ a layer or block, that is located in the external reference. For example, a
+ layer named Electric in the external
+ reference will be named Xref$0$Electric in the current drawing. If the current drawingalready has a layer
+ or block with the same name, the name is changed incrementally, for example, Xref$1$Electric.</p>
+          <p>
+            <b>Insert </b>Binds the external reference, but does not change the names of anynamed objects
+ in the external reference. For example, a layer named Electric in the
+ external reference will have the same
+ name, Electric, in the current drawing. If the current drawing has a layer or block with the same name, the
+ named object in the external reference takes on the properties of the named object in the current
+ drawing.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

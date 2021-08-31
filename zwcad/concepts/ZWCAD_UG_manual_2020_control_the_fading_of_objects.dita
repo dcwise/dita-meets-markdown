@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA22A358-365E453-CA1214A8714575A-79E359">
+  <title>Control the Fading of Objects</title>
+  <shortdesc>When editing
+ references in place, the selected
+ objects are normally
+ displayed except for other unselected xrefs or block references. The fading degree is controlled by
+ system variable XFADECTL. This value set
+ the displaying density of objects outside the working set. The greater the
+ value, the more fading of the objects outside
+ the working set
+ displayed.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic604_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

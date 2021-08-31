@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A3531-11F2154-A8D15A79E535696-25A2C0">
+  <title>Prevent Objects from Being Selected</title>
+  <shortdesc>You can prevent
+ objects frombeing selected by locking the layer. Because locking layer means
+ that you can do any operations except for editing objects
+ on this layer.
+ You can set the locked layer as the cur ent layer and add objects
+ as well as using requiring command (such as LIST) and Objects Snap.</shortdesc>
+  <conbody>
+    <p>You can control
+ whether you select objects first or type a command first, whether the selected
+ objects are highlighted, how to define the selection area,
+ how to create a selection
+ set.</p>
+  </conbody>
+</concept>

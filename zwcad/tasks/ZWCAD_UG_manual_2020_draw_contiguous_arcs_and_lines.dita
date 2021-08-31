@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2253E-54A1114-8557E55606AEE7D-04F1BA">
+  <title>Draw Contiguous Arcs and Lines</title>
+  <shortdesc>
+    <image href="../graphics/ZWCAD_UG_manual_2020_topic259_image001.png" />Immediately after you complete an arc, you can start a line tangent
+ to the arc at an endpoint by executing the LINE command. Conversely, if you
+ performthe ARC command after you completed a line, you can start an arc tangent
+ to the line at an endpoint.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can connect
+ sequentially drawn arcs in the same way. To create connected arcs using a menu,
+ click Arc from the Draw menu, and
+ then click Continue. In both cases, the resulting object is tangent to the previous
+ one. You can use the shortcut menu
+ to repeat the Continue option.</p>
+      <p>To draw an arc tangent
+ to an arc or line</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic259_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Arc &gt; Continue
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoint of the tangent
+ arc.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic259_image003.png" />
+      </p>
+      <p>Endpoint (A)</p>
+    </result>
+  </taskbody>
+</task>

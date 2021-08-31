@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A5-364A112-4257915569C8EB6-A3326D">
+  <title>SAT</title>
+  <shortdesc>Exports solids, regions,
+ ACIS entities as SAT format using ACISOUT
+ command. Additionally, trimmed
+ ShapeManager objects of the NURBS
+ face, region and 3D solids
+ are also exported
+ as SAT file.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic769_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To export
+ an ACIS file</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Export from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the ACIS entities
+ you want to save.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the name of the file you want to create.</cmd>
+      </step>
+      <step>
+        <cmd>Click Save.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

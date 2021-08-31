@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1A4683E-13C4A11-F2154871C15A791-E535A2">
+  <title>Create Edge-Defined Surface Meshes</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic282_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can create a surface called a
+ Coons surface patch, a mesh connecting four edges. You select the entities that define the edges. Edge
+ entities can be arcs, lines, or polylines. The four edge entities must form a closed
+ loop and share
+ endpoints.A patch is a bicubic
+ surface (one curve extends in the M-direction and the other in the N-direction) interpolated between the four adjoining edges.
+ You can select the edges
+ in any order. The first
+ edge you select determines the M-direction of the mesh.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic282_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create an edge defined Coons surface patch mesh</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Surfaces
+ &gt; Edge Surface
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the first edge.</cmd>
+      </step>
+      <step>
+        <cmd>Select the second, third,
+ and fourth edges.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic282_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Select the objects to be used as the four edges (A, B, C, and D) The resulting
+ Coons surface patch mesh</p>
+    </result>
+  </taskbody>
+</task>

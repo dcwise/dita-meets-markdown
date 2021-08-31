@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A72A636E-5CA1154-A716591351B2378-ADEC78">
+  <title>Mirror Objects</title>
+  <shortdesc>You can specify a
+ baseline to create a mirror image using MIRROR command. The mirror image is symmetrical with the original one. So if
+ you want to create a symmetrical object, you only need to draw a half one,
+ then create a full one using MIRROR
+ command.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When creating
+ mirror objects using MIRROR command, you should specify a mirror line around
+ which the mirror object is created.
+ In the 3D space, this mirror line must be perpendicular to the XY plane in which the
+ mirror line is included. The mirror line can be determined byspecifying two points, while you creating mirror objects, you can optionally choose to remove or retain the source entity
+ as you need once the mirror objects are created. Like the picture is shown below. Additionally,
+ you should notice that mirror is only effective to such plans
+ that parallel to XY plan of current
+ UCS.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic328_image001.png" />
+        </fig>
+      </p>
+      <p>System variable MIRRTEXT
+ affects texts created with MIRROR command. When MIRRTEXT is on, the copy of text object is displayed in
+ mirroring way as other objects do. When MIRRTEXT is off, the direction
+ of text objects
+ remains unchanged. Displaying as follows:</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic328_image002.png" />
+      </p>
+      <p>By default, the MIRRTEXT is on. It affects
+ text objects created with TEXT, ATTDEF, METEXT
+ command as well as attribute definition and variable attribute. Text, as well as constant
+ attributes that are included in an insert block, are mirrored together
+ with the block while mirroring.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic328_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To mirror objects</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Mirror
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first point of
+ the mirror line.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second point of the mirror line.</cmd>
+      </step>
+      <step>
+        <cmd>On the command
+ line, if you want to retainthe originalobjects, type N; if you want to delete
+ the original objects,
+ type Y.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic328_image004.png" />
+      </p>
+      <p>Left: To mirror an object,
+ select it (A), and then specify the first point (B) and second point (C) of the mirror line Right: Result</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A14835-1C45871-5591E55BEDD79DB-7434B8">
+  <title>Create Breaks</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic351_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can break arcs, circles, ellipses, lines, polylines, rays, and infinite
+ lines. When breaking
+ entities, you must specify two points for the break. By
+ default, the point you use to select the entity becomes the first breakpoint; however, you can use the
+ First breakpoint option to select a breakpoint different from the one that selects the entity.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic351_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To break an object</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose to Modify &gt; Break from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic351_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the second
+ breakpoint.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the object
+ (A), and then specify the second break point (B)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic351_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select an object and then specify the two break points</p>
+      <ol>
+        <li>Choose to Modify &gt; Break from the mainmenu.</li>
+        <li>Select the object.</li>
+        <li>On the command line, type F (First point).</li>
+        <li>Specify the first break point.</li>
+        <li>Specify the second breakpoint.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic351_image004.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Select the object (A), and then specify the first (B) and second
+ (C) breakpoints</p>
+      <p>
+        <b>TIP </b>To break an object in two without
+ removing a portion of the object, specify the same point for the first and second break points
+ by typing the at sign (@) and pressing enter instead of specifying thesecond
+ break point.</p>
+    </result>
+  </taskbody>
+</task>

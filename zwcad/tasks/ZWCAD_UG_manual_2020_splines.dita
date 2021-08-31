@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA224356-5E5C248-C12565308B8E4E5-4F9B2A">
+  <title>Splines</title>
+  <shortdesc>The spline is a smooth
+ curve that passes through a series of control points. You can control the fit tolerance
+ among the curve
+ and points, and apply the fitness to drawing irregular
+ curves. A NURBS curve produces a smooth curve between control
+ points.</shortdesc>
+  <taskbody>
+    <context>
+      <p>A NURBS curve produces a smooth curve between control
+ points.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic265_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Multiple points
+ are required for drawing irregular splines and you can close the spline so that
+ the start and end points are coincident and tangent.</p>
+      <p>Tolerance in command line prompts describes
+ how precisely the spline fits the set of fit points you specify. The lower the tolerance, the more closely
+ the spline fits the points.
+ If the value is set to 0, the spline curve passes through
+ the fit point.</p>
+      <p>If you set the
+ tolerance value greater than 0, the spline will go through a fit point within
+ the specified tolerance range.</p>
+      <p>Usually, two ways of creating
+ splines are provided:</p>
+      <ul>
+        <li>Create a spline converted froma polyline using Spline option
+ of PEDIT command.</li>
+        <li>Create a spline using SPLINEcommand, that is NURBS curve.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic265_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a spline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Spline from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first point of the spline.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second point of the spline.</cmd>
+      </step>
+      <step>
+        <cmd>Specify as many more points as youwant.</cmd>
+      </step>
+      <step>
+        <cmd>When you have finished,
+ press Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic265_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can add tangents
+ to the spline, which are lines that give it shape.</p>
+      <ol>
+        <li>To add tangents to a spline</li>
+        <li>Specify the startingtangent point.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic265_image004.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the ending
+ tangent point.</li>
+      </ol>
+      <p>Left: Spline</p>
+      <p>Right: Spline with starting
+ tangent point (A) and ending tangent point
+ (B)</p>
+    </result>
+  </taskbody>
+</task>

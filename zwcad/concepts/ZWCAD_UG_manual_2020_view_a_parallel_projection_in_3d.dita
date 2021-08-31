@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="ABA43563-4A11F81-52C74227487A1A9-12CE85">
+  <title>View a Parallel Projection in 3D</title>
+  <shortdesc>You can view a parallel projection of 3D models at any location in model space. To determine the angle or viewpoint, you
+ can:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Select a preset
+ 3D view from the View toolbar.</li>
+      <li>Type angles or coordinate that represents the viewing location
+ in 3D.</li>
+      <li>Modify a view of the current UCS, the WCS or a saved UCS.</li>
+      <li>Change the 3D view dynamically using pointing device.</li>
+    </ul>
+    <p>Viewing 3D model
+ is available only in model space. If you are working in paper space, the 3D
+ viewing commands such as VPOINT and
+ PLAN cannot be used to define paper space views. The view in paper space is always a plane view.</p>
+    <p>The plane view is
+ a view that you look at the origin (0, 0, 0) from a point at the positive Z
+ axis. This method results in a view
+ of the XY plane. You can restore the view and coordinate system that is the default for most ZWCAD drawings by setting
+ the UCS orientation to World and then setting 3D views to Plan View.</p>
+  </conbody>
+</concept>

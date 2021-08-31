@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2243651-53CAF21-54A125A7E35114D-72A7D1">
+  <title>Use True Colors</title>
+  <shortdesc>There are more than 16 million
+ true colors fromwhich you can choose.
+ True colors are defined using 24- bit color.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Even with so many
+ colors available, you can quickly choose a color fromthe display of basic
+ colors or by clicking the color
+ palette. Alternatively, if you know the values used to define the desired
+ color, you can enter the Hue, Saturation, and Luminance (HSL)
+ values, or you can enter the Red, Green, Blue (RGB) values.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic166_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select a
+ true color</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Click Select
+ Color in the desired dialog box, such as Layers, Properties, or Multiline Text.
+ The Select Color dialog box opens.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe True Color tab.</cmd>
+      </step>
+      <step>
+        <cmd>Select one of the following two color models:</cmd>
+      </step>
+      <step>
+        <cmd>HSL color model</cmd>
+      </step>
+      <step>
+        <cmd>RGB color model</cmd>
+      </step>
+      <step>
+        <cmd>Specify the desiredcolor.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

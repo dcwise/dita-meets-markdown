@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA122A56-8365E14-53C4A11F5A871D5-A5915A">
+  <title>Dynamic Input</title>
+  <shortdesc>Dynamic input
+ provides a command interface near the cursor in the drawing area, it consist of
+ pointer input, dimension input, and
+ dynamic prompts When the dynamic input is turned on, a tooltip displays dynamically updated information near the
+ cursor. You can specify options and values in the tooltip box when a command is in progress.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic199_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>Dynamic Input</p>
+  </conbody>
+</concept>

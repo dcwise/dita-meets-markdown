@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A22A4356-836514A-1F25A79151A791E-59B098">
+  <title>Load and Run LISP Program</title>
+  <shortdesc>LISP programis available
+ only after loading,
+ while how to apply a LISP programrelies on the program</shortdesc>
+  <conbody>
+    <p>itself. If functions are created in programs, it can be performed just like executing
+ commands in ZWCAD. Most
+ of the LISP functions are provided with prompts instructing how to use them.
+ You can load LISP programto ZWCAD before executing this programas performing APPLOAD command.</p>
+  </conbody>
+</concept>

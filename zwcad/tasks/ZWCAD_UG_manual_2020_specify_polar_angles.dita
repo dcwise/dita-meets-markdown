@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA124536-513C4A1-1F2154A87751A7E-D8B2D8">
+  <title>Specify Polar Angles</title>
+  <shortdesc>You can set a polar increment angle to polar
+ tracking. The default
+ angle includes 90, 45, 30, 22.5,
+ 18, 15, 10 and 5 degrees. You can also type a desired angle
+ in the Additional Angles textbox.
+ The value is stored in the
+ system variable POLARANG. The orientation of angle 0 and the direction of
+ object snap are dependent on your settings in the Drawing
+ Settings dialog box(UNITS).</shortdesc>
+  <taskbody>
+    <context>
+      <p>The following illustration shows the alignment paths
+ displayed as you move your cursor 90 degrees with the polar angle
+ increment set to 30 degrees.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic132_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic132_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set polar tracking
+ angles</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Drafting
+ Settings from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Drafting
+ Settings dialog box, on the Polar Tracking tab, select Polar Tracking On.</cmd>
+      </step>
+      <step>
+        <cmd>From the Increment Angle list, select thedesired angle.</cmd>
+      </step>
+      <step>
+        <cmd>To set additional tracking
+ angles, select Additional Angles. Then click
+ New and enter the angle
+ value in the text box.</cmd>
+      </step>
+      <step>
+        <cmd>Under Polar Angle Measurement, specify whether polar tracking increments
+ are</cmd>
+        <info>
+          <p>based on the UCS or relative
+ to the last object you created.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Choose OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

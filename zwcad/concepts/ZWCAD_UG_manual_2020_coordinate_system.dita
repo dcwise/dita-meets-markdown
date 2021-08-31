@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A43-5686453-4AF2154871555A7-535CB2">
+  <title>Coordinate System</title>
+  <shortdesc>Many commands
+ in ZWCAD require that you specify points as you draw or modify entities.</shortdesc>
+  <conbody>
+    <p>You can do so by
+ selecting points with the mouse or by typing coordinate values in the command
+ bar. The programlocates points in a drawing
+ using a Cartesian coordinate system.</p>
+  </conbody>
+</concept>

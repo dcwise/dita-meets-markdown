@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122453-51C4A11-F158A5A159126CB-E0065D">
+  <title>Slice</title>
+  <shortdesc>You can use SLICEcommand to slice a solid with a plane and retain
+ the specified part or the entire solid.
+ The sliced solids retain the layer and color's properties of the original
+ ones. To slice a solid, you have to define a cutting
+ plane, then select
+ which part to retain.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Methods to define a cutting plane:</p>
+      <ul>
+        <li>Specifies three points to define a cutting plane.</li>
+        <li>Align the cutting
+ plane with a circle, ellipse,
+ arc, 2D spline or 2D polyline object.</li>
+        <li>Specifies a point lied on the cutting
+ plane and a point lied on the normal of the defined
+ section.</li>
+        <li>Align the
+ cutting plane with the plane of the current view.</li>
+        <li>Specifies a point
+ to determine the location of the cutting
+ plane on the XY, YZ or ZX plane, and aligns
+ the cutting plane with the XY, YZ, or ZX plane of the current
+ UCS.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic412_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To slice a solid</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids
+ &gt; Slice from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects to slice.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Specify three
+ points to define the cross-section plane. (The first point defines the origin, while the second point defines the
+ x-axis andthe third point defines the y- axis.)</cmd>
+      </step>
+      <step>
+        <cmd>Type O and press Enter to select an object that defines the cross-sectional
+ plane.</cmd>
+      </step>
+      <step>
+        <cmd>Specify an axisby typing Z
+ and pressing Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify whichside to retain,
+ or type B to retain both sides.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

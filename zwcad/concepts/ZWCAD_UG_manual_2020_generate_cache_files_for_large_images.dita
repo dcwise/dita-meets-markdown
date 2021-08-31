@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA245851-3411214-A81157E5B827E9C-AC68D7">
+  <title>Generate cache files for large images</title>
+  <shortdesc>Run RasterImageProc.exe programunder the installation directory
+ to launch ZwRasterImageTool. Open the ZwRasterImageTool dialog box.</shortdesc>
+  <conbody>
+    <p>Image paths needing to generate
+ cache files can be chosen
+ by Select Files or Select Directory.</p>
+    <ul>
+      <li>You can use Select
+ Files to select one or more image
+ files.</li>
+      <li>Subfolders can be included in the Select Directory.</li>
+    </ul>
+    <p>When no image file or folder is selected, the value for Cache Path is empty. When you select
+ an image</p>
+    <p>file, the default
+ value for Cache Path of a cache file is the path where the image file locates.
+ When you select a folder, the default
+ value for Cache Path of a cache file is the path where the folder locates. You can also specify
+ a new cache path by clicking Select
+ Directory.</p>
+    <p>The naming rule of output cache file is NAME_MODIFIEDTIME_CREATE TIME_SIZE.ZWIMG.</p>
+    <p>Click Start button to generate cache files. What will be displayed in the List boxis as follows:</p>
+    <p>Image path&amp;image file name+status of generating cache files "Complete!" displays
+ when all cache files have been generated</p>
+    <p>When you specify a new output path for cache files, the output path
+ specified will be added to the RasterImage Cache
+ File Search Path after all cache files have been
+ generated.</p>
+    <p>
+      <b>Note </b>When there are more than
+ 10 paths in the RasterImage Cache File Search Path, the following message
+ is displayed after all cache files have been generated: RasterImage Cache
+ Search Path More Than 10, it affects the performance that
+ Search RasterImage Cache. Please Clear it By Command "OPTION" items "RasterImage Cache Search Path".</p>
+    <p>Click Quit button
+ to quit the current operation and close the ZwRasterImageTool dialog box. Click? button to open
+ ZWCAD 2018 Help.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A4122364-4A1F254-A8155451E15659B-F85D45">
+  <title>The User Interface</title>
+  <shortdesc>You can work with
+ the ZWCAD window and its elements in a variety of ways. For example, you can display
+ and rearrange the toolbars, display
+ the command bar, and enable the status bar. The toolbars and command
+ bar can also be floated anywhere on the screen or docked to the edges of the
+ main ZWCAD window. You can customize the menu bar at the top of the window.</shortdesc>
+  <conbody>
+    <p>The following contents
+ include:</p>
+    <ul>
+      <li>The Application Menu</li>
+      <li>The Ribbon</li>
+      <li>Quick Access Toolbar</li>
+      <li>Menus and Shortcut Menus</li>
+      <li>Toolbars</li>
+      <li>The Command Window</li>
+      <li>Dynamic Input</li>
+      <li>Customize the Drawing Environment</li>
+    </ul>
+  </conbody>
+</concept>

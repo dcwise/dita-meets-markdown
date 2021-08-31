@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A22A3634-53C1587-5A91E5571EEDB93-8626CD">
+  <title>Create Dimensions with Oblique Extension Lines</title>
+  <shortdesc>By default, the
+ extension lines are perpendicular to the dimension line. However, if the
+ extension lines conflict with other
+ objects in a drawing, you can use Dimension-Oblique menu option to change their angles measured fromthe X axis of the
+ current UCS to the extension line. This option is only applied to the existing dimensions, ignoring the dimensions to be created.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic517_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

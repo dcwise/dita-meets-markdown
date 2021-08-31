@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12A43-5365E53-C1F214A8781C5A9-1E5591">
+  <title>Control Visibility in Layout Viewports</title>
+  <shortdesc>Various methods
+ are available for controlling whether to display or hide the layout viewport. A
+ l these methods help to limit the regen and highlight different elements
+ of the drawing having been set the Visibility.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Screen Objects
+ in Layout Viewports</p>
+      <p>Screening means
+ plotting with little ink. The screening objects will be displayed diminish on
+ paper and screen. Whereas the
+ screening value may not affect the color properties of the objects, only limit
+ the concentration of ink for the convenienceof distinguishingobjects after plotting.</p>
+      <p>To specify the screening value, you should specify the plot style first, and then define
+ the screening value in plot style editor.
+ The value can be assigned
+ from 0 to 100, if you specify
+ the value to 100, the screening will not take effect, that is to plot the
+ drawing without screening. While using screening value as 0 to plot the object
+ without ink, namely
+ make the objects
+ invisible.</p>
+      <p>Turn Layout
+ Viewports On or Off</p>
+      <p>The new layout
+ viewport is under status On by default until you select to turn off. The more
+ objects in model space, the more
+ layout viewports can be created. Thus generating contents of each viewport may affect
+ systemcapacity. The user can control
+ the status of the viewport
+ in Properties palette,
+ to save space by turning off
+ some viewports or limiting active viewports. The following figure shows the
+ results with two viewports turned
+ off.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic682_image001.png" />
+        </fig>
+      </p>
+      <p>Once the viewport
+ is turned off, you can copy the viewport without regen each viewport, and the
+ closed viewport will not be plotted. To hide the viewport boundary
+ which you are working on, you can create a specific layer for viewports and then close
+ or freeze the layer.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic682_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn layout
+ viewports on or off</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Clickthe desired Layout tab.</cmd>
+      </step>
+      <step>
+        <cmd>Type MVIEW and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Type ON or OFF.</cmd>
+      </step>
+      <step>
+        <cmd>Select the edge of the layout viewport to turn on or off, andthen press Enter.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

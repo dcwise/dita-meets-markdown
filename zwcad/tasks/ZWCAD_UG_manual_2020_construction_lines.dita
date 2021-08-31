@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA124865-3C4A254-A871755A913A164-CD5B25">
+  <title>Construction Lines</title>
+  <shortdesc>A construction
+ line is a line through a given point, oriented at a specified angle in
+ three-dimensional space and extending
+ to infinity in both directions. Because construction lines extend to infinity,
+ they are not calculated as part of the drawing
+ extents.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The default method for drawing a construction line is to select
+ a point along the line and then specify
+ the direction of the line. You can draw a construction line in any of the following ways:</p>
+      <ul>
+        <li>Horizontal draws the construction line parallel to the x-axis
+ of the current UCS.</li>
+        <li>Vertical draws the construction line parallel to the y-axis of the current
+ UCS.</li>
+        <li>Angle draws the construction line parallel to a specified
+ angle.</li>
+        <li>Bisect draws the construction line perpendicular to an existing
+ object.</li>
+        <li>Parallel draws the construction line parallel to an existing object.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic236_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a construction line</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Construction Line from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a point along the line.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the direction.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic236_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ To complete the command,
+ press Enter.</info>
+      </step>
+    </steps>
+    <result>
+      <p>The point along the infinite line (A) and the direction (B)</p>
+      <p>You can also draw a construction line at
+ a specific angle or at an angle relative
+ to an existing object.</p>
+    </result>
+  </taskbody>
+</task>

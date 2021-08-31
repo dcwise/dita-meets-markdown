@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA2A5636-E4AF25A-8715793570A8C27-7BC389">
+  <title>Creating a new layout</title>
+  <shortdesc>In ZWCAD, you can create
+ multiple layouts for a single
+ drawing. Each layout
+ represents a sheet of paper. For each layout, you can specify the print area, print styles, print scale, lineweight scale, pen mappings,</shortdesc>
+  <taskbody>
+    <context>
+      <p>and add
+ viewports, dimensions, a title block, and other geometry specific to the
+ layout. The objects you add to a layout in paper space do not appear
+ in model space.</p>
+      <p>When you create a
+ new drawing, the drawing automatically contains two default layouts: Layout1
+ and Layout2. You can start by using one of the default layouts, you can create
+ your own, or you can create a new
+ layout from another template (.dwt) file, drawing (.dwg) file, or drawing interchange (.dxf) file. Each drawing
+ can contain up to 255 layouts.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic672_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a new layout using the Layout1
+ or Layout2 tab</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Right-click the Layout1 or Layout2 tab, and select
+ a New layout.</cmd>
+      </step>
+      <step>
+        <cmd>If desired, rename the layout.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic672_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a new layout using a new Layout tab</p>
+      <ol>
+        <li>Choose Insert &gt; Layout
+ &gt; New Layout
+ from the main menu.</li>
+        <li>Type a unique name for your layout and then press Enter.</li>
+        <li>The name can be up to 255 characters in length andcancontain letters, numbers, the dollar sign($),
+ hyphen (-), and underscore (_), or anycombination.</li>
+        <li>Set up at least one layout
+ viewport.</li>
+      </ol>
+      <p>Create
+ Layout from Template</p>
+      <p>Right-clickon the
+ Layout tab to select Fromtemplate option to import DWGor DWT file directly,
+ using information from existing template
+ to create new layouts.</p>
+      <p>Template layout
+ instances are providedfor designing new layouts including viewport objects.
+ Objects of paper space and page
+ setup of the existing template are used by new layouts. Thus, layout objects will be displayed in paper space as well as
+ viewport objects. The user can retain existing objects imported from the template and also delete objects.
+ Any object frommodel space can't be imported while creating a layout
+ fromthe template.</p>
+      <p>The system
+ provides template file with extension name as .dwt. Layout templates from any
+ drawing templates can be imported
+ into the current
+ drawing.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic672_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a new layout froman existing file</p>
+      <ol>
+        <li>Choose Insert &gt; Layout
+ &gt; Layout from Template from the main menu.</li>
+        <li>In the Select
+ Template From File dialog box, select the desired template file, and then click Open.</li>
+        <li>In the Insert
+ Layout(s) dialog box, select the layout(s) you want to insert, and then click OK.
+ You can choose multiple layouts by holding down Ctrl while selecting layout
+ names.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

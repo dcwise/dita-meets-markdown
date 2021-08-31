@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7AA4636-54AF154-8D15A9E53A7C495-79627E">
+  <title>Add and Delete Multiline Vertices</title>
+  <shortdesc>You can use MLEDIT
+ to add or delete vertices for a multiline. As shown in the illustration.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic384_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

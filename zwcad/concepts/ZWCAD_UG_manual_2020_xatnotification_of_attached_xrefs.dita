@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12836-5E5C154-87B1C1E57DAB43D-7425F9">
+  <title>xatNotification of Attached Xrefs</title>
+  <shortdesc>After inserting
+ external references into the drawing, a xref icon displays at the lower right
+ corner of the status bar on ZWCAD
+ application window. Click this icon shown below to display External Reference manager:</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic580_image001.png" />
+      </fig>
+    </p>
+    <p>If the original
+ drawing to which the xref links has been changed and needs to reload, an
+ exclamation mark appears
+ on the xref icon.</p>
+  </conbody>
+</concept>

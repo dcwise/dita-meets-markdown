@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72366E3-4A1F215-4A12505E535957F-E637ED">
+  <title>Control the Color and Linetype Properties in Blocks</title>
+  <shortdesc>Through controlling properties like color and linetype for objects on the block,
+ the objects in an inserted
+ block can retain their original
+ properties, can inherit properties fromthe
+ layer on which they are inserted, or can inherit the properties set as current in the drawing. When you insert a block, the color,
+ linetype,</shortdesc>
+  <conbody>
+    <p>and lineweight of
+ objects in the block retain their original settings regardless of the current
+ settings in the drawing.</p>
+    <p>The following
+ three choices are provided for you to determine how the color, linetype, and
+ lineweight properties of objects are treated when a block
+ reference is inserted.</p>
+    <p>Objects in the block
+ inherit their original
+ color, linetype, and lineweight properties once inserted into the drawing. The properties of objects in the
+ block can't be changed until redefined. For this choice, it is recommended that you set the color,
+ linetype, and lineweight properties individually for each object in the block definition: which are different from BYBLOCK or BYLAYER color,
+ linetype, and lineweight settings when creating these
+ objects.</p>
+    <p>Objects in the
+ block inherit color, linetype, and lineweight properties that assigned to the
+ current layer only. For this choice,
+ before you create
+ objects to be included in the block definition, set the
+ current layer to 0, and set the current color,
+ linetype, and lineweight to BYLAYER.</p>
+    <p>Objects inherit color, linetype, and
+ lineweight properties that have been definitely set, that is, the properties you have set to override
+ the color, linetype, or lineweight assigned
+ to the current layer. If you do not definitely
+ specify layer properties for the objects,
+ then use properties of the current
+ layer. For this choice,
+ before you create objects to be included in the block definition, set the
+ current color or linetype to BYBLOCK.</p>
+  </conbody>
+</concept>

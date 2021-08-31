@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A435-6351454-A11F247B5A75394-27DEFC">
+  <title>Adding geometric tolerances</title>
+  <shortdesc>Geometric
+ tolerances indicate the maximum allowable variations in the geometry defined by
+ a drawing. ZWCAD draws geometric
+ tolerances using a feature control frame, which is a rectangle divided into compartments.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic542_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To add a geometric
+ tolerance</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Tolerance from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Geometric Tolerance
+ dialog box, click the first
+ square under Sym and select a symbol
+ to insert.</cmd>
+      </step>
+      <step>
+        <cmd>Under Tolerance 1, click the first
+ black box to insert a diameter symbol.</cmd>
+      </step>
+      <step>
+        <cmd>In the Text box, type the first tolerance
+ value.</cmd>
+      </step>
+      <step>
+        <cmd>To add a material
+ condition (optional), click
+ the second black box andclick
+ a symbol in the Material
+ Conditions dialog box to insert it.</cmd>
+      </step>
+      <step>
+        <cmd>Under Tolerance 2, repeat steps 3 through 5 to add a second
+ tolerance value, if</cmd>
+        <info>
+          <p>appropriate.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Under Datum 1, Datum 2 and Datum 3, enter the datum reference
+ letter.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe blackbox to insert a material
+ conditionsymbol for eachdatum reference.</cmd>
+      </step>
+      <step>
+        <cmd>In the Height box, type a projected tolerance
+ zone height value, if appropriate.</cmd>
+      </step>
+      <step>
+        <cmd>To insert
+ a projected tolerance zone symbol, click the Projected Tolerance Zone box, if appropriate.</cmd>
+      </step>
+      <step>
+        <cmd>In the Datum Identifier box, adda datum
+ value.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>In the drawing, specify the location of the feature
+ frame.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12568-64CA154-A896557915352A8-03F0D6">
+  <title>DWFx</title>
+  <shortdesc>Export ZWCAD drawings as Web DWFx formats using DWFOUT or PLOT command. As a two dimensionalvector
+ file, DWFx publishes ZWCAD drawings on Web or Intranet network.</shortdesc>
+  <taskbody>
+    <context>
+      <p>DWFx file supports real-time panning
+ or scaling and controls how the layers and named views are</p>
+      <p>displayed.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic724_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To export
+ a drawing to a DWF file</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Choose DWFx ePlot(XPS Compatible).pc5 for the Name option from the Printer/plotter area on the Plot dialog
+ box.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the location and the name for the
+ DWFx file in Browse for Plot File dialog box.</cmd>
+      </step>
+      <step>
+        <cmd>Click Save.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

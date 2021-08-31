@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2235685-143C411-F2154A87A1505A9-E5359B">
+  <title>Copy Objects</title>
+  <shortdesc>You can copy the objects on the clipboard into the
+ document created by other application. The copied</shortdesc>
+  <taskbody>
+    <context>
+      <p>objects can keep
+ the height resolution as they are copied to the vector format. These objects
+ store on the clipboard with the WMF
+ (Windows Metafile Format) format. The copies keep unchanged at the other application even if the original drawing
+ has changed.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic433_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To copy objects to the Clipboard</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select the objects youwant
+ to copy.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Edit &gt; Copy from the main menu.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Anything that you
+ can copy to the Clipboard can be pasted into a drawing. The format in which the programadds the Clipboard contents
+ to the drawing depends on the type of information in the Clipboard. For example, if you copy ZWCAD drawing entities to the
+ Clipboard, the programpastes theminto the drawing
+ as ZWCAD entities. If you copy items to the Clipboard from other programs, they
+ are pasted into the current drawing
+ as embedded ActiveX
+ objects.</p>
+    </result>
+  </taskbody>
+</task>

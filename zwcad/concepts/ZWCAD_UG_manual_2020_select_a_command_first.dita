@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A43-68E13C1-F25AD52A7E5A569-2E5290">
+  <title>Select a Command First</title>
+  <shortdesc>After typing a command, the cursor becomes
+ a pickbox and prompts you to select
+ objects. There are several methods for selecting objects:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Select objects using a mouse or another
+ pointing device.</li>
+      <li>Click on the drawing area and drags the cursor to define a square selection area.</li>
+      <li>Entering interrogation?
+ displays all selection methods, fromwhich, you can specify the desired one.</li>
+      <li>Use multiple methods together.
+ For example, to select most of the objects on the drawing, you can select all objects and then remove
+ the undesired ones.</li>
+    </ul>
+    <p>When you choose an object-modification tool or command,
+ the programprompts you to select objects.</p>
+    <p>Typing ? and pressing
+ ENTER, you can choose a selection method.
+ You can select individual objects
+ or use other techniques such as
+ selection windows to select
+ multiple objects.</p>
+    <p>When you select
+ objects, you add themto the selection set. After you select at least one object,
+ you can remove objects from the
+ selection set. To finish adding objects to the selection set, press Enter. Most object-modification commands then act on the entire selection set.</p>
+  </conbody>
+</concept>

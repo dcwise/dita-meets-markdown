@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A683-5E1F148-157155A086AE57D-04F92A">
+  <title>Drawing elliptical arcs</title>
+  <shortdesc>An elliptical arc
+ is a portion of an ellipse. The default method for drawing an elliptical arc is
+ to specify the endpoints of one axis
+ of the ellipse, and then specify a distance representing half the length of the second axis. Then you specify
+ the start and end angles for the arc, measured
+ fromthe center of the ellipse
+ in relation to its major
+ axis.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic264_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw an elliptical arc by specifying the axis endpoints</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Ellipse
+ &gt; Arc from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first endpoint.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second endpoint.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the half-length of the other axis.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start angle of the arc.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the end angle.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>ZWCAD draws elliptical arcs in the direction you specify. Go to Format &gt; Units menu option,
+ under Angle tab, the default
+ setting is counterclockwise.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic264_image002.png" />
+      </p>
+      <p>First axis endpoint
+ (A), second axis endpoint (B), half-length of another axis (C), start angle of arc (D) and end angle (E)</p>
+    </result>
+  </taskbody>
+</task>

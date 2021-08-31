@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB122436-83E145C-1F154A557414224-C21E5D">
+  <title>Save Your Drawing Automatically</title>
+  <shortdesc>You can specify
+ to save drawing files automatically in order to minimize the lost data once a
+ problem occurs.</shortdesc>
+  <conbody>
+    <p>If you start
+ the automatic save option, your drawing is saved at specified time intervals. By default, system assigned the name <i>filename.zw$ </i>for
+ temporarily saved files, filename here
+ refers to current drawing name.</p>
+    <p>The temporary
+ files are removed automatically when a drawing closes normally. However, these
+ files are not deleted if there is a programfailure or power failure. You can recover
+ the drawing by reverting to a
+ previous version of your drawing fromthe automatically saved file. In order to
+ do that, you have to rename the file using a ".dwg" extension.</p>
+  </conbody>
+</concept>

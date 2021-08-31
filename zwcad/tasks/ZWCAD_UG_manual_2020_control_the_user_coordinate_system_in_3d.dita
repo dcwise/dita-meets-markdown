@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A4-356814C-A1F2154A8C55579-1E57D2">
+  <title>Control the User Coordinate System in 3D</title>
+  <shortdesc>When working in three-dimensional space, you can define a UCS with
+ its own (0,0,0) origin and orientation separate from the WCS. You can
+ create as many user coordinate systems as you want and then save and recall themas
+ you need themto
+ simplify the constructionof three-dimensionalentities.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic216_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ For example, you can create a
+ separate UCS for each side of a building. Then, by switching to the UCS for the east side of the building, you can
+ draw the windows on that side by specifying only their x and y coordinates. When you create one or more
+ user coordinate systems, the coordinate entry is based on the current UCS.</p>
+      <p>UCS aligned
+ with the front wall of the house</p>
+      <p>To define a UCS, you can use any of the following methods:</p>
+      <ul>
+        <li>Specify a new origin and points on the positive
+ xand y-axes.</li>
+        <li>Specify a new origin and point
+ on the positive z-axis.</li>
+        <li>Align the UCS with an existing entity.</li>
+        <li>Rotate the current UCS around any of its axes.</li>
+        <li>Align the UCS with its z-axis parallel to the current
+ viewing direction.</li>
+        <li>Align the UCS xy plane perpendicular to the current
+ view.</li>
+        <li>When you
+ define a new UCS, the UCS icon changes to indicate the origin and orientation of</li>
+      </ul>
+      <p>the new UCS.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic216_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To define a UCS by specifying a new origin and points on the positive
+ xand y-axes</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; New UCS &gt; 3 Point from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a new original point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a point on the positive
+ x-axis.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a point on the positive
+ y-axis.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic216_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Define the new UCS by selecting the origin
+ (A), a point on the positive x-axis (B), and a point in
+ the positive y direction (C)</p>
+    </result>
+  </taskbody>
+</task>

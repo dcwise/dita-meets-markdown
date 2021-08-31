@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7435665-153C411-F21548C1D55A915-33C3E3">
+  <title>Mirror3D</title>
+  <shortdesc>Creates a mirrored
+ copy of selected 3D objects
+ across a mirroring
+ plane.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic296_image002.png" />
+      </fig>
+    </p>
+    <p>
+      <table>
+        <tgroup cols="3" colsep="1" rowsep="1">
+          <colspec colname="col2" align="left" />
+          <colspec colname="col4" align="left" />
+          <colspec colname="col6" align="left" />
+          <tbody>
+            <row>
+              <entry morerows="1" align="left" colname="col2">
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic296_image006.png" />
+              </entry>
+              <entry align="left" colname="col4">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic296_image007.png" />
+                </fig>
+              </entry>
+              <entry morerows="2" align="left" colname="col6">
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic296_image008.png" />
+              </entry>
+            </row>
+            <row>
+              <entry colname="col4" />
+            </row>
+            <row>
+              <entry colname="col2" />
+              <entry colname="col4" />
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>You can specify the mirroring plane the following:</p>
+    <ul>
+      <li>Object: Uses the plane of a selected planar object</li>
+      <li>Last: Mirrors the selected
+ objects about the last defined plane</li>
+      <li>Z Axis: Defines the plane by a point on the plane and a point normal to the plane</li>
+      <li>View: Aligns the plane
+ with the viewing plane of the current
+ viewport through a point</li>
+      <li>XY/YX/ZX: Aligns the plane
+ with one of the standard
+ planes through a specified point</li>
+      <li>3 Points: Defines the plane by three points</li>
+    </ul>
+  </conbody>
+</concept>

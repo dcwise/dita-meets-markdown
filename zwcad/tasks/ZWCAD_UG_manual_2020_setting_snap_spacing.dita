@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7AA4358-365E153-41F215A7F5A9153-5A3CB0">
+  <title>Setting snap spacing</title>
+  <shortdesc>Another way to
+ ensure drawing accuracy is to turn on and set snap spacing. When snap is turned
+ on, the program restricts the
+ selection points to predetermined snap intervals. Although it is often helpful
+ for snapping by means of matching the snap spacing
+ with grid spacing,
+ the setting is not required.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic122_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn snap settings
+ on and set snap spacing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Drafting
+ Settings from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Snap and Gridtab.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Snap-On box.</cmd>
+      </step>
+      <step>
+        <cmd>Under Snap tab,
+ input a value in the Snap X Spacing
+ field and Snap Y Spacing field separately.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>Status bar </b>Right-click on the Snap Mode button to choose Settings.</p>
+      <p>
+        <b>TIP </b>To toggle
+ snap settings on and off at any time, click the
+ Snap Mode button on the status bar, or press F9.</p>
+    </result>
+  </taskbody>
+</task>

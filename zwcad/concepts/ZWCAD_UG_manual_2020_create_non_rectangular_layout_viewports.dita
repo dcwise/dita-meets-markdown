@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A4-68365E5-C41F2154A7815BA-9E5971">
+  <title>Create Non-rectangular Layout Viewports</title>
+  <shortdesc>Use Object and
+ Polygonal options of MVIEW to create irregular viewports, Select-Object
+ option to convert objects
+ created in paper space to
+ viewports. While selecting the
+ Polygonal option to draw irregular
+ polylines including arcs and lines which are enabled to either intersect or three vertexes
+ at least, the polyline will be closed
+ automatically to formirregular polygonal viewport.</shortdesc>
+  <conbody>
+    <p>To define viewport boundaries, the area in which selected
+ objects are contained
+ will be calculated, to set viewport objects on the corner of the
+ boundary, and then clip the viewport according to the specified objects.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic688_image001.png" />
+      </fig>
+    </p>
+    <p>The polygonal
+ option is used for creating irregular viewports according to specified points.
+ With the same command
+ prompts as creating
+ a polyline.</p>
+  </conbody>
+</concept>

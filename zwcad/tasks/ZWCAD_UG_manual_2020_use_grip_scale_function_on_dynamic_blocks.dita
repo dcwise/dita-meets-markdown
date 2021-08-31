@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22386-5E143C1-F2154A878165A91-35BBD0">
+  <title>Use Grip Scale Function on Dynamic Blocks</title>
+  <shortdesc>You can scale the selected
+ entity relative to the grip.
+ Drag the entity
+ outwards the base grip to enlarge its size, and drag inwards to decrease the size.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Once you have selected a dynamic block contains scale action, click the
+ light blue grip on the dynamic block to display command
+ line prompt as follows:</p>
+      <p>Specify point Location or [Base point/Undo/eXit]: </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic615_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Scale dynamic block by using grip</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select the dynamic block contains move action.</cmd>
+      </step>
+      <step>
+        <cmd>Clickon the light blue grip of the dynamic
+ blockto highlight the selected grip.</cmd>
+      </step>
+      <step>
+        <cmd>Command line prompt appears,
+ do either of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Specify "B(Base point)" option
+ to relocate the base point for scaling.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "U(Undo)" option to abort the last scaling.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "X(eXit)" option to exit scale
+ manipulation.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the target location
+ for grip directly.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic615_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ After specifying the target location, the dynamic block will be scaled towards the orientation
+ anddisplacement along the connecting line of the selected grip (or the new base
+ point) andthe target
+ point.</info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

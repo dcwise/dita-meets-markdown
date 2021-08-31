@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA235354-5415871-55A7E3916D1BE79-0A965D">
+  <title>Delete Faces</title>
+  <shortdesc>You can use SOLIDEDIT to delete the selected faces or fillets of 3D solids.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic417_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To delete a solid
+ face</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids
+ Editing &gt; Delete
+ Faces from the main menu.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic417_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the face(s)
+ to delete, andpress
+ Enter.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Left: Specify the face(s)
+ to delete (A)</p>
+      <p>Right: The resulting entity with the face deleted</p>
+    </result>
+  </taskbody>
+</task>

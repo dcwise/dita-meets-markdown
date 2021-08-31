@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2A4568E-43CA114-8A55A795926C979-0D6A5D">
+  <title>Extrude Faces</title>
+  <shortdesc>You can extrude one or more faces of 3D solids at the
+ specified height and path.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Negative value
+ extrudes faces along to the positive normal; positive value extrudes faces
+ along to the negative normal. After
+ specifying the height, the system prompts you to specify the angle of taper for extrusion. If you specify the angular
+ value is greater than 0, the plane tapers in from the base object; if the value is negative, the face tapers out. By default, the value is of 0, which extrudes
+ the face</p>
+      <p>perpendicular. The extrusion stops
+ when the tapered face shrinks to a point.</p>
+      <p>If you select Path option, the selected face extrudes at the specified line or curve objects. The objects that can
+ be specified as an extrusion path contains line, circle, arc, ellipse, ellipse
+ arc, polyline, and spline. These objects
+ should not be coplanar with the object,
+ nor should have areas of high curvature. Genera ly, one of the endpoints of the selected
+ extrusion path should lie in the center of the face to extrude, if not, the systemwill do it.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic414_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To extrude
+ a solid face</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing &gt; Extrude Faces from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the face(s) to extrude, andpress
+ Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Specify the height of extrusion.</cmd>
+      </step>
+      <step>
+        <cmd>Type P and press Enter to select a path for extrusion.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic414_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ If you specified a height, specify
+ a taper angle.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Left: Select the entity to extrude, and then specify
+ the face(s) to extrude (A), and the height of extrusion or path Right:
+ The resulting entity
+ with the face extruded to position (B)</p>
+    </result>
+  </taskbody>
+</task>

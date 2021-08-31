@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA224586-5E15C41-215A7C155357915-3A7CB2">
+  <title>Using point filters in two dimensions</title>
+  <shortdesc>You can use point filters when you work
+ in two dimensions to locate
+ points in relation
+ to existing entities. For example, to draw a circle centered in a rectangle, start the
+ Circle command, and then respond to the prompts as follows:</shortdesc>
+  <conbody>
+    <p>CIRCLE
+ </p>
+    <p>Specify
+ the center point of circle or [3P/2P/Ttr (tangency tangency radius)]:
+ .y </p>
+    <p>Select Y
+ of: mid MidPoint
+ </p>
+    <p>Still
+ need XZ of: mid MidPoint </p>
+    <p>Specify circle radius or [Diameter]:
+ </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic210_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>You can use point filters
+ to center the circle by separately selecting
+ the midpoints of two sides of the rectangle (A and B) and then specifying its radius.</p>
+  </conbody>
+</concept>

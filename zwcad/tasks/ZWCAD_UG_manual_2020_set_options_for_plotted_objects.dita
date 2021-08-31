@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A8-3153A1F-1A7145A791E535A-A654E7">
+  <title>Set Options for Plotted Objects</title>
+  <shortdesc>The following
+ options show plot patterns with instructions on how to plot objects.</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>The plot in Background. Specifies that the plot is processed
+ in the background.</li>
+        <li>Plot Object Lineweights. Specifies that lineweights assigned to objects
+ and layers are plotted.</li>
+        <li>Plot with Plot Styles. Plots a drawing with specified plot styles. Plots
+ lineweights automatica ly once selecting
+ this option automatically. If you do not select
+ this option, objects
+ are plotted with their assigned
+ properties and not with the plot style overrides.</li>
+        <li>Plot Paperspace Last.
+ Plots model space
+ geometry first. Paper
+ space geometry is usually plotted</li>
+      </ul>
+      <p>before model space geometry.</p>
+      <ul>
+        <li>Hide Paperspace Objects. Suppresses the plotting of objects that are located
+ behind other objects
+ regardless of how it's displayed on thescreen. This option is only available in the Layout tabs.</li>
+        <li>Plot Stamp on. Horizontally or vertically placed
+ the plot stamp
+ information on a specified corner
+ of the drawing. The plot stamp settings
+ can be saved to log file, also cannot be saved.</li>
+        <li>"Plot Stamp
+ Settings" Button. The Plot Stamp dialog box will be opened by selecting the Plot
+ Stamp on option in the Plot dialog box,</li>
+        <li>Save Changes to Layout. All
+ the changes you make in the Plot dialog box will be saved to the layout if you click
+ OK.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic707_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set lineweight options</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>If necessary, click the desired Layout tabor the Model tab.</cmd>
+      </step>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Plot Object Lineweights to
+ plot the lineweights assigned to objects
+ and layers.</cmd>
+      </step>
+      <step>
+        <cmd>Select Scale
+ Lineweights to print lineweights in proportion to the scale you set in the Plot Scale. If not
+ selected, lineweights print at their assigned size without adjustments for the print scale. (A Layout tabmust be active to scale lineweights.)</cmd>
+      </step>
+      <step>
+        <cmd>Select Save Changes to Layout, andthen click Applyto Layout.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>Print styles can also affect how lineweights print.</p>
+    </result>
+  </taskbody>
+</task>

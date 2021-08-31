@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA243865-1453C41-1F15A87150591E5-96BED0">
+  <title>Use Grip Move Function on Dynamic Blocks</title>
+  <shortdesc>You can move the selected dynamic block by
+ moving its grip. The dynamic block will be
+ moved according to the specified orientation and position.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Once you have selected a dynamic block contains move action, click the
+ light blue grip on the dynamic block to display
+ command line prompt
+ as follows:</p>
+      <p>Specify point Location or [Base point/Undo/eXit]: </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic613_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Move dynamic block by using grip</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select the dynamic block contains move action.</cmd>
+      </step>
+      <step>
+        <cmd>Clickon the light blue grip of the dynamic
+ blockto highlight the selected grip.</cmd>
+      </step>
+      <step>
+        <cmd>Command line prompt appears,
+ do either of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Specify "B(Base point)" option to locate the base point for moving.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "U(Undo)" option to abort last moving.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "X(eXit)" option to exit move manipulation.</cmd>
+      </step>
+      <step>
+        <cmd>Specify target location for grip directly.</cmd>
+      </step>
+      <step>
+        <cmd>After specifying the target location, the
+ dynamic blockwill be moved towards the orientation anddisplacement along the connecting line of the selected grip and
+ the target point.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic613_image002.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

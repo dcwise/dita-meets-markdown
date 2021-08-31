@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A22463CA-11F5A87-2542E7FA62747E9-E11345">
+  <title>Toolbars</title>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic16_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Toolbars partially contain buttons
+ that start commands. When you move your mouse or pointing device over a toolbar button, the tooltip
+ displays the name of the button. The Standard toolbar at the top of the drawing area is
+ similar to that found in Microsoft® Office programs. It contains commonly used ZWCAD
+ commands such as COPY, PAN and ZOOM, as well as Microsoft Office standard
+ commands such as New, Open,
+ and Save.</p>
+    <p>Standard toolbar</p>
+    <p>The ZWCAD classic menu initially displays
+ several other toolbars
+ by default:</p>
+    <ul>
+      <li>Properties toolbar</li>
+      <li>Styles toolbar</li>
+      <li>Modify toolbar</li>
+      <li>Draw toolbar</li>
+      <li>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic16_image008.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Layers toolbar</li>
+    </ul>
+    <p>The default toolbars</p>
+    <p>You can display or hide
+ these toolbars and additional ones.
+ Using CUSTOMIZEcommand, you can also create
+ your own toolbars. You can move the floating command window anywhere on the
+ screen and resize its width and
+ height with the pointing device. Dock the command window by dragging it until
+ it is over the top or bottomdocking region of the ZWCAD window,
+ but you can't change its size.</p>
+  </conbody>
+</concept>

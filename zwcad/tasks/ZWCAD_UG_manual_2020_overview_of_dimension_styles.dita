@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12245-365E14C-4A114AAA79357A9-DE9B7F">
+  <title>Overview of Dimension Styles</title>
+  <shortdesc>Dimensions that
+ you insert are created using the current dimension style. You can create, save,
+ restore, and delete
+ named dimension styles.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The DIMSTYLE
+ command is available when you
+ want to display information about the
+ cur ent dimension style and all
+ of the named dimension styles.</p>
+      <p>Dimension styles
+ provide a way for you to change
+ various settings that control the
+ appearance of dimensions. You can
+ then save those settings for reuse. If you don't define a dimension style
+ before creating dimensions, the
+ programuses the Standard dimension style, which stores the default dimension variable settings. You can get Modify
+ Dimension Style dialog started by clicking Modify button on Dimension
+ Style Manager dialog,
+ for further modification of each dimstyle settings.</p>
+      <p>You can change
+ the following settings
+ in the Dimension Style Manager.</p>
+      <ul>
+        <li>Extension lines, dimension lines, arrowheads, center marks
+ or lines, and the offsets
+ between them</li>
+        <li>The positioning of the parts
+ of the dimension in relation to one another and the orientation of the dimension
+ text</li>
+        <li>The content and appearance of the dimension
+ text</li>
+        <li>The units of the dimension
+ value</li>
+      </ul>
+      <p>With the Compare
+ button of the Dimension Style Manager, you can list the difference between any
+ two named dimension
+ styles.</p>
+      <p>If there is a dimension contained in the xref being inserted,
+ then dimension style applied in this dimension
+ is also existing in the current drawing. You can compare externally
+ referenced dimension styles with other
+ styles, but not allowed to modify themor make themcurrent. An externally referenced
+ dimension style can be used as a template to create a new dimension style in the current drawing.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic487_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create
+ a dimension style</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Style from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Dimension Style Manager dialog box, click New.</cmd>
+      </step>
+      <step>
+        <cmd>Type the name of the new dimension style, and choose which style started with and what kind of dimensionused for.</cmd>
+      </step>
+      <step>
+        <cmd>Click Continue.</cmd>
+      </step>
+      <step>
+        <cmd>In the New Dimension Style dialog box, click one of the other tabs, and then change the dimension settings
+ as necessary. Repeat
+ this step for each tab, as needed.</cmd>
+      </step>
+      <step>
+        <cmd>To end the command, click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic487_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select
+ a dimension style</p>
+      <ol>
+        <li>Choose Dimension &gt; Style from the main menu.</li>
+        <li>Select a dimensionstyle from the Styles
+ list.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic487_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To rename a dimension
+ style</p>
+      <ol>
+        <li>Choose Dimension &gt; Style from the main menu.</li>
+        <li>In the Styles list of Dimension
+ Style Manager dialog box, do one of the following:</li>
+        <li>Double click the requiredstyle.</li>
+        <li>Right-click on the required
+ style name, and then choose
+ Rename.</li>
+        <li>Type the new name.</li>
+        <li>Click Close to exit.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic487_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To delete a named dimension style</p>
+      <ol>
+        <li>Choose Dimension &gt; Style from the main menu.</li>
+        <li>In the Styles list of Dimension
+ Style Manager dialog
+ box, right click on the required style name, andthen choose
+ Delete.</li>
+        <li>Click Close to close.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic487_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To display
+ information about the current style</p>
+      <ol>
+        <li>Choose Dimension &gt; Style from the main menu.</li>
+        <li>In the Dimension Style Manager dialog box, click Compare.</li>
+        <li>In the Compare
+ Dimension Style dialog box, choose the same dimensionstyle from the Compare and With pulldown list. All
+ properties for specified dimension style will be displayed.</li>
+        <li>If you want to know the different information between two styles,
+ choose one style in
+ the Compare box, choose the other in the With box, and then you will see the difference in the following tab.</li>
+        <li>Click Close to close.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

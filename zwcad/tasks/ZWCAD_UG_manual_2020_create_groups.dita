@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A236835E-134A11F-1487D65E5A662AE-52C270">
+  <title>Create Groups</title>
+  <shortdesc>Entering GROUP command opens the Group
+ dialog box, from which, you can give a name and description to create a group. If you copy a group,
+ the default name is *Ax, and it is considered
+ unnamed. When you select Display
+ Unnamed Groups, the list displays
+ all the unnamed
+ groups.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When you select an object froma group, the other objects
+ of this group are also selected at the same
+ time. The objects
+ can be members of more
+ than one group, and the
+ group can be nested in another
+ group. You can restore a nested group to the original group
+ configuration by ungrouping it.</p>
+      <p>The named groups
+ are not available when you insert a drawing as an external reference or a block. However, it is available
+ if your band and then explode the external reference or explode the block.</p>
+      <p>A group containing too many objects
+ can degradethe performance of the system.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic322_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create
+ a group</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the command line, type GROUP.</cmd>
+      </step>
+      <step>
+        <cmd>Under Create New Group,
+ enter the name and description of the group.</cmd>
+      </step>
+      <step>
+        <cmd>Click Selectable if youwant all entities
+ in the groupto be selected
+ when youselect one entity of the group in the drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Click Select Entities and Create Group.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects for the group,
+ and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>In the Group dialog box, click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

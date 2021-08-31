@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7246514-3A1F248-7913A91E35999C8-D6A52D">
+  <title>Edit Proxy Objects</title>
+  <shortdesc>Proxy objects
+ are enabled to be access,
+ display, and also to performthe following manipulations:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Erase proxy objects</li>
+      <li>Quick select proxy objects</li>
+      <li>Define block reference with proxy objects,
+ insert drawings and block
+ references with proxy objects, and explode.</li>
+      <li>Export and plot preview proxy objects</li>
+      <li>Edit operations such
+ as MOVE, COPY, MIRROR, etc.</li>
+    </ul>
+  </conbody>
+</concept>

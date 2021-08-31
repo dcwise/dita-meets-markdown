@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2A435-6836543-C4A1F15487B5579-E592F1">
+  <title>Jogged Dimension</title>
+  <shortdesc>Jogged dimension
+ is namely jogged radius dimension, which is also called "scaled radius
+ dimension". The user can specify
+ the center position to place the origin of dimension for replacing center point
+ of circle or arc within radius
+ dimension. The DIMJOGGED command is useful for creating dimensions in case that the center of circle
+ or arc to be dimensioned is located
+ outside the layout and can't be
+ displayed in its actual position either.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can set the
+ angle of jogged radius from"Other Items" tab either in "New
+ Dimension Style" dialog box or "Modify Dimension Style" dialog
+ box.</p>
+      <p>For a jogged radius dimension having been created,
+ you can modify its jog and center
+ position by means of grip editing, Properties palette and executing the STRETCH command.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic522_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a jogged radius dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Jogged
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select a circle or an arc.</cmd>
+      </step>
+      <step>
+        <cmd>Select center position as the dimensionorigin.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a point to position the jog symbol.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A43-5683143-4A11F215A8F155A-91E53A">
+  <title>Specify Intervals on Objects</title>
+  <shortdesc>You can divide
+ a line, arc, circle, polyline, ellipse,
+ or spline into a number
+ of equal segments
+ or mark off intervals
+ of a specific length along an object. (Note that divide is not the same as
+ break.) For example, you may want to
+ place station-point markers every 50 feet along the centerline of a roadway or
+ divide the plan view of a window into
+ three equal width sections of glass, placing a mullion at each division point.</shortdesc>
+  <conbody>
+    <p>To specify measurements and divisions, use these commands:</p>
+    <ul>
+      <li>For the length of the segments, use the Measure
+ command.</li>
+      <li>For the number of equal
+ length segments, use the Divide command.</li>
+    </ul>
+    <p>You can measure or divide arcs, circles, lines,
+ polylines, ellipses, and splines. With either command,
+ you can identify the segments
+ by placing either a block or point object at the end of each interval. If you
+ use points, you can snap to the
+ ends of intervals using the point object snap. The appearance of the point object is determined by the current point
+ display type, which you control in the Point Style dialog boxof Format menu.</p>
+    <p>To use a block as the marker,
+ the block must already be defined in the current
+ drawing. You can further</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic193_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ indicate whether to rotate the block to align perpendicularly to the object
+ you are measuring or divid ing.</p>
+    <p>Block not aligned with object Block aligned
+ with the object</p>
+    <p>ZWCAD begins
+ measuring or dividing based on the point at which you select the object and the
+ type of object with which you are
+ working. For most objects, measuring starts fromthe endpoint closest to the point you used to select the object.</p>
+    <p>The starting point for measurements or divisions
+ depends on the selected object type. Generally, it includes the following cases:</p>
+    <ul>
+      <li>For lines or open polylines, the starting point
+ is the endpoint that is closest to the selection point.</li>
+      <li>For closed polylines, the starting point is the polyline start
+ point.</li>
+      <li>For circles, it is at the
+ angle fromthe center point which is equivalent to the current snap angle. For example, if the snap angle is set to
+ 0, the circle starts at the three o'clock position and continues counterclockwise.</li>
+    </ul>
+    <p>By default, the
+ point marker is displayed as a single
+ dot, and you may not be able to the measured
+ intervals. You can change the
+ appearance of point markers using systemvariable PDMODE.
+ In addition, you can change the style of point markers
+ in the Point Style dialog box with the DDPTYPE command. And the systemvariable PDSIZEcontrols the size of point
+ markers.</p>
+  </conbody>
+</concept>

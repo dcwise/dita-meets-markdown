@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A72A4368-6513C4A-1F217B115193524-7DEF0C">
+  <title>Blocks, Attribute and Xrefs</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Create, Insert
+ and Edit Blocks</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Usually, blocks
+ are several objects combined into one that you can insert into a drawing and
+ manipulate as a single
+ object. A block
+ can consist of visible
+ objects such as lines, arcs,
+ and circles, as well as visible or invisible data called attributes. Blocks are stored
+ as part of the drawing file.</p>
+      <p>Blocks can help
+ you better organize your work, quickly create and revise drawings, and reduce
+ drawing file size. After you create
+ a block from multiple objects, you save it once, which also saves disk space. You can change the block definition to
+ quickly revise a drawing, and then update all instances of the block.</p>
+      <p>If you insert a
+ block that contains objects originally drawn on layer 0 and assigned color and
+ linetype BYLAYER, it is placed on the current layer
+ and assumes the color and linetype of that layer.
+ If you insert a block that contains objects originally
+ drawn on other layers or with explicitly specified
+ colors or linetypes, the block retains
+ the original settings.</p>
+      <p>If you insert a
+ block that contains objects originally assigned color and linetype BYBLOCK, and
+ the block itself has the color and linetype BYLAYER, those objects adopt the color and linetype
+ of the layer onto which they are inserted. If the block is assigned
+ an explicit color or linetype,
+ such as red or dashed,
+ those objects adopt
+ those qualities.</p>
+      <p>A procedure
+ called nesting occurs when you include other blocks in a new block that you are
+ creating. Nesting is useful when you
+ want to combine and include small components, such as nuts and bolts, into a larger assembly and you need to insert multiple
+ instances of that assembly into an even larger drawing.</p>
+    </result>
+  </taskbody>
+</task>

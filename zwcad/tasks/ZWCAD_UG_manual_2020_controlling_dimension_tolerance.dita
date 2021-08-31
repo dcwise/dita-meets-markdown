@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7124583-6543C41-154A87B1050AE53-924E0C">
+  <title>Controlling dimension tolerance</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic543_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can create dimensions as either tolerance or limits
+ dimensions. When creating a tolerance dimension, you can control the upper and lower tolerance limits as well
+ as the number of decimal places of the dimension
+ text. The image tile on the right side of the Dimension
+ Settings dialog box shows the appearance of tolerance and limits dimensions based on the current dimension
+ style settings.</p>
+      <p>Tolerance dimension. Limits dimension.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic543_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a
+ tolerance dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Style from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Dimension
+ Style Manager dialogbox, select the style youwish to change and choose Modify.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Tolerances tab.</cmd>
+      </step>
+      <step>
+        <cmd>Make your selections.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Close to exit.</cmd>
+      </step>
+      <step>
+        <cmd>Dimension toolbar</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

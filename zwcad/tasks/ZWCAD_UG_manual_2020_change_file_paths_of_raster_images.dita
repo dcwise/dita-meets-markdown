@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA22A368-35E3C41-F21117A1E3BF13E-7E98D7">
+  <title>Change File Paths of Raster Images</title>
+  <shortdesc>The raster
+ images already attached
+ to the drawing are displayed
+ in Image Manager and its s aving path is displayed
+ in "Image found at" option at the bottom of Image Manager. Where the
+ saving path is the virtual path for searching the image file.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If the original
+ image attached to the drawing does not exist in the saving path or any defined
+ searching path, the status of the image is displayed
+ as Not found and the "Image found
+ at" boxis blank.</p>
+      <p>If the specified
+ extension name of the drawing is not found at the saving path, the system searches
+ for all the image file extension names.</p>
+      <p>The path of the
+ image can be removed, or directly edit the path in Image found a boxand then
+ select Save path to specify
+ its relative path. This may be different fromthe path in Image found a box.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic654_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change the path for a raster image</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Image Manager from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the desired file.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Browse button.</cmd>
+      </step>
+      <step>
+        <cmd>In the Select Image File dialog box, select
+ the file with its new name or in its new location, and then click Open.</cmd>
+      </step>
+      <step>
+        <cmd>Click Save Path.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

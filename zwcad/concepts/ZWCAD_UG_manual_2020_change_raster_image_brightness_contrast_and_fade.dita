@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A435-63514A1-115A881A71EB3E2-9D6DD7">
+  <title>Change Raster Image Brightness, Contrast, and Fade</title>
+  <shortdesc>Use IMAGEADJUST
+ to adjust displaying result and lightness, contrast and fade that are related
+ to the display and plot effect
+ when plotting drawings. IMAGEADJUST does not affect the original raster
+ image as well as other instances of the image.</shortdesc>
+  <conbody>
+    <p>You can set lightness and contrast to better preview
+ images of lower quality.</p>
+    <p>To change
+ the fade of the image, geometric lines will be clearly
+ viewed and add watermark effects
+ when plotting the image.</p>
+    <p>If you attach a bitonal image into the
+ drawing, you can't set the lightness, contrast, and fade. Bitonal images are displayed
+ as the backgroundcolor of the currentscreenand plotted
+ as white.</p>
+  </conbody>
+</concept>

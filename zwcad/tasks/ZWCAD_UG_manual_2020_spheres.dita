@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A4-3563514-534A1F215A8715A-79E552">
+  <title>Spheres</title>
+  <shortdesc>You can create spheres.
+ The latitude lines of a sphere are always parallel
+ with the xy plane of the cur ent UCS; the central axis is always parallel
+ with the z-axis. You position a sphere by specifying its center point.
+ You determine the size of a sphere
+ by specifying either
+ its radius or its diameter.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic287_image001.png" />
+        </fig>
+      </p>
+      <p>To create a dome
+ or dish, combine a sphere with a box and use SUBTRACT. If you want to create a spherical
+ object with additional details, create a 2D profile
+ and use REVOLVE
+ to define a rotation angle about the Z axis. The 3D command creates
+ a spherical shape
+ defined by surfaces only.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic287_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a sphere</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids &gt; Sphere
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the center of the sphere.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic287_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the radius
+ or diameter.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Center (A) and radius (B)
+ of the sphere The resulting
+ sphere</p>
+      <p>To create a sphere as a three-dimensionalsurface</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic287_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ol>
+        <li>Choose Draw &gt; Surfaces
+ &gt; 3D Surfaces from the mainmenu.</li>
+        <li>On the command line, type S (Sphere).</li>
+        <li>Specify the center of the sphere.</li>
+        <li>Specify the radius or diameter.</li>
+        <li>Specify the number of longitudinal sections
+ that are perpendicular to the xy plane.</li>
+        <li>Specify the number of latitudinal
+ sections that are parallel to the xy plane.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

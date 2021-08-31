@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7124563-654C411-F1548C1D5579535-3438E3">
+  <title>Wedges</title>
+  <shortdesc>You can create
+ three-dimensional wedges consisting of five surface planes. The base of the
+ wedge is always parallel with the xy
+ plane of the current UCS with the sloped face opposite the first corner. The height is always parallel to the z-axis.
+ You position the wedge
+ by specifying either a corner or the
+ center of the wedge. You determine
+ the size of the wedge by either specifying a second corner and the height; defining
+ the wedge based on a cube having a given length; or specifying the length, width, and height.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic291_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic291_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a wedge</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids &gt;
+ Wedge from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first corner of the base.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the opposite corner
+ of the base.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic291_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the height.</info>
+      </step>
+    </steps>
+    <result>
+      <p>First corner of the base (A), the opposite
+ corner of the base (B), and the height (C)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic291_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a wedge as a three-dimensionalsurface</p>
+      <ol>
+        <li>Choose Draw &gt; Surfaces
+ &gt; 3D Surfaces from the mainmenu.</li>
+        <li>On the command line, type W (Wedge).</li>
+        <li>Specify the first corner of the base.</li>
+        <li>Specify the opposite corner
+ of the base.</li>
+        <li>Specify the height.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

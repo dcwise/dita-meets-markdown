@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A24356-865434A-11F21D12535A915-5A4F7A">
+  <title>Trim and Extend Filleted Objects</title>
+  <shortdesc>While performing
+ fillet, you can select Trimoption to decide whether the selected edges are
+ extended to the endpoints of fillet
+ arcs. By default, all objects except circles, ellipses, closed polylines and
+ splines are trimmed
+ or extended when performing filleting.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic360_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ When system variable TRIMMODE is
+ set to 1, FILLET trims the intersecting lines to the endpoint of the fillet arc. If the lines
+ do not get intersecting, thesystemextends or trims themto get intersecting.</p>
+  </conbody>
+</concept>

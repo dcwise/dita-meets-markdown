@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A24683-65153C4-A11F254A8F1D55A-79153A">
+  <title>Tracking time spent working on a drawing</title>
+  <shortdesc>You can display information about the amount
+ of time you have spent working
+ on a drawing, including:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>The date and time the
+ drawing was created.</li>
+        <li>The date and time the drawing was most recently
+ saved.</li>
+        <li>The total amount of time spent working on the drawing.</li>
+        <li>The time spent working
+ on the drawing during the current editing session. You can turn the
+ elapsed time timer on and off or reset
+ it to zero.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic192_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To display
+ the timer information</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Inquiry
+ &gt; Time from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>You can do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Type on to turn the elapsed the timer on.</cmd>
+      </step>
+      <step>
+        <cmd>Type off to turn the elapsed the timer off.</cmd>
+      </step>
+      <step>
+        <cmd>Type “d” (display) to redisplaythe timer information.</cmd>
+      </step>
+      <step>
+        <cmd>Type “r” (reset) to reset the elapsedtimer to zero.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter to exit the command.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A4-356865E-43C2A7053A91E55-D6B828">
+  <title>Load Linetypes</title>
+  <shortdesc>ZWCAD includes
+ the linetype definition files
+ zwcad.lin and zwcadiso.lin. zwcad.lin is used in the imperial system, and zwcadiso.lin is used in the
+ metric system. If you select zwcadiso.lin, you can use ISO pen-width option
+ when you plot.</shortdesc>
+  <conbody>
+    <p>If you want to
+ know what linetypes are already available, you can display a list of linetypes
+ that are loaded in the drawing or
+ stored in a LIN (linetype definition)
+ file. Both linetype definition files contain
+ several complexlinetypes.</p>
+    <p>You can remove
+ unreferenced linetype information with PURGE or by deleting the linetype from
+ the Linetype Manager. BYBLOCK, BYLAYER,
+ and CONTINUOUS linetypes cannot be removed.</p>
+  </conbody>
+</concept>

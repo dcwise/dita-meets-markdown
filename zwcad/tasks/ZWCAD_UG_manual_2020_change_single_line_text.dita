@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A5E1-53CA1F1-5A712525A79E535-9B88B7">
+  <title>Change single-line text</title>
+  <shortdesc>You have two methods to modify single-line text:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>To modify only the content
+ of the text, use DDEDIT
+ command.</li>
+        <li>To change text style, location,
+ size and content,
+ use PROPERTIES command to open Properties palette, fromwhich, you can make the relevant
+ settings.<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/ZWCAD_UG_manual_2020_topic461_image001.png" /></fig></entry></row></tbody></tgroup></table>
+ To edit text</p><ol><li>Type DDEDIT and then press Enter.</li><li>Select the single line text.</li><li>In the Edit Text box, edit the text and then press Enter.</li></ol></li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic461_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change
+ text properties</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select a single line text object.</cmd>
+      </step>
+      <step>
+        <cmd>Right-click the selected object
+ andthen click Properties on the shortcut
+ menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Properties palette,
+ enter any new text in the Text Contents, andthen
+ change formatting and other properties as needed.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic461_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can also move, scale or rotate
+ text through grips as like other objects. The grip of a single-line text is displayed at the lower-left corner of
+ the baseline and the alignment point. As shown in the following picture:</p>
+      <p>Different grips generate different effect even though
+ with the same command.</p>
+    </result>
+  </taskbody>
+</task>

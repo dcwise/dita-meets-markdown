@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7235683-61434A1-115A7B175257E53-592BF1">
+  <title>Modify Dimension Text</title>
+  <shortdesc>You can change the existing dimension
+ text including text content, location, and orientation.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The existing text
+ in a drawing can be rotated, moved to
+ a new location, or replaced with new text. You
+ can also move the text back to its home position using Dimension-Align
+ Text-Home menu option. This default
+ location is defined in the current dimension style. In the following figures,
+ the home position is specified above and
+ centered on the dimension line.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic531_image001.png" />
+        </fig>
+      </p>
+      <p>You can rotate
+ the specified text at an angle using the Dimension-Align Text-Angle menu
+ option, or change the angle and content in the Properties palette.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic531_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ When you move text, you have to
+ select a single dimension to move first. You can move the dimension text anywhere along the dimension line.
+ You can use grips to move text up or down, which does not change the current vertical alignment of
+ the text placement relative to the dimension line. However, the dimension
+ and extension lines
+ are modified accordingly. The following figure
+ shows the effect
+ of moving text up and to the right. The text placement relative
+ to the dimension still remains
+ centered and vertical.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic531_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To rotate dimension text</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the command line, type DIMEDIT.</cmd>
+      </step>
+      <step>
+        <cmd>Type R (Rotate).</cmd>
+      </step>
+      <step>
+        <cmd>Type the new dimensiontext angle, andthen press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Select the dimensionto be rotated, and then press Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic531_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <b>NOTE </b>The dimension text angle is relative to the dimension line. If the dimension text rotation is set to zero, the text angle
+ is defined by the dimension type and the dimension style.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic531_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To move dimension text</p>
+      <ol>
+        <li>On the command line, type DIMTEDIT.</li>
+        <li>Select the dimensionto repositiontext.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic531_image005.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the new text position.</li>
+      </ol>
+      <p>Select the dimension to be moved (A), and then select the new text position
+ (B).</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic531_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To restore
+ dimension text to its home position</p>
+      <ol>
+        <li>On the command line, type DIMEDIT.</li>
+        <li>Type H (Home).</li>
+        <li>Select the dimension text to restore,
+ andthen press Enter.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic531_image003.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To replace
+ existing dimension text with new text</p>
+      <ol>
+        <li>On the command line, type DIMEDIT.</li>
+        <li>Type N (New).</li>
+        <li>Type the new dimensiontext, and then press Enter.</li>
+        <li>Select the dimensionto be replaced,
+ andthen press Enter.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

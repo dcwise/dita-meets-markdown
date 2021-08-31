@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A4-356835E-15C4A11F2155575-9988B7">
+  <title>Create multileader</title>
+  <shortdesc>Enter MLEADER command,
+ according to prompt
+ to create multi-leaders on any location
+ in the drawing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic458_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Steps for creating multileader with MText.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select [Dimension → Multileader].</cmd>
+      </step>
+      <step>
+        <cmd>Specify leader arrowhead's location.</cmd>
+      </step>
+      <step>
+        <cmd>Specify leader landing's location.</cmd>
+      </step>
+      <step>
+        <cmd>Enter multitext in the text box as leader content, and then click "OK"
+ button to complete the multileader creating.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Steps
+ for creating multileader with Block.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic458_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ol>
+        <li>Select [Dimension → Multileader].</li>
+        <li>Enter O (option) and set the multileader content
+ type to block, then exit.</li>
+        <li>Specify leader arrowhead's location.</li>
+        <li>Specify the location of the multileader to finish drawing.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

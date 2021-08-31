@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A714366E-43C41F5-48754A1E35AB88E-4D9B2A">
+  <title>Drawing a closed spline</title>
+  <shortdesc>You can draw a closed spline, which is a spline for which the start point and endpoint are the same. Because
+ the spline is closed, you specify only one tangent.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic267_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a closed spline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Spline from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first point of the spline.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second point of the spline.</cmd>
+      </step>
+      <step>
+        <cmd>Specify as many more points as youwant.</cmd>
+      </step>
+      <step>
+        <cmd>When you have finished, on the command
+ line, type C, and press Enter.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic267_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ To complete the command, specify
+ the tangent point.</info>
+      </step>
+    </steps>
+    <result>
+      <p>The start point and endpoint
+ (A) of a closed spline.</p>
+    </result>
+  </taskbody>
+</task>

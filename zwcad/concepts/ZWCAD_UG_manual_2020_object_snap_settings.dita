@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1224356-836E145-3C4A2154F165551-3A3CB0">
+  <title>Object Snap settings</title>
+  <shortdesc>If you need to use one or more object
+ snaps repeatedly, you can turn on running
+ object snaps on the Grid and
+ Snap tab of Drafting Settings dialog box. The object snap mode keeps on unless
+ you turn it off. For example, you can use an object
+ snap to draw a line to the center of a circle.</shortdesc>
+  <conbody>
+    <p>If several
+ objects snap on, the system chooses automatically the most suitable object
+ snap. If there are two possible
+ object snaps at the selection area, the system chooses the one that is closer
+ to the center of target box.</p>
+    <p>If you turn
+ several object snaps on, you need to check which one is in effect when you
+ specify a point. If several
+ object snaps are eligible at a given
+ location, press the TAB key to cycle
+ through the possibilities before
+ you specify the point.</p>
+  </conbody>
+</concept>

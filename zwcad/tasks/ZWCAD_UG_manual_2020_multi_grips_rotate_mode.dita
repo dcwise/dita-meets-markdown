@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA224356-8E4A1F2-1547155A9535706-FDD76E">
+  <title>Multi-Grips Rotate Mode</title>
+  <shortdesc>Rotate entities with multiple
+ grips mode, use the last grip (base grip or reselected base point) as a base point.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic398_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Rotate Lines, Polylines and Dimensions Using
+ Multiple Grips</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select line, polyline and dimension entities to rotate.</cmd>
+      </step>
+      <step>
+        <cmd>Press SHIFT while selecting grips on entities,
+ the selected grips will
+ be highlighted.</cmd>
+      </step>
+      <step>
+        <cmd>Release SHIFT andclick on one of the selectedgrips to use it as a basegrip.</cmd>
+      </step>
+      <step>
+        <cmd>Press ENTER to
+ activate the default grip mode as Stretch. Iterate grip mode until Rotate appears in command line. Dynamic
+ input box displayed on screen showing the following manipulations:</cmd>
+        <info>
+          <p>Specify "B(Base point)" option to locate the grip for rotating.</p>
+          <p>Specify "C(Copy)" option to create a copy of the
+ entity being rotated. Specify "U(Undo)" option to abort last rotation.</p>
+          <p>Specify "X(eXit)" option to exit rotate manipulation.</p>
+          <p>Specify
+ "R(Reference)" option to assign reference angle for rotation. (Final
+ rotation angle=reference angle subtract
+ from input angle.
+ For example: reference angle = 20, input angle= 80, final rotation
+ angle = 80 - 20 = 60).</p>
+          <p>Specify rotation angle for grips directly.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Move the
+ pointing device to specify rotation
+ angle, the entities will be rotated based on the selected
+ grip (or create
+ a copyof the entity after rotation).</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

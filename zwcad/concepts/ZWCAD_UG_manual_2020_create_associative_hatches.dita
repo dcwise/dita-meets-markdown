@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A435-36E15C4-1F215A716565795-59BED0">
+  <title>Create Associative Hatches</title>
+  <shortdesc>If you
+ select associative hatch properties
+ when hatching the area, the hatched pattern updates automatically with the boundaries. By default, the hatch pattern
+ created by BHATCH
+ is associative. The associativity of a hatch pattern can be removed
+ whenever you want.</shortdesc>
+  <conbody>
+    <p>The objects that are outside the specified boundary will be ignored when creating
+ hatches.</p>
+    <p>If the text,
+ properties or solid entities are connected to hatch patterns, only hatches the
+ boundaries of these objects
+ with the center
+ retained as blank in order
+ to formislands.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A536-54541F2-1A87B4A791E53C5-7FC7ED">
+  <title>Remove Block Definitions</title>
+  <shortdesc>Too many block definitions in a drawing
+ file may affect the drawing
+ size. To reduce
+ the size of a drawing,
+ you can remove unused block definitions. Erasing
+ a block reference
+ froma drawing may delete the
+ block reference but retain the block definitions in the block definition table.
+ Using PURGE command
+ can help removing
+ unused block references fromyour drawing in order to reduce the drawing size.</shortdesc>
+  <conbody>
+    <p>You should erase all references froma block before you can purge the block definition.</p>
+  </conbody>
+</concept>

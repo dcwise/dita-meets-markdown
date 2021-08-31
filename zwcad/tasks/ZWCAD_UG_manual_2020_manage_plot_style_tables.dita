@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7245685-4C4A11F-2154A815555A735-9A46E7">
+  <title>Manage Plot Style Tables</title>
+  <shortdesc>Color-dependent (CTB) and named (STB) plot style tables are stored in the
+ print style folder by default. This folder is also known as the Plot Style Manager.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Plot Style Manager is available
+ to add, delete, rename, copy, and edit plot style tables. Creating new plot style
+ tables</p>
+      <p>ZWCAD offers
+ several plot style
+ tables to help you get started. If you
+ want to customize your printoutput further, you can create your own plot style table. You can
+ customize plot exporting pattern by import printer configuration file (PCP file).</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic716_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create new plot style tables</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Under Plot Style Table (pen assignments), choose New to open the Add Plot Style Table wizard.</cmd>
+      </step>
+      <step>
+        <cmd>On the last wizardpage, youcanclick Plot Style Table Editor to set up the plot styles</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>for the table.</p>
+    </result>
+  </taskbody>
+</task>

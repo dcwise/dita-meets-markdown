@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A2246365-E153C11-57165579535A164-CD35B5">
+  <title>Use World and User Coordinate Systems</title>
+  <shortdesc>In 3D space, there is both a fixed WCS and
+ a movable UCS.</shortdesc>
+  <conbody>
+    <p>When you work in
+ 3D, the movable UCS can help you enter coordinate, establish drawing planes,
+ and set views easily. Neither moving
+ nor rotating UCS changes your viewport. The only changes are the orientation and tilt of the coordinate system.</p>
+    <p>When you work in
+ 3D, you can simplify the creation of 3D objects by relocating the UCS. To
+ relocate the UCS, change the location
+ of the origin point and the orientation of the XY plane and the Z axis. In 3D space,
+ you can locate
+ and orient a UCS anywhere.</p>
+    <p>Only one UCS can be made the current
+ coordinate systemat any given time, and all coordinate input
+ and display are relative
+ to the current UCS. If you open multiple viewports, the current UCS applies to a
+ l of them. If the systemvariable UCSVP
+ is on, you can save a UCS along with a viewport, and automatica ly restore the UCS each time when you make
+ the viewport current.</p>
+    <p>To draw in 3D space, you need to specify X, Y, and Z coordinate value in
+ either the WCS or UCS. The following figure
+ displays the X, Y, and Z axes of the WCS.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic223_image001.png" />
+      </fig>
+    </p>
+    <p>Generally, the WCS and the UCS are coincident with each other, which means that their
+ axes and origin points are overlapped exactly. No matter
+ how many times you relocate the UCS, you can always use the World option of the UCS command to make it coincident with
+ the WCS.</p>
+  </conbody>
+</concept>

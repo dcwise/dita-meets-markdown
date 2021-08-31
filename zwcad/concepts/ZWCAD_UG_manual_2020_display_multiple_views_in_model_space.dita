@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7143836-5E53CA1-1F14A811752C9E9-39A72D">
+  <title>Display Multiple Views in Model Space</title>
+  <shortdesc>Model space
+ viewport is the drawing area that you can divide
+ theminto one or more adjacent
+ rectangular views on the Model
+ tap. Among multiple viewports, you have to make one view current for executing view commands.</shortdesc>
+  <conbody>
+    <p>When you begin a new drawing, it is displayed
+ in a single window. You can view
+ the drawing in a second window,
+ or you can divide one window into multiple windows. You can also open and
+ display multiple drawings.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7126835-E3C4214-A87025A791E5359-427EFC">
+  <title>Composite Tolerances</title>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic541_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ A composite tolerance consists of
+ two tolerances that applied to the same geometric characteristic of a feature or for features that have
+ different datumrequirements. One tolerance is in relation to a pattern of features and the other tolerance to each feature
+ within the pattern. The pattern tolerance
+ is less restrictive than the individual feature tolerance.</p>
+    <p>In the
+ illustration above, the axis formed by the point where datums A and B intersect
+ called the datum axis. The position of the pattern
+ is calculated fromthat
+ axis.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic541_image002.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Before you create a dimension and add a composite tolerance for a drawing,
+ you have to specify the first line of a feature control frame and then
+ choose the same geometric characteristic symbol for the second line of the feature control frame. The
+ specified geometric symbol compartment is extended over both lines.
+ Then you can create a second line of tolerance symbols.</p>
+  </conbody>
+</concept>

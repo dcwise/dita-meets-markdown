@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2A468-365E434-A11F215A87D2AE5-542F7A">
+  <title>Fillet an Entire Polyline</title>
+  <shortdesc>You can use
+ Polyline option to create
+ fillets for each corner of a
+ polyline.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic363_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To fillet
+ an entire polyline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Fillet
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type P (Polyline).</cmd>
+      </step>
+      <step>
+        <cmd>Select the polyline.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic363_image002.png" />
+      </p>
+      <p>Select the polyline (A)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic363_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Before creating fillets,
+ you should ensure the distance
+ between each vertex
+ is long enough to accommodate the fillet radius
+ in order to insert a fillet arc.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic363_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The fillet arcs replace arc
+ segments when the fillet radius is greater than the radius of the arc. As shown in the illustration:</p>
+      <p>When the fillet radius is set to 0, no fillet arcs are inserted. If two polyline
+ segments are separated
+ by one arc segments, the systemdeletes this arc segment
+ and extends the lines to intersect
+ with each other.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic363_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To fillet
+ selected vertices in a polyline</p>
+      <ol>
+        <li>Choose Modify &gt; Fillet
+ from the main menu.</li>
+        <li>Select the polyline along the segment
+ where you want to begin the fillet.</li>
+        <li>Select the polyline along the segment
+ where you want to end the fillet.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic363_image005.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Select the polyline along the (A) and (B) segments</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122A43-5683E53-4A1F24815525C74-2312E8">
+  <title>Recover the default drawing template file</title>
+  <shortdesc>If you have
+ changed the settings in the template file zwcad.dwt or zwcadiso.dwt, you can reset
+ themby creating a new drawing
+ with no template and then saving the drawing as a drawing
+ template file in order to replace
+ zwcad.dwt or zwcadiso.dwt.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When the STARTUPis set to 0, you can also create
+ a new drawing with the original defaults
+ by clicking the arrowhead next to the Open button
+ to select one of the No Template
+ options fromthe Select Template dialog box.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic51_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To start a drawing by selecting a template file</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the <b>File </b>menu,
+ click <b>New</b>.</cmd>
+      </step>
+      <step>
+        <cmd>In the <b>Select Template File </b>dialog box, select a template from the list and click
+ <b>Open</b>.</cmd>
+      </step>
+      <step>
+        <cmd>ZWCAD opens the drawing
+ as drawing1.dwg. The default drawingname changes to reflect the number of new drawings that
+ have been opened. For example, if you open another
+ drawing from a template, the default drawing
+ name is drawing2.dwg.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

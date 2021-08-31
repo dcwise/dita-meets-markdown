@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1568E11-F1A87B1-5557E371E6DEE13-8626CD">
+  <title>Create Rotated Dimensions</title>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic516_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ You can create rotated
+ dimensions at a rotated
+ angle you specify
+ using DIMLINEAR Rotated
+ option. An example of a rotated dimension is shown in
+ the following illustration. In this illustration, the specified angle of the rotated dimension is equal to the angle of the slot.</p>
+  </conbody>
+</concept>

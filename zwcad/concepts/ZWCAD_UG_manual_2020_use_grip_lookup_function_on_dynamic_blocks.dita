@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA22A435-83E5C4A-1F2154A8155A579-19BED0">
+  <title>Use Grip Lookup Function on Dynamic Blocks</title>
+  <shortdesc>You can change
+ the dynamic block by using its lookup grips. The corresponding parameter of a
+ lookup grip can be a lookup parameter or a visibility parameter.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic619_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ If the dynamic block contains a
+ lookup parameter, then a list of available values will be displayed when you click the lookup grip. You can
+ choose a desired value fromthe list to change the dynamic block. As shown below:</p>
+    <p>If the dynamic block
+ contains a visibility parameter, then a list of all visibility states in the block reference will be displayed when you click
+ the lookup grip in the drawing.
+ You can choose a desired
+ state fromthe list to change the display
+ of dynamic block
+ object. As shown below:</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic619_image002.png" />
+    </p>
+  </conbody>
+</concept>

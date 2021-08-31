@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7124358-E3411AC-155A79E620B8AE7-04222A">
+  <title>Tips for Using Wireframe Models</title>
+  <shortdesc>For the objects
+ that are used to construct wireframe are required to be individually created
+ and located, creating 3D wireframe
+ models can be more difficult and time-consuming than creating their 2D views. The following tips are provided
+ to help you work more effectively:</shortdesc>
+  <conbody>
+    <p>Plan and organize
+ models on layers so as to reduce the visual complexity of the model. Specifying different
+ color for each layer can help with differentiating between
+ objects in various
+ views.</p>
+    <p>Create construction geometry
+ to define the basic shape of the model.</p>
+    <p>Use multiple
+ views, especially isometric views, to facilitate visualizing the model and
+ selecting objects. To be adept at
+ manipulating the UCS in 3D. Use the XY plane of the current UCS as a work plane
+ to orient
+ planar objects such as circles and arcs. The UCS is also used as the plane for
+ trimming and extending, offsetting, and rotating objects.</p>
+    <p>Use object snaps and grid snap carefully
+ to ensure the precision of models.</p>
+    <p>Use coordinate filters to drop perpendiculars and easily locate
+ points in 3D based on the location
+ of points on other objects.</p>
+  </conbody>
+</concept>

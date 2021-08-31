@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A435-68365E1-434A11F25A8C135-274529">
+  <title>Docking and Resizing the Command Window</title>
+  <shortdesc>By default, the
+ command window is docked. The docked command window is the same width as the ZWCAD window. You can
+ resize the window vertically by dragging the splitter bar, which is located on the
+ top edge of the window when it is docked on the bottomand at the bottomedge of
+ the window when it is docked at the top. Undock the command
+ window by dragging it away from the docking region. When you undock the window, the floating window is the size it
+ was before. You can move the floating command window
+ anywhere on the screen and resize its width and height with the pointing device. Dock the command window by dragging it until it
+ is over the top or bottom docking region of the ZWCAD window.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

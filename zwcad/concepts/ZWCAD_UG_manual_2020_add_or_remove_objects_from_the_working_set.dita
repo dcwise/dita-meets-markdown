@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12243-5636E4C-4A1F21548781579-1E5359">
+  <title>Add or remove objects from the working set</title>
+  <shortdesc>When editing attached
+ references, you can add or
+ remove references by clicking
+ on Add objects to working set or Remove
+ objects fromworking set.</shortdesc>
+  <conbody>
+    <p>If new objects
+ are created when editing references, the new object may be taken as one of the
+ objects in selected reference, and
+ automatically add to working set, the objects outside the working set may be fading displayed.</p>
+    <p>The objects to be
+ edited in-place created in a layer that the reference is locked are also
+ editable. Before editing the references, you should unlock
+ the layer on which the objects are located, and then modify this object. After modification, you can save
+ the changes back to references. But the status of layer keeps unchanged regardless of the lock.</p>
+    <p>When saving the
+ changes for the references, all the objects in the working set are saved to
+ references. Objects that are removed
+ from the working set never contained in the reference, subsequently become other parts of the drawing. Objects that
+ are added to the working set will be removed from its original position from the drawing. The objects
+ being created or removed will be added or removed from the working set automatically.</p>
+  </conbody>
+</concept>

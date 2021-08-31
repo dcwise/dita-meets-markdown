@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12383-E153CA1-F2587913595DC9E-BB5A8F">
+  <title>Parts of a Dimension</title>
+  <shortdesc>Dimensions have
+ several distinct elements: dimension text, dimension lines, arrowheads, and
+ extension lines.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic485_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic485_image002.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Dimensions can also contain other
+ optional components. A leader is a line leading from a feature of the drawing to an annotation. Leaders begin
+ with an arrowhead, and you can use themto place a dimension away from the dimension line or to add notes. When you create
+ a radial dimension, you can add a center mark, which
+ is a small cross that
+ marks the center
+ of a circle or an arc,
+ or you can add centerlines, which are crossing
+ lines that extend out fromthe center
+ of a circle or an arc.</p>
+    <p>Leader Center mark Centerlines</p>
+    <ul>
+      <li>Dimension text: a character string that usually
+ indicates the measurement value, includes prefixes, suffixes,
+ tolerances, etc.</li>
+      <li>Dimension line indicates the direction and extent of a dimension. For linear dimensions, it displays as a line, for angular dimensions, it displays as an arc segment.</li>
+      <li>Arrowhead: usually displayed
+ at both end of the dimension line. You can specify various sizes and shapes for arrowheads or tick marks.</li>
+      <li>Extension line extends
+ fromthe object to the dimension
+ line, in order to define
+ dimension ranges.</li>
+      <li>Center mark: a small crossing
+ tag that marks the center of a circle
+ or arc.</li>
+      <li>Centerline: a crossing
+ dashed line that marks the center of a circle or arc.</li>
+    </ul>
+  </conbody>
+</concept>

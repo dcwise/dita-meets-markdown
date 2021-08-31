@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA2A4356-3E453C4-A1F1547C1C56A79-1E55A2">
+  <title>Create a Solid Cone</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic285_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Draw a solid cone in current
+ drawing using CONE command. By default, the cone's bottomlies on the XY plane of the current UCS. The cone
+ height is parallel to the Z-axis. The apexdetermines the height and orientation of the cone.</p>
+      <p>You can draw a 2D
+ circle and then use EXTRUDE to taper the circle at an angle along the Z axis to create a solid cone.</p>
+      <p>To complete the
+ truncation, you can subtract a box from the
+ tip of the cone with the SUBTRACT command.
+ The 3D command creates a conical
+ shape defined by surfaces only.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic285_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a cone</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids
+ &gt; Cone from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the center of the base of the cone.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the radius or diameter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the height.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic285_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Center of the base (A), the radius
+ of the base (B), and the height (C)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic285_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a cone as a three-dimensionalsurface</p>
+      <ol>
+        <li>Choose Draw &gt; Surfaces
+ &gt; 3D Surfaces from the mainmenu.</li>
+        <li>On the command line, type C (Cone).</li>
+        <li>Specify the center of the base of the cone.</li>
+        <li>Specify the radius or diameter.</li>
+        <li>Specify the height.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

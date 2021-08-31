@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A35686-51411AC-1A79E56B0BE4570-4F922A">
+  <title>Create 3D Objects</title>
+  <shortdesc>With 3D models, you can</shortdesc>
+  <conbody>
+    <ul>
+      <li>View entities in three dimensions.</li>
+      <li>Create three-dimensional entities.</li>
+      <li>Edit entities in three-dimensional space.</li>
+      <li>Edit three-dimensional solids.</li>
+      <li>Display hidden-line and shaded views of three-dimensional entities.</li>
+    </ul>
+    <p>ZWCAD supports
+ three types of 3D modeling: wireframe, surface,
+ and solid. Each type has its own creation and editing
+ techniques.</p>
+    <ul>
+      <li>
+        <b>Wire-frame models</b>, which consist of lines
+ and curves that define the edges of a three-
+ dimensional entity. You can create a
+ wire-frame model by drawing lines, arcs, polylines, and other two-dimensional entities anywhere in three-dimensional
+ space. Wire-frame models have no
+ surfaces; they always appear as outlines. Because you must individually draw
+ and position each entity that makes
+ up a wire-frame model, creating one can be exacting and time-consuming.</li>
+      <li>
+        <b>Surface models</b>, which consist of both edges and the surfaces between those edges. You can create a
+ surface model by applying elevation and thickness to two-dimensional planar
+ entities or by using specific
+ three-dimensional entity-creation commands. Surface models consist of individual planes forming a faceted, polygonal mesh.</li>
+      <li>
+        <b>3D solids</b>, which are three-dimensional ACIS entities that
+ consist of faces and edges.
+ 3D solids appear
+ to have volume
+ and are easier
+ to work with than wireframe
+ and surface models.
+ ZWCAD supports viewing
+ and limited editing of 3D solids, including
+ moving, rotating and scaling.</li>
+    </ul>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic269_image001.png" />
+      </fig>
+    </p>
+    <p>You should
+ notice that different
+ editing manipulations result in different visual effects because
+ of various model and creating methods. You should
+ avoid mixing the models of a different type when creating 3D objects.
+ Limits are also applied
+ to the conversion of model
+ types, only solid-curve and curve--wireframe conversions are available.</p>
+  </conbody>
+</concept>

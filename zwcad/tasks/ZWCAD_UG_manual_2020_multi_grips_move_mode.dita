@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2A43851-5341F24-87D4A791E35506F-DAA76E">
+  <title>Multi-Grips Move Mode</title>
+  <shortdesc>Move entities with multiple grips mode, use the last grip (base grip or reselected base point) as a base point.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic397_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Move Lines, Polylines, and Dimensions Using
+ Multiple Grips</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select line, polyline and dimension entities to move.</cmd>
+      </step>
+      <step>
+        <cmd>Press SHIFT while selecting
+ grips on entities,
+ the selected grips will be highlighted.</cmd>
+      </step>
+      <step>
+        <cmd>Release SHIFT andclick on one of the selectedgrips to use it as a basegrip.</cmd>
+      </step>
+      <step>
+        <cmd>Press ENTER to activate
+ the default grip mode as Stretch. Iterate grip mode until Move appears in command line. Dynamic
+ input box displayed on screen showing the following manipulations:</cmd>
+        <info>
+          <p>Specify "B(Base point)" option to locate the base
+ point for moving. Specify
+ "C(Copy)" option to create a copy
+ of the entity being moved. Specify "U(Undo)" option to abort
+ last moving.</p>
+          <p>Specify "X(eXit)" option to exit move manipulation. Specify target location
+ for moving directly.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Move the
+ pointing device to specify target location, the selected grips on entities will be moved at a specified displacement
+ towards the directionpointing from the base gripto
+ the target location.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

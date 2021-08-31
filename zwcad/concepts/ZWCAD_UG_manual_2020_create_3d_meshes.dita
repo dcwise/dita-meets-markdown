@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A43-6835143-4A11F2154A87C15-79E5A2">
+  <title>Create 3D Meshes</title>
+  <shortdesc>The 3D command
+ is widely used for creating
+ objects as boxes,
+ cones, dishes, meshes,
+ pyramids, spheres, donuts,
+ and wedges. Before hiding 3D entities, all the meshes
+ are displayed in wireframe.</shortdesc>
+  <conbody>
+    <p>Use VPOINT to
+ view the entity once you have created a 3D entity, or performed View-3D Orbit
+ from View menu options to view the 3D
+ entity in full perspective. The following picture displays entities as meshes with specified vertexes.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic276_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

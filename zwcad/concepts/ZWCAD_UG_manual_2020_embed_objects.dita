@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72A4681-53C1254-A8917545A753594-A0FF06">
+  <title>Embed Objects</title>
+  <shortdesc>The embedded OLE
+ objects come from copies of other documents when embedding objects into files, the embedded objects have no relations
+ with the original document, they are not updated by changing the current
+ drawing.</shortdesc>
+  <conbody>
+    <p>You can execute
+ from "Insert-OLE Object" menu, and select Create from File without
+ clicking on the Link option to embed
+ objects. Once you have embedded OLE objects into the drawing, you can create applications of the object for editing,
+ and the original OLE object keeps unchanged while you editing information of the source
+ document.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic737_image003.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>Insert OLE Object</p>
+  </conbody>
+</concept>

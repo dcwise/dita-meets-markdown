@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A43636-412148B-52E59727EE1DD79-3826CD">
+  <title>Create Dimensions</title>
+  <shortdesc>You can create dimensions by:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Selecting the entity to dimension and specifying the dimension line location.</li>
+      <li>Specifying the
+ extension line origins and the dimension
+ line location.</li>
+    </ul>
+    <p>When you create
+ dimensions by selecting an entity, the programautomatically places the
+ extension line origins at the appropriate definition points based on
+ the type of entity you select. For example, the definition points are located
+ at the endpoints of arcs, lines, and polyline segments. When you create</p>
+    <p>dimensions by
+ specifying the extension line origins, the points you specify determine the
+ definition points. To establish these points precisely, use entity snaps.</p>
+  </conbody>
+</concept>

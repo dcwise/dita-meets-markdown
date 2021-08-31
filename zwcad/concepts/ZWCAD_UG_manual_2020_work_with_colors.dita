@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A23568-3651434-A115A8F27A71535-A742A1">
+  <title>Work with Colors</title>
+  <shortdesc>An entity's
+ color determines how it is displayed and, if you are using
+ a color printer, how it prints. Entities
+ are created in the current
+ color specified for the drawing.</shortdesc>
+  <conbody>
+    <p>Layers can also
+ control the color of entities. When you open a new drawing, entities are
+ created in the color BYLAYER,
+ which adopts the color
+ of the current layer. Initially, layer 0 is both the
+ only layer and the current
+ layer. Its default color
+ is white, so your entities appear
+ as white.</p>
+    <p>For entities
+ and layers in ZWCAD,
+ there are three different types of
+ colors:</p>
+    <ul>
+      <li>
+        <xref href="../tasks/ZWCAD_UG_manual_2020_use_index_colors.dita">Index colors</xref>
+      </li>
+      <li>
+        <xref href="../tasks/ZWCAD_UG_manual_2020_use_true_colors.dita">True colors</xref>
+      </li>
+      <li>
+        <xref href="../tasks/ZWCAD_UG_manual_2020_use_color_books.dita">Color books colors</xref>
+      </li>
+    </ul>
+    <p>You can choose
+ colors by selecting them from the Select Color dialog box. In the command bar
+ or in some dialog boxes, you
+ specify a color
+ either by name or by number.</p>
+    <p>All objects are
+ created with the current color, which is displayed in the Color Control on the
+ Properties toolbar. With the
+ Color Control or the Select
+ Color dialog box, you can
+ also set the current
+ color.</p>
+    <p>Objects are
+ created with the color assigned to the current layer. If the current color is
+ set to BYLAYER. If the current
+ color is not expected to be the color assigned to the current layer, you can
+ specify another color instead.</p>
+    <p>If the current
+ color is set to BYBLOCK, objects are created using color 7 (white or black)
+ until these objects are grouped into
+ a block. Once the block is inserted into a drawing, it uses current color
+ settings instead.</p>
+  </conbody>
+</concept>

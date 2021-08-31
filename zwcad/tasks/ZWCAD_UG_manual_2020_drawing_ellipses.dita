@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7124361-C41F58C-15A135AB28BE04F-29B22A">
+  <title>Drawing ellipses</title>
+  <shortdesc>The default
+ method for drawing an ellipse is to specify the endpoints of one axis of the
+ ellipse, and then specify a distance representing half the length
+ of the second axis. The endpoints of the first
+ axis determine the orientation of the ellipse. The longer axis of the ellipse is called the major axis, and the shorter one</shortdesc>
+  <taskbody>
+    <context>
+      <p>is the minor
+ axis. The order in which you define the axes does not matter. The
+ programdetermines the major and minor
+ axes based on their relative lengths. You can draw ellipses using any of the
+ following methods:</p>
+      <ul>
+        <li>Center</li>
+        <li>Axis, End</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic263_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw an ellipse by specifying
+ the axis and endpoints</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Ellipse
+ &gt; Axis, End from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first endpoint.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second endpoint.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic263_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Drag the pointing
+ device away from
+ the midpoint, andclick
+ to specify a distance
+ for half the length of the second
+ axis.</info>
+      </step>
+    </steps>
+    <result>
+      <p>First axis endpoint
+ (A), second axis endpoint
+ (B), and half-length of another
+ axis (C)</p>
+    </result>
+  </taskbody>
+</task>

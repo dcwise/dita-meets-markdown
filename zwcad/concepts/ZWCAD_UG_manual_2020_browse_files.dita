@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7412435-6354A11-247815557E15F98-5BAD45">
+  <title>Browse files</title>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic6_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ View the Recent Documents
+ and Opened Documents lists, or view the thumbnail
+ of an opened file.</p>
+    <p>Browse files with Recent or
+ Opened Documents buttons</p>
+    <p>You can sort the recently
+ used files by the following four ways in the Recent Documents.</p>
+    <ul>
+      <li>By Ordered List</li>
+      <li>By Access Data</li>
+      <li>By Size</li>
+      <li>By Type</li>
+    </ul>
+    <p>You can display
+ the list of the opened files by using the Large Icons and Small Icons in the
+ Opened Documents, or you can display
+ the thumbnails of currently opened files by using the Large Images and Small Images.</p>
+    <p>
+      <b>NOTE </b>Only saved files can be displayed in the Opened
+ Documents list.</p>
+  </conbody>
+</concept>

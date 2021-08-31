@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12563E-144A1F2-151655A7E571B52-71DEC8">
+  <title>Remove Objects</title>
+  <shortdesc>Removes objects using
+ one of the following methods:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Delete objects
+ with ERASEcommand.</li>
+      <li>Cut the selected
+ objects to the clipboard.</li>
+      <li>Press DELETE to remove the selected objects.</li>
+      <li>You can use ERASEcommand to delete objects, whatever the methods
+ you use to select
+ objects.</li>
+      <li>To restore the deleted objects,
+ use UNDO command.</li>
+      <li>OOPS, the command can restore objects deleted
+ with the ERASE, BLOCK or WBLOCK command.</li>
+      <li>To delete
+ mark of plus sign (point mark), perform
+ REDRAW command to refresh thescreen.</li>
+      <li>To delete unused named
+ objects, such as block definition, dimension style, layer, linetype and text style, perform
+ PURGE command.</li>
+    </ul>
+  </conbody>
+</concept>

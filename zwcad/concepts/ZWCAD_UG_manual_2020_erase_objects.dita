@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A3-5636543-C4A11248A1055A9-53596B">
+  <title>Erase Objects</title>
+  <shortdesc>You can also use OOPS command
+ to restore the deleted objects
+ except for the objects deleted
+ by PURGE command. You can
+ use OOPS to remove the selected block objects after performing BLOCK or WBLOCK.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

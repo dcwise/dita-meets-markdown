@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A563-5E4CA12-1A5A79E55DA6419-0D9F59">
+  <title>Update Xrefs with Demand Loading Turned On</title>
+  <shortdesc>If systemvariable
+ XLOADCTLis set to 0, turn off Xrefs with Demand Loading, load the whole drawing if click the load button.</shortdesc>
+  <conbody>
+    <p>If system variable
+ XLOADCTL is set to 1, turn on Xrefs with Demand Loading, all other users can't access the xref file when reloading the file with Demand Loading.</p>
+    <p>If systemvariable
+ XLOADCTLis set to 2, load a temporary copy of the latest version of the xref
+ file to be loaded.</p>
+  </conbody>
+</concept>

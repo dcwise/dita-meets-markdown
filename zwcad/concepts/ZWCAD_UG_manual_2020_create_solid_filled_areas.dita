@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A3566-5E143C1-18755AE53592D72-B2F940">
+  <title>Create Solid-Filled Areas</title>
+  <shortdesc>Methods of creating
+ solid hatch:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Hatches with solid patterns (BHATCH)</li>
+      <li>2D solids (SOLID)</li>
+      <li>Wide polylines, traces or donuts
+ (PLINE, TRACE or DONUT)</li>
+    </ul>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic636_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

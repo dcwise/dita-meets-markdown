@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA243854-11F215C-5B5A71E3517DA63-9F0459">
+  <title>Opening external references</title>
+  <shortdesc>From the Xref
+ Manager, you can quickly open the source drawing for any external reference.
+ This is especially helpful if you are
+ working with nested external references, which you cannot bind or detach. From the Xref Manager, open the source
+ drawing, make changes, and then save and close the source drawing.
+ When the Xref
+ Manager displays again, simply reload
+ the external reference.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic588_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To open an external
+ reference</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Xref Manager from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the external reference
+ to open.</cmd>
+      </step>
+      <step>
+        <cmd>Click Open.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic588_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Under the expedite network
+ operations, users can update xrefs by reloading regardless of any changes happen
+ to the original file of xrefs. But the variance
+ path for the original file may cause
+ the xrefs updating
+ failed, you must specify the actualsaving path
+ for the xrefs.</p>
+    </result>
+  </taskbody>
+</task>

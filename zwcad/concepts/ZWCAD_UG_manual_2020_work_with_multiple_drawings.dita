@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72A4356-8351453-CA1121A852C41CE-B9D97D">
+  <title>Work with Multiple Drawings</title>
+  <shortdesc>With the multiple
+ document interface (MDI) feature, you can open more than one drawing in ZWCAD. Because you can open and work on several
+ drawings at one time, you can copy, cut, or paste an entity from one drawing to another.</shortdesc>
+  <conbody>
+    <p>Each drawing appears in a drawing
+ window, which has the
+ following advantages:</p>
+    <ul>
+      <li>You can see two or more drawings
+ side by side.</li>
+      <li>You can easily copy entities
+ fromone drawing to another.</li>
+    </ul>
+    <p>Under the Window menu, the following three
+ methods that determine
+ how drawings are arranged are provided for user's
+ choice.</p>
+    <ul>
+      <li>Cascade</li>
+      <li>Tile Horizontally</li>
+      <li>Tile Vertically</li>
+    </ul>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic91_image003.png" />
+      </fig>
+    </p>
+    <p>Tile Vertically</p>
+    <p>When you work with more than one drawing
+ open in its own window,
+ you can easily, cut, copy, andpaste in between drawings.
+ If you copy an entity
+ fromone window to another and then want to undo that action,
+ you must undo it from the drawing into which you copied the entity. If
+ you cut and paste an entity and then want to undo that action,
+ you must undo it in both drawings.</p>
+  </conbody>
+</concept>

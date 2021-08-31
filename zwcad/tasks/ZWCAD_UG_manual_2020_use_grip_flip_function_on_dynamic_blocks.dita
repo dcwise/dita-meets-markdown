@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A363-E453CA1-15A78155A71E535-96BED0">
+  <title>Use Grip Flip Function on Dynamic Blocks</title>
+  <shortdesc>You can mirror the selected
+ entity in the dynamic block about a specified reflection line by clicking its flip grip.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic616_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Flip dynamic block by using grip</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select the dynamic block contains flip action.</cmd>
+      </step>
+      <step>
+        <cmd>Clickon the light blue flip gripof
+ the dynamic block，the entity in the dynamic
+ block will be flipped.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic616_image002.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

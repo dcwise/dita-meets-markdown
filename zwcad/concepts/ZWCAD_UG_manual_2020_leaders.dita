@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A71A3568-3E4534A-11F54A87A50A1E3-2B9887">
+  <title>Leaders</title>
+  <shortdesc>A leader is a
+ line or spline with an arrowhead at
+ one end, and annotations (Mtext, blocks as we l as tolerance) at the other
+ end.</shortdesc>
+  <conbody>
+    <p>Generally, you
+ place an arrowhead at the first point. An annotation, created as dimension
+ text, is placed immediately adjacent to the last point.</p>
+  </conbody>
+</concept>

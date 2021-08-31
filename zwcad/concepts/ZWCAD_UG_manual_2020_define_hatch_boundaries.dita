@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12246-3645CA2-54A878175359535-6BBED0">
+  <title>Define Hatch Boundaries</title>
+  <shortdesc>To create a
+ hatch, you should define hatch boundaries first by means of selecting objects
+ to be hatched or picking a point
+ inside the desired object. A hatch boundary can be any combination of objects,
+ such as lines, arcs, circles, and polylines, that forms an enclosed area.</shortdesc>
+  <conbody>
+    <p>To raise the
+ speed of hatching a small area of a complex drawing, you can define a set of
+ objects in the drawing. HATCH
+ does not analyze
+ objects that are not included
+ in the boundary set.</p>
+    <p>Island is a
+ concept representative of the closed area inside the hatched object. You can hatch
+ the island and also retain its original state.</p>
+    <p>Objects can be
+ hatched only if they are in a plane parallel to the XY plane of the current
+ UCS. For the internal
+ area of polylines with width and solid hatching, hatches can't be applied
+ because of its unacceptable profiles.</p>
+  </conbody>
+</concept>

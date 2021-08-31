@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A724356E-134124A-8715657535714A5-B2A7D1">
+  <title>Setting the layer color</title>
+  <shortdesc>Each layer in a
+ drawing is assigned a color. ZWCAD uses the BYLAYER color as the default color setting for object creation so that new
+ objects are drawn in the color of the layer on which they are inserted.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic155_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change the layer color</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Layer from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Click the icon
+ under "Color" tab in the layer list to open Select Color dialog box, from which, youcan specify the desired color.</cmd>
+      </step>
+      <step>
+        <cmd>In the Select Color dialog box, select a color from one of the following tabs:</cmd>
+      </step>
+      <step>
+        <cmd>Index Color
+ — Click BYBLOCK, BYLAYER, or one of the 255 index colors.
+ You can also type the color number
+ in the Color box.</cmd>
+      </step>
+      <step>
+        <cmd>True Color —
+ Click a basic color in the left color panel, andthen move the slider to the right to specify a color. There are
+ more than 16 million true colors from which you can choose.</cmd>
+      </step>
+      <step>
+        <cmd>Color Books —
+ Select a color book from the Color Book pull-down list, and then click a
+ desired color from the options
+ displayed.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>You can also assign a specific color to an object,
+ which overrides the layer's color setting. When you create a new object,
+ use the Format &gt; Color menu option
+ to change the current color.
+ For an existing object, double-click this object and then change the object's
+ color on the Properties palette
+ that pops up.</p>
+    </result>
+  </taskbody>
+</task>

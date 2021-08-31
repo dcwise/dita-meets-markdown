@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A35-6836514-53C1215A881D55A-9E5971">
+  <title>Set Paper Size</title>
+  <shortdesc>The paper size here refers to the size of the drawing, needing to be set before
+ plotting regardless of which working space you select. You can assign
+ the paper type froma pull-down list of the Paper Size text box in Printer/Plotter area. The available
+ paper types provided in the pull-down list are decided by cur ent configuration. If you want
+ to setup paper
+ size, you should configure plotters first, all the available plotters are both systemplotters of Windows configured and non-systemdriven.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can specify a
+ printer or plotter to be used when printing any drawing. You can print your
+ drawing on any printer or plotter that is compatible
+ with Windows, including raster printers.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic699_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select a printer
+ or plotter</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>From the Name list in Printer/Plotter area, select a printer or plotter you want to use, and then click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Default paper
+ size used for creating new layouts through editing PC5 files associative to plotters can be assigned to the paper.
+ With this technique, you can assign
+ different paper size for Windows
+ and ZWCAD separately.</p>
+      <p>If you set the system variable PAPERUPDATE to
+ 0, prompts display if the selected plotter doesn't support
+ the paper size. If you set the systemvariable PAPERUPDATE to 1, the paper size will be updated automatically to default paper size that plotters provide.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic699_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select the
+ paper size and orientation</p>
+      <ol>
+        <li>Choose File &gt; Plot from the mainmenu.</li>
+        <li>From the Paper Size list in Printer/Plotter area, select the desired paper size, and then click OK.</li>
+      </ol>
+      <p>You can also adjust the orientation by printing a drawing upside
+ down on the paper. Each layout in your drawing can specify whether
+ to print upside down.</p>
+    </result>
+  </taskbody>
+</task>

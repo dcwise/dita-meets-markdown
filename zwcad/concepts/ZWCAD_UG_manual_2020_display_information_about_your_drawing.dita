@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A4-5683614-3C4A1F254A7F1CA-71E55A">
+  <title>Display Information about Your Drawing</title>
+  <shortdesc>You can display a variety of information about a drawing and the objects it contains, including:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Information in the drawing database
+ about selected objects.</li>
+      <li>The current drawing status.</li>
+      <li>The time spent working on the drawing.</li>
+      <li>This information is displayed in the Prompt History window
+ and in the command bar.</li>
+    </ul>
+  </conbody>
+</concept>

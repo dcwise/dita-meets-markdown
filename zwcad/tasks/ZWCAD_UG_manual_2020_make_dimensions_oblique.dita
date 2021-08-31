@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A456-8365E13-11F215A87B75A9E-535921">
+  <title>Make Dimensions Oblique</title>
+  <shortdesc>Extension lines
+ are normally created at a perpendicular angle to the dimension line. You can
+ change the angle of the extension
+ lines, however, so that they tilt relative
+ to the dimension line.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic530_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To make oblique extension lines</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Oblique
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the linear dimension, and then press Enter.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic530_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Type the obliquing angle, andthen
+ press Enter.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the dimension
+ to be made oblique (A), and then type the obliquing angle.</p>
+      <p>
+        <b>TIP </b>To align
+ the oblique angle if you don't know the exact measurement, use snaps to pick
+ two points on the entity.</p>
+    </result>
+  </taskbody>
+</task>

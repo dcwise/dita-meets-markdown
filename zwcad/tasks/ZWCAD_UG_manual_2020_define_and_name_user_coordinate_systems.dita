@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A383-65E1453-C4A1F5A871557E5-35CFB2">
+  <title>Define and Name User Coordinate Systems</title>
+  <shortdesc>A drawing can contain as many coordinate systems
+ as you want and can be named appropriate names so you can remember
+ how they are used in your drawing
+ for recalling themlater.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <b>NOTE </b>Coordinate system names created or renamed in ZWCAD
+ can have up to 31 characters and cannot
+ include spaces. ZWCAD will, however,
+ display longer coordinate system names and names containing spaces.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic217_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Define new user coordinate systems</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; New UCS from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Choose which type for creating
+ UCS.</cmd>
+      </step>
+      <step>
+        <cmd>Create UCS depending on the prompts.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic217_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change a user coordinate systemname
+ in the current drawing</p>
+      <ol>
+        <li>Choose Tools &gt; Named UCS from the main menu.</li>
+        <li>Right-click the desired UCS name, andthen
+ select Rename from the shortcut
+ menu that pops up.</li>
+        <li>Type a new name.</li>
+        <li>Click OK.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12243-66E154A-F15A8785C415242-1E1E9D">
+  <title>Use Backup Files</title>
+  <shortdesc>ZWCAD creates
+ a backup file with the current drawing
+ name and a ".bak" extension to save the previous version
+ of the current
+ drawing when launching "backup automatically" option.</shortdesc>
+  <conbody>
+    <p>You can revert to
+ the previous version of your drawing anytime using a ".dwg" extension in place of the .zw$ extension.</p>
+  </conbody>
+</concept>

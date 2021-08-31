@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB223686-5E54A11-54A76352C15C799-5D924D">
+  <title>Use Model Space Viewports</title>
+  <shortdesc>You can do the following operations
+ at the model space
+ viewport:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Set Grid, and UCS icon modes;
+ Pan; Zoom; and restore named views.</li>
+      <li>Save orientations of UCS with individual viewports.</li>
+      <li>When executing a command, you can draw fromone viewport
+ to another.</li>
+      <li>Name a viewport arrangement in order
+ so you can reuse it on the Model tab or insert it on a layout tab.</li>
+      <li>When you work on 3D models, it is much help that setting
+ up different UCS in individual
+ viewports.</li>
+    </ul>
+  </conbody>
+</concept>

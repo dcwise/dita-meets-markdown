@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2A43563-65534A1-15A8A13A79153CF-AB3491">
+  <title>Create custom spelling dictionary</title>
+  <shortdesc>The SPELL command
+ compares text found in the drawing with correctly spelled words in an insta led dictionary (DIC file). There are many
+ different dictionaries that can be used with ZWCAD, including dictionaries in many different
+ languages. You can download and install a new dictionary or use a
+ dictionary already installed
+ on your computer.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic479_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create and manage
+ a customdictionary</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Type SPELL on the command line andpress
+ Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Select one or more text entities.</cmd>
+      </step>
+      <step>
+        <cmd>In the Check Spelling dialog box, click Change Dictionaries.</cmd>
+      </step>
+      <step>
+        <cmd>To add a custom
+ word, type a word in Custom Dictionary Words, and then click Add.</cmd>
+      </step>
+      <step>
+        <cmd>To delete a custom
+ word, select a word in Custom Dictionary Words, and then click Delete.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

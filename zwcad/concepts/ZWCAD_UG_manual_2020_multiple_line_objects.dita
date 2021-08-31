@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1A43568-364C115-4A8774579155A14-C35B25">
+  <title>Multiple-Line Objects</title>
+  <shortdesc>Multilines consist of several parallel
+ lines, called elements.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic237_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ You can determine the position of
+ elements by specifying offset from the origin of each element. By default, multiline objects contain two elements. You should create and save new
+ multiline styles by yourself or modify existing
+ mline styles.</p>
+  </conbody>
+</concept>

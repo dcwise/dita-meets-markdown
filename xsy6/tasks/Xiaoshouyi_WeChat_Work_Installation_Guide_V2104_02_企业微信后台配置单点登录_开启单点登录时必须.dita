@@ -2,6 +2,13 @@
 <task xml:lang="en-us" id="A7A7B528-3576524-471F54A8C152574-15AFED">
   <title>企业微信后台配置单点登录 （开启单点登录时必须）</title>
   <shortdesc>单点登录需要在企业微信后台配置，分为以下几个步骤：</shortdesc>
+  <prolog>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-08-23"/>
+    </critdates>
+  </prolog>
   <taskbody>
     <context>
     </context>
@@ -23,10 +30,10 @@
       </step>
     </steps>
     <result>
-      <required-cleanup>
+]
         <p id="_bookmark49">
-          <b>[heading h6 could not be placed here]: </b>在销售易系统获取配置所需参数</p>
-      </required-cleanup>
+      在销售易系统获取配置所需参数</p>
+]
       <p>在配置之前，需要先获取以下几个参数的内容：授权回调域、IOS Bundle ID、安卓应用签名、安卓应用包名。</p>
       <p>遵循以下步骤，获取以上几个参数的内容：</p>
       <ol>
@@ -52,10 +59,10 @@
           </tgroup>
         </table>
       </p>
-      <required-cleanup>
+
         <p id="_bookmark52">
-          <b>[heading h6 could not be placed here]: </b>在企业微信后台配置相关参数</p>
-      </required-cleanup>
+在企业微信后台配置相关参数</p>
+      
       <p>遵循以下步骤，在企业微信后台配置相关参数：</p>
       <ol>
         <li>企业微信管理员登录企业微信后台管理平台 https://work.weixin.qq.com。</li>
@@ -79,13 +86,16 @@
           </tgroup>
         </table>
       </p>
-      <required-cleanup>
+
         <p id="_bookmark54">
-          <b>[heading h6 could not be placed here]: </b>启用企业微信授权登录销售易系统</p>
-      </required-cleanup>
+启用企业微信授权登录销售易系统</p>
+      
       <p>遵循以下步骤，启用企业微信授权登录销售易系统：</p>
       <ol>
-        <li>登录销售易系统，在销售易系统后台页面的左侧导航菜单中，单击<b>安全设置 </b>&gt;<required-cleanup><p><b>[heading h6 could not be placed here]: </b>认证方式。</p></required-cleanup></li>
+        <li>登录销售易系统，在销售易系统后台页面的左侧导航菜单中，单击<b>安全设置 </b>&gt;
+          
+  <p>认证方式。</p>
+        </li>
         <li>在 【认证方式】页面，勾选<b>第三方认证</b>。</li>
         <li>选择第三方认证的企业微信应用。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic21_image018.png" /></fig></entry></row></tbody></tgroup></table></p></li>
         <li>设置完成后，单击<b>保存</b>。</li>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A5-5E143CA-11F14A815251E53-5A7FD2">
+  <title>Control the User Coordinate System (UCS) in 2D</title>
+  <shortdesc>In ZWCAD, there are two coordinate systems: world coordinate
+ system (WCS) and user coordinate system(UCS). WCS is a fixed coordinate system, where the X axis is horizontal
+ and the Yaxis is vertical.
+ The origin (0, 0) is the intersection
+ of the X and Yaxes in the lower-left corner of the drawing. You can</shortdesc>
+  <conbody>
+    <p>define a UCS
+ based on a WCS. UCS can be moved, which helps you modify particular sections of
+ your drawing easily. At the same time,
+ you can rotate UCS to specify points
+ in 3D or rotated views. When you rotate UCS, Snap, Grid, and Ortho modes all rotate in line with the new UCS.</p>
+    <p>Actually, you enter a coordinate value in the current UCS. There are several methods
+ for relocating UCS, shown as follows:</p>
+    <ul>
+      <li>Move the UCS by defining
+ a new origin.</li>
+      <li>Align the
+ UCS with an existing object or with the current
+ viewing direction.</li>
+      <li>Rotate the current UCS around any of its axes.</li>
+      <li>Restore a
+ saved UCS.</li>
+    </ul>
+    <p>You can name a defined UCS and then restore it when needed. The UCS Previous option
+ can reverse up to
+ last 10 coordinate systems in the current session. You can delete a named UCS
+ whenever you do not need it. A UCS can also be restored
+ to coincide with the WCS.</p>
+  </conbody>
+</concept>

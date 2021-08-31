@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB22A438-365E15C-112154A714525C7-4152D9">
+  <title>Switch between Dialog Boxes and the Command Line</title>
+  <shortdesc>Some functions
+ are both provided similarly though the command line and from a dialog box. In
+ many cases, you can enter a hyphen in
+ front of the command to suppress the dialog boxand display prompts on the command line instead.</shortdesc>
+  <conbody>
+    <p>For example,
+ entering LINETYPE on the command line displays the
+ Linetype Manager. Entering - LINETYPE on
+ the command line displays the equivalent command line options. There may be
+ tiny differences between
+ the options in the dialog
+ boxand those available
+ on the command line.</p>
+    <p>The systemvariables below affect the display of dialog boxes as well:</p>
+    <ul>
+      <li>ATTDIA controls whether
+ INSERT uses a dialog boxfor attribute value
+ entry.</li>
+      <li>EXPERT controls whether
+ certain warning dialog
+ boxes are displayed.</li>
+      <li>FILEDIA controls the display
+ of dialog boxes used with commands that read and write files. For example, if FILEDIA is
+ set to 1, OPEN displays the Open Drawing As dialog box. If FILEDIA is set to 0, OPEN displays prompton
+ the command line.
+ Even when you
+ set FILEDIA to 0, you can get a file dialog boxdisplayed byentering a tilde (~) at the first prompt.</li>
+    </ul>
+  </conbody>
+</concept>

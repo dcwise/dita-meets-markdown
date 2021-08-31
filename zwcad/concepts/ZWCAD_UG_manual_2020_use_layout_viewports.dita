@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A14835-EC4A154-A5A95397E0C0497-BB1389">
+  <title>Use layout viewports</title>
+  <shortdesc>Create multiple
+ viewports in layout tab to view objects
+ created in model space, move and scale the objects
+ as well. The multiple
+ viewports created in layouts can be overlapped or separated.</shortdesc>
+  <conbody>
+    <p>The user can
+ toggle to model space and edit objects in layout viewports within layouts. When
+ ranking layouts in paper space,
+ you can't edit the model.
+ Methods to toggle to model
+ space are shown as follows:
+ Enter Model space
+ by selecting a Modeltab.</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic678_image001.png" />Double click inside the layout viewport.
+ At the moment, the Model or Paper Space button on the status bar changes from to <image href="../graphics/ZWCAD_UG_manual_2020_topic678_image002.png" />.</p>
+    <p>Click
+ Model or Paper
+ Space button on the status
+ bar to switch to MODEL.</p>
+    <p>The layout viewport on which you double clicked
+ will be set as current view and enter model space with its frame highlighted. Once a viewport has been
+ changed, all the other viewports
+ display the modifications simultaneously. Additionally, layout viewport owns the
+ superiorities as: optionally freeze the
+ layer in each layout viewport. Thus, you can display different objects in the
+ current viewport. Meanwhile, you can pan and
+ scale the objects
+ in viewports to display different views.</p>
+    <p>With the grips
+ displayed in the viewport frame, layout viewport is also available for changing
+ the scale that geometrical drawings of model space display in viewports so as to adjust the viewport size. Each</p>
+    <p>viewport can be scaled like other objects using SCALEcommand, which is
+ only effective to the size of the viewport
+ rather than the scale of the views.</p>
+  </conbody>
+</concept>

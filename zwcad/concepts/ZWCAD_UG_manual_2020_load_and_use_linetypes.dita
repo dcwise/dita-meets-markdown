@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A43-8654C4A-1F215A7F5BA71AD-68A2D8">
+  <title>Load and Use Linetypes</title>
+  <shortdesc>A linetype is a
+ repeating pattern of dashes, dots, and blank spaces displayed in a line or a
+ curve. Loads linetype froma
+ drawing to be reused when
+ needed.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

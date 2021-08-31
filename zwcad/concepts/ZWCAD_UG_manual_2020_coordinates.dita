@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7124586-5E1453C-11F215487F15457-91E55A">
+  <title>Coordinates</title>
+  <shortdesc>When a command
+ prompts you for a point, you can specify a point in a drawing using a mouseor
+ other pointing devices, or you can enter a coordinate value at the command
+ prompt. Coordinate values
+ include 2D coordinate and 3D coordinate values. You can type 2D coordinate as either Cartesian
+ (X, Y) or polar coordinates. You can also locate points
+ with Cartesian, cylindrical or spherical coordinates.</shortdesc>
+  <conbody>
+    <p>A Cartesian
+ coordinate system has three axes of X, Y, and Z. Different coordinate systems
+ (2D or 3D) determine different coordinate representation ((x, y) or (x, y, z)). A coordinate value
+ indicates the point's
+ distance (in units) and its direction along the X, Y and Z axes relative
+ to the coordinate systemorigin (0, 0)
+ or (0, 0, 0). In addition, you can type a relative coordinate by moving the
+ cursor to specify a direction and then entering
+ a distance directly.</p>
+    <p>With both polar and Cartesian coordinates,
+ you can type absolute coordinates
+ based on the origin, or relative coordinates based on the last point
+ specified.</p>
+    <p>The coordinate can be measured in scientific, decimal,
+ engineering, architectural, or fractional notation.</p>
+    <p>And the angle can be measured in grads, radians,
+ surveyor's units, or degrees, minutes,
+ and seconds. You can control
+ these unit formats
+ in "Drawing Units" dialog box.</p>
+  </conbody>
+</concept>

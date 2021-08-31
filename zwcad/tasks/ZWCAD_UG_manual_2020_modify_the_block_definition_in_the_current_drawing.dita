@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A435-68E1C41-214871256E57CFE-C3697D">
+  <title>Modify the block definition in the current drawing.</title>
+  <shortdesc>Modify the block definition in the source drawing and insert it into the current drawing
+ again.</shortdesc>
+  <taskbody>
+    <context>
+      <p>To modify a block
+ definition already inserted into the drawing, you should first create a new
+ block definition with a new name to
+ replace the existing block definition, and all the references to that block in the drawing
+ are immediately updated
+ to reflect the new definition.</p>
+      <p>To save time, you
+ can insert and explode an instance of the original block and then use the
+ resulting objects while
+ creating the new block definition.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic565_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To redefine
+ a block in the current
+ drawing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Block &gt; Make from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Block
+ Definition dialog box, type the name of the
+ block you want to redefine in the Name box.</cmd>
+      </step>
+      <step>
+        <cmd>Click Pick buttonto specify
+ a point as the insertionpoint for the block
+ in the drawing</cmd>
+        <info>
+          <p>area.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Clickthe Select
+ buttonto select the objects for the block, and thenpress Enter after selection.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Click Yes in the prompt box that displays
+ to redefine the block in the current
+ drawing.</cmd>
+      </step>
+      <step>
+        <cmd>The block is immediately redefined, and all instances of the block in the drawing are updated.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>To restore the original objects
+ to the drawing while retaining
+ the new block, click Retain.</p>
+    </result>
+  </taskbody>
+</task>

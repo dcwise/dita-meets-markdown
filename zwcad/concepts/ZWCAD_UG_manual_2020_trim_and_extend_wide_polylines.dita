@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A46-5E5C4A1-4705E35A241D290-341D88">
+  <title>Trim and Extend Wide Polylines</title>
+  <shortdesc>The
+ systemprocesses the center line if the object is 2D wide polyline. If the
+ polyline is a pyramid, the width of cutting edge keeps unchanged after trimming.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic349_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ When you extend a wide polyline,
+ its centerline intersects the boundary edge. Because the end of the polyline is always cut at a 90-degree
+ angle, part of the polyline may extend past the boundary edge. A tapered
+ polyline continues to taper until
+ it intersects the boundary edge.
+ If this would result in a negative
+ polyline width, the ending width
+ changes to 0.</p>
+    <p>A tapered polyline (A) continues to taper until it intersects the boundary edge (B)</p>
+    <p>The ends of wide polylines are always square.
+ Trimming a wide polyline at an angle leads
+ to portions of the
+ end to extend beyond the cutting edge. Trimming a spline-fit polyline deletes
+ curve-fit information and converts
+ spline-fit segments to ordinary polyline
+ segments.</p>
+  </conbody>
+</concept>

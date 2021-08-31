@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A456-65E134A-1F21587B153A91E-5947FC">
+  <title>Edit data format and alignment</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic550_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Operating Steps:</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select one cell in the table.</cmd>
+      </step>
+      <step>
+        <cmd>Click "Alignment" button
+ on the Table toolbar to select alignment. Alignment includes Top Left, Top Center, Top Right, Middle
+ Left, Middle Center,
+ Middle Right, Bottom
+ Left, Bottom Center and Bottom
+ Right.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

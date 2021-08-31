@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A72A3835-5325AD1-7505A95A1BD571A-D5E748">
+  <title>Create Polar Arrays</title>
+  <shortdesc>You can specify a center
+ or base point
+ to copy the selected objects to create
+ a polar array. The polar ar ay is drawn
+ clockwise or counterclockwise depending on whether
+ you type a positive or negative value.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The radius is determined by the distance
+ between the specified center point and a reference or base point on the last selected object.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic333_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a polar array</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Array from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Array tab, click Polar Array.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Select Objects
+ button, and then select objects
+ to array in your drawing.</cmd>
+      </step>
+      <step>
+        <cmd>In the Array dialog box, choose Method and values youdesired.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic333_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Click OK.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To create a polar array, select the object to copy (A), specify the center point of the array (B), and then specify the number of items to the array, the angle the array is to fill, and whether to rotate the items</p>
+    </result>
+  </taskbody>
+</task>

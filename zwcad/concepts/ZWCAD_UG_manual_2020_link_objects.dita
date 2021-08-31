@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA1A65EC-A1F254A-879175A9155A8F3-655DD6">
+  <title>Link Objects</title>
+  <shortdesc>When inserting
+ OLEobjects, if you select Create from File and click Link option as well, you
+ can insert the linked OLE object
+ into ZWCAD drawing. Linking objects is a type of reference to the information of another document. To use a link object for the same information in
+ multiple documents, you just modify the source object and perform OLELINKS
+ command to set automatic or manual update</shortdesc>
+  <conbody>
+    <p>document containing OLE objects.</p>
+    <p>You should keep accessing the source document and linked document. If a move or rename the source
+ object, you should rebuild links in the link file.</p>
+  </conbody>
+</concept>

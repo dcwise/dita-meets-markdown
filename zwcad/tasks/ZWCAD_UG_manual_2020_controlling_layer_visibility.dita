@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA2A4334-5A12154-87F112A79535A11-57B7D1">
+  <title>Controlling layer visibility</title>
+  <shortdesc>A layer can be
+ visible or invisible. Objects on invisible layers are not displayed and do not
+ print. By controlling layer visibility, you can turn off unnecessary information, such as construction lines or notes.
+ By changing layer
+ visibility, you can put the same drawing
+ to multiple uses.</shortdesc>
+  <taskbody>
+    <context>
+      <p>For example, if
+ you are drawing a floor plan, you can draw the layout of light fixtures on one
+ layer and the location of plumbing
+ lines on another. By selectively turning layers on and off, you can print the electrical engineering drawings and the
+ plumbing drawings fromthe same drawing file. For even more convenience, you can control the visibility
+ of layers within individual
+ viewports, so that layers that display in one viewport
+ are invisible in other viewports in the same drawing.</p>
+      <p>When you turn a
+ layer off, objects drawn on that layer are no longer visible. When you turn the
+ layer back on, the objects
+ on that layer
+ are redisplayed.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic151_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn layers on or off</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Layer from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe iconunder "On" tabin
+ the layer list.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

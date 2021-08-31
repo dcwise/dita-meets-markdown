@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A363-6514534-A11F28D1DA9E5B6-DABDDE">
+  <title>Multi-Grips Edit Mode</title>
+  <shortdesc>It's also
+ enabled to manipulate grip edit mode using multiple grips.
+ You can press SHIFT to select multiple grips. Once you have selected multiple
+ entities (called hot multi-grip selection), the part of entities among grips
+ will not change.</shortdesc>
+  <conbody>
+    <p>Using Multi-Grips edit mode is sorted into the following two cases:</p>
+    <ul>
+      <li>To move, rotate, scale or
+ mirror entities, using multiple grips on them equals to use the last selected
+ grip as a basepoint (base
+ grip or newly selected base point).</li>
+      <li>To stretch entities,
+ multi-grips are selected dependingon the type of entities, when you selected single text point, insertion point of
+ block reference, the midpoint of a line, the center of circle and grips
+ on a pointobject as hot grips, the entities will be moved rather than stretched.</li>
+    </ul>
+  </conbody>
+</concept>

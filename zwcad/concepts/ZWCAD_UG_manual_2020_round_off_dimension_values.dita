@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA615CA1-1F25A87-1A7915359768EED-DB938D">
+  <title>Round Off Dimension Values</title>
+  <shortdesc>Except for angle dimensions, all other dimension
+ values can be rounded off. For example,
+ if you specify a round-off
+ value of 0.75, all distance is rounded to the nearest 0.75 unit. The number of
+ decimal places is determined by the precision
+ set for primary
+ and alternate units and lateral
+ tolerance values.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic506_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

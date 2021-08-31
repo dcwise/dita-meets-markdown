@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7135684-3C411F2-158751A9AD1F111-1CD93E">
+  <title>Create Closed Polylines</title>
+  <shortdesc>When creating
+ polylines with PLINE command, the Close option is only available if no less
+ than two line or arc segments are
+ drawn. A closed polyline object is drawn if you connect the start point of the polyline
+ to the endpointof the last line or arc segment
+ with a line or arc.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

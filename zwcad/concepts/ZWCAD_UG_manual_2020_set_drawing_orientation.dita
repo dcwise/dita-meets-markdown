@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A43-6E3C421-48791505A71E35A-464E17">
+  <title>Set Drawing Orientation</title>
+  <shortdesc>The drawing orientation determines whether to plot a drawing portrait
+ or landscape.</shortdesc>
+  <conbody>
+    <p>If you select
+ Landscape, plots the drawing using the longedge as horizontal. While selecting Portrait
+ to plot the drawing using its minor
+ edge as horizontal Changing the drawing orientation just like rotating the paper under the drawing. Meanwhile,
+ selecting Plot upside-down to control whether to locate the drawing upside-down on paper.</p>
+  </conbody>
+</concept>

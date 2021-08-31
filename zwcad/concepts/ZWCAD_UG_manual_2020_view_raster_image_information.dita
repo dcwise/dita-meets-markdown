@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A743563E-5C4F581-55A7E5359F137EC-ABD687">
+  <title>View Raster Image Information</title>
+  <shortdesc>The raster images
+ already attached to the drawing are displayed in list or tree view in Image
+ Manager. You can click Details
+ button to view the relevant
+ information of the raster image.</shortdesc>
+  <conbody>
+    <p>List View</p>
+    <p>Systemdefaults to using List view for displaying the name, status
+ (load, unload or not found),
+ size, type, last save date and time
+ as well as saving
+ path of the image file.</p>
+    <p>Click on the
+ column title to rank the images. If the original file of the inserted image is missing, the image status is displayed as "Not found". Images that
+ are unloaded or not found in the Image Manager
+ will not be displayed in the drawing.</p>
+    <p>Tree View</p>
+    <p>Sorts the raster images
+ in the treeview and display the hierarchy of the images
+ nested in xrefs and blocks.</p>
+    <p>View Image FileDetails</p>
+    <p>Click DETAIL
+ button to preview a selected image and view image file details, including image
+ name, saved path, active path (where
+ the image is found), file creation date, file size, file type, color, color depth, image
+ size (pixel width and height,
+ resolution and default
+ size).</p>
+  </conbody>
+</concept>

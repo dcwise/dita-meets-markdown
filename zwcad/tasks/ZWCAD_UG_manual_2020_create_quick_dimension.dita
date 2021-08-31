@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A43-68453CA-112154A8B55791E-5592F1">
+  <title>Create Quick Dimension</title>
+  <shortdesc>Creates or edits a series of dimensions quickly by typing QDIM command.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic525_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a quick dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Quick Dimension from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the geometry to dimension, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>On
+ the command line, it will display "Specify dimension line
+ position, or [Continuous/Staggered/Baseline/Ordinate/Radius/Diameter/datumPoint/Edit/seT tings]
+ &lt;Continuous&gt;:".</cmd>
+      </step>
+      <step>
+        <cmd>You can perform the operation as desired. The default is Continuous.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

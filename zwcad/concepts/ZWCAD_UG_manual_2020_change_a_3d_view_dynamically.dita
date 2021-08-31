@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA122435-83134AF-54A451E52244357-934AEF">
+  <title>Change a 3D View Dynamically</title>
+  <shortdesc>You can view
+ objects fromany viewing direction by holding down the mouseor other pointing
+ devices and moving dynamically. With dynamic viewing,
+ you can display
+ the effects of changing viewpoint while you change the view.</shortdesc>
+  <conbody>
+    <p>You can execute move or zoomoperations as the 3D Orbit is active.</p>
+    <p>When the 3D Orbit is active, you are not allowed to modify objects.
+ To close 3D Orbit, press Enter, ESC or choose Exit from the shortcut menu.</p>
+  </conbody>
+</concept>

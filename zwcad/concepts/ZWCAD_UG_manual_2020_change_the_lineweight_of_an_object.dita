@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A45-E4CA254-A7105A7E5A2B744-6F13E8">
+  <title>Change the Lineweight of an Object</title>
+  <shortdesc>You can change the current lineweight of an object
+ by reassigning the object to another layer,
+ by changing the lineweight of the layer
+ the object is on, or by
+ specifying a lineweight for the object explicitly.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

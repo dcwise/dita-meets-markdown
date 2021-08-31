@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7223566-E1453C4-1F214A871D575A7-91E55A">
+  <title>Divide an Object into Equal Segments</title>
+  <shortdesc>Places point markers on selected objects. The markers divide the selected
+ objects into a specified number of
+ equal lengths. The objects that can be separated include lines, arcs, circles,
+ ellipses, splines, and polylines. Actually,
+ this operation does not separate the object; it only
+ identifies the location
+ of divisions so that you can
+ use themas geometric
+ reference points.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic194_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic194_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To divide an object into segments
+ and mark themusing
+ point objects</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Point &gt; Divide from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the number
+ of segments, and then press Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic194_image003.png" />
+        </fig>
+      </p>
+      <p>Left: When you select the object by pointing, divisions
+ are marked beginning
+ from the end closest to the point
+ at which you select
+ the object (A)</p>
+      <p>Right: Blocks or point objects (B) are placed along the object to mark it in equal intervals</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic194_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To divide an object into segments
+ and mark themusing blocks</p>
+      <ol>
+        <li>Choose Draw &gt; Point &gt; Divide from the mainmenu.</li>
+        <li>Select the object.</li>
+        <li>On the command line, type b (block).</li>
+        <li>Type the name of the
+ block you want to insert as the marker.</li>
+        <li>Enter y to align the blocks withthe
+ measured object. Enter n to use a rotation angle of 0 degrees.</li>
+        <li>Specify the number
+ of segments, and then press Enter.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

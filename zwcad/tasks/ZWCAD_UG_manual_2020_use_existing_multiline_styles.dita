@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A72A4358-61453C4-AF14A1755A91E55-1CC525">
+  <title>Use Existing Multiline Styles</title>
+  <shortdesc>When you start drawing
+ a multiline, you can use the default
+ style, which has two elements
+ or specifies a style
+ you created previously. The default style is the multiline style last used, or
+ the STANDARD style if MLINE hasn't
+ been used.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can also change the justification and scale of the multiline
+ before you draw it.</p>
+      <p>Justification
+ determines whether the multiline is drawn below or above the cursor, or with
+ its origin centered on the cursor.
+ The default is below (top justification).</p>
+      <p>Scale controls the overall width of the multiline using the current
+ units.</p>
+      <p>If you draw a
+ multiline with the scale of 2, then the width is twice of that defined by the
+ multiline style. If the scale is set to minus,
+ then draw the multiline
+ in order of reversal offset
+ line: the multi-line with the largest
+ offset is drawn at the bottomin
+ the way of left-to-right drawing.
+ And the multi-line will be turned into single line once the scale is set to 0.</p>
+      <p>If you are
+ changing the multiline scale, you might need to make equivalent changes to
+ linetype scale to prevent dots or dashes
+ frombeing disproportionately sized.</p>
+      <p>The multiline scale does not affect the linetypescale.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic239_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a multi-line</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Multiline from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoint.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter to complete the command.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>
