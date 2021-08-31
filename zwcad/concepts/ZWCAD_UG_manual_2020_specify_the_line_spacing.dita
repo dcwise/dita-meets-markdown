@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72A4356-35E1453-C11F215471159E3-9B88B7">
+  <title>Specify the Line Spacing</title>
+  <shortdesc>The line spacing of multiline texts is the distance between
+ the baseline of one line of text and the baseline of the next line of text. You can
+ right-click in the textbox and choose Paragraph to specify the desired line space when the cursor stays on the
+ text frame. The single line space is the 1.66 times the height of the text characters.</shortdesc>
+  <conbody>
+    <p>You can specify either
+ At Least, Multiple
+ or Exactly option
+ to specify the line spacing.
+ At Least increases line spacing automatically when the characters are too large to
+ fit the line spacing you had specified. Multiple sets the line spacing according to the text height, instead
+ of setting the value of the line spacing. If the text height is not the same in a
+ line, the line spacing is fixed by the biggest text height. Exactly specifies the exact line spacing for each line.</p>
+    <p>Exactly style may
+ result in the text in lines situated above or below lines with large font
+ characters to overlap the larger
+ characters.</p>
+  </conbody>
+</concept>

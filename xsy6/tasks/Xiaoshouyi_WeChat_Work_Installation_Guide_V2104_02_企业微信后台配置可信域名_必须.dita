@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB5AB23B-5756424-41F214A1523745A-45B5CB">
+  <title>企业微信后台配置可信域名 （必须）</title>
+  <shortdesc>为确保应用可以正常访问，需要在企业微信后台配置可信域名。 遵循以下步骤，配置可信域名：</shortdesc>
+  <prolog>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-08-23"/>
+    </critdates>
+  </prolog>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd id="_bookmark45">在销售易系统中获取可信域名。</cmd>
+        <substeps>
+          <substep>
+            <cmd>登录销售易系统，在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt;</cmd>
+          </substep>
+          <substep>
+            <cmd>
+              <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic20_image002.png" />在 【企业微信集成应用】页面的应用列表中，找到相应的应用。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <fig>
+                            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic20_image004.png" />
+                          </fig>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>单击应用后<b>操作</b>下的 。</cmd>
+          </substep>
+          <substep>
+            <cmd>在应用详情页面中获取可信域名。</cmd>
+          </substep>
+        </substeps>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic20_image006.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在企业微信后台配置可信域名。</cmd>
+        <substeps>
+          <substep>
+            <cmd>企业微信管理员登录企业微信后台管理平台https://work.weixin.qq.com。</cmd>
+          </substep>
+          <substep>
+            <cmd>登录成功后，切换到<b>应用管理</b>标签。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <fig>
+                            <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic20_image008.png" />
+                          </fig>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>单击<b>应用管理</b>标签 , 在<b>自建</b>部分找到创建好的应用，单击该应用进入到应用详情页面。</cmd>
+          </substep>
+          <substep>
+            <cmd>在应用详情页面，找到<b>开发者接口</b>部分，单击网页授权及 JS-SDK 中的<b>设置可信域名</b>，在图中红框部分填写<xref href="#AB5AB23B-5756424-41F214A1523745A-45B5CB/_bookmark45">此步</xref>获取的可信域名。</cmd>
+            <info>
+              <p>
+                <table>
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left" />
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic20_image010.png" />
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>单击图中下方的<b>申请校验域名</b>。</cmd>
+          </substep>
+          <substep>
+            <cmd>选用于 OAuth2.0 回调的可信域名是否校验。</cmd>
+            <info>
+              <p>
+                <table id="table_opl_yft_rqb">
+                  <tgroup cols="1" colsep="1" rowsep="1">
+                    <colspec colname="c1" align="left"/>
+                    <tbody>
+                      <row>
+                        <entry colname="c1">
+                          <fig id="fig_ppl_yft_rqb">
+                            <image
+                              href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic20_image012.png"
+                              id="image_qpl_yft_rqb"/>
+                          </fig>
+                        </entry>
+                      </row>
+                    </tbody>
+                  </tgroup>
+                </table>
+              </p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>单击<b>确定</b>。</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+  </taskbody>
+</task>

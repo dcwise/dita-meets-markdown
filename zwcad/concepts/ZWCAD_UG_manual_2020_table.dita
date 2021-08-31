@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1243535-145C1F1-4A871057A91E535-924F0C">
+  <title>Table</title>
+  <shortdesc>The table is a cell collection composed of rows and columns. Tables can be created from table style. Meanwhile, you also can create
+ table object according to the data in Microsoft
+ Excel spreadsheet.</shortdesc>
+  <conbody>
+    <p>The existing table can also be edited.
+ Editorial content includes: To edit the text in a table cell, insert row (column), delete
+ row (column), merged
+ cells, modified cell borders, and so on.</p>
+    <p>You can control the appearance of the new table by modifying the table
+ style. Table style includes table direction, background, text style and any other
+ table characters.</p>
+  </conbody>
+</concept>

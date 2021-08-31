@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1256836-E53C4A1-F2154A1537E5A7B-FDFABE">
+  <title>Multi-Grips Mirror Mode</title>
+  <shortdesc>Mirror entities and create their
+ copies with multiple grips mode, use the last grip (base grip or reselected base
+ point) as a base point.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic400_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Mirror Lines,
+ Polylines, and Dimensions
+ Using Multiple Grips</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select line, polyline and dimension entities
+ to mirror.</cmd>
+      </step>
+      <step>
+        <cmd>Press SHIFT while selecting
+ grips on entities,
+ the selected grips will be highlighted.</cmd>
+      </step>
+      <step>
+        <cmd>Release SHIFT andclick on one of the selectedgrips to use it as a basegrip.</cmd>
+      </step>
+      <step>
+        <cmd>Press ENTER to
+ activate the default grip mode as Stretch. Iterate grip mode until Mirror appears in command line. Dynamic
+ input box displayed on screen showing the following manipulations:</cmd>
+        <info>
+          <p>Specify "B(Base point)" option to relocate the base grip.</p>
+          <p>Specify "C(Copy)" option to create a copy of the entity being mirrored. Specify
+ "U(Undo)" option to abort thelast
+ mirroring.</p>
+          <p>Specify "X(eXit)" option to exit mirror manipulation.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Move the pointing device
+ to specifysecond mirror point,
+ the entitywill be mirrored
+ along the line connecting the selected grip on objects andthe second
+ mirror point (or create
+ a copy of the entity after mirroring).</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A1A356-8314531-148B11505A79E53-94DE0C">
+  <title>Create Blocks</title>
+  <shortdesc>ZWCAD provides
+ various methods to create blocks, and insert the block into a drawing more
+ times as you need. With this method, you
+ can create blocks as soon as possible. You can use several methods to create blocks:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Combine objects to create a block definition in your current
+ drawing.</li>
+        <li>Create a drawing
+ file and later insert it as a block in other drawings.</li>
+      </ul>
+      <p>Objects drawn on
+ several layers with various
+ colors, linetypes, and lineweight pro perties can be combined into a
+ block. Once a block is inserted into the drawing, the block reference preserves information about the original
+ layer, color, and linetype properties of the objects
+ that are contained
+ in the block although it is always displayed on the current layer.
+ Whether to retain their original properties or
+ inherit their properties such as color,
+ linetype, or lineweight settings fromthe current layer for objects is</p>
+      <p>controllable. To remove unused block definitions froma drawing, use PURGE command.</p>
+      <p>When defining
+ blocks, you should define the block name, objects to be contained in the block, the coordinate values of the base point to be used for inserting the
+ block, and any associated attribute data. The
+ block definition in the illustration comprises a name, four lines, and a base
+ point at the intersection of the two diagonal lines.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic553_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic553_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The illustration shows a typical sequence
+ for creating a block definition.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic553_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a
+ block for use within a current drawing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Block &gt; Make from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Block Definition dialog box, enter a block name in the Name box.</cmd>
+      </step>
+      <step>
+        <cmd>Click Pick buttonto specify
+ a point as the insertionpoint for the block
+ in the drawing area.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Select buttonto select
+ the objects for the block,
+ and then press
+ Enter after selection.</cmd>
+      </step>
+      <step>
+        <cmd>To restore
+ the original objects to the drawing while retaining the new block, click Retain.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

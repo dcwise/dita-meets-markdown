@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7226836-453C487-81255A71539ADC0-9B47B9">
+  <title>Specify Layout Settings</title>
+  <shortdesc>Once created a drawing in Model tab, you can toggle to Layout tab and set up the layout for plotting, such as paper size,
+ drawing orientation and so on.</shortdesc>
+  <conbody>
+    <p>You can right-clickon the Layout tab to create new layouts or import fromtemplate files, and then click Modify button on the Page Setup dialog
+ boxto set the page.</p>
+  </conbody>
+</concept>

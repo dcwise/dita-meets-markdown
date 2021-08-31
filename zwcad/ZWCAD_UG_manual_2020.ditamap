@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<bookmap xml:lang="en-us" id="bookmap-1">
+  <title>ZWCAD User Manual</title>
+  <bookmeta>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-08-30"/>
+    </critdates>
+    <bookrights>
+      <bookowner><organization>ZW Soft</organization>
+      <person>RAY FAN</person></bookowner>
+    </bookrights>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+
+  <chapter href="concepts/ZWCAD_UG_manual_2020_the_user_interface.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_the_application_menu.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_search_for_commands.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_access_frequently_used_tools.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_browse_files.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_the_ribbon.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_tabs_and_panels.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_contextual_tabs.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_switch_between_ribbon_and_classic_menu.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_quick_access_toolbar.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_menus_and_shortcut_menus.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_menus.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_shortcut_menus.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_last_input.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_toolbars.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_displaying_and_hiding_toolbars.dita" />
+    </topicref>
+    <topicref href="tasks/ZWCAD_UG_manual_2020_the_command_window.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_enter_commands_on_the_command_line.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_specify_command_options.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_execute_commands.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_repeat_and_cancel_commands.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_nesting_a_command.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_enter_system_variables_on_the_command_line.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_edit_within_the_command_window.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_navigating_and_editing_within_the_command_window.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_docking_and_resizing_the_command_window.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_modifying_a_command.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_using_the_prompt_history_window.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_switch_between_dialog_boxes_and_the_command_line.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_dynamic_input.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_enable_or_disable_dynamic_input.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_pointer_input.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_dimension_input.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_dynamic_prompt.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_customize_the_drawing_environment.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_set_interface_options.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_settings_of_modifying_the_interface.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_controlling_size_and_position_of_each_toolbar_or_window.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_displaying_commands_on_a_shortcut_menu.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_using_the_command_bar.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_using_the_status_bar.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_save_and_restore_profiles.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_customization_for_user_interface.dita" />
+      </topicref>
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_create_and_save_a_drawing.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_create_a_new_drawing.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_start_a_drawing_from_scratch.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_a_setup_wizard.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_use_a_template_file.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_a_drawing_template_file.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_recover_the_default_drawing_template_file.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="tasks/ZWCAD_UG_manual_2020_open_an_existing_drawing.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_find_and_open_a_drawing_file.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_open_drawing.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_find_a_drawing_file.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_set_the_search_path.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_add_identifying_information_to_drawings.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_multiple_open_drawings.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_recover_a_damaged_file.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_drawing_recovery.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="tasks/ZWCAD_UG_manual_2020_save_a_drawing.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_save_your_drawing_automatically.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_use_backup_files.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_save_part_of_a_drawing_file.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_save_to_a_different_type_of_drawing_file.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_reduce_the_time_required_to_save_a_drawing_file.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_crash_report.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_describe_error_contents.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_view_contents_of_error_report_files.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_send_error_report.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_control_the_drawing_views.dita">
+    <topicref href="tasks/ZWCAD_UG_manual_2020_redraw_and_regenerate_a_drawing.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_magnify_a_view_zoom.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_zooming_in_and_out.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_zooming_methods.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_zoom_to_magnify_a_specified_rectangular_area.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_zoom_in_real_time.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_displaying_the_previous_view_of_a_drawing.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_zooming_to_a_specific_scale.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_combining_zooming_and_panning.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_displaying_the_entire_drawing.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_pan_a_view.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_using_scroll_bars.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_using_the_pan_command.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_display_multiple_views_in_model_space.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_set_model_space_viewports.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_use_model_space_viewports.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_split_and_join_model_space_viewports.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_select_and_use_the_current_viewport.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_working_with_multiple_views_of_a_single_drawing.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_multiple_drawings.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_save_and_restore_views.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_save_a_view.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_restore_a_named_view.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_specify_a_3d_view.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_view_a_parallel_projection_in_3d.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_set_the_viewing_direction.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_isometric.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_choose_preset_3d_views.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_draw_2d_isometric_views.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_set_isometric_grid_and_snap.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_draw_isometric_circles.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_define_a_3d_view_with_coordinate_values_or_angles.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_change_a_3d_view_dynamically.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_hide_lines_or_shade_3d_objects.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_hide_lines.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_add_simple_shading_to_3d_objects.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_precision_tools_and_the_properties_of_drawing.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_specify_units_angles_and_scale.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_determine_units_of_measurement.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_set_the_units_format.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_convert_drawing_units.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_set_angle_conventions.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_setting_scale_factors.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_apply_scale_factors.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_setting_the_text_height.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="tasks/ZWCAD_UG_manual_2020_drawing_limits.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_grid_and_grid_snap.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_change_grid_and_snap_spacing.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_setting_color_for_grid_line.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_setting_a_reference_grid.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_setting_snap_spacing.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_using_isometric_snap.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_use_object_snaps.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_setting_object_snaps.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_object_snap_settings.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_object_snap_restrictions.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_autosnap_tools.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_use_polar_tracking_and_object_snap_tracking.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_polar_tracking.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_z_tracking.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_specify_polar_angles.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_specify_polar_distances.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_object_snap_tracking.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_tips_for_using_object_snap_tracking.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_use_orthogonal_locking_ortho_mode.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_linetypes.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_load_and_use_linetypes.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_linetypes1.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_load_linetypes.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_change_the_linetype_of_an_object.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_set_the_current_linetype.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_change_the_linetype_of_an_object1.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_control_linetype_scale.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_layers.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_overview_of_layers.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_create_and_name_layers.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_setting_the_current_layer.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_remove_layers.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_change_layer_settings_and_layer_properties.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_controlling_layer_visibility.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_freeze_or_thaw_layers.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_locking_and_unlocking_layers.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_controlling_layer_printing.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_setting_the_layer_color.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_setting_a_layer_s_linetype.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_setting_a_layer_s_lineweight.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_setting_a_layer_s_print_style.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_filter_and_sort_the_list_of_layers.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_sort_layers.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_save_and_restore_layer_settings.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_save_layer_settings.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_restore_layer_settings.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_colors.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_index_colors.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_true_colors.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_color_books.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_control_lineweights.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_overview_of_lineweights.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_display_lineweights.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_display_lineweights_in_model_space.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_display_lineweights_in_layouts.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_change_the_lineweight_of_an_object.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_set_the_current_lineweight.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_change_the_lineweight_of_an_object1.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_display_of_overlapped_objects.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_polylines_hatches_gradient_fills_lineweights_and_text.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_turning_fill_on_and_off.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_use_quick_text.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_controlling_the_display_of_lineweights.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_update_the_display.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_control_how_overlapping_objects_are_displayed.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_extract_and_calculate_geometric_information_from_objects.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_calculate_areas.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_calculating_areas_defined_by_points.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_calculating_areas_of_closed_objects.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_calculating_combined_areas.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_calculate_distances_and_angles.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_display_information_about_your_drawing.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_displaying_information_about_objects.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_displaying_the_drawing_status.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_tracking_time_spent_working_on_a_drawing.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_specify_intervals_on_objects.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_divide_an_object_into_equal_segments.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_specify_measured_intervals_on_objects.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_coordinates_and_coordinate_system.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_coordinates.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_display_coordinates_on_the_status_bar.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_dynamic_input1.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_enter_2d_coordinates.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_entering_absolute_cartesian_coordinates.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_entering_relative_cartesian_coordinates.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_entering_polar_coordinates.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_use_three_dimensional_coordinates.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_using_the_right_hand_rule.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_entering_x_y_z_coordinates.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_entering_spherical_coordinates.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_entering_cylindrical_coordinates.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_use_coordinate_filters.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_using_point_filters_in_two_dimensions.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_using_point_filters_in_three_dimensions.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_user_coordinate_system.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_coordinate_system.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_understanding_how_coordinate_systems_work.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_understanding_how_coordinates_are_displayed.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_control_the_user_coordinate_system_in_3d.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_define_and_name_user_coordinate_systems.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_set_the_current_user_coordinate_system.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_use_ucs_presets.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_user_coordinate_system1.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_user_coordinate_system_ucs_in_2d.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_use_world_and_user_coordinate_systems_in_3d.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_use_world_and_user_coordinate_systems.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_user_coordinate_system_in_3d.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_define_the_ucs_location.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_use_ucs_presets.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_change_the_default_elevation.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_change_the_ucs_in_paper_space.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_save_and_restore_ucs_locations_by_name.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_assign_user_coordinate_system_orientations_to_viewports.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_display_of_the_user_coordinate_system_icon.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_create_objects.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_draw_linear_objects.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_lines.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_rays.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_construction_lines.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_multiple_line_objects.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_multiline_styles.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_use_existing_multiline_styles.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_polylines.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_draw_a_line_and_arc_combination_polyline.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_closed_polylines.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_wide_polylines.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_polylines_from_the_boundaries_of_objects.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_polygons.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_rectangles.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_points.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_changing_the_size_and_appearance_of_point_objects.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_traces.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_freehand_sketches.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_sketches.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_erasing_freehand_sketch_lines.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_draw_curved_objects.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_arcs.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_draw_arcs_by_specifying_start_center_end.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_draw_arcs_by_specifying_start_center_angle.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_draw_arcs_by_specifying_start_center_length.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_draw_arcs_by_specifying_start_end_direction_radius.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_draw_contiguous_arcs_and_lines.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_circles.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_draw_a_circle_tangent_to_other_objects.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_ellipses_and_ellipse_arcs.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_drawing_ellipses.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_drawing_elliptical_arcs.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_splines.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_specifying_fit_tolerance.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_drawing_a_closed_spline.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_donuts.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_create_3d_objects.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_set_3d_thickness_and_elevation.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_create_wireframe_models.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_tips_for_using_wireframe_models.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_wireframe_models1.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_surfaces.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_3d_surfaces.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_3d_meshes.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_creating_rectangular_meshes.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_polygon_meshes.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_ruled_surface.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_tabulated_surface.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_revolved_surfaces.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_edge_defined_surface_meshes.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_3d_solids.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_a_solid_box.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_a_solid_cone.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_a_solid_cylinder.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_spheres.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_dishes.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_domes.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_torus.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_wedges.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_helix.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_pyramid.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_solids_extrude.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_solids_revolve.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_mirror3d.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_creating_composite_solids.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="tasks/ZWCAD_UG_manual_2020_create_regions.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_create_revision_clouds.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_create_break_lines.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_create_wipeouts.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_drawing_wipeouts_using_polygons_and_polylines.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_turning_wipeout_frames_on_or_off.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_modify_objects.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_select_objects.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_select_objects_individually.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_select_objects_with_pickbox.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_remove_selection_from_objects.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_prevent_objects_from_being_selected.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_select_objects_first.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_select_a_command_first.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_highlight_of_selected_objects.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_objects_selection_methods.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_cycle_select.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_select_multiple_objects.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_specify_a_rectangular_selection_area.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_specify_an_irregularly_shaped_selection_area.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_specify_a_selection_fence.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_use_other_selection_options.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_quick_selection.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_group_objects.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_groups.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_select_objects_in_groups.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_edit_groups.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_modify_objects1.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_remove_objects.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_copy_objects.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_mirror_objects.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_mirror_in_3d.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_offset_an_object.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_an_array_of_objects.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_rectangular_arrays.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_polar_arrays.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_array_in_3d.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_limit_the_size_of_arrays.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_move_objects.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_rotate_objects.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_rotate_an_object_by_a_specified_angle.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_rotate_an_object_to_an_absolute_angle.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_rotate_an_object_in_3d.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_align_objects.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_aligning_in_three_dimensions.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_scale_objects.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_lengthen_objects.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_stretch_objects.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_trim_or_extend_objects.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_trim_objects.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_extend_objects.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_trim_and_extend_wide_polylines.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_trim_or_extend_in_3d.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_breaks.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_chamfers.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_chamfer_by_specifying_distances.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_trim_and_extend_chamfered_objects.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_chamfer_by_specify_length_and_angle.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_chamfer_polylines_and_polyline_segments.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_chamfer_an_entire_polyline.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_fillets.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_set_the_fillet_radius.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_trim_and_extend_filleted_objects.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_specify_the_location_of_the_fillet.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_fillet_line_and_polyline_combinations.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_fillet_an_entire_polyline.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_fillet_parallel_lines.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_modify_compound_objects.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_disassociate_compound_objects.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_explode_polylines.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_explode_dimensions_and_hatches.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_explode_block_references.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_explode_external_references.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_modify_polylines.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_joined_polyline_segments.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_modify_properties_of_polylines.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_close.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_open.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_join.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_width.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_edit_vertex.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_fit.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_spline.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_decurve.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_ltype_gen.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_modify_multilines.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_add_and_delete_multiline_vertices.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_edit_multiline_intersections.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_edit_multiline_styles.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_use_grips_to_edit_objects.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_control_status_and_displaying_of_grips.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_grip_edit_mode.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_grip_stretch_mode.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_grip_move_mode.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_grip_rotate_mode.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_grip_scale_mode.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_grip_mirror_mode.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_multi_grips_edit_mode.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_multi_grips_stretch_mode.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_multi_grips_move_mode.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_multi_grips_rotate_mode.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_multi_grips_scale_mode.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_multi_grips_mirror_mode.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_modify_the_properties_of_objects.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_overview_of_object_properties.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_properties_palette.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_change_the_properties_of_objects.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_copy_properties_between_objects.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_modify_3d_solids.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_fillet_and_chamfer.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_fillers.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_chamfer.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_section_and_slice.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_section.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_slice.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_modify_faces_of_3d_solids.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_extrude_faces.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_move_faces.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_offset_faces.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_delete_faces.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_rotate_faces.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_taper_faces.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_color_faces.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_copy_faces.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_modify_edges_of_3d_solids.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_copy_edges.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_color_edges.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_imprint_separate_shell_check_and_clean_3d_solids.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_imprint.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_separate.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_shell.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_check.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_clean.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_use_windows_cut_copy_and_paste.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_cut_objects.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_copy_objects1.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_paste_objects.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_correct_mistakes.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_undo_a_single_action.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_undo_several_actions_at_once.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_reverse_the_effect_of_undo.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_undo_or_redo_actions_using_undo_or_redo_button.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_erase_objects.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_cancel_a_command.dita" />
+      </topicref>
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_notes_and_labels.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_create_text.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_single_line_text.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_align_single_line_text.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_multiline_text.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_justify_multiline_text.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_format_characters_within_multiline_text.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_indent_multiline_text_and_use_tabs.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_specify_the_line_spacing.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_stacked_characters.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_import_text_from_external_files.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_leaders.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_a_leader_line.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_add_text_to_a_leader.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_multileader.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_multileader_toolbar.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_multileader.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_multileader_style.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_change_text.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_change_single_line_text.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_change_multiline_text.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_change_text_location.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_find_and_replace_text.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_change_text_with_a_leader.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_text_styles.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_create_new_text_styles.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_assign_text_fonts.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_use_truetype_fonts.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_use_unicode_and_big_fonts.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_replace_font.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_specify_fonts_to_replace.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_edit_font_mapping_file.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_set_text_height.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_set_text_obliquing_angle.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_set_horizontal_or_vertical_text_orientation.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="tasks/ZWCAD_UG_manual_2020_check_spelling.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_work_with_spelling_dictionary.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_create_custom_spelling_dictionary.dita" />
+    </topicref>
+    <topicref href="tasks/ZWCAD_UG_manual_2020_smart_voice.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_voice_playback.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_delete_voice_object.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_dimensions_and_tolerances.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_overview_of_dimensioning.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_parts_of_a_dimension.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_use_dimension_styles.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_overview_of_dimension_styles.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_control_dimension_elements.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_modify_extension_lines.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_choose_dimension_arrowheads.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_customize_arrowheads.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_center_marks.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_control_dimension_text.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_fit_diameter_dimension_text.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_location_of_dimension_text.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_align_dimension_text.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_location_of_dimension_text1.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_position_dimension_text_vertically.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_position_dimension_text_horizontally.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_appearance_of_dimension_text.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_text_style_in_dimensions.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_supply_user_text_to_dimensions.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_control_dimension_values.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_dimension_units.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_alternate_units.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_round_off_dimension_values.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_suppress_zeros_in_dimensions.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_display_lateral_tolerances.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_set_the_scale_for_dimensions.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_annotative_dimension.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_create_dimensions.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_create_linear_dimensions.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_horizontal_and_vertical_dimensions.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_aligned_dimensions.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_baseline_and_continued_dimensions.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_rotated_dimensions.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_dimensions_with_oblique_extension_lines.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_angular_dimensions.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_dimension_lines.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_dimension_circles_and_arcs.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_radial_dimensions.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_jogged_dimension.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_diameter_dimensions.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_ordinate_dimensions.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_quick_dimension.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_arc_length_dimensions.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_modify_existing_dimensions.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_modify_dimension_style.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_override_a_dimension_style.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_make_dimensions_oblique.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_modify_dimension_text.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_dimension_jogged.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_dimension_inspection.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_dimension_space_adjustment.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_dimension_arrow_flip.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_add_geometric_tolerances.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_overview.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_material_conditions.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_datum_reference_frames.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_projected_tolerance_zones.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_composite_tolerances.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_adding_geometric_tolerances.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_controlling_dimension_tolerance.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_table.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_table_toolbar.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_edit_and_modify_table.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_edit_column_and_row.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_merge_and_unmerge_cells.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_change_the_appearance_of_cell_borders.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_edit_data_format_and_alignment.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_match_cell_format.dita" />
+      </topicref>
+    </topicref>
+  </chapter>
+  <chapter href="tasks/ZWCAD_UG_manual_2020_blocks_attribute_and_xrefs.dita">
+    <topicref href="tasks/ZWCAD_UG_manual_2020_create_blocks.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_create_nested_blocks.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_create_drawing_files_for_use_as_blocks.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_change_the_base_point_of_drawings_to_be_used_as_blocks.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_update_changes_in_the_original_drawing.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_use_paper_space_objects_in_blocks.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_insert_blocks.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_insert_a_drawing_file_as_a_block.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_insert_blocks_at_intervals.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_insert_blocks_with_designcenter.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_color_and_linetype_properties_in_blocks.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_modify_a_block_definition.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_modify_the_block_definition_in_the_current_drawing.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_update_a_block_definition_that_originated_from_a_drawing_file.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_remove_block_definitions.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_disassemble_a_block_reference_explode.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_edit_blocks.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_define_and_use_block_attributes.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_define_attributes.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_modify_attributes.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_define_block_attributes.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_modify_block_attributes.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_redefine_block_attributes.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_extract_block_attribute_data.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_export_to_exterior_files.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_reference_other_drawing_files_xrefs.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_attach_external_references.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_xatnotification_of_attached_xrefs.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_attach_external_references.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_viewing_the_list_of_external_references.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_visibility_color_and_linetype.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_xref_clipping_boundaries.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_nest_and_overlay_external_references.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_relative_saved_paths_and_nested_xrefs.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_update_attached_external_references.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_opening_external_references.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_notification_of_changed_xrefs.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_update_xrefs_with_demand_loading_turned_on.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_reloading_external_references.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_edit_external_references.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_clip_external_references_and_blocks.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_turning_clipping_boundaries_on_and_off.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_clipping_boundary_options.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_clip_depth.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_deleting_a_clipping_boundary.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_binding_a_xref_to_a_drawing.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_detach_external_references.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_set_paths_to_externally_referenced_drawings.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_edit_external_references_in_place.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_edit_selected_objects_in_xrefs_and_blocks.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_understand_the_working_set.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_fading_of_objects.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_use_the_refedit_toolbar.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_add_or_remove_objects_from_the_working_set.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_save_back_edited_xrefs_and_blocks.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_edit_xrefs_and_blocks_with_nesting_ole_or_attributes.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_dynamic_blocks.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_grip_type_of_dynamic_blocks.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_dynamic_block_grip_editing_function.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_grip_stretch_function_on_dynamic_blocks.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_grip_move_function_on_dynamic_blocks.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_grip_rotate_function_on_dynamic_blocks.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_grip_scale_function_on_dynamic_blocks.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_grip_flip_function_on_dynamic_blocks.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_grip_array_function_on_dynamic_blocks.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_use_grip_align_function_on_dynamic_blocks.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_use_grip_lookup_function_on_dynamic_blocks.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_dynamic_block_properties_display.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_hatches_and_raster_images.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_hatches.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_overview_of_hatch_patterns_and_fills.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_add_hatch_patterns_and_solid_fills.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_associative_hatches.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_choose_a_hatch_pattern.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_assign_a_draw_order_to_a_hatch.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_edit_hatch_boundaries.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_custom_hatch_patterns.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_define_hatch_boundaries.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_the_hatching_in_islands.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_define_hatch_boundaries_in_large_drawings.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_unbounded_hatches.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_selecting_objects_for_hatching.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_choose_and_define_hatch_patterns.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_solid_filled_areas.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_gradient_filled_areas.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_use_predefined_hatch_patterns.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_user_defined_hatch_patterns.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_specifying_a_hatch_pattern.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_solid.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_raster_images.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_attach_scale_and_detach_raster_images.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_attach_raster_images.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_scale_raster_images.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_detach_raster_images.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_modify_and_manage_raster_images.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_show_and_hide_raster_image_boundaries.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_clip_raster_images.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_change_raster_image_brightness_contrast_and_fade.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_modify_color_and_transparency_for_bitonal_raster_images.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_view_raster_image_information.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_assign_descriptive_names_to_raster_images.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_change_file_paths_of_raster_images.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_load_and_unload_raster_images.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_improve_the_display_speed_of_raster_images.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_change_the_temporary_swap_file_location_of_raster_images.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_zwrasterimagetool.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_generate_cache_files_for_large_images.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_layout_plot_and_publish_drawings.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_create_multiple_view_drawing_layouts.dita">
+      <topicref href="tasks/ZWCAD_UG_manual_2020_overview_of_layout.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_model_space_and_paper_space.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_view_drawings_in_paper_space_and_model_space.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_specify_layout_settings.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_select_a_paper_size_for_a_layout.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_determine_the_drawing_orientation_of_a_layout.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_adjust_the_plot_offset_of_a_layout.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_set_the_plot_scale_for_a_layout.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_set_the_lineweight_scale_for_a_layout.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_copy_and_move_layouts.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_creating_a_new_layout.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_save_layouts.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_create_and_use_named_page_setups.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_managing_layouts_in_a_drawing.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_and_modify_layout_viewports.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_create_layout_viewports.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_use_layout_viewports.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_place_layout_viewports.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_change_the_properties_of_layout_viewports.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_lock_the_scale_of_layout_viewports.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_control_visibility_in_layout_viewports.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_manage_layer_visibility_in_a_layout.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_modify_layout_viewports.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_change_the_layout_viewport_scale.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_scale_linetypes_in_layout_viewports.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_rotate_views_in_layout_viewports.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_create_non_rectangular_layout_viewports.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_redefine_viewport_boundary.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_edit_non_rectangular_viewports_using_grips.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_scaling_and_panning_within_non_rectangular_viewports.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_plot_drawings.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_overview_of_plotting.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_plotter_manager.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_layouts.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_page_setups.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_plot_styles.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_plot_settings.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_set_paper_size.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_use_a_custom_paper_size.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_position_the_drawing_on_the_paper.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_set_the_origin_of_print_area.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_set_drawing_orientation.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_set_plot_scale.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_set_a_specific_scale.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_scale_the_drawing_to_fit_the_page.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_set_options_for_plotted_objects.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_specify_the_area_to_plot.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_preview_a_plot.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_print_a_drawing.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_smart_plot.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_use_plot_styles.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_understanding_plot_style_tables.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_choose_a_type_of_plot_style_table.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_assign_plot_style_tables_to_layouts.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_manage_plot_style_tables.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_change_plot_style_settings.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_changing_a_drawing_s_plot_style_table_type.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_converting_plot_style_tables.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_turning_off_plot_style_tables.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_plot_files_to_other_formats.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_raster_file_formats.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_dwf.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_dwfx.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_eps.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_controllable_properties_of_postscript.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_svg.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_plot_adobe_pdf_files.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_pltandprn.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_publish_drawings.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_publish_to_plotter_named_in_page_setup.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_publish_to_dwf_pdf.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_share_data_with_others.dita">
+    <topicref href="tasks/ZWCAD_UG_manual_2020_save_and_view_slides.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_link_and_embed_data.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_overview_of_object_linking_and_embedding.dita">
+        <topicref href="concepts/ZWCAD_UG_manual_2020_embed_objects.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_link_objects.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_import_ole_objects.dita">
+          <topicref href="tasks/ZWCAD_UG_manual_2020_link_ole_objects_in_drawings.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_update_links.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_reconnect_links.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_break_links.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_embed_ole_objects_in_drawings.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_drag_objects_into_a_drawing.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_control_objects_quality.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_limits_for_inserting_ole_objects.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_export_ole_objects_from_drawings.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_dragging_zwcad_drawings_into_other_programs.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_edit_ole_objects_in_drawings.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_embed_zwcad_drawings_into_other_applications.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_link_or_embed_ole_objects_supportive_of_other_applications_into_zwcad.dita" />
+        </topicref>
+        <topicref href="tasks/ZWCAD_UG_manual_2020_embed_drawings.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_link_drawings.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_data_in_other_formats.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_import_files_created_in_other_formats.dita">
+        <topicref href="tasks/ZWCAD_UG_manual_2020_import_dxf_files.dita" />
+        <topicref href="tasks/ZWCAD_UG_manual_2020_import_acis_sat_files.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_import_wmf_files.dita" />
+        <topicref href="concepts/ZWCAD_UG_manual_2020_export_drawings_to_other_file_formats.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_wmf.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_dxf.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_bmp.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_dwg.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_dwt.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_pdf.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_eps1.dita" />
+          <topicref href="concepts/ZWCAD_UG_manual_2020_dwf.dita" />
+          <topicref href="tasks/ZWCAD_UG_manual_2020_sat.dita" />
+        </topicref>
+        <topicref href="concepts/ZWCAD_UG_manual_2020_work_with_proxy_objects.dita">
+          <topicref href="concepts/ZWCAD_UG_manual_2020_edit_proxy_objects.dita" />
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_package_files_for_internet_transmission.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_select_files_to_pack.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_include_notes_in_transmittal_package.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_select_transmittal_setups.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_choose_transmittal_options.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_programming_zwcad.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_about_lisp.dita">
+      <topicref href="concepts/ZWCAD_UG_manual_2020_application_of_lisp_expressions.dita" />
+      <topicref href="tasks/ZWCAD_UG_manual_2020_create_a_lisp_program.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_verify_the_code_input.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_load_and_run_lisp_program.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_lisp_debugger.dita" />
+      <topicref href="concepts/ZWCAD_UG_manual_2020_remarks.dita" />
+    </topicref>
+    <topicref href="concepts/ZWCAD_UG_manual_2020_about_vba.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_about_zrx.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_about_net.dita" />
+  </chapter>
+  <chapter href="concepts/ZWCAD_UG_manual_2020_appendices.dita">
+    <topicref href="concepts/ZWCAD_UG_manual_2020_command_name.dita" />
+    <topicref href="concepts/ZWCAD_UG_manual_2020_system_variable.dita" />
+  </chapter>
+</bookmap>

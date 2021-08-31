@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2583E-531F154-817A91E55A3116F-3115EE">
+  <title>Arcs</title>
+  <shortdesc>An arc is a portion
+ of a circle. The default
+ method for drawing
+ an arc is to specify three points—the start point, a second point,
+ and the endpoint. You can
+ draw arcs using any of the following methods:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Three points on an arc</li>
+        <li>Start point, center
+ point, endpoint</li>
+        <li>Start point, center
+ point, included angle</li>
+        <li>Start point, center point, chord length</li>
+        <li>Start point, endpoint,
+ included angle</li>
+        <li>Start point, endpoint,
+ starting direction</li>
+        <li>Start point, endpoint,
+ radius</li>
+        <li>Center point, start point, endpoint</li>
+        <li>Center point, start point, included
+ angle</li>
+        <li>Center point, start point, chord length</li>
+        <li>As a tangent
+ continuation of the previous arc or line</li>
+        <li>Draw Arcs by Specifying Three Points</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic254_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can draw an arc by specifying
+ three points, which are separately the start point of the arc, a point anywhere
+ on the arc and the endpoint of the arc. In the following example,
+ the start point of the arc snaps to the endpoint of a line. The second
+ point of the arc snaps to the middle circle
+ in the illustration.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic254_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw an arc by specifying
+ three points</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Arc &gt; 3 Points from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify thesecond point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoint.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic254_image003.png" />
+        </fig>
+      </p>
+      <p>Start point (A), the second point (B), and endpoint (C)</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122A45-685E153-C4A124A87B15A91-E559B1">
+  <title>Dimension Inspection</title>
+  <shortdesc>You can add or
+ remove dimension inspection for existing dimensions. For transmitting the
+ frequency of inspecting the part
+ being dimensioned, the dimension value and parts tolerance are ensured to be
+ within specified range.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic533_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Dimension inspection can be added to any type of dimension objects, which is composed of a frame and internal text. You can specify the shape
+ of inspection frame as round, angular or none. An inspection dimension contains
+ utmost three kinds of information field: inspection tag, dimension value, and inspection
+ rate. Using a perpendicular line to
+ divide the dimension information among
+ each field.</p>
+      <p>In which, inspection tag, used for mark the text
+ of dimension inspection is located
+ on the left side within
+ the inspection frame.</p>
+      <p>Dimension value
+ here is the value before adding dimension inspection, which is located in the
+ central part of the inspection dimension including tolerance, text and measurement value.</p>
+      <p>Inspection rate
+ which is expressed by percentage is located at the right side within the
+ inspection frame, indicates the required
+ frequency of the part being
+ created.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic533_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create an inspection dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Inspect
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Inspection Dimension dialog box, click Select Dimensions button.</cmd>
+      </step>
+      <step>
+        <cmd>Close the
+ Inspection Dimension dialog box
+ temporarily to switch to the drawing area.</cmd>
+      </step>
+      <step>
+        <cmd>Select dimensions to add dimension inspection, and then press ENTER to finish selection and returnto the dialog box.</cmd>
+      </step>
+      <step>
+        <cmd>Select a shape for the frame from the Shape option.</cmd>
+      </step>
+      <step>
+        <cmd>Click Label optionto input label in the text box.</cmd>
+      </step>
+      <step>
+        <cmd>Click Inspection Rate option to input a value in the text box.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic533_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To remove an inspection dimension</p>
+      <ol>
+        <li>Choose Dimension &gt; Inspect
+ from the main menu.</li>
+        <li>In the Inspection Dimension dialog box, click Select Dimensions button.</li>
+        <li>Close the
+ Inspection Dimension dialog box
+ temporarily to switch to the drawing area.</li>
+        <li>Select dimensions to remove dimension inspection, and then press ENTER to finish selection and returnto the dialog box.</li>
+        <li>Click Remove Inspection button.</li>
+        <li>Click OK.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

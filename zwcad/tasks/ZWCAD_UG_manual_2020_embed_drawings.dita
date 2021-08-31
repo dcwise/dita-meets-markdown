@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A3683-65EA1F2-15A9110A9D8A316-5A96C7">
+  <title>Embed Drawings</title>
+  <shortdesc>When you embed a ZWCAD drawing, it becomes part of the other program's
+ document file. When you edit the drawing, you edit only the version
+ that is embedded in the other document.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Embedding is
+ useful when you don't want to maintain a link to the ZWCAD drawing for the data
+ you include in the other document.
+ Edits made to the new drawing do not affect the original drawing. To transfer
+ the file to other computers, you can transfer all the data in one file, but embedded objects
+ increase the file size.</p>
+      <p>From within a
+ document in a programthat supports ActiveX, such as Microsoft®Word, you can
+ either create a new embedded
+ ZWCAD drawing or embed an existing ZWCAD drawing.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic753_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a
+ ZWCAD drawing in another document</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>In the document, choose Insert
+ &gt; OLE Object from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Insert Object
+ dialog box, click Create New to create
+ a new file.</cmd>
+      </step>
+      <step>
+        <cmd>Under Object Type, choose ZWCAD Drawing,
+ andthen click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Create the ZWCAD drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Choose File &gt; Exit from the main menu in ZWCAD.</cmd>
+      </step>
+      <step>
+        <cmd>To edit the ZWCAD drawing from withinthe document,
+ double-click the drawing.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>You can also embed an existing ZWCAD drawing fromwithin another document.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic753_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To embed selected ZWCAD entities</p>
+      <ol>
+        <li>In ZWCAD, select the entities youwant
+ to embed.</li>
+        <li>Choose Edit &gt; Copy from the main menu (or press Ctrl+C).</li>
+        <li>Open the document in whichyou want to embed the entities.</li>
+        <li>Choose Edit &gt; Paste from the mainmenu (or press Ctrl+V).</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic753_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To embed an entire ZWCAD drawing</p>
+      <ol>
+        <li>Open the document in whichyou want to embed the drawing.</li>
+        <li>Choose Insert &gt; OLE Object from the main menu.</li>
+        <li>Click Create From File.</li>
+        <li>Click Browse, and then choose the file you want to embed.</li>
+        <li>Click Insert, and then click OK.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

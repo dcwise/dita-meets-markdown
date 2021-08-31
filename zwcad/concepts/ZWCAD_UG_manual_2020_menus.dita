@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB2435C4-A125F17-57142C627474E91-1B3485">
+  <title>Menus</title>
+  <shortdesc>You can use any
+ of the options on the menu bar at the top of the ZWCAD drawing area in the
+ Classic interface. To press <b>Alt </b>and the
+ <b>Key </b>for the underlined letter
+ in the menu name to open the corresponding menu item list, and then choose
+ menu items fromit.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic13_image003.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ For example, to edit the drawing
+ file, press <b>&lt;Alt + E&gt; </b>to
+ open the Edit menu.</p>
+    <p>Menus</p>
+  </conbody>
+</concept>

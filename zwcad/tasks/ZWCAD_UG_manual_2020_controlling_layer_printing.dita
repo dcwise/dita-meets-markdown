@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A14536-454A1F2-54A8715591E535A-7DBAD1">
+  <title>Controlling layer printing</title>
+  <shortdesc>Controlling layer printing is another way you can specify which objects print in your drawing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>By controlling
+ layer printing, you can turn off unnecessary information during printing. For
+ example, if you are drawing a floor
+ plan, you can draw the layout of light fixtures on one layer and the location
+ of plumbing lines on another. By selectively
+ turning layers on and off when you print, you can print the electrical engineering drawings and the
+ plumbing drawings from the same drawing file. By changing layer printing, you can put
+ the same drawing
+ to multiple uses.</p>
+      <p>When you turn off printing for a layer, objects drawn on that layer are still visible,
+ but they do not print. If you turn off a layer's
+ visibility, objects drawn
+ on that layer
+ do not display or print.</p>
+      <p>Controlling layer
+ printing can be especially helpful if you want layer visibility on, but do not
+ want to print objects
+ on that layer.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic154_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn layer printing
+ on or off</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Layer from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe iconunder "Plot" tab in the layer list.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

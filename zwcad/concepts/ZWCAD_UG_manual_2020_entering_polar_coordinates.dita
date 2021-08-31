@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A46-865E453-4112154A87C1405-A79E3A">
+  <title>Entering polar coordinates</title>
+  <shortdesc>Using relative polar coordinates makes drawing a square tilted at a
+ 45-degree angle a simple task. Polar coordinates base the location
+ of a point on a distance and angle fromeither the origin (absolute
+ coordinate) or from the previous point
+ (relative coordinate).</shortdesc>
+  <conbody>
+    <p>To specify polar
+ coordinates, type a distance and an angle, separated by the open angle bracket
+ (&lt;). For example, to use relative
+ polar coordinates to specify a point 1 unit away from the previous point and at an angle of 45 degrees, type
+ @1&lt;45.</p>
+    <p>To draw the
+ square fromthe example in the previous section, "Entering relative
+ Cartesian coordinates", this time tilted at a 45-degree angle,
+ start the Line command, and then respond
+ to the prompts as follows:</p>
+    <p>Specify
+ the next point or [Angle/Length/Undo]: @4,5 Specify the next point or [Angle/Length/Undo]: @8.5&lt;45 </p>
+    <p>Specify the next point or
+ [Angle/Length/Close/Undo]: @8.5&lt;315 Specify
+ the next point or [Angle/Length/Close/Undo]: @8.5&lt;225 Specify the next
+ point or [Angle/Length/Close/Undo]: C
+ </p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic203_image001.png" />
+      </fig>
+    </p>
+    <p>Drawing a tilted square using the relative polar coordinates method; enter C to close.</p>
+    <p>
+      <b>NOTE </b>Angles increase counterclockwise or decrease
+ clockwise. Thus, an angle of 315 degrees is the same as 45 degrees.</p>
+  </conbody>
+</concept>

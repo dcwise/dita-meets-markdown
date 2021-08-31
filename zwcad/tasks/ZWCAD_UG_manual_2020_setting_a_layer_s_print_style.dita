@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A72565E1-45C4A15-8F11B5A79E55A71-14D771">
+  <title>Setting a layer's print style</title>
+  <shortdesc>If your drawing uses named print style tables,
+ you can specify a print style for each layer.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Named print style tables contain print styles that you set up to control
+ what objects look like when they</p>
+      <p>print, without actually changing
+ the objects in the drawing.</p>
+      <p>If your drawing
+ uses color-dependent print style tables,
+ you cannot specify
+ a print style for a layer. These types
+ of print style tables automatically determine printing requirements by the
+ color assigned to a layer or an object.</p>
+      <p>In drawings that use named print style
+ tables, the default print style is Normal for all new layers. If desired,
+ you can assign a print style using Layer Properties Manager. Changing the print
+ style assigned to a layer changes
+ the print style of all objects drawn on
+ that layer with the BYLAYER print style.</p>
+      <p>When you create new objects, it's a good idea to assign the BYLAYER print style to any objects
+ that you draw on that layer, unless you want to
+ override the layer print style. ZWCAD uses the BYLAYER print style
+ as the default print style setting when
+ you create objects.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic158_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change
+ the print style
+ assigned to one or more layers (only in a drawing thatuses named print style
+ tables)</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Layer from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Click the name of Plot Style in the layer list to
+ open Select Plot Style dialog box, from which,
+ youcan specify the desired plot style.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B55719-7C71245-9531912154A8115-74557E">
+  <title>锁定产品价格规则</title>
+  <shortdesc>如果不希望有其他的人员来更改当前产品规则或者价格规则的设置，可以将该规则锁定。锁定后的规则不允许修改和删除，如果需要对锁定的规则进行编辑，需要先将其解锁。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在产品价格规则列表页，单击一个规则名称。</cmd>
+      </step>
+      <step>
+        <cmd>在页面右上角，单击<b>...</b>&gt;<b>锁定</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

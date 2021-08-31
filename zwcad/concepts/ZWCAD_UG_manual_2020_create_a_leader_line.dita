@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A45-68365E1-4531F17175A7153-9298B7">
+  <title>Create a Leader Line</title>
+  <shortdesc>You can use LEADER or QLEADER to create
+ a leader and control the appearance. The color of a leader is
+ controlled by the color of the current dimension line. The scale is controlled
+ by the global dimension scale
+ specified on the current dimension style. The appearance of a leader is
+ controlled by the setting of the first arrowhead on the current
+ dimension style.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic454_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

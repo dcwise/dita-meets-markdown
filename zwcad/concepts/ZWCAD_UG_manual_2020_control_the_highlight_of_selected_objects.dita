@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A58-365E53C-4A11F215A71535A-562790">
+  <title>Control the highlight of selected objects</title>
+  <shortdesc>You can specify
+ whether to display selected objects highlighted, which makes the selection set
+ easier to see. By default, the highlighting feature
+ is turned on.</shortdesc>
+  <conbody>
+    <p>Setting system
+ variable HIGHLIGHT 0
+ turns off the highlighting feature, which can improve the computer's performance. The operation does not affect
+ grips.</p>
+  </conbody>
+</concept>

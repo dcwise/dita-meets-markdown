@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A24631-454AF25-47115A7E5397D36-A6C4A7">
+  <title>Import DXF Files</title>
+  <shortdesc>As a drawing
+ exchange file, DXF file contains text file of drawing information, which is also
+ an expression of ASCII
+ or binary system of drawing file. Mainly
+ used for sharing drawing data among applications.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Select a DXF file from the Files of Type dropdown list to import this file
+ into applications when performing an Open function in ZWCAD. You can import
+ it into other drawing files and explode
+ it.</p>
+      <p>To import a DXF or DWT file</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic757_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Open from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the folder that contains the drawing.</cmd>
+      </step>
+      <step>
+        <cmd>In Files of Type, choose the type of drawingyou want to import.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the file youwant to open.</cmd>
+      </step>
+      <step>
+        <cmd>Click Open.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

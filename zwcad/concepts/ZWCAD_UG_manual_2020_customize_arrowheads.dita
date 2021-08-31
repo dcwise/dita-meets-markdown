@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A38-365E141-A871D5291535715-ADEB1F">
+  <title>Customize Arrowheads</title>
+  <shortdesc>The default arrowheads are stored as block definitions. If you select
+ User Defined as your arrowhead
+ type, you'll be prompted to assign a name to an existing
+ block definition.</shortdesc>
+  <conbody>
+    <p>The overall dimension scale factor
+ determines the arrowhead size. If you assign the User Define Arrowhead to the arrowhead in the Dimension Style Manager dialog
+ box, the block
+ is inserted where
+ the arrowheads would normally go when you create a dimension. The X and Yscale factors
+ of the object are set to "arrowhead size overall scale.
+ You can trim the dimension line with text gap x overall scale units at each end. If you want to trimthe
+ dimension line, insert the rightmost block with a zero rotation angle for horizontal dimensioning. And rotate the leftmost block
+ at 180 degrees about its insertion
+ point.</p>
+    <p>If you usea paper-spacing
+ scale, the scale factor is calculated before
+ you applied it to the arrowhead size value.</p>
+  </conbody>
+</concept>

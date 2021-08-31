@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7124368-35E13C5-4A87A155A791E55-92B987">
+  <title>Multiline Text</title>
+  <shortdesc>The multiline
+ text consists of one or more lines of text or paragraphs that fit within a
+ boundary width that you specify. Each multiline text entity you create is treated as a single
+ entity regardless of the number of individual paragraphs or lines of text it contains.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When you create
+ multiline text, you first determine the paragraph's boundary width by
+ specifying the opposite corners
+ of a rectangle. The multiline text automatically wraps so that
+ it fits within
+ this rectangle. The first corner of the rectangle
+ determines the default attachment point of the multiline text. You can change the location of the attachment
+ point in reference to the rectangle, and you can determine the direction in which text flows within
+ the rectangle.</p>
+      <p>After defining
+ the text frame, the system opens the In-Place Text Editor, which is comprised
+ of a text frame and the Text
+ Formatting toolbar. You can type text in the text frame and change the style
+ fromthe Text
+ Formatting toolbar.</p>
+      <p>The text style
+ can control the style of characters, such as default fonts, line spacing,
+ aligned way, and color. STANDARD is the default
+ text style.</p>
+      <p>You can change the value of text objects
+ in the Properties palette that
+ includes the Justify, Direction and so on.</p>
+      <p>You can also
+ assign the underline, color or other fonts to the current text to overlap the
+ default style. Stacked characters
+ (such as fractions and tolerance), special characters and Unicode characters
+ used for TrueType fonts can be
+ created in the text frame. At the same time, you can also control the
+ appearance of the text object
+ and create a list by specifying the tap and characters to retract.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic446_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create multiline text</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Text &gt; Multiline Text from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the first corner of the text area.</cmd>
+      </step>
+      <step>
+        <cmd>Select the second corner of the text area.</cmd>
+      </step>
+      <step>
+        <cmd>In the Multiline Text window, type the text you want.</cmd>
+      </step>
+      <step>
+        <cmd>To create paragraphs, press Enter andcontinue typing.</cmd>
+      </step>
+      <step>
+        <cmd>On the toolbar, make format changes
+ as follows:</cmd>
+        <info>
+          <p>To change the font of the selected text, select a font from the list.</p>
+          <p>To change the height of the selected text, enter a new value
+ in the Height box.</p>
+          <p>To format text in a TrueType
+ font with boldface
+ or italics, or to create
+ underlined text for any font,
+ click the corresponding buttonon the toolbar.
+ SHX fonts do not support
+ boldface or italics.</p>
+          <p>To apply color to the selected
+ text, choose a color from the Color list. Click Select Color to displaythe Select
+ Color dialog box.</p>
+          <p>To save your changes and exit the In-Place Text Editor, use one of the following methods:</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Click OK on the toolbar.</cmd>
+      </step>
+      <step>
+        <cmd>Press &lt;Ctrl + Enter&gt;.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>You can paste text from the Clipboard into the In-Place Text Editor.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic446_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

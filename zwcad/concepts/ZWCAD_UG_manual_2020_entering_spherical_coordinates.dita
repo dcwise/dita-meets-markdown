@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1224566-543CA11-F254A874545A91E-537FB2">
+  <title>Entering spherical coordinates</title>
+  <shortdesc>When working in three-dimensional space, you can use spherical coordinates to
+ specify a three- dimensional point by entering its distance from
+ either the origin (absolute distance) or the last point (relative distance), along with its angle in the xy plane and
+ its angle up from the xy plan e. In spherical
+ format, you separate each angle with the open angle bracket (&lt;). You
+ can enter the coordinate values using the following format:
+ X &lt; [angle from X axis] &lt; [angle from XY plane]</shortdesc>
+  <conbody>
+    <p>Thus, to draw a
+ line from the origin to a point 10.2500 drawing units away, at an angle of 45
+ degrees from the x-axis and 35 degrees from the xy plane, start the Line command, and then
+ respond to the prompts as follows:</p>
+    <p>Command: LINE </p>
+    <p>Specify the first point: 0,0,0 </p>
+    <p>Specify the next point or [Angle/Length/Undo]: 10.2500&lt;45&lt;35 </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic207_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>When you draw a line from a start point (A) to an endpoint
+ (B) using spherical
+ coordinates, you specify its length (C, in this
+ case, 10.2500 units),
+ the angle in the xy plane (D, in this case, 45 degrees),
+ and the angle from the xy plane
+ (E,
+ in this case 35 degrees).</p>
+  </conbody>
+</concept>

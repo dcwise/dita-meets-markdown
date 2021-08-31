@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A435-686513A-11F254A8C145791-E535A2">
+  <title>Creating rectangular meshes</title>
+  <shortdesc>You can create a
+ three-dimensionalrectangular mesh consisting of four-sided polygons. You
+ determine the size of the mesh by specifying the number of vertices along the primary (M direction) and secondary (N direction) mesh axes
+ and then specifying the coordinates for each vertex.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic277_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a rectangular mesh</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Surfaces
+ &gt; 3D Mesh from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the number of vertices alongthe
+ primary meshaxis.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the number of vertices alongthe
+ secondary mesh axis.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the coordinates for each vertex.</cmd>
+      </step>
+      <step>
+        <cmd>Specifying the coordinates for the last vertex completes
+ the mesh and ends the command.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>Although creating rectangular meshes manually can be
+ exacting, they are useful for representing complex
+ surfaces such as three-dimensional terrain models. The 3D Mesh tool is most useful when combined
+ with scripts or LISP programs
+ that mathematically calculate
+ the coordinates of the vertices.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic277_image002.png" />
+      </p>
+      <p>An example of a three-dimensional terrain
+ model created using rectangular meshes.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic277_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The following picture shows the polygon
+ mesh with coordinates specified for each vertex.</p>
+    </result>
+  </taskbody>
+</task>

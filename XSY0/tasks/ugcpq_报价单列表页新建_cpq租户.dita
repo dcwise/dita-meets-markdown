@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1125759-4495321-A87913571543D4F-0BF5AF">
+  <title>报价单列表页新建（CPQ租户）</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>单击<b>报价单</b>，进入报价单列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击右上角的<b>+</b>号，选择一个业务类型。</cmd>
+      </step>
+      <step>
+        <cmd>填写报价单的必填信息，并确定该报价单是否为<b>主报价单</b>。只有主报价单才可以生成订单。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>下一步</b>，为该报价单选择价格表和添加产品，然后单击<b>确认</b>。</cmd>
+      </step>
+      <step>
+        <cmd>如果您还需要添加更多产品，单击<b>+</b>号，从现有的产品列表中选择更多需要添加的产品，然后单击<b>确认</b>。</cmd>
+      </step>
+      <step>
+        <cmd>如果您还需要为当前的产品添加明细，单击<b>添加明细</b>，继续从产品列表中选择需要的产品，然后单击<b>确认</b>。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>确定</b>，完成产品配置。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>如果产品名称后面出现了红色的感叹号，证明该产品的产品功能与设置的约束条件不符，需要您手动修改。</p>
+      <p>单击红色感叹号，页面上会自动给出错误提示，需要按照提示，调整产品配置。</p>
+      <ol>
+        <li>单击红色的感叹号，页面自动给出错误提示，并将不符合约束条件的产品自动勾选。<p><fig><image href="../graphics/ugcpq_topic77_image002.png"></image></fig><image href="../graphics/ugcpq_topic77_image004.png"></image></p></li>
+        <li>单击<b>好</b>，关闭提示对话框，然后单击右下角的<b>确认</b>，不符合约束条件的产品会被自动删除。</li>
+        <li>在<b>配置价格</b>页面可以查看产品的总金额，确认金额无误后，单击<b>保存</b>，系统会自动跳转到报价单列表页面。如果您需要编辑已有的阶梯价格表，请参考，<xref href="ugcpq_编辑报价单明细.dita">编辑报价单明细</xref>。</li>
+      </ol>
+      <p>
+        <fig>
+          <image href="../graphics/ugcpq_topic77_image006.png">
+          </image>
+        </fig>
+      </p>
+      <ul>
+        <li>单击<b>+</b>号，可以继续添加产品。</li>
+        <li>单击<b>管理</b>，可以批量删除当前选择的产品。</li>
+      </ul>
+    </result>
+  </taskbody>
+</task>

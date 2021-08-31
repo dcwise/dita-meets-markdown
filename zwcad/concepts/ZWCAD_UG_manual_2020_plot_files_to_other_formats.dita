@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A35-63E1453-CF21591652A1E34-A8F6D6">
+  <title>Plot Files to Other Formats</title>
+  <shortdesc>Plots files of various
+ formats, including DWF,
+ PDF, PLT and other files.
+ You can output drawings in any image formats with unique plotter driver.
+ In such cases, Non-systemplotter driver will be configured as output file format. Users are capable of
+ controlling customized properties of each non-system plotter driver
+ in plotter configure editor. You can also obtain
+ specific help for each driver
+ fromthe Help topic in plotter configuration editor.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

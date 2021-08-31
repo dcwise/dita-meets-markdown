@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A74752-8355645-241712154A7C1C5-27415A">
+  <title>开启通讯录自动同步功能</title>
+  <shortdesc>应用安装完成后，需要开启通讯录自动同步功能，通讯录同步功能主要用于以下场 景：</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>企业微信中通讯录有变更时，可以自动同步到销售易应用。</li>
+        <li>更方便的手动<xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_补充部门信息_不建议通过此方式配置.dita">补充部门信息 （不建议通过此方式配置）</xref>和手动<xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_补充用户信息_不建议通过此方式配置.dita">补充用户信息</xref></li>
+      </ul>
+      <p>
+        <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_补充用户信息_不建议通过此方式配置.dita">（不建议通过此方式配置）</xref>。</p>
+      <p>遵循以下步骤，开启通讯录自动同步功能：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录企业微信后台管理平台 <xref href="https://work.weixin.qq.com/" scope="external" format="html">https://work.weixin.qq.com</xref>。</cmd>
+      </step>
+      <step>
+        <cmd>登录成功后，在企业微信管理平台中，单击<b>管理工具</b>标签。</cmd>
+      </step>
+      <step>
+        <cmd>在 【管理工具】页面，单击<b>通讯录同步</b>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic28_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在 【通讯录同步】页面，单击<b>开启 API 接口同步</b>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic28_image004.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd id="_bookmark81">开启成功后，获取到页面中 <b>Secret </b>的值。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic28_image006.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>登录销售易系统，在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【企业微信集成应用】页面，开启通讯录同步功能。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic28_image008.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>开启后，设置开启通讯录的信息。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic28_image010.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 配置项 说明</p>
+      <p>secret 在<xref href="#A7A74752-8355645-241712154A7C1C5-27415A/_bookmark81">第5 步</xref>中获取到的 Secret 值。</p>
+      <p>
+        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic28_image011.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

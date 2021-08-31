@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A4356-6E15412-154A71A791A116F-11CD5E">
+  <title>Traces</title>
+  <shortdesc>Creating traces
+ using the TRACEcommand.</shortdesc>
+  <conbody>
+    <p>The endpoints
+ of a trace are on the center
+ line and are always cut square. TRACEautomatically calculates the correct levels
+ for connection to adjacent segments.</p>
+    <p>Traces appear solid filled
+ if Fill mode is on. When Fill
+ mode is off, only the
+ outline of a trace is displayed.</p>
+  </conbody>
+</concept>

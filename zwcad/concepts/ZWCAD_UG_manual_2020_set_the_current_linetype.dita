@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AAA45683-E1453C4-A12154A80515795-5AD688">
+  <title>Set the Current Linetype</title>
+  <shortdesc>By default, all
+ objects are created using the current linetype, which is displayed in the
+ Linetype Control on the Properties
+ toolbar. To modify this current linetype, you can select a linetype and make it
+ current in the Linetype Manager dialog box. You can also do this
+ setting using the Linetype option on the Properties palette.</shortdesc>
+  <conbody>
+    <p>If the current
+ linetype is BYLARER, objects are created using the linetype assigned to the
+ current layer. If the current
+ linetype is BYBLOCK, objects are
+ created using CONTINOUS linetype until they are grouped into a block. When you insert
+ the block, it acquires the current linetype
+ setting.</p>
+    <p>If you do not want to use the linetype
+ assigned to the layer, you can specify
+ a different linetype explicitly. ZWCAD does not display the linetype of certain objects: text, points, viewports, hatches, and
+ blocks. To make the linetype
+ current</p>
+    <p>Select a linetype from the
+ Linetype Control pull-down list on the Properties toolbar, which is set to the current linetype.</p>
+  </conbody>
+</concept>

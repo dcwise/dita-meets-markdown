@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A365-E1453C4-A1F587D115A91E5-54237A">
+  <title>Trim and Extend Chamfered Objects</title>
+  <shortdesc>If the objects to
+ chamfer are two intersecting lines, and you select the Trim option to chamfer
+ objects, the system automatically trims
+ lines to the endpoint of the chamfered line. If the selected lines are not intersecting with each other,
+ the systemextends themto
+ get intersectant.</shortdesc>
+  <conbody>
+    <p>If you select No Trim, the systemcreates chamfer
+ directly and not to trim.</p>
+  </conbody>
+</concept>

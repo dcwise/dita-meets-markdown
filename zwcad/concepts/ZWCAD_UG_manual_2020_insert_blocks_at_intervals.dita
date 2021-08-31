@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122435-63545C1-F154A8B221E539F-E6C67D">
+  <title>Insert Blocks at Intervals</title>
+  <shortdesc>You can insert
+ blocks at intervals along a selected geometric object. Use MEASUREto insert a
+ block at measured intervals. Use DIVIDE to insert a block at proportional (evenly
+ spaced) intervals.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

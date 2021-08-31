@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1251517-4725311-A15157451403FC6-1F4459">
+  <title>转移规则组合</title>
+  <shortdesc>规则组合支持转移给他人。如果当前规则组合的所有人不能再继续维护该规则组合，或者规则组合已经由其他部门负责，所有人可以将规则组合转移给他人负责。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在规则组合详情页，单击<b>...</b>&gt;<b>转移给他人</b>。</cmd>
+      </step>
+      <step>
+        <cmd>输入新负责人的名字，然后单击<b>确定</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

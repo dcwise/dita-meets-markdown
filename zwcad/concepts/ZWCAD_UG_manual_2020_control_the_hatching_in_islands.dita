@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A46-65E1453-4A12A71725A7955-6BBED0">
+  <title>Control the Hatching in Islands</title>
+  <shortdesc>You can specify methods of hatching
+ objects in outermost
+ boundary as normal,
+ outer and ignore.
+ Normal is the default hatch
+ pattern, besides, you can view hatching results of different types in the Islands
+ area on Hatch tab of the Hatch
+ and Gradient dialog
+ box.</shortdesc>
+  <conbody>
+    <p>Normal</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic631_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Hatch the pattern fromthe
+ outer boundary to inside. Hatching
+ process will be stopped when encountering inner crossing points
+ and continue hatching
+ until second inner
+ crossing point appears.
+ So if counter from the outer boundary of hatch area, the area
+ separated by odd number crossing points will be hatched, on contrary
+ the area separated
+ by even crossing points will not be hatched.</p>
+    <p>Outer</p>
+    <p>Hatch the pattern fromthe
+ outer boundary to inside. For the hatching
+ starts fromtwo points of each hatch line, the
+ system will hatch from the outer most
+ layer of configuration, and keep the internal blank. Hatching process will be stopped
+ when encountering inner
+ crossing points.</p>
+    <p>Ignore</p>
+    <p>Ignore internal
+ objects, only hatches outer objects.
+ The following example
+ displays the results of hatching a complexentity with Normal, Outer,
+ Ignore pattern individually:</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic631_image002.png" />
+    </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic631_image003.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ You can also remove any islands fromthe hatch area.</p>
+  </conbody>
+</concept>

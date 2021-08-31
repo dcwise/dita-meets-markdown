@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB475D36-4A1F2AC-1C5955CB27B0351-B28193">
+  <title>审批人员进行审批</title>
+  <shortdesc>当有需要进行审批的事项时，审批人员会收到相应的系统通知消息。</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/SAMPLE_topic28_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>单击该消息的名称进入到待办审批列表中，单击<b>新审批</b>标签进行查看。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/SAMPLE_topic28_image004.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>在审批列表中，单击流程标题，查看数据的详细信息后进行审批，可以在审批列表的<b>审批操作</b>列进行审批，也可以在数据详情页中进行审批。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/SAMPLE_topic28_image006.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

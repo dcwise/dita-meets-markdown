@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A356-65E153C-4A11F21547C55A7-E535A2">
+  <title>Create a Solid Cylinder</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic286_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can create cylinders
+ defined by a circular base.
+ The base of a cylinder
+ is always parallel
+ with the xy plane
+ of the current UCS; the height of a cylinder is always parallel with the
+ z-axis. You position a cylinder by
+ specifying the center of the base. You determine the size of a cylinder by
+ specifying either the radius or diameter of the base and the height.</p>
+      <p>You can draw a
+ circle and then use EXTRUDE to create a solid cylinder. To construct a cylinder
+ with special detail, such as grooves along its sides,
+ you can create
+ a 2D profile of its base with a closed PLINE and then use EXTRUDEto define
+ its height along
+ the Z-axis.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic286_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create
+ a cylinder</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids
+ &gt; Cylinder from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the center of the base of the cylinder.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the radius or diameter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the height.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic286_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Center of the base (A), the radius of the
+ base (B), and the height (C)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic286_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a cylinder
+ as a three-dimensionalsurface</p>
+      <ol>
+        <li>Choose Draw &gt; Surfaces
+ &gt; 3D Surfaces from the mainmenu.</li>
+        <li>On the command line, type
+ L (cyLinder).</li>
+        <li>Specify the center, radius, andheight as describedpreviously.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

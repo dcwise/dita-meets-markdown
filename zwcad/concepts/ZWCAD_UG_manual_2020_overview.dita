@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A4-36835E5-3C4AF54A8774A75-7DEF0C">
+  <title>Overview</title>
+  <shortdesc>
+    <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image001.png" />Each feature
+ control frame consists of at least two compartments. The first compartment
+ contains a geometric tolerance symbol
+ that indicates the geometric characteristic to which the tolerance is applied, such as
+ location, orientation, or form. For example, a form tolerance may indicate the
+ flatness or roundness of a surface. The
+ geometric tolerance symbols and their characteristics are shown in the following.</shortdesc>
+  <conbody>
+    <p>n</p>
+    <p>Positio : Location</p>
+    <p>y</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image002.png" />
+      </fig>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image003.png" />Concentricity or coaxialit :Location Symmetry <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image004.png" /> :Location</p>
+    <p>m</p>
+    <p>Parallelis :Orientation</p>
+    <p>y</p>
+    <p>y</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image005.png" />
+      </fig>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image006.png" />
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image007.png" />Perpendicularit :Orientation Angularit :Orientation</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image008.png" />
+      </fig>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image009.png" />Cylindricity : Form Flatness : Form</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image010.png" />
+      </fig>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image011.png" />Circularity or roundness : Form
+ Straightness : Form</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image012.png" />
+      </fig>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image013.png" />Profile
+ of a surface : Profile Profile of a line : Profile</p>
+    <p>Circular runout : Runout</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image014.png" />Total
+ runout : Runout</p>
+    <p>The tolerance
+ value can then be followed by primary, secondary, and tertiary datum reference
+ letters, along with the material
+ conditions of each datum. Datumreference letters are generally used as reference
+ tolerances to one of up to three perpendicular planes fromwhich a measurement is made, although
+ datum reference letters
+ can also indicate an exact point or axis.</p>
+    <p>A feature control frame contains
+ symbols that represent
+ location, orientation, form, profile and runout</p>
+    <p>that apply to a tolerance. Form tolerances control
+ straightness, circularity, flatness, and cylindricity; profiles control surface and line.</p>
+    <p>Most editing
+ commands can change feature control frames, and these feature control frames
+ can be snapped to with the object
+ snap. You can also use grips to edit geometric tolerances. Unlike dimensions and leaders, geometric objects are not associated with geometric objects.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic537_image015.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

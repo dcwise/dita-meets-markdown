@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7224583-6E153C4-A125A71155791E5-35F37A">
+  <title>Create Fillets</title>
+  <shortdesc>You can create a
+ fillet using FILLET command. This command can apply to the objects such as
+ arcs, circles, ellipses, lines,
+ polylines, rays, splines or construction lines as well as 3D solids. A fillet
+ is an arc that connects two objects
+ smoothly and has a specified radius. An inside corner is called a fillet; an outside corner
+ is called around.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic358_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To fillet
+ two objects</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Fillet
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type R (Radius).</cmd>
+      </step>
+      <step>
+        <cmd>Specify the fillet radius.</cmd>
+      </step>
+      <step>
+        <cmd>Select the first object.</cmd>
+      </step>
+      <step>
+        <cmd>Select the second object.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic358_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Select the first (A) and second (B) objects</p>
+      <p>Using FILLET command can help you create an arc that is tangent to the
+ selected objects easily.
+ You can also use Polyline
+ option to create
+ fillets for each corner
+ of a polyline.</p>
+      <p>When the objects to fillet are on the same layer, the fillet
+ arc is created on that layer; otherwise, the fillet arc is created on the current layer that
+ affects the properties of objects such as color and linetype. The Multiple
+ options can create
+ fillets for more than one set of objects until
+ you exit the command.</p>
+    </result>
+  </taskbody>
+</task>

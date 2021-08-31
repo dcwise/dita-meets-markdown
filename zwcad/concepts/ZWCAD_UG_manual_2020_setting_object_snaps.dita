@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A468-35E145C-4A1214A8766579E-55A3C0">
+  <title>Setting object snaps</title>
+  <shortdesc>You can set object
+ snaps using any of the following methods:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Choose Tools &gt; Drafting Settings
+ &gt; Object Snap, and then click one of the object snap tools.</li>
+      <li>On the Object Snap toolbar,
+ click one of the object snap tools</li>
+      <li>On the status bar, right-click on the Object Snap button to choose Settings.</li>
+      <li>Press and hold down the Shift key while right-clicking anywhere within the drawing window
+ to display the object snap shortcut menu, and then choose the object snap you want to set.</li>
+    </ul>
+  </conbody>
+</concept>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA224356-5E5C4A1-1F2571A9E57CA15-2A2A47">
+  <title>Link or Embed OLE Objects supportive of other Applications into ZWCAD</title>
+  <shortdesc>When you link or embed OLE objects
+ that are supportive of other applications into ZWCAD, ZWCAD applications are used as container applications.</shortdesc>
+  <conbody>
+    <p>If you select objects
+ of ZWCAD using frame selection,
+ the inserted OLE object overlapped with ZWCAD objects. But the objects
+ to be selected are only provided in ZWCAD, not OLE objects.</p>
+    <p>Additionally, the edit
+ and snap mode take no effect on OLE objects.
+ To adjust and scale
+ the size of the</p>
+    <p>OLE objects,
+ you should edit these objects
+ using grips displayed on them.</p>
+    <p>When you right click on the OLEobject, a shortcut menu will be displayed
+ with some editing properties such as Cut,
+ Copy, Delete object
+ and On.</p>
+  </conbody>
+</concept>

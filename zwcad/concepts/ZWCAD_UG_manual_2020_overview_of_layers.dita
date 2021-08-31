@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A2236365-143CA11-F287555A7913AD6-6B8AD8">
+  <title>Overview of Layers</title>
+  <shortdesc>Layers in ZWCAD are like the transparent overlays you use in manual
+ drafting. You use layers to organize different types of drawing information. In
+ ZWCAD, each object in a drawing exists on a layer. When you draw an object,
+ it is created on the current layer.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic146_image001.png" />
+      </fig>
+    </p>
+    <p>You can control the visibility of layers in individual viewports. When you turn a layer off, objects
+ drawn on that layer are no
+ longer visible, and they do not print. Although a layer may be invisible, you
+ can stil select it as the current layer, in which
+ case new objects
+ are also invisible until you turn the layer back on. Objects on invisible layers
+ can also affect
+ the display and printing of objects on other layers.
+ For example, entities on invisible layers can hide
+ other objects when you use the Hide command to remove hidden lines.</p>
+    <p>You can also freeze and thaw layers. Objects
+ drawn on frozen layers do not
+ display, do not print, and do not regenerate. When you freeze a layer, its objects
+ do not affect the display
+ or printing of other objects.
+ For example, objects on frozen layers do not hide other objects when you
+ use the Hide command to remove hidden
+ lines. In addition, you cannot draw on a frozen layer until you thaw it, and
+ you cannot make a frozen layer
+ current.</p>
+    <p>You cannot freeze
+ the current layer. If you attempt to freeze the current layer, a dialog box
+ prompting "Cannot freeze the current
+ layer" appears. You also cannot freeze or thaw a viewport layer unless you are working
+ on a Layout tab.</p>
+    <p>You can lock or unlock
+ layers. The objects
+ on a locked layer are still visible
+ and will print,
+ but you cannot edit them.
+ Locking a layer prevents you fromaccidentally modifying objects.</p>
+    <p>Each layer has
+ its own color, linetype, and lineweight. For drawings that use named print
+ styles, layers can also have their
+ own print style. Objects you draw on a particular layer are displayed in the
+ color, linetype, and lineweight associated with that layer
+ unless you override
+ these settings.</p>
+  </conbody>
+</concept>

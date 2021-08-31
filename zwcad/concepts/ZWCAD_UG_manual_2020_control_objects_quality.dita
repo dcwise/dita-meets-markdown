@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A433-153CA11-217557E5CD8AE6B-519427">
+  <title>Control Objects' Quality</title>
+  <shortdesc>Default quality
+ level of the OLE objects is determined by systemvariable OLEQUALITY. To
+ illustrate plotting effects, the
+ quality here is divided into five grades: line quality, text quality, graphics
+ quality, photo quality
+ and high photo
+ quality.</shortdesc>
+  <conbody>
+    <p>In which line
+ quality is the lowest grade, plots the drawing in the shortest way and occupies
+ the least memory. While high photo quality plots
+ the drawing in a longer
+ way and occupies more memory.</p>
+  </conbody>
+</concept>

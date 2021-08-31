@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA22A458-65E43C4-F24A714A91535AA-465E17">
+  <title>Preview a Plot</title>
+  <shortdesc>Viewing a drawing
+ before printing gives you a preview of what your drawing will look like when it
+ is printed. This helps you see if there are any changes
+ you want to make before
+ actually printing the
+ drawing. If you are using
+ print style tables,
+ the preview shows how your drawing will print with the assigned
+ print styles.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The systemautomatically generates preview results
+ as soon as you setup relevant plotting
+ properties.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic709_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To preview
+ a drawing before printing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>If necessary, click the desired Layout tabor the Model tab.</cmd>
+      </step>
+      <step>
+        <cmd>Choose File &gt; Plot Preview from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>To print the drawing,
+ click Plot in the top left corner.</cmd>
+      </step>
+      <step>
+        <cmd>To return to the drawing, click the Close
+ Preview Window buttonor
+ press Esc.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

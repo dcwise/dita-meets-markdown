@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA122A43-836E13C-4A25AB06571E535-247D0C">
+  <title>Table Toolbar</title>
+  <shortdesc>When you work in the Classic
+ interface, the Table toolbar displays
+ after you select a table object (if you work in the Ribbon interface, then the Table Cell contextual tab displays). Functions
+ of the buttons on</shortdesc>
+  <conbody>
+    <p>the Table
+ toolbar are described in the table
+ below:</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1"> Icon </entry>
+            <entry colname="col2"> Name </entry>
+            <entry colname="col3"> Function Description </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image001.png" />
+              </fig>
+            </entry>
+            <entry colname="col2"> Insert Row above </entry>
+            <entry colname="col3"> Insert a row above the specified row or cell. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image002.png" />
+            </entry>
+            <entry colname="col2"> Insert Row below </entry>
+            <entry colname="col3"> Insert a row below the specified row or cell. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image003.png" />
+              </fig>
+            </entry>
+            <entry colname="col2"> Delete Row(s) </entry>
+            <entry colname="col3"> Delete the current selected row. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image004.png" />
+            </entry>
+            <entry colname="col2"> Insert Column to Left </entry>
+            <entry colname="col3"> Insert a column into the left side of the specified column or cell. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image005.png" />
+              </fig>
+            </entry>
+            <entry colname="col2"> Insert Column to Right </entry>
+            <entry colname="col3"> Insert a column into the right side of the specified column or cell </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image006.png" />
+            </entry>
+            <entry colname="col2"> Delete Column(s) </entry>
+            <entry colname="col3"> Delete the current selected column. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image007.png" />
+              </fig>
+            </entry>
+            <entry colname="col2"> Merge Cells </entry>
+            <entry colname="col3">
+              <p>Merge the specified multi-cell into one large cell. There are three kinds of merging cells.</p>
+              <p>All: Merge the specified multi-cell into one cell.</p>
+              <p>By Row: Merge the specified multi-cell into several ce ls by removing the vertical gridlines and leaving all the horizontal gridlines.</p>
+              <p>By Column: Merge the specified multi-cell into several ce ls</p>
+              <p>by removing the horizontal gridlines and leaving all the vertical gridlines.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image008.png" />
+            </entry>
+            <entry colname="col2"> Unmerge Cells </entry>
+            <entry colname="col3"> Separate the previously merged table cells. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image009.png" />
+              </fig>
+            </entry>
+            <entry colname="col2"> Cell Borders </entry>
+            <entry colname="col3"> Set border options for the selected table cell in " <u>Cell Border</u><u>Properties</u>" dialog box. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image011.png" />
+            </entry>
+            <entry colname="col2"> MIDDLE CENTER </entry>
+            <entry colname="col3"> Specify alignment of the cell contents. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic545_image012.png" />
+              </fig>
+            </entry>
+            <entry colname="col2"> Match Cell </entry>
+            <entry colname="col3"> Apply all properties of the selected cell to other cells. </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

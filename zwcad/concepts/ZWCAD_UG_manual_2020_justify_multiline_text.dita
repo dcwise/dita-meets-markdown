@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A435-83615C4-A11F14A8A059155-9298B7">
+  <title>Justify Multiline Text</title>
+  <shortdesc>When you create multiline text, you can set the text alignment by specifying the attachment point location in relation to the multiline
+ text boundary and the direction
+ in which text flows within the boundary.
+ You can set the multiline text
+ alignment either at the command line prompt displayed after you specify the first corner of
+ the multiline text boundary or from the In-Place Text Editor. You can specify
+ the attachment point at the top left, top center,
+ top right, middle left, middle
+ center, middle right,
+ bottomleft, bottom center, or
+ bottom right. The multiline text can flow left to right, right to left, top to
+ bottom, or bottomto top.</shortdesc>
+  <conbody>
+    <p>The systemprovides nine justifications, shown
+ in the following illustrations:</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic447_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

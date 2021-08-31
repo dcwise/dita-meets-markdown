@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A26365-E1C154A-105791ABEDD912D-049B18">
+  <title>Lengthen Objects</title>
+  <shortdesc>You can change the length of
+ entities or the included angle of arcs. The results are similar to extending and trimming.</shortdesc>
+  <taskbody>
+    <context>
+      <p>This command does not affect
+ the closed entities.</p>
+      <p>Use any of the following methods
+ to change the length of an entity:</p>
+      <ul>
+        <li>Dynamically drag the endpoint or angle.</li>
+        <li>Specify an incremental length or angle measured froman endpoint.</li>
+        <li>Specify the new length as a percentage
+ of the total length or angle.</li>
+        <li>Specify a new length or included an angle.</li>
+        <li>You can change
+ the length of arcs, lines, open polylines, ellipse arc and open spline.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic344_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change the length of an object by dragging</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Lengthen
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type DY (DYnamic).</cmd>
+      </step>
+      <step>
+        <cmd>Select the object you want to change.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the new endpoint or includedan angle.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic344_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Select the object (A), and then select the new endpoint
+ (B)</p>
+    </result>
+  </taskbody>
+</task>

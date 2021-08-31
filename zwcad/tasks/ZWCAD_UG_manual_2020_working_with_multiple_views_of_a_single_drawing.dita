@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7223535-E5C4A1F-1A725442CB97939-AD972D">
+  <title>Working with Multiple Views of a Single Drawing</title>
+  <shortdesc>You can open and work with several views of the same drawing
+ simultaneously.</shortdesc>
+  <taskbody>
+    <context>
+      <p>After you divide
+ a single window into multiple windows, you can control each window separately.
+ For example, you can zoomor pan in one window
+ without affecting the display in any of the other
+ windows. You can control the grid, snap, and view orientation separately for each window.
+ You can restore named views in
+ individual windows, draw from one window to another, and name window configurations individually so you can reuse themlater.</p>
+      <p>As you draw, any changes you make in one window
+ are immediately visible
+ in the others. You can switch from one window to another at any time,
+ even in the middle of a command, by clicking the window's title bar.</p>
+      <p>You can divide a
+ single drawing window into multiple tiled windows (called viewports) on the
+ Model tab. You can control the number
+ of windows created and the arrangement of the windows. You can also save and restore named window
+ configurations and display a list of the current and saved window configurations.</p>
+      <p>To
+ create multiple views</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic90_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose View &gt; Viewports from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>In viewports menu, choose
+ 1, 2, 3, or 4 viewports.</cmd>
+      </step>
+      <step>
+        <cmd>Type h if you want the horizontal orientation, or type v if you want the vertical orientation.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic90_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To join two views</p>
+      <ol>
+        <li>Choose View &gt; Viewports
+ &gt; Join from the
+ mainmenu.</li>
+        <li>Clickanywhere inside
+ the window you want to keep.</li>
+        <li>Clickanywhere inside
+ the adjacent window
+ youwant to join to the first wi ndow.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic90_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To restore a named window configuration</p>
+      <ol>
+        <li>Type -VPORTS and press ENTER.</li>
+        <li>On the command line, type Restore.</li>
+        <li>Type the name of the window configuration
+ you want to restore.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

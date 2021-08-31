@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A5353C-A11F2A8-70579537CA316B5-96C4A7">
+  <title>Reconnect Links</title>
+  <shortdesc>Source refers to
+ the position where the linked documents are located. Once the position of
+ thedocument is changed or renamed,
+ the link source must be changed as well. When replacing information or objects with
+ links contained, the link source
+ should be changed
+ also.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12A35-8365453-CA11F154A7F555A-795A30">
+  <title>Drawing Limits</title>
+  <shortdesc>You can specify
+ the drawing limits that form an invisible boundary around your drawing. You can
+ use the drawing limits to make sure that you do not create a drawing larger
+ than can fit on a specific sheet of paper when
+ printed at a specific scale.</shortdesc>
+  <taskbody>
+    <context>
+      <p>For example, if
+ you plan to print your drawing at 1/8" = 1'-0" (in other words, using
+ a scale factor of 96) on a sheet of
+ paper measuring 36 inches x24 inches, you can set drawing limits to 3,264 units
+ wide (that is, 34 x 96) and 2,112
+ units high (22 x 96),
+ which allows a 1-inch margin around the edges of the printed
+ image.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic117_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set the drawing
+ limits</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Drawing
+ Limits from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the
+ x-coordinate and y-coordinate of the upper right drawing limit and the lower left drawing limit. You can also
+ click Select to specify the drawing limits by
+ selecting points in the drawing.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

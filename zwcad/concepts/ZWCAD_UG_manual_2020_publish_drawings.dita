@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7224356-E1453C4-1F15A71537915A0-F065D6">
+  <title>Publish Drawings</title>
+  <shortdesc>Publish multiple
+ files to a separate single-sheet or multi-sheet PDF, DWF file or a printer in order to save and plot files. The paper name and page setup
+ will be displayed as soon as you select files to the file list. Here,
+ the paper name refers to the name of the drawing to be plotted, with a dash
+ joining the drawing name and layout
+ name, page setup column displays the named page setup of layouts. You can click
+ the page setup to select another page
+ setup from the dropdown list. The model tab and layout tab are only applied to the corresponding tab.</shortdesc>
+  <conbody>
+    <p>You can optionally click on themodeltab and layout tab in Add drawings include
+ an option in the course
+ of importing files into the drawing list. And assemble a collection of
+ drawings to publish and save the list
+ as a Drawing Set Descriptions (DSD) file. A DSD file is created for
+ illustrating these drawing files list and selected
+ layout list.</p>
+    <p>In the Publish
+ dialog box, users can define the way to publish file list. You can choose to
+ publish to Plotter named
+ in page setup,
+ DWF or PDF.</p>
+  </conbody>
+</concept>

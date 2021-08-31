@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA7478B5-7564244-71F516525371554-FAF969">
+  <title>企业微信后台配置接收消息 （以自建应用方式安装标准应用时必须）</title>
+  <shortdesc>接收消息需要在企业微信后台配置，分为以下几个步骤：</shortdesc>
+  <prolog>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-08-23"/>
+    </critdates>
+  </prolog>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          <xref href="#AA7478B5-7564244-71F516525371554-FAF969/_bookmark58">在销售易系统获取配置所需参数</xref>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="#AA7478B5-7564244-71F516525371554-FAF969/_bookmark61">在企业微信后台配置相关参数</xref>
+        </cmd>
+      </step>
+    </steps>
+    <result> 
+        <p id="_bookmark58">在销售易系统获取配置所需参数</p>
+        <p>在配置之前，需要先获取以下几个参数的内容：URL、IOS Bundle ID、安卓应用签名、安卓应用包名。</p>
+      <p>遵循以下步骤，获取以上几个参数的内容：</p>
+      <ol>
+        <li>登录销售易系统，在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</li>
+        <li>在 【企业微信集成应用】页面的应用列表中，找到相应的应用。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic22_image002.png" /></fig></entry></row></tbody></tgroup></table></p></li>
+        <li id="_bookmark59">
+          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic22_image004.png" />单击应用后<b>操作</b>下的 。</li>
+        <li>在应用详情页面中获取<b>接收消息服务器配置</b>部分的 <b>URL</b>、<b>Token </b>和</li>
+      </ol>
+      <p>
+        <b>EncodingAESKey </b>的内容。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic22_image006.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+
+        <p id="_bookmark61">
+在企业微信后台配置相关参数</p>
+      
+      <p>遵循以下步骤，在企业微信后台配置相关参数：</p>
+      <ol>
+        <li>企业微信管理员登录企业微信后台管理平台 https://work.weixin.qq.com。</li>
+        <li>登录成功后，切换到<b>应用管理</b>标签。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic22_image008.png" /></entry></row></tbody></tgroup></table></p></li>
+        <li>单击<b>应用管理</b>标签 , 在<b>自建</b>部分找到创建好的应用，单击该应用进入到应用详情页面。</li>
+        <li>在应用详情页面，找到<b>功能</b>部分，单击<b>接收消息</b>中的<b>设置 API 接收</b>，将出现下图所示页面。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic22_image010.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>URL 输入<xref href="#AA7478B5-7564244-71F516525371554-FAF969/_bookmark59">此步</xref>中获取到的 URL 内容。</p><p><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic22_image011.png" /></p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic22_image011.png" /></fig></entry></row></tbody></tgroup></table>
+ Token 输入<xref href="#AA7478B5-7564244-71F516525371554-FAF969/_bookmark59">此步</xref>中获取到的 Token 内容。</p><p>EncodingAESKey 输入<xref href="#AA7478B5-7564244-71F516525371554-FAF969/_bookmark59">此步</xref>中获取到的 EncodingAESKey 内容。</p><p><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic22_image011.png" /></p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic22_image012.png" /></fig></entry></row></tbody></tgroup></table>
+ 选择需要接收的消息事件类型 设置企业微信中接收消息的类型。</p></li>
+        <li>设置完成后，单击<b>保存</b>。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

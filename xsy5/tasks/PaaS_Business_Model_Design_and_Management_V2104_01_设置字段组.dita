@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A753D2A4-7A53211-21A87C7574553B7-D82E2D">
+  <title>设置字段组</title>
+  <shortdesc>字段组是一些字段的集合，当需要在自定义页面中使用这些字段时可以直接引用相 应的字段组，如果字段有变化，也不需要修改代码，直接修改字段组中的字段配置 即可，降低维护成本。</shortdesc>
+  <taskbody>
+    <context>
+      <p id="新建或编辑字段组">新建或编辑字段组</p>
+      <p>遵循以下步骤，新建或编辑字段组：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在 【自定义对象】页面，单击对象名称。</cmd>
+      </step>
+      <step>
+        <cmd>在对象页面，单击<b>字段组</b>标签。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic23_image001.png" />单击<b>新建字段组</b>，或单击 以修改已有的字段组。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic23_image003.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 配置项 说明</p>
+          <p>字段组名称 标识字段组的信息，此名称会显示在 【字段组】页面的字段组列表中。为便于字段组之间的区分以及通过字段组名称更直观的了解字段组的作用，建议使用有实际意义的内容作为字段组的名称。</p>
+          <p>
+            <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic23_image004.png" />
+          </p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic23_image004.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ API 名称 在代码中引用字段组时使用的名称。</p>
+          <p>描述 对字段组的说明，说明信息会显示在
+ 【字段组】页面的字段组列表中。为便于字段组之间的区分以及快速了解字段组的作用，建议填写内容为字段组作用的简要说明。</p>
+          <p>
+            <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic23_image005.png" />
+          </p>
+          <p>配置项 说明</p>
+          <p>未选择字段 / 已选择字段</p>
+          <p>设置字段组包含的字段。</p>
+          <p>
+            <fig>
+              <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic23_image005.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击保存。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p id="删除字段组">删除字段组</p>
+      <p>对于不再需要使用的字段组可以将其删除。遵循以下步骤，删除字段组：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>字段组</b>标签。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic23_image007.png" />在字段组列表中，单击要删除字段组后的 即可。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA122A45-65453C1-1F21541055A7E53-9F9E40">
+  <title>Show and Hide Raster Image Boundaries</title>
+  <shortdesc>Controls whether
+ to display image boundary in the current view using IMAGEFRAME command. A raster image can be displayed
+ without a frame.
+ Usually, users select
+ image entity by clicking image frame. Setting
+ IMAGEFRAME to Off prevents you fromaccidentally selecting
+ an image.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Once hide the
+ image frame, the image can't be selected by SELECT command, keep the clipped
+ image displayed within
+ thespecified frame.</p>
+      <p>All the attached
+ images update as soon as the visibility of raster image frame is set to display or hide.</p>
+      <p>To turn image
+ frames on or off for all images</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic648_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Object &gt; Image &gt; Frame
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following to toggle frames off and on:</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>-Type ON to displayandprint frames for all images ina drawing.</p>
+      <p>-Type OFF to hide all frames on the screen andduring
+ printing.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic648_image003.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

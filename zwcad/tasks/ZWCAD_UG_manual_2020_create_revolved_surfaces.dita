@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22435-6365143-C4A11F25A87C152-57E352">
+  <title>Create Revolved Surfaces</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic281_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Use REVSURF command to create a
+ surface of revolution by rotating a profile of the object about an axis. The object to be revolved can be a
+ line, arc, circle, ellipse, elliptical arc, closed polyline, polygon, closed
+ spline or torus.
+ REVSURF is useful for surfaces with rotational symmetry.</p>
+      <p>You can create a surface of revolution, which is a three-dimensionalpolygon mesh that approximates the surface generated
+ by rotating a two-dimensionalprofile around an axis. You select the two objects
+ that define the profile and the axis.
+ You also specify the starting angle and the number of degrees to revolve the profile.</p>
+      <p>Revolving the profile 360 degrees creates
+ a closed three-dimensionalmesh. The Number Of M Direction
+ Surfaces value determines the mesh density (the number of mesh segments)
+ in the M direction (around the axis
+ of revolution). The N Direction Mesh Density value determines the mesh density
+ (the number of mesh segments) in the N direction (along with the axis
+ of revolution).</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic281_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create
+ a revolved surface
+ mesh</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Surfaces
+ &gt; Revolved Surface
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object to revolve.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object to be used as the axis of revolution.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the startingangle.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic281_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the number
+ of degrees to revolve
+ the object.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the object to be revolved
+ (A) and the axis of revolution (B) The resulting
+ revolved surface mesh</p>
+    </result>
+  </taskbody>
+</task>

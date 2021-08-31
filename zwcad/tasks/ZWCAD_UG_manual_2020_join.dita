@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AAA35665-E4C4A11-1A8D355A91357C4-95792E">
+  <title>Join</title>
+  <shortdesc>You can add an arc, line, or polyline
+ object to an existing open polyline, forming
+ one continuous polyline
+ object. To join an object to a polyline, that object must already share
+ an endpoint with an end vertexof the selected polyline.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When you join an object to a polyline, the width of the new polyline segment depends on the width of the original polyline and the type of object
+ you are joining to it:</p>
+      <ul>
+        <li>A line or an arc assumes the
+ same width as the polyline segment for the end vertexto which it is joined.</li>
+        <li>A polyline joined to a tapered polyline
+ retains its own width values.</li>
+        <li>A polyline joined to a uniform-width polyline assumes the width of the polyline
+ to which it is joined.<p>To join an arc, line, or polyline
+ to an existing polyline</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/ZWCAD_UG_manual_2020_topic376_image001.png" /></fig></entry></row></tbody></tgroup></table></p><ol><li>Choose Modify &gt; Object &gt; Polyline from the mainmenu.</li><li>Select the polyline.</li><li>On the command line, type J (Join).</li><li>Select the arc, line,
+ or polyline to join.</li><li>On
+ the command line, type another
+ option, or press
+ Enter to complete the command.</li></ol></li>
+      </ul>
+    </context>
+  </taskbody>
+</task>

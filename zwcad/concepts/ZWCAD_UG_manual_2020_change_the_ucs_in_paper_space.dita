@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1A45683-5E5CA11-14AC15B5A7E364C-CD6325">
+  <title>Change the UCS in Paper Space</title>
+  <shortdesc>Just as you
+ define a new UCS in model space, you can also define a new UCS in paper space;
+ however, the UCSs in paper space is
+ only available for 2D manipulation. Although you can enter 3D coordinates in paper space,
+ 3D viewing commands
+ are not available, such as PLAN
+ and VPOINT.</shortdesc>
+  <conbody>
+    <p>The systemcan
+ store the last 10 coordinate systems that were created in model space and the
+ last 10 in paper space,
+ and you can restore to the desired one using
+ the Previous option
+ of the UCS command.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A24356-853CA11-F2158757571E535-9A45E7">
+  <title>Choose a Type of Plot Style Table</title>
+  <shortdesc>A plot style
+ table is a collection of plot styles assigned to a layout or the Model tab.
+ There are two types of plot style tables:
+ color-dependent plot style tables and named plot style tables.</shortdesc>
+  <conbody>
+    <p>Color-dependent plot style tables (CTB)</p>
+    <p>Color-dependent
+ plot style table determines to plot characteristics such as lineweight using an
+ object's color. This plot style plot
+ objects with the same color in the same style. For example, every blue object in a drawing
+ is plotted the same way. While color-dependent plot style table is provided
+ for editing rather
+ than adding or deleting plot styles. There are 256 plot styles in a color-dependent plot style table, one for each color.</p>
+    <p>Once a
+ color-dependent plot style table is assigned to the drawing, you cannot assign
+ a plot style to individual objects or
+ layers. Instead, to assign plot style properties to an object, you should
+ change the color of the object
+ or layer.</p>
+    <p>You can assign color-dependent plot style
+ tables to layouts. You can use several predefined color- dependent
+ plot style tables,
+ edit existing plot style tables,
+ or create your own.</p>
+    <p>Color-dependent plot style tables are stored in the printstyle folder with extensions named as .ctb.</p>
+    <p>Note that
+ assigning the color-dependent plot style table to a layout is only available
+ when the drawing has been set to use color-dependent plot
+ style tables.</p>
+    <p>Named plot style tables (STB)</p>
+    <p>Named plot style
+ tables contain user-defined plot styles. This plot style plot objects based on
+ the plot style assigned to the object
+ rather than the color. The named plot style tables can be assigned to objects or layouts
+ as assigning other properties.</p>
+    <p>Named plot styles can be assigned to objects or layers in the same way
+ as any other properties.</p>
+  </conbody>
+</concept>

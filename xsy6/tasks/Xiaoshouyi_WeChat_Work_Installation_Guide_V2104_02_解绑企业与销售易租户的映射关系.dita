@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B7B758-3B54524-411F214A8D13527-45A2DE">
+  <title>解绑企业与销售易租户的映射关系</title>
+  <shortdesc>遵循以下步骤，解绑企业与销售易租户的映射关系：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【企业微信集成应用】页面进行解绑。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic37_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

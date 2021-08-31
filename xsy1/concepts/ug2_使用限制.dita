@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B631A2-275291F-1A8155941563B5C-D74B20">
+  <title>使用限制</title>
+  <shortdesc>NOTE </shortdesc>
+  <conbody>
+    <p>开通新版考勤功能后，旧版考勤设置将失效，移动端也随之更新到新版界面。</p>
+    <ul>
+      <li>获得“工作时间管理”的License授权。</li>
+      <li>联系产品经理为租户申请开通新版考勤功能。</li>
+    </ul>
+  </conbody>
+</concept>

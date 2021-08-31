@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A43-63E145C-1215487C15B5A79-1E5AD2">
+  <title>Set the Current User Coordinate System</title>
+  <shortdesc>When you draw new objects,
+ they are created in relation
+ to the current coordinate system.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic218_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Set the current UCS</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Named UCS from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the desired UCS, and then click the Set Current
+ button.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

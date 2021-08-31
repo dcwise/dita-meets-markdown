@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A28614-54A11F2-1456139D9649FD4-9625F9">
+  <title>Nest and Overlay External References</title>
+  <shortdesc>Xrefs can be nested in another xref and attached
+ to thecurrent drawing.</shortdesc>
+  <conbody>
+    <p>Xrefs that are
+ multiply nested can be attached to the drawing. In the process of attaching,
+ you can select insertion position, scaling factor and rotation angle
+ for xrefs.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic585_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ As
+ the following illustration shows, master.dwg contains
+ a.dwg and b.dwg.
+ And drawing a.dwg
+ contains c.dwg. Thus, In master.dwg, c.dwg
+ is a nested xref.</p>
+    <p>Specify the type
+ of a xref, including attachment and overlay. Using overlay to exclude any
+ nested xrefs rather than overlay
+ xrefs. This type is typically used for sharing data in the network. In Xrefs
+ that are attached in overlay type, you can view relative
+ methods directly between the drawing
+ and other grouping
+ drawings.</p>
+    <p>In the following illustration, attach master.dwg to multiple drawings
+ as xref. Users who are working with a.dwg need to view and use objects drawn on b.dwg
+ without but not reference the drawing b.dwgbecause it would then appear twice in master.dwg. Instead, this may
+ overlay b.dwg but not makes it included when a.dwg is referenced by master.dwg.</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic585_image002.png" />
+    </p>
+  </conbody>
+</concept>

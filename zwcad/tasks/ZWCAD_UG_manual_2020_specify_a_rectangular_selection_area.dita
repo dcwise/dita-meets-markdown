@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A125683C-4A11F1A-87155A15A96AE5A-2C2790">
+  <title>Specify a Rectangular Selection Area</title>
+  <shortdesc>You can select all objects inside the rectangular selection
+ area. When specifying the first corner, there are two methods
+ to define a rectangular selection window:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Drags the cursor fromleft to right to create an enclosed window
+ selection. The objects entirely contained in the rectangular selection area are selected only.</li>
+        <li>Drags the cursor from right to left to create a crossing selection.
+ The objects contained
+ or passing through
+ the rectangular selection area are selected.<p>The selected
+ objects must be entirely contained in the window selection area when you use
+ Window Selection. However,
+ if the non-continuous (dash)
+ linetype is only partially visible in the viewport and al of the visible vectors of the linetype are inside of the selection
+ window, the entire
+ object is selected.</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/ZWCAD_UG_manual_2020_topic316_image001.png" /></fig></entry></row></tbody></tgroup></table>
+ To create a Window</p><ol><li>Clickto select a point in the drawing.</li><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/ZWCAD_UG_manual_2020_topic316_image002.png" /></entry></row></tbody></tgroup></table>
+ Clickto the right of the first point
+ to select a second point in the drawing.</li></ol></li>
+      </ul>
+      <p>Window by selecting the first (A) and second
+ (B) points. Resulting selection</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic316_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a Crossing
+ Window</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Clickto select a point in the drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Clickto the left of the first point to select a secondpoint in the drawing.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic316_image003.png" />
+      </p>
+      <p>Crossing Window by selecting
+ the first (A) and second
+ (B) points Resulting selection</p>
+      <p>In addition to a
+ rectangular window, you can define a selection window using other shapes such
+ as a polygon, circle, or fence
+ (a multi-segmented line that selects
+ objects it crosses).</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA156865-341148D-10535A9E532841D-0D9BD8">
+  <title>Rotate an Object in 3D</title>
+  <shortdesc>With the ROTATE
+ command, you can rotate 2D objects. The rotation direction is determined by the current
+ UCS. The ROTATE3D
+ command is used to rotate objects
+ in the 3D space.</shortdesc>
+  <taskbody>
+    <context>
+      <p>With the use of
+ ROTATE3D, you can define the rotation axis by specifying two points; X, Y, Z
+ axis; or the Z direction of the
+ current view. The 3D objects can be rotated with either the ROTATE command or ROTATE3D command.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic340_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To rotate an object
+ about an axis in three dimensions</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; 3D Operation &gt; 3D Rotate.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects to rotate, andthen
+ press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Choose one from the following options:
+ Object, Last, View, X-axis, Y-axis, Z-axis, 2points.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic340_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the rotation
+ angle.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the objects
+ to rotate (A), specify the endpoints of the axis of rotation
+ (B and C), and then specify the r otation
+ angle
+ (D)</p>
+    </result>
+  </taskbody>
+</task>

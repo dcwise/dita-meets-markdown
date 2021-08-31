@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A368-1453CAF-5A83A79E359704C-7B7B89">
+  <title>Copy and Move Layouts</title>
+  <shortdesc>You can
+ right-clickon the Layout tab to select Move or Copy option, on the Move or Copy
+ dialog box, select the target moving
+ position and the place to put the copy of the layout and click Create a Copy to copy the selected
+ layout, otherwise, only the layout
+ position will be moved. You should notice
+ thatModel tab can't be moved or copied.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If multiple
+ layouts are created in the drawing or too long a layout name to be displayed at
+ the bottomof the drawing area, you can display
+ the tab according to the arrowhead. The arrowhead with a vertical
+ line represents the first
+ and last tab individually. The current tab may not be
+ displayed when moving
+ the tabs. Save time by reusing layouts that you have
+ already created. Within the same drawing, you may want to make a copy of a layout that contains most
+ of the settings you want, and then make changes to the new copy. If you created layouts that you want
+ to use again when you create new drawings, you can save the layouts as a drawing
+ template.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic671_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To make a copy of
+ a layout</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Type LAYOUT and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type C (Copy).</cmd>
+      </step>
+      <step>
+        <cmd>Type the name of the layout
+ youwant to copy, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Type a name for the new layout, andthen
+ press Enter.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

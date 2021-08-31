@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A46363-4A1F213-559E5359EA8C2E7-B47C89">
+  <title>Managing layouts in a drawing</title>
+  <shortdesc>You can rename layouts,
+ delete layouts, and view a list of all layouts
+ available in a drawing. You can also change the order in which the Layout tabs appear; the Model tab is always stationary.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If you want to rename, delete, or reorder a
+ layout when the Layout tabs are hidden, you can type LAYOUT to make your changes or choose Screen
+ Menu &gt; Tabs to display
+ the tabs.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic675_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To rename a layout</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Right-click the layout tab for the layout you want to rename and choose Rename from the
+ shortcut menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Rename Layout
+ dialog box, enter the new name for the layout.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>The name can be up to 255 characters in length and can contain
+ letters, numbers, the dollar sign ($), hyphen (-),
+ and underscore (_), or any combination.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic675_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To delete
+ a layout</p>
+      <ol>
+        <li>Right-click the
+ layout tab for the layout you want to deleteand
+ click Delete on the shortcut menu.</li>
+        <li>In the warning box, click
+ OK to delete the layout.</li>
+        <li>Any named views associated with the layout are deleted automatically when the layout is deleted.</li>
+      </ol>
+      <p>
+        <b>NOTE </b>You cannot delete the Model tab or the last remaining
+ Layout tab. To delete all</p>
+      <p>geometry from the Model tab
+ or a Layout tab, first select all geometry and then use the Erasecommand.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic675_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To view a list of all layouts</p>
+      <ol>
+        <li>Type LAYOUT and then press Enter.</li>
+        <li>On the command line, type? and then press Enter to list all layouts.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

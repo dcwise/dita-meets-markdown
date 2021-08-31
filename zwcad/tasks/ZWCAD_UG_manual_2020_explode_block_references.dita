@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12246-3143C41-1F254A7D125A791-E5423A">
+  <title>Explode Block References</title>
+  <shortdesc>You can explode a
+ block reference into individual objects. If a block to be exploded contains attributes, the attribute values are lost and leaving attribute
+ definition. If you explode a block
+ that contains polyline
+ objects, you have
+ to explode the polyline separately.</shortdesc>
+  <taskbody>
+    <context>
+      <p>To
+ explode a block</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic369_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Explode
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the block.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

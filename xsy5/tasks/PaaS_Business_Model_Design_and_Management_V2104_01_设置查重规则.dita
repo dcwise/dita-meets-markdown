@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7D7B310-2474535-1214A1652374555-FDC9FF">
+  <title>设置查重规则</title>
+  <shortdesc>当需要通过比较字段值来确定添加或者导入的数据与现有系统中的数据是否重复 时，可以设置查重规则。</shortdesc>
+  <taskbody>
+    <context>
+      <p>查重规则触发时机</p>
+      <p>查重规则在以下情况都会触发：</p>
+      <ul>
+        <li>新建数据时</li>
+        <li>详情页扣框编辑时</li>
+        <li>前台导入数据时</li>
+        <li>API 创建数据时</li>
+      </ul>
+      <p id="新建或编辑查重规则">新建或编辑查重规则</p>
+      <p>遵循以下步骤，新建或编辑查重规则：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在 【自定义对象】页面，单击对象名称。</cmd>
+      </step>
+      <step>
+        <cmd>在对象页面，单击<b>查重规则</b>标签。</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image001.png" />在 【查重规则】页面，单击<b>新建查重规则</b>，或单击 修改已有的查重规则。</cmd>
+      </step>
+      <step>
+        <cmd>设置查重规则参数，图中给出了设置示例。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image003.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+          <p>
+            <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image004.png" />
+            <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image005.png" />配置项 说明</p>
+          <p>规则名称 查重规则的名称，支持汉字、数字、字母等字符。 描述 对查重规则的基本描述。</p>
+          <p>配置项 说明</p>
+          <p>设置查重规则的条件</p>
+          <p>设置错误原因以及查重的条件，错误原因为当在销售易前 台出现重复数据时，显示的提示信息。</p>
+          <p>单击 <b>+ 添加更多条件</b>按钮可以添加条件，每单击一次增加一个条件，单击 <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image007.png" />可删除对应的条件。如果添加了多个条件，则默认多个触发条件之间的关系为“
+ 或 （OR）” 的关系，如果需要更改条件之间的关系，勾选<b>启用高级公式</b>项。</p>
+          <p>下面对上图中各设置项进行介绍，以下各项序号与图中序 号对应：</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>选择查重规则条件的参与字段。</cmd>
+          </substep>
+          <substep>
+            <cmd>匹配方式，目前仅支持精确匹配。</cmd>
+          </substep>
+          <substep>
+            <cmd>此项仅勾选<b>启用高级公式</b>时出现，用于设置多个条件 之间的关系，各条件在公式中使用序号表示，此序号 自动生成，位于各条件最左侧，公式规则如下表所示。</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>当添加新的条件时，默认加到条件列表的最后，当删除某个条件时（删除最后一个条件除外），条件最左侧的序号将根据现有条件个数进行序号的更新，因此当条件的个数有变化
+ 时，注意修改公式中对应的条件序号。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image005.png" />
+        </fig>
+      </p>
+      <p>公式规则 错误示例
+ （假设有 4 个条件）</p>
+      <p>有 and 和 or, 必须有括号 1 and 2 or 3 and 4</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image004.png" />
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image004.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 一个括号不能同时出现 and 和 or (1 and 2 or 3) and 4</p>
+      <p>不允许出现不存在的编号 1 and 2
+ and 3 and 4 and 5</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image004.png" />
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image005.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 括号必须成对出现 (1 and 2 or 3 and 4</p>
+      <ol>
+        <li>同时设置校验规则和查重规则时，只有校验规则通过后才进行查重规则的校验。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>每个业务对象目前只支持建立一条查重规则，建完一条规则后“
+ 新建查重规则” 按钮置灰。只有删除掉规则后按钮才变为可单击状态。</p></required-cleanup></li>
+        <li>自动编号字段在查重规则中被屏蔽。<p id="禁用或删除查重规则">禁用或删除查重规则</p><p><b>禁用查重规则</b></p><p>对于目前暂时不需要使用的查重规则可以将其状态设置为 “ 禁用 ”，有需要时可以再启用。</p><p>遵循以下步骤，禁用查重规则：</p><ol><li>在 【自定义对象】页面，单击对象名称。</li><li>在对象页面，单击<b>查重规则</b>标签。</li><li>在查重规则列表中，单击要禁用查重规则的<b>状态信息</b>下的 <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image009.png" /> 可禁用查重规则。</li></ol></li>
+      </ol>
+      <p>删除查重规则</p>
+      <p>对于不再需要使用的查重规则可以将其删除。</p>
+      <p>遵循以下步骤，删除查重规则：</p>
+      <ol>
+        <li>在 【自定义对象】页面，单击对象名称。</li>
+        <li>在对象页面，单击<b>查重规则</b>标签。</li>
+        <li>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic22_image011.png" />在查重规则列表中，单击要删除查重规则后的 可删除查重规则。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

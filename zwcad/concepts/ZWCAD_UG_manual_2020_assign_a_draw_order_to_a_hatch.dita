@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA123586-514C4A1-F15A878165A9E53-59BED0">
+  <title>Assign a Draw Order to a Hatch</title>
+  <shortdesc>The draw order of hatching and boundaries can be controlled
+ so as to view and select more easily. When creating
+ hatch patterns, you can specify the draw order of the patterns to decide to
+ hatch before or after the boundaries
+ or set it in front or at the backof all objects. The value will be stored in
+ systemvariable HPDRAWORDER.</shortdesc>
+  <conbody>
+    <p>Other settings of
+ hatch pattern may not be influenced regardless of changing the draw order of
+ hatch pattern.</p>
+  </conbody>
+</concept>

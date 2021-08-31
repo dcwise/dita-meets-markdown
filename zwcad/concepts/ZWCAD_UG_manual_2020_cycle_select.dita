@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7AA4645-3C4A111-4A7D55A9E35A692-A52C90">
+  <title>Cycle Select</title>
+  <shortdesc>When you want to select something
+ behind other objects,
+ Cycle Select can help you easily pick whatever you want. Click “Cycle Select”
+ button on thestatus
+ bar or hold &lt;Shift+Space&gt; to turn on the Cycle Select</shortdesc>
+  <conbody>
+    <p>mode, and then
+ click the object you want to select. After that, you will see the currently
+ selected object being highlighted. If
+ it’s not the one you want, just keep clicking your mouse, then it will switch
+ among overlapped objects
+ until you find the correct
+ one and press Enter or Space to confirm.</p>
+  </conbody>
+</concept>

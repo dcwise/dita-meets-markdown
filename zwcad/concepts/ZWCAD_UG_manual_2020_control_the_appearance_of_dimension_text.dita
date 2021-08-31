@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7124568-65C4A1F-215481435AE51D5-A9B75F">
+  <title>Control the Appearance of Dimension Text</title>
+  <shortdesc>Dimension text could be comprised of
+ user-supplied text, prefixes, and suffixes provided by the dimension style, and generated measurements. For example,
+ you can add a radiumsymbol as a prefixto
+ a measurement, or add an abbreviation for a unit beyond the text, such as
+ cm.</shortdesc>
+  <conbody>
+    <p>You can also set the text style and formats of color, height for the dimension text.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A71B1404-361F248-7574555C4B5DBBB-DF6A6C">
+  <title>配置入口</title>
+  <shortdesc>创建、配置和管理审批流都在 【审批流程管理】页面进行。遵循以下步骤，进入</shortdesc>
+  <taskbody>
+    <context>
+      <p>【审批流程管理】页面：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录销售易系统 （https://crm.xiaoshouyi.com），在左侧导航栏底部单击<b>设置 </b>&gt; <b>系统设置</b>进入系统后台。</cmd>
+      </step>
+      <step>
+        <cmd>在左侧导航菜单中，单击<b>流程中心 </b>&gt; <b>审批流程</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>创建流程 | <b>21</b></p>
+    </result>
+  </taskbody>
+</task>

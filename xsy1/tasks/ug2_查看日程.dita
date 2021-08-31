@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7463AA2-2B17421-3924A657F1FF2BE-77F15B">
+  <title>查看日程</title>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>登录销售易前台首页，单击页面右上角<b>︙&gt;日程</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在日程详情页面查看日程详细信息。</cmd>
+      </step>
+    </steps>
+    <result>
+      <ul>
+        <li>详情页分为左右两部分，右侧可选择日期，左侧可以显示具体日期内的日程安排。</li>
+        <li>按颜色区分类型，便于在日历中识别不同类型的日程，私密日程以及用户未选择类型时都将标记为其他类型（蓝色）。<fig><image href="../graphics/ug2_topic4_image002.png" /></fig><ol><li>单击日程可以查看到内容详情，也可以查看到邀请的参与人员是否已经确认参加会议。</li></ol></li>
+      </ul>
+      <p>
+        <image href="../graphics/ug2_topic4_image004.png" />
+      </p>
+      <p>如果后台开启了腾讯视频会议集成功能，可以单击<b>加入腾讯会议</b>，开启腾讯会议客户端。</p>
+      <p>
+        <fig>
+          <image href="../graphics/ug2_topic4_image006.png" />
+        </fig>
+      </p>
+    </result>
+  </taskbody>
+</task>

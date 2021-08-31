@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A415759C-4712439-3F217916551716D-AACDFA">
+  <title>设置组合产品</title>
+  <shortdesc>针对部分中大型企业而言，产品的种类繁多，产品的配置复杂多变，为给予客户更好的体验，销售易对产品进行了进一步的完善，支持设置组合产品。产品经理或管理员可将多个产品配置到组合产品当中，将产品选项（子产品）组合售卖。</shortdesc>
+  <taskbody>
+    <context>
+      <p>组合产品的设置，需要管理员在后台对用户分配许可证，并勾选<b>CPQ-产品配置与复杂定价</b>。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>以系统管理员的身份登录CRM系统后台。</cmd>
+      </step>
+      <step>
+        <cmd>找到<b>管理</b>，单击<b>用户和权限管理</b>&gt;<b>部门/用户管理</b>，如果为旧版本，单击<b>用户和权限</b>&gt;<b>部门/用户管理</b>，进入用户管理列表页。</cmd>
+      </step>
+      <step>
+        <cmd>选择一个用户，并单击<b>用户授权</b>，进入许可证列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>选择<b>CPQ-产品配置与复杂定价</b>，并决定是否发送激活邮件或短信通知。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>确认</b>，完成许可证分配。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

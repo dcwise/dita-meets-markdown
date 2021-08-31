@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<bookmap xml:lang="en-us" id="bookmap-1">
+  <title>CPQ产品</title>
+  <bookmeta>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-07-05"/>
+    </critdates>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="concepts/ugcpq_第一章_组合产品与复杂定价_cpq一期功能_网页端.dita">
+    <topicref href="concepts/ugcpq_产品.dita">
+      <topicref href="tasks/ugcpq_创建产品.dita">
+        <topicref href="tasks/ugcpq_产品目录管理.dita" />
+        <topicref href="tasks/ugcpq_导入产品目录.dita" />
+        <topicref href="tasks/ugcpq_导入产品.dita" />
+      </topicref>
+      <topicref href="tasks/ugcpq_设置组合产品.dita" />
+      <topicref href="tasks/ugcpq_新建组合产品.dita" />
+      <topicref href="tasks/ugcpq_新建组合产品的产品功能.dita" />
+      <topicref href="tasks/ugcpq_新建组合产品的产品约束关系.dita" />
+      <topicref href="tasks/ugcpq_新建组合产品的产品阶梯价格表.dita" />
+      <topicref href="concepts/ugcpq_编辑产品选项.dita">
+        <topicref href="tasks/ugcpq_新增产品选项.dita" />
+        <topicref href="tasks/ugcpq_编辑产品选项.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ugcpq_价格表.dita">
+      <topicref href="tasks/ugcpq_新建价格表.dita" />
+      <topicref href="concepts/ugcpq_导入价格表.dita" />
+      <topicref href="tasks/ugcpq_价格表的使用.dita" />
+    </topicref>
+    <topicref href="concepts/ugcpq_阶梯价格表.dita">
+      <topicref href="concepts/ugcpq_阶梯价格表智能搜索.dita" />
+      <topicref href="tasks/ugcpq_新建定价价格表.dita">
+        <topicref href="concepts/ugcpq_阶梯定价.dita" />
+        <topicref href="concepts/ugcpq_分层定价.dita" />
+        <topicref href="concepts/ugcpq_产品阶梯价格表.dita" />
+        <topicref href="concepts/ugcpq_产品选项阶梯价格表.dita" />
+        <topicref href="concepts/ugcpq_产品功能阶梯价格表.dita" />
+      </topicref>
+      <topicref href="tasks/ugcpq_新建折扣价格表.dita">
+        <topicref href="concepts/ugcpq_阶梯定价1.dita" />
+        <topicref href="concepts/ugcpq_分层定价1.dita" />
+        <topicref href="concepts/ugcpq_阶梯价格表明细.dita" />
+      </topicref>
+    </topicref>
+    <topicref href="concepts/ugcpq_报价单.dita">
+      <topicref href="concepts/ugcpq_新建报价单.dita">
+        <topicref href="tasks/ugcpq_在销售机会详情页新建_未开通cpq.dita" />
+        <topicref href="tasks/ugcpq_在报价单列表页新建_已开通cpq.dita" />
+      </topicref>
+      <topicref href="concepts/ugcpq_未开通cpq.dita">
+        <topicref href="concepts/ugcpq_复制报价单.dita" />
+        <topicref href="concepts/ugcpq_同步报价单.dita" />
+        <topicref href="tasks/ugcpq_报价单转订单.dita" />
+      </topicref>
+      <topicref href="concepts/ugcpq_已开通cpq.dita">
+        <topicref href="concepts/ugcpq_修改报价单.dita" />
+        <topicref href="tasks/ugcpq_编辑报价单.dita" />
+        <topicref href="tasks/ugcpq_复制报价单.dita" />
+        <topicref href="concepts/ugcpq_同步报价单1.dita" />
+        <topicref href="concepts/ugcpq_报价单转订单.dita" />
+      </topicref>
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ugcpq_第二章_产品价格引擎_cpq高阶功能_网页端.dita">
+    <topicref href="concepts/ugcpq_规则组合.dita">
+      <topicref href="tasks/ugcpq_新建规则组合.dita" />
+      <topicref href="tasks/ugcpq_编辑规则组合.dita" />
+      <topicref href="concepts/ugcpq_导入规则组合.dita" />
+      <topicref href="tasks/ugcpq_锁定规则组合.dita" />
+      <topicref href="tasks/ugcpq_转移规则组合.dita" />
+      <topicref href="concepts/ugcpq_删除规则组合.dita" />
+    </topicref>
+    <topicref href="concepts/ugcpq_产品价格规则.dita">
+      <topicref href="concepts/ugcpq_新建产品价格规则.dita">
+        <topicref href="tasks/ugcpq_新建产品规则.dita" />
+        <topicref href="tasks/ugcpq_新建价格规则.dita" />
+      </topicref>
+      <topicref href="tasks/ugcpq_导入产品价格规则.dita" />
+      <topicref href="tasks/ugcpq_编辑产品价格规则.dita" />
+      <topicref href="tasks/ugcpq_锁定产品价格规则.dita" />
+      <topicref href="tasks/ugcpq_转移产品价格规则.dita" />
+      <topicref href="concepts/ugcpq_删除产品价格规则.dita" />
+    </topicref>
+    <topicref href="concepts/ugcpq_汇总值.dita">
+      <topicref href="tasks/ugcpq_新建汇总值.dita">
+        <topicref href="tasks/ugcpq_创建汇总公式.dita" />
+        <topicref href="tasks/ugcpq_创建计算公式.dita" />
+      </topicref>
+      <topicref href="concepts/ugcpq_导入汇总值.dita" />
+      <topicref href="concepts/ugcpq_编辑汇总值.dita" />
+      <topicref href="concepts/ugcpq_锁定汇总值.dita" />
+      <topicref href="concepts/ugcpq_转移汇总值.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/ugcpq_第三章_组合产品与复杂定价_cpq移动端.dita">
+    <topicref href="concepts/ugcpq_产品1.dita">
+      <topicref href="tasks/ugcpq_查看组合产品的产品功能.dita" />
+      <topicref href="tasks/ugcpq_查看组合产品的产品约束关系.dita" />
+      <topicref href="tasks/ugcpq_查看组合产品的阶梯价格表.dita" />
+    </topicref>
+    <topicref href="concepts/ugcpq_阶梯价格表1.dita" />
+    <topicref href="concepts/ugcpq_报价单1.dita">
+      <topicref href="tasks/ugcpq_报价单列表页新建_cpq租户.dita" />
+      <topicref href="tasks/ugcpq_销售机会详情页新建_cpq租户.dita" />
+      <topicref href="tasks/ugcpq_编辑报价单1.dita" />
+      <topicref href="tasks/ugcpq_编辑报价单明细.dita">
+        <topicref href="concepts/ugcpq_编辑组合产品的整体价格.dita" />
+        <topicref href="tasks/ugcpq_编辑阶梯价格表及阶梯价格表明细.dita" />
+        <topicref href="concepts/ugcpq_批量变更折扣.dita" />
+        <topicref href="concepts/ugcpq_层级的收起和展开.dita" />
+      </topicref>
+      <topicref href="tasks/ugcpq_复制报价单1.dita" />
+      <topicref href="tasks/ugcpq_同步报价单.dita" />
+      <topicref href="tasks/ugcpq_报价单转订单1.dita" />
+    </topicref>
+  </chapter>
+</bookmap>

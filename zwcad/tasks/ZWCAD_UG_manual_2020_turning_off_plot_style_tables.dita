@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A4851-4534A11-F25A1655791348F-3F65D6">
+  <title>Turning off plot style tables</title>
+  <shortdesc>When you turn off
+ plot style tables, objects print according to their own properties. However,
+ all of the plot style information is saved
+ so you can easily turn on
+ plot styles again.
+ Actual plot style table files are not deleted, and for drawings that use
+ named plot style tables, objects and layers retain their assigned plot styles.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic720_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn off plot style tables</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>If necessary, click the desired
+ Layout tab, or click
+ the Model tab.</cmd>
+      </step>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Under Plot Style Table
+ (pen assignments), select
+ None.</cmd>
+      </step>
+      <step>
+        <cmd>Select Save Changes to Layout, andthen click Applyto Layout.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

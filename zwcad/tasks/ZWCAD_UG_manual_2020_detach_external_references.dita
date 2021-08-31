@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A4-5835E45-3C4A11F2154A87B-5A79E9">
+  <title>Detach External References</title>
+  <shortdesc>To detach the
+ xref from the drawing, the selected xrefs will be removed from the xref list.
+ Meanwhile, relative xref in the
+ current drawing will be removed as well. This can be also applied to xrefs
+ directly attached to current drawing, but the nested
+ xrefs can't be treated
+ like this.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You should
+ distinguish between detachingand remove, which are totally different concepts,
+ removing a xref will not
+ remove its relative layer definitions.
+ Using Detach option to remove all the associated information of the xref.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic599_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To detach an external
+ reference</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Xref Manager from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the external reference to detach.</cmd>
+      </step>
+      <step>
+        <cmd>Click Detach.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>Only the
+ external references that are attached directly
+ to the current drawing can be
+ detached; nested external
+ references cannot be detached.</p>
+    </result>
+  </taskbody>
+</task>

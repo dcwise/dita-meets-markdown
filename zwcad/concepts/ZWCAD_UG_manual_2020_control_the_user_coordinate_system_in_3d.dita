@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7235865-E1454A1-F5C6575A795314C-CD6B25">
+  <title>Control the User Coordinate System in 3D</title>
+  <shortdesc>You can relocate
+ the UCS by changing the location of the origin point and the orientation of the
+ XY plane and the Z axis. In 3D space, you can locate and orient a UCS anywhere.
+ In addition, you can define, save,
+ and recall as many UCSs as you like. Both entering coordinate and drawing are
+ processed in the current UCS.</shortdesc>
+  <conbody>
+    <p>With the UCS's relocation, you can acquire
+ the exact placement
+ of a 3D point by aligning
+ the coordinate systemwith existing geometry.</p>
+    <p>In the current session,
+ if multiple viewports
+ are active, you can assign a different
+ UCS to each viewport. If the systemvariable UCSVP is on, you can save a UCS along
+ with a viewport, and automatically restore the UCS each
+ time when you make the viewport current. When the systemvariable UCSVP is on,
+ each UCS may have a different origin
+ and orientation dependent on the construction.</p>
+  </conbody>
+</concept>

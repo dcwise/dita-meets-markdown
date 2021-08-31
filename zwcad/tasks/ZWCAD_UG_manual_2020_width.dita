@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A24383-65E153A-215A154A71E53A7-49627E">
+  <title>Width</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic377_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Specifies the uniformwidth for all segments
+ of selected polylines. Using Width option
+ while performing "Edit vertex", you can specify the width of the start point and end point.</p>
+      <p>You can change the width of an entire polyline,
+ applying a uniform
+ width to the polyline or assigning tapering width with gradient
+ size.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic377_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To apply a
+ uniformwidth to an entire polyline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Object &gt; Polyline from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the polyline.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type W (Width).</cmd>
+      </step>
+      <step>
+        <cmd>Specify the new polyline
+ width.</cmd>
+      </step>
+      <step>
+        <cmd>On
+ the command line, type another
+ option, or press
+ Enter to complete the command.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic377_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To apply a tapering
+ width to a polyline</p>
+      <ol>
+        <li>Choose Modify &gt; Object &gt; Polyline from the mainmenu.</li>
+        <li>Select the polyline.</li>
+        <li>On the command line, type T (Taper).</li>
+        <li>Specify the startingwidth.</li>
+        <li>Specify the ending width.</li>
+        <li>On
+ the command line, type another
+ option, or press Enter to complete the command.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

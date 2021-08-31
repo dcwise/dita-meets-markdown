@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A14386-5E143C1-1F2791A9E5524AF-655DD6">
+  <title>Converting plot style tables</title>
+  <shortdesc>You can convert a
+ color-dependent plot style table to a named plot style table. You cannot
+ convert a named plot style table to a
+ color-dependent plot style table because color-dependent tables contain only plot styles that are named after the 255 colors to which they map.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Converting a
+ color-dependent plot style table to a named plot style table can be helpful in
+ the following situations:</p>
+      <p>You don't want to create a named plot style table fromscratch.</p>
+      <p>You want to
+ create a named plot style table that has the same settings as a color-dependent
+ plot style table, but with some new plot styles or other customsettings.</p>
+      <p>You want to convert a drawing to use named plot style tables and you want to reuse
+ most of the plot styles
+ already defined in a color-dependent plot style table.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic719_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To convert a
+ color-dependent plot style table to a named plot
+ style table</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Type CONVERTCTB, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>In the Select File dialog box, select the color-dependent plot style table (.ctb file) that you want to convert.</cmd>
+      </step>
+      <step>
+        <cmd>Click Open.</cmd>
+      </step>
+      <step>
+        <cmd>Enter a name for the new named plot style table (.stb file).</cmd>
+      </step>
+      <step>
+        <cmd>Click Save.</cmd>
+      </step>
+      <step>
+        <cmd>The plot styles in the new table
+ are named Style 1, Style 2, and so on. To use
+ different plot style names,
+ rename the plot styles before youassignthem to objects and layers inyour drawing. Ifyou rename the plot styles after
+ assigning them, they will not matchwhen you print your drawing.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

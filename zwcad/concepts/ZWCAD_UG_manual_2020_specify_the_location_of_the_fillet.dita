@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7AA4356-8655341-1F2154A7D525A7E-55427A">
+  <title>Specify the Location of the Fillet</title>
+  <shortdesc>When the objects
+ to fillet are a line and an arc or a circle, there are several potential
+ fillets and system creates the fillet
+ with the endpoint of arc at the nearest the selected point. The location of
+ fillets depends on the place of the objects
+ you specify. As shown in the following picture:</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic361_image001.png" />
+      </fig>
+    </p>
+    <p>Select objects (A and B)</p>
+  </conbody>
+</concept>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1243686-513C4A1-214A7112714542E-15E9DD">
+  <title>Save to a Different Type of Drawing File</title>
+  <shortdesc>Choose the format
+ from Files Type in the Save Drawing As dialog box, you can save a drawing to an earlier version of the drawing format
+ (DWG) or drawing interchange format (DXF), or save a drawing as a template file.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can save a drawing with a new name and in any of the following file formats:</p>
+      <ul>
+        <li>Standard drawing files with a ".dwg" extension. You can choose a DWG
+ file format that is compatible with various versions
+ of AutoCAD.</li>
+        <li>Drawing Exchange Format files with a ".dxf" file extension. You can choose
+ a DXF file format that is compatible with various versions
+ of AutoCAD.</li>
+        <li>Drawing templates with a ".dwt" file extension.
+ Drawing templates allow you to easily create new drawings that reuse your
+ drawing settings and entities.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic65_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To save a drawing
+ with a new name or file format</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Save As from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Save Drawing
+ As dialog box, under Files of Type, choose
+ the file format.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the name of the file you want to create.</cmd>
+      </step>
+      <step>
+        <cmd>Click Save.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>You can also export
+ drawing files to various file formats.</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A717B4E5-4024534-F5A8F1359555A4D-B9F532">
+  <title>保存流程</title>
+  <shortdesc>在流程设计器中配置完成后，需要在按钮栏单击<b>保存</b>。</shortdesc>
+  <conbody>
+    <section>
+      <title>
+        <b>NOTE </b>流程配置并保存成功后，不会自动生效，需要手动启用流程。</title>
+      <p>管理流程 | <b>83</b></p>
+    </section>
+  </conbody>
+</concept>

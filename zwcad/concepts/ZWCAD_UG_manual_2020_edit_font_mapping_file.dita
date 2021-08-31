@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A456-8351453-C4F2147130AE3FA-B64591">
+  <title>Edit Font Mapping File</title>
+  <shortdesc>Font mapping file
+ is the list file for fonts and their
+ corresponding replace fonts. If the specified fonts can't be found in the
+ current system, you can obtain from a font mapping file to replace them with specified fonts.</shortdesc>
+  <conbody>
+    <p>Sometimes, to
+ ensure partial specific fonts or enable fonts conversion in the current
+ drawing, you can create font mapping
+ file with any text editor.</p>
+    <p>With these font
+ mapping files, you can stipulate and manage fonts uniformly or use themdirectly
+ when off-line printing. If
+ encountering font objects created by other fonts, you can s pecify replace
+ fonts to apply in platformthrough
+ font mapping. It's also available for users to set a font mapping file to
+ convert each font to the correspondingfont, for example, when editing drawings,
+ the SHX which is easy drawing can be used for replacing other fonts in
+ the drawing, and subsequently switched to more complex fonts when printing.</p>
+    <p>Font mapping
+ file is a type of common ASCII text file with an ext ension
+ name as .fmp, containing text</p>
+    <p>file name without
+ extensions or path in each line, the font file name with extension .ttf behind
+ the font file is replaced font, the
+ two file names are separated by a semicolon. The systemuses zwcad.fmp (used for ZWCAD only) as default font mapping
+ file. Any ASCII text editor is available for changing the text for replacing specified fonts fromthe
+ font mapping file.</p>
+    <p>For example, you
+ can input the following contents in font mapping file, to replace timesnr.pfb
+ font file with times.ttf
+ font file: timesnr;times.ttf.</p>
+    <p>If you can't find specified font file when
+ opening a drawing, the system determines how to find the replace
+ font specific to the font type (single
+ text, Mtext).</p>
+    <p>If the text is a single text,
+ the systemprocesses it with the following procedures:</p>
+    <ul>
+      <li>Search for replace
+ font file in ZWCAD .fmp file.</li>
+      <li>Iterate font style table, search for the font
+ file in the same format.</li>
+      <li>Use default font ZWCAD.fnt.</li>
+      <li>Pop-up font file dialog box, in which
+ user can specify replace font file, otherwise uses ZWCAD.fnt as the default
+ font.</li>
+    </ul>
+    <p>If big fonts are being
+ used, search for corresponding font files in font mapping
+ table (zwcad.alt).</p>
+    <p>Search for the
+ corresponding codepage in font mapping table (zwcad.ini), and then search for
+ replacing font file in font mapping table through this
+ codepage.</p>
+    <p>If the corresponding text can't be found no matter which font is applied, use the mapping
+ font file found in zwcad.ini, if still unfound,
+ use zwcad.fnt.</p>
+    <p>If a text object
+ is mtext, the systemhandles it by subsection through language set so as to
+ judge whether the font file corresponding to this font file is capable of
+ displaying this text object. If the font file
+ corresponding to this text object
+ doesn't exist in the current system, the text style corresponding to this text will be used for displaying this
+ text. Even if the text style corresponding to this text can't be found, Chinese systemwill take Song typeface as
+ default, while other language systems take current font style as default. If the corresponding font file
+ exists but not display, the system reads the specified font in systemconfigured file (zwcad.alt). If the
+ replacing font is corrupted or useless in some cases, the fonts will not be replaced.</p>
+  </conbody>
+</concept>

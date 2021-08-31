@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A122A435-835454A-F14AB79535C57FE-5637ED">
+  <title>Create Drawing Files for Use as Blocks</title>
+  <shortdesc>You can create
+ a block as a separate drawing file that you can insert into other drawings.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic555_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To save a block
+ as a separate drawing file</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the command line, type WBLOCK.</cmd>
+      </step>
+      <step>
+        <cmd>Under Source area, choose
+ one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Block: This option saves existing
+ block object to a separate drawing file. When
+ prompted, select an existing
+ block name from the pulldown
+ menu of this option.</cmd>
+        <info>
+          <p>Entire
+ drawing: This option immediately saves the entire drawing to a separate drawing file.</p>
+          <p>Objects: This option saves
+ those objects you select a separate drawing file. When prompted, specify the insertion point for the block,
+ andselect the objects for the block.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Under
+ Destination area, type the name of the drawing file you want to create and choose the
+ saved path.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>When saving the entire
+ drawing as a separate drawing
+ file, the program
+ assigns the 0,0,0 coordinate as the insertion base
+ point. You can change the base point by opening the drawing and redefining the block.</p>
+    </result>
+  </taskbody>
+</task>

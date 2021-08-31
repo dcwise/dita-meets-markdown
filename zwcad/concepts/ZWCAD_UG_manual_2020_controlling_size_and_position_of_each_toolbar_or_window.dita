@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A45-835E145-4AF2154A87D155C-7452D9">
+  <title>Controlling size and position of each toolbar or window</title>
+  <shortdesc>After starting
+ ZWCAD, you can fix or adjust position and size of each toolbar or window by
+ dragging. Software interface
+ includes toolbar, command
+ window, "Properties" palette,
+ "Quick Calculator" window,
+ "Design Center" window,
+ and so on.</shortdesc>
+  <conbody>
+    <p>Toolbars can be floating or fixed. The floating toolbar
+ locates in an arbitrary location
+ of the drawing area of ZWCAD window, can be dragged to its new
+ location, adjust its size or fixed. Fixed toolbar
+ attaches to any of the edges in the
+ drawing area. Once the toolbar is fixed, its size can't be adjusted. You can remove
+ the fixed toolbar
+ by dragging it to a new fixing
+ position.</p>
+    <p>When dragging the
+ command window, "Properties" palette and "DesignCenter"
+ window, buoys will be displayed in
+ the corners and center position of the drawing area. If not select buoys but
+ dragging the selected window to an arbitrary position
+ of the drawing area, the window
+ will be on floating state,
+ which users can adjust the size of the window based on the
+ actual needs. When clicking ononeof the anchored floats in the process of dragging, the location of the window
+ will be fixed to the top, bottomand left side</p>
+    <p>or right side of
+ a fixed region of ZWCAD window. At this time, the size of the window can be
+ adjusted in only one direction.</p>
+  </conbody>
+</concept>

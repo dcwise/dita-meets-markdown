@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA458313-4115A75-A791E55A224F8E9-48F27F">
+  <title>Draw 2D Isometric Views</title>
+  <shortdesc>With Isometric
+ Snap, you can create 2D objects that appear to be 3D solids.</shortdesc>
+  <conbody>
+    <p>By setting
+ Isometric Snap on the Draft Settings dialog boxand turning on Snap and Grid,
+ you can easily align objects along
+ one of three isometric planes. However, although the isometric drawing looks
+ like 3D, it is actually a 2D
+ representation. Therefore, you cannot extract distance and areas, display
+ objects from different viewports, or delete hidden
+ lines automatically.</p>
+  </conbody>
+</concept>

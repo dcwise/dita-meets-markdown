@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1251517-C415391-548709741551346-2E6890">
+  <title>查看组合产品的阶梯价格表</title>
+  <shortdesc>针对大型企业而言，每一个产品都会有不同的阶梯价格或者折扣。针对同一产品，在不同的组合产品下也会有不同的价格。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在产品列表页面，单击一个组合产品名称，进入该组合产品的详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>产品阶梯价格表</b>，进入产品阶梯价格表列表页面。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ugcpq_topic74_image002.png">
+          </image>
+        </fig>
+      </p>
+    </result>
+  </taskbody>
+</task>

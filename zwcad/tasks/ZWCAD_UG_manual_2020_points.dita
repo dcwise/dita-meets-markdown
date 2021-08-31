@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7568365-E51F215-4A7105A79E3A11F-35CD3E">
+  <title>Points</title>
+  <shortdesc>You can draw a point object formatted as either a single dot or as one of 19 other possible display
+ styles.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic247_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a point</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Point
+ &gt; Single Point
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the location of the point.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic247_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw several points</p>
+      <ol>
+        <li>Choose Draw &gt; Point &gt; Multiple Point from the mainmenu.</li>
+        <li>Specify the location of each point.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

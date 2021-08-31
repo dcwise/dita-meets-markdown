@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2A456-865E45C-4A1F4A8C15A791E-CB48E3">
+  <title>Creating composite solids</title>
+  <shortdesc>You can create
+ composite three-dimensional solids by combining,
+ subtracting, and finding the intersection of two or more solids.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic297_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ With UNION command, you can combine
+ the total volume
+ of two or more s olids or two or more regions
+ into a composite object.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic297_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To combine
+ solids</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids
+ Editing &gt; Union from the main menu.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic297_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the objects
+ to combine.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the objects to combine (A and B) The resulting
+ combined solid</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic297_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Use SUBTRACT to remove the common area of one set of solids fromanother.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic297_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To subtract
+ solids</p>
+      <ol>
+        <li>Choose Modify &gt; Solids Editing &gt; Subtract from the main menu.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic297_image005.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the objects
+ to subtract from one another.</li>
+      </ol>
+      <p>Select the objects to subtract (A and B) The resulting solid</p>
+      <p>INTERSECT command
+ creates a composite solid fromthe common volume of two or more overlapping solids. The common volume is used to
+ create composite solid and the non-overlapping portions will be removed.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic297_image006.png" />
+        </fig>
+      </p>
+      <p>Unlike
+ INTERSECT command, INTERFERE compares the objects
+ between two selected sets and creates a compositeentity with the common volume of
+ two or more solids without removing the original objects.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic297_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To intersect
+ solids</p>
+      <ol>
+        <li>Choose Modify &gt; Solids Editing &gt; Intersect from the main menu.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic297_image007.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the objects
+ to intersect.</li>
+      </ol>
+      <p>Select the objects to combine (A and B) The resulting combined solid</p>
+    </result>
+  </taskbody>
+</task>

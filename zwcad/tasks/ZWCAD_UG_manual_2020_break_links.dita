@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1365E14-C41F54A-81059E357CD83A9-6C2A47">
+  <title>Break Links</title>
+  <shortdesc>Select Break
+ links option in Links dialog box, OLE objects in ZWCAD drawing will not be
+ removed rather than its links. Thus, the OLEobject never
+ updates when changing its source.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic743_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To link a file to a ZWCAD drawing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Save the original file. Because a linkconsists of a reference to the original
+ file, you must save the file
+ before you canlink
+ to it.</cmd>
+      </step>
+      <step>
+        <cmd>In the original file, select the data youwant
+ in the ZWCAD drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Choose that program's command
+ to place data on the Clipboard. Usually,
+ you choose Edit
+ &gt; Copy from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Display the ZWCAD drawing to whichyou
+ want to link the file.</cmd>
+      </step>
+      <step>
+        <cmd>In ZWCAD, choose Edit &gt; Paste Special
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Paste Special
+ dialog box, select Paste Link.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

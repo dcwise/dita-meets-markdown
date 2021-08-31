@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7143581-44A1F21-51A9135ABD914D9-449188">
+  <title>Stretch Objects</title>
+  <shortdesc>You can change
+ the size of objects by stretching them. When you stretch objects, you must
+ select the objects using either a
+ crossing window or a crossing polygon. You then specify a displacement distance or select a base point and a
+ displacement point. Objects that cross the window or polygon boundary are stretched; those completely
+ within the crossing window or crossing
+ polygon are simply moved.</shortdesc>
+  <taskbody>
+    <context>
+      <p>STRETCH stretches
+ arcs, elliptical arcs,
+ lines, polyline segments, 2D solids, rays, traces,
+ and splinesthat cross the selection window.</p>
+      <p>STRETCH moves
+ only endpoints within the selection window, leaving those outside unchanged.
+ The polyline is treated as the
+ composition of line straight and arc when being stretched. STRETCH does not affect
+ 3D solids, polyline
+ width, tangent or curve-fitting information.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic345_image001.png" />When stretching objects, you have to
+ specify a base point and displacement point. You should use crossing
+ selection to select the desired
+ objects. With using grip edition,
+ you can also stretch objects.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic345_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To stretch an object</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Stretch
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the
+ objects using either a crossing
+ window or a crossing polygon, and
+ then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the base point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second point of displacement.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic345_image003.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>To stretch objects,
+ select them using a crossing
+ window (A) or crossing polygon,
+ and then specify
+ the base point (B) and displacement point (C)</p>
+      <p>To stretch an object using grips, you select
+ it to display its grips and then select a grip to make it the</p>
+      <p>active grip. This becomes
+ the base point. Then you move the active grip to a new location.
+ The grip you</p>
+      <p>select depends on the type of object you're modifying. For example, to
+ stretch one corner of a rectangle, select the corner
+ point grip.</p>
+      <p>To stretch a line, select
+ an endpoint grip. Not all objects can be stretched using grips.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic345_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To stretch
+ an object using grips</p>
+      <ol>
+        <li>Select the object.</li>
+        <li>Clicka grip to activate it.</li>
+        <li>Drag the grip.</li>
+        <li>Clickto release.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic345_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>To stretch
+ an object using grips, select the object (A), select
+ a grip (B), and drag the grip to its new location (C)</p>
+    </result>
+  </taskbody>
+</task>

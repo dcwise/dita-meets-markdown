@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A717BE75-7D04534-1F2147C197450A8-A3CB22">
+  <title>查看所有审批</title>
+  <shortdesc>用户可以查看所有与自己相关的审批，包括自己提交的和需要自己审批的。通过办公下的流程工作台进入到审批列表中。</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/SAMPLE_topic29_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>在审批列表中可以查看所有与自己相关的审批。</p>
+    <p>
+      <image href="../graphics/SAMPLE_topic29_image004.png" />
+    </p>
+  </conbody>
+</concept>

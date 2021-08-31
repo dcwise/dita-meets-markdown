@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122836-E153C41-15105A71537CDA1-B26427">
+  <title>Link OLE Objects in Drawings</title>
+  <shortdesc>If another programsupports ActiveX, you can link its data to ZWCAD drawings.
+ Use linking when you</shortdesc>
+  <taskbody>
+    <context>
+      <p>want to include
+ the same data in many files. When you update the data, all links to other files
+ reflect the changes.</p>
+      <p>When you link
+ data fromanother program, the ZWCAD drawing stores only a reference to the
+ location of the file in which you
+ created the data. You link data from a saved file, so ZWCAD can find the data and display
+ it.</p>
+      <p>Because linking
+ adds only a reference to a file, the data does not significantly increase
+ the file size of the ZWCAD
+ drawing. However, links require some maintenance. If you move any of the linked
+ files, you need to update the links.
+ In addition, if you want to transport linked data, you must include all linked files.</p>
+      <p>You can update a
+ linked object automatically every time you open the drawing, or you can do so
+ only when you specify. Anytime a link
+ is updated, changes made to the object in its original file also appear in the ZWCAD drawing, and the changes also
+ appear in the original file if they
+ were made through ZWCAD.</p>
+      <p>Insert an OLE
+ object together with links to update its displaying in drawings through
+ changing source objects. For example, you may
+ be required to insert
+ a time table into an automatic update drawing.</p>
+      <p>When inserting
+ OLE objects, you can display the object as an icon, thus you can activate
+ applications which are supportive of this object
+ by double clicking
+ this icon.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic740_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a linked object fromwithin
+ ZWCAD</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose <b>Insert &gt; OLE Object
+ </b>from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the <b>Insert Object </b>dialog
+ box, click <b>Create From File</b>.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the file by doing one of the following:</cmd>
+        <substeps>
+          <substep>
+            <cmd>Type a path and file name in the File box.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click Browse to select the file using a file dialog box.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Select the <b>Link check box</b>.</cmd>
+      </step>
+      <step>
+        <cmd>Select <b>Display As Icon </b>if
+ you want that program's icon to appear
+ in the drawing instead of the data.</cmd>
+      </step>
+      <step>
+        <cmd>Click <b>OK</b>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A74335E4-1124A87-D171E518BD271AD-5EC748">
+  <title>Rotate Objects</title>
+  <shortdesc>You can rotate the selected
+ objects around a specified point.</shortdesc>
+  <conbody>
+    <p>You can specify the rotated angle by specifying a point on the drawing
+ or entering the angle value directly. The direction that objects rotate
+ depends on the value
+ you enter is positive or negative. The rotated
+ plane and direction of zero angles is determined by the azimuth
+ of UCS.</p>
+  </conbody>
+</concept>

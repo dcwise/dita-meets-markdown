@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA224583-E13411A-8781159E5F3E7E9-CACDD7">
+  <title>Improve the Display Speed of Raster Images</title>
+  <shortdesc>The display quality of images may affect its properties
+ directly, the higher
+ the quality, the longer is displayed. Any changes to the image display speed
+ will be updated immediately rather than redraw the drawing. Systemplots the drawing at its high quality.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can adjust the display speed
+ by setting the raster image quality. The image quality
+ is sorted into high and draft levels, If the quality is set to
+ draft, the image will be displayed with some granular materials, however with
+ faster display speed.</p>
+      <p>If the attached
+ raster image uses true color (24 or 32 bit each pixel), you can adjust relevant
+ options in Display tab on Options
+ dialog boxso as to improve the image quality. The systemtakes a long time to redraw
+ the drawing when it displayed at high quality.
+ To improve the capability, it's suggested to reduce the color
+ number set at the display
+ option.</p>
+      <p>In purpose of improving the redraw speed,
+ you can hide the undesired images in current drawing operations through Show image option on the Properties palette. The hidden image will be neither displayed on the screen nor plotted, only displayed as a boundary. To hide an image, you may ignore
+ the UCS of the current
+ viewport.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic656_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change the quality of all images in a drawing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Object
+ &gt; Image &gt; Quality from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Type H (High) to use high-quality images.</cmd>
+      </step>
+      <step>
+        <cmd>Type D (Draft) to use draft quality images,
+ which require smaller
+ amounts of system resources.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Use Tiled Images</p>
+      <p>The tiled image
+ is a series of small parts of large images. Loading tiled images is faster than
+ loading those untiled images due to
+ the tiled images redraws its modified parts to save time in loading images. ZWCAD supports TIFF for tiled image file format which is also available for bitonal gray
+ (1 bit per pixel) and indexcolor (8 bit per pixel), true color (24 or 32 bit per pixel).</p>
+      <p>Tiled TIFF images
+ can be saved by image scanners. But you must limit the pixel within the range
+ 64 × 64 to 512 × 512 when tiling
+ images. You can get programs that support other tiled file formats from the third-party programdeveloper.</p>
+      <p>Suppress Highlighting When Selecting Images</p>
+      <p>Generally, the
+ image will be highlighted
+ once selected. Set the "Highlight raster image frame only" option in "Display" tab on
+ "Options" dialog box to turn on or off the highlight mode for the
+ specified raster image. Besides,
+ systemvariable IMAGEHLT is also available for controlling the highlight mode of the image frame. Set the IMAGEHLT to 0,
+ only highlight the frame of the raster image. You should turn off highlight mode for the whole drawing so as to improve
+ the capabilities of your computer.</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BD7510-2A43215-F215C2525755E26-484BE4">
+  <title>配置通用选项集的依赖关系</title>
+  <shortdesc>遵循以下步骤，配置通用选项集之间的依赖关系：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在 【通用选项集列表】页面，单击<b>选项集依赖关系</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【通用选项集依赖关系】页面，单击<b>新建选项集依赖关系</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【新建选项集依赖关系】页面，设置控制选项集和依赖选项集。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic26_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>下一步</b>，配置选项集之间的依赖关系。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic26_image004.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

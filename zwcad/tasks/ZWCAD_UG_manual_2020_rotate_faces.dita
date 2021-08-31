@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12A35-635E145-1F2AA5579153163-09A6AD">
+  <title>Rotate Faces</title>
+  <shortdesc>You can use SOLIDEDIT to rotate the selected face of the specified 3D solid around
+ a rotation axis. You can specify two points on the drawing or
+ select an existing line as the rotation axis. X, Y or Z axis , as well as the Z direction
+ of the current
+ view, could be used as the rotation
+ axis too.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The systemrotates faces at the specified angle on the current UCS, which the angle direction
+ is stored in the systemvariable ANGDIR.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic418_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To rotate a solid face</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing &gt; Rotate Faces from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the face(s) to rotate, and press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a base point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify another point on the rotationaxis.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the rotation angle.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic418_image002.png" />
+      </p>
+      <p>Left: Specify the face(s) to rotate (A),
+ the base point (B), the second point on tapered the rotation axis (C), and
+ a rotation angle.</p>
+      <p>Right: The resulting object with the face to position (D)</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A436-83645A1-12154A79E3A6B86-457DBA">
+  <title>Donuts</title>
+  <shortdesc>Donuts are solid,
+ filled circles or rings created as closed, wide polylines. You can draw a donut
+ using several ways. The default
+ method is to specify the inside and outside diameters of the donut and then specify its center. You can then create
+ multiple copies of the same donut by specifying different center points until
+ you press Enter
+ to complete the command.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Similar to the way of drawing
+ circle, donuts are closed polylines with certain width with or without
+ fill. The systemvariable FILLMODEcontrols whether
+ to fill the donut or not.</p>
+      <p>If systemvariable FILLMODE is set to 1, to create filled donuts; if systemvariable FILLMODE is set
+ to 0, to create donuts
+ without filling.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic268_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a donut, you specify its
+ inside and outside diameters and its center. You can continue creating multiple copies with the same diameter
+ by specifying different
+ center points. To create solid-filled circles, just assign the same value for the inside radius and outside radius.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic268_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a donut</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Donut from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the inside diameter
+ of the donut.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the outside diameter
+ of the donut.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the center of the donut.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic268_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the center point to draw another
+ donut, or press Enter to complete the command.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Inside diameter (A) and outside diameter
+ (B)</p>
+    </result>
+  </taskbody>
+</task>

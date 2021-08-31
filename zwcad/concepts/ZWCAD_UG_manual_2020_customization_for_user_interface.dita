@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B2A435-836153C-4A1F154A1027153-122EE8">
+  <title>Customization for User Interface</title>
+  <shortdesc>Abundantcustomization is provided for users included
+ following elements:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Workspaces</li>
+      <li>Quick Access Toolbars</li>
+      <li>Ribbon</li>
+      <li>Toolbar</li>
+      <li>Menus</li>
+      <li>Shortcut Menus</li>
+      <li>Keyboard Shortcuts</li>
+      <li>LISP Files</li>
+      <li>Partial Customization Files</li>
+    </ul>
+    <p>Input ‘CUI’ command to access the Customize User Interface and make
+ relevant modification base on user’s preference. For example customize
+ a brand new toolbar only with functions you need, changeicon of a function, add or reduce
+ features on the ribbon.</p>
+  </conbody>
+</concept>

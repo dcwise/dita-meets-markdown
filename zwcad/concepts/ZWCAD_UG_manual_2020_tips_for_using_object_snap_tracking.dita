@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A43-365E145-4F2154AFA91E3A6-6B8A28">
+  <title>Tips for Using Object Snap Tracking</title>
+  <shortdesc>With AutoTrack
+ is on, you may try the following techniques:</shortdesc>
+  <conbody>
+    <ul>
+      <li>When you set Perpendicular,
+ Endpoint, and Midpoint object snap and turn on object snap tracking
+ mode, you can easily draw to point perpendicular to the end or midpoint
+ of an object.</li>
+      <li>Object snap tracking works in
+ conjunction with temporary tracking points. At a point prompt, enter it and specify a temporary tracking
+ point. A small + is displayed at the point. When you move the cursor, the tracking alignment paths are displayed relative
+ to the temporary point. To delete this point, move
+ the cursor back over the +.</li>
+      <li>After acquiring a point, you can specify a
+ point at precise distances along alignment paths from the acquired point.</li>
+      <li>You can use the Automatic and
+ Shift to acquire options set on the Drafting tab of the Options dialog boxto manage point acquisition. By
+ default, point acquisition is set to Automatic. When working in close quarters, you can press
+ SHIFT to temporarily avoid acquiring a point.</li>
+    </ul>
+  </conbody>
+</concept>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7235661-453C4A1-F154A75A9135A1A-7D6A98">
+  <title>Overview of Lineweights</title>
+  <shortdesc>Lineweights help
+ differentiates the purpose of one line from another. Lineweights determine how
+ thick or thin entities appear
+ both on the screen and
+ when printed.</shortdesc>
+  <conbody>
+    <p>By default, each drawing has three main lineweights: DEFAULT, BYLAYER, BYBLOCK, and many
+ additional lineweights in millimeters (or you can use inches).</p>
+    <p>When you create
+ an entity, it is created using the current lineweight. By default, the current
+ lineweight for a new entity is
+ BYLAYER. This means that the entity lineweight is determined by the current
+ layer. When you assign BYLAYER, changing a layer's lineweight changes the
+ lineweight of all the entities assigned that layer (if they were created using
+ the lineweight BYLAYER).</p>
+    <p>You can also
+ select a specific lineweight (or DEFAULT) as the current lineweight, which
+ overrides the layer's lineweight
+ setting. Entities are then created using that lineweight (or the DEFAULT
+ lineweight), and changing the layer lineweight has no effect
+ on them.</p>
+    <p>As a third
+ option, you can use the lineweight BYBLOCK property, in which case new entities are drawn using the DEFAULT
+ lineweight until you group theminto a block.</p>
+    <p>The entities
+ then inherit the block's lineweight setting when you insert the block into a drawing.</p>
+    <p>If you choose a lineweight
+ that is less than .025
+ millimeter, it displays
+ as one pixel when you create your drawing. When
+ you print your
+ drawing, it prints
+ at the thinnest lineweight that is available
+ for your printer.
+ You cannot assign
+ lineweights to planes,
+ points, TrueType fonts,
+ or raster images.</p>
+  </conbody>
+</concept>

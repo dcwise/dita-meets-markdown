@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA124353-143C411-F54A8A353791E59-3FB641">
+  <title>Use Unicode and Big Fonts</title>
+  <shortdesc>ZWCAD supports
+ the Unicode character-encoding standard. A Unicode font contains 65,535
+ characters and shapes for many languages. You can enter characters that are not available fromthe
+ keyboardthrough escape sequence. The escape sequence
+ is of \U+nnnn, where “nnnn”
+ represents the Unicode
+ hexadecimal value for the character. All of SHX shape fonts
+ are Unicode fonts.</shortdesc>
+  <conbody>
+    <p>ZWCAD also
+ supports the big font in order to accommodate alphabet text files consisted of
+ thousands of ASCII
+ characters.</p>
+    <p>When you use
+ –STYLE command to specify fonts, you can specify two fonts separated by a
+ comma. The first one is common font and the
+ second is a big font. The specification is shown as follows: (specify
+ font and big font on the command
+ line)</p>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1"> Enter this ... </entry>
+            <entry colname="col2"> To specify this ... </entry>
+          </row>
+          <row>
+            <entry colname="col1"> [font name],[big font name] </entry>
+            <entry colname="col2"> Both normal fonts and Big Fonts </entry>
+          </row>
+          <row>
+            <entry colname="col1"> [font name], </entry>
+            <entry colname="col2"> Only a normal font (Big Font unchanged) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> ,[big font name] </entry>
+            <entry colname="col2"> Only a Big Font (normal font unchanged) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> [font name] </entry>
+            <entry colname="col2"> Only a normal font (Big Font, if any, removed) </entry>
+          </row>
+          <row>
+            <entry colname="col1"> ENTER (null response) </entry>
+            <entry colname="col2"> No change </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>You should not enter a long file name consisted of commas. The comma is interpreted as a separator.</p>
+  </conbody>
+</concept>

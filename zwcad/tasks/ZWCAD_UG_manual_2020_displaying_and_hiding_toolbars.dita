@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B12483-53C41F2-154AF525C744747-E11B45">
+  <title>Displaying and hiding toolbars</title>
+  <shortdesc>When you start
+ ZWCAD classic interface at the first time, multiple toolbars are displayed.
+ ZWCAD provides more than a dozen toolbars,
+ which you can customize by adding and deleting tools in both</shortdesc>
+  <taskbody>
+    <context>
+      <p>classic and ribbon interfaces. You can also move and resize toolbars, and you can create new toolbars. You can use a shortcut menu to display
+ or hide toolbars.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic17_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To choose which toolbars to display</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Execute <b>TOOLBAR </b>command to open the <b>Select Toolbars
+ dialog box</b>.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the toolbars youwant to display, andthen click <b>OK</b>.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>TIP Right-clickanywhere on a docked toolbar to display the toolbar shortcut menu, and then choose Toolbars.</p>
+    </result>
+  </taskbody>
+</task>

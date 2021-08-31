@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12435-8365E14-53A11548C5A71E5-3A7FD2">
+  <title>Understanding how coordinates are displayed</title>
+  <shortdesc>The current position
+ of the cursor is displayed as x,y,z coordinates in the
+ status bar and, by default,
+ updates dynamically as you move the cursor. You can toggle the coordinate display to thestatic
+ mode by pressing
+ F6 so that it updates
+ only when you select a point in the drawing.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

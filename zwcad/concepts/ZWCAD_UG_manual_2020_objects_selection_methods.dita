@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72A33E4-CA11548-7D505A7955A696A-2C2790">
+  <title>Objects selection methods</title>
+  <shortdesc>When you choose a command that
+ requires you to select objects
+ (when you're deleting
+ or changing object
+ properties, for example), you can use any of the following selection
+ methods by choosing them at the command line prompt or entering themin
+ the command bar:</shortdesc>
+  <conbody>
+    <ul>
+      <li>
+        <b>Window </b>Selects objects contained entirely
+ within a rectangular selection window.</li>
+      <li>
+        <b>Last </b>Selects the last selected object.</li>
+      <li>
+        <b>Crossing </b>Selects all objects
+ contained within or crossing the boundary of a rectangular selection window.</li>
+      <li>
+        <b>BOX </b>Selects all objects inside or crossing
+ a rectangle defined
+ by two points.</li>
+      <li>
+        <b>ALL </b>Selects all objects in the current
+ drawing.</li>
+      <li>
+        <b>Fence </b>Selects all objects crossing
+ a selection box.</li>
+      <li>
+        <b>WPolygon </b>Selects all objects inside
+ a defined polygon.</li>
+      <li>
+        <b>CPolygon </b>Selects all objects within or crossing
+ a polygon defined by specifying points.</li>
+      <li>
+        <b>Group </b>Selects all objects in the specified
+ group.</li>
+      <li>
+        <b>Add </b>Adds one or more objects
+ to the selection set.</li>
+      <li>
+        <b>Remove </b>Removes one or more objects fromthe selection set.</li>
+      <li>
+        <b>Multiple </b>Selects multiple objects and highlights them.</li>
+      <li>
+        <b>Previous </b>Selects the previous selection
+ set.</li>
+      <li>
+        <b>Auto </b>Switches to the "Auto" mode. Pointing to an object means selecting
+ the object.</li>
+      <li>
+        <b>SIngle </b>You can only select an object for each time.</li>
+    </ul>
+  </conbody>
+</concept>

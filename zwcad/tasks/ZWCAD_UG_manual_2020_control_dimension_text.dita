@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A356-E4C4112-48A10715951C59D-EBBA8F">
+  <title>Control Dimension Text</title>
+  <shortdesc>You can control
+ the settings affecting the appearance of dimension text. Any changes you make
+ af ect the current dimension style.
+ The preview frame on the upper right corner of the Modify
+ Dimension Style dialog boxshows the appearance of the dimensions based on the current dimension style settings.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Fit Dimension Text Within Extension Lines</p>
+      <p>When there is notenough
+ space between extension
+ lines to accept
+ both of dimension
+ text and arrowheads, you have to adjust one or both of their placement. By default,
+ the systemfits thembest depending on the available space.
+ You can also specify other methods to place themon
+ the Fit tab of the Modify Dimension
+ Style dialog box. If there is no roomfor placing text and arrowheads,
+ however, you want to keep them together,
+ and then they are both placed outside. If there is room for only text or
+ arrowheads, you can specify either
+ text only or arrowheads only to be placed between
+ the extension lines.</p>
+      <p>You can also choose the "Place text manually when dimensioning" option to
+ place dimension text manually.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic493_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The following illustrations show how systemapplies a "best fit"
+ for arrowheads and text.</p>
+      <p>If there is no space for text between
+ the extension lines,
+ the systemcreates a leader automatically to place text. You
+ can set the relationship between them on the Text tab of the Modify Dimension
+ Style dialog box.</p>
+      <p>If you choose the
+ "Always draw the dim line between ext lines" option on the Fit tab of
+ the Modify Dimension Style dialog box, the
+ systemcreates a line between the extension lines as dimension
+ line even if neither the arrowheads nor the text is outside
+ of the extension lines. Shown
+ as follows</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic493_image002.png" />
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic493_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To format dimensions</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Style.</cmd>
+      </step>
+      <step>
+        <cmd>In the Dimension
+ Style Manager dialogbox, select the style youwish to change and choose Modify.</cmd>
+      </step>
+      <step>
+        <cmd>In the Modify Dimension
+ Style dialog box, click the Fit tab.</cmd>
+      </step>
+      <step>
+        <cmd>In Fit Options and Text Placement, select an option.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Choose Close to exit.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>You can also specify how dimension text
+ and arrows are arranged using the DIMATFIT system variable. You can specify how dimension text
+ is moved using the DIMTMOVE
+ systemvariable.</p>
+    </result>
+  </taskbody>
+</task>

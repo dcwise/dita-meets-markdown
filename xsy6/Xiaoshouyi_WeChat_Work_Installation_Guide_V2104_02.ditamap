@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd"[
+
+<!-- Begin Document Specific Declarations -->
+<!-- End Document Specific Declarations -->
+
+]>
+<bookmap xml:lang="zh-CN" id="bookmap-1">
+  <title>Xiaoshouyi_WeChat_Work_Installation_Guide</title>
+  <bookmeta>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-08-18"/>
+    </critdates>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc />
+    </booklists>
+  </frontmatter>
+  <chapter href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_xiaoshouyi_wechat_work_installation_guide.dita" />
+  <chapter href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_声明.dita" />
+  <chapter href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_阅读指南.dita" />
+  <chapter href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_第一章_概述.dita">
+    <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_主题.dita" />
+  </chapter>
+  <chapter href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_第二章_销售易老客户安装应用的方法.dita">
+    <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_主题1.dita" />
+    <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_安装方法概述.dita" />
+    <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_通过企业微信第三方市场安装.dita" />
+    <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_通过销售易系统自建应用安装.dita">
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_前提条件.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_安装标准应用.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_安装自定义应用.dita" />
+    </topicref>
+    <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业管理员需要进行的其他配置.dita">
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_开启通讯录同步_可选.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户的映射关系_必须.dita" />
+      <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户权限_可选.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业微信后台配置可信域名_必须.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业微信后台配置单点登录_开启单点登录时必须.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业微信后台配置接收消息_以自建应用方式安装标准应用时必须.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_销售管理应用的配置说明.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_第三章_销售易新客户安装应用的方法.dita">
+    <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_主题2.dita" />
+    <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_安装步骤.dita" />
+    <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业管理员需要手动进行的配置.dita">
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_开启通讯录自动同步功能.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_补充部门信息_不建议通过此方式配置.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_补充用户信息_不建议通过此方式配置.dita" />
+      <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户权限.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_第四章_销售易企业微信应用取消授权的方法.dita">
+    <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_主题3.dita" />
+    <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_取消授权步骤.dita" />
+    <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业管理员需要手动进行的配置1.dita">
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_解绑用户的映射关系.dita" />
+      <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_解绑企业与销售易租户的映射关系.dita" />
+    </topicref>
+  </chapter>
+  <chapter href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_第五章_关于销售易企业微信应用的其他说明.dita">
+    <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_主题4.dita" />
+    <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_关于通讯录修改方式的说明.dita">
+      <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_修改方式.dita" />
+      <topicref href="concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_用户状态变更的处理说明.dita" />
+    </topicref>
+    <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_关于销售易企业微信应用升级的说明.dita" />
+    <topicref href="tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_关于应用业务扩展的说明.dita" />
+  </chapter>
+</bookmap>

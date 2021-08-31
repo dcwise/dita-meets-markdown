@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B122A3-5154112-1475745287A5A09-912CE5">
+  <title>Restore a Named View</title>
+  <shortdesc>With the -VIEW Restore, you can restore a named view to the current view. Named
+ views can be used to do the following:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Restore views on the model space viewport
+ or layout viewport.</li>
+      <li>Specify the area to
+ the plot.</li>
+      <li>Determined which model space view is displayed
+ when opening the drawing.</li>
+    </ul>
+    <p>You can specify a layout view when you open
+ the drawing only if you save the drawing from that specified layout tab.</p>
+  </conbody>
+</concept>

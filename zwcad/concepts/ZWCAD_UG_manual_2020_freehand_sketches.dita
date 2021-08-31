@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7124358-61453A1-F21715735A3613C-9153EE">
+  <title>Freehand Sketches</title>
+  <shortdesc>A freehand sketch
+ consists of many straight line segments, created either as individual line
+ objects or as a polyline. Before
+ you begin creating a freehand sketch, you must set the length, or increment, of
+ each segment. The smaller the
+ segments, the more accurate your sketch, but segments that are too sma l can greatly increase
+ the file size.</shortdesc>
+  <conbody>
+    <p>After you specify
+ the length of the sketch segments, move a pointing device to the drawing area
+ on the screen and then right-click or enter p (pen) to begin sketching.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic250_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Your freehand sketch is not added
+ to the drawing until you "Record" the sketch into your drawing. This means that you temporarily save the
+ segment that you've drawn and the segment length, and you can't continue sketching
+ until you select
+ eXit or press
+ Enter.</p>
+  </conbody>
+</concept>

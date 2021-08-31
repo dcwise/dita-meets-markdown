@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2A536-5E153C1-1F25A71755A7915-14C355">
+  <title>Rays</title>
+  <shortdesc>A ray is a line in three-dimensionalspace that starts at a point and extends
+ to infinity. Because
+ rays extend to infinity, they are not calculated as
+ part of the drawing extents. The default method for drawing a ray is to select
+ the start point of the ray and then specify
+ its direction.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic235_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw
+ a ray</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Ray from
+ the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the direction.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the command, press
+ Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic235_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Start
+ point (A) and direction (B).</p>
+    </result>
+  </taskbody>
+</task>

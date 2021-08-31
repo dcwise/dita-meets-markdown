@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A483-6E1453C-4121587C145B515-5ACFB2">
+  <title>Entering cylindrical coordinates</title>
+  <shortdesc>When working in
+ three-dimensional space, you can also use cylindrical coordinates to specify a
+ three- dimensionalpoint. You specify
+ a point by entering its distance fromeither the origin (absolute distance) or the last point (relative distance), its angle in the xy plane,
+ and its z coordinate value.</shortdesc>
+  <conbody>
+    <p>In cylindrical
+ format, you separate the distance and angle with the open angle bracket (&lt;)
+ and separate the angle and z value
+ with a comma. For example, to draw a line from the last point to a point 7.4750 units away, at an angle of 27 degrees from
+ the x-axis in the xy plane and 3 units up in the z-direction, start the Line command, and then respond
+ to the prompts as follows:</p>
+    <p>Specify the first point: Press ENTER </p>
+    <p>Specify the next point or [Angle/Length/Undo]: @7.4750&lt;27,3
+ </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic208_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>When you draw a line from a start point (A)
+ to an endpoint (B) using
+ cylindrical coordinates, you specify its length (C, in this
+ case 7.4750), the angle in the xy plane (D, in this
+ case 27 degrees), and the distance in the z-direction (E, in this case 3 units).</p>
+  </conbody>
+</concept>

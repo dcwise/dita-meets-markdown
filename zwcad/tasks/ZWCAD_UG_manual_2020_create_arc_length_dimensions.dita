@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122435-685145C-A11F2158B155A79-E535B1">
+  <title>Create Arc Length Dimensions</title>
+  <shortdesc>Arc length
+ dimension is available for measuring the arc length of arc or polyline arc
+ segment. ZWCAD creates arc length
+ dimension by specifying extension line position directly after selecting arc by
+ default. And use an arc symbol as
+ arc length dimension logo, which is differing from the linear dimension and angular dimension.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Arc symbol of arc
+ length dimension displays both in front of the dimension text and above it,
+ which is adjustable from "Other
+ Items" tab either in "New Dimension Style" dialog box or
+ "Modify Dimension Style" dialog box.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic526_image001.png" />
+        </fig>
+      </p>
+      <p>Additionally, orthogonal or radial extension line is available
+ for arc length dimension, only the included
+ angle of the arc segment
+ selected for creating
+ arc length dimension
+ is smaller than 90 degrees
+ can display its orthogonal extension line.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic526_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create an arc length dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Arc Length from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select an arc or polyline arc segment.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a point to position the arc length dimension.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

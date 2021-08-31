@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A71A4583-E3C4A1F-24A875752B74FA4-339FE8">
+  <title>Update the Display</title>
+  <shortdesc>New objects automatically apply the current
+ settings to displays of solid fill and text. Except for lineweights, you must use the REGEN command to update the display of existing objects.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

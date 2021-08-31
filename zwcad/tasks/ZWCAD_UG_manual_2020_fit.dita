@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7124536-E45CA12-154A8D1A515A7C4-17962E">
+  <title>Fit</title>
+  <shortdesc>You can create an arc-fit
+ polyline, a smooth
+ curve joining each pair of vertices. The curve passes
+ through all vertices of the polyline.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic379_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To fit a curve to a polyline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Object &gt; Polyline from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the polyline.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type F (Fit).</cmd>
+      </step>
+      <step>
+        <cmd>On
+ the command line, type another
+ option, or press
+ Enter to complete the command.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

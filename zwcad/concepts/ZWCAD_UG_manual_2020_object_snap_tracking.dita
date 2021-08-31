@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12243-8365E45-A215A8F757153A6-8B8AD8">
+  <title>Object Snap Tracking</title>
+  <shortdesc>You must set an
+ object snap and turn the object snap model on before you can track from an
+ existing object's snap point.</shortdesc>
+  <conbody>
+    <p>Object snap
+ tracking can track along alignment paths that are based on object snap points
+ and display tooltips at the acquired
+ points. After you acquire a point, horizontal, vertical and polar alignment
+ paths relative to the point are displayed when the cursor moves
+ over their drawing
+ path. For example,
+ you can specify a point along a path that is based on an object endpoint
+ or midpoint or an intersection between objects.</p>
+    <p>In the following
+ picture, the Endpoint object snap is on. You create a line by clicking its
+ start point (1), move the cursor over
+ another line's endpoint (2) to acquire
+ it, and then move the cursor along
+ the horizontal alignment path to locate the endpoint you want for the line you are drawing.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic134_image001.png" />
+      </fig>
+    </p>
+    <p>By default,
+ the object snap tracking is set to Orthogonal.
+ Alignment paths and tooltips are displayed at 0, 90, 180,
+ and 270 degrees fromacquired object points. However,
+ you can use polar tracking
+ angles instead on the Polar
+ Tracking tab in the Drafting
+ Settings dialog box.</p>
+    <p>You can also use
+ systemvariable TRACKPATH to control the display of polar and object snap
+ tracking alignment paths.</p>
+  </conbody>
+</concept>

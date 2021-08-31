@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122366-5E145F1-54A8F52C744EFA6-4ED915">
+  <title>Quick Access Toolbar</title>
+  <shortdesc>Display the
+ buttons of nine frequently used tools, which are: New, Open, Save, Save As, Plot, Plot
+ Preview, Undo, Redo and Help. And the workspace switch
+ drop-down list.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic11_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>Quick Access Toolbar</p>
+  </conbody>
+</concept>

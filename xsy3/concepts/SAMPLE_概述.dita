@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A4A74043-6A12154-A7557128CC84444-47740D">
+  <title>概述</title>
+  <shortdesc>在企业的日常工作中，很多业务都是通过流程进行驱动，而审批流是业务流程中最常见的一种。例如，合同、订单的分级审批、出差审批、报销审批。</shortdesc>
+  <conbody>
+    <p>不同业务的审批流程不同，而且随着业务的发展，同一业务的审批流程也会发生变化。所以，为快速满足企业的变化和发展，能够及时、高效地在现有系统中对现有审批流程进行变更，或者创建新的流程就显得非常重要。</p>
+    <p>基于销售易 PaaS 平台的流程配置工具，可以快速配置个性化的审批流程。</p>
+    <p>快速了解审批流的配置 | <b>3</b></p>
+  </conbody>
+</concept>

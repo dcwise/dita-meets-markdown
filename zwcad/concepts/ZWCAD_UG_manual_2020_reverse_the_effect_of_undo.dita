@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A4-3565145-3C4A11F24A875BA-7E596B">
+  <title>Reverse the Effect of Undo</title>
+  <shortdesc>You can use REDO to reverse
+ the effects of previous UNDO or U command. This command is equivalent to the REDO button
+ on the Standard toolbar.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

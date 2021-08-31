@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A122A365-E143A15-8716545A79135A4-C63525">
+  <title>Change the Default Elevation</title>
+  <shortdesc>The CHANGE
+ command is used to specify an elevation and thickness of extrusion for a new object. You can define
+ a drawing plane
+ of the current UCS by establishing the current elevation, which can be applied to individual viewports in conjunction
+ with the system variable UCSVP. Whether a UCS is saved or restored in each viewport are determined
+ by this variable. When UCSVP is set to 1, the different UCS settings are saved in individual viewports,
+ and the elevation settings are saved along with each viewport both in model space
+ and in paper space layouts.</shortdesc>
+  <conbody>
+    <p>Generally, the
+ elevation is set to 0, and you can control the XY plane of the current UCS
+ using UCS command.</p>
+  </conbody>
+</concept>

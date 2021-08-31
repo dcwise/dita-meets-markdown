@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A22A43-5686E14-C4A1F2154871D5A-913571">
+  <title>Plot Styles</title>
+  <shortdesc>A plot style includes
+ properties such as lineweight, color,
+ hatch pattern, which controls how an object or layer is plotted.
+ The Plot Style Manager shows all the plot style tables available in ZWCAD.</shortdesc>
+  <conbody>
+    <p>There are two
+ plot style types: color-dependent and named. Use only one type of plot style
+ table for plotting a drawing each time.</p>
+    <p>For color-dependent
+ plot style tables, an object's color determines how it is plotted. With an extension of .ctb, these plot style table files are disabled
+ byassigning color-dependent plot styles directly
+ to objects.</p>
+    <p>Instead, to control how an object is plotted,
+ you should change
+ its color. For example, all objectsassigned the color red in a drawing
+ are plotted the same way.</p>
+    <p>Named plot style tables use plot styles that are assigned
+ directly to objects
+ and layers. With an extension
+ of .ctb, these plot style table files enable each object in a drawing to
+ be plotted differently, independent of its color.</p>
+  </conbody>
+</concept>

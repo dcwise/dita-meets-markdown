@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A22436-8651453-C412A8C5525E53A-7CFDB2">
+  <title>Using point filters in three dimensions</title>
+  <shortdesc>You can use point
+ filters when you work in three-dimensionalspace to locate points in two
+ dimensions and then specify the z
+ coordinate as the elevation above the xy plane. For example, to begin drawing a line from a point with a z coordinate 3
+ units above the center of a circle, insert the circle, and then start the Line command and respond to the prompts
+ as follows:</shortdesc>
+  <conbody>
+    <p>Command: C CIRCLE </p>
+    <p>Specify the center point
+ of circle or [3P/2P/Ttr (tangency tangency </p>
+    <p>radius)]:
+ .xy Select XY of: cen CenterPoint </p>
+    <p>Still need Z of: 3,17.6273
+ </p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic211_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>You can
+ use point filters to draw a line by first selecting a point in the xy plane (A), specifying the z
+ coordinate (B), and then specifying the length of line (C).</p>
+  </conbody>
+</concept>

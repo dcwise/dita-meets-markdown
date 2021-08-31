@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1243683-65E45A1-2157D15A75AD523-AD0E48">
+  <title>Rotate an Object by a Specified Angle</title>
+  <shortdesc>You can rotate objects by specifying a base point or an angle.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic338_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To rotate objects</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Rotate
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the base point.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic338_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the rotation
+ angle.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To rotate an object, select the object to rotate (A), and then specify base point (B) and the rotation angle (C)</p>
+    </result>
+  </taskbody>
+</task>

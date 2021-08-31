@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1226836-553C1F5-4A7D55A715A657B-06FDDE">
+  <title>Multi-Grips Stretch Mode</title>
+  <shortdesc>Select multiple
+ grips of different entities to stretch separately depend on the entity types.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic396_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Stretch Lines, Polylines, and Dimensions Using Multiple Grips</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select line, polyline and dimension entities
+ to stretch.</cmd>
+      </step>
+      <step>
+        <cmd>Press SHIFT while selecting
+ grips on entities,
+ the selected grips will be highlighted.</cmd>
+      </step>
+      <step>
+        <cmd>Release SHIFT
+ and click on one of the selected grips to use it as base grip and activate the default grip mode as Stretch.
+ Dynamic input box displayed on screen showing the following manipulations:</cmd>
+        <info>
+          <p>Specify "B(Base point)" option to locate the grip for stretching.</p>
+          <p>Specify "C(Copy)" option to create a copy of the
+ entity being stretched. Specify "U(Undo)" option
+ to abort thelast
+ stretch.</p>
+          <p>Specify "X(eXit)" option
+ to exit stretch manipulation. Specify
+ target location for stretching directly.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Move the
+ pointing device to specify target grips, the selectedgrips on entities will be stretched or moved towards the
+ direction pointing from the base grip to the
+ target location (single text point, insertion point of block reference,
+ the midpoint of a line, thecenter
+ of circle and grips on point object).</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

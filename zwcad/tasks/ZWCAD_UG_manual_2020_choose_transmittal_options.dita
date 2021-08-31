@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A72A6365-C4A1879-35A7E5392FECE2B-05D32D">
+  <title>Choose Transmittal Options</title>
+  <shortdesc>You can specify the following
+ transmittal setups when creating transmittal package, which greatly
+ facilitates using the
+ etransmit function.</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Specify transmittal package type to be created as ZIP file, self-extracting EXE file, and folder (a specified folder
+ position where the drawing will be packaged
+ or copied)</li>
+        <li>Choose options among Use
+ organized folder structure, Place all files in
+ one folder, Keep files and folders
+ as is, to organize folder
+ structure of transmitted files in a logicalstructure.</li>
+        <li>Add password protection for transmittal package
+ of the ZIP file and self-extracted EXE.</li>
+        <li>Select Include fonts option to
+ get all the font files associative to transmittal package (TTF and SHX), which facilitate receiver to view
+ the drawing file.</li>
+        <li>Send the transmittal package
+ and transmittal report in form of an e-mail attachment to relevant users.</li>
+      </ul>
+      <p>It should be noticed
+ that, regardless of file
+ structure included in the
+ created transmittal package,
+ absolute path of dependent
+ files that are relative to the drawing file will be converted to a relative
+ path or not include path,
+ so that you can easily
+ find themwhile opening
+ or editing drawing
+ files.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic776_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create transmittal package in the specified
+ folder</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select File &gt; etransmit from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Create
+ Transmittal dialog box, under Files Tree or Files Table area, click Add File button.</cmd>
+      </step>
+      <step>
+        <cmd>In the Open folder,
+ select the file to be added to the transmittal package, and then</cmd>
+        <info>
+          <p>click Open. The user can optionally repeat this procedure
+ to add more files into transmittalpackage.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>To clear the
+ selection of files being added into the transmittal package,
+ click the check box marks beside any files on the Files Tree or Files Table.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Transmittal Setups button, select
+ a transmittal setup
+ from the Transmittal Setups dialog box, and then click Modify
+ button.</cmd>
+      </step>
+      <step>
+        <cmd>In the Modify Transmittal Setup dialog box, set the transmittal package type as Folder (set of files).</cmd>
+      </step>
+      <step>
+        <cmd>Under Transmittal File Folder,
+ click Browse to specify the folder where the transmittalpackage to be created.
+ A standard file selection dialog box is displayed.</cmd>
+      </step>
+      <step>
+        <cmd>Select the folder where the transmittal package will be created, and then click OK.</cmd>
+      </step>
+      <step>
+        <cmd>In the Modify Transmittal Setup dialog box, click OK to close the dialog
+ box.</cmd>
+      </step>
+      <step>
+        <cmd>In the Transmittal Setups dialogbox,
+ click Close.</cmd>
+      </step>
+      <step>
+        <cmd>(Optional) Specify any additional comments
+ to include with the report
+ file from the text
+ box for Entering notes to include with this transmittal package in Create Transmittal dialog box.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK to create the transmittal package
+ in the folder you specified.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic776_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create
+ transmittal package for self-extracting executable or ZIP file</p>
+      <ol>
+        <li>Select File &gt; etransmit from the
+ mainmenu</li>
+        <li>In the Create
+ Transmittal dialog box, under Files Tree or Files Table area, click Add File button.</li>
+        <li>In the Open folder,
+ select the file to be added to the transmittal package, and then click
+ Open. The user can optionally repeat this procedure to add more files into transmittalpackage.</li>
+        <li>To clear the
+ selection of files being added into the transmittal package, click the check box marks beside any files on the Files Tree or Files Table.</li>
+        <li>Clickthe Transmittal Setups button,
+ select a transmittal setup from the Transmittal<p>Setups dialog box, and then
+ click Modify button.</p></li>
+        <li>In the Modify Transmittal Setup dialog box, set the transmittal package
+ type as ZIP (*.zip) or Self-extracting executable (*.exe).</li>
+        <li>Under Transmittal File Folder, click
+ Browse to specify the folder where the<p>transmittalpackage to be created.
+ A standard file selection dialog box is displayed.</p></li>
+        <li>Select the folder where the transmittal package will be created,
+ and then click OK.</li>
+        <li>In the Modify Transmittal Setup dialog box, click OK to close the dialog
+ box.</li>
+        <li>In the Transmittal Setups dialogbox,
+ click Close.</li>
+        <li>(Optional) Specify any additional comments
+ to include with the report
+ file from the text
+ box for Entering notes to include with this transmittal package in Create Transmittal dialog box.</li>
+        <li>Click OK to create the transmittal package
+ in the folder you specified.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic776_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To unpack a self-extracting executable transmittal package</p>
+      <ol>
+        <li>Double-click the transmittalpackage file in Windows Explorer.</li>
+        <li>In Extractor
+ dialog box, select Browse to specify the folder where you
+ want to unpack the transmittal files.</li>
+        <li>Click OK.</li>
+        <li>If the transmittal package is password protected,
+ system prompt for entering the password.</li>
+        <li>Click OK to close each dialog box.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

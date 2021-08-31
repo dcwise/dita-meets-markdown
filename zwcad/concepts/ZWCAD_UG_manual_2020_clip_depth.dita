@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A3-6831453-C4A121547B1D5A7-9E5359">
+  <title>Clip Depth</title>
+  <shortdesc>The front and
+ back clipping planes for xrefs can be set before clipping the xref. To specify
+ a clip depth, the xref must contain a
+ clipping boundary. The clip depth is always calculated normal to the clipping boundary.
+ When setting clip depth, you are prompted
+ to specify a front and back point
+ or distance relative
+ to the clipped plane. Regardless of the current UCS, the clip depth is
+ only available at the direction parallel to the clipping boundary.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic596_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

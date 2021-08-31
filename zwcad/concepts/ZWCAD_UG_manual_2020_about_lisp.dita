@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A456-365453C-454A879155A1E53-590C98">
+  <title>About LISP</title>
+  <shortdesc>LISP is a
+ full-featured, interpretive programming language (full name List Processor, which is list processing language). It is a sort of independent programming
+ language embedded for ZWCAD customization. LISP greatly extends most of the available commands
+ and functions of ZWCAD. LISP is similar
+ to AutoLISP so that you can use the majority
+ of applications written
+ with AutoLISP in ZWCAD.</shortdesc>
+  <conbody>
+    <p>A LISP command stands for a function. Lisp function can performthe following
+ actions:</p>
+    <ul>
+      <li>Load other LISP, DCL, ZDS application
+ or ZWCAD files</li>
+      <li>Prompt user to do relevant
+ operations in the certain situation</li>
+      <li>Execute standard command
+ in ZWCAD</li>
+      <li>Handle character string with arbitrary
+ length</li>
+      <li>Do mathematic calculation</li>
+      <li>Store variable value used lately</li>
+      <li>Read/write file</li>
+      <li>Test and respond
+ to the given condition.</li>
+      <li>The select entity in drawing
+ session.</li>
+      <li>Modify the selected
+ entity in drawing session.</li>
+      <li>Export relevant information into the screen or a file.</li>
+    </ul>
+    <p>You can produce customize resolution with application comprised of
+ compound variant LISP functions. You can automate your job by extending CAD tools in ZWCAD or apply other
+ applications into ZWCAD.
+ LISP can be used to produce any application you need in the special
+ industries to intensify
+ the CAD platform.</p>
+  </conbody>
+</concept>

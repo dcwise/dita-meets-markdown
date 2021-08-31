@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A436-836545C-41F2187F165A79E-553CB0">
+  <title>Setting color for grid line.</title>
+  <shortdesc>Grid major/minor lines can be switched to different color
+ base on your preference. Open ‘Options’dialog box→ ‘Display’→ ‘Color’→‘2D model space’→
+ ‘Grid major/minor lines’. You can choose color from index
+ color, true color
+ or color books.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

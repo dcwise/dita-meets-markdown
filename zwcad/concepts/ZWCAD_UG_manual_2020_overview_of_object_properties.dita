@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7135636-5143C41-1A8A151A79E3A70-6FABDE">
+  <title>Overview of Object Properties</title>
+  <shortdesc>You can display information about the selected
+ entities. The information varies, depending on the type of entities
+ you select. All of the listings display
+ the following information:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Entity type.</li>
+      <li>Layer.</li>
+      <li>Color.</li>
+      <li>Linetype.<p>The location of the entity (its XYZ-coordinates relative to the current user coordinate system[UCS]).</p><p>The size of the entity (the information varies, depending on the entity type).</p><p>The layer, color,
+ linetype are the common properties that most of the objects possess. There are
+ a few properties that some individual
+ objects possess, such as radius and area of a circle, length, and angle of a line.</p><p>Most of the properties can be applied to an object by layer or applied to an object directly.</p><p>If value BYLAYER is set to the
+ property value, the object has the same value as the layer
+ on which it is drawn.
+ For example, if you set Yellow to the layer 0 and assign value BYLAYER to the
+ lines that were drawn on the layer 0, its color is yellow
+ too.</p><p>You can also
+ specify a new value to overwrite the layer's value. For example, yellow is
+ assigned to the layer 0 and the value of lines
+ is set to blue, the color
+ of lines is blue.</p><p>You can use the following
+ methods to display
+ or modify the object properties:</p></li>
+      <li>View or change properties in the Properties palette.</li>
+      <li>View or modify layer controls on the Layer Properties Manager
+ dialog box, might change Color, Linetype, Lineweight at the Properties toolbar as well.</li>
+      <li>Use command LIST to view the information in the text window.</li>
+      <li>Use command ID to display the coordinate of the specified
+ point</li>
+    </ul>
+  </conbody>
+</concept>

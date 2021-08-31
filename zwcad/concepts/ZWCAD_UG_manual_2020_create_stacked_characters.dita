@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7223635-E45A11F-587A115257E5359-2988B7">
+  <title>Create Stacked Characters</title>
+  <shortdesc>The stacked text
+ is text or fraction applied to mark tolerance or measure units. Before creating
+ stacked text, you have to use special
+ characters to indicate the stacked place for the selected text. The following contents present the special
+ characters and illustrate how to create
+ stacked text:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Slash (/): Stacks text vertically and separate themwith a
+ horizontal line.</li>
+      <li>A pound sign (#): Stacks text diagonally
+ and separates themwith
+ a diagonal line.</li>
+      <li>Carat (^): Creates a tolerance
+ stack, which is stacked vertically as well as not separated by a line.</li>
+    </ul>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic451_image001.png" />
+      </fig>
+    </p>
+    <p>You can also use Stack button on the Text Formatting toolbar to create stacked text.</p>
+  </conbody>
+</concept>

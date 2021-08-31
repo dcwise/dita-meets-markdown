@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A5A7BB57-5452441-F5A71553455A98F-353B1E">
+  <title>安装自定义应用</title>
+  <taskbody>
+    <context>
+      <p>
+        <b>NOTE 1. </b>在安装之前，请确认已经完成了<xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_前提条件.dita">前提条件</xref>中的几项操作。</p>
+      <p>遵循以下步骤，安装自定义应用：</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录销售易系统，在销售易系统后台页面的左侧导航菜单中，单击<b>集成 </b>&gt; <b>企业微信集成管理</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【企业微信集成应用】页面，单击<b>添加自建应用</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【选择自建应用类型】页面，选择<b>自定义应用</b>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>确认</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在应用的创建页面进行配置。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>配置项 说明</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image005.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 应用名称 企业微信应用的名称，此名称会显示在企业微信工作台 中，建议使用比较正式的内容作为应用的名称。</p>
+      <p>主页 url <b>填写内容说明：</b></p>
+      <p>访问应用的 url 地址，此地址中的部分内容从销售易后台</p>
+      <p>【页面代码】页面的代码列表中获取。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image007.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>url 填写内容为按照以下格式进行拼接
+ （去掉加号和引号后红色字的内容）：</p>
+      <p>”/“+ 页面代码列表中获取到的值 +“/“+ 页面代码主页 html 文件名 （含扩展名）</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>示例：</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image005.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ /weixin/zhishiwenda.html</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>企业微信后台信息</p>
+      </required-cleanup>
+      <p>
+ agentId 输入<xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_前提条件.dita#A75A475B-752441F-487F15741A51BA8-0842CC/_bookmark20">此步</xref>中获取到的 AgentId 内容。</p>
+      <p>secret 输入<xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_前提条件.dita#A75A475B-752441F-487F15741A51BA8-0842CC/_bookmark20">此步</xref>中获取到的 Secret 内容。上传授信文件 上传<xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_前提条件.dita#A75A475B-752441F-487F15741A51BA8-0842CC/_bookmark23">此步</xref>中下载的文件。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image008.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image005.png" />回调配置</p>
+      </required-cleanup>
+      <p>配置项 说明</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image005.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 可信域名
+ -JS-SDK 此项系统自动生成，不可修改。</p>
+      <p>
+        <b>单点登录</b>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>NOTE </b>当希望通过企业微信扫码登录销售易系统时，需要配置单点登录部分。关于单点登录的更多信息请参考《销售易CRM_ 系统单点登录配置》。</p>
+      </required-cleanup>
+      <p>web 单点登录 设置是否开启网页端单点登录功能，开启后需要设置相 关参数。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image010.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image005.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 授权回调域：此项系统自动生成，不可修改。</p>
+      <p>IOS 单点登录 设置是否开启移动端 （IOS）单点登录功能，开启后需要设置相关参数。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image012.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li>iOS schema</li>
+      </ul>
+      <p>输入<xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_前提条件.dita#A75A475B-752441F-487F15741A51BA8-0842CC/_bookmark21">此步</xref>中获取到的 iOS schema 内容。</p>
+      <ul>
+        <li>iOS Bundle ID</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image008.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 此项系统自动生成，不可修改。</p>
+      <p>配置项 说明</p>
+      <p>Android 单点登录 设置是否开启移动端 （Android）单点登录功能，开启后需要设置相关参数。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image014.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li>Android schema</li>
+      </ul>
+      <p>输入<xref href="#task1274/_bookmark22">此步</xref>中获取到的 Android schema 内容。</p>
+      <ul>
+        <li>Android 应用签名</li>
+      </ul>
+      <p>此项系统自动生成，不可修改。</p>
+      <ul>
+        <li>Android 应用包名</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic15_image008.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 此项系统自动生成，不可修改。</p>
+      <ol>
+        <li>设置完成后，单击<b>确认</b>。</li>
+        <li>
+          <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_开启通讯录同步_可选.dita">开启通讯录同步 （可选）</xref>。</li>
+        <li>
+          <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户的映射关系_必须.dita">设置用户的映射关系 （必须）</xref>。</li>
+        <li>
+          <xref href="../concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户权限_可选.dita">设置用户权限 （可选）</xref>。</li>
+        <li>
+          <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业微信后台配置可信域名_必须.dita">企业微信后台配置可信域名 （必须）</xref>。</li>
+        <li>如果开启了单点登录，需要在企业微信后台进行相关的配置，详细信息请参考 <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业微信后台配置单点登录_开启单点登录时必须.dita">企业微信后台配置单点登录 （开启单点登录时必须）</xref>。</li>
+      </ol>
+      <p>企业管理员需要进行的其他配置 | <b>33</b></p>
+    </result>
+  </taskbody>
+</task>

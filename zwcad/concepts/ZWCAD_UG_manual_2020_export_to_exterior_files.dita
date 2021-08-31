@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7223635-E141571-345A79559DA94D4-962F59">
+  <title>Export to exterior files</title>
+  <shortdesc>When you want to save the extracted information to external files,
+ you can save the external
+ file as CSV, TXT, XLS and MDB format.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

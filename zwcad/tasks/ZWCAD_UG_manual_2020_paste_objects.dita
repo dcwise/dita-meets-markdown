@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122A56-8365453-C4A1254A87A7579-1E396B">
+  <title>Paste Objects</title>
+  <shortdesc>The systemused all available formats
+ to store information when you copy objects
+ into the clipboard. The format that stores
+ the most information was used when pasting
+ the objects on the clipboard into the current
+ drawing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic434_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To paste objects fromthe Clipboard</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Edit &gt; Paste from the main menu.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>To change the format to paste, you can select
+ the desired format fromthe Edit menu.</p>
+      <p>The WMF format
+ contains the screen vector information, which can scale or plot the pasted
+ objects without decreasing resolution. It can be applied
+ to the application that supports
+ WMF format.</p>
+      <p>The color of objects keeps unchanged when
+ pasting. However, you can use the system variable WMFBKGND and WMFFORGND to
+ control whether the background or foreground is transparent or not, where the pasted
+ objects lie on.</p>
+      <p>When the objects to be pasted
+ contain links or nest other
+ objects, you can use PASTESPEC command to insert them from the clipboard into the
+ ZWCAD drawing. When selecting ZWCAD Block, the objects are processed as a block. And you have to explore them before
+ editing. Converting WMF format into ZWCAD
+ Drawing format may lead to the scale factor changed. To avoid this situation, you
+ can convert the selected
+ objects to a block and then insert
+ it into the ZWCAD drawing
+ using INSERT.</p>
+    </result>
+  </taskbody>
+</task>

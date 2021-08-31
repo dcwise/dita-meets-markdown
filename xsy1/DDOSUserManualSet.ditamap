@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="zh-CN">
+    <title>DDOS手册集</title>
+    <topicmeta>
+        <author type="contributor">RAYFAN</author>
+        <author type="creator">RAYFAN</author>
+        <copyright>
+            <copyryear year="2021"></copyryear>
+            <copyrholder>北京镭信息科技有限公司</copyrholder>
+        </copyright>
+        
+        
+        
+        <critdates>
+            <created date="2021-07-05"/>
+            <!--RAYFAN-->
+            <revised modified="2021-07-05"/>
+            <!--RAYFAN-->
+            <revised modified="2021-07-06"/>
+            <!--RAYFAN-->
+            <revised modified="2021-07-08"/>
+            <!--RAYFAN-->
+            <revised modified="2021-08-07"/>
+        </critdates> 
+        <prodinfo>
+            <prodname>
+                <data><ph>销售云</ph></data>
+                <data>发布版本1.0.1</data>
+                
+            </prodname>
+        </prodinfo>
+        
+        
+    </topicmeta>
+    <topicref href="TencentDDOS/%E8%AF%8D%E6%B1%87%E8%A1%A8.md" format="markdown"/>
+    <topicref href="TencentDDOS/%E6%9C%8D%E5%8A%A1%E7%AD%89%E7%BA%A7%E5%8D%8F%E8%AE%AE.md"
+        format="markdown"/>
+    <topicref href="TencentDDOS/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md" format="markdown"/>
+    <topicref
+        href="TencentDDOS/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/DDoS%E9%98%B2%E6%8A%A4%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E5%AF%B9%E6%AF%94%E8%AF%B4%E6%98%8E.md"
+        format="markdown"/>
+    <topichead>
+        <topicmeta>
+            <navtitle>DDOS 进阶简介</navtitle>
+        </topicmeta>
+        <topicref
+            href="TencentDDOS/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E4%BA%A7%E5%93%81%E6%A6%82%E8%BF%B0.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/DDoS%20%E6%94%BB%E5%87%BB.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/%E5%B0%81%E5%A0%B5.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5/%E6%B8%85%E6%B4%97.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E4%BA%A7%E5%93%81%E4%BC%98%E5%8A%BF.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5.md"
+            format="markdown"/>
+    </topichead>
+
+
+    
+    <topichead>
+        <topicmeta><navtitle>DDOS 启动</navtitle></topicmeta>
+        
+        <topicref href="TencentDDOS/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md" format="markdown"></topicref>
+        <topicref href="TencentDDOS/%E8%B4%AD%E4%B9%B0%E6%8C%87%E5%8D%97.md" format="markdown"/>
+        
+        
+    </topichead>
+
+
+
+
+
+    <topichead>
+        <topicmeta><navtitle>故障排除</navtitle></topicmeta>
+        <topicref
+            href="TencentDDOS/%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86/%E9%85%8D%E7%BD%AE%E5%AE%89%E5%85%A8%E7%BB%84%E9%98%BB%E6%AD%A2%E5%85%A5%E7%AB%99%E5%90%8E%E4%BB%8D%E9%81%AD%E5%8F%97%E5%88%B0DDOS%E6%94%BB%E5%87%BB.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86/%E9%81%AD%E9%81%87DDoS%E6%94%BB%E5%87%BB.md"
+            format="markdown"/>
+        
+    </topichead>
+    
+    
+    
+    
+
+    <topichead>
+        <topicmeta><navtitle>faq </navtitle></topicmeta>
+        
+        <topicref href="TencentDDOS/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/%E5%8A%9F%E8%83%BD%E7%9B%B8%E5%85%B3.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E4%BA%A7%E5%93%81%E7%AE%80%E4%BB%8B/%E4%BA%A7%E5%93%81%E6%A6%82%E8%BF%B0.md"
+            format="markdown"/>
+        
+    </topichead>
+    
+    
+    
+
+    <topichead>
+        <topicmeta><navtitle>operating instructions</navtitle></topicmeta>
+        <topicref
+            href="TencentDDOS/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%93%8D%E4%BD%9C%E6%80%BB%E8%A7%88.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%9F%A5%E7%9C%8B%E6%93%8D%E4%BD%9C%E6%97%A5%E5%BF%97.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%9F%A5%E7%9C%8B%E9%98%B2%E6%8A%A4%E9%85%8D%E7%BD%AE.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E6%9F%A5%E7%9C%8B%E7%BB%9F%E8%AE%A1%E6%8A%A5%E8%A1%A8.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E8%A7%A3%E5%B0%81%E9%98%B2%E6%8A%A4%20IP.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E8%AE%BE%E7%BD%AE%E5%AE%89%E5%85%A8%E4%BA%8B%E4%BB%B6%E9%80%9A%E7%9F%A5.md"
+            format="markdown"/>
+        <topicref
+            href="TencentDDOS/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/%E4%BD%BF%E7%94%A8%E9%99%90%E5%88%B6.md"
+            format="markdown"/>
+        
+    </topichead>
+    
+    
+    
+    
+    
+ 
+</map>

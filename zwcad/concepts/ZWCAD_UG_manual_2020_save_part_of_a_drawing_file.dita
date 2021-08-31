@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A43-6835E45-341F21547574421-2115DD">
+  <title>Save Part of a Drawing File</title>
+  <shortdesc>You can use
+ WBLOCK command to create a new drawing from part of an existing drawing. You
+ can select entities or a block
+ definition in your current drawing and save them in a new drawing file. The description also
+ can be saved
+ in the new drawing.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12586-515C4A1-F287A175A91E533-FB6441">
+  <title>Set Text Height</title>
+  <shortdesc>Text height is
+ the size of characters, which is measured in drawing unit. With the same height
+ setting, the displaying height of the
+ TrueType font is usually lower than the one of SHX font. When the font is not of TrueType font, the value
+ represents the size of the uppercase letters.</shortdesc>
+  <conbody>
+    <p>When the text
+ height is set to 0 in the text style, the system prompts you to type a height
+ value while creating single-line text each time. So you can set text height to 0 in the text style in order to specify a</p>
+    <p>new height before creating
+ text.</p>
+    <p>For TrueType
+ fonts, the value of text height represents the height of a capital letter plus
+ an ascent area. The ascent is
+ reserved for accent marks and other marks used in non-English languages. The
+ relative portion of text height
+ assigned to capital letters and ascent characters is determined by the font
+ designer at the time the font is designed; consequently, it varies
+ fromfont to font.</p>
+    <p>When you apply a
+ text height to all text in the In-Place Text Editor, the whole multiline text
+ object is scaled, including its width.</p>
+  </conbody>
+</concept>

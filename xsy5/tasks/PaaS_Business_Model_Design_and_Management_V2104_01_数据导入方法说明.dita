@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2AA4345-115A711-2375C935A82DC5C-4712E1">
+  <title>数据导入方法说明</title>
+  <shortdesc>遵循以下步骤，进行数据导入 :</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在左侧导航菜单中单击<b>数据管理 </b>&gt; <b>数据导入</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【数据导入】页面，单击<b>启动向导</b>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 配置项 说明</p>
+          <p>对象类型 选择导入的数据对应的业务对象。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image003.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <b>NOTE </b>一次数据导入仅允许导入一个对象的数据。</p>
+          <p>配置项 说明</p>
+          <p>操作类型 选择对导入数据的处理方式，即添加新数据还是更新现有 数据。</p>
+          <p>当单击<b>添加新数据</b>或者<b>更新现有数据</b>时，会在此项下面出 现下图所示内容。（图中<b>对象类型</b>选择自定义业务对象 “ 自定义客户信息 ”）</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image005.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+          <ul>
+            <li>上图红框部分内容<p>当<b>对象类型</b>所选业务对象中包含关联关系或者主子明 细类型的字段时，出现此部分内容。用于选择与其他 业务对象关联时使用的是 ID
+ 值还是主属性 Name 的值。</p></li>
+            <li>导入数据不触发校验规则<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image003.png" /></entry></row></tbody></tgroup></table>
+ 勾选此项后，在导入数据的过程中，不触发相应的校 验规则。</p><p>配置项 说明</p></li>
+            <li>导入数据不触发查重规则<p>此项默认为勾选状态，且不可更改，即在导入数据的 过程中，不触发后台该对象上配置的查重规则。</p><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>由于导入数据时不触发后台该对象上配置的查重规则，因此请确保数据符合业务的重复规则的要求后，再进行导入操作。</p></required-cleanup></li>
+            <li>导入数据不触发服务器触发器</li>
+          </ul>
+        </info>
+      </step>
+    </steps>
+    <result>
+      <p>勾选此项后，将在导入数据的过程中，不触发相应的 服务器触发器。关于服务器触发器的详细介绍请参考</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image006.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 《销售易 CRM_PaaS 平台开发手册》。</p>
+      <p>选择文件编码 选择文件编码：支持 GB18030 （简体中文）和 UTF-8</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image006.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （多语言）两种文件编码。</p>
+      <p>上传文件 选择包含导入数据的文件。</p>
+      <p>
+        <b>NOTE 1. </b>目前仅支持CSV 格式。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>CSV 文档中各字段类型导入时的格式要求请参考数据导入相关支持说明。</p>
+      </required-cleanup>
+      <ol>
+        <li>上传的CSV 文件最多支持 50000 条。</li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 如果上传文件中的某些字段与系统中该业务对象的所有字段都不匹配，则对这些不匹配的字段不进行导入，即仅导入匹配上的字段。</p>
+      </required-cleanup>
+      <ol>
+        <li>设置完成后，单<b>下一步</b>将出现下面第 2 个图所示页面，页面内容见图中注释内容。（第 1 个图所示内容为以自定义业务对象
+ “ 自定义客户信息 ” 为例，导入的 CSV 文件的内容，此处仅为示例）<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image008.png" /></entry></row></tbody></tgroup></table></p><fig><image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image010.png" /></fig><required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE </b>如果在手动编辑映射关系时未选择任何字段，则数据将不会导入到系统中。</p></required-cleanup></li>
+        <li>映射编辑完成后，单击<b>下一步</b>，然后单击<b>导入</b>即可执行导入操作。</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic35_image012.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <b>NOTE 1. </b>后台导入数据时不触发该业务对象上配置的触发规则。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <b>2. </b>后台导入数据如果是自关联，则关联的本对象的数据只能是系统中已经存在的，同批次中的数据不处理。</p>
+      </required-cleanup>
+      <p>| <b>213</b></p>
+    </result>
+  </taskbody>
+</task>

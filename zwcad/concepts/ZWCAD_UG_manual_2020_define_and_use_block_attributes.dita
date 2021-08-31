@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A4-8E4C4F2-5487135359155CF-E3D9ED">
+  <title>Define and Use Block Attributes</title>
+  <shortdesc>An attribute is a particular object that you can save as part of a block definition. Attributes consist of text-based data. You can use attributes to track such things as part numbers and prices.
+ Attribute values</shortdesc>
+  <conbody>
+    <p>are either fixed or variable.
+ When you insert a block containing attributes, the program adds the fixed values to the drawing
+ along with the block, and you are prompted to supply any variable values.</p>
+    <p>After you insert blocks containing attributes, you can extract the attribute information to a separate
+ file and then use that
+ information in a spreadsheet or database to produce a parts list or bill of
+ materials. You can also use attribute information to track
+ the number of times a particular block is inserted
+ into a drawing. Attributes can be visible
+ or hidden. Hidden attributes are neitherr displayed nor
+ printed, but the information is
+ still stored in the drawing
+ and written to a file when you extract it.</p>
+  </conbody>
+</concept>

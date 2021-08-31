@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A24568-6453C41-2158785791E5527-BF9E40">
+  <title>Attach Raster Images</title>
+  <shortdesc>Use IMAGEATTACH to select and attach raster
+ images, or bitonal,
+ 8-bit gray, 8-bit color, or 24-bit color image
+ files to a drawing. Attaching an image creates an image definition, loads the
+ image into memory, and displays the
+ image. Similar to the attach xrefs, attaching a path of the raster image that
+ is not virtual part of the drawing file, the path linked to the image files can be changed or removed any time you want. The image file can be inserted as blocks
+ as many times as you like once attached to the current drawing, you can clip the attached
+ raster image and setup its
+ lightness, contrast, fading,
+ and transparency.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic644_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To attach a raster
+ image</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Raster Image from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a file to attach, and then click OK.</cmd>
+      </step>
+      <step>
+        <cmd>In the Image dialog box, in the Insertion
+ point and Scale, click Specify
+ on-screen. Specify an angle value in Rotation, andthen click OK.</cmd>
+      </step>
+      <step>
+        <cmd>Specify an insertion point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a scale.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

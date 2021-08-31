@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A43-6865E53-4AF247559E5AC41-57962E">
+  <title>Modify Properties of Polylines</title>
+  <shortdesc>If the properties
+ of several objects being joined into a polyline are different, such as color
+ and linetype, the new polyline
+ inherits the properties of the first object that you selected. You can also set
+ properties of the new polyline in the Properties palette.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

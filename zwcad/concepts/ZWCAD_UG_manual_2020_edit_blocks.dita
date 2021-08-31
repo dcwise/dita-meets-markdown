@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A122A486-15A1121-5A7125A57915597-5F59ED">
+  <title>Edit Blocks</title>
+  <shortdesc>The Block Editor contains
+ an independent area in which you can create and edit block definition as you would in the drawing area. Click “BEDIT”
+ to enter the block edit modes.</shortdesc>
+  <conbody>
+    <p>With Block Editor,
+ you can:</p>
+    <ul>
+      <li>Update (Redefine) block definition (not support dynamic
+ block yet) in Block Editor</li>
+      <li>Save as Block or write block as a drawing
+ file</li>
+      <li>Define attributes to an edited block</li>
+      <li>Edit non uniformly scale block</li>
+    </ul>
+    <p>When you define a
+ block by opening it in Block Editor or select an existing block to open in
+ Block Editor, the contextual tab or toolbar
+ will be displayed
+ as follows, and the drawing
+ area will turn to grey color.
+ In Block Editor, you can define the objects for a block definition, and save as
+ new block or as a drawing file.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic569_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

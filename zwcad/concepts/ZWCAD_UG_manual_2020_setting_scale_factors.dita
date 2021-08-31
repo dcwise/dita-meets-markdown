@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A436-865534A-11F254A7F575791-5A3CB0">
+  <title>Setting scale factors</title>
+  <shortdesc>Instead of
+ drawing to a particular scale, you draw everything full size in the program.
+ Although it's a good idea to keep
+ your scale factor in mind when setting up a drawing, you don't need to set the
+ scale until you print it. For example,
+ when you draw a mechanical part 40 inches
+ in length with ZWCAD, you actually
+ draw it as 40 inches, rather than
+ applying a scale factor as you draw. When you print your drawing, you can assign the
+ scale at which the drawing
+ is to print.</shortdesc>
+  <conbody>
+    <p>Scale, however,
+ does affect the way a few elements
+ such as text, arrows, or linetypes print or plot in your drawing.
+ For these, you can make adjustments when you first set up your drawing so that
+ they print or plot at the correct
+ size. For example, when you draw text, you need to determine the text size so
+ that when you print it later at a particular scale, the text height is correct.</p>
+    <p>After you
+ determine the eventual scale of your finished drawing, you can calculate the
+ scale factor for the drawing as a
+ ratio of one drawing unit to the actual scale unit represented by each drawing
+ unit. For example, if you plan to
+ print your drawing at 1/8" = 1'-0", your scale factor ratio is 1:96
+ (1/8" = 12" is the same as
+ 1 = 96). If you want your printed scale to be 1 inch = 100 feet, your scale
+ factor ratio is 1:1200.</p>
+    <p>The following
+ table shows some standard architectural and engineering scale ratios and
+ equivalent text heights required to
+ create text that measures 1/8 inch high when you print the drawing at the
+ specified scale.</p>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry namest="col1" nameend="col3"> Standard scale ratios and equivalent text heights </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Scale </entry>
+            <entry colname="col2"> Scale factor </entry>
+            <entry colname="col3"> Text height </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1/16" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 192 </entry>
+            <entry colname="col3" translate="no"> 24" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1/8" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 96 </entry>
+            <entry colname="col3" translate="no"> 12" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 3/16" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 64 </entry>
+            <entry colname="col3" translate="no"> 8" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1/4" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 48 </entry>
+            <entry colname="col3" translate="no"> 6" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 3/8" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 32 </entry>
+            <entry colname="col3" translate="no"> 4" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1/2" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 24 </entry>
+            <entry colname="col3" translate="no"> 3" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 3/4" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 16 </entry>
+            <entry colname="col3" translate="no"> 2" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 12 </entry>
+            <entry colname="col3" translate="no"> 1.5" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1 1/2" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 8 </entry>
+            <entry colname="col3" translate="no"> 1" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 3" = 1'-0" </entry>
+            <entry colname="col2" translate="no"> 4 </entry>
+            <entry colname="col3" translate="no"> 0.5" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1" = 10' </entry>
+            <entry colname="col2" translate="no"> 120 </entry>
+            <entry colname="col3" translate="no"> 15" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1" = 20' </entry>
+            <entry colname="col2" translate="no"> 240 </entry>
+            <entry colname="col3" translate="no"> 30" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1" = 30' </entry>
+            <entry colname="col2" translate="no"> 360 </entry>
+            <entry colname="col3" translate="no"> 45" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1" = 40' </entry>
+            <entry colname="col2" translate="no"> 480 </entry>
+            <entry colname="col3" translate="no"> 60" </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1" translate="no"> 1" = 50' </entry>
+            <entry colname="col2" translate="no"> 600 </entry>
+            <entry colname="col3" translate="no"> 75" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1" = 60' </entry>
+            <entry colname="col2" translate="no"> 720 </entry>
+            <entry colname="col3" translate="no"> 90" </entry>
+          </row>
+          <row>
+            <entry colname="col1" translate="no"> 1" = 100' </entry>
+            <entry colname="col2" translate="no"> 1200 </entry>
+            <entry colname="col3" translate="no"> 150" </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>You can use these
+ scale factors to predetermine the size of your drawing to make sure that it
+ fits on a specific size paper when
+ you print it. You control the size of your drawing by the drawing limits. To calculate the drawing limits to match the
+ size of your paper, multiply the dimensions of your paper size by your scale factor.</p>
+    <p>For example, if
+ the paper you use to print measures 36 inches x24 inches and you print your
+ drawing at 1/8" = 1'-0" (in other words, using a scale factor of
+ 96), the size of your drawing measured in drawing units is 36 x 96 (or 3,456 units) wide and 24 x 96 (or 2,304 units) high.</p>
+    <p>Keep in mind that
+ you can print the finished drawing at any scale, regardless of the scale factor
+ you calculate. You can also print on paper of a different size and use the Layout
+ tabs to create different views of your drawing and to position
+ and scale those views differently. The scaling
+ factor is not related to the size of the entities you draw; it simply
+ provides a preliminary guide to help you establish the text height and drawing limits
+ when you begin
+ your drawing. You can change
+ the text height
+ and draw limits at any time.</p>
+  </conbody>
+</concept>

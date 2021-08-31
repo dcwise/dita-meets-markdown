@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A436-835534F-154A7F1C51E74D4-39FE28">
+  <title>Calculating areas defined by points</title>
+  <shortdesc>You can find the
+ area and perimeter of any closed region by specifying a series of points. The
+ program calculates the area and
+ perimeter of the space that is enclosed by an imaginary polygon consisting of straight line segments connecting each point.</shortdesc>
+  <taskbody>
+    <context>
+      <p>To calculate
+ the area defined by points
+ you specify</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic185_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Inquiry &gt; Area from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second point.</cmd>
+      </step>
+      <step>
+        <cmd>Continue
+ specifying points in sequence to define the perimeter of the area you want to measure.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the selection, press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>The area and perimeter
+ of the region youdefined are displayed.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic185_image002.png" />
+      </p>
+      <p>Select the points (A, B, C) that form a polygon.
+ The area and perimeter of the region are
+ then calculated.</p>
+    </result>
+  </taskbody>
+</task>

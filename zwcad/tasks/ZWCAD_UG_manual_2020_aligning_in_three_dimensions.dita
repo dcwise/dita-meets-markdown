@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2265EC4-A1F214A-7D515A3ABD4712D-9B31D8">
+  <title>Aligning in three dimensions</title>
+  <shortdesc>You can align selected objects with other objects in
+ three-dimensionalspace. You select the objects you want to align and specify
+ one, two or three pairs of points
+ to align the selected objects.</shortdesc>
+  <taskbody>
+    <context>
+      <p>To align an object with another</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic342_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; 3D Operation &gt; Align from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first source
+ point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first destination point.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic342_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify additional source
+ and destination points
+ if desired (up to three pairs).</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the objects
+ to align, and then specify the first source point (A), the first de stination point (B), the second destination point
+ (C), and the second destination point (D)</p>
+      <p>You can specify up to three pairs of source/destination points.</p>
+    </result>
+  </taskbody>
+</task>

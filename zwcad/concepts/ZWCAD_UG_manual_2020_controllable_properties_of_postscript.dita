@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A456-643C121-A891655A79E52A0-F3F5D6">
+  <title>Controllable Properties of PostScript</title>
+  <shortdesc>When exporting
+ drawing as EPS files in PostScript
+ format, some objects will be rendered. Affects the following properties:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Text, attribute definitions
+ and attributes. If replace the font supportive of PostScript with the font with specified
+ conversion text object,
+ thetext will be plotted
+ in specified PostScript font. Or else,
+ render the text with frame character.</li>
+      <li>Bold font and text control code.
+ If the text with thickness over 0 or contains control
+ code (such as %%O or %%D). But the rendered text will not be
+ plotted as PostScript font. International symbol and special symbol exported as PostScript font.</li>
+      <li>ISO 8859 Latin/1 character set, if use character value
+ among 127 to 255
+ for text, explain
+ this text according
+ to ISO 8859 Latin/1. If this character appears in the text reflected
+ Post Script, re-mapping a version of generating
+ code vector to display ISO character set. The text generated fromre-mapping
+ will be exported in PostScript
+ compatible format.</li>
+      <li>Circle, arc, ellipse, elliptic
+ arc. Arcs and circles will be converted into corresponding PostScript path object if they have thickness.</li>
+      <li>Fill solids. Plot the Fill solids in PostScript path.</li>
+      <li>2D polyline. Exports the 2D
+ (planar) polyline with unifying width, PostScript restricts systemsettings as proximate lines combination with end seal and miter.</li>
+    </ul>
+  </conbody>
+</concept>

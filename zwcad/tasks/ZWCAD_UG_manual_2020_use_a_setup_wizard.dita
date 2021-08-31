@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B1A456-85E1534-A1F87AC52571523-122EE8">
+  <title>Use a Setup Wizard</title>
+  <shortdesc>From the New
+ Drawing dialog box, you can select "Use a SetupWizard" tab to create
+ a new drawing by the wizard.
+ There are two wizard options illuminated as follows:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Advanced Setup Wizard<p>From this option,
+ you can set units of measurement, the precision of displayed units, and grid limits. Also specify angle settings such
+ as units of measurement style, precision, direction, and orientation based on template
+ zwcadiso.dwt.</p></li>
+        <li>Quick Setup Wizard</li>
+      </ul>
+      <p>From this option,
+ you can specify units of measurement, the precision of displayed units, and grid limits based on template zwcadiso.dwt.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic48_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To begin a new drawing using a wizard</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the <b>File </b>menu,
+ click <b>New</b>.</cmd>
+      </step>
+      <step>
+        <cmd>In the <b>New Drawing </b>dialog box, click <b>Use a Setup Wizard</b>.</cmd>
+      </step>
+      <step>
+        <cmd>Click <b>Quick SetupWizard </b>or <b>Advanced
+ Setup Wizard</b>.</cmd>
+      </step>
+      <step>
+        <cmd>Complete the
+ wizardpages using the <b>Next </b>and <b>Back </b>buttons to move forward and backward.</cmd>
+      </step>
+      <step>
+        <cmd>On the last page, click <b>Finish</b>.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

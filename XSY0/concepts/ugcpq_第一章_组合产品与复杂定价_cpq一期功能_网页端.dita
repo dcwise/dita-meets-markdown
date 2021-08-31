@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7425175-7172439-531F2154A865157-6ED71F">
+  <title>第一章 组合产品与复杂定价（CPQ一期功能-网页端）</title>
+  <shortdesc>CPQ功能faq开通后，系统无法恢复到原始版本，请谨慎选择。</shortdesc>
+  <prolog>
+    <author type="contributor">RAYFAN</author>
+    <critdates>
+      <!--RAYFAN-->
+      <revised modified="2021-07-11"/>
+    </critdates>
+  </prolog>
+  <conbody>
+    <p>CPQ为销售管理人员或产品经理提供了灵活的产品与价格配置能力，从而可以简单快速的以最优化的方式（如捆绑，加售等）定义一个多层级的组合产品及其子产品与服务；销售人员可以在报价和下单过程中，更准确和快速的为客户适配和选择产品与价格。</p>
+    <p>本文档只介绍与CPQ相关的对象和操作步骤，其他业务对象的说明，请参考以下文档：</p>
+    <ul>
+      <li>《销售易CRM_销售云用户操作手册（网页端）》</li>
+      <li>《销售易CRM_销售云用户操作手册（移动端）》</li>
+      <li>《销售易CRM_智能分析云操作手册》</li>
+    </ul>
+    <p>主题</p>
+    <p>
+      <xref href="ugcpq_第三章_组合产品与复杂定价_cpq移动端.dita">产品</xref>
+    </p>
+    <p>
+      <xref href="ugcpq_第三章_组合产品与复杂定价_cpq移动端.dita">价格表</xref>
+    </p>
+    <p>
+      <xref href="ugcpq_第三章_组合产品与复杂定价_cpq移动端.dita">阶梯价格表</xref>
+    </p>
+    <p>
+      <xref href="ugcpq_产品.dita">报价单</xref>
+    </p>
+  </conbody>
+</concept>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B630AA-2251531-F214A8C16515974-155623">
+  <title>收藏工作报告</title>
+  <shortdesc>单击工作报告对应的收藏按钮，可以收藏该报告，收藏成功后按钮会显示为红色，再次单击可以取消收藏。收藏后的报告可以在“我收藏的报告”中进行查看。</shortdesc>
+  <conbody>
+    <p>NOTE </p>
+    <p>提交后和存为草稿的报告均可以被收藏。</p>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic22_image002.png" />
+      </fig>
+      <image href="../graphics/ug2_topic22_image004.png" />
+    </p>
+  </conbody>
+</concept>

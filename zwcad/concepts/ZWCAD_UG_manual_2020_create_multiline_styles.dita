@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7126836-E14A1F1-48C175B91535164-CCD655">
+  <title>Create Multiline Styles</title>
+  <shortdesc>While creating
+ new mlines, you can specify names of the new style together with inherited
+ properties, and set the amount and
+ properties such as color, linetype, offset and so on for each element directly. Meanwhile, take into account on whether to
+ fill the background and endcaps. Both lines and arcs are available for specifying endcaps.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

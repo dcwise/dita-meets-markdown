@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A722A583-5145CA1-254D575A7913A56-FABD7E">
+  <title>Grip Mirror Mode</title>
+  <shortdesc>With grip mirror
+ mode, you can create mirrored copies of selected entities along temporary
+ mirror line. If you press ENTER or
+ SPACEkey after selecting grips, all the grip modes are displayed, choose Mir or and then command line prompts as follows:</shortdesc>
+  <taskbody>
+    <context>
+      <p>Specify the second point or [Base point/Copy/Undo/eXit]: </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic394_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Create Mirrored
+ Copies Using Grips</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select entities to mirror.</cmd>
+      </step>
+      <step>
+        <cmd>Click on grips to highlight the selected grip and activate the default grip mode as Stretch.</cmd>
+      </step>
+      <step>
+        <cmd>Press ENTER to iterate
+ grip mode until Mirror appears
+ in command line. Dynamic</cmd>
+        <info>
+          <p>input box displayed on screen showing the following
+ manipulations: Specify "B(Base point)" option to relocate the base grip.</p>
+          <p>Specify "C(Copy)" option to create a copy of the entity being mirrored. Specify
+ "U(Undo)" option to abort thelast
+ mirroring.</p>
+          <p>Specify "X(eXit)" option to exit mirror manipulation.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Move the pointing device
+ to specifysecond mirror point, the entitywill
+ be mirrored along the line connecting the selected grip on objects andthe
+ second mirror point (or create
+ a copy of the entity after mirroring).</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1224351-5341F4A-87F1C1A79EA1A44-46AFE8">
+  <title>Control How Overlapping Objects Are Displayed</title>
+  <shortdesc>By default, newly
+ created objects are in front of existing objects; all objects are displayed in
+ the order they are created. To change the draw order,
+ use DRAWORDER command.</shortdesc>
+  <conbody>
+    <p>Note changing draw order is available only within the same space.</p>
+  </conbody>
+</concept>

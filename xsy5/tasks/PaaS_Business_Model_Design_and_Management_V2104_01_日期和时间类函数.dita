@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7D7B510-D2AA532-51F241525374153-C4B849">
+  <title>日期和时间类函数</title>
+  <shortdesc>支持以下日期和时间类函数：</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark125">Date</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark127">DateValue</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark129">Day</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark131">Month</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark133">Year</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark135">RealTimeToday</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark137">RealTimeNow</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark139">NowTime</xref>
+        </li>
+        <li>
+          <xref href="#task3579/_bookmark141">TimeValue</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark143">Hour</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark145">Minute</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark147">Second</xref>
+        </li>
+        <li>
+          <xref href="#A7D7B510-D2AA532-51F241525374153-C4B849/_bookmark149">MilliseSecond</xref>
+        </li>
+      </ul>
+      <p id="_bookmark125">Date</p>
+      <p>
+        <b>Date</b>
+      </p>
+      <p>
+        <b>描述 </b>根据输入的年月日的值返回一个日期类型的数据。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>DATE(year,month,day) 返回值为日期型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ year 为四位数字，表示年。month 为两位数字，表示月。day 为两位数字，表示日。</p>
+      <p>
+        <b>样例 </b>例如创建一个日期数值 2017-03-24，函数为：Date(2017,03,24)</p>
+      <p>
+        <b>注意点 </b>1. 使用此函数时，支持的日期范围为 1990 年 1 月 1 日到
+ 9999 年 12 月 31 日，如果是该范围之外的日期，系统计算异常，无法正常使用。范围之外的日 期推荐使用
+ DateValue 函数来进行日期处理。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2. 如果此函数中输入的不是合法的日期，则前台页面上显示为空，例如输入2017-02-29，2017 不是闰年，该日期无效，前台显示为空。</p>
+      <p id="_bookmark127">DateValue</p>
+      <p>
+        <b>DateValue</b>
+      </p>
+      <p>
+        <b>描述 </b>根据输入的日期 / 时间或者文本类型的表达式返回一个年月日格式的日期值。</p>
+      <p>
+        <b>使用 </b>DATEVALUE(expression)</p>
+      <p>返回值为年月日格式的日期型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ expression 为日期 / 时间、文本类型的表达式或者字段。</p>
+      <p>
+        <b>样例 </b>例如创建一个日期数值 2017 年 3 月 24 日，函数为：
+ DateValue("2017-03-24")</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>注意点 </b>1. 如果函数引用的字段不是有效的日期 / 时间或文本字段，则该日期无效，前台显示为空。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>当输入日期时，需要使用引号将日期括起来，并使用以下格式：</cmd>
+        <info>
+          <p>YYYY-MM-DD，YYYY 为四位数年份，MM 为两位数的月份，DD 为两位数的天。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>如果表达式的值不在有效的日期范围内，例如MM 为 01~12 以外的值，则该日期无效，前台显示为空。</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 此函数只能被用于日期型字段，不能被用于日期 + 时间型字段。</info>
+      </step>
+    </steps>
+    <result>
+      <p id="_bookmark129">Day</p>
+      <p>
+        <b>Day</b>
+      </p>
+      <p>
+        <b>描述 </b>根据输入的日期返回该日期中的日。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>DAY(date)</p>
+      <p>返回值为整数型，范围为
+ 1~31。</p>
+      <p>date 为日期型字段或者返回结果为日期型的函数。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 返回指定日期的天：Day(DateValue("2017-03-24")) 的返回值为 24。</p>
+      <p>
+        <b>样例 </b>返回当天：Day(RealTimeToday())</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>注意点 </b>1.date 只能为日期型字段或者返回结果为日期型的函数，不支持以下形式的日期表达式 Day("2017-3-24")。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2.date 不支持日期 + 时间类型。</p>
+      <p id="_bookmark131">Month</p>
+      <p>
+        <b>Month</b>
+      </p>
+      <p>
+        <b>描述 </b>根据输入的日期返回该日期中的月份。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>MONTH(date)</p>
+      <p>返回值为实数型，范围为 1~12。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ date 为日期型字段或者返回结果为日期型的函数。</p>
+      <p>
+        <b>样例 </b>返回当月：Month(RealTimeToday())</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>注意点 </b>1.date 只能为日期型字段或者返回结果为日期型的函数，不支持以下形式的日期表达式：Month("2017-3-24")。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2.date 不支持日期 + 时间类型。</p>
+      <p id="_bookmark133">Year</p>
+      <p>
+        <b>Year</b>
+      </p>
+      <p>
+        <b>描述 </b>根据输入的日期返回该日期所属的年份。</p>
+      <p>
+        <b>使用 </b>YEAR(date)</p>
+      <p>返回值为实数类型，四位数字表示的年份，范围为
+ 1900~9999。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ date 为日期型字段或者返回结果为日期型的函数。</p>
+      <p>
+        <b>样例 </b>1. 返回当年：Year(RealTimeToday())</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2. 返回指定日期的年份：Year(DATE(2017,03,24)) 返回值为 2017</p>
+      <p>
+        <b>注意点 </b>1.date 只能为日期型字段或者返回结果为日期型的函数，不支持以下形式的日期表达式：Year("2017-3-24")。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2.date 不支持日期 + 时间类型。</p>
+      <p id="_bookmark135">RealTimeToday</p>
+      <p>
+        <b>RealTimeToday</b>
+      </p>
+      <p>
+        <b>描述 </b>实时返回当前日期。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+      </p>
+      <p>
+        <b>使用 </b>REALTIMETODAY()</p>
+      <p>
+ 返回值为日期类型。无输入参数。</p>
+      <p>
+        <b>样例 </b>REALTIMETODAY()</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>注意点 </b>1. 此函数无参数，但括号必须保留。</p>
+      <ol>
+        <li>此函数可被用于日期型字段，不能被用于日期 + 时间型字段。</li>
+        <li>当此函数与其他日期型字段相减时，结果为实数型数据，表示两个日期之间 的天数。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 当此函数与数值进行加减运算时，结果为日期型数据，表示距离今天之前或 者之后几天的日期。</li>
+      </ol>
+      <p id="_bookmark137">RealTimeNow</p>
+      <p>
+        <b>RealTimeNow</b>
+      </p>
+      <p>
+        <b>描述 </b>实时返回当前时刻的日期时间。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>REALTIMENOW()</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 返回值为日期时间类型。无输入参数。</p>
+      <p>
+        <b>样例 </b>REALTIMENOW()</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>注意点 </b>此函数无参数，但括号必须保留。</p>
+      <p id="_bookmark139">NowTime</p>
+      <p>
+        <b>NowTime</b>
+      </p>
+      <p>
+        <b>描述 </b>返回当前所属时区的时间值 ，包含小时、分、秒、毫秒。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>NOWTIME()</p>
+      <p>
+ 返回值为时间类型。无输入参数。</p>
+      <p>
+        <b>样例 </b>NOWTIME()</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+      </p>
+      <p>
+        <b>注意点 </b>1. 此函数无参数，但括号必须保留。</p>
+      <ol>
+        <li>此函数可被用于时间型字段。</li>
+        <li>当此函数与其他时间型字段相减时，结果为实数型数据，表示两个时间之间 的小时数。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 当此函数与数值进行加减运算时，结果为时间型数据，表示距离当前时间之 前或者之后几个小时的时间。</li>
+      </ol>
+      <p id="TimeValue">TimeValue</p>
+      <p>
+        <b>TimeValue</b>
+      </p>
+      <p>
+        <b>描述 </b>返回没有日期的时间值 ，包含小时、分、秒、毫秒。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+      </p>
+      <p>
+        <b>使用 </b>TIMEVALUE(expression) 返回值为时间类型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ expression 为日期时间或者文本值（文本值使用国际日期格式 （ISO））。</p>
+      <p>
+        <b>样例 </b>1. 返回指定日期的时间值：TimeValue("17:40:45.125")，返回结果为：17:40</p>
+      <p>2. 根据数据的创建时间显示时间值：TimeValue(createdAt)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （createdAt 为对象中“ 创建时间 ” 字段的
+ API 名称）</p>
+      <p>
+        <b>注意点 </b>1. 此函数无参数，但括号必须保留。</p>
+      <ol>
+        <li>此函数可被用于时间型字段。</li>
+        <li>当此函数与其他时间型字段相减时，结果为实数型数据，表示两个时间之间 的小时数。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 当此函数与数值进行加减运算时，结果为时间型数据，表示距离当前时间之 前或者之后几个小时的时间。</li>
+      </ol>
+      <p id="_bookmark143">Hour</p>
+      <p>
+        <b>Hour</b>
+      </p>
+      <p>
+        <b>描述 </b>返回指定时间中的小时值。</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+      </p>
+      <p>
+        <b>使用 </b>HOUR(time)</p>
+      <p>返回值为整数类型，范围为 0~24。</p>
+      <p>
+ time 为时间型字段或者返回值为时间型的函数。</p>
+      <p>
+        <b>样例 </b>根据数据的创建时间显示小时值：HOUR(TIMEVALUE(account.createdAt))</p>
+      <p>
+ （account 为对象 “ 客户”的 API 名称； createdAt 为客户中“ 创建日期 ” 字段的 API 名称）</p>
+      <p>注意点 无</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+        </fig>
+      </p>
+      <p id="_bookmark145">
+        <b>Minute</b>
+      </p>
+      <p>
+        <b>Minute</b>
+      </p>
+      <p>
+        <b>描述 </b>返回指定时间中的分钟值。</p>
+      <p>
+        <b>使用 </b>MINUTE(time)</p>
+      <p>返回值为整数类型，范围为 0~60。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ time 为时间型字段或者返回值为时间型的函数。</p>
+      <p>
+        <b>样例 </b>根据数据的创建时间显示小时值：MINUTE(TIMEVALUE(account.createdAt))</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （account 为对象 “ 客户”的 API 名称； createdAt 为客户中“ 创建日期 ” 字段的 API 名称）</p>
+      <p>注意点 无</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+      </p>
+      <p id="_bookmark147">
+        <b>Second</b>
+      </p>
+      <p>
+        <b>Second</b>
+      </p>
+      <p>
+        <b>描述 </b>返回指定时间中的秒值。</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>SECOND(time)</p>
+      <p>返回值为整数类型，范围为
+ 0~60。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ time 为时间型字段或者返回值为时间型的函数。</p>
+      <p>
+        <b>样例 </b>根据数据的创建时间显示小时值： SECOND(TIMEVALUE(account.createdAt))</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （account 为对象 “ 客户”的 API 名称； createdAt 为客户中“ 创建日期 ” 字段的 API 名称）</p>
+      <p>注意点 无</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+      </p>
+      <p id="_bookmark149">
+        <b>MilliseSecond</b>
+      </p>
+      <p>
+        <b>MilliseSecond</b>
+      </p>
+      <p>
+        <b>描述 </b>返回指定时间中的毫秒值。</p>
+      <p>
+        <b>使用 </b>MILLISECOND(time)</p>
+      <p>返回值为整数类型，范围为
+ 0~999。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ ttime 为时间型字段或者返回值为时间型的函数。</p>
+      <p>
+        <b>样例 </b>根据数据的创建时间显示小时值： MILLISECOND(TIMEVALUE(account.createdAt))</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （account 为对象 “ 客户”的 API 名称； createdAt 为客户中“ 创建日期 ” 字段的 API 名称）</p>
+      <p>
+        <b>注意点 </b>无</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic45_image002.png" />
+        </fig>
+      </p>
+    </result>
+  </taskbody>
+</task>

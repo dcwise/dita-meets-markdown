@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A13683-65E1534-A11F2154A871551-591E59">
+  <title>Use Grip Stretch Function on Dynamic Blocks</title>
+  <shortdesc>Once you have selected
+ a dynamic block contains stretch
+ action, click the light blue grip on the dynamic
+ block to display
+ command line prompt
+ as follows:</shortdesc>
+  <taskbody>
+    <context>
+      <p>Specify point Location
+ or [Base point/Undo/eXit]: </p>
+      <p>Under the prompt,
+ you can specify a new position on the drawing area where the grip is expected
+ to be stretched. Move the selected
+ grip to the new position
+ to stretch the object.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic612_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Stretch dynamic
+ block by using grip</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select the dynamic block contains
+ stretchaction.</cmd>
+      </step>
+      <step>
+        <cmd>Clickon the light blue grip of the dynamic
+ blockto highlight the selected grip.</cmd>
+      </step>
+      <step>
+        <cmd>Command line prompt appears,
+ do either of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Specify "B(Base point)" option to locate the base point for stretching.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "U(Undo)" option to abort the last stretch.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "X(eXit)" option to exit stretch manipulation.</cmd>
+      </step>
+      <step>
+        <cmd>Specify target location for grip directly.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic612_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ After specifying the target location, the selected dynamic
+ blockwill be stretched.</info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

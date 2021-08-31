@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A122A358-5E5341F-1487D1155791E35-A4237A">
+  <title>Set the Fillet Radius</title>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic359_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ You can specify the radius of a
+ fillet arc connecting two objects. The latest value is always the cur ent radius value. This setting is only
+ available when you create a new fillet arc. When the radius is set to 0, the objects to fillet are trim
+ or extend to get intersecting, but not create
+ a fillet arc.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A13365-E1453C4-A1215A87C1451A7-91E35A">
+  <title>Entering relative Cartesian coordinates</title>
+  <shortdesc>Another simpler
+ method is to use relative Cartesian coordinates: you specify a location in the
+ drawing by
+ determining its position relative to the last coordinate you specified. To use
+ relative Cartesian coordinates, type the coordinate values in the command bar, preceded by the
+ at symbol (@). The coordinate pair
+ following the @ symbol represents the distance along the x-axis and the y-axis
+ to the next point. For example, to draw an 8.5 unit square with its lower left
+ corner at (4,5) using relative
+ Cartesian coordinates, start the Line command, and then respond
+ to the prompts as follows:</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic202_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Specify the next point or [Angle/Length/Undo]: @8.5,0 Specify
+ the next point or [Angle/Length/Undo]: @0,8.5 Specify the next point or
+ [Angle/Length/Close/Undo]: @-8.5,0 Specify the next point
+ or [Angle/Length/Close/Undo]: C
+ </p>
+    <p>Drawing a square using the relative
+ Cartesian coordinates method; enter C to close.</p>
+    <p>The first
+ relative coordinate (@8.5,0) locates the new point 8.5 units to the right
+ (along with the x-axis) from the
+ previous point of (4,5); the second relative coordinate (@0,8.5) locates to the
+ next point 8.5 units above (along
+ with the y-axis) the previous point, and so on. Entering C (for Close) draws
+ the final line segment back to the first point specified
+ when you started
+ the Line command.</p>
+  </conbody>
+</concept>

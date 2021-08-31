@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712286E-14534A1-F1548B175A71E53-94DF0C">
+  <title>Material Conditions</title>
+  <shortdesc>The second
+ compartment displays tolerance values. Depending on control type, you can add a
+ diameter symbol prior
+ to the tolerance value, and specify
+ a material condition symbol behind
+ this value.</shortdesc>
+  <conbody>
+    <p>You can apply material conditions to features that can vary in size, shown as follows:</p>
+    <ul>
+      <li>At maximum material condition (symbol M, also known
+ as MMC), a feature contains the maximum amount of material stated in the limits.
+ At MMC, a hole has a minimum diameter, whereas a shaft has a maximum
+ diameter.</li>
+      <li>At least material condition
+ (symbol L, also known as LMC), a feature contains the minimum amount of material stated in the limits.
+ At LMC, a hole has a maximum diameter, whereas a shaft has minimum
+ diameter.</li>
+    </ul>
+    <p>Regardless of
+ feature size (symbol S, also known as RFS) means a feature can be any size
+ within the stated limits.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12286-E5A11F5-A87C05C71E7FEC7-E91385">
+  <title>Enter System Variables on the Command Line</title>
+  <shortdesc>Systemvariables
+ are available for controlling how certain commands work. For example, GRIDMODE is used to control the status ON or OFF for “GRID” mode; sometimes you use a systemvariable in order to change a setting. Systemvariable can be used to display
+ the current status
+ as well.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A24636-513411F-21548A515A3593C-F3B491">
+  <title>Specify fonts to replace</title>
+  <shortdesc>If the font to be
+ contained in the drawing can't be found in the current system, ZWCAD replaces
+ these fonts
+ with another specified font automatically. Otherwise, the system uses
+ "simplex.shx" font to override those unknown fonts instead. To modify the
+ replace fonts by system default, you can modify the system variable FONTALT which is applied for
+ specifying new font file name. However, the FONTALT value will be mapped
+ to another font if the big font is used currently. Default
+ font file for this systemvariable is "txt.shx"and"bigfont.shx".</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

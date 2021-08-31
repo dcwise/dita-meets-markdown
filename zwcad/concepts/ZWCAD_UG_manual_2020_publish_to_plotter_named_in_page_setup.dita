@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A22368-36E145C-A1F2148571E5580-F06DD6">
+  <title>Publish to Plotter named in page setup</title>
+  <shortdesc>Plots all the
+ drawing files on the published list. You can set plot copies after publishing
+ drawings to a specified plotter.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

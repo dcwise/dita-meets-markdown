@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A4861-5A1F14A-8C116591E5A1F13-D915EE">
+  <title>Draw Arcs by Specifying Start, Center, End</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic255_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Under command line prompts
+ for drawing an arc, draw an arc by specifying center, start point, and endpoint.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic255_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw an arc by specifying its start point, center point,
+ and endpoint</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Arc &gt; Start,
+ Center, End of the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the center point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoint.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic255_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Start point (A), the center point (B), and endpoint (C)</p>
+    </result>
+  </taskbody>
+</task>

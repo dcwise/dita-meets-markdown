@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA245365-1154A54-5A95357E08D4C2E-7B4709">
+  <title>Create layout viewports</title>
+  <shortdesc>The first time
+ you switch to a Layout tab, all of your model space objects disappear. You must
+ create at least one layout viewport
+ on the Layout tab to see your work.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can create
+ layout viewports anywhere inside the drawing area. You can control the number of viewports created and the arrangement of the viewports.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic677_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create layout viewports</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the command line, type MVIEW.</cmd>
+      </step>
+      <step>
+        <cmd>Type F (Fit), or create 2, 3
+ or 4 viewports byentering 2, 3 or 4 separately, or specify two opposing
+ corners to create
+ a custom viewport.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the viewport arrangement, typing H (Horizontal) or V (Vertical).</cmd>
+      </step>
+      <step>
+        <cmd>Do one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>To arrange the viewports to fill the current graphics area, type F (Fit).</cmd>
+      </step>
+      <step>
+        <cmd>To fit the viewports within a bounding
+ rectangle, specify the corners of a rectangle.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>When you create a layout viewport, the layout viewport border is created
+ on the current layer. You can make
+ layout viewport borders invisible by creating a new layer before you create
+ layout viewports and then turning off that layer
+ after you create
+ the layout viewports.</p>
+      <p>To select a layout
+ viewport's borders, you must turn
+ that layer back on before
+ you can rearrange or modify the layout
+ viewport.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic677_image002.png" />
+      </p>
+      <p>You can create
+ a single layout
+ viewport, or you can divide
+ the graphics area into two viewports arranged
+ vertically</p>
+      <ol>
+        <li>or horizontally (B); three viewports
+ arranged left (C), right (D), above (E), below (F), vertically (G), or
+ horizontally (H); or four equal viewports (I).</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

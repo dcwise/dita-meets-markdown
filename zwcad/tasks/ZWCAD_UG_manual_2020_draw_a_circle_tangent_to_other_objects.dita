@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12463-453A11F-2A825535B86457D-01922A">
+  <title>Draw a Circle Tangent to Other Objects</title>
+  <shortdesc>The tangent point
+ is a point where an object touches another object without intersecting it. To
+ create a circle that is tangent
+ to other objects,
+ select the objects
+ and then specify the radius of the circle.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can also turn
+ on the Object Snap mode to set the snap point as Tangent, thus you can create
+ circles that are tangent with other
+ objects easily, three points method is available for creating circles with
+ three tangent points.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic261_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ In the illustrations below, the red
+ circle is the one being drawn, and points 1 and 2 select the objects to which it is tangent.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic261_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a circle tangent
+ to existing objects</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Circle
+ &gt; Tan, Tan, Radius from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the first tangent
+ point on the object to be tangent
+ withthe circle.</cmd>
+      </step>
+      <step>
+        <cmd>Select the second tangent
+ point on the object to be tangent
+ with the circle.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic261_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the radius of the circle.</info>
+      </step>
+    </steps>
+    <result>
+      <p>The radius of the circle (A) and tangent lines (B) and (C)</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A35E-143C4A1-87D5079E35A6706-FAAB6E">
+  <title>Grip Scale Mode</title>
+  <shortdesc>With grip scale
+ mode, you can scale selected entities relative to the base point. Drag the
+ entity outwards the base grip to enlarge its size, and drag inwards
+ to decrease the size. You can also specify a scale factor to scale selected
+ entities.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Grips are
+ selected dependingon the type of entity. For example, to scale a circle, use
+ the quadrant point as a grip.</p>
+      <p>If you press
+ ENTER or SPACE key after selecting grips, all the grip modes are displayed, choose
+ Scale and then command line prompts as follows:</p>
+      <p>Specify the scale factor or [Base point/Copy/Undo/Reference/eXit]: </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic393_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Scale Entities
+ Using Grips</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select entities to scale.</cmd>
+      </step>
+      <step>
+        <cmd>Click on grips of the entity to highlight
+ the selected grip and activate the default
+ grip mode as Stretch.</cmd>
+      </step>
+      <step>
+        <cmd>Press ENTER to iterate grip mode until Scale appears in command
+ line. Dynamic input box displayed on screen
+ showing the following manipulations:</cmd>
+        <info>
+          <p>Specify "B(Base point)" option to relocate the
+ base grip for scaling. Specify "C(Copy)"
+ option to create a copy of the entity
+ being scaled. Specify "U(Undo)" option
+ to abort thelast
+ scaling.</p>
+          <p>Specify "X(eXit)" option to exit scale manipulation.</p>
+          <p>Specify
+ "R(Reference)"option to assign reference scale factor. (For example,
+ input scale factor as 5, to scale the
+ entity to five-times that of its original size). Then dynamic input box displays on the screen, in which you
+ are prompt to enter new length (if input 3, the entity will be scaled
+ at factor 3/5).</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Specify scale factor for grips
+ directly.</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic393_image002.png" />Move the pointing
+ device to specify
+ target grips, the entity will be scaled based on the selected grips
+ with the factor you specified (or create a copyof the entity after scaling).</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>To scale using grips, select the object (A), click a grip (B), and scale the object by dragging the grip to its new</p>
+      <p>location (C).</p>
+    </result>
+  </taskbody>
+</task>

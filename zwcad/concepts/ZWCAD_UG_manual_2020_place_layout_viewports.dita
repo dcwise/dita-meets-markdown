@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA4365E5-3C4A187-813AA590AD420E9-4B0C89">
+  <title>Place Layout Viewports</title>
+  <shortdesc>The user can select to create a viewport
+ fit to the entire layout,
+ and also specify
+ a rectangle area to create layout viewports.</shortdesc>
+  <conbody>
+    <p>In the Viewports dialog box, viewports of various standards
+ or named viewport configurations which determined by the pattern
+ you view the drawing and the plotting
+ results are inserted
+ into layouts.</p>
+    <p>Viewport configuration that is saved
+ and named in the model tab can be positioned
+ in layouts as we l. The viewport
+ will be saved
+ as soon as new viewports
+ are ranked and named,
+ and the new viewport names will
+ be added to a list ranked by viewports. Grips on layouts will be displayed once
+ selected, which are used for changing the display proportion of geometry objects
+ created in model
+ space within the viewports. Each viewport can be scaled like other objects using SCALE command,
+ which is only effective to the size of the viewport rather than the scale of the views.
+ To adjust the proportion of views within
+ viewports, you can scale the
+ view by modifying the scaling factor. You can also specify proportion in the
+ Standard proportion option on Properties palette, and Customize option
+ is also available for changing plot scale of viewport objects.</p>
+  </conbody>
+</concept>

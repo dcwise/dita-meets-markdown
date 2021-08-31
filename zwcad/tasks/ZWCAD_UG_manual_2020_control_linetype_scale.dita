@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2A4836E-154A11F-2487F05751E5AD6-86B2D8">
+  <title>Control Linetype Scale</title>
+  <shortdesc>You can set global or individual scales for objects
+ to control the display of linetypes.</shortdesc>
+  <taskbody>
+    <context>
+      <p>By default, the global and individual
+ linetype scales are set to 1.0. The
+ smaller the scale, the more repetitions of the pattern are produced
+ per drawing unit. For example, if the scale is set to 0.2, five repetitions of the pattern
+ in the linetype definition are displayed for each drawing
+ unit.</p>
+      <p>When short
+ segments are too short to display one full linetype pattern, it is displayed as continuous. When the lines are too short to display
+ even one dash sequence, you need to specify a smaller linetype scale. Otherwise, the linetype is displayed as continuous shown in the following illustration:</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic144_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic144_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ For polylines, you can use
+ systemvariable PLINEGEN to control whether a linetype pattern is centered on each segment
+ or is continuous across vertices
+ throughout the entire
+ length of the polyline.</p>
+      <p>The Global Scale Factor and Current Object
+ Scale are displayed
+ in the Linetype Manager.</p>
+      <p>The Global Scale
+ Factor and Current Object Scale are displayed in the Linetype Manager. The
+ Global Scale Factor value is stored
+ in the systemvariable LTSCALE, which changes the linetype scale globa ly for new and existing objects. The
+ Current Object Scale is stored in the system variable CELTSCALE, which specifies the linetype scale
+ for new objects.
+ You can get the displayed linetype scale by multiplying the CELTSCALE value with the LTSCALE
+ value. The linetype scales in the drawing can be changed easily
+ either individually or globally.</p>
+      <p>In a layout,
+ you can use systemvariable PSLTSCALE
+ to adjust the linetype scale in different
+ viewports.</p>
+      <p>
+        <b>NOTE </b>Setting the linetype scale too large or too small
+ may result in a line pattern looking like a so lid line,
+ depending on what the scale view is or at what scale the drawing
+ is printed.</p>
+      <p>You can control a new entity's individual linetype scale factor
+ as well as the overall
+ or global scale
+ factor applied to all the entities
+ in the drawing.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic144_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set the current individual linetype
+ scale</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Linetype
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Show Details button.</cmd>
+      </step>
+      <step>
+        <cmd>In
+ the Current Object
+ Scale field, type the linetype
+ scale that you want to make current.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic144_image003.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change the global linetype scale</p>
+      <ol>
+        <li>Choose Format &gt; Linetype
+ from the main menu.</li>
+        <li>Clickthe Show Details button.</li>
+        <li>In the Global Scale Factor field,
+ type the global linetype scale that you want to change.</li>
+        <li>Click OK.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

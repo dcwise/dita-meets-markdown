@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7452837-6444F21-A852741583B064B-5E36DD">
+  <title>安装步骤</title>
+  <shortdesc>对于销售易新客户，遵循以下步骤，安装配置销售易企业微信应用：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在企业微信第三方市场的 【应用与小程序】页面，查找并单击需要安装的应用。</cmd>
+      </step>
+      <step>
+        <cmd>在应用详情页面中，单击<b>添加</b>。</cmd>
+      </step>
+      <step>
+        <cmd id="_bookmark76">在出现的页面中，可以根据需要设置该应用的可见范围，然后单击<b>同意以上授 权，并添加</b>。</cmd>
+        <info>
+          <p>
+            <b>2. </b>通过<xref href="#A7452837-6444F21-A852741583B064B-5E36DD/_bookmark76">第3 步</xref>介绍的方式，添加的应用为试用版，如需购买付费版本，可在<xref href="#A7452837-6444F21-A852741583B064B-5E36DD/_bookmark76">第3 步</xref>出现的页面中，单击<b>购买付费版本&gt; </b>直接购买。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>在 【应用添加成功】页面，单击<b>前往应用详情</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【应用管理】页面，单击<b>业务设置</b>中的<b>前往服务商后台</b>。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_topic26_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>在销售易系统后台页面，进行必要的手动配置，详细信息请参考<xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业管理员需要手动进行的配置.dita">企业管理员需 </xref><xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_企业管理员需要手动进行的配置.dita">要手动进行的配置</xref>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

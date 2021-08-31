@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2A3836E-145CA11-F24A8DB91E56962-E2C270">
+  <title>Specify a Selection Fence</title>
+  <shortdesc>It could be much easier to
+ select objects in a complex
+ drawing by using a selection
+ fence. A selection fence appears like a polyline
+ and chooses only the objects
+ it passes through.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic318_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select objects using Fence</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Activate an object modification command.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type F (Fence).</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoints of the Fence
+ segments.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic318_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ To complete the Fence, press Enter.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Fence by specifying the endpoints of the fence segments (A, B, and C) Resulting selection</p>
+    </result>
+  </taskbody>
+</task>

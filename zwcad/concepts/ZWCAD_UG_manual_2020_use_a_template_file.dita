@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B22A35-65E45C4-215871525C41453-312EE8">
+  <title>Use a Template File</title>
+  <shortdesc>Drawing template
+ files contain standard
+ settings and have a ".dwt" file extension.
+ There are two methods provided
+ for creating a new drawing
+ when the systemvariable FILEDIA is set to 1. When the STARTUP
+ is set to 1, typing NEW opens New Drawing dialog box, fromwhich you can
+ select the desired template to create a new drawing
+ if you click Use a Template tab.</shortdesc>
+  <conbody>
+    <p>When the STARTUP
+ is set to 0, typing NEW opens Select Template dialog box, from which you can select the desired template to create a new drawing.</p>
+    <p>The changes
+ made to a new drawing
+ based on an existing template
+ file do not affect the template file.</p>
+  </conbody>
+</concept>

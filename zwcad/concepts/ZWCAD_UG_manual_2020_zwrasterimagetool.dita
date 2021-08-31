@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12268-654C4A1-25487815B5759B3-89CCD7">
+  <title>ZwRasterImageTool</title>
+  <shortdesc>You can use
+ this tool to generate cache files for large images in batch,
+ so as to quickly insert
+ and operate these images
+ in ZWCAD.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

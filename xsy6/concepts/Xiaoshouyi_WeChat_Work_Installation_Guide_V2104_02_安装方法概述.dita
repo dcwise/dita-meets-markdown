@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB5A7B75-283B452-441F21548725715-A2C395">
+  <title>安装方法概述</title>
+  <shortdesc>对于销售易老客户，有两种方式可以安装应用：</shortdesc>
+  <conbody>
+    <ul>
+      <li>
+        <xref href="../tasks/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_通过企业微信第三方市场安装.dita">通过企业微信第三方市场安装</xref>
+      </li>
+      <li>
+        <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_通过销售易系统自建应用安装.dita">通过销售易系统自建应用安装</xref>
+      </li>
+    </ul>
+    <p>
+      <b>NOTE </b>通过企业微信第三方市场的方式，仅可以安装销售易标准应用，通过销售易系统自建应用的方式，可以安装销售易标准应用和自定义应用（通过销售易开发平台页面代码开发的应用）。</p>
+  </conbody>
+</concept>

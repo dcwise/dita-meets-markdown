@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A122A683-65E4534-A1F158C5A579E55-ACFDB2">
+  <title>Use UCS Presets</title>
+  <shortdesc>ZWCAD lets you
+ select a preset UCS. The six planes defined by looking along the x,y, z-axes
+ align the UCS with the top, left, front,
+ bottom, right, or back, based on
+ either the WCS or the current UCS in
+ effect when you select the tool. You
+ can also select the previous UCS, align the UCS to the current view, or select the WCS.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When you select a UCS, the cursor orientation and UCS icon change to reflect the new UCS.</p>
+      <p>The display
+ does not change,
+ however, unless you select the Change View To Plan View Of The Selected
+ UCS check box.</p>
+      <p>After you align
+ the UCS to a preset UCS, you can use "Named UCS" from the Tools menu
+ to save the current UCS.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic219_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To select a
+ preset UCS</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Named UCS from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Switch to Orthographic
+ UCS tab, select the desired UCS, and
+ then click the Set Current button.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

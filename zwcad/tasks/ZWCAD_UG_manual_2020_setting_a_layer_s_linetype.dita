@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7AA4683-E14C41F-257F155AE53514A-BA77D1">
+  <title>Setting a layer's linetype</title>
+  <shortdesc>Each layer uses a default linetype (a repeating pattern of dashes,
+ dots, or blank spaces). Linetype
+ determines the appearance of objects both on the screen and when printed.</shortdesc>
+  <taskbody>
+    <context>
+      <p>It's a good idea to assign the BYLAYER linetype to any objects that you
+ draw on that layer. ZWCAD uses the BYLAYER
+ linetype as the default linetype
+ setting for Object
+ Creation.</p>
+      <p>
+        <b>NOTE
+ </b>Only those linetypes already
+ set in the drawing can be assigned
+ to layers.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic156_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change the linetype
+ assigned to one or more layers</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Layer from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Click the Linetype name in the layer list to open Select Linetype
+ dialog box, from</cmd>
+        <info>
+          <p>which, you canspecify the desired linetype.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>You can also assign a specific linetype to an
+ object, which overrides the layer's linetype setting. When you create a new object, use the Format &gt; Linetype menu
+ option to change the current linetype. For
+ an existing object, double-click this object and then modify the object's
+ linetype on the Properties palette that pops
+ up.</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A71A4586-E1453CA-1148155A1E39126-DB966D">
+  <title>Create Aligned Dimensions</title>
+  <shortdesc>In the aligned
+ dimensions, the dimension line is parallel to the line passing
+ through the extension line</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic514_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ origins. The aligned dimension is
+ also parallel to the objects you specify. The following figure shows two examples of aligned dimension. Select
+ the object (1), and then specify the location of the aligned dimension. The systemcreates the extension lines automatically.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic514_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create an aligned dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Aligned from
+ the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter and then select the object dimension.</cmd>
+      </step>
+      <step>
+        <cmd>Or, you can insert the
+ dimension by specifying the first and second extension line origins.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic514_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the dimension
+ line location.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To insert an aligned dimension
+ by selecting the entity, select the entity (A) to dimension, and then select the dimension line location</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic514_image004.png" />To insert
+ an aligned dimension
+ by selecting the extension line origins, select
+ the first extension origin (A), select the second extension
+ origin (B), and then specify
+ the dimension line location (C).</p>
+    </result>
+  </taskbody>
+</task>

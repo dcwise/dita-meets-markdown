@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A111579C-7159531-91F4A115741516E-9200F1">
+  <title>价格表的使用</title>
+  <shortdesc>价格表包含了所有产品的报价信息，系统中所有涉及到有报价需求的实体，都可以关联到价格表，例如订单。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击<b>CRM</b>&gt;<b>订单</b>&gt;<b>新建订单</b>，进入订单新建页面。</cmd>
+      </step>
+      <step>
+        <cmd>输入订单的基本内容，其中带<b>*</b>号的项为必填项，然后单击<b>下一步</b>。</cmd>
+      </step>
+      <step>
+        <cmd>选择一个价格表，然后单击<b>添加产品</b>，并选择一个或者多个产品。</cmd>
+      </step>
+      <step>
+        <cmd>如果是可单独销售的产品，产品的单价、数量和折扣都允许编辑；如果是组合产品，产品会根据配置而对产品的编辑有所限制。系统会自动计算订单总金额。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成订单新建。在订单详情页的<b>资料</b>页签中，可以查看价格表详情。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

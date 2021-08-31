@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A22A4356-835E14C-412479725714524-2429DD">
+  <title>Magnify a View (Zoom)</title>
+  <shortdesc>You can use ZOOM
+ command to zoomin or zoomout the drawing view to meet your need. ZOOM does not change the absolute size of objects
+ in the drawing; it changes
+ only the magnification of the view.</shortdesc>
+  <conbody>
+    <p>With this zooming
+ feature, you can change the magnification of your drawing at any time. The
+ cursor changes to a magnifying glass
+ when a zoomtool is active. Zoomout to reduce the magnification so you can see more of the drawing, or zoom in to
+ increase the magnification so you can see a portion of the drawing in greater detail.</p>
+    <p>
+      <b>NOTE
+ </b>If you are working in a
+ layout viewport and cannot zoom, the layout viewport may be locked. The scale and view do not change
+ in model space
+ while panning or zooming in a locked layout viewport.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A14568-154A154-AD63571E53A5696-E5A290">
+  <title>Quick Selection</title>
+  <shortdesc>You can use
+ QSELECT to create a selection set includable or exclusive of the objects which
+ are accord with the filtering
+ criterion. The selection set created by the QSELECT command can be applied to
+ the entire drawing and replaces
+ or appends to the current
+ selection set.</shortdesc>
+  <conbody>
+    <p>You can enter QSELECT
+ on the command line or click Quick Select button fromthe Properties palette to open Quick Select dialog box. With the
+ specified filtering condition, you can quickly define the selection set.</p>
+  </conbody>
+</concept>

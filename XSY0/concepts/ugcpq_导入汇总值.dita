@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7275774-1253912-154782515741559-52315A">
+  <title>导入汇总值</title>
+  <shortdesc>如果本地有大量的汇总值，可以通过导入功能，将本地的汇总值导入到系统中。</shortdesc>
+  <conbody>
+    <p>导入汇总值时需要先下载数据模板，模板的表头行不允许删除，但是可以删除不需要的项目。为了避免导入的新数据与已有的数据出现重复，可以选择覆盖导入、不导入和仅覆盖重复数据。</p>
+    <p>如果数据导入出现了错误，系统会给出错误提示，根据错误提示修改好数据后，可以重新导入。</p>
+  </conbody>
+</concept>

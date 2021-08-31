@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A22436-836EC4A-11F154A8F165579-E3ACB0">
+  <title>Use Object Snaps</title>
+  <shortdesc>Object snaps
+ enable you to quickly select exact geometric points on existing entities
+ without having to know the exact
+ coordinates of those points. With object snaps, you can select the endpoint of
+ a line or arc, the center point of a
+ circle, the intersection of any two entities, or any other
+ geometrically significant position. You can also use object snaps to
+ draw entities that are tangent or perpendicular to an existing entity.</shortdesc>
+  <conbody>
+    <p>You can use object snaps whenever the programprompts you to specify a
+ point, for example, if you are drawing
+ a line or other object.
+ To turn on the ESNAP mode, any of the following ways are available:</p>
+    <ul>
+      <li>Choose Tools &gt; Drafting Settings
+ fromthe main menu to open the Drafting
+ Settings dialog box,</li>
+    </ul>
+    <p>toggle to Object Snap tab, and then tick the Object Snap On checkbox.</p>
+    <ul>
+      <li>Press F3.</li>
+      <li>Click the
+ Object Snap button on the status bar.</li>
+    </ul>
+    <p>When using object snaps, the programrecognizes only visible objects or
+ visible portions of objects. You cannot snap to objects on layers that have been turned off or to the blank portions
+ of dashed lines.</p>
+    <p>When Object Snaps is turned on, a
+ marker and a tooltip are displayed when you move the cursor
+ over an object
+ snap location on an object.</p>
+  </conbody>
+</concept>

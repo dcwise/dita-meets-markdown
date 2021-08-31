@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B11517-1747123-991A7A105595175-293593">
+  <title>报价单转订单</title>
+  <shortdesc>NOTE </shortdesc>
+  <conbody>
+    <ul>
+      <li>只有主报价单才能转订单。</li>
+    </ul>
+    <p>当报价单在客户认可后可直接转为订单。</p>
+    <p>报价单转订单过程中，可以继续对产品和价格进行编辑。</p>
+    <p>在报价单详情页面，单击<b>新建</b>&gt;<b>订单</b>。</p>
+    <p id="_Hlk520392729">报价单转订单，进行价格配置时，会将原有报价单的价格信息带出，编辑明细或者单击<b>重新计算</b>时，对于已失效的阶梯价格表（未启用/已过失效时间），系统会自动过滤。</p>
+  </conbody>
+</concept>

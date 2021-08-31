@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A4-56E154A-112548103A71E35-922FE0">
+  <title>Specifying a hatch pattern</title>
+  <shortdesc>A hatch pattern
+ consists of a repeating pattern of lines, dashes, and dots. You can select a
+ hatch pattern from a set of
+ predefined patterns, or you can define a pattern of your own. The hatch pattern
+ you used most recently is the default
+ pattern the next time you add hatching. The program supplies predefined standardhatch patterns, which are stored in the ICAD.pat
+ and ICADISO.pat hatch pattern library
+ files.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <b>NOTE </b>The ICAD.pat hatch pattern library files are ANSI
+ (American National Standards Institute) compliant patterns; the ICADISO.pat hatch
+ pattern library files are ISO (International Standards Organization) compliant.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic640_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To specify
+ a predefined hatch pattern</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Hatch from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>From the Hatch and Gradient dialog box, click the Hatch tab.</cmd>
+      </step>
+      <step>
+        <cmd>Under the Hatch – Type, and
+ pattern, in the Type list, click Predefined. With Predefined, youcan applya scale
+ factor to make the pattern larger or smaller than the default size.</cmd>
+      </step>
+      <step>
+        <cmd>For Scale, enter the scale factor as a percentage of the default.</cmd>
+      </step>
+      <step>
+        <cmd>For Angle, enter
+ the angle of the pattern in degrees (1-360). The default angle is clockwise, you can change the angle of any
+ hatch pattern by entering a numerical value.</cmd>
+      </step>
+      <step>
+        <cmd>For ISO Pen
+ Width, enter the pen width. This option is only available if you select existing
+ ISO hatch patterninthe Patternoption.</cmd>
+      </step>
+      <step>
+        <cmd>To copy the pattern
+ properties from an existing hatch, choose Inherit
+ Properties.</cmd>
+      </step>
+      <step>
+        <cmd>To associate the
+ hatch patternto its boundary objects, under Other options, select the Associative checkbox.
+ Associativehatch updates automaticallyifyou move any of its boundaries.</cmd>
+      </step>
+      <step>
+        <cmd>To continue, adda hatch by doing one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>In the Boundaries, click Select Objects
+ button to select
+ the objects you want to add a hatch.
+ Repeat the procedures following step 2.</cmd>
+      </step>
+      <step>
+        <cmd>In the
+ Boundaries, click Pick Points buttonto select an area or boundary you want to add a hatch. Repeat
+ the procedures following step 2.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic640_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To specify
+ a user-defined hatch pattern</p>
+      <ol>
+        <li>Choose Draw &gt; Hatch from the main menu.</li>
+        <li>From the Hatch and Gradient dialog box, click the Hatch tab.</li>
+        <li>Under the Hatch – Type and pattern, in the Type list, click User Defined.</li>
+        <li>For Spacing, enter the line spacing
+ for the pattern.</li>
+        <li>To copy the pattern
+ properties from an existing
+ hatch, choose Inherit
+ Properties,<p>and select a hatch pattern from a hatched object in the drawing.</p></li>
+        <li>To associate the
+ hatch patternto its boundary objects, under Other options, select the Associative checkbox.
+ Associativehatch updates automaticallyifyou move any of its boundaries.</li>
+        <li>To continue, adda hatch by doing one of the following:</li>
+        <li>In the Boundaries, click Select Objects
+ button to select
+ the objects you want to add a hatch.
+ Repeat the procedures following step 2.</li>
+        <li>In the
+ Boundaries, click Pick Points buttonto select an area or boundary you want to add a hatch. Repeat
+ the procedures following step 2.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic640_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To use a predefined library pattern</p>
+      <ol>
+        <li>Choose Draw &gt; Hatch from the main menu.</li>
+        <li>From the Hatch and Gradient dialog box, click the Hatch tab.</li>
+        <li>Select a Predefined type.</li>
+        <li>To select a predefined
+ pattern, do one of the following:</li>
+        <li>In the Pattern list, click the patternname.</li>
+        <li>Clickthe graphical representation of the hatchpattern.</li>
+        <li>To continue, adda hatch by doing one of the following:</li>
+        <li>In the Boundaries, click Select Objects
+ button to select
+ the objects you want to add a hatch.
+ Repeat the procedures following step 2.</li>
+        <li>In the Boundaries, click
+ Pick Points buttonto select an area or boundary you want</li>
+      </ol>
+      <p>to add a hatch. Repeat the procedures following
+ step 2.</p>
+      <p>
+        <b>NOTE </b>Hatch patterns are memory intensive and can take a
+ considerable amount of time to draw and display.
+ To improve performance, add hatching as one of the last steps when you create a
+ drawing or insert hatches
+ on a separate layer that you can freeze as you continue to work on your drawing.</p>
+    </result>
+  </taskbody>
+</task>

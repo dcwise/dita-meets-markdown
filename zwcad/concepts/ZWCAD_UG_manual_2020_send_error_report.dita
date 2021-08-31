@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A125683E-145C11F-58945742424C21E-15E9DD">
+  <title>Send Error Report</title>
+  <shortdesc>Clicks on "Send Error Report" button on
+ the Error Reporting dialog box, then you can send
+ the information of assigned
+ error reports to CrashReport@zwcad.comas well as its problemdescriptions.</shortdesc>
+  <conbody>
+    <p>If the network isn't
+ connecting, a prompt
+ boxpops up telling
+ you that "The error report wasn't
+ sent, please send the file to CrashReport@zwcad.com". Fromthis prompt box, you can see the name of
+ error report file together
+ with its saving
+ path.</p>
+    <p>Don't Send</p>
+    <p>Additionally, the user can choose not to send an error report.</p>
+  </conbody>
+</concept>

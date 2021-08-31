@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A336E4-4A11547-1A915A2BD8412BD-4B1D88">
+  <title>Create Chamfers</title>
+  <shortdesc>You can connect
+ two nonparallel objects by extending or trimming them and then joining them
+ with a line to create a beveled edge.
+ You can chamfer lines, polylines, rays, and infinite lines. When creating a chamfer, you can specify how far to trim
+ the objects back from their intersection (distance method), or you can specify the length of the chamfer
+ and the angle it forms along the first object (distance angle method).</shortdesc>
+  <conbody>
+    <p>When chamfering a polyline, you can chamfer
+ multiple segments between two selected polyline segments, or you can chamfer
+ the entire polyline.</p>
+    <p>If two objects to chamfer on the same layer, the chamfer line lies on the layer
+ as the object does; otherwise, the chamfer line lies on the current layer which controls the
+ properties of the line. The multiple options
+ can help you chamfer multiple
+ objects at one time.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic352_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

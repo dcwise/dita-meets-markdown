@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B7E75A-7D0456A-AF2154A8D5915CE-808C77">
+  <title>流程实例管理</title>
+  <shortdesc>遵循以下步骤，管理运行中的流程实例：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在 【流程实例管理】页面，单击<b>流程实例</b>标签。</cmd>
+      </step>
+      <step>
+        <cmd>在 【流程实例】页面，单击<b>运行中</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【运行中】页面，可以对流程实例进行以下管理操作：</cmd>
+        <info>
+          <ul>
+            <li>
+              <xref href="#A7B7E75A-7D0456A-AF2154A8D5915CE-808C77/_bookmark98">查看流程详情</xref>
+            </li>
+            <li>
+              <xref href="#A7B7E75A-7D0456A-AF2154A8D5915CE-808C77/_bookmark99">查看审批历史</xref>
+            </li>
+            <li>
+              <xref href="#A7B7E75A-7D0456A-AF2154A8D5915CE-808C77/_bookmark100">撤回</xref>
+            </li>
+            <li>
+              <xref href="#A7B7E75A-7D0456A-AF2154A8D5915CE-808C77/_bookmark101">跳转</xref>
+            </li>
+            <li>
+              <xref href="#A7B7E75A-7D0456A-AF2154A8D5915CE-808C77/_bookmark102">结束</xref>
+            </li>
+            <li>
+              <xref href="#task2998/_bookmark103">删除</xref>
+            </li>
+          </ul>
+        </info>
+      </step>
+    </steps>
+    <result>
+      <required-cleanup>
+        <p id="_bookmark98">
+          <b>[heading h6 could not be placed here]: </b>查看流程详情</p>
+      </required-cleanup>
+      <p>流程详情包括流程名称、提交人、审批时长等信息。在 【运行中】页面的流程实例列表中，单击具体的流程标题即可查看。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic36_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <required-cleanup>
+        <p id="_bookmark99">
+          <b>[heading h6 could not be placed here]: </b>查看审批历史</p>
+      </required-cleanup>
+      <p>
+        <image href="../graphics/SAMPLE_topic36_image004.png" />通过审批历史可以查看流程实例的审批过程及当前进展。在 【运行中】页面的流程实例列表中，单击<b>操作</b>下的 即可查看。</p>
+      <required-cleanup>
+        <p id="_bookmark100">
+          <b>[heading h6 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic36_image006.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 撤回</p>
+      </required-cleanup>
+      <p>撤回指对流程进行撤销操作，相当于提交人撤回审批。在 【运行中】页面的流程实例列表中，单击<b>操作</b>下的 <image href="../graphics/SAMPLE_topic36_image008.png" /> 即可撤回。</p>
+      <required-cleanup>
+        <p id="_bookmark101">
+          <b>[heading h6 could not be placed here]: </b>跳转</p>
+      </required-cleanup>
+      <p>当某些节点无需审批可以跨过或者某些节点需要重新审批时，可以直接跳转到指定节点。在 【运行中】页面的流程实例列表中，单击<b>操作</b>下的 <image href="../graphics/SAMPLE_topic36_image010.png" /> 即可进行跳转操作。</p>
+      <required-cleanup>
+        <p id="_bookmark102">
+          <b>[heading h6 could not be placed here]: </b>结束</p>
+      </required-cleanup>
+      <required-cleanup>
+        <p id="_bookmark178">
+          <b>[heading h6 could not be placed here]: </b>Max</p>
+      </required-cleanup>
+      <p>
+        <b>Max</b>
+      </p>
+      <p>
+        <b>描述 </b>返回一组数据中的最大值。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>MAX(<i>number</i>,<i>number</i>,…)</p>
+      <p>返回值为整数型或者实数型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <i>number </i>为整数、实数型字段或者其他要计算的数值。</p>
+      <p>
+        <b>样例 </b>Max(1,15,100,100.6) 此公式返回结果为 100.6 Max(-1.5,-2,-3) 此公式返回结果为 -1.5</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/SAMPLE_topic36_image012.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 注意点 无</p>
+      </required-cleanup>
+      <p id="_bookmark180">
+        <b>Min</b>
+      </p>
+      <p>
+        <b>Min</b>
+      </p>
+      <p>
+        <b>描述 </b>返回一组数据中的最小值。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>MIN(<i>number</i>,<i>number</i>,…)</p>
+      <p>返回值为整数型或者实数型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <i>number </i>为整数、实数型字段或者其他要计算的数值。</p>
+      <p>
+        <b>样例 </b>Min(-2.1,4,2,5,34) 此公式返回结果为 -2.1</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/SAMPLE_topic36_image012.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 注意点 无</p>
+      </required-cleanup>
+      <p id="_bookmark182">
+        <b>Mod</b>
+      </p>
+      <p>
+        <b>Mod</b>
+      </p>
+      <p>
+        <b>描述 </b>取余，返回一个数值除以除数后的余数。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>MOD(<i>number</i>,<i>divisor</i>) 返回值为整数型。</p>
+      <p>
+        <i>number </i>为被除数，可以为整数、实数型字段或者其他要计算的数值。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <i>divisor </i>为除数，可以为整数、实数型字段或者其他要计算的数值。</p>
+      <p>
+        <b>样例 </b>MOD(15,4) 此公式返回结果为 3 MOD(-9,-3) 此公式返回结果为 0</p>
+      <p>例如在对象 “ 活动记录 ” 中建立一个验证规则，活动推广开始日期都安排在周末，当安排在工作日时，显示错误信息，如下：</p>
+      <p>MOD(ActivationRecord.start_date-DATEVALUE("1900-1-7"),7)&lt;&gt;0&amp;&amp;MO
+ D(ActivationRecord.start_date-DATEVALUE("1900-1-7"),7)&lt;&gt;6</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic36_image011.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （ActivationRecord 为对象 “ 活动记录
+ ” 的 API 名称，start_date 为对象 “ 活动记录
+ ” 中的字段 “ 推广开始日期 ” 的 API 名称）</p>
+      <p>
+        <b>注意点 </b>
+        <i>divisor </i>不能为 0，如果为非法值，则前台显示为空。</p>
+      <p>
+        <image href="../graphics/SAMPLE_topic36_image013.png" />
+      </p>
+      <required-cleanup>
+        <p id="_bookmark184">
+          <b>[heading h6 could not be placed here]: </b>Round</p>
+      </required-cleanup>
+      <p>
+        <b>Round</b>
+      </p>
+      <p>
+        <b>描述 </b>按指定的位数舍入数值。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>ROUND(<i>number</i>,<i>num_digits</i>) 返回值为实数型。</p>
+      <p>
+        <i>number </i>为整数、实数型字段或者其他要计算的数值。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <i>num_digits </i>为需要保留的小数位数 （不含小数点），范围为 0~5。</p>
+      <p>
+        <b>样例 </b>Round(123.678,0) 此公式返回结果为 124 Round(-123.678,0) 此公式返回结果为 -124</p>
+      <p>Round(123.6789,2) 此公式返回结果为 123.68</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic36_image014.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Round(-123.6789,2) 此公式返回结果为 -123.68</p>
+      <p>
+        <b>注意点 </b>舍入数值时自动按照四舍五入的方式取整。</p>
+      <p>
+        <image href="../graphics/SAMPLE_topic36_image013.png" />
+      </p>
+      <required-cleanup>
+        <p id="_bookmark186">
+          <b>[heading h6 could not be placed here]: </b>SQRT</p>
+      </required-cleanup>
+      <p>
+        <b>SQRT</b>
+      </p>
+      <p>
+        <b>描述 </b>计算一个数字的正平方根。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>SQRT(<i>number</i>) 返回值为实数型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <i>number </i>为整数、实数型字段或者其他要计算的数值。</p>
+      <p>
+        <b>样例 </b>SQRT(25) 此公式返回结果为 5.0</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <b>注意点 </b>1.<i>number </i>不能为负数，如果为非法值，则前台显示为空。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image015.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 2. 返回值的小数位与配置的字段类型上的小数位保持一致。</p>
+      <required-cleanup>
+        <p id="_bookmark188">
+          <b>[heading h6 could not be placed here]: </b>Floor</p>
+      </required-cleanup>
+      <p>
+        <b>Floor</b>
+      </p>
+      <p>
+        <b>描述 </b>将一个数字向下取整，即取整为小于等于自身的最大整数。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>FLOOR(<i>number</i>) 返回值为实数型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <i>number </i>为整数、实数型字段或者其他要计算的数值。</p>
+      <p>
+        <b>样例 </b>Floor(7.7) 此公式返回结果为 7.0 Floor(-7.35) 此公式返回结果为 -8.0</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image012.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>注意点 </b>此函数取整时不进行四舍五入，直接向下取整。</p>
+      <required-cleanup>
+        <p id="_bookmark217">
+          <b>[heading h6 could not be placed here]: </b>Text</p>
+      </required-cleanup>
+      <p>
+        <b>Text</b>
+      </p>
+      <p>
+        <b>描述 </b>将实数、整数、日期等其他类型的数据转换为文本类型。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>TEXT(<i>value</i>)</p>
+      <p>返回值为文本型。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <i>value </i>为需要转换的数据。</p>
+      <p>
+        <b>样例 </b>例如在对象 " 订单 " 中有两个字段，分别为 " 数量 " 和
+ " 单位 "，需要将这两个字段进行拼接，如下：</p>
+      <p>Text(Order.quantity)&amp;Order.unit</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic36_image014.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ （Order 为对象“ 订单” 的 API 名称，quantity 为对象 “ 订单” 中的字段“ 数量”的 API 名称，unit
+ 为对象 “ 订单” 中的字段 “ 单位”的 API 名称）</p>
+      <p>
+        <b>注意点 </b>1. 当需要转换的数据为百分比类型时，则转换后的文本为实际值 （不带百分号），例如转换的数据为 10%，则转为文本后显示为 0.1。</p>
+      <p>2. 当需要转换的数据为日期类型时，则转换后的文本显示的日期格式为</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image015.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ YYYY-MM-DD，其中 YYYY 为四位数表示的年，MM 为两位数表示的月份， DD 为两位数表示的天，连接符- 也将被保留。</p>
+      <required-cleanup>
+        <p id="NumberString">
+          <b>[heading h6 could not be placed here]: </b>NumberString</p>
+      </required-cleanup>
+      <p>
+        <b>NumberString</b>
+      </p>
+      <p>
+        <b>描述 </b>将数值转换为大写的金额字符串。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic36_image011.png" />
+        </fig>
+      </p>
+      <p>
+        <b>使用 </b>NUMBERSTRING(<i>number</i>)</p>
+      <p>返回值为文本型，返回转换后的大写金额字符串。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic36_image011.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <i>number </i>为需要转换的数值，可以为整数字段、实数字段、货币字段、百分比字段、具体数值或者返回值为数值类型的函数。</p>
+      <p>
+        <b>样例 </b>NUMBERSTRING(382.42)</p>
+      <p>此公式返回结果为：人民币叁佰捌拾贰元肆角贰分NUMBERSTRING(2329.4)</p>
+      <p>此公式返回结果为：人民币贰仟叁佰贰拾玖圆肆角NUMBERSTRING(2873)</p>
+      <p>此公式返回结果为：人民币贰仟捌佰柒拾叁元整NUMBERSTRING(30029)</p>
+      <p>此公式返回结果为：人民币叁万零贰拾玖元整NUMBERSTRING(329.0038)</p>
+      <p>此公式返回结果为：人民币叁佰贰拾玖元整NUMBERSTRING(-39281)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic36_image014.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 此公式返回结果为：人民币负叁万玖仟贰佰捌拾壹元整</p>
+      <p>
+        <b>注意点 </b>1. 目前仅支持人民币大写金额。</p>
+      <ol>
+        <li>NUMBERSTRING 函数生成的值前面自动带人民币，如果实际业务中不需要，则可以使用
+ SUBSTITUTE 函数将其去掉。</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/SAMPLE_topic36_image016.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 最多支持两位小数，超过两位的小数将自动舍掉，且舍掉时不进行四舍五入。例如，123.349 转换之后的大写金额为：人民币壹佰贰拾叁元叁角肆分。如果需要四舍五入，请使用 Round 函数先四舍五入后再进行转换。</li>
+      </ol>
+      <p>特殊情况说明 | <b>173</b></p>
+    </result>
+  </taskbody>
+</task>

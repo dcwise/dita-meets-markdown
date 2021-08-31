@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A24583-E144A11-25487A16579E535-92B887">
+  <title>Add Text to a Leader</title>
+  <shortdesc>There are
+ two methods to add text to a leader:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Type text on the command line</li>
+        <li>Create the multiline
+ text using the In-Place Text Editor<p>When creating
+ text, you can assign the style to an individual character and attach
+ the copies of the cur ent annotation to the leader.</p><p>When the value of
+ variable system DIMGAP is negative, the systemcreates a boxnext to the text,
+ which the distance between themis
+ determined by the value of DIMGAP.</p><p>The text is
+ placed automatically at the endpoint of a leader at the specified value, which
+ is stored in the "Offset from
+ the dim line" on the Text tab of Modify Dimension Style dialog box. If the
+ dimension is tolerance, the future control
+ frame is placed at the
+ endpoint of a leader as well. A block is inserted
+ at the specified location with the specified scale value.</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/ZWCAD_UG_manual_2020_topic455_image001.png" /></fig></entry></row></tbody></tgroup></table>
+ To create
+ a leader and an annotation</p><ol><li>Choose Dimension &gt; Leader
+ from the mainmenu.</li><li>Specify the startingpoint of the leader.</li><li>Specify the endpoint of the leader line segment.</li><li>Specify additional leader line segment endpoints.</li><li>After you specifythe last endpoint, press Enter.</li><li>Type the annotation, andpress
+ Enter to enter the next line of annotation text.</li><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/ZWCAD_UG_manual_2020_topic455_image002.png" /></entry></row></tbody></tgroup></table>
+ Press ENTER to complete the command.</li></ol></li>
+      </ul>
+      <p>Specify the starting point of the leader (A) and the endpoint of the leader line segment
+ (B)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic455_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The following picture shows the
+ text is above the leader. You can set the Text Placement from the Text tab in the Modify
+ Dimension Style dialog
+ box.</p>
+    </context>
+  </taskbody>
+</task>

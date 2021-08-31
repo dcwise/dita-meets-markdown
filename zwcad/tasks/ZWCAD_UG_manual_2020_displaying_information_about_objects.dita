@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A43-6836515-311F2154A71D5A7-91535A">
+  <title>Displaying information about objects</title>
+  <shortdesc>You can display information about the selected objects. The information
+ varies, depending on the type of objects
+ you select. All of the listings display
+ the following information:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>Object type.</li>
+        <li>Layer.</li>
+        <li>Color.</li>
+        <li>Linetype.</li>
+        <li>The location of the object (its XYZ coordinates relative to the current user coordinate system [UCS]).</li>
+        <li>The current space (model space
+ on the Model tab or paper space on a Layout tab).</li>
+        <li>The size of the object (the information varies, depending on the object type).<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/ZWCAD_UG_manual_2020_topic190_image001.png" /></fig></entry></row></tbody></tgroup></table>
+ To display information about
+ an object</p><ol><li>Choose Tools &gt; Inquiry
+ &gt; List from the mainmenu.</li><li>Select one or more objects.</li><li>Press Enter.</li></ol></li>
+      </ul>
+      <p>
+        <b>TIP </b>To return to the drawing
+ window, press F2.</p>
+    </context>
+  </taskbody>
+</task>

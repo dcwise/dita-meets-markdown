@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A3568-65EC4A1-2A7C57A71E5331D-16C53E">
+  <title>Create Polylines from the Boundaries of Objects</title>
+  <shortdesc>You can create a
+ polyline fromthe boundaries of overlapping objects that forma closed area. A
+ polyline created using the boundary
+ method is a separate object, distinct from the objects used to create it. You can edit it using the same methods
+ used to edit other polylines.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic244_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To expedite the boundary selection
+ process in large or complex drawings, you can specify a group of boundary candidates, called a boundary set.
+ You create this set by selecting the objects you want to use define the boundary.</p>
+      <p>With the Boundary
+ command, you can designate a specific area of a drawing for operations such as hatching and dimensioning. You create a
+ boundary polyline by selecting an area inside a closed loop. The area you select can be bounded by a single closed
+ object or by multiple objects
+ that intersect.</p>
+      <p>In cases where
+ objects intersect, ZWCAD interprets the boundary as the closed loop closest to
+ the point specifying the area. In
+ the following figure, for example, the area point selected in the rectangle
+ results in a boundary consisting of
+ the closed loop nearest the point selection, as opposed to the closed loop formed by the rectangle itself.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic244_image002.png" />
+      </p>
+      <p>Selected point (A) Resulting boundary
+ (B)</p>
+      <p>To make boundaries more specific, you can create
+ a boundary set. A boundary
+ set specifies which objects are considered in determining the boundary
+ path. This can make creating the boundary polyline faster if you are working with a complex
+ drawing.</p>
+      <p>In the following
+ figure, the circle and triangle are the selected objects. If you select an area
+ anywhere inside the circle or the triangle, the result is a polyline
+ that bounds the shaded area.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic244_image003.png" />
+        </fig>
+      </p>
+      <p>Left: Selected objects (A and B)</p>
+      <p>Right: Point specified in the selected
+ area (C), which results in a new boundary around the shaded
+ area.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic244_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a boundary
+ polyline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Boundary
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the objects that you want to be made available
+ for the boundary polyline by doing one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Current viewport - Define a boundary set with allentities in the current viewport.</cmd>
+        <info>
+          <p>In addition, if this option is selected,
+ any boundary set currently
+ used will be canceled.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Existing set -
+ Click New button to switch to the drawing area, and prompt users to select objects for defining boundary sets.
+ Press Enter to return to the dialog box after selection. This option is only available
+ after selecting objects
+ by using the New button.</cmd>
+      </step>
+      <step>
+        <cmd>Select the Island Detection
+ option.</cmd>
+      </step>
+      <step>
+        <cmd>Click Pick Points.</cmd>
+      </step>
+      <step>
+        <cmd>In the drawing, click inside the area whose closed perimeter
+ forms the boundary,</cmd>
+        <info>
+          <p>not on the polyline itself. If desired, continue clicking inside additionally closed perimeters.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>To complete the selection, press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>In the Boundary Creationdialog box, click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

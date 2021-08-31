@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A3683-65145A1-F2154A81A91559D-72B9E0">
+  <title>Modify and Manage Raster Images</title>
+  <shortdesc>Controls the
+ properties such as displaying and clipping boundary of raster images. You can
+ view and manipulate attached
+ raster image and change its saving path
+ in Image Manager.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

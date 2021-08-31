@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B7310D-24A4345-2151F2154A87175-41559B">
+  <title>配置入口</title>
+  <shortdesc>遵循以下步骤，进入数据管理相关配置部分：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>登录销售易系统 （<xref href="https://crm.xiaoshouyi.com/" scope="external" format="html">https://crm.xiaoshouyi.com</xref>），在左侧导航栏底部单击<b>设置 </b>&gt; <b>系统设置</b>进入系统后台。</cmd>
+      </step>
+      <step>
+        <cmd>在左侧导航菜单中，单击<b>数据管理</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

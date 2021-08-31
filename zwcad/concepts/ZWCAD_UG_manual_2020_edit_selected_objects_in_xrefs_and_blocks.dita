@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72A4356-836514C-4A112154A781455-71E359">
+  <title>Edit Selected Objects in Xrefs and Blocks</title>
+  <shortdesc>You can edit or
+ modify the visible text of xrefs attached to the drawing through edit in place.
+ Because block
+ references and xrefs are different types of reference files, editing and modifying
+ the block references will
+ be illustrated here.</shortdesc>
+  <conbody>
+    <p>Generally, one or more xrefs and block references are contained
+ in each drawing; the objects assigned
+ to be edited
+ must be block
+ references so as to redefine.</p>
+    <p>When you work
+ with xrefs, you can modify the included objects, and save the modifications
+ back to xrefs. This may be proper to
+ use when making small changes to the current drawing. But for complex modifications, you should modify the xref
+ drawing directly, and then update the attached xrefs in the current drawing. Using edit in place for
+ the xrefs may increase the size of the drawing and lower the capability of the computer.</p>
+  </conbody>
+</concept>

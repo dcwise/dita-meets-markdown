@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12235-683E415-48825759BF8E7AC-D6D8D7">
+  <title>Overview of Layout</title>
+  <shortdesc>A layout
+ represents a plotted page on which one or more model views are displayed. ZWCAD
+ provides two collateral working
+ environments as Model tab and Layout tab. You can create thematic models on Model
+ tab. Multiple slides
+ of the model
+ can be set in the Layout tab.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Enable unlimited
+ drawing area on the Modeltab. You can draw a picture at the scale of 1:1, and
+ define which unit to be used as the
+ measurement units of the drawing (here Inch is for brackets and metric is for bridges).</p>
+      <p>Virtual drawing
+ paper is accessible onthe Layout tab. When setting
+ layouts, the drawing
+ can be displayed as the paper size. A layout represents a plotted page which is so-called paper
+ space.</p>
+      <p>You can get the objects created
+ in model space
+ displayed on paper space
+ by creating multiple viewports. And you can create dimensions as well as
+ other geometric objects in layouts. Each viewport is capable of displaying objects
+ in model space
+ in a specified proportion.</p>
+      <p>The systemprovides two layouts by default, called layout 1 and layout 2.
+ You can create as many layouts as you want, with various page setup and
+ size for each layout. If you are working with a template file, default layout
+ configuration may be different.</p>
+      <p>When you create a drawing, you do most of your work on the Model tab. Each drawing that you create</p>
+      <p>can contain numerous
+ layouts that simulate the paper on which you will print a copy of the drawing. Each of these layouts is created on a
+ Layout tab. You can prepare a separate layout for each way you want to print your drawing. The layout
+ allows you to organize different views to control which portion of your drawing prints
+ and at what scale.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic662_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Use these general steps to prepare
+ your drawing for printing multiple
+ layouts</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the Model tab, create your drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Create a new layout. You can use an existing Layout1
+ or Layout2 tab, or you can create a new Layout
+ tab.</cmd>
+      </step>
+      <step>
+        <cmd>Create at least one layout viewport on the Layout tab. Use each viewport to help</cmd>
+        <info>
+          <p>control whichportion of the drawing
+ prints andat what scale.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Specify additional settings for the layout, such as the scale of the drawing, print area, print style tables,
+ and more.</cmd>
+      </step>
+      <step>
+        <cmd>Print or plot your drawing.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>You can right
+ click on the Layout tab and select "New " to create a new layout, and
+ also import layout from the template.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic662_image003.png" />
+      </p>
+      <p>Shortcut menu for layout</p>
+    </result>
+  </taskbody>
+</task>

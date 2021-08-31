@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A83E-43CA1F2-158B5751357FE5E-6C36ED">
+  <title>Create Nested Blocks</title>
+  <shortdesc>You can define blocks and other blocks as nested
+ blocks so as to simplify the organization of complicated blocks.</shortdesc>
+  <conbody>
+    <p>With nested blocks, you can build a single block out of several
+ components. But you should notice that blocks that reference
+ themselves cannot be inserted.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic554_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

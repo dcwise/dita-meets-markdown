@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A3-56865E1-43C4AF14A8F1BA9-1E3CB0">
+  <title>Grid and Grid Snap</title>
+  <shortdesc>The grid is a rectangular pattern comprised of cells that extends over the area you specify
+ as the grid limits. Displaying grids and using
+ grids snap improve
+ the performance of regenerating.</shortdesc>
+  <conbody>
+    <p>Using the grid is like placing a sheet of coordinate paper under a drawing. The grid is not plotted.
+ When you turn Snap mode on,
+ the cursor adheres or snaps to the invisible grids. Therefore, you can specify precise
+ points with the arrow keys,
+ mouse or other
+ pointing devices.</p>
+    <p>Grid and snap settings
+ are effective tools to use in your drawing to ensure accuracy.</p>
+    <p>Although many
+ users find it convenient to match grid points to snap settings, they are
+ independent of each other and should
+ not be confused. Grid points are for visual reference only; they do not affect
+ your drawing and they do not print.
+ Snap points are, by themselves, not visible; however, when set, they constrain the creation of new entities.</p>
+    <p>In addition, the
+ cursor can be restricted to move orthogonally only or guides can display on the
+ screen automatically at specified polar angle increments.</p>
+  </conbody>
+</concept>

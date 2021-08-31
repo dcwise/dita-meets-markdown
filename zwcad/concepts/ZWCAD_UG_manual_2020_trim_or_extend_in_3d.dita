@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1A4383E-153C411-5D11AE2BED714D9-044918">
+  <title>Trim or Extend in 3D</title>
+  <shortdesc>You can trim or extend objects even the objects are in
+ the different planes in 3D space. The systemvariable PROJMODEand EDGEMODE control the following project
+ models:</shortdesc>
+  <conbody>
+    <ul>
+      <li>XY plane of the Current UCS.</li>
+      <li>Current view plane.</li>
+      <li>3D realty space (not projection).</li>
+    </ul>
+    <p>Attentively, when
+ you trimor extend objects 3D space, the objects to cut or extend must be
+ intersected with the boundary of the
+ 3D boundary. The objects to trimor extend may not concludeexactly if they do not intersect with each other
+ when you work at the XYplane of the current
+ UCS.</p>
+  </conbody>
+</concept>

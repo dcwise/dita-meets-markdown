@@ -1,0 +1,1345 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B175A7-2564AF5-4812594159D5389-597CDD">
+  <title>绘制审批流程图</title>
+  <shortdesc>在流程设计器中，绘制审批流程图的过程与在其他流程软件中的绘制方法类似，在节点区拖拽相应类型的节点到画布中，然后添加各节点之间的连接线。</shortdesc>
+  <taskbody>
+    <context>
+      <p>下表展示了常见操作的方法及快捷键。</p>
+      <p>操作 方法 快捷键</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 添加节点 从节点区单击节点拖拽到画布 无</p>
+      <p>删除节点 右键单击节点，然后单击<b>删除 </b>Delete</p>
+      <p>
+        <image href="../graphics/SAMPLE_topic16_image001.png" />
+      </p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic16_image001.png" />
+        </fig>
+        <image href="../graphics/SAMPLE_topic16_image002.png" />删除连线 右键单击连线，然后单击<b>删除 </b>Delete 选择画布中的所有节点 在画布中鼠标绘制矩形区域全选 Ctrl+A</p>
+      <required-cleanup>
+        <p id="_bookmark22">
+          <b>[heading h6 could not be placed here]: </b>流程元素说明</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image004.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>图中序号 说明</b>
+      </p>
+      <p>1 开始节点，审批流的起始点。</p>
+      <p>
+        <b>
+          <i>NOTE 1. </i>
+        </b>
+        <i>一个审批流必须包含开始节点，且只能包含一个开始节点</i>。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image005.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>
+          <i>2. </i>
+        </b>
+        <i>拖拽开始节点到画布的同时，会自动出现提交节点。</i>
+      </p>
+      <p>图中序号 说明</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>提交节点，拖拽开始节点到画布的同时，会自动出现提交节点。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/SAMPLE_topic16_image006.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 在此类型节点中可以进行审批提交的相关配置，例如提交按钮的名称、提交后执行的操作。关于提交人节点配置的详细信息请参考<xref href="#A7B175A7-2564AF5-4812594159D5389-597CDD/_bookmark24">配</xref><xref href="#A7B175A7-2564AF5-4812594159D5389-597CDD/_bookmark24">置提交节点属性</xref>。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>网关节点，计算判断相关的决策条件，从而确定流程接下来要走的分支。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic16_image007.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 关于网关节点配置的详细信息请参考<xref href="#A7B175A7-2564AF5-4812594159D5389-597CDD/_bookmark26">配置网关节点属性</xref>。关于配置分支条件的详细信息请参考<xref href="#task11148/_bookmark28">配置网关分支属性</xref>。</p>
+        </info>
+      </step>
+      <step>
+        <cmd>审批节点，在此类型节点中可以进行审批的相关配置，例如审批方式、审批人、审批通过或拒绝后执行的操作。关于审批节点配置的详细信息请参考<xref href="#task11148/_bookmark31">配置审批节点属性</xref>。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/SAMPLE_topic16_image007.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>结束节点，审批流的终结点。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic16_image008.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <b>
+              <i>NOTE </i>
+            </b>
+            <i>一个审批流必须至少包含一个结束节点。</i>
+          </p>
+          <required-cleanup>
+            <p>
+              <b>[heading h5 could not be placed here]: </b>
+              <b>NOTE </b>一个审批流中必须要包含一个开始节点（含提交节点）、至少一个结束节点。</p>
+          </required-cleanup>
+          <p id="_bookmark24">
+            <b>配置提交节点属性</b>
+          </p>
+          <p>在流程设计器的画布中，双击<b>提交申请</b>节点，配置审批提交的相关属性，例如提交按钮上显示的名称、在提交时是否允许抄送其他人。</p>
+          <p>
+            <fig>
+              <image href="../graphics/SAMPLE_topic16_image010.png" />
+            </fig>
+          </p>
+          <p>配置项 说明</p>
+          <required-cleanup>
+            <p>
+              <b>[heading h6 could not be placed here]: </b>
+              <table>
+                <tgroup cols="1" colsep="1" rowsep="1">
+                  <colspec colname="c1" align="left" />
+                  <tbody>
+                    <row>
+                      <entry colname="c1">
+                        <image href="../graphics/SAMPLE_topic16_image011.png" />
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+ 基本信息</p>
+          </required-cleanup>
+          <p>提交按钮名称 用户需要单击审批提交按钮来提交审批，此项用于设置显示在按钮上的文字。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/SAMPLE_topic16_image012.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <b>
+              <i>NOTE </i>
+            </b>
+            <i>提交按钮显示名称暂不可配。</i>
+          </p>
+          <p>允许抄送 勾选此项，表示在提交审批时，可以抄送给其他人员。勾 选后，设置默认的抄送人员。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic16_image014.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+          <required-cleanup>
+            <p>
+              <b>[heading h5 could not be placed here]: </b>
+              <table>
+                <tgroup cols="1" colsep="1" rowsep="1">
+                  <colspec colname="c1" align="left" />
+                  <tbody>
+                    <row>
+                      <entry colname="c1">
+                        <fig>
+                          <image href="../graphics/SAMPLE_topic16_image012.png" />
+                        </fig>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <b>NOTE </b>此处设置的为默认的抄送人员，用户提交审批时可以选择其他抄送人员，也可以取消此处设置的默认抄送人员。</p>
+          </required-cleanup>
+          <p>意见留言必填 勾选此项，表示用户在提交审批时，必须填写留言说明。</p>
+          <p>
+            <image href="../graphics/SAMPLE_topic16_image012.png" />
+          </p>
+          <required-cleanup>
+            <p>
+              <b>[heading h6 could not be placed here]: </b>
+              <table>
+                <tgroup cols="1" colsep="1" rowsep="1">
+                  <colspec colname="c1" align="left" />
+                  <tbody>
+                    <row>
+                      <entry colname="c1">
+                        <fig>
+                          <image href="../graphics/SAMPLE_topic16_image015.png" />
+                        </fig>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+ 提交事件</p>
+          </required-cleanup>
+          <p>配置项 说明</p>
+          <p>单击 <b>+ 添加事件</b>设置需要执行的业务操作以及执行时机，设置完成后，单击<b>确认</b>。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic16_image017.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+          <p>执行事件 在审批提交前、提交后都可以自动执行指定的操作，此项用于选择操作执行的时机。</p>
+          <p>提交前：指用户单击审批流提交按钮后，且在选择审批人之前。例如，订单审批流程，提交前校验订单明细是否填写，如果订单明细数据未填写，则阻断流程。</p>
+          <required-cleanup>
+            <p>
+              <b>[heading h5 could not be placed here]: </b>
+              <b>NOTE </b>如果在提交前执行操作，则仅当执行的结果为true 时，会继续执行流程。</p>
+          </required-cleanup>
+          <p>提交后：指用户单击提交按钮，并选择配置完审批人等设置，单击确定按钮后。例如，订单审批流程，提交后锁定状态为锁定，使之不可更改订单数据。</p>
+          <required-cleanup>
+            <p>
+              <b>[heading h5 could not be placed here]: </b>
+              <table>
+                <tgroup cols="1" colsep="1" rowsep="1">
+                  <colspec colname="c1" align="left" />
+                  <tbody>
+                    <row>
+                      <entry colname="c1">
+                        <fig>
+                          <image href="../graphics/SAMPLE_topic16_image012.png" />
+                        </fig>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <b>NOTE </b>如果在提交后执行操作，则执行操作的结果不会影响流程的后续执行。</p>
+          </required-cleanup>
+          <p>事件类型 需要执行的操作的类型。</p>
+          <p>
+            <image href="../graphics/SAMPLE_topic16_image012.png" />
+          </p>
+          <p>选择操作 具体要执行的操作。关于操作配置的详细信息请参考<xref href="#task11148/_bookmark43">配置</xref><xref href="#task11148/_bookmark43">流程中执行的操作</xref>。</p>
+          <p>
+            <b>
+              <i>NOTE 1. </i>
+            </b>
+            <i>提交前和提交后均最多支持添加 20 个操作。</i>
+          </p>
+          <required-cleanup>
+            <p>
+              <b>[heading h5 could not be placed here]: </b>
+              <table>
+                <tgroup cols="1" colsep="1" rowsep="1">
+                  <colspec colname="c1" align="left" />
+                  <tbody>
+                    <row>
+                      <entry colname="c1">
+                        <fig>
+                          <image href="../graphics/SAMPLE_topic16_image015.png" />
+                        </fig>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <b>2. </b>提交前事件为同步执行，提交后事件为异步执行。</p>
+          </required-cleanup>
+          <p id="_bookmark26">类型 设置当前节点的审批方式，支持以下审批方式：</p>
+          <ul>
+            <li>单人审批<p>只需要一个审批人，一人审批完成后，该节点审批结束，当前节点的审批结果为此人的审批结果。</p></li>
+            <li>会签一人审批<p>需要一个或者多个审批人，如果设置了多个审批人，
+ 则审批时一人通过或拒绝，当前节点的审批结果即为通过或拒绝。</p><p><b><i>NOTE </i></b><i>当有一人通过或拒绝后，未审批的审批人将无需再进行审批。</i></p></li>
+            <li>会签全部审批</li>
+          </ul>
+        </info>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image019.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 需要一个或者多个审批人，所有审批人都需要参与审 批，当前节点的审批结果将由设定的审批通过率决定。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>审批相关设置</p>
+      </required-cleanup>
+      <p>
+        <b>
+          <i>NOTE 1. </i>
+        </b>
+        <i>会签全部审批，对所有审批人的审批顺序没有要求，但必须所有审批人完成审批。</i>
+      </p>
+      <p>
+        <b>
+          <i>2. </i>
+        </b>
+        <i>当审批通过率设置为具体数值时，当前节点审批通过所需的审批通过人数采用四舍五入的计算方式，即：需要的审批通过人数= 全部审批人数* 审批通过率，然后对计算结果四舍五入后取整数。</i>
+      </p>
+      <p>
+        <i>例如，审批通过率为 60% 时认为该节点审</i>
+      </p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic16_image020.png" />
+        </fig>
+        <i>批通过。假设共有 4 个人审批，则至少有4*60%=2.4 （四舍五入后为 2）个人审批通过时，该节点被认为通过。</i>
+      </p>
+      <p>
+        <image href="../graphics/SAMPLE_topic16_image021.png" />
+      </p>
+      <p>允许加签 勾选此项，表示在审批过程中，当前节点的审批人可以根据需要，通过加签功能临时邀请其他人员对当前节点进行审批。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>加签人是否参与审批</p>
+      </required-cleanup>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image020.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 勾选此项，表示临时邀请的审批人的审批意见也会影响当前节点的审批结果，否则将只作为参考意见。</p>
+      <p>允许抄送 勾选此项，表示在提交审批时，可以抄送给其他人员。勾选后，设置默认的抄送人员。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/SAMPLE_topic16_image020.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <b>NOTE </b>此处设置的为默认的抄送人员，用户审批时可以选择其他抄送人员，也可以取消抄送此处设置的默认抄送人员。</p>
+      </required-cleanup>
+      <p>允许转办 勾选此项，表示允许当前节点的审批人将审批权限转给其 他人。例如，审批人张三在出差期间，将审批工作转给李 四处理。</p>
+      <p>
+        <image href="../graphics/SAMPLE_topic16_image020.png" />历史节点相同审批人自动推进</p>
+      <p>勾选此项，表示如果当前节点的审批人，在之前的某个节 点中已经审批过且审批意见为 “ 同意 ”，则当前节点对于该审批人将进行自动推进，无需该审批人再次进行审
+ 批。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>NOTE 1. </b>此项对被加签审批人无效，即如果当前审批节点中的某个审批人，在之前最近一次的审批节点 中，以被加签人的身份进行审批( 审批结果为同意），那么在当前节点中即使作为审批人，也需要进行手动审批。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <i>自动推进的相同审批人包括提交人，即审批人为提交人时也会自动推进。</i>
+          <p>
+            <fig>
+              <image href="../graphics/SAMPLE_topic16_image020.png" />
+            </fig>
+          </p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic16_image020.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 审批意见留言必填 勾选此项，表示审批人在审批时，无论是否通过，都必须填写审批意见。</p>
+          <required-cleanup>
+            <p>
+              <b>[heading h6 could not be placed here]: </b>审批操作</p>
+          </required-cleanup>
+          <p>
+            <fig>
+              <image href="../graphics/SAMPLE_topic16_image020.png" />
+            </fig>
+          </p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic16_image020.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 通过按钮设置 审批人需要单击审批按钮来通过审批，勾选此项，可以自定义通过按钮上显示的文字。</p>
+          <p>按钮名称 显示在通过审批按钮上的文字。</p>
+          <p>
+            <fig>
+              <image href="../graphics/SAMPLE_topic16_image020.png" />
+            </fig>
+          </p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic16_image022.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 拒绝按钮设置 审批人需要单击审批按钮来拒绝通过审批，勾选此项，可以自定义拒绝按钮上显示的文字。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/SAMPLE_topic16_image020.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 按钮名称 显示在拒绝按钮上的文字。</p>
+          <p>拒绝后动作 在审批过程中，当前节点审批拒绝后，可以退回到之前的某个审批节点，可自定义退回到以下节点：</p>
+          <ul>
+            <li>初始节点<p>退回到初始节点后，需要重新提交审批，审批流程从头开始执行。</p></li>
+            <li>当前节点之前的任意节点<p>审批过程中，由审批人决定退回到哪个节点。</p></li>
+            <li>上一审批节点<p>退回到上一级审批通过的节点。</p></li>
+            <li>退回初始节点修改完毕后返回给当前审批节点</li>
+          </ul>
+        </li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image023.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 退回到初始节点后，需要重新提交审批，重新提交审批后，将自动跳过之前已经审批过的节点，从之前拒绝的节点开始执行。</p>
+      <required-cleanup>
+        <p id="_bookmark33">
+          <b>[heading h6 could not be placed here]: </b>设置审批人</p>
+      </required-cleanup>
+      <p>设置当前节点的具体审批人。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>NOTE 1.
+ </b>为审批节点配置审批人时，确保审批人对流程关联对象有访问权限（职能权限），否则无法查看审批数据。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <i>如果审批人对审批数据没有数据权限，则审批时会自动将审批人加到审批数据的团队成员中，即审批人可以查看审批数据。</i>
+          <p>
+            <fig>
+              <image href="../graphics/SAMPLE_topic16_image025.png" />
+            </fig>
+          </p>
+          <p>单击
+ <b>+ 添加策略</b>设置审批方式，设置完成后，单击<b>确认</b>。。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/SAMPLE_topic16_image027.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+          <p>配置项 说明</p>
+          <p>策略 审批人的设置支持以下方式：</p>
+          <ul>
+            <li>策略 1：自选审批人<p>当前节点的审批人由上一级审批节点的审批人指定。</p></li>
+            <li>策略 2：固定审批人<p>当前节点的审批人为此处设置的人员。</p></li>
+            <li>策略 3：流程用户组<p>当前节点的审批人为已定义的流程用户组中的全部用户。关于流程用户组的详细信息请参考 《销售易CRM_PaaS 平台 _ 用户及权限管理》<b>用户权限的配置与管理</b>一章中的<b>流程用户组</b>。</p></li>
+            <li>策略 4：流程提交人<p>当前节点的审批人为审批提交人。</p></li>
+            <li>策略 5：上一级节点直属上级<p>当前节点的审批人为上一级审批节点审批人的直属上级。</p><p><b><i>NOTE 1. </i></b><i>此处的直属上级指在部门/ 用户中为用户设置的直属上级。</i></p><required-cleanup><p><b>[heading h5 could not be placed here]: </b><b>2. </b>如果上一级审批节点为多人审批，且当前审批节点为单人审批，则在审批时，需要从上一级审批节点的所有审批人的直属上级中选择一人作为当前审批节点的审批人。</p></required-cleanup></li>
+            <li>策略 6：提交人直属上级<p>当前节点的审批人为审批提交人的直属上级。</p><required-cleanup><p><b>[heading h5 could not be placed here]: </b><b>NOTE </b>此处的直属上级指在部门/ 用户中为用户设置的直属上级。</p></required-cleanup></li>
+            <li>策略 7：按角色查找<p>当前节点的审批人为指定角色中的用户。</p></li>
+            <li>策略 8：动态选人</li>
+          </ul>
+        </li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image028.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 当前节点的审批人为从开发者平台上传的自定义代码中返回，审批流接收到审批人后将其设置为本节点的审批人。关于自定义代码的编写方法请参考 《销售易CRM_PaaS 平台开发手册》<b>业务逻辑开发</b>中的<b>旧版审批流动态选人脚本开发</b>。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>NOTE </b>当前节点的审批人为添加的所有用户的并集。</p>
+      </required-cleanup>
+      <required-cleanup>
+        <p id="设置节点审批时需要填写的信息">
+          <b>[heading h6 could not be placed here]: </b>设置节点审批时需要填写的信息</p>
+      </required-cleanup>
+      <p>在审批过程中，可以根据需要收集必要的信息。此项用于配置审批人在审批时需要填写的信息。在左侧字段列表选中将需要填写信息的字段拖拽到右侧，然后设置其是否为必填。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image030.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <required-cleanup>
+        <p id="设置节点审批完成后自动执行的操作">
+          <b>[heading h6 could not be placed here]: </b>设置节点审批完成后自动执行的操作</p>
+      </required-cleanup>
+      <p>用于配置当前节点审批结束后，自动执行的操作。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image032.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>单击 <b>+ 添加事件</b>设置需要执行的业务操作以及执行时机，设置完成后，单击<b>保存</b>。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image034.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 图中序号 说明</p>
+      <ol>
+        <li>在当前审批节点审批通过前、通过后、拒绝前、拒绝后都 可以自动执行指定的操作，此项用于设置操作执行的时机。</li>
+      </ol>
+      <p>通过前：指审批人单击<b>同意</b>按钮后，且在未执行后续步骤前。</p>
+      <p>通过后：指审批人单击<b>同意</b>按钮，并填写完审批意见且选择完下一级审批人，单击<b>确定</b>后。</p>
+      <p>拒绝前：指审批人单击<b>拒绝</b>按钮后，且在未执行后续步骤前。</p>
+      <p>拒绝后：指审批人单击<b>拒绝</b>按钮，并填写完审批意见，单击<b>确定</b>后。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>NOTE 1.
+ </b>如果在通过前或者拒绝前执行操作，则仅当执行的结果为true 时，会继续执行流程。</p>
+      </required-cleanup>
+      <ol>
+        <li>
+          <i>如果在通过后或者拒绝后执行操作，则执行操作的结果不会影响流程的后续执行。</i>
+        </li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image035.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <i>如果当前节点为多人审批，则执行操作的时机为最后一个审批人审批通过前、通过后、拒绝前或者拒绝后。</i>
+        </li>
+      </ol>
+      <p>图中序号 说明</p>
+      <ol>
+        <li>配置需要执行的触发事件，操作类型不同，配置的内容也有所差别。关于操作配置的详细信息请参考<xref href="#task11148/_bookmark43">配置流程中执</xref><xref href="#task11148/_bookmark43">行的操作</xref>。<required-cleanup><p><b>[heading h5 could not be placed here]: </b><b>NOTE 1. </b>当前审批节点审批通过前、通过后、拒绝前、拒绝后均最多支持添加 20 个触发事件。</p></required-cleanup><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image035.png" /></entry></row></tbody></tgroup></table><b><i>2. </i></b><i>前事件为同步执行，后事件为异步执行。</i></p><p id="配置流程的全局属性"><b>配置流程的全局属性</b></p><p>流程的全局属性指这些属性是相对于整个审批流而言，例如，哪些记录可以启动审批流、哪些用户可以提交审批、审批流执行结束后还需要进行哪些操作。</p><p><image href="../graphics/SAMPLE_topic16_image037.png" />在流程设计器页面，单击的 进行配置。</p><required-cleanup><p id="_bookmark38"><b>[heading h6 could not be placed here]: </b>设置基本信息</p></required-cleanup><p>配置流程的基本属性以及在审批执行过程中，是否允许撤回操作等。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image039.png" /></fig></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>流程名称 在<xref href="SAMPLE_创建流程.dita">创建流程</xref>时配置，此处可修改。 业务对象 在<xref href="SAMPLE_创建流程.dita">创建流程</xref>时配置，此处不可修改。业务类型 在<xref href="SAMPLE_创建流程.dita">创建流程</xref>时配置，此处不可修改。序号 在<xref href="SAMPLE_创建流程.dita">创建流程</xref>时配置，此处不可修改。</p><p><image href="../graphics/SAMPLE_topic16_image012.png" /></p><p><fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig><image href="../graphics/SAMPLE_topic16_image012.png" /><image href="../graphics/SAMPLE_topic16_image011.png" />流程说明 在<xref href="SAMPLE_创建流程.dita">创建流程</xref>时配置，此处可修改。</p><fig><image href="../graphics/SAMPLE_topic16_image040.png" /></fig><p>配置项 说明</p><p>流程管理员 如果在审批执行过程中，出现未找到审批人的情况，会发送通知消息给流程管理员。此项用于设置接收通知消息的人员。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image012.png" /></entry></row></tbody></tgroup></table>
+ 例如，请假流程第一个审批节点的审批人为提交人的直属上级，在审批流执行时，由于调整了组织结构，找不到提交人的直属上级，此时就可以发送消息给流程管理员，流程管理员在接收到消息后，可以根据现有情况决定是否需要修改流程配置。</p><p>其它配置 • 允许撤回</p><p>在审批执行过程中，审批提交人可以撤回审批申请。勾选此项，表示允许审批提交人进行撤回操作。</p><p><b><i>NOTE </i></b><i>审批撤回后，可重新提交申请。</i></p><ul><li>允许单步收回</li></ul></li>
+      </ol>
+      <p>在审批执行过程中，审批人在审批完成后，可以进行反 悔操作，即收回之前的审批，重新进行审批。勾选此 项，表示允许审批人进行收回操作。</p>
+      <p>
+        <b>
+          <i>NOTE 1.
+ </i>
+        </b>
+        <i>收回操作仅被用于单人审批的审批节点中。</i>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image041.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <b>2. </b>仅当下一级审批节点没有开始审批时，当前节点（单人审批时）的审批人可进行收回操作。</p>
+      </required-cleanup>
+      <required-cleanup>
+        <p id="_bookmark39">
+          <b>[heading h6 could not be placed here]: </b>设置流程执行的条件</p>
+      </required-cleanup>
+      <p>配置流程关联对象上的哪些记录可以执行审批流程，即当用户提交审批时，将根据此处设置的条件，对提交审批申请的记录进行判断，只有满足条件时，才可以正常进入审批流程。</p>
+      <p>
+        <image href="../graphics/SAMPLE_topic16_image043.png" />
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>条件类型</p>
+      </required-cleanup>
+      <ul>
+        <li>满足条件</li>
+      </ul>
+      <p>当需要记录中的字段值符合某种条件时，可以选择此条件类型。例如，只有订单总金额大于 50000 时，才能进入订单折扣申请的审批流程。</p>
+      <p>满足条件类型的配置方式如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image045.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 图中序号 说明</p>
+      <ol>
+        <li>选择需要判断值的字段，可以是流程关联对象上的字段，
+ 也可以是流程关联对象的相关对象上的字段。<p><image href="../graphics/SAMPLE_topic16_image012.png" /></p></li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image012.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 条件运算符，例如，等于、不等于。</li>
+        <li>目标值的设置形式，支持以下设置形式：<ul><li>值<p>在 4 中手动输入值，不同字段类型输入值的方法不同， 详细信息请参考<xref href="#task11148/_bookmark114">值的输入方法</xref>。</p></li><li>公式<p>在 4 中设置公式，插入字段、运算符和函数可以辅助公式的设置。</p></li><li>字段引用</li></ul><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image011.png" /></entry></row></tbody></tgroup></table>
+ 在 4 中选择某个字段，将其值作为满足的条件值。可以是流程关联对象上的字段，也可以是流程关联对象的相关对象上的字段。</p></li>
+        <li>根据 3 中所选值的设置形式，设置满足的条件值。<fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig></li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/SAMPLE_topic16_image015.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 单击 <b>+ 添加更多条件</b>可添加多个条件，当有多个条件时， 多个条件之间的关系默认为 and （与），如果需要自定义各条件之间的关系，勾选此项。<p>图中序号 说明</p></li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image015.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 此项仅当勾选<b>启用高级公式</b>时出现，用于设置多个条件之间的关系，关于公式编写规则的详细信息请参考<xref href="#task11148/_bookmark116">高级公式</xref><xref href="#task11148/_bookmark116">的编写规则</xref>。</li>
+      </ol>
+      <ul>
+        <li>公式为真</li>
+      </ul>
+      <p>使用公式作为条件的判断依据，即公式的最终结果为 true 时，进入分支执行。公式为真类型的配置方式如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image047.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 公式配置项 说明</p>
+      <p>插入字段 在公式中可以引用字段值，可以是流程关联对象上的字段， 也可以是流程关联对象的相关对象上的字段。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic16_image012.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image012.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 插入运算符 公式运算符，例如，加、减。</p>
+      <p>插入函数 在公式中可以引用函数，关于函数的详细信息请参考<xref href="#task11148/_bookmark126">函数</xref><xref href="#task11148/_bookmark126">说明</xref>。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic16_image012.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image015.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 语法检查 公式配置完成后，通过此项可以检查公式书写的正确性， 不做逻辑检查。</p>
+      <p>
+        <b>
+          <i>NOTE </i>
+        </b>
+        <i>不能使用不支持的函数。</i>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h6 could not be placed here]: </b>错误提示设置</p>
+      </required-cleanup>
+      <p>设置审批流不满足初始条件时的提示信息。</p>
+      <ul>
+        <li>按系统默认</li>
+      </ul>
+      <p>使用系统默认的提示信息。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image049.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <ul>
+        <li>自定义错误提示<p>设置自定义的提示信息。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image051.png" /></entry></row></tbody></tgroup></table></p><required-cleanup><p id="_bookmark40"><b>[heading h6 could not be placed here]: </b>设置流程启动的相关属性</p></required-cleanup><p>配置流程的标题以及哪些用户可以提交审批申请。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image053.png" /></fig></entry></row></tbody></tgroup></table></p><p>配置项 说明</p><p>流程标题 配置流程标题，此标题将显示用户的在<xref href="../concepts/SAMPLE_查看所有审批.dita">审批列表</xref>中。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image055.png" /></entry></row></tbody></tgroup></table></p><ul><li>启动时默认标题<p>默认标题的格式为：流程关联对象名称 + 流程名称 + 主属性字段内容。</p></li><li>自定义流程标题<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image056.png" /></fig></entry></row></tbody></tgroup></table>
+ 建议设置为实际有意义的内容作为流程标题。</p><p>配置项 说明</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image058.png" /></entry></row></tbody></tgroup></table>
+ 提交权限 配置哪些用户可以提交审批申请，单击 <b>+ 添加权限</b>进行配置。</p></li><li>用户类型<p>根据需要，可以从不同维度配置允许提交审批申请的用户范围。支持以下几个维度：</p><ul><li>数据相关用户<p>与数据相关的用户，包括所有人、所有人直属上 级、修改权限的团队成员、只读权限的团队成员、创建人、创建人直属上级、最新修改人、最新修改人上级。</p></li><li>指定用户<p>选择特定用户。</p></li><li>流程用户组<p>已定义的流程用户组中的全部用户。关于流程用户组的详细信息请参考 《销售易 CRM_PaaS 平台 _ 用户及权限管理》。</p></li><li>指定部门<p>属于某个部门中的全部用户。</p></li><li>指定角色</li></ul><p>属于某种角色的全部用户。</p></li><li>可选用户</li></ul></li>
+      </ul>
+      <p>根据用户类型，设置具体的用户。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image015.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <b>NOTE </b>允许提交审批申请的用户范围为添加的所有用户的并集。</p>
+      </required-cleanup>
+      <required-cleanup>
+        <p id="_bookmark41">
+          <b>[heading h6 could not be placed here]: </b>设置流程结束后自动执行的操作</p>
+      </required-cleanup>
+      <p>配置审批流执行结束后，需要自动执行的操作。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image060.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>单击 <b>+ 添加事件</b>设置需要执行的业务操作以及执行时机，设置完成后，单击<b>保存</b>。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image062.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>图中序号 说明</p>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/SAMPLE_topic16_image012.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 在审批通过后、撤回后、拒绝后都可以执行指定的操作， 此项用于设置操作执行的时机。</li>
+        <li>配置需要执行的触发事件，操作类型不同，配置的内容也有所差别。关于操作配置的详细信息请参考<xref href="#task11148/_bookmark43">配置流程中执</xref><xref href="#task11148/_bookmark43">行的操作</xref>。</li>
+      </ol>
+      <p>
+        <b>
+          <i>NOTE 1. </i>
+        </b>
+        <i>审批通过后、审批拒绝后和审批撤回后共可添加20 个触发事件。</i>
+      </p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image035.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <b>2. </b>当需要在审批通过后、撤回后或者拒绝后执行多个操作时，由于系统的处理方式为异步执行每个操作，因此不能保证执行顺序与事件列表中的顺序一致。</p>
+      </required-cleanup>
+      <p id="配置流程中执行的操作">
+        <b>配置流程中执行的操作</b>
+      </p>
+      <p>在审批流执行时，可以根据需要自动执行一些操作 , 目前支持执行以下类型的操作：</p>
+      <ul>
+        <li>
+          <xref href="#A7B175A7-2564AF5-4812594159D5389-597CDD/_bookmark45">通知消息事件</xref>
+        </li>
+        <li>
+          <xref href="#A7B175A7-2564AF5-4812594159D5389-597CDD/_bookmark47">短信通知事件</xref>
+        </li>
+        <li>
+          <xref href="#A7B175A7-2564AF5-4812594159D5389-597CDD/_bookmark51">邮件通知事件</xref>
+        </li>
+        <li>
+          <xref href="#task11148/_bookmark53">更新记录事件</xref>
+        </li>
+        <li>
+          <xref href="#A7B175A7-2564AF5-4812594159D5389-597CDD/_bookmark55">代码脚本事件</xref>
+        </li>
+        <li>
+          <xref href="#task11148/_bookmark57">业务事件</xref>
+        </li>
+      </ul>
+      <required-cleanup>
+        <p id="_bookmark45">
+          <b>[heading h6 could not be placed here]: </b>通知消息事件</p>
+      </required-cleanup>
+      <p>通过系统消息发送特定消息给指定人员，配置内容如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image064.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>图中序号 说明</p>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image012.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 选择操作类型，此处选择 “ 通知消息 ”。</li>
+        <li>操作名称，在流程中配置要执行的操作时，此处的名称将显示在待选择事件列表中。为便于各操作之间的区分以及通过操作名称更直观的了解操作内容，建议使用有实际意义的内容作为操作的名称。<p><image href="../graphics/SAMPLE_topic16_image012.png" /></p></li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image012.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 对触发事件的说明，为便于事件之间的区分以及快速了解事件的作用，建议填写内容为对事件作用的简要说明。</li>
+        <li>根据用户的类型设置消息接收人，可以按照以下类型设置：<ul><li>数据相关用户<ul><li>所有人<p>数据的所有人。</p></li><li>所有人直属上级<p>数据所有人的直属上级。</p></li><li>修改权限的团队成员<p>对数据有编辑权限的团队成员 （不包括数据的所有人）。</p></li><li>只读权限的团队成员</li></ul><p>数据所有人和没有编辑权限的团队成员。</p></li><li>指定用户<p>如果明确知道接收消息人是具体的某个人或者某些人，
+ 可以选择此种方式设置。例如，重要订单发货后，通知大区经理李梅。</p></li><li>对象字段指定用户<p>通过引用字段指定用户，当无法确定接收消息的具体人员时，可以选择此种方式设置。例如，订单发货后，通知订单所有人，不同订单的所有人不同，无法指定为某个具体人员。</p></li><li>流程相关用户</li></ul><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image040.png" /></entry></row></tbody></tgroup></table>
+ 审批流执行时有关的用户，例如提交人、审批人。此处的选择将影响 5 中的用户显示。</p><p>图中序号 说明</p></li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image012.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 设置消息的接收人，从<b>可选接收人</b>框中选择接收人到<b>已选接收人</b>框中，<b>已选接收人</b>框中的人员为接收消息的人员。</li>
+        <li>设置消息内容，消息内容中可以引用字段值。</li>
+      </ol>
+      <p>
+        <image href="../graphics/SAMPLE_topic16_image040.png" />
+      </p>
+      <required-cleanup>
+        <p id="_bookmark47">
+          <b>[heading h6 could not be placed here]: </b>短信通知事件</p>
+      </required-cleanup>
+      <p>
+        <b>
+          <i>NOTE </i>
+        </b>
+        <i>设置短信通知事件前，请确保已经开启短信服务功能。关于开启短信服务的详细信息请参考《销售易CRM_ 系统基本信息及安全配置》中的短信</i>
+        <b>
+          <i>服务设置</i>
+        </b>
+        <i>一章。</i>
+      </p>
+      <p id="_bookmark48">
+        <b>设置短信通知事件</b>
+      </p>
+      <p>将自定义的信息通过短信方式发送给特定用户，配置内容如下图所示。</p>
+      <p>
+        <fig>
+          <image href="../graphics/SAMPLE_topic16_image066.png" />
+        </fig>
+      </p>
+      <p>图中序号 说明</p>
+      <ol>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/SAMPLE_topic16_image012.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 选择操作类型，此处选择 “ 短信通知 ”。</li>
+        <li>操作名称，在流程中配置要执行的操作时，此处的名称将显示在待选择事件列表中。为便于各操作之间的区分以及通过操作名称更直观的了解操作内容，建议使用有实际意义的内容作为操作的名称。<fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig></li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/SAMPLE_topic16_image015.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 对触发事件的说明，为便于事件之间的区分以及快速了解事件的作用，建议填写内容为对事件作用的简要说明。<p>图中序号 说明</p></li>
+        <li>根据用户的类型设置短信接收人，可以按照以下类型设置：<ul><li>数据相关用户<ul><li>所有人<p>数据的所有人。</p></li><li>所有人直属上级<p>数据所有人的直属上级。</p></li><li>修改权限的团队成员<p>对数据有编辑权限的团队成员 （不包括数据的所有人）。</p></li><li>只读权限的团队成员</li></ul><p>数据所有人和没有编辑权限的团队成员。</p></li><li>指定用户<p>如果明确知道接收短信人是具体的某个人或者某些人， 可以选择此种方式设置。</p></li><li>对象字段指定用户<p>通过引用字段指定接收短信的用户。例如，短信接收人为服务工单对应的负责人的直属上级。</p></li><li>对象字段指定手机号<p>通过引用字段指定接收短信的手机号。例如，短信接收人为服务工单对应的投诉人的联系手机号。</p></li><li>流程相关用户</li></ul><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image011.png" /></fig></entry></row></tbody></tgroup></table>
+ 审批流执行时有关的用户，例如提交人、审批人。此处的选择将影响 5 中的用户显示。</p></li>
+        <li>设置短信的接收人，从<b>可选接收人</b>框中选择接收人到<b>已选接收人</b>框中，<b>已选接收人</b>框中的人员为接收短信的人员。<p><image href="../graphics/SAMPLE_topic16_image012.png" /></p></li>
+        <li>设置短信内容，短信内容中可以引用字段值。</li>
+      </ol>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/SAMPLE_topic16_image015.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <b>NOTE </b>除直接编辑短信内容外，也可以通过<b>插入短息模板</b>插入设置好的短信内容，关于短信模板的详细信息请参考设置短信模板。</p>
+      </required-cleanup>
+      <required-cleanup>
+        <p id="_bookmark49">
+          <b>[heading h6 could not be placed here]: </b>设置短信模板</p>
+      </required-cleanup>
+      <p>遵循以下步骤，设置短信模板：</p>
+      <ol>
+        <li>在销售易系统后台页面的左侧导航菜单中，单击<b>流程中心 </b>&gt; <b>事件查询</b>。</li>
+        <li>在页面中，单击<b>短信模板</b>标签。</li>
+        <li>在 【短信模板】页面中，单击<b>添加短信模板</b>。</li>
+        <li>设置短信模板的基本信息。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image068.png" /></entry></row></tbody></tgroup></table>
+ 配置项 说明</p><p>模板名称 标识短信模板的信息，此名称会显示在 【短信模板】页面的短信模板列表中以及其他需要引用模板的地方。为便于模板之间的区分以及通过模板名称更直观的了解模板的作用，建议使用有实际意义的内容作为短信模板的名称。</p><fig><image href="../graphics/SAMPLE_topic16_image040.png" /></fig><p>配置项 说明</p><p>模板内容 短信模板的内容，用于在<xref href="#A7B175A7-2564AF5-4812594159D5389-597CDD/_bookmark48">设置短信通知事件</xref>时，设置短</p><p>信内容时引用。</p><required-cleanup><p><b>[heading h5 could not be placed here]: </b><b>NOTE </b>模板必须在短信服务提供商处报备，且模板内容的格式必须符合在短信服务提供商处成功注册</p></required-cleanup><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image012.png" /></entry></row></tbody></tgroup></table><i>（报备）的模板格式。</i></p><p>短信服务商 选择短信服务商。</p><required-cleanup><p><b>[heading h5 could not be placed here]: </b><b>NOTE </b>此处包含的短信服务商为在短信服务设置中设置的服务商。关于短信服务设置的详细信息请参考</p></required-cleanup><p><i>《销售易CRM_ 系统基本信息及安全配置》中的</i></p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig></entry></row></tbody></tgroup></table><b><i>短信服务设置</i></b><i>一章。</i></p><p>模板报备编号 短信模板在短信服务商系统中报备成功后被分配的模板</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image011.png" /></entry></row></tbody></tgroup></table>
+ 编号。</p><p>描述 对短信模板的说明，说明信息会显示在 【短信模板】页面的模板列表中。为便于模板之间的区分以及快速了解模板的作用，建议填写内容为短信模板作用的简要说
+ 明。</p><fig><image href="../graphics/SAMPLE_topic16_image040.png" /></fig></li>
+        <li>设置完成后，单击<b>保存</b>。</li>
+        <li>
+          <image href="../graphics/SAMPLE_topic16_image070.png" />在 【短信模板】页面的模板列表中，单击模板后<b>状态</b>列的 启用模板。<required-cleanup><p id="_bookmark51"><b>[heading h6 could not be placed here]: </b>邮件通知事件</p></required-cleanup><p><b><i>NOTE </i></b><i>设置邮件通知事件前，请确保租户已开通“ 邮件 ”License，否则无法使用。</i></p><p>将自定义的信息通过邮件方式发送给特定用户，配置内容如下图所示。</p><fig><image href="../graphics/SAMPLE_topic16_image072.png" /></fig><p>图中序号 说明</p><ol><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image012.png" /></entry></row></tbody></tgroup></table>
+ 选择操作类型，此处选择 “ 邮件通知 ”。</li><li>操作名称，在流程中配置要执行的操作时，此处的名称将显示在待选择事件列表中。为便于各操作之间的区分以及通过操作名称更直观的了解操作内容，建议使用有实际意义的内容作为操作的名称。<fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig></li><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image012.png" /></entry></row></tbody></tgroup></table>
+ 对触发事件的说明，为便于事件之间的区分以及快速了解事件的作用，建议填写内容为对事件作用的简要说明。</li><li>根据用户的类型设置邮件接收人，可以按照以下类型设置：<ul><li>数据相关用户<ul><li>所有人<p>数据的所有人。</p></li><li>所有人直属上级<p>数据所有人的直属上级。</p></li><li>修改权限的团队成员<p>对数据有编辑权限的团队成员 （不包括数据的所有人）。</p></li><li>只读权限的团队成员</li></ul><p>数据所有人和没有编辑权限的团队成员。</p></li><li>指定用户<p>如果明确知道接收邮件人是具体的某个人或者某些人， 可以选择此种方式设置。</p></li><li>对象字段指定用户<p>通过引用字段指定接收邮件的用户。例如，邮件接收人为服务工单对应的负责人的直属上级。</p></li><li>对象字段指定邮箱</li></ul><p>通过引用字段指定接收邮件的邮箱。例如，邮件接收人为服务工单对应的投诉人的邮箱。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image035.png" /></fig></entry></row></tbody></tgroup></table>
+ 此处的选择将影响 5 中的用户显示。</p></li><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image012.png" /></entry></row></tbody></tgroup></table>
+ 设置邮件的接收人，从<b>可选接收人</b>框中选择接收人到<b>已选接收人</b>框中，<b>已选接收人</b>框中的人员为接收邮件的人员。</li><li>选择某个邮件模板作为邮件的具体内容。</li></ol></li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image015.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <b>
+          <i>NOTE </i>
+        </b>
+        <i>邮件模板支持自定义，在销售易前台页面，进入到对象邮件模板的列表页中，单击右侧的新建邮件模</i>
+        <b>
+          <i>板</i>
+        </b>
+        <i>即可创建自定义的模板。</i>
+      </p>
+      <required-cleanup>
+        <p id="更新记录事件">
+          <b>[heading h6 could not be placed here]: </b>更新记录事件</p>
+      </required-cleanup>
+      <p>更新指定数据记录上的字段值，配置内容如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image074.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 图中序号 说明</p>
+      <ol>
+        <li>选择操作类型，此处选择 “ 更新记录 ”。<fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig></li>
+        <li>操作名称，在流程中配置要执行的操作时，此处的名称将显示在待选择事件列表中。为便于各操作之间的区分以及通过操作名称更直观的了解操作内容，建议使用有实际意义的内容作为操作的名称。<p><image href="../graphics/SAMPLE_topic16_image012.png" /></p></li>
+        <li>对触发事件的说明，为便于事件之间的区分以及快速了解事件的作用，建议填写内容为对事件作用的简要说明。<fig><image href="../graphics/SAMPLE_topic16_image040.png" /></fig></li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/SAMPLE_topic16_image012.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ 配置在更新记录时是否对当前用户 （触发流程的用户）进行功能权限校验。勾选表示进行功能权限校验，如果当前用户没有编辑权限，则更新失败。取消勾选表示不进行功能权限校验，即使当前用户没有编辑权限，也可以更新记录。</li>
+        <li>选择更新记录的对象，可以更新当前对象上的记录，也可以更新与当前对象记录相关联的记录。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig></entry></row></tbody></tgroup></table>
+ 此处的选择将影响 6 中的配置内容。</p></li>
+        <li>此处根据 5 中选择的更新对象不同，配置内容也有所差别。<ul><li>更新当前对象的记录<p>业务对象默认为流程关联的对象，不可更改。</p></li><li>更新当前对象关联的对象记录选择相关对象。</li></ul><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><image href="../graphics/SAMPLE_topic16_image076.png" /></entry></row></tbody></tgroup></table></p><p>图中序号 说明</p></li>
+        <li>为更新字段配置新的字段值。<p>配置字段值时，可选择以下设置形式：</p><ul><li>值<p>手动输入的值作为新的字段值，不同字段类型输入值的方法不同，详细信息请参考<xref href="#task11148/_bookmark114">值的输入方法</xref>。</p></li><li>公式<p>公式计算结果作为新的字段值，插入字段、运算符和函数可以辅助公式的设置。</p></li><li>字段引用<p>将其他字段的值作为新的字段值。</p></li><li>流程上下文</li></ul></li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/SAMPLE_topic16_image056.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 将流程相关的值 （例如流程发起人的姓名等）作为新的字段值。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>NOTE 1.
+ </b>如果在流程执行过程中有更新记录的操作，则更新记录时也会触发相应的触发规则、校验规则、查重规则。</p>
+      </required-cleanup>
+      <p>
+        <b>
+          <i>2. </i>
+        </b>
+        <i>在流程中，如果前序操作节点中更新记录修改的字段，作为后续流程节点的条件判断依据时，将使用最新的值进行判断。</i>
+      </p>
+      <required-cleanup>
+        <p id="_bookmark55">
+          <b>[heading h6 could not be placed here]: </b>代码脚本事件</p>
+      </required-cleanup>
+      <p>在流程中添加代码脚本，可以实现更多复杂的操作或者自定义功能。</p>
+      <required-cleanup>
+        <p>
+          <b>[heading h5 could not be placed here]: </b>
+          <b>NOTE </b>代码脚本需要在开发者平台的业务逻辑代码中进行配置，因此在审批流中配置代码脚本的操作之前，必须先上传相应的代码脚本，关于配置代码脚本的详细信息请参考《销售易CRM_PaaS 平台开发手册》中的<b>业务逻辑代码</b>一章。</p>
+      </required-cleanup>
+      <p>代码脚本操作类型的配置内容如下图所示。</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/SAMPLE_topic16_image078.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 图中序号 说明</p>
+      <ol>
+        <li>选择操作类型，此处选择 “ 代码脚本 ”。<fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig></li>
+        <li>操作名称，在流程中配置要执行的操作时，此处的名称将显示在待选择事件列表中。为便于各操作之间的区分以及通过操作名称更直观的了解操作内容，建议使用有实际意义的内容作为操作的名称。<p><image href="../graphics/SAMPLE_topic16_image012.png" /></p></li>
+        <li>对触发事件的说明，为便于事件之间的区分以及快速了解事件的作用，建议填写内容为对事件作用的简要说明。<fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig></li>
+        <li>选择类名。<p><image href="../graphics/SAMPLE_topic16_image040.png" /></p><required-cleanup><p id="业务事件"><b>[heading h6 could not be placed here]: </b>业务事件</p></required-cleanup><p>业务事件为销售易系统预置的事件。对于自定义对象，预置了转移数据、锁定数据和解锁数据三个事件；对于标准对象，由于其业务特点各不相同，所以预置的事件也不相同。</p><p>配置内容如下图所示。</p><p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image080.png" /></fig></entry></row></tbody></tgroup></table>
+ 图中序号 说明</p><ol><li>选择操作类型，此处选择 “ 业务事件 ”。<p><image href="../graphics/SAMPLE_topic16_image012.png" /></p></li><li>操作名称，在流程中配置要执行的操作时，此处的名称将显示在待选择事件列表中。为便于各操作之间的区分以及通过操作名称更直观的了解操作内容，建议使用有实际意义的内容作为操作的名称。<fig><image href="../graphics/SAMPLE_topic16_image012.png" /></fig></li><li>对触发事件的说明，为便于事件之间的区分以及快速了解事件的作用，建议填写内容为对事件作用的简要说明。<p><image href="../graphics/SAMPLE_topic16_image040.png" /></p><p>图中序号 说明</p></li><li>图中配置项的内容仅为示例。<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image011.png" /></fig></entry></row></tbody></tgroup></table>
+ 选择预置事件的对象，不同对象预置的事件不同。</p></li><li>选择执行的事件。<p><image href="../graphics/SAMPLE_topic16_image012.png" /></p></li><li><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/SAMPLE_topic16_image015.png" /></fig></entry></row></tbody></tgroup></table>
+ 设置事件执行时需要的参数。</li></ol></li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

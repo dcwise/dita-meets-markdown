@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AAA485E1-453CA1F-4A8DC579E53A7C4-19579E">
+  <title>Edit Multiline Styles</title>
+  <shortdesc>You can use
+ MLSTYLE to add multiline style or set multiline from the existing multiline
+ style, such as the number of elements, color,
+ linetype, lineweight and the
+ offset of each element. You can also edit the end caps and background fill.</shortdesc>
+  <conbody>
+    <p>The element
+ and multiline properties of the STANDARD
+ multiline style are not allowed
+ to modify. The current multiline
+ style already used
+ in the drawing is not allowed to modify too. You should
+ edit multiline style before
+ using it.</p>
+    <p>If you create a
+ new style without saving the previous one, the properties of the previous one
+ are lost. To maintain the
+ properties, you have better to save each multiline style to an MLN file before
+ creating a new one.</p>
+  </conbody>
+</concept>

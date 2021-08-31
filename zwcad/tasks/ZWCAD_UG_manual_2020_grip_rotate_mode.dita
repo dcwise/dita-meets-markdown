@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1243568-3E3C4A1-F2157DD5151E157-BAD76E">
+  <title>Grip Rotate Mode</title>
+  <shortdesc>With grip rotate mode, you can rotate selected entities
+ around the base point, .or rotate by the angle specified for rotating
+ either.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If you press ENTER or SPACE key after selecting grips on entities, choose
+ Rotate fromthe grip editing mode and then command line prompts as follows:</p>
+      <p>Specify the rotation angle or
+ [Base point/Copy/Undo/Reference/eXit]:
+ </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic392_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Rotate Entities
+ Using Grips</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select entities to rotate.</cmd>
+      </step>
+      <step>
+        <cmd>Click on the grip of the entity to highlight the selected grip and activate
+ the grip mode as Stretch.</cmd>
+      </step>
+      <step>
+        <cmd>Press ENTER to iterate grip mode until Rotate
+ appears in command line. Dynamic input box displayed on screen showing
+ the following manipulations:</cmd>
+        <info>
+          <p>Specify "B(Base point)" option to select a
+ basepoint for rotating. Specify
+ "C(Copy)" option to create a copy of the entity being rotated. Specify
+ "U(Undo)" option to abort last rotating.</p>
+          <p>Specify "X(eXit)" option to exit Rotate manipulation.</p>
+          <p>Specify
+ "R(Reference)" option to assign reference angle for rotation. (Final
+ rotation angle=reference angle subtract
+ from input angle.
+ For example: reference
+ angle = 20, input angle= 80, final rotation
+ angle = 80 - 20 = 60).</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Specify rotation angle for grips directly.</cmd>
+      </step>
+      <step>
+        <cmd>Move the
+ pointing device and specify rotation angle, the entities rotate centered by the selected
+ grip (or create
+ a copyof the entity after rotation).</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12214-CA11F25-47B1E552B174444-6FA3E8">
+  <title>Calculate Distances and Angles</title>
+  <shortdesc>You can calculate
+ the distance between
+ any two points
+ you select. The following information is displayed:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>The distance between
+ the points, measured
+ in drawing units.</li>
+        <li>Their angle in the xy plane.</li>
+        <li>Their angle measured
+ fromthe xy plane.</li>
+        <li>The change (delta)
+ in the x, y, and z distances
+ between the two points.<p><table><tgroup cols="1" colsep="1" rowsep="1"><colspec colname="c1" align="left" /><tbody><row><entry colname="c1"><fig><image href="../graphics/ZWCAD_UG_manual_2020_topic188_image001.png" /></fig></entry></row></tbody></tgroup></table>
+ To calculate
+ the distance between
+ two points and their angle</p><ol><li>Choose Tools &gt; Inquiry
+ &gt; Distance from the main menu.</li><li>Specify the first point.</li><li>Specify the second point.</li></ol></li>
+      </ul>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic188_image002.png" />
+      </p>
+      <p>Use the Distance
+ command to calculate the distance (A) between two points (B and C), the angle in the xy plane
+ (D), the angle from the xy plane, and the delta x (E), delta y (F), and delta z distance
+ between the two points.</p>
+      <p>
+        <b>TIP </b>To use specific
+ points on selected
+ objects, use object
+ snaps to select
+ the precise points
+ on the objects.</p>
+    </context>
+  </taskbody>
+</task>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A75B523B-5765241-71F2154A87A155B-517FD1">
+  <title>阅读指南</title>
+  <shortdesc>
+    <b>手册目标</b>
+  </shortdesc>
+  <taskbody>
+    <context>
+      <p>本文档主要介绍销售易企业微信应用 （本文中也简称为“ 销售易应用 ” 或者 “ 应用”）的安装方法。</p>
+      <p>
+        <b>手册约定</b>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>本文档中所有标识为 <b>NOTE </b>的部分表示需要您特别关注的内容。</cmd>
+      </step>
+      <step>
+        <cmd>由于系统不断更新，当文档中图片与销售易系统有差别时，请以系统为准。</cmd>
+      </step>
+      <step>
+        <cmd>本文档中的所有内容均基于销售易系统旗舰版编写，如果您使用的版本为非旗舰版，则可能不包含其中的部分功能。</cmd>
+      </step>
+      <step>
+        <cmd>在阅读本文档时，默认您已经通过 《销售易CRM_ 企业微信 _ 快速了解销售易的企业微信应用及安装流程》了解了企业微信应用、销售易新老客户的概念以及销售易企业微信应用的获取方式。</cmd>
+      </step>
+      <step>
+        <cmd>本文档主要面向需要安装企业微信应用的企业管理员。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>目录 | <b>1</b></p>
+    </result>
+  </taskbody>
+</task>

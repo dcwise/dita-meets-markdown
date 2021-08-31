@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B24368-645341F-217FC5574152E7F-EADE85">
+  <title>The Command Window</title>
+  <shortdesc>The command bar
+ is a dockable window in which you can type ZWCAD commands and view prompts and other programmessages. You can move
+ the command bar by dragging it. When the command bar is floating, you can drag the top or bottomof the window to
+ change the number of lines of text it displays. You can dock the command
+ bar at the top or bottomof the drawing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic18_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Displaying and hiding the command line window</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Please choose <b>Tools-&gt;Command Line </b>in Classic interface or</cmd>
+        <info>
+          <p>
+            <b>Tools-&gt;Palettes-&gt;Command Line </b>on the ribbon.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>You can execute <b>COMMANDLINE/COMMANDLINEHIDE
+ command </b>to display or hide the command line inboth classic
+ and ribboninterfaces.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="2" colsep="1" rowsep="1">
+              <colspec colname="col2" />
+              <colspec colname="col4" />
+              <tbody>
+                <row>
+                  <entry align="left" colname="col2">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic18_image002.png" />
+                  </entry>
+                  <entry morerows="1" align="left" colname="col4">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic18_image004.png" />
+                    </fig>
+                  </entry>
+                </row>
+                <row>
+                  <entry colname="col2" />
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Press ‘Ctrl’+’9’ to display or hide it</info>
+      </step>
+    </steps>
+    <result>
+      <p>Displaying and hiding the command
+ line</p>
+    </result>
+  </taskbody>
+</task>

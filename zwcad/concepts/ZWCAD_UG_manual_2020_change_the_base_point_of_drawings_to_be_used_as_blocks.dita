@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A438-65E15CA-1F25A7B15759C57-F5C7ED">
+  <title>Change the Base Point of Drawings to Be Used as Blocks</title>
+  <shortdesc>When inserting a
+ drawing file into another drawing as a block, by default, the system uses the
+ origin (0,0,0) of WCS as the base
+ insertion point. To specify different insertion point, you can use the BASE command.
+ Next time you insert the same block, the systemuses the new insertion point by default.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

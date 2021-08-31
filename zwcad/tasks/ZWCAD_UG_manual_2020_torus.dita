@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1256834-53C4A11-21481D55A9153AC-B438E3">
+  <title>Torus</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic290_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can create a three-dimensionaldonut or ring-shaped object
+ known as a torus.
+ The diameter of a ring is always parallel
+ with the xy plane of the current
+ UCS. A torus is constructed by revolving a circle about a
+ line drawn in the plane of the circle and parallel with the z-axis of the
+ current UCS. You position a torus by
+ specifying its center point. You determine the size of a torus by specifying
+ its overall diameter or radius and the diameter or radius
+ of the tube (the circle
+ being revolved).</p>
+      <p>You can draw a
+ torus with no center hole called self-intersecting torus because the radius of
+ the tube is greater than the radius
+ of the torus. To create a bipolar-depression solid, specify a positive tube
+ radius greater than the radius
+ of thetorus. The 3D command
+ creates a toroidal
+ shape defined by surfaces
+ only.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic290_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a torus</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Solids &gt; Torus from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the center of the whole
+ torus.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the radius or diameter
+ of the whole torus.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic290_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the radius
+ or diameter of the body of the torus.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Center (A) and radius
+ of the whole torus (B), and the radius of the body (C)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic290_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a torus as a three-dimensionalsurface</p>
+      <ol>
+        <li>Choose Draw &gt; Surfaces
+ &gt; 3D Surfaces from the mainmenu.</li>
+        <li>On the command line, type T (Torus).</li>
+        <li>Specify the center of the whole
+ torus.</li>
+        <li>Specify the radius or diameter
+ of the whole torus.</li>
+        <li>Specify the radius or diameter of the body of the torus.</li>
+        <li>Specify the number of longitudinal sections
+ that are perpendicular to the xy plane.</li>
+        <li>Specify the number of latitudinal
+ sections that are parallel to the xy plane.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

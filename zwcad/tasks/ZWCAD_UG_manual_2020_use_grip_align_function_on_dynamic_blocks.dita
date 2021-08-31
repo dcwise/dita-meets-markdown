@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A36-365E153-411F878159E5359-6BBED0">
+  <title>Use Grip Align Function on Dynamic Blocks</title>
+  <shortdesc>You can align the objects in dynamic blocks by dragging and specifying the
+ position of alignment grip. Once you have selected
+ a dynamic block contains align parameter, click the light blue alignment
+ grip on</shortdesc>
+  <taskbody>
+    <context>
+      <p>the dynamic block to display command line prompt as follows:</p>
+      <p>Specify point Location
+ or [Base point/Undo/eXit]: </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic618_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Align dynamic block objects
+ by using grip</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select the dynamic block contains alignaction.</cmd>
+      </step>
+      <step>
+        <cmd>Clickon the
+ light blue alignment gripof the dynamic block to highlight the selected grip.</cmd>
+      </step>
+      <step>
+        <cmd>Command line prompt appears,
+ do either of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Specify "B(Base point)" option to locate the grip for aligning.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "U(Undo)" option to abort last aligning.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "X(eXit)" option to exit align manipulation.</cmd>
+      </step>
+      <step>
+        <cmd>Specify target location for grip directly.</cmd>
+      </step>
+      <step>
+        <cmd>After specifying
+ the target location, the objects in the dynamic
+ block will be aligned automatically.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic618_image002.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

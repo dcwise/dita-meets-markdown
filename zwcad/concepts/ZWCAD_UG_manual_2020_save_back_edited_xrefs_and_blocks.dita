@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA124363-65E453C-411F54A8781445A-791539">
+  <title>Save Back Edited Xrefs and Blocks</title>
+  <shortdesc>Changes to the references are optionally saved to the current drawing.</shortdesc>
+  <conbody>
+    <p>If you choose to
+ save the changes, the system automatically regenerate the drawing, in addition,
+ block definitions are redefined and
+ all the blocks are regenerated as well. Thus, changes to the xrefs can be saved
+ also, if the objects in working set inherit its original properties defined in external references, these objects retain
+ new properties. If you remove some objects from the working set, these objects
+ will be added to thecurrent drawing.</p>
+    <p>If you discard the changes, the working set removed as well and return the block references to the original state. When editing references in-place, if objects excluded
+ from the working set are removed and you discard the changes to the xref,
+ the objects having
+ been removed can't
+ be restored.</p>
+    <p>If you have saved
+ the changes for the xref, you can get back the reference file and discard the
+ changes, use UNDO command.</p>
+    <p>If objects in
+ current drawing inherit properties defined in xref, these objects will be
+ displayed in new properties called
+ binding properties. Additionally, you can specify how the xref names are
+ displayed through systemvariable BINDTYPE. If the BINDTYPE is set to 0, the xref names will be added a prefix</p>
+    <p>$#$, if the BINDTYPE is set to 1, keep the xref names unchanged.</p>
+    <p>It should be
+ noticed that you can't edit or change the referenced drawings when editing
+ in-place, which are only readable.</p>
+  </conbody>
+</concept>

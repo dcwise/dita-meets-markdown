@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA122A45-86E1453-C4A214A8711479E-535A4A">
+  <title>Chamfer an Entire Polyline</title>
+  <shortdesc>You can use Polyline option to
+ create chamfer lines for each intersection of an entire
+ polyline. To get the best results
+ keeps the first and second
+ chamfer distance equal.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic357_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To chamfer
+ all vertices in a polyline</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Chamfer
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type P (Polyline).</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic357_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the polyline.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Original polyline Result after chamfering</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic357_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ When chamfering an entire polyline, only accommodated
+ chamfer distance can
+ create a chamfer
+ line. As shown in the illustration, some
+ segments are too short to create a chamfer line.</p>
+    </result>
+  </taskbody>
+</task>

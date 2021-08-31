@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72A4386-E14A112-1A87A45A715A166-FBDD7E">
+  <title>Modify 3D Solids</title>
+  <shortdesc>You can edit
+ three-dimensional solids in several unique
+ ways, includingchamfer, fillet,
+ section, and slice.
+ You can also modify individual faces and edges of solids, as well as
+ imprint, separate, shell, and check solids. You can edit three-dimensional ACIS solids, including
+ boxes, cones, cylinders, dishes, domes,</shortdesc>
+  <conbody>
+    <p>spheres, torus, and wedges.</p>
+  </conbody>
+</concept>

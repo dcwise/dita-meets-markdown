@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A814-3A11F21-548691E5353611C-D9153E">
+  <title>Polygons</title>
+  <shortdesc>Creating polygons
+ is a simple way to draw squares, equilateral triangles, octagons, and so on.
+ Polygons are closed polylines with between 3 and 1,024
+ equal-length sides.</shortdesc>
+  <taskbody>
+    <context>
+      <p>However, you
+ should keep one thing in mind that rectangles are created by RECTANGcommand
+ rather than POLYGON.</p>
+      <p>Variety of ways
+ can be used for creating a polygon, for example, specify the center point or
+ one of its edges to define a polygon
+ after you have determined the edges of the polygon. If you want to draw a polygon
+ based on another object, the following methods
+ are provided with some given qualifications:</p>
+      <ul>
+        <li>Specifying the radius of an inscribed
+ circle if the distance between the center of the polygon and the endpoint
+ of each side (inscribed) is known</li>
+        <li>Specifying the radius of a circumscribed circle if the distance between
+ the center of the polygon
+ and the midpoint
+ of each side (circumscribed) is known</li>
+        <li>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic245_image001.png" />Specifying the length of an edge and where you want to place it To draw a polygon
+ by vertex</li>
+      </ul>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Polygon
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Type 5 to specify five sides of the polygon.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the center of the polygon.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic245_image002.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the vertex
+ of the polygon.</info>
+      </step>
+    </steps>
+    <result>
+      <p>The center (A) and vertex (B) Resulting polygon</p>
+    </result>
+  </taskbody>
+</task>

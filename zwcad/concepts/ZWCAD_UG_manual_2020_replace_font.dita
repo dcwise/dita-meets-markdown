@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12256E-4534A11-F21513527E53FAB-364591">
+  <title>Replace Font</title>
+  <shortdesc>If the font to be
+ contained in the drawing can't be obtained fromthe current system, ZWCAD
+ process it by replacing
+ these fonts with
+ another specified one.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

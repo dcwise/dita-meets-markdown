@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12586-514411F-2A87C505A915359-B0BC98">
+  <title>Lisp Debugger</title>
+  <shortdesc>Activated by
+ command <i>VLIDE </i>or <i>VLISP</i>, Lisp Debugger is used to debug lisp programs. Developed based on Visual Studio Code from Microsoft™, it enables developers to debug their lisp programs with breakpoint inspection and modify it easily.</shortdesc>
+  <conbody>
+    <p>What’s more, if users have already
+ installed the Visual
+ Studio Code, they can directly
+ download ZwLisp in Microsoft
+ Extensions Marketplace.</p>
+  </conbody>
+</concept>

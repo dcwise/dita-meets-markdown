@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12A45-6836E4C-4A1485A5791351E-281D8D">
+  <title>Dimension Lines</title>
+  <shortdesc>Angular dimension lines are typically
+ represented with arc segments. To create an angular dimension
+ for two nonparallel lines, the
+ dimension line arc spans the angle between the two lines. As you specify the dimension line arc location, if the
+ dimension line arc does not intersect one or two extension lines being dimensioned, the system automatically
+ draws them. The dimension line arc is always
+ less than 180 degrees. However,
+ for the circles
+ and arcs, the dimension line arc can be up to 360 degrees.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic519_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To dimension
+ an angle between
+ two lines</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Angular
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select one line.</cmd>
+      </step>
+      <step>
+        <cmd>Select the other line.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the dimension line location.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic519_image002.png" />
+      </p>
+      <p>Select one line (A), select
+ the other line (B), and then specify
+ the dimension line location (C).</p>
+    </result>
+  </taskbody>
+</task>

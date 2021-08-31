@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A4336-514A11F-1D75535B47D0BD7-49B188">
+  <title>Rotate an Object to an Absolute Angle</title>
+  <shortdesc>You can also rotate objects
+ by specifying an absolute angle.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic339_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To rotate a selection set in reference
+ to an Absolute Angle</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Rotate
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the base point.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type R (Reference).</cmd>
+      </step>
+      <step>
+        <cmd>Specify the reference angle.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic339_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the new angle.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To rotate an entity in reference to a base angle, select the entity (A), specify base point (B), select the reference angle and pick point (B) again (or type the @ symbol),
+ specify the second
+ point (C), and then specify the point representing the new angle (D)</p>
+    </result>
+  </taskbody>
+</task>

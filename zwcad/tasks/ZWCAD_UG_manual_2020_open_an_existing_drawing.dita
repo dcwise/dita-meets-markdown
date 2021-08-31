@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B22A35-683514C-A1148B652541452-3312E8">
+  <title>Open an Existing Drawing</title>
+  <shortdesc>You can open drawing (.dwg) files, Drawing Exchange Format (.dxf) files
+ and drawing template (.dwt) files. You can also open and check drawings that you suspect
+ are damaged.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic52_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To open an existing drawing</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the File menu, click Open.</cmd>
+      </step>
+      <step>
+        <cmd>In Files of Type, choose the type of file you want to open.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the folder containing the desired file.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the drawing you want to open, and then click Open. Or double-click the drawing youwant
+ to open.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>You can also open drawings
+ while browsing files on your computer using
+ programs that came with your operating systems, such as Windows
+ File Explorer or My Computer. Just double-click the file to get it open in ZWCAD. Easily find the
+ drawing you want by viewing thumbnail images of the drawing files as you browse
+ them.</p>
+      <p>
+        <b>TIP </b>To quickly open a drawing file that you
+ recently used, choose File &gt; &lt;file name&gt;
+ from the main menu.</p>
+    </result>
+  </taskbody>
+</task>

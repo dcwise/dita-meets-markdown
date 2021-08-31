@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A1A361-4534115-D57915718BD5718-AA0C48">
+  <title>Array in 3D</title>
+  <shortdesc>The 3DARRY
+ command is designed to create 3D arrays in the 3D space. The arrays include
+ both rectangular
+ and polar array. Besides specifying the number of rows (X direction) and
+ columns (Y direction), you have to give the number
+ of layer (Z direction).</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic334_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a three-dimensionalrectangular array</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; 3D Operation &gt; 3D Array from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>At command line prompt, choose Rectangular.</cmd>
+      </step>
+      <step>
+        <cmd>Type the number of rows in the array.</cmd>
+      </step>
+      <step>
+        <cmd>Type the number of columns.</cmd>
+      </step>
+      <step>
+        <cmd>Type the number of levels.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the vertical distance
+ between the rows.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the horizontal distance
+ between the columns.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the depth between the levels.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic334_image002.png" />
+      </p>
+      <p>To create a three-dimensional rectangular array, select the object to copy (A), type the number of rows, columns,
+ and
+ levels, and then specify the distance between each row (B), column (C), and level (D)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic334_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a three-dimensionalpolar array</p>
+      <ol>
+        <li>Choose Modify &gt; 3D Operation &gt; 3D Array from the main menu.</li>
+        <li>Select the objects, and then press Enter.</li>
+        <li>At command line prompt,
+ choose Polar.</li>
+        <li>Type the number of copies to make, including the original selectionset.</li>
+        <li>Specify the
+ angle the array is to fill, from 0 to 360 degrees. The default setting for the angle is 360 degrees. Positive values create the array in a
+ counterclockwise direction; negative
+ values create the array in a clockwise
+ direction.</li>
+        <li>At command line prompt,
+ choose one of the following:<p><b>Yes, </b>Rotate objects
+ as they are arrayed.</p><p><b>No, </b>Do not rotate to retainthe
+ original orientationof eachcopy
+ as it is arrayed.</p></li>
+        <li>Specify the center point of the array.</li>
+        <li>Specify a second point along the central axis of the array.</li>
+      </ol>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic334_image003.png" />
+      </p>
+      <p>To create a three dimensional polar array, select the object
+ to copy (A), type the number of items to array, specify the angle the array
+ is to fill (B), and then specify the center
+ point of the array (C) and a second point along the central axis of the array (D)</p>
+    </result>
+  </taskbody>
+</task>

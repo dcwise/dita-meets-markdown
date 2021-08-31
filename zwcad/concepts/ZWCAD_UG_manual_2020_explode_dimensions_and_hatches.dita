@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A436-83651C4-A11487D5B5A91E5-5A237A">
+  <title>Explode Dimensions and Hatches</title>
+  <shortdesc>You can explode a dimension or a hatch into individual objects (such as lines, texts,
+ points and 2D solids). All associativity is lost after
+ exploding.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

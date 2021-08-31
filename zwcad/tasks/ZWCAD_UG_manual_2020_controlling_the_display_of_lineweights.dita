@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA2A435E-143C4A1-2154FC5A5A4446F-9339E8">
+  <title>Controlling the display of lineweights</title>
+  <shortdesc>You can reduce the time it takes to display
+ a drawing by turning off the display
+ of lineweights.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When you turn off lineweights, all entities display as outlines. You can also specify a lineweight
+ scale. Specify a smaller scale to display
+ thinner lines; specify
+ a larger scale
+ to display thicker
+ lines. For example,
+ a scale factor
+ of 0.5 would display a .80 millimeter lineweight as .40 millimeter; a scale factor
+ of 2 would increase the same lineweight to display
+ at 1.6 millimeters. This can help you differentiate various lineweights
+ that display in a drawing. Adjusting the lineweight display scale affects how
+ the lineweights appear on your screen,
+ not how they appear when
+ printed.</p>
+      <p>
+        <b>NOTE </b>Setting
+ the lineweight scale too high may result in slower
+ systemperformance. You can also adjust
+ the units for measuring lineweights and the default
+ lineweight.</p>
+      <p>To control the display of lineweights</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic180_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Lineweight from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>In Units for Listing,
+ choose Millimeters or Inches.</cmd>
+      </step>
+      <step>
+        <cmd>In Default,
+ select the lineweight assignedto layers andentities that use the Default lineweight.</cmd>
+      </step>
+      <step>
+        <cmd>In Adjust
+ Display Scale, move the slider to the scale you want. By default, the slider begins at 1.00.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>On the status bar, click
+ the Show/Hide Lineweight button to turn the display of lineweights on or off.</p>
+    </result>
+  </taskbody>
+</task>

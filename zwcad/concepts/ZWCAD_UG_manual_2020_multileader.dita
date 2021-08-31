@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A43-665511F-214A871555A91E3-2988B7">
+  <title>Multileader</title>
+  <shortdesc>Multileader is usually composed of
+ four-part, arrowhead, leader, leader landing, and content. Each multileader
+ can contain more than one leader line, and each leader line can be composed of
+ one or more segments. Leader
+ content can be set to Mtext or block. That is, a note created by multileader
+ can point to more than one part of the drawing.</shortdesc>
+  <conbody>
+    <p>You can create a multileader by Arrowhead First or Content
+ First. The Multileader Style Manager is also provided
+ for style managing. You can create
+ different styles of multi-leaders in the same view by setting multileader style.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic456_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

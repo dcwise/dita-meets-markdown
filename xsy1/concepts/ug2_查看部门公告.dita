@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB6B10A2-2B17452-159F214A8B16515-974156">
+  <title>查看部门公告</title>
+  <shortdesc>登录销售易前台首页，单击页面右上角的通知图标，可以查看所属部门/公司的公告内容。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic52_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

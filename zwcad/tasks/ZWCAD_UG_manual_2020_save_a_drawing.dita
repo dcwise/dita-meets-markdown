@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AB122368-365153A-1F2154755744524-CE19DD">
+  <title>Save a Drawing</title>
+  <shortdesc>You save drawing files for later use just as you do with other Microsoft
+ Windows applications. You can also set up automatic saving
+ and backup files and save only selected
+ objects.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The file
+ extension for drawing files is ".dwg", and unless you change the default
+ file format in which drawings are saved, drawings are saved in DWG2013 file format.</p>
+      <p>After you have
+ saved your drawing for the first time, you can save it with a new name. In
+ addition to drawing (.dwg)
+ files, you can also save
+ a drawing in a Drawing
+ Exchange Format (.dxf)
+ file or a drawing template (.dwt)
+ file.</p>
+      <p>If you created your drawing using a template,
+ saving the drawing
+ does not alter the original
+ template.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic61_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To save a drawing</p>
+      <p>1. Choose File &gt; Save from the main menu.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>When
+ you save a drawing the first time, the programdisplays the Save Drawing As
+ dialog boxso that you can choose a directory and type a name for the drawing.</cmd>
+      </step>
+      <step>
+        <cmd>
+          <b>DWG 2018 </b>format is perfectly compatible with ZWCAD now.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

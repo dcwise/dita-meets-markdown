@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A3568-36E453C-4A1F214A8715A7E-53A3C0">
+  <title>Set Angle Conventions</title>
+  <shortdesc>You can specify the location for angle 0 and the positive direction for the angle measurement: clockwise or counterclockwise. You can also
+ specify the format
+ and the number
+ of the decimalfraction.</shortdesc>
+  <conbody>
+    <p>Specify the
+ measurement unit and precision. The units include decimal degrees, deg/min/sec,
+ gradians, radians, and surveyor’s units.</p>
+    <p>Specify where the
+ angle measurement starts from: east, west, south, north or others. For example,
+ to enter a coordinate relative to the
+ current coordinate for a property line that is 54 feet, 7 inches long with a bearing of 60 degrees
+ north, 12 minutes,
+ 6 seconds east, enter @54'7"&lt;n60d12'6"e.</p>
+    <p>Specify
+ the positive direction: counterclockwise or clockwise. The angle 0 can be set to any location.</p>
+  </conbody>
+</concept>

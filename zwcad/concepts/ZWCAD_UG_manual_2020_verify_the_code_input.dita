@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A4-368365E-153C15487571535-B0BC98">
+  <title>Verify the code input.</title>
+  <shortdesc>The following properties are contained in LISP functions:</shortdesc>
+  <conbody>
+    <ul>
+      <li>The codes are displayed
+ in indent mode as other programlanguages do, but take no effects
+ on performing programs.</li>
+      <li>Newline is used to facilitate
+ understanding and reading, and place multi-row codes in one line, which does not affect
+ performing the program.</li>
+      <li>All LISP statements
+ are contained in the brackets which always appear
+ in pairs.</li>
+      <li>If multiple brackets
+ pairs are contained
+ in a statement, execute fromthe
+ interior bracket.</li>
+      <li>Text in codes appears behind
+ the semicolon is a kind of annotation. Any text with a semicolon in front will be ignored by programs.</li>
+      <li>All LISP functions return value to the other functions that invoke them. By default,
+ the value is calculated by
+ the last expression. Generally, the function princ without character string parameter follows
+ the function that
+ its name precedes
+ with a prefix "c:". This function is aimed at exiting
+ the programwithout returning any value.</li>
+    </ul>
+  </conbody>
+</concept>

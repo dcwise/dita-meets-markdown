@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA122A68-313417C-105A71E51D16131-CD91EE">
+  <title>Polylines</title>
+  <shortdesc>With ZWCAD, a
+ polyline is a connected sequence of arcs and lines that are treated as a single
+ object. You can draw a polyline with any linetype
+ and use a width that either remains constant or tapers over the length of any segment. When editing a polyline, you can modify the entire
+ polyline or change
+ individual segments.</shortdesc>
+  <taskbody>
+    <context>
+      <p>After you specify
+ the start point of a polyline, the command line prompts several options as you
+ draw, such as Arc, Halfwidth, Length,
+ Undo, and Width. You can specify different starting and ending widths to create
+ a tapered polyline segment.</p>
+      <p>After you draw at
+ least one polyline segment, you can use the Undo tool in right click menu to
+ remove the previous segment. After
+ you draw two or more polyline
+ segments, you can type c (close) in the command line to complete the command by
+ drawing a segment that ends at the start point of the first polyline segment
+ you drew.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic240_image001.png" />
+        </fig>
+      </p>
+      <p>Curved polyline with tapered width. Polyline with straight segments Closed polyline</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic240_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw a polyline
+ with straight segments</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Polyline
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the start point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the endpoint of each segment.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic240_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Press Enter to end or enter c (close) to close the polyline.<p>Polyline start point (A) and segment endpoints (B).</p><p>With the Draw
+ Arc option, you can continually draw arc segments
+ until you select the
+ Draw Line option to go back to drawing line segments. When you draw arc segments, the
+ first point of the arc is the endpoint
+ of the previous segment. By default, you draw arc segments by specifying the endpoint of each segment.
+ Each successive arc segment is drawn a tangentto the previous arc or line segment. If you type c (close)
+ while in the Draw Arc option, the closing segment
+ is created as an arc.</p><p>You can also specify the arc using any of the following methods:</p><ul><li>Start point, center
+ point, included angle</li><li>Start point, center point, chord length</li><li>Start point, center
+ point, endpoint</li><li>Start point, endpoint,
+ included angle</li><li>Start point, endpoint,
+ direction</li><li>Start point, endpoint, radius</li><li>Center point, start point, endpoint</li><li>Center point, start point, included
+ angle</li><li>Center point, start point, chord length<p>With more unique functions,
+ editing the polyline is different fromthat of single lines, such as adjusting width
+ and curvature of polylines; the additional functions are shown as follows:</p></li><li>Edit it with PEDIT command</li><li>Use EXPLODE to convert it to the individualline and arc segments</li><li>Use SPLINE to convert a spline-fit polyline
+ into a true spline</li><li>Use closed polylines
+ to create a polygon</li><li>Create a polyline from the boundaries of overlapping objects</li></ul></info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

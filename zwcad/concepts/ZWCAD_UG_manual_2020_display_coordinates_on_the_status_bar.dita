@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A4-586E145-3C4A11FA7F1D55A-791E5A">
+  <title>Display Coordinates on the Status Bar</title>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic198_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ ZWCAD displays the current cursor location as a coordinate on the status bar at the bottom of the ZWCAD window.</p>
+    <p>Systemvariable COORDS controls the types of coordinate display.</p>
+    <ul>
+      <li>When COORDS is set to 0, updates
+ only when you specify a point.</li>
+      <li>When COORDS is set to 1, updates
+ as you move the cursor.</li>
+      <li>When COORDS is set to 2,
+ updates absolute coordinate as you move the cursor, and displays the angle from the last point when prompt
+ for distance and angle; this option is available only when you create lines or other objects
+ that prompt for more than one point.</li>
+    </ul>
+  </conbody>
+</concept>

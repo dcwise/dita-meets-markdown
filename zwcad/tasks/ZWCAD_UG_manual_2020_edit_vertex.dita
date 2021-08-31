@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A722A356-8655C4A-11F24813B5A791E-55C56E">
+  <title>Edit vertex</title>
+  <shortdesc>You can use the Edit Vertices
+ option to modify
+ individual polyline vertices.
+ When you select
+ this option, the programswitches into a special
+ vertexediting mode and places an xon the first vertex.
+ The xindicates the vertexyou are editing. The Next and
+ Previous options move the xto the next or previous vertex. You can edit only one vertexat a time.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When editing vertices,
+ you can modify the polyline in the following ways:</p>
+      <ul>
+        <li>Convert a polyline segment into a curve by specifying a new tangent
+ angle.</li>
+        <li>Break a polyline
+ into two separate
+ polylines.</li>
+        <li>Insert a new vertexafter the current vertex.</li>
+        <li>Move the current
+ vertex.</li>
+        <li>Straighten the polyline
+ segment between two vertices.</li>
+        <li>Change the width of the polyline segment
+ between two vertices.</li>
+      </ul>
+      <p>To move a polyline vertex</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic378_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Object &gt; Polyline from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the polyline.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type E (Edit vertex).</cmd>
+      </step>
+      <step>
+        <cmd>On the command
+ line, type N (Next). Repeat until the
+ X maker reaches the vertex you want to move.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type M (Move).</cmd>
+      </step>
+      <step>
+        <cmd>Specify the new location
+ for the made vertex.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type another
+ option, or type Exit to complete the command.</cmd>
+      </step>
+      <step>
+        <cmd>On
+ the command line, type another
+ option, or press
+ Enter to complete the command.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic378_image002.png" />
+      </p>
+      <p>Select the polyline
+ (A), move the current vertex marker to the vertex you want to move (B), and then specify the new vertex
+ location (C)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic378_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To taper the width of an individual polyline
+ segment</p>
+      <ol>
+        <li>Choose Modify &gt; Object &gt; Polyline from the mainmenu.</li>
+        <li>Select the polyline.</li>
+        <li>On the command line, type E (Edit
+ vertex).</li>
+        <li>On the command line, type N (Next). Repeat until the X maker reaches the first vertex
+ of the segment you want to taper.</li>
+        <li>On the command line, type W (Width).</li>
+        <li>Specify the startingwidth.</li>
+        <li>Specify the ending width.</li>
+        <li>On the command line, type another
+ option, or type Exit to complete the command.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic378_image003.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ On the command line, type another option,
+ or press Enter
+ to complete the command.</li>
+      </ol>
+      <p>Select the polyline
+ (A), move the current vertex marker to the first vertex of the segment
+ you want to taper (B), and then specify the new
+ starting and ending widths for that segment.</p>
+    </result>
+  </taskbody>
+</task>

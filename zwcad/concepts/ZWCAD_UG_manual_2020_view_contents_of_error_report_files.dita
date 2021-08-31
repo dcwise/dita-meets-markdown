@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A22A5865-E3C4A11-A87525C7452144C-1E15DD">
+  <title>View Contents of Error Report Files</title>
+  <shortdesc>Generally, the software
+ generates four error reporting files,
+ individually named as *.ZCR, *.DMP,
+ *.REG and the crashed drawing
+ file itself. In this error
+ report dialog box,
+ you can see the contents
+ of error reports
+ by clicking on the "Click here" link. You can optionally select a file in the "Error Report
+ Contents" dialog box, or double-clicka file to view
+ its contents.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

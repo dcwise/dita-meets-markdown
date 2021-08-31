@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A4356-35E13A1-12154A87A5A71E5-392B87">
+  <title>Multileader Toolbar</title>
+  <shortdesc>Functions of the buttons
+ on multileader toolbar
+ are described in the table below:</shortdesc>
+  <conbody>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1"> Icon </entry>
+            <entry colname="col2"> Name </entry>
+            <entry colname="col3"> Function Description </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic457_image001.png" />
+              </fig>
+            </entry>
+            <entry colname="col2"> Multileader </entry>
+            <entry colname="col3"> Creates a multileader object. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic457_image002.png" />
+            </entry>
+            <entry colname="col2"> Add Leader </entry>
+            <entry colname="col3"> Adds leaders to the selected multileader object. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic457_image003.png" />
+              </fig>
+            </entry>
+            <entry colname="col2"> Remove Leader </entry>
+            <entry colname="col3"> Removes the leader fromthe multileader object. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic457_image004.png" />
+            </entry>
+            <entry colname="col2"> Multileader Style </entry>
+            <entry colname="col3"> Open "<u>Multileader</u><u> Style Manager</u> ”dialog box, in which you create, modify or delete multileader style. </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A568-E13CA11-1A8C1B5A7E55A31-D5D15E">
+  <title>Changing the size and appearance of point objects</title>
+  <shortdesc>Changing the size and appearance of point objects affects all point objects
+ already in the drawing, as wel as all points that you subsequently draw.
+ Positive values represent the absolute size of the point object measured in drawing units. Negative values
+ represent a percentage relative to the drawing screen so that points
+ retain their visual
+ size as you use the Zoomcommand to change the magnification of the drawing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>To change the size and appearance of point objects</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic248_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Point Style from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Under Point Style, select
+ the style you want.</cmd>
+      </step>
+      <step>
+        <cmd>Under Point Size, specifythe point size,
+ or choose one of the options.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>When you regenerate the drawing, all point objects
+ change to reflect the new size and appearance settings.</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA358643-F2154A8-715A5A1538E2BD0-D32F8D">
+  <title>Import WMF Files</title>
+  <shortdesc>As a Windows metafile
+ format, WMF files are frequently used to produce
+ clip art and other non-technical images that you need for drawings. Use WMFIN or IMPORT command
+ to insert a WMF file into a drawing file as a block.</shortdesc>
+  <conbody>
+    <p>To be different
+ from bitmaps, WMF files contain vector information that can be resized and
+ printed without losing
+ resolution. If 2D solids or wide lines are contained
+ in the WMF file, turn off their display so as to increase
+ drawing speed.</p>
+    <p>Both vector and
+ raster information can be contained in WMF files. However, ZWCAD uses only the vector information
+ from a WMF file. ZWCAD ignores the raster information if using a WMF file containing raster information.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A4568-3651324-7D1545A71E535AC-41972E">
+  <title>Use Grips to Edit Objects</title>
+  <shortdesc>Grips are small squares displayed
+ at the strategic points on objects while you selecting
+ objects.</shortdesc>
+  <conbody>
+    <p>As you select
+ each entity, it is highlighted with small squares called grips, which appear at
+ strategic points on the entity.</p>
+    <p>The locations of
+ the grips depend on the type of object selected. For example, grips appear
+ at the endpoints and midpoint of a
+ line, at the quadrant points and the
+ center point of a circle, and at the endpoints, midpoint, and center of an arc.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic387_image001.png" />
+      </fig>
+    </p>
+    <p>Examples of grip locations</p>
+    <p>To use grips for
+ editing, you select an object to display the grips, and then click a grip to
+ make it active. The grip you select depends on the
+ type of object you're modifying and the editing operation you're performing. For example,
+ to move a line object,
+ drag it by its midpoint grip.</p>
+    <p>To stretch the line, drag one of the endpoint grips. You do not need to enter a command
+ when using grips.</p>
+  </conbody>
+</concept>

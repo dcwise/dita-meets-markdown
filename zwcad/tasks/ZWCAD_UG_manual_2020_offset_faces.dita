@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7123686-11215A8-771E55931631B90-A96A5D">
+  <title>Offset Faces</title>
+  <shortdesc>You can scale faces of 3D solids with the
+ specified offset. Positive
+ value enlarges objects;
+ negative value shrinks
+ objects. For example,
+ you can enlarge or shrinks
+ an aperture using offset. In addition to entering the distance, you can also drag the cursor to determine the distance.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic416_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To offset a solid face</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing &gt; Offset Faces from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the face(s) to offset, andpress
+ Enter.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic416_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify an offset
+ distance.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Left: Specify the face(s) to offset (A) and the distance to offset Right: The resulting
+ object with the face offset to position (B)</p>
+    </result>
+  </taskbody>
+</task>

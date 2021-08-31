@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA7B4583-5642114-AC52545AEF6466E-5FC050">
+  <title>企业管理员需要手动进行的配置</title>
+  <shortdesc>应用安装成功后，企业管理员需要进行以下配置：</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_开启通讯录自动同步功能.dita">开启通讯录自动同步功能</xref>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_补充部门信息_不建议通过此方式配置.dita">补充部门信息 （不建议通过此方式配置）</xref>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_补充用户信息_不建议通过此方式配置.dita">补充用户信息 （不建议通过此方式配置）</xref>
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          <xref href="../concepts/Xiaoshouyi_WeChat_Work_Installation_Guide_V2104_02_设置用户权限.dita">设置用户权限</xref>
+        </cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12366-5E13112-15A7A15551393AB-B64491">
+  <title>Set Horizontal or Vertical Text Orientation</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic476_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The text directions include horizon
+ and vertical. Only if the associated font supports dual orientation, you can create the vertical text. Each
+ sequent text line is drawn to the right of the preceding line. Generally, the rotation angle for vertical
+ text is 270 degrees. You cannot create vertical text when the font is TrueType.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic476_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To specify
+ a line text style</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Text &gt; Single
+ Line Text from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>On the command line, type S (Style) and press ENTER.</cmd>
+      </step>
+      <step>
+        <cmd>Type the name of a previously
+ defined text style,
+ and then press
+ Enter. To display
+ a list of available text styles, type a question
+ mark (?), and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the text insertion
+ point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the text height.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the rotation angle.</cmd>
+      </step>
+      <step>
+        <cmd>Type the text line, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the command,
+ press Enter again.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic476_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To specify
+ a multiline text style</p>
+      <ol>
+        <li>Choose Draw &gt; Text &gt; Multiline Text from the main menu.</li>
+        <li>Specify the first corner of the Multiline
+ Textbox.</li>
+        <li>On the command line, type S (Style)
+ and press ENTER.</li>
+        <li>Type the name of a previouslydefined text style, and then press Enter.</li>
+        <li>Specify the opposite corner
+ of the Multiline Textbox.</li>
+        <li>Type the text.</li>
+        <li>Click OK.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

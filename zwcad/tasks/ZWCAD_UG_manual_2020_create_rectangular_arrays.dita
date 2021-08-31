@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1356836-E153C1F-54A87D579E37182-71EC78">
+  <title>Create Rectangular Arrays</title>
+  <shortdesc>You should specify the number of rows and columns, offset distance and
+ angle before you create rectangular arrays.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic332_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a rectangular array</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Array from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Array dialog box, click
+ Rectangular Array.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Select Objects
+ button, and then select objects
+ to array in your drawing.</cmd>
+      </step>
+      <step>
+        <cmd>In the Array
+ dialog box, specify the row
+ and column offset distance and angle
+ of offset.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic332_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Click OK.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To create a rectangular
+ array, select the object to copy (A), type the number of rows and columns, and then
+ specify the distance between each row (B) and column
+ (C)</p>
+    </result>
+  </taskbody>
+</task>

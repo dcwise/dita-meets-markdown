@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7412356-8365534-A1F14AA11E559F8-BAAD45">
+  <title>Search for commands</title>
+  <shortdesc>Provide tools
+ used for searching for commands quickly. You can search for commands on the
+ Quick Access toolbar, in the
+ application menu, and on the ribbon. The search results will be directly
+ displayed in the application menu.
+ You can enter
+ any language for searching.</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic4_image002.png" />
+      </fig>
+    </p>
+    <p>Input Zoom to check the matched word In the Application Menu</p>
+  </conbody>
+</concept>

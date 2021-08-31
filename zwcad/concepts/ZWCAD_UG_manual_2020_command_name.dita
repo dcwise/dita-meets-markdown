@@ -1,0 +1,4263 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A12A3683-6553C41-1F2154A871C5A91-E55957">
+  <title>Command Name</title>
+  <conbody>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Command</b>
+            </entry>
+            <entry colname="col2">
+              <b>Function Description</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>new</b>
+            </entry>
+            <entry colname="col2"> Create a new graphics file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>qnew</b>
+            </entry>
+            <entry colname="col2">
+              <p>Create a new graphics file from the current default draw ing template file and the</p>
+              <p>"Options" dialog box "File" tab to specify the folder path</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>open</b>
+            </entry>
+            <entry colname="col2"> Opens an existing draw ing file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xopen</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open the selected reference (external reference) for editing in a new</p>
+              <p>independent w indow</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>oleopen</b>
+            </entry>
+            <entry colname="col2"> Opens the selected OLE object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>save</b>
+            </entry>
+            <entry colname="col2"> Save the graphic w ith the current file name or a specified name </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>qsave</b>
+            </entry>
+            <entry colname="col2"> Use specified default file format for saving the current draw ing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>saveas</b>
+            </entry>
+            <entry colname="col2"> Save a copy of the current draw ing under a new file name </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>exit</b>
+            </entry>
+            <entry colname="col2"> Exit Softw are </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>quit</b>
+            </entry>
+            <entry colname="col2"> Exit Softw are </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>close</b>
+            </entry>
+            <entry colname="col2"> Close the current document </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>closeall</b>
+            </entry>
+            <entry colname="col2"> Close all documents </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>preview</b>
+            </entry>
+            <entry colname="col2"> This graphic w ill be displayed w hen you w ant to print graphics </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plot</b>
+            </entry>
+            <entry colname="col2"> The graphic print to a plotter, printer, or file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>print</b>
+            </entry>
+            <entry colname="col2"> plot command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-plot</b>
+            </entry>
+            <entry colname="col2"> Command line command execution plot </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pagesetup</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the page layout, plotting device, paper size and other settings for each</p>
+              <p>new layout</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>psetup</b>
+            </entry>
+            <entry colname="col2">
+              <p>Display Configuration "Page Setup Manager" dialog box, set the current graphics file page layout and printing equipment. Specified page layout settings</p>
+              <p>w ill be saved w ith the</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>psetupin</b>
+            </entry>
+            <entry colname="col2"> The user-defined page setup into a new draw ing layout </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-psetupin</b>
+            </entry>
+            <entry colname="col2"> Command line command execution psetupin </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plotstamp</b>
+            </entry>
+            <entry colname="col2">
+              <p>Placing a stamp and print stamp records in the file specified in the corner of</p>
+              <p>each graph</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddplotstamp</b>
+            </entry>
+            <entry colname="col2"> plotstamp command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-plotstamp</b>
+            </entry>
+            <entry colname="col2"> Command line command execution plotstamp </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>u</b>
+            </entry>
+            <entry colname="col2"> Undo the last operation </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>undo</b>
+            </entry>
+            <entry colname="col2"> Undo command effect </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>redo</b>
+            </entry>
+            <entry colname="col2"> Give up on a resume w ith effect UNDO or U command </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mredo</b>
+            </entry>
+            <entry colname="col2"> Before restoring a few UNDO or U command w ith abandon effect </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_selall</b>
+            </entry>
+            <entry colname="col2"> Select all objects </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>copyclip</b>
+            </entry>
+            <entry colname="col2"> Copy objects to the clipboard </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cutclip</b>
+            </entry>
+            <entry colname="col2"> Cutting the object into the clipboard </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pasteclip</b>
+            </entry>
+            <entry colname="col2"> Will be copied to the clipboard pasting objects into the location specified pattern </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>copybase</b>
+            </entry>
+            <entry colname="col2"> Copy w ith Base Point object that specifies the exact location of the object copy </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pasteblock</b>
+            </entry>
+            <entry colname="col2">
+              <p>An object copied to the clipboard in the draw ing as a block to the specified</p>
+              <p>insertion point</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pasteorig</b>
+            </entry>
+            <entry colname="col2">
+              <p>Copy the file w ith graphic objects and coordinates of the original graphics file</p>
+              <p>and paste into a new graphic file</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pastespec</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open "Paste" box, copying the data on the clipboard to insert it into the graphic</p>
+              <p>file, and copy the data format set</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>options</b>
+            </entry>
+            <entry colname="col2">
+              <p>Display the "Options" dialog box to specify the default settings used by the</p>
+              <p>program</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>#NAME?</b>
+            </entry>
+            <entry colname="col2"> Open the "Options" dialog box displays the specified tab </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>config</b>
+            </entry>
+            <entry colname="col2"> Open the "Options" dialog box "Print and publishing" tab </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>syswindows</b>
+            </entry>
+            <entry colname="col2">
+              <p>When the application w indow is shared w ith external applications, arrange</p>
+              <p>w indow s and icons</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>regenauto</b>
+            </entry>
+            <entry colname="col2">
+              <p>Automatic repeat pattern generation control, w hen the auto-generation open, the system w ill automatically re-generated w hen the current view need to re-</p>
+              <p>generate a graphical</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>redraw</b>
+            </entry>
+            <entry colname="col2">
+              <p>Update the display, any visible marks on delete unw anted objects or half -hidden</p>
+              <p>pixels</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>redrawall</b>
+            </entry>
+            <entry colname="col2"> Refresh Show all view ports </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>regen</b>
+            </entry>
+            <entry colname="col2"> Regenerated current view , and recalculate all the objects on the screen position </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>regenall</b>
+            </entry>
+            <entry colname="col2">
+              <p>Regenerated current view , refresh all view ports, and recalculate all the positions</p>
+              <p>on the graphics screen</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>point</b>
+            </entry>
+            <entry colname="col2"> Draw ing point objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddptype</b>
+            </entry>
+            <entry colname="col2"> Display "Point Style" dialog box </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>divide</b>
+            </entry>
+            <entry colname="col2">
+              <p>Mark placed on the selected object. Marker objects evenly divided into a</p>
+              <p>specified number of division</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>measure</b>
+            </entry>
+            <entry colname="col2">
+              <p>Along the perimeter of the object or by the length of the measurement interval to</p>
+              <p>create point objects or blocks</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xline</b>
+            </entry>
+            <entry colname="col2"> Draw ing construction lines, line configuration unlimited extension, infinite length </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ray</b>
+            </entry>
+            <entry colname="col2">
+              <p>Configured to draw a line extending from the infinite direction specified start</p>
+              <p>point</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>line</b>
+            </entry>
+            <entry colname="col2"> Draw ing a single line length </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>circle</b>
+            </entry>
+            <entry colname="col2"> Draw a circle of any size </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>arc</b>
+            </entry>
+            <entry colname="col2"> Draw an arc </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pline</b>
+            </entry>
+            <entry colname="col2"> Draw ing tw o-dimensional polylines </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rectang</b>
+            </entry>
+            <entry colname="col2"> To create a rectangular polyline objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>boundary</b>
+            </entry>
+            <entry colname="col2"> Create a polyline in an enclosed area </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>bpoly</b>
+            </entry>
+            <entry colname="col2"> boundary command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-boundary</b>
+            </entry>
+            <entry colname="col2"> Command line command execution boundary </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>revcloud</b>
+            </entry>
+            <entry colname="col2"> Cloud line draw ing arcs connected by a plurality of objects polyline </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>donut</b>
+            </entry>
+            <entry colname="col2"> Draw circle object. Ring is closed polyline of a w ide arc segments composed of </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>doughnut</b>
+            </entry>
+            <entry colname="col2"> Set the radius of the ring </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>sketch</b>
+            </entry>
+            <entry colname="col2"> Create a series of line segments freehand draw ing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>3dpoly</b>
+            </entry>
+            <entry colname="col2"> Draw 3D polyline objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>polygon</b>
+            </entry>
+            <entry colname="col2"> Draw a regular polygon objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ellipse</b>
+            </entry>
+            <entry colname="col2"> Elliptical arc or an ellipse draw an object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>spline</b>
+            </entry>
+            <entry colname="col2"> Draw various shapes spline </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>splinedit</b>
+            </entry>
+            <entry colname="col2"> Spline Edit </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>block</b>
+            </entry>
+            <entry colname="col2"> Defining a plurality of objects as a w hole, creates a block definition </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-block</b>
+            </entry>
+            <entry colname="col2"> Command line command execution block </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>insert</b>
+            </entry>
+            <entry colname="col2"> Insert a graphic or graphics files in the current block </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddInsert</b>
+            </entry>
+            <entry colname="col2"> insert command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-insert</b>
+            </entry>
+            <entry colname="col2"> Insert the command line command execution </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>minsert</b>
+            </entry>
+            <entry colname="col2">
+              <p>Multiple copies of a block to build a rectangular array. Copy appreciate you</p>
+              <p>specify the insertion point to the beginning point array</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xref</b>
+            </entry>
+            <entry colname="col2"> Create an external reference or modify an existing xref </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-xref</b>
+            </entry>
+            <entry colname="col2"> Command line command execution Xref </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xattach</b>
+            </entry>
+            <entry colname="col2"> Create an external reference </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>refedit</b>
+            </entry>
+            <entry colname="col2"> Xref or directly edit block defined in the current draw ing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-refedit</b>
+            </entry>
+            <entry colname="col2"> Command line command execution refedit </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>refset</b>
+            </entry>
+            <entry colname="col2">
+              <p>In the external reference or block is in edit mode, the w orking set is added to the</p>
+              <p>object or objects from the w ork Deletes</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>refclose</b>
+            </entry>
+            <entry colname="col2"> Referring to save or discard changes (xref or block) </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xbind</b>
+            </entry>
+            <entry colname="col2">
+              <p>The selected external reference to a named object bound to the current or more</p>
+              <p>defined graphical</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-xbind</b>
+            </entry>
+            <entry colname="col2"> Command line command execution xbind </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>style</b>
+            </entry>
+            <entry colname="col2"> Create a new text style or modify the current text style </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddstyle</b>
+            </entry>
+            <entry colname="col2"> style command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-style</b>
+            </entry>
+            <entry colname="col2"> Command line command execution style </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>text</b>
+            </entry>
+            <entry colname="col2"> Draw a single line of text objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dtext</b>
+            </entry>
+            <entry colname="col2"> text command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-text</b>
+            </entry>
+            <entry colname="col2"> Command line text command execution </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mtext</b>
+            </entry>
+            <entry colname="col2"> Draw multi-line text </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-mtext</b>
+            </entry>
+            <entry colname="col2"> Mtext command line command execution </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>attdef</b>
+            </entry>
+            <entry colname="col2"> Defined set of properties </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddattdef</b>
+            </entry>
+            <entry colname="col2"> attdef command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-attdef</b>
+            </entry>
+            <entry colname="col2"> Command line command execution attdef </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>arctext</b>
+            </entry>
+            <entry colname="col2"> Placement of text along an arc </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>atext</b>
+            </entry>
+            <entry colname="col2"> arctext command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mtedit</b>
+            </entry>
+            <entry colname="col2"> Edit the selected multiline text object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mtprop</b>
+            </entry>
+            <entry colname="col2"> mtedit command aliases </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>field</b>
+            </entry>
+            <entry colname="col2"> Open the "Field" dialog box, create a field w ith the multiline text object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>updatefield</b>
+            </entry>
+            <entry colname="col2"> Manually update the selected graphic object field </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hatch</b>
+            </entry>
+            <entry colname="col2"> Use hatch pattern, or solid fill, gradient fill enclosed area or selected objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-hatch</b>
+            </entry>
+            <entry colname="col2"> Command line command execution hatch </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>bhatch</b>
+            </entry>
+            <entry colname="col2"> Use hatch pattern, or solid fill, gradient fill enclosed area or selected objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-bhatch</b>
+            </entry>
+            <entry colname="col2"> Command line command execution bhatch </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gradient</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open the "Hatch and Gradient" "Gradient" tab of the dialog box in order to look</p>
+              <p>gradient color fill</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hatchedit</b>
+            </entry>
+            <entry colname="col2"> Edit association objects filled </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-hatchedit</b>
+            </entry>
+            <entry colname="col2"> Command line command execution hatchedit </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hatchtoback</b>
+            </entry>
+            <entry colname="col2"> The draw ing order of all hatch pattern is set after all other objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>region</b>
+            </entry>
+            <entry colname="col2"> The selected object to a region object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>wipeout</b>
+            </entry>
+            <entry colname="col2"> To erase the object designated area w ithin the region </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimstyle</b>
+            </entry>
+            <entry colname="col2"> Modify, create dimension style </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddim</b>
+            </entry>
+            <entry colname="col2"> dimstyle command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-dimstyle</b>
+            </entry>
+            <entry colname="col2"> Command line command execution dimstyle </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tolerance</b>
+            </entry>
+            <entry colname="col2">
+              <p>Display "geometric tolerances" dialog box to define the geometry of the variable</p>
+              <p>current draw ing. Suitable tolerance specifies the function depicted objects covered w ith accuracy</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimlinear</b>
+            </entry>
+            <entry colname="col2"> Create a linear dimension </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimrotated</b>
+            </entry>
+            <entry colname="col2"> Create a linear dimension line containing the rotational labeling </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimaligned</b>
+            </entry>
+            <entry colname="col2"> Create a linear dimension and aligning objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimangular</b>
+            </entry>
+            <entry colname="col2"> Creating an angle betw een the circles, arcs, lines, or tw o objects is denoted by </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimarc</b>
+            </entry>
+            <entry colname="col2"> Create an arc length or arc segment labeled polyline </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimradius</b>
+            </entry>
+            <entry colname="col2"> Create a circle or arc radius labeled objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimdiameter</b>
+            </entry>
+            <entry colname="col2"> Create diameter dimensions to circles and arcs </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimordinate</b>
+            </entry>
+            <entry colname="col2"> Creating ordinate dimensions </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimjogged</b>
+            </entry>
+            <entry colname="col2"> A circular arc, or polyline arc segments create the bend radius dimensions </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>leader</b>
+            </entry>
+            <entry colname="col2"> Draw lead </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>qleader</b>
+            </entry>
+            <entry colname="col2"> Quickly create and set the lead w ires comment </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>image</b>
+            </entry>
+            <entry colname="col2">
+              <p>On "Image Manager" dialog box. In this dialog box, a variety of image formats (including BMP, TIF, RLE, JPG, PNG, PCX and TGA) can be attached to the draw ing file, or to break out from the draw ing. You can also reload and unload image, specify a new path to the image. You can also view details of the</p>
+              <p>selected image</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-image</b>
+            </entry>
+            <entry colname="col2"> Command line command execution image </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>imageattach</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open "Select Image File" dialog box, the user can view the raster image in this dialog box, tw o-color bitmap image, 8-bit grayscale image, eight 24-bit color image or a color image file, and select an image file to attached to the current draw ing file. Attaching the image creates the image definition, the image is loaded into memory and displays the image. After the user selects the image</p>
+              <p>file, it w ill open the "Image" dialog</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>imageclip</b>
+            </entry>
+            <entry colname="col2">
+              <p>Create a new image clipping boundary for the entity selected objects. Must be</p>
+              <p>specified boundary plane parallel to the image object</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>imageframe</b>
+            </entry>
+            <entry colname="col2"> Control of the image frame draw ing is currently displayed and printed </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>insertobj</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open the "Insert Object" dialog box, insert OLE objects in the current draw ing</p>
+              <p>file, including linked objects and embedded objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>olelinks</b>
+            </entry>
+            <entry colname="col2">
+              <p>On "Link" dialog box for an existing OLE links to modify, cancel and other</p>
+              <p>operations</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layout</b>
+            </entry>
+            <entry colname="col2">
+              <p>Create or modify a graphic layout tab. Layout of construction or design can be</p>
+              <p>used for printing graphic</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-layout</b>
+            </entry>
+            <entry colname="col2"> Command line command execution layout </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mline</b>
+            </entry>
+            <entry colname="col2"> Draw multi-line. Multi-line is a plurality of parallel lines </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mlstyle</b>
+            </entry>
+            <entry colname="col2"> On "Multi-line Style" dialog box, define multi-line style </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mledit</b>
+            </entry>
+            <entry colname="col2"> Editing multi-line style, multi-line control of the intersection betw een the </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-mledit</b>
+            </entry>
+            <entry colname="col2"> Command line command execution mledit </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>trace</b>
+            </entry>
+            <entry colname="col2"> Draw ing w ide lines </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>solid</b>
+            </entry>
+            <entry colname="col2"> Creating an object through a tw o-dimensional triangular or quadrangular filled </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>load</b>
+            </entry>
+            <entry colname="col2">
+              <p>"Select-shaped File" dialog box. Enter the name of a shape file or select a file</p>
+              <p>name from the list</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>shape</b>
+            </entry>
+            <entry colname="col2"> From the shape file loaded using LOAD shaped insert </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucs</b>
+            </entry>
+            <entry colname="col2"> Set User Coordinate System </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsicon</b>
+            </entry>
+            <entry colname="col2"> Show or hide the UCS icon, and determine the location of the UCS icon display </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsman</b>
+            </entry>
+            <entry colname="col2">
+              <p>"User Coordinate System" dialog box to display and modify the definition but not</p>
+              <p>the named user coordinate system, restore the naming and orthogonal UCS, specify the view port UCS and UCS icon settings</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dducs</b>
+            </entry>
+            <entry colname="col2">
+              <p>"User Coordinate System" dialog box to display and modify the definition but not</p>
+              <p>the named user coordinate system, restore the naming and orthogonal UCS, specify the view port UCS and UCS icon settings</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>#NAME?</b>
+            </entry>
+            <entry colname="col2"> Open the "User Coordinate System" dialog box, specify tab </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dducsp</b>
+            </entry>
+            <entry colname="col2"> Open the "User Coordinate System" dialog "orthogonal UCS" tab </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layer</b>
+            </entry>
+            <entry colname="col2">
+              <p>Create or manage layers, colors modify the layer, linear and other</p>
+              <p>characteristics</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-layer</b>
+            </entry>
+            <entry colname="col2"> Command line command execution layer </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vplayer</b>
+            </entry>
+            <entry colname="col2"> Layer visibility settings of the view port </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>linetype</b>
+            </entry>
+            <entry colname="col2">
+              <p>Defined line (line segment, and the successive points are alternately arranged</p>
+              <p>space), loaded from the library and set the current line</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-linetype</b>
+            </entry>
+            <entry colname="col2"> Command line command execution linetype </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ltscale</b>
+            </entry>
+            <entry colname="col2"> All linear scale factor setting current draw ing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>view</b>
+            </entry>
+            <entry colname="col2"> Storing user defined view or retrieve saved view s to display </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-view</b>
+            </entry>
+            <entry colname="col2"> Command line command execution view </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vpoint</b>
+            </entry>
+            <entry colname="col2"> Set the graphic visualization of three-dimensional view ing direction </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddvpoint</b>
+            </entry>
+            <entry colname="col2"> Set three dimensional view ing direction </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vports</b>
+            </entry>
+            <entry colname="col2"> Creating one or more view ports in a view </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>#NAME?</b>
+            </entry>
+            <entry colname="col2"> Open the "view port" dialog box, specify tab </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-vports</b>
+            </entry>
+            <entry colname="col2"> Command line command execution vports </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>viewports</b>
+            </entry>
+            <entry colname="col2"> vports command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>zoom</b>
+            </entry>
+            <entry colname="col2"> Zoom in or out to display the current draw ing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rtzoom</b>
+            </entry>
+            <entry colname="col2"> Enlarged or reduced in real-time graphic display of the current </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pan</b>
+            </entry>
+            <entry colname="col2"> Pan Drag view w indow to view unseen region </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-pan</b>
+            </entry>
+            <entry colname="col2"> Command line command to execute pan </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rtpan</b>
+            </entry>
+            <entry colname="col2"> Real-time translation drag the view to the w indow to w atch the invisible region </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plan</b>
+            </entry>
+            <entry colname="col2"> A plan view show ing the specified coordinate system </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>erase</b>
+            </entry>
+            <entry colname="col2"> Delete graphic files selected objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>move</b>
+            </entry>
+            <entry colname="col2">
+              <p>The selected object w ith the specified distance from the original position moves</p>
+              <p>to a new location</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>copy</b>
+            </entry>
+            <entry colname="col2"> Copy Objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mirror</b>
+            </entry>
+            <entry colname="col2"> Reflecting a copy of a line as a reference line, creating an object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>stretch</b>
+            </entry>
+            <entry colname="col2">
+              <p>Tensile selected graphical object, w herein the moving part, w hile maintaining the link w ith other parts of the pattern. Stretchable and comprises an object selection w indow intersecting arcs, elliptical arcs, lines, polyline segments, tw o-</p>
+              <p>dimensional solids, radiation, line w idth, and splines</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rotate</b>
+            </entry>
+            <entry colname="col2"> To rotate an object by specifying the selected point </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>scale</b>
+            </entry>
+            <entry colname="col2"> In certain scaled up or dow n to select an object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>array</b>
+            </entry>
+            <entry colname="col2">
+              <p>A duplicate copy of the selected object, according to the manner specified order. In addition operation can be performed on a single object array, the array may also be operated on a plurality of objects, w hen the command is executed, the</p>
+              <p>system as a w hole w ill be a plurality of target objects to be treated</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-array</b>
+            </entry>
+            <entry colname="col2"> Command line command execution array </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>offset</b>
+            </entry>
+            <entry colname="col2">
+              <p>Distance specified point or a specified offset the selected object and copy the</p>
+              <p>target copy of the original object in parallel. If the selected object is a circle, creating concentric circles</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>trim</b>
+            </entry>
+            <entry colname="col2"> Clean up the selected object exceeds the specified boundary section </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>extend</b>
+            </entry>
+            <entry colname="col2"> Extending a line segment, arc, or 2D polyline ray </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chamfer</b>
+            </entry>
+            <entry colname="col2"> Establishing tw o chamfer lines cross, radial lines or infinitely long line </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>fillet</b>
+            </entry>
+            <entry colname="col2">
+              <p>Of tw o arcs, circles, ellipses, arcs, lines, polylines, rays, splines or three- dimensional solid lines and configured to create the fillet radius of the arc</p>
+              <p>formed by the specified</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lengthen</b>
+            </entry>
+            <entry colname="col2"> Modify the length of the selected object, comprising an arc-angle modification </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>align</b>
+            </entry>
+            <entry colname="col2">
+              <p>Select the object you w ant to align in 2D and 3D space, and you w ant to align objects to add source, add target point to the object to be aligned w ith the source object, so that it is aligned w ith other objects. To align an object, you can</p>
+              <p>add up to three pairs of source and destination points to the object</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>break</b>
+            </entry>
+            <entry colname="col2"> The selected object interrupted betw een tw o points </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>join</b>
+            </entry>
+            <entry colname="col2"> The selected objects are combined to form a new object </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>explode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Synthetic objects (e.g., tiles, polylines, etc.) formed by combining a plurality of</p>
+              <p>objects into separate objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>x</b>
+            </entry>
+            <entry colname="col2"> explode command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>purge</b>
+            </entry>
+            <entry colname="col2">
+              <p>Named Item clear the current draw ing file is not in use. Such as blocks, layers,</p>
+              <p>linetypes, text styles, but do not use graphics or recovery dimension styles you define</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-purge</b>
+            </entry>
+            <entry colname="col2"> Command line execution purge command </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chspace</b>
+            </entry>
+            <entry colname="col2">
+              <p>Move the object to a different space, i.e. converted into the draw ing space model space object, or convert the object in the model space to paper space.</p>
+              <p>And for moving objects are properly scaled in the new space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pspace</b>
+            </entry>
+            <entry colname="col2"> In the layout, sw itching from model space to paper space view port </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mspace</b>
+            </entry>
+            <entry colname="col2"> In the layout, sw itching from paper space to model space layout view port </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pedit</b>
+            </entry>
+            <entry colname="col2"> Edit 2D polylines, 3D polylines or 3D grid </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mleader</b>
+            </entry>
+            <entry colname="col2"> Create a multileader objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mleaderstyle</b>
+            </entry>
+            <entry colname="col2"> Multileader styles create, modify, </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mleaderedit</b>
+            </entry>
+            <entry colname="col2"> Add or delete objects lead to multiple leads </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>aimleadereditremove</b>
+            </entry>
+            <entry colname="col2"> Delete objects lead to multiple leads </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>aimleadereditadd</b>
+            </entry>
+            <entry colname="col2"> Increasing the lead to multileader objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>table</b>
+            </entry>
+            <entry colname="col2"> Create a table object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tablestyle</b>
+            </entry>
+            <entry colname="col2"> Table style to create, modify </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tabledit</b>
+            </entry>
+            <entry colname="col2"> Form-place editing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tableexport</b>
+            </entry>
+            <entry colname="col2"> The table object output to an Excel file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ncopy</b>
+            </entry>
+            <entry colname="col2"> Referring replication nested in the outside or a tile or more objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>overkill</b>
+            </entry>
+            <entry colname="col2"> Remove duplicate or partially overlapping draw ing objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>draworder</b>
+            </entry>
+            <entry colname="col2"> Show all objects in the order of draw ing file settings </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>3d</b>
+            </entry>
+            <entry colname="col2"> Creating the appearance of the three-dimensional polygon basic shape </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>acisin</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open the "Select SAT File" dialog box, select ACIS file and insert the current</p>
+              <p>draw ing file</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>acisout</b>
+            </entry>
+            <entry colname="col2">
+              <p>The graphics files created entity, or region object output and save it as SAT</p>
+              <p>(ASCII) files</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>box</b>
+            </entry>
+            <entry colname="col2"> To create three-dimensional rectangular objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cone</b>
+            </entry>
+            <entry colname="col2"> To create three-dimensional cone </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cylinder</b>
+            </entry>
+            <entry colname="col2"> To create three-dimensional solid object cylinder </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>torus</b>
+            </entry>
+            <entry colname="col2"> Rendering three-dimensional solid object ring </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>sphere</b>
+            </entry>
+            <entry colname="col2"> Draw three-dimensional spherical objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>3dface</b>
+            </entry>
+            <entry colname="col2"> Draw three-dimensional surface objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>3dmesh</b>
+            </entry>
+            <entry colname="col2"> To create three-dimensional polygon mesh objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pface</b>
+            </entry>
+            <entry colname="col2"> To create three-dimensional polygon mesh by specifying vertices </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>wedge</b>
+            </entry>
+            <entry colname="col2"> Rendering three-dimensional objects w edge </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>edgesurf</b>
+            </entry>
+            <entry colname="col2"> Vertex evenly distributed to four boundary dimensional polygon mesh </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>revsurf</b>
+            </entry>
+            <entry colname="col2">
+              <p>The rotation shaft linear path curve or contour around the specified object selected rotation angle, rotation created surfaces. Selected object lines, circles,</p>
+              <p>arcs, ellipses, elliptical arcs, closed polylines, polygons, spline or a closed ring</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rulesurf</b>
+            </entry>
+            <entry colname="col2">
+              <p>Dimensional polygon mesh, it ruled surface approximation betw een the tw o</p>
+              <p>curves</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tabsurf</b>
+            </entry>
+            <entry colname="col2">
+              <p>Establishing a polygon mesh, making it approximately the grid plate developable</p>
+              <p>surface defined by the path and direction</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>extrude</b>
+            </entry>
+            <entry colname="col2">
+              <p>Height and tilt angle values specified path, or stretched to create a solid object</p>
+              <p>selected</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>revolve</b>
+            </entry>
+            <entry colname="col2">
+              <p>The tw o-dimensional object in a selected predetermined rotational axis of</p>
+              <p>rotation, and finally form a solid</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>loft</b>
+            </entry>
+            <entry colname="col2">
+              <p>Creating three-dimensional solid or surface in the space betw een the plurality of</p>
+              <p>cross-section</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>slice</b>
+            </entry>
+            <entry colname="col2">
+              <p>Cut or split by an existing object, and creating a new three-dimensional solid</p>
+              <p>surfaces</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_cone</b>
+            </entry>
+            <entry colname="col2"> Creating three-dimensional conical surface </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_wedge</b>
+            </entry>
+            <entry colname="col2"> To create three-dimensional w edge surface </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_pyramid</b>
+            </entry>
+            <entry colname="col2"> Create a square pyramidal surface </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_dome</b>
+            </entry>
+            <entry colname="col2"> To create three-dimensional hemisphere surface </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_box</b>
+            </entry>
+            <entry colname="col2"> Create a box surface </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_dish</b>
+            </entry>
+            <entry colname="col2"> To create three-dimensional low er hemisphere surface </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_sphere</b>
+            </entry>
+            <entry colname="col2"> Create a three-dimensional sphere </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_torus</b>
+            </entry>
+            <entry colname="col2"> Create a torus surface </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_cylinder</b>
+            </entry>
+            <entry colname="col2"> Create a cylinder surface </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>union</b>
+            </entry>
+            <entry colname="col2">
+              <p>Tw o or more entities or public domain part of the surface of tw o or more solids or domains into a w hole. The resulting composition comprises all of the selected entity entities enclosed space. Compositions obtained surface domain</p>
+              <p>comprises a subset of all of the surface area enclosed region</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>intersect</b>
+            </entry>
+            <entry colname="col2">
+              <p>Selecting tw o or more entities or public intersection portion intersecting the</p>
+              <p>surface region to create a composite solid surface or field, and remove the portion other than the intersection</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>subtract</b>
+            </entry>
+            <entry colname="col2">
+              <p>A plurality of overlapping solids or domain object through the "Save" operation</p>
+              <p>target combined as a w hole</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>interfere</b>
+            </entry>
+            <entry colname="col2">
+              <p>Select tw o batches of solid w ere compared, and creates a three-dimensional</p>
+              <p>solid composition w ith a common portion of tw o or more entities</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>solidedit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Edit or modify the selected entity object. Users can use the command SOLIDEDIT faces and edges of solid objects stretching, moving, rotating, offsetting, tapering, copying, coloring, segmentation, shelling, cleaning,</p>
+              <p>inspection or delete operation</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rotate3d</b>
+            </entry>
+            <entry colname="col2"> About the axis of the three-dimensional objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>3darray</b>
+            </entry>
+            <entry colname="col2">
+              <p>Creating three-dimensional array in three-dimensional space, copy the plurality</p>
+              <p>of objects</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>laymcur</b>
+            </entry>
+            <entry colname="col2"> The selected object layer is set to the current layer </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laymch</b>
+            </entry>
+            <entry colname="col2"> Layer the selected object's layer and the selected target object resides match </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-laymch</b>
+            </entry>
+            <entry colname="col2"> Command line command execution laymch </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layiso</b>
+            </entry>
+            <entry colname="col2">
+              <p>Close all other layers layers one or more selected object is located and isolated</p>
+              <p>from other layers</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layuniso</b>
+            </entry>
+            <entry colname="col2"> Open Layers command isolated before use LAYISO </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layfrz</b>
+            </entry>
+            <entry colname="col2"> Frozen layer of selected object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layoff</b>
+            </entry>
+            <entry colname="col2"> Off the layer of the selected object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layerstate</b>
+            </entry>
+            <entry colname="col2"> Save, restore and manage named layer state </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layerstatesave</b>
+            </entry>
+            <entry colname="col2"> Save Layer State </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layon</b>
+            </entry>
+            <entry colname="col2"> Open all layers </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laythw</b>
+            </entry>
+            <entry colname="col2"> Thaw All Layers </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laylck</b>
+            </entry>
+            <entry colname="col2"> Locked layers of selected object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layulk</b>
+            </entry>
+            <entry colname="col2"> The layer selected object unlock </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laycur</b>
+            </entry>
+            <entry colname="col2"> One or more layers of objects to the current layer </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laycur1</b>
+            </entry>
+            <entry colname="col2"> Set layer entity for the current layer </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-laydel</b>
+            </entry>
+            <entry colname="col2"> Command line command execution laydel </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-laymrg</b>
+            </entry>
+            <entry colname="col2"> Command line command execution laymrg </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>copytolayer</b>
+            </entry>
+            <entry colname="col2">
+              <p>Copy the selected objects to another layer, the layer w here the source object is</p>
+              <p>not changed</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laywalk</b>
+            </entry>
+            <entry colname="col2">
+              <p>Brow sing graphic layer information contained in, dynamic display of objects</p>
+              <p>selected layer</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laymrg</b>
+            </entry>
+            <entry colname="col2">
+              <p>All objects selected first layer to the Selected second layer. The first layer is</p>
+              <p>selected from the graphic cleared</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laydel</b>
+            </entry>
+            <entry colname="col2">
+              <p>Delete specifies that all objects in the layer and the layer is removed from the</p>
+              <p>draw ing</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>eattedit</b>
+            </entry>
+            <entry colname="col2"> In the Edit Properties block reference </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>attedit</b>
+            </entry>
+            <entry colname="col2"> A plurality of attribute values associated w ith the edit block </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-attedit</b>
+            </entry>
+            <entry colname="col2"> Command line command execution attedit </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddatte</b>
+            </entry>
+            <entry colname="col2"> All the attribute information attached to the block edit </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>battman</b>
+            </entry>
+            <entry colname="col2">
+              <p>On "Block Attribute Manager" dialog box. Users can manage selected block defined in this dialog box all of the properties and characteristics is provided. Any changes made to the block definition attributes are reflected in the block</p>
+              <p>reference</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>attext</b>
+            </entry>
+            <entry colname="col2">
+              <p>ATTEXT command in the command input, w ill open "attribute extraction" box,</p>
+              <p>the user can set the attribute value in this dialog box</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddattext</b>
+            </entry>
+            <entry colname="col2">
+              <p>ATTEXT command in the command input, w ill open "attribute extraction" box,</p>
+              <p>the user can set the attribute value in this dialog box</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-attext</b>
+            </entry>
+            <entry colname="col2"> Command line command execution attext </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>eattext</b>
+            </entry>
+            <entry colname="col2"> Attribute information output block as a table or external file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>attsync</b>
+            </entry>
+            <entry colname="col2"> The attribute definition block reference block defined attribute synchronization </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>attdisp</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets w hether to display properties in the draw ing file. Enter the command "</p>
+              <p>'ATTDISP", the command can be used transparently</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>base</b>
+            </entry>
+            <entry colname="col2"> A reference point w hen setting the current graphic into another file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>color</b>
+            </entry>
+            <entry colname="col2"> Sets the color for draw ing the new object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddcolor</b>
+            </entry>
+            <entry colname="col2"> Sets the color for draw ing the new object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-color</b>
+            </entry>
+            <entry colname="col2"> Command line command to execute color </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lineweight</b>
+            </entry>
+            <entry colname="col2"> Set the current line w idth, line w idth and line w idth unit display options </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lweight</b>
+            </entry>
+            <entry colname="col2"> Set the current line w idth, line w idth and line w idth unit display options </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-lweight</b>
+            </entry>
+            <entry colname="col2"> Command line command execution lw eight </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plotstyle</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control attached to the current layout, and to specify the name of the print style</p>
+              <p>object</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-plotstyle</b>
+            </entry>
+            <entry colname="col2"> Command line command execution plotstyle </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>convertctb</b>
+            </entry>
+            <entry colname="col2">
+              <p>The color-dependent plot style table (CTB) converted to a named plot style</p>
+              <p>tables (STB)</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>convertpstyles</b>
+            </entry>
+            <entry colname="col2"> The current draw ing converted to named or color-dependent print style </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rename</b>
+            </entry>
+            <entry colname="col2">
+              <p>Change the name assigned to the project (such as layers and dimension styles)</p>
+              <p>of</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-rename</b>
+            </entry>
+            <entry colname="col2"> Command line execution rename command </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>properties</b>
+            </entry>
+            <entry colname="col2"> Control of existing objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>propertiesclose</b>
+            </entry>
+            <entry colname="col2"> Close "properties" palette </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>group</b>
+            </entry>
+            <entry colname="col2">
+              <p>Creating and processing individual objects consist. Grouping allow s users to operate the graphic element group units, and can be selected according to need</p>
+              <p>w ith editing may be performed separately</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-group</b>
+            </entry>
+            <entry colname="col2"> Command line execution group command </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ungroup</b>
+            </entry>
+            <entry colname="col2"> Ungroup </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>groupunname</b>
+            </entry>
+            <entry colname="col2"> Create anonymous group </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>select</b>
+            </entry>
+            <entry colname="col2"> Places selected objects "on a" selection set </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pselect</b>
+            </entry>
+            <entry colname="col2">
+              <p>The selected objects in the "on a" selection set and highlights the selected</p>
+              <p>objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>qselect</b>
+            </entry>
+            <entry colname="col2"> Creates a selection set based on filtering criteria </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>deselect</b>
+            </entry>
+            <entry colname="col2"> You can deselect by right-click menu </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_deselect</b>
+            </entry>
+            <entry colname="col2"> Cancel is highlighted and selected entity state </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>selectsimilar</b>
+            </entry>
+            <entry colname="col2"> The matching characteristics of the selected object is similar to the selection set </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>selectsimilarse</b>
+            </entry>
+            <entry colname="col2"> Set criteria like objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>exc</b>
+            </entry>
+            <entry colname="col2"> The intersection of mode selection </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>excp</b>
+            </entry>
+            <entry colname="col2"> Ring post Options </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>exf</b>
+            </entry>
+            <entry colname="col2"> Fence mode selection </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>exp1</b>
+            </entry>
+            <entry colname="col2"> The final mode selection </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>exw</b>
+            </entry>
+            <entry colname="col2"> Window mode selection </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>exwp</b>
+            </entry>
+            <entry colname="col2"> Circle around the mode selection </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>filter</b>
+            </entry>
+            <entry colname="col2">
+              <p>Create a list of requirements, the object must meet these requirements to be</p>
+              <p>included in the selection set</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>matchprop</b>
+            </entry>
+            <entry colname="col2"> The properties of the selected object to the other objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>painter</b>
+            </entry>
+            <entry colname="col2"> matchprop command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>paintprop</b>
+            </entry>
+            <entry colname="col2">
+              <p>The properties of the selected object to the other objects across documents</p>
+              <p>execution</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>change</b>
+            </entry>
+            <entry colname="col2"> Change the properties of existing objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>wblock</b>
+            </entry>
+            <entry colname="col2"> The block is w ritten to a new object or graphics files </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-wblock</b>
+            </entry>
+            <entry colname="col2"> Command line command execution w block </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xclip</b>
+            </entry>
+            <entry colname="col2">
+              <p>Pruning selected display or external reference block reference to a specified</p>
+              <p>boundary</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>import</b>
+            </entry>
+            <entry colname="col2">
+              <p>On "Input File" dialog box, select a variety of formats from the dialog box file into</p>
+              <p>ZWCAD system</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>export</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open "output data" dialog box, the output of the current graphics file to the</p>
+              <p>selected file type</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hyperlink</b>
+            </entry>
+            <entry colname="col2"> Setting a hyperlink or modify an existing hyperlink selected objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-hyperlink</b>
+            </entry>
+            <entry colname="col2"> Command line command execution hyperlink </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hyperlinkoptions</b>
+            </entry>
+            <entry colname="col2"> Hyperlink cursor and shortcut menus, hyperlinks, tool tips display control </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>spell</b>
+            </entry>
+            <entry colname="col2">
+              <p>Check the single-line text, multi-line text, property, or attribute defined dimension</p>
+              <p>text spelling</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>find</b>
+            </entry>
+            <entry colname="col2">
+              <p>On "graph search positioning" dialog in "Text Search" tab, find, replace, or select the zoom text pattern included in the model space object has been loaded or</p>
+              <p>defined in the current draw ing in. If the local open the current graphics, FIND w ill</p>
+              <p>not be considered for the object is not loaded</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddedit</b>
+            </entry>
+            <entry colname="col2"> Modify the properties of the selected text object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimbreak</b>
+            </entry>
+            <entry colname="col2">
+              <p>Interrupt or restore the label size and label in line at the intersection of the</p>
+              <p>extension lines and other objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimspace</b>
+            </entry>
+            <entry colname="col2"> Controlling the spacing betw een the parallel lines and angular dimensions labels </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>qdim</b>
+            </entry>
+            <entry colname="col2"> Quickly create or edit a series of dimensions </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimbaseline</b>
+            </entry>
+            <entry colname="col2">
+              <p>A label connected, to continue the establishment of a linear arc length, angle</p>
+              <p>coordinates or label, the program w ill label the first reference line extending in a first extending next line marked</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimcontinue</b>
+            </entry>
+            <entry colname="col2">
+              <p>A label connected, to continue the establishment of a linear arc length, angle, or coordinates of annotation, the program w ill reference the second extension line</p>
+              <p>marked as the next first extension line marked</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-diminspect</b>
+            </entry>
+            <entry colname="col2"> Command line command execution diminspect </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimjogline</b>
+            </entry>
+            <entry colname="col2"> For the linear dimension to add or remove bending line </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimreassociate</b>
+            </entry>
+            <entry colname="col2">
+              <p>The selected label association or re-association to a point on the object or</p>
+              <p>objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimdisassociate</b>
+            </entry>
+            <entry colname="col2"> Delete Selected relevance tagging </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimcenter</b>
+            </entry>
+            <entry colname="col2"> Create a center mark to the selected circle or arc center line or draw </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dim</b>
+            </entry>
+            <entry colname="col2"> On "mark" mode, in many w ays marked on the graph objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dim1</b>
+            </entry>
+            <entry colname="col2"> On "mark" mode, in many w ays marked on the graph objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimension</b>
+            </entry>
+            <entry colname="col2"> On "mark" mode, in many w ays marked on the graph objects </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>dimedit</b>
+            </entry>
+            <entry colname="col2"> Edit annotation object extension lines and dimension text </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtedit</b>
+            </entry>
+            <entry colname="col2"> Dimension text editing and display angular positions, relocation dimension text </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimoverride</b>
+            </entry>
+            <entry colname="col2">
+              <p>Alternatively the selected set of system variables associated w ith the object</p>
+              <p>label, after the replacement, w ill not change the style label</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>aidimprec</b>
+            </entry>
+            <entry colname="col2"> The selected character size setting accuracy marked </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>aidimtextmove</b>
+            </entry>
+            <entry colname="col2"> The position of the dimension text in three w ays to move the selected callout </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_dim_textabove</b>
+            </entry>
+            <entry colname="col2">
+              <p>Text annotation sized relative to the size of the selected line of the vertical</p>
+              <p>alignment mode is "above"</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_dim_textcenter</b>
+            </entry>
+            <entry colname="col2">
+              <p>Text annotation sized relative to the size of the selected line of the vertical</p>
+              <p>alignment mode is "middle"</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_dim_texthome</b>
+            </entry>
+            <entry colname="col2"> Restore the size of the selected text marked default location </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vpclip</b>
+            </entry>
+            <entry colname="col2">
+              <p>Trimming layout view port object and adjust the shape of the border of the</p>
+              <p>view port</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>3dorbit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Rotating the view in three dimensions, but only observed the dynamic horizontal</p>
+              <p>and vertical dynamic observation</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mview</b>
+            </entry>
+            <entry colname="col2"> Creates and controls layout view ports </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>shademode</b>
+            </entry>
+            <entry colname="col2"> Set the current view port visual style </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hide</b>
+            </entry>
+            <entry colname="col2"> Hidden lines removed </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>viewres</b>
+            </entry>
+            <entry colname="col2"> Set the resolution for objects in the current view port </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>toolpalettes</b>
+            </entry>
+            <entry colname="col2"> Open the "Tools Palette" w indow </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>toolpalettesclose</b>
+            </entry>
+            <entry colname="col2"> Close the "Tools Palette" w indow </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>commandline</b>
+            </entry>
+            <entry colname="col2"> Show "command line" w indow </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>commandlinehide</b>
+            </entry>
+            <entry colname="col2"> Hide the command line w indow </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>copyhist</b>
+            </entry>
+            <entry colname="col2"> Copy command line history text to the clipboard </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>materials</b>
+            </entry>
+            <entry colname="col2"> Show s or hides the "Material" w indow </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cui</b>
+            </entry>
+            <entry colname="col2">
+              <p>On "Customize User Interface" dialog box, edit the custom user interface CUIX</p>
+              <p>file</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-toolbar</b>
+            </entry>
+            <entry colname="col2"> Command line command execution toolbar </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>toolbar</b>
+            </entry>
+            <entry colname="col2"> Show or hide toolbars </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cleanscreenon</b>
+            </entry>
+            <entry colname="col2"> Clear toolbar and dockable w indow screen (except for the command w indow ) of </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cleanscreenoff</b>
+            </entry>
+            <entry colname="col2"> Restore the display state prior to use of CLEANSCREENON </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>aliasedit</b>
+            </entry>
+            <entry colname="col2"> It provides visual editing interface command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ai_editcustfile</b>
+            </entry>
+            <entry colname="col2"> Open the file for editing zw cad.pgp </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>reinit</b>
+            </entry>
+            <entry colname="col2"> Re-initialize the digitizer, digitizer port and zw cad.pgp file. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>menu</b>
+            </entry>
+            <entry colname="col2"> Load File menu </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>menuload</b>
+            </entry>
+            <entry colname="col2"> Locally loaded to an existing basic menu files menu file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>menuunload</b>
+            </entry>
+            <entry colname="col2"> Unload a partial menu file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>appload</b>
+            </entry>
+            <entry colname="col2"> Loading and unloading applications, custom applications to load at startup </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ZRX</b>
+            </entry>
+            <entry colname="col2"> Load, unload ObjectARX application and provide relevant information </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>netload</b>
+            </entry>
+            <entry colname="col2"> Load .NET applications </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>netdebug</b>
+            </entry>
+            <entry colname="col2"> Debug .NET applications </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>script</b>
+            </entry>
+            <entry colname="col2"> Run the script to execute commands </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>rscript</b>
+            </entry>
+            <entry colname="col2"> The user operates the recording into a script scr </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>resume</b>
+            </entry>
+            <entry colname="col2"> Continues an interrupted script file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vbaide</b>
+            </entry>
+            <entry colname="col2"> Open the Visual Basic program and displays VisualBasic Editor w indow </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vba</b>
+            </entry>
+            <entry colname="col2"> vbaide command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vbarun</b>
+            </entry>
+            <entry colname="col2"> VBA macros run </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-vbarun</b>
+            </entry>
+            <entry colname="col2"> Command line command execution vbarun </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vbaload</b>
+            </entry>
+            <entry colname="col2"> Microsoft VBA project to load a VBA editing environment </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-vbaload</b>
+            </entry>
+            <entry colname="col2"> Command line command execution vbaload </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vbaunload</b>
+            </entry>
+            <entry colname="col2"> Uninstall Microsoft VBA project </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vbaman</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open "VBA Manager" dialog box, loading, unloading, save, create, embed and</p>
+              <p>extract the VBA project</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laytrans</b>
+            </entry>
+            <entry colname="col2">
+              <p>On "Layer Converter" dialog box, specify the layers you w ant to convert the</p>
+              <p>current draw ing and to be converted to layer</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>publish</b>
+            </entry>
+            <entry colname="col2"> The graphics publish to DWF and PDF files, or publish to a plotter </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>etransmit</b>
+            </entry>
+            <entry colname="col2"> The packaging a set of files for Internet transmission </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plottermanager</b>
+            </entry>
+            <entry colname="col2"> Plotter display manager, you can add or edit a plotter configuration </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>limits</b>
+            </entry>
+            <entry colname="col2">
+              <p>In the current "model" or named layout setting control limits and the raster</p>
+              <p>display</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>units</b>
+            </entry>
+            <entry colname="col2"> Control coordinates and angle display formats and precision </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddunits</b>
+            </entry>
+            <entry colname="col2"> Control coordinates and angle display formats and precision </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-units</b>
+            </entry>
+            <entry colname="col2"> Command line command execution units </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dwgprops</b>
+            </entry>
+            <entry colname="col2"> Sets and displays the current graphics file properties </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>osnap</b>
+            </entry>
+            <entry colname="col2"> Set running object snaps mode </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>snap</b>
+            </entry>
+            <entry colname="col2"> Limiting movement of the cursor to specified intervals </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-osnap</b>
+            </entry>
+            <entry colname="col2"> Command line command execution osnap </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>grid</b>
+            </entry>
+            <entry colname="col2"> Displaying a grid pattern in the current view port </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ortho</b>
+            </entry>
+            <entry colname="col2"> Limiting movement of the cursor </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>isoplane</b>
+            </entry>
+            <entry colname="col2"> Specifies the current isoplane </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>aperture</b>
+            </entry>
+            <entry colname="col2"> Control target capture target block size </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dsettings</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets grid and snap, polar and object snap tracking, object snap modes,</p>
+              <p>Dynamic Input, and Quick Properties</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>#NAME?</b>
+            </entry>
+            <entry colname="col2"> Open the "Drafting Settings" dialog box to specify tab </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>id</b>
+            </entry>
+            <entry colname="col2"> UCS coordinate values of the specified display position </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>list</b>
+            </entry>
+            <entry colname="col2"> Display property data for selected objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dist</b>
+            </entry>
+            <entry colname="col2">
+              <p>Measuring the distance betw een angle points, angle formed by tw o points of the</p>
+              <p>line segment on the XY plane and the XY plane</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>area</b>
+            </entry>
+            <entry colname="col2"> Computing objects or regions of the area and perimeter defined </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>massprop</b>
+            </entry>
+            <entry colname="col2"> Calculating mass properties of regions or 3D entity </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>status</b>
+            </entry>
+            <entry colname="col2"> Statistics show graphics, mode and range </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>setvar</b>
+            </entry>
+            <entry colname="col2"> Lists or changes the values of system variables </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>undefine</b>
+            </entry>
+            <entry colname="col2"> Cancel ZWCAD defined command </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>redefine</b>
+            </entry>
+            <entry colname="col2"> Built-in is UNDEFINE retrieve deleted </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>multiple</b>
+            </entry>
+            <entry colname="col2"> Commands entered before repeating the user presses the Esc key </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>delay</b>
+            </entry>
+            <entry colname="col2">
+              <p>After a command is executed, designated for a specific time delay, the next</p>
+              <p>command during this again after the delay time</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>elev</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the current spatial view (the model or draw ing) w ith respect to the</p>
+              <p>height of the user coordinate system,</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>fill</b>
+            </entry>
+            <entry colname="col2"> Open or close the "fill" mode </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xdata</b>
+            </entry>
+            <entry colname="col2"> The data of the selected object is connected to an external object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>smartvoice</b>
+            </entry>
+            <entry colname="col2"> Create Smart Objects speech </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>voiceman</b>
+            </entry>
+            <entry colname="col2"> Open the "Voice Manager" dialog box </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>voiceshow</b>
+            </entry>
+            <entry colname="col2"> Control show or hide all draw ing objects voice </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>smartmouse</b>
+            </entry>
+            <entry colname="col2"> Wizard feature turned on or off gesture </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>smartmouseconfig</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open the "gesture Wizard Settings" dialog parameter gesture w izard function set, including adding or deleting gestures, as w ell as modify the CAD command</p>
+              <p>corresponding to the gesture</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>audit</b>
+            </entry>
+            <entry colname="col2"> Graphic integrity check and correct some errors </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>recover</b>
+            </entry>
+            <entry colname="col2"> Repair damaged graphic files, and then re-open </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>drawingrecovery</b>
+            </entry>
+            <entry colname="col2"> List display can be repaired after the program or system failure graphic files </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>drawingrecoveryhide</b>
+            </entry>
+            <entry colname="col2"> Close "Draw ing Recovery Manager" </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layerbrowser</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open the "Layers Brow ser" dialog box displays thumbnails of objects inside</p>
+              <p>each layer, and a simple layer operations</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>burst</b>
+            </entry>
+            <entry colname="col2">
+              <p>Tile decomposition, if the block contains translation attributes, the attribute value</p>
+              <p>w ill text to text, otherw ise only the tile decomposition</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gatte</b>
+            </entry>
+            <entry colname="col2"> Attribute value modify specific properties of the block </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>attout</b>
+            </entry>
+            <entry colname="col2">
+              <p>The property value deriving block to an external file using TAB-DELIMITED</p>
+              <p>ASCII format</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>attin</b>
+            </entry>
+            <entry colname="col2"> The block attribute value input from an external ASCII file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chgbcol</b>
+            </entry>
+            <entry colname="col2"> Modify the specified block of color </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chgbwid</b>
+            </entry>
+            <entry colname="col2"> Modify the specified tile w idth </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chgbang</b>
+            </entry>
+            <entry colname="col2"> Modify the specified block of text angle </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chgbhei</b>
+            </entry>
+            <entry colname="col2"> Modify the specified block of text height </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chgblay</b>
+            </entry>
+            <entry colname="col2"> Modify the specified tile layer </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>blockreplace</b>
+            </entry>
+            <entry colname="col2"> Another tile can replace all of the embedded objects on one tile </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>textfit</b>
+            </entry>
+            <entry colname="col2"> Specified length stretched or compressed text object selected </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>textmask</b>
+            </entry>
+            <entry colname="col2">
+              <p>Behind the selected text is placed a multi-line text mask, the mask behind the</p>
+              <p>blocking entity</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>textunmask</b>
+            </entry>
+            <entry colname="col2"> To unblock blocked text </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>texttofront</b>
+            </entry>
+            <entry colname="col2"> Before w riting, lead and mark the placement of all other objects in the draw ing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>txt2mtxt</b>
+            </entry>
+            <entry colname="col2"> One or more row s combined into a single text entity mtext </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tjust</b>
+            </entry>
+            <entry colname="col2">
+              <p>Align text, w ithout changing the position of the text, may be aligned w ith a single</p>
+              <p>line of text objects, attributes and multiple lines of text objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>torient</b>
+            </entry>
+            <entry colname="col2"> Text, multiline text labels and attributes tile objects arranged in a new direction </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>tcircle</b>
+            </entry>
+            <entry colname="col2">
+              <p>Draw a circle around each selected text object or a multi-line text objects, text as</p>
+              <p>a rectangular or circular frame groove</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tcount</b>
+            </entry>
+            <entry colname="col2">
+              <p>Adding consecutive numbers to text objects, numbers can be front, rear or</p>
+              <p>overlay text</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tcase</b>
+            </entry>
+            <entry colname="col2"> Morphological changes selected text, multiline text, text attributes, and labels </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>curstyle</b>
+            </entry>
+            <entry colname="col2"> Display font style specifies single text or text objects are used </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chgthei</b>
+            </entry>
+            <entry colname="col2"> High select specified w ord or MTEXT object TEXT </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mathei</b>
+            </entry>
+            <entry colname="col2"> Modify the target height of the text object w ord high w ord source text objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>txtalign</b>
+            </entry>
+            <entry colname="col2"> Specified alignment and alignment point specified aligned single-line text object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mtexp</b>
+            </entry>
+            <entry colname="col2"> Converting multiline text object as a single-line text object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>txtuline</b>
+            </entry>
+            <entry colname="col2"> Underline single-line text object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>deluline</b>
+            </entry>
+            <entry colname="col2"> Delete a single line of text is underlined </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimex</b>
+            </entry>
+            <entry colname="col2"> The specified dimension style and set the output to an external file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimim</b>
+            </entry>
+            <entry colname="col2"> DIM file specified in the dimension style input into the current draw ing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimreassoc</b>
+            </entry>
+            <entry colname="col2">
+              <p>The measured values have been replaced or modified to restore the original</p>
+              <p>value dimension text</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtxtrev</b>
+            </entry>
+            <entry colname="col2"> Flip dimension text </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtxtcol</b>
+            </entry>
+            <entry colname="col2"> Modify the dimension text color </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimasbx</b>
+            </entry>
+            <entry colname="col2"> Add or delete extension lines marked </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>deldim</b>
+            </entry>
+            <entry colname="col2"> Delete the specified label </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>qlattachset</b>
+            </entry>
+            <entry colname="col2"> Globally attaches leaders line to mtext, tolerance, or block reference objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>qldetachset</b>
+            </entry>
+            <entry colname="col2"> Detaches leader line from mtext, tolerance, or block reference object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>qlattach</b>
+            </entry>
+            <entry colname="col2"> Attaches leader line to mtext, tolerance, or block reference object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>getsel</b>
+            </entry>
+            <entry colname="col2"> Creates a temporary selection set of objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>smartsel</b>
+            </entry>
+            <entry colname="col2">
+              <p>Real-time selection of an object satisfying the condition of one or more selection</p>
+              <p>criteria</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>copym</b>
+            </entry>
+            <entry colname="col2">
+              <p>After setting the repetition, the array pitch and the number of bulk copy the</p>
+              <p>plurality of objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>exoffset</b>
+            </entry>
+            <entry colname="col2">
+              <p>This enhanced shift command superior standard command (including layer</p>
+              <p>control, cancellation, and multiple options, etc.)</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>deldupl</b>
+            </entry>
+            <entry colname="col2"> The same layers function to delete overlapping circles, arcs and straight line </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>extrim</b>
+            </entry>
+            <entry colname="col2">
+              <p>Trim intersects the boundary object side of the object based on the specified</p>
+              <p>boundary object</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>exscale</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specified X, Y scaling designated entity object, w hile ensuring that all the</p>
+              <p>current graphic objects are displayed in the current view , other objects can be automatically scaled according to the ratio of the current view</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>flatten</b>
+            </entry>
+            <entry colname="col2"> The selected three-dimensional object into a tw o-dimensional object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>breakline</b>
+            </entry>
+            <entry colname="col2"> Create a polyline objects, and insert the mark in broken lines in the segment </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>superhatch</b>
+            </entry>
+            <entry colname="col2">
+              <p>Use of block objects, external reference raster images and other special object</p>
+              <p>as a fill pattern to fill the enclosed area</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>joinl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Or a straight line connecting tw o line segments or circular arcs. Only the intersection of the line and the circular arc has an intersection or an extension</p>
+              <p>connected</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>angdiv</b>
+            </entry>
+            <entry colname="col2">
+              <p>Tw o straight lines draw n bisector, if tw o parallel straight lines, a straight line is</p>
+              <p>draw n parallel to the angle bisector</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>arccmp</b>
+            </entry>
+            <entry colname="col2">
+              <p>According to the existing arc, a circle can be constructed to generate another</p>
+              <p>portion of the arcuate</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>con2dash</b>
+            </entry>
+            <entry colname="col2">
+              <p>If the selection of an object linear line is a solid line, the command to convert it</p>
+              <p>to a linear broken line, w hereas the solid line is converted to linear</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chgltsca</b>
+            </entry>
+            <entry colname="col2"> Modified linear scale factor of the object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lockup</b>
+            </entry>
+            <entry colname="col2"> For the selected graphic lock, it can not be edited </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>unlock</b>
+            </entry>
+            <entry colname="col2"> Use LOCKUP graphics commands to unlock a locked, to restore editable </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plt2dwg</b>
+            </entry>
+            <entry colname="col2"> The plt / hpgl file into the current draw ing file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pltplot</b>
+            </entry>
+            <entry colname="col2">
+              <p>On "Batch Print" dialog box to specify a one-time printer to print multiple files</p>
+              <p>PLT and PRN files</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>sysvdlg</b>
+            </entry>
+            <entry colname="col2"> Brow se, edit, and save the system variable is set </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>scalelistedit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control list of available layout view port ratio, the user can manage, edit and</p>
+              <p>modify the view port scale</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mkltype</b>
+            </entry>
+            <entry colname="col2"> Established line on the selected object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xdlist</b>
+            </entry>
+            <entry colname="col2"> External data list associated w ith the selected object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>explan</b>
+            </entry>
+            <entry colname="col2">
+              <p>After painting plan view , may be scaled using the selected object by EXPLAIN,</p>
+              <p>substituted stretching in the standard version to the objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>delhatch</b>
+            </entry>
+            <entry colname="col2"> The fill color or fill pattern object cleared to restore a state before the unfilled </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>refmanager</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open "Referring Manager" dialog box, the user can view a single or a plurality of reference objects in the draw ing (e.g., external reference, raster image, font</p>
+              <p>files, file and print profile type) w ithout opening the draw ings and associated information (such as saving the path, version information, etc.), and may be modified and its reference to the object search and replace operations such as</p>
+              <p>save path</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>linesum</b>
+            </entry>
+            <entry colname="col2"> Calculating the total length of the specified line </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>arcsum</b>
+            </entry>
+            <entry colname="col2"> Calculating the total length of the circular arc specified </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>areasum</b>
+            </entry>
+            <entry colname="col2"> Calculating one or more objects of the total area </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>blocksum</b>
+            </entry>
+            <entry colname="col2">
+              <p>Current statistics pattern, specified the number of layers or the current selection</p>
+              <p>in the set of tiles included</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>zvalto0</b>
+            </entry>
+            <entry colname="col2"> The specified object Z coordinate value of zero modified </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>word</b>
+            </entry>
+            <entry colname="col2"> Open MS Word application </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>excel</b>
+            </entry>
+            <entry colname="col2"> Open MS Excel application </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>notepad</b>
+            </entry>
+            <entry colname="col2"> To open the Notepad application </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>fcmp</b>
+            </entry>
+            <entry colname="col2">
+              <p>Comparison of tw o sheets, and displays the results of the comparison w ith a</p>
+              <p>different color</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>-fcmp</b>
+            </entry>
+            <entry colname="col2"> Command line command execution fcmp </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mslide</b>
+            </entry>
+            <entry colname="col2"> Create a slideshow file </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>vslide</b>
+            </entry>
+            <entry colname="col2"> Show slide file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>?</b>
+            </entry>
+            <entry colname="col2"> help command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>help</b>
+            </entry>
+            <entry colname="col2"> Window displays online help information </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>about</b>
+            </entry>
+            <entry colname="col2">
+              <p>Display copyright information and product information ZWCAD softw are,</p>
+              <p>including version information, registration information, and copyright and trademarks</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>bcount</b>
+            </entry>
+            <entry colname="col2">
+              <p>Calculate and display the selected objects in a list or a block draw ing of the</p>
+              <p>entire insert Number</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>block?</b>
+            </entry>
+            <entry colname="col2"> List object definition block </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>browser</b>
+            </entry>
+            <entry colname="col2"> ZWCAD open the default Web brow ser </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>bscale</b>
+            </entry>
+            <entry colname="col2">
+              <p>Block insertion point to the starting point, designated X, Y, Z axis direction, the</p>
+              <p>telescopic type scaling factors and scaling the selected block</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cal</b>
+            </entry>
+            <entry colname="col2">
+              <p>A computer calculates the value of the point (vector), an expression of real or</p>
+              <p>integer</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chprop</b>
+            </entry>
+            <entry colname="col2"> Change an object's properties </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddchprop</b>
+            </entry>
+            <entry colname="col2"> Change an object's properties </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ddrmodes</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets grid and snap, polar and object snap tracking, object snap modes,</p>
+              <p>Dynamic Input, and Quick Properties</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dragmode</b>
+            </entry>
+            <entry colname="col2"> Set drag objects displayed on, off or automatic </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gb2big5</b>
+            </entry>
+            <entry colname="col2">
+              <p>On "simplified conversion" dialog box, graphic text in a document object script</p>
+              <p>conversion</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hideobjects</b>
+            </entry>
+            <entry colname="col2">
+              <p>Temporarily hide the selected objects in the current view , all other objects are</p>
+              <p>visible</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>isolateobjects</b>
+            </entry>
+            <entry colname="col2">
+              <p>Isolation of the selected object is displayed in the current view and temporarily</p>
+              <p>hides all other objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>logfileoff</b>
+            </entry>
+            <entry colname="col2"> Will stop recording the contents of the text w indow and close the log file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>logfileon</b>
+            </entry>
+            <entry colname="col2"> Enable the log file and in w hich the content of the text w indow record </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>model</b>
+            </entry>
+            <entry colname="col2"> Sw itching from a named (paper space) layout to the "Model" Layout </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mpedit</b>
+            </entry>
+            <entry colname="col2">
+              <p>This command is similar to the function of command PEDIT, but its advantages</p>
+              <p>in dealing w ith the polyline, lines or arcs may convert the object polyline</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>shell</b>
+            </entry>
+            <entry colname="col2"> Call DOS commands in ZWCAD Softw are </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ssx</b>
+            </entry>
+            <entry colname="col2"> Create a Selection Set Filter List </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>stylesmanager</b>
+            </entry>
+            <entry colname="col2"> The Print Style Manager, w here you can modify the print style sheet </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>textscr</b>
+            </entry>
+            <entry colname="col2"> Open ZWCAD text w indow </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>txtexp</b>
+            </entry>
+            <entry colname="col2">
+              <p>The multi-line text of text is an exploded polyline thickness and height can be</p>
+              <p>assigned</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>unisolateobjects</b>
+            </entry>
+            <entry colname="col2">
+              <p>Before displaying all commands by ISOLATEOBJECTS and HIDEOBJECTS</p>
+              <p>hidden objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>wmfin</b>
+            </entry>
+            <entry colname="col2"> Insert the Window s Metafile graphics files in the current </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>wmfopts</b>
+            </entry>
+            <entry colname="col2">
+              <p>Open "WMF input options" dialog box, set the metafile w hether to keep the</p>
+              <p>relative w idth, as w ell as a w ireframe or solid object input</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>wmfout</b>
+            </entry>
+            <entry colname="col2"> Save the selected object is a WMF file </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>tifout</b>
+            </entry>
+            <entry colname="col2"> Saves selected objects to a file in TIFF file format </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pngout</b>
+            </entry>
+            <entry colname="col2"> The selected object (PNG) Portable Netw ork Graphics format to save to a file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dwfout</b>
+            </entry>
+            <entry colname="col2">
+              <p>Output current draw ing file to the specified DWF file format, and can choose to</p>
+              <p>be output in the output process layout and DWF file version and format</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dwfin</b>
+            </entry>
+            <entry colname="col2"> The selected DWF, DWFx file into the current draw ing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dxfin</b>
+            </entry>
+            <entry colname="col2"> Open the DXF file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dxfout</b>
+            </entry>
+            <entry colname="col2"> Output current draw ing as a DXF file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>bmpout</b>
+            </entry>
+            <entry colname="col2"> In bitmap format (.bmp) graphics objects stored in the current file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>jpgout</b>
+            </entry>
+            <entry colname="col2"> Saves selected objects to a file in JPEG file format </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xplode</b>
+            </entry>
+            <entry colname="col2"> To be synthesized into individual member </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xp</b>
+            </entry>
+            <entry colname="col2"> xplode command aliases </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vpmax</b>
+            </entry>
+            <entry colname="col2"> Expands the current layout view port for editing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vpmin</b>
+            </entry>
+            <entry colname="col2"> Restores the current layout view port </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>blockextract</b>
+            </entry>
+            <entry colname="col2">
+              <p>By picking up a block or a specified layer, or selecting the specified blocks included in a tile layer as a boundary, the output of block contained therein to a</p>
+              <p>separate file dw g saved, and the attribute information table to the outside</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dview</b>
+            </entry>
+            <entry colname="col2"> Defined using the camera and the target parallel projection or perspective view </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>checkupdate</b>
+            </entry>
+            <entry colname="col2"> Online update detection </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>configupdate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Online updating configuration parameters, w hich the user can set up automatic</p>
+              <p>update detection and the detection time interval</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>edit</b>
+            </entry>
+            <entry colname="col2"> Call dos command to edit the file specified </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>explorer</b>
+            </entry>
+            <entry colname="col2"> Call dos command to open w indow s explorer </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pbrush</b>
+            </entry>
+            <entry colname="col2"> Call dos command to open the Paint program </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>sh</b>
+            </entry>
+            <entry colname="col2"> Execute operating system commands by Shell </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>start</b>
+            </entry>
+            <entry colname="col2"> Specified by Shell to run applications </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>type</b>
+            </entry>
+            <entry colname="col2"> Call dos command to open the specified file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gein</b>
+            </entry>
+            <entry colname="col2">
+              <p>The Google Earth ZWCAD specified scene introduced in the form of a raster</p>
+              <p>image</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>geout</b>
+            </entry>
+            <entry colname="col2"> GEIN command and three-dimensional models w ith output to Google Earth </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>verauth</b>
+            </entry>
+            <entry colname="col2"> Query version Authorization type </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>zrxvernum</b>
+            </entry>
+            <entry colname="col2">
+              <p>Display ZRXSDK major version number and the version number of the current</p>
+              <p>ZRXSDK platform release at the same time, in order to facilitate access to the information w hen the user performs a secondary development on ZWCAD</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dgnimport</b>
+            </entry>
+            <entry colname="col2"> The data input from the DGN file into a new DWG file or the current DWG file </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>render</b>
+            </entry>
+            <entry colname="col2">
+              <p>Creates a 3D solid or surface model of photorealistic images or real colored</p>
+              <p>image</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>light</b>
+            </entry>
+            <entry colname="col2"> Create a light source </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>planesurf</b>
+            </entry>
+            <entry colname="col2"> Create a flat surface </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>AIDIMFLIPARROW</b>
+            </entry>
+            <entry colname="col2"> Quickly flip the specified dimension arrow </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>CUILOAD</b>
+            </entry>
+            <entry colname="col2"> Load the specified customization file (CUIx) </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>CUIUNLOAD</b>
+            </entry>
+            <entry colname="col2"> Unload the specified customization file (CUIx) </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>CUSTOMIZE</b>
+            </entry>
+            <entry colname="col2"> Customize the short key for commands and the toolbars </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>IMAGEQUALITY</b>
+            </entry>
+            <entry colname="col2"> Control the display quality of images </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>MVSETUP</b>
+            </entry>
+            <entry colname="col2"> Sets the drawing specification, insert the title block, create and adjust layout viewports </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>OOPS</b>
+            </entry>
+            <entry colname="col2"> Restore the last objects erased by ERASEcommand </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>QUICKCALC</b>
+            </entry>
+            <entry colname="col2"> Open or close the quick calculator </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>SOLPROF</b>
+            </entry>
+            <entry colname="col2"> Create the 2D profile for 3D solid object </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>SHADE</b>
+            </entry>
+            <entry colname="col2"> Get the solid entities shaded and displayed in the current drawing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>3DOPEN</b>
+            </entry>
+            <entry colname="col2">
+              <p>Converts the current DWG/DXF drawing into Z3 format and starts ZW3D</p>
+              <p>automatically to open this drawing</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ADCENTER</b>
+            </entry>
+            <entry colname="col2"> Opens Design Center window to manage and insert content </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ADCCLOSE</b>
+            </entry>
+            <entry colname="col2"> Closes Design Center window </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ADCNAVIGATE</b>
+            </entry>
+            <entry colname="col2"> Loads a specified drawing file or folder in Design Center </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BEDIT</b>
+            </entry>
+            <entry colname="col2"> Opens the block definition in the Block Editor </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BSAVE</b>
+            </entry>
+            <entry colname="col2"> Saves the current block definition </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BSAVEAS</b>
+            </entry>
+            <entry colname="col2"> Saves a copy of the current block definition under a new name </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BTESTBLOCK</b>
+            </entry>
+            <entry colname="col2"> Displays a window within the Block Editor to test a dynamic block </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BWBLOCKAS</b>
+            </entry>
+            <entry colname="col2"> Saves an outside copy of the current block definition </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BCLOSE</b>
+            </entry>
+            <entry colname="col2"> Closes the Block Editor </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BATTORDER</b>
+            </entry>
+            <entry colname="col2"> Specifies the order of attributes for a block </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BLKALIGN</b>
+            </entry>
+            <entry colname="col2"> Aligns blocks to according to the justification and a point </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>LAYERP</b>
+            </entry>
+            <entry colname="col2"> Restores the last change or set of changes made to the layer settings </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>LAYERPMODE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Turns on and off the tracking changes made to layer settings for use by the</p>
+              <p>LATERP command.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DIMINSPECT</b>
+            </entry>
+            <entry colname="col2"> Adds or removes inspection information for a selected dimension </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>HELIX:</b>
+            </entry>
+            <entry colname="col2"> Creates a 2D spiral or 3D spring </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>MIRROR3D:</b>
+            </entry>
+            <entry colname="col2"> Creates a mirrored copy of selected 3D objects across a mirroring plane </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>TIME</b>
+            </entry>
+            <entry colname="col2"> Displays the date and time statistics of a drawing </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PYRAMID</b>
+            </entry>
+            <entry colname="col2"> Creates a 3D solid pyramid </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>QCCLOSE</b>
+            </entry>
+            <entry colname="col2"> Closes the Quick Calculator </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PDFADJUST</b>
+            </entry>
+            <entry colname="col2">
+              <p>Adjust the settings for the PDF underlay, such as Fade, Contrast and</p>
+              <p>Monochrome.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PDFATTACH</b>
+            </entry>
+            <entry colname="col2"> Insert a PDF file into a drawing as an underlay. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PDFCLIP</b>
+            </entry>
+            <entry colname="col2"> Modify the display of the PDF underlay with the specified clipping boundary. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PDFLAYERS</b>
+            </entry>
+            <entry colname="col2"> View and set the display of the layers in PDF underlay. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ANNOUPDATE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Update selected annotative objects, to make the annotation property of the</p>
+              <p>objects matches the current properties of their styles.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>OBJECTSCALE</b>
+            </entry>
+            <entry colname="col2"> Add or delete supported scales for specified annotative text objects. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>CLASSICLAYER</b>
+            </entry>
+            <entry colname="col2"> Display the classic Layer Manager as modal dialog box </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>LAYERCLOSE</b>
+            </entry>
+            <entry colname="col2"> Close the Layer Manger as palette or modeless dialog box. </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <p>
+                <b>LAYERPALETT</b>
+              </p>
+              <p>
+                <b>E</b>
+              </p>
+            </entry>
+            <entry colname="col2"> Display the Layer Manger as palette or modeless dialog box. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DWFCLIP</b>
+            </entry>
+            <entry colname="col2"> DWF Underlay can now be clipped by DWFCLIP. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DWFLAYERS</b>
+            </entry>
+            <entry colname="col2">
+              <p>The Layer Manager of DWF Underlay can now be opened by DWFLAYERS to</p>
+              <p>manage its layers.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DWFADJUST</b>
+            </entry>
+            <entry colname="col2">
+              <p>Fade, Contrast and Monochrome of the DWF Underlay can now be set and</p>
+              <p>adjusted by DWFADJUST.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PDFIMPORT</b>
+            </entry>
+            <entry colname="col2">
+              <p>Import the geometric objects, hatch objects, raster images and TrueType text</p>
+              <p>contained in a PDF to the current drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <p>
+                <b>PDFIMPORTIMA</b>
+              </p>
+              <p>
+                <b>GEPATH</b>
+              </p>
+            </entry>
+            <entry colname="col2">
+              <p>Specify the path for saving and extracting referenced image file(s) in the</p>
+              <p>imported PDF.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DIGITALSIGN</b>
+            </entry>
+            <entry colname="col2"> Attach digital signatures to the current drawings. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>SIGVALIDATE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Validate whether digital signature is attached to the current drawing file, and</p>
+              <p>display information about the digital signature certificate.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>JWWIMPORT</b>
+            </entry>
+            <entry colname="col2"> Import files of JWW format to ZWCAD 2019 SP2 (Japanese version only). </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>JWWVERNO</b>
+            </entry>
+            <entry colname="col2"> Check the version number of JWW files (Japanese version only). </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ALIGNSPACE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Adjust the scale and location of drawings in Layout viewport according to the</p>
+              <p>alignment points which have been specified in Model space and Paper space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>VLIDE</b>
+            </entry>
+            <entry colname="col2"> Turn on Lisp Debugger </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>VLISP</b>
+            </entry>
+            <entry colname="col2"> Turn on Lisp Debugger, the same as VLIDE </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A122A438-6453415-48713571E3A2BA2-F919F8">
+  <title>Set the Current Lineweight</title>
+  <shortdesc>All objects are
+ created in a drawing using the current lineweight. You can change the
+ lineweight in the Lineweight control
+ on the Properties toolbar, or in the Lineweight Settings
+ dialog box.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If the current lineweight is set to BYLAYER, objects
+ are created in a drawing using the lineweight assigned to the current
+ layer.</p>
+      <p>If the current
+ lineweight is set to BYBLOCK, objects are created using the default lineweight,
+ until the objects are grouped into a
+ block. When the block is inserted
+ into a drawing, it acquires the cur
+ ent lineweight setting.</p>
+      <p>To specify a lineweight for the current layer that is different fromthe
+ current lineweight, open the Layer Properties Manager and give a specific value.</p>
+      <p>By default, the lineweight of an object
+ is set to BYLAER, and the lineweight of a layer
+ is set to DEFAULT. Lineweight that is assigned to objects
+ is displayed as a solid fill drawn in the object's
+ assigned color.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic174_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set the
+ current lineweight</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Lineweight from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>From the Lineweight list, choose the lineweight that you want to make current.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>On the
+ status bar, click the LWT button
+ to toggle the display
+ of lineweights on and off.</p>
+      <p>
+        <b>NOTE </b>To see lineweights in your drawing,
+ you may need to turn on lineweights.</p>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12A43-8361534-A11215A78155A79-E556B0">
+  <title>Use Grip Array Function on Dynamic Blocks</title>
+  <shortdesc>You can array the objects
+ in dynamic blocks
+ by dragging and specifying the position of the grips.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Once you have selected a dynamic block contains array action, click the
+ light blue grip on the dynamic block to display
+ command line prompt
+ as follows:</p>
+      <p>Specify point Location
+ or [Base point/Undo/eXit]: </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic617_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Array dynamic block objects
+ by using grip</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select the dynamic block contains array action.</cmd>
+      </step>
+      <step>
+        <cmd>Clickon the light blue grip of the dynamic
+ blockto highlight the selected grip.</cmd>
+      </step>
+      <step>
+        <cmd>Command line prompt appears,
+ do either of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Specify "B(Base point)" option to locate the grip for arraying.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "U(Undo)" option to abort the last arraying.</cmd>
+      </step>
+      <step>
+        <cmd>Specify "X(eXit)" option to exit array manipulation.</cmd>
+      </step>
+      <step>
+        <cmd>Specify target location for grip directly.</cmd>
+      </step>
+      <step>
+        <cmd>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic617_image002.png" />After specifying the target location, the dynamic block
+ will array objects towards the
+ orientationanddisplacement along the connecting line of the selected grip (or the new base point)
+ andthe target point.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

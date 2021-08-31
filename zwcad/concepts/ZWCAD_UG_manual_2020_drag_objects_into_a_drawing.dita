@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA122A56-E1453C4-155A935C8A1B521-6C42A7">
+  <title>Drag Objects into a Drawing</title>
+  <shortdesc>If you want to
+ link data and drawings to ZWCAD drawings from other applications, besides
+ inserting OLE objects, you can drag the selected data or drawings into ZWCAD. Both applications must be running and visible on your screen. To
+ drag information between applications, the other applications must support ActiveX.
+ Objects dragged into
+ a drawing are embedded, not linked.</shortdesc>
+  <conbody>
+    <p>As manipulating
+ for cutting and pasting, you do the dragging in the same way. The information is removed from one document and pasted into the other document
+ when you do the dragging. Holding down
+ CTRL while dragging creates a copy of the information without affecting the
+ original document, as you do copying and pasting in the same way.</p>
+  </conbody>
+</concept>

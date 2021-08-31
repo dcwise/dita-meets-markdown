@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A43-5653A11-F215A87B157571E-552BF1">
+  <title>Dimension Space Adjustment</title>
+  <shortdesc>Once you have
+ created multiple paralleled linear dimensions or angular dimensions, you can
+ adjust the space among
+ these paralleled lines with an equal value
+ either default or specified.</shortdesc>
+  <conbody>
+    <p>Various methods
+ are available for creating paralleled linear dimensions and angular dimensions.
+ Either using DIMLINEAR and DIMANGULAR to create dimens ion one at a time or executing DIMBASELINE and DIMCONTINUEto place
+ other linear dimensions or angular dimensions according to the linear dimension or angular dimension previously created.</p>
+    <p>When using
+ DIMBASELINE for creating baseline dimensions, the space between each dimension
+ is identical, which is controlled by
+ system variable DIMDLI, but the variable is only applied to control dimension
+ space for the subsequent dimension space. If you adjust
+ dimension space by changing the size of dimension text is changed only, or
+ adjusting the dimension scale other than changing the position of dimension
+ line, then the dimension line is
+ likely to be overlapped with text.</p>
+    <p>DIMSPACE command is also available
+ for adjusting the space among paralleled linear or angular
+ dimensions or overlapped dimensions automatically in case that the
+ original space is not equal values. It should be noticed when adjusting dimension space, the dimensions you select must be of the same</p>
+    <p>type, for example, either all of the linear
+ dimensions or angular dimensions. Additionally, these dimensions must be paralleled, or share the same origin and placed
+ at the extension line of one another.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic534_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ If you set the space value to 0 when adjusting space among
+ dimensions, you can align selected dimensions at the dimension line. If you specify the space as Auto, dimension
+ space among them is default to twice of the text height. To modify the text
+ height, you can set fromthe
+ Text tab on the Modify
+ Dimension Style dialog
+ box.</p>
+  </conbody>
+</concept>

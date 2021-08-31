@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA2A4358-65E153C-41F2154A8B1D565-915359">
+  <title>Clipping Boundary Options</title>
+  <shortdesc>When clipping boundaries,
+ you can specify a rectangular or polygonal window or use the polyline to define clipping
+ boundary through New boundary option. If the
+ selected clipping boundary is a rectangular
+ window, only xrefs within the rectangular window are displayed. The clipping
+ boundary is parallel to current UCS, and the clipping boundary will be applied to the normal direction of its plane.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic595_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To define a rectangular clipping boundary</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Clip&gt;
+ Xref from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the external references to clip. If desired, you canalsoselect blocks.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Type N (New boundary) or press Enter directly to create a new clipping
+ boundary.</cmd>
+      </step>
+      <step>
+        <cmd>If prompted, press Enter to delete anyexisting boundaries.</cmd>
+      </step>
+      <step>
+        <cmd>Choose R (Rectangular).</cmd>
+      </step>
+      <step>
+        <cmd>Define the first corner of the clipping rectangle.</cmd>
+      </step>
+      <step>
+        <cmd>Define the opposite corner
+ of the clipping rectangle.</cmd>
+      </step>
+      <step>
+        <cmd>The selected externalreferences are clipped by the rectangle.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>You can first select all external references,
+ right-click the selection, and then select Xref Clip from the shortcut
+ menu.</p>
+      <p>When using a
+ polyline to define clipping boundary, the clipping boundary is in accordance
+ with the polyline. If the selected
+ clipping boundary is a polyline, it can't be self-intersected. The systemtakes
+ the open polyline as a closedpolyline if the arcs contained in the polyline
+ have been smoothed.
+ The clipping</p>
+      <p>boundary created this way is located on the plane parallel to the UCS that puts the polyline.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic595_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To define a clipping
+ boundary using a polyline</p>
+      <ol>
+        <li>Draw a polyline where you want to clipexternalreferences.</li>
+        <li>Choose Modify &gt; Clip&gt; Xref from the mainmenu.</li>
+        <li>Select the external references to clip. If desired, you canalsoselect blocks.</li>
+        <li>Press Enter.</li>
+        <li>Type N (New boundary)
+ or press Enter to create a new clipping boundary.</li>
+        <li>If prompted, press Enter to delete anyexisting boundaries.</li>
+        <li>Choose S (Select polyline).</li>
+        <li>Select the polyline to use as a clipping boundary.</li>
+      </ol>
+      <p>In addition to the rectangular clipping
+ boundary and the clipping boundary
+ using a polyline,
+ you can also create a clipping boundary by specifying
+ the vertices of a polygon, but you must note that the polygon sections cannot
+ be intersected themselves.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic595_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To define a polygonal
+ clipping boundary</p>
+      <ol>
+        <li>Choose Modify &gt; Clip&gt;
+ Xref from the mainmenu.</li>
+        <li>Select the external references to clip. If desired, you canalsoselect blocks.</li>
+        <li>Press Enter.</li>
+        <li>Type N (New boundary) or press Enter to create a new clipping boundary.</li>
+        <li>If prompted, press Enter to delete anyexisting boundaries.</li>
+        <li>Choose P (Polygonal).</li>
+        <li>Define the first corner
+ of the clipping polygon.</li>
+        <li>Define the
+ next corners of the clipping polygon, and then press Enter to end the selection.</li>
+        <li>The selected externalreferences are clipped by the polygon.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A12A3583-651453A-115A614B973F9DA-D9724D">
+  <title>Pan a View</title>
+  <shortdesc>Use PAN command
+ or use the window scroll
+ bars to shift the location
+ of your view.</shortdesc>
+  <conbody>
+    <p>With the Real-time option of PAN, you pan dynamically by moving your pointing device.
+ Like panning with a camera,
+ PAN does not change the location or magnification of objects on your drawing;
+ it changes only the
+ view. By right-clicking, you can display
+ a shortcut menu with additional viewing options.</p>
+    <p>You can move the view of a drawing
+ displayed in the current
+ viewport by scrolling, panning, or rotating the view. Doing this changes the portion
+ of the drawing you are viewing without changing the cur ent magnification. Scrolling lets you move
+ around in the drawing horizontally and vertically. Panning lets you move the drawing in any
+ direction. Rotating lets you view your drawing
+ fromany angle.</p>
+  </conbody>
+</concept>

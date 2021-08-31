@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA22A836-5134A11-2187C12579EA36F-11C13E">
+  <title>Create Sketches</title>
+  <shortdesc>The SKETCH
+ command controls the pen using the mouse or the Pen option at the command prompt. Move a pointing device to the drawing area on the screen and
+ then right-click or enter p (pen) to begin sketching. Right-click or enter p (pen) again
+ to lift the pen up and stop
+ drawing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You set the minimum length or increment of the segments.</p>
+      <p>Before sketching,
+ check the CELTYPE systemvariable to make sure the current linetype is BYLAYER. If you
+ use a linetype with dots or dashes
+ and set the sketch
+ line segment shorter
+ than the spaces
+ or dashes, you won't
+ see the spaces
+ or dashes.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic251_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a freehand
+ sketch</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>On the command line, enter SKETCH andpress Enter.</cmd>
+      </step>
+      <step>
+        <cmd>At the "Record
+ increment" prompt, enter the minimum
+ line segment length.</cmd>
+      </step>
+      <step>
+        <cmd>Move the cursor
+ to the drawing area, and then right-click or enter p (pen) to begin sketching. When you move the pointing
+ device, ZWCAD draws temporary freehand line segments of the length
+ you specified. The sketch doesn't
+ accept coordinate input.
+ During the command,
+ freehand lines are displayed ina
+ different color.</cmd>
+      </step>
+      <step>
+        <cmd>Right-click or
+ enter p (pen) again to lift the pen up andstop drawing, so that you can move
+ the cursor around
+ the drawingarea without
+ drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Enter R (Record)
+ at any time to write into the drawing the line you're drawing and those alreadydrawn. If the pen is moved,
+ you can continue drawing after writing. If the
+ pen is up, click to resume drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter to complete
+ the sketchandwrite all lines intothe
+ drawing.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A763B10A-A224B14-21391F254A87D16-517456">
+  <title>与旧版功能对比</title>
+  <conbody>
+    <table>
+      <tgroup cols="4" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <colspec colname="col4" />
+        <thead>
+          <row>
+            <entry> 考勤功能 </entry>
+            <entry>
+            </entry>
+            <entry> 旧版 </entry>
+            <entry> 新版 </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry morerows="2" colname="col1"> 考勤模式 </entry>
+            <entry colname="col2"> 固定时间 </entry>
+            <entry colname="col3">
+              <fig>
+                <image href="../graphics/ug2_topic32_image002.png">
+                </image>
+              </fig>
+            </entry>
+            <entry colname="col4">
+              <image href="../graphics/ug2_topic32_image002.png">
+              </image>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2"> 排班时间 </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4">
+              <fig>
+                <image href="../graphics/ug2_topic32_image002.png">
+                </image>
+              </fig>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2"> 自由时间 </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4">
+              <image href="../graphics/ug2_topic32_image003.png">
+              </image>
+            </entry>
+          </row>
+          <row>
+            <entry morerows="3" colname="col1"> 考勤规则 </entry>
+            <entry colname="col2"> 弹性打卡 </entry>
+            <entry colname="col3">
+              <fig>
+                <image href="../graphics/ug2_topic32_image002.png">
+                </image>
+              </fig>
+            </entry>
+            <entry colname="col4">
+              <image href="../graphics/ug2_topic32_image002.png">
+              </image>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2"> 外勤 </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4">
+              <fig>
+                <image href="../graphics/ug2_topic32_image002.png">
+                </image>
+              </fig>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2"> 补卡 </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4">
+              <image href="../graphics/ug2_topic32_image003.png">
+              </image>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col2"> 异常审批 </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4">
+              <fig>
+                <image href="../graphics/ug2_topic32_image002.png">
+                </image>
+              </fig>
+            </entry>
+          </row>
+          <row>
+            <entry morerows="1" colname="col1"> 考勤方式 </entry>
+            <entry colname="col2"> 办公点考勤 </entry>
+            <entry colname="col3">
+              <image href="../graphics/ug2_topic32_image002.png">
+              </image>
+            </entry>
+            <entry colname="col4">
+              <image href="../graphics/ug2_topic32_image002.png">
+              </image>（不支持国外考勤） </entry>
+          </row>
+          <row>
+            <entry colname="col2"> WiFi考勤 </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4">
+              <fig>
+                <image href="../graphics/ug2_topic32_image002.png">
+                </image>
+              </fig>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 考勤统计 </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3">
+              <image href="../graphics/ug2_topic32_image002.png">
+              </image>
+            </entry>
+            <entry colname="col4">
+              <fig>
+                <image href="../graphics/ug2_topic32_image002.png">
+                </image>
+              </fig>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 移动端页面优化 </entry>
+            <entry colname="col2">
+            </entry>
+            <entry colname="col3">
+            </entry>
+            <entry colname="col4">
+              <image href="../graphics/ug2_topic32_image003.png">
+              </image>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

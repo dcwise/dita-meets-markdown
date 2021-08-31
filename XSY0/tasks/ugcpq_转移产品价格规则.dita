@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B11571-4435192-148455971519F2B-ED8F6C">
+  <title>转移产品价格规则</title>
+  <shortdesc>如果产品价格规则的所有人无法再继续维护该规则，或者该产品价格规则已经由其他部门负责，所有人可以将该规则转移给他人。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在产品价格规则列表页，单击一个规则名称。</cmd>
+      </step>
+      <step>
+        <cmd>在页面右上角，单击<b>...</b>&gt;<b>转移给他人</b>。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

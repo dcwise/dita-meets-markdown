@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA124356-5E4534A-1F54A87D135A91E-53A37A">
+  <title>Explode External References</title>
+  <shortdesc>You can not explode
+ external references or the dependent
+ blocks as they are linked
+ or attached to another drawing.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

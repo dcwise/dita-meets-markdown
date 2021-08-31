@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA22A436-83E145C-411F25A878C5579-1E3591">
+  <title>Manage Layer Visibility in a Layout</title>
+  <shortdesc>You can control the
+ visibility of the layer in each layout
+ viewport, and apply
+ the default visibility settings to new viewports and layers.</shortdesc>
+  <conbody>
+    <p>Freeze Specified
+ Layers in a Layout Viewport</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic683_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Freeze or thaw layers on current
+ layout viewports without
+ affecting others. The frozen layers
+ are invisible, either reloaded or plotted. You can freeze
+ the layer to control how the objects
+ are displayed. For example, dimensions can be displayed in the
+ specific viewport, as the figure shows below, only the viewport with terrain drawing
+ is frozen.</p>
+    <p>Once frozen, the
+ layer in the viewport is invisible. With the layer thawing, its visibility can
+ be restored. The user can control
+ the frozen status of layers
+ by clicking VP Freeze icon in Layer Properties Manager.
+ Freeze or Thaw Layers Automatically in New Layout
+ Viewports</p>
+    <p>Freeze the layer
+ containing those objects that are not expected to display or plot in paper space.
+ For example, freeze the layer on which viewports are created if layout viewport
+ boundaries are not expected to display.</p>
+    <p>Freeze
+ or Thaw Layers Automatically
+ in New Layout Viewports</p>
+    <p>The newly created
+ layout viewport is also acceptable for layer visibility settings. For example,
+ freeze DIMENSIONS layer of all new
+ viewports to limit displaying the dimensions. To create viewports with dimensions, you can change
+ default settings for the current
+ viewport. However, changing
+ default settings of new viewport may not affect
+ current viewport.</p>
+    <p>Freeze or Thaw Layers Automatically
+ in New Layout Viewports</p>
+    <p>The user can
+ create new layers frozen in all of the existing layout viewports by clicking
+ Freeze icon in Layer Properties Manager. Likewise, cancel
+ the Freeze icon to
+ thaw layers in all viewports. You can also thaw layers
+ by your decision, with this feature, you can create
+ new layers displayed
+ in single viewports.</p>
+  </conbody>
+</concept>

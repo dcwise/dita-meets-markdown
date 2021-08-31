@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A22456-365E145-4A12548787515A9-1359D0">
+  <title>Define Hatch Boundaries in Large Drawings</title>
+  <shortdesc>Generally, boundaries are defined by analyzing
+ all the closed objects. It's time-consuming to define
+ boundaries through analyzing all the visible or partly visible objects when
+ encountering complex drawings. In such cases, you can save time hatching
+ a small area in a complex drawing by defining a set of objects in the drawing
+ to be used in determining the hatch boundary.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic632_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Boundaries are also available for
+ applying different hatch patterns to islands in the different area of the drawing.
+ To avoid selecting the undesired hatch area, it's required to enlarge the
+ drawing. Once Existing
+ set in Boundary set option on Other options tab is selected, the objects
+ used for defining boundaries will be highlighted.</p>
+  </conbody>
+</concept>

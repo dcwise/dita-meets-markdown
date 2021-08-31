@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA223566-41F14F1-0A75AF843E79134-A827EF">
+  <title>Define a 3D View with Coordinate Values or Angles</title>
+  <shortdesc>You can define a
+ viewing direction by typing the coordinate values of a point or two rotation
+ angles (angle from the XY plane and angle fromthe
+ X-axis).</shortdesc>
+  <conbody>
+    <p>The specified
+ point indicates your position in 3D space when you view the model while looking
+ toward the origin (0, 0, 0). The viewpoint coordinate values are relative to the WCS unless you modify the systemvariable WORLDVIEW.</p>
+    <p>The conventions
+ for defining standard views are different among different industries. In
+ architectural (ARC) design, the
+ perpendicular plane of XYplane is the top view or plan view; in mechanical
+ design, the perpendicular view is the front view.</p>
+    <p>DDVPOINT is designed to rotate views to specify
+ a viewing direction.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic103_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ The following illustration shows a
+ view defined by two angles relative to the X-axis and the XY plane of the WCS.</p>
+  </conbody>
+</concept>

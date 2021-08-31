@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1235683-6E4C115-4A87655A1A7118D-218A78">
+  <title>Mirror in 3D</title>
+  <shortdesc>You can create a
+ mirror image of selected objects in three-dimensional space. You mirror the
+ objects about
+ a mirror plane that you define by
+ either specifying three points; selecting an existing two- dimensionalplanar
+ object; aligning the plane parallel with the xy, yz, or xz plane of the current
+ UCS; or aligning the plane with the current
+ view. You can delete or retain the original objects.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic329_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To mirror an object about a three-dimensionalplane</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; 3D Operation &gt; 3D Mirror from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>At command line prompt,
+ choose 3points, or press Enter to select the default.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the first point on the mirror plane.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the second and third points on the plane.</cmd>
+      </step>
+      <step>
+        <cmd>At command line prompt,
+ choose one of the following:</cmd>
+      </step>
+      <step>
+        <cmd>
+          <b>Yes, </b>Delete the original objects.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic329_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <b>No, </b>Retain the original objects.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Left: Select
+ the object to mirror (A), and then specify the first point (B), the second point (C), and third point (D) defining the mirror
+ plane</p>
+      <p>Right: The resulting mirrored object</p>
+    </result>
+  </taskbody>
+</task>

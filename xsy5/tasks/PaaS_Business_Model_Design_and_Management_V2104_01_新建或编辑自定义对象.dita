@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B7B0D2-A4A4555-11A8F13527415CC-F57D9F">
+  <title>新建或编辑自定义对象</title>
+  <shortdesc>
+    <b>NOTE </b>目前最多可添加 100 个自定义对象。</shortdesc>
+  <taskbody>
+    <context>
+      <p>遵循以下步骤，新建或编辑自定义对象 :</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>在 【对象】页面，单击<b>自定义对象</b>标签。</cmd>
+      </step>
+      <step>
+        <cmd>在 【自定义对象】页面，单击<b>新建业务对象</b>，或在对象列表中单击<b>操作</b>下 <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image002.png" />修改已有的自定义对象。</cmd>
+        <info>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image004.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </p>
+          <p>配置项 说明</p>
+          <p>业务对象名称 业务对象的名称，支持汉字、数字、字母等字符。</p>
+          <p>API 名称 系统默认填充，填充内容为：customEntity 数字， customEntity 后面的数字起始值为 1，会随着当前创建的自定义对象个数的增加而增加。此项可更改，支持字母、数字和下划线，但不能以数字开头，最大长度为 97 个字符。</p>
+          <required-cleanup>
+            <p>
+              <b>[heading h6 could not be placed here]: </b>
+              <b>NOTE 1.</b>API 名称不能与当前系统中已存在的标准业务对象和自定义对象的API
+ 名称相同。</p>
+          </required-cleanup>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>对于所有自定义对象，销售易PaaS 平台将在设置的API 名称后自动加上”c“ （两个下划线），从而标识该业务对象为自定义对象。<required-cleanup><p><b>[heading h6 could not be placed here]: </b>设置的API 名称不能以”c“ （两个下划线） 或者“_” 结尾。</p></required-cleanup></cmd>
+          </substep>
+          <substep>
+            <info>
+              <table>
+                <tgroup cols="1" colsep="1" rowsep="1">
+                  <colspec colname="c1" align="left" />
+                  <tbody>
+                    <row>
+                      <entry colname="c1">
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image005.png" />
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+ 建议将API 名称设置为有实际含义的名称，且尽量以字母开头。</info>
+          </substep>
+        </substeps>
+        <info>
+          <p>启用活动记录 勾选此项，表示标准业务对象 “ 活动记录” 中的多态关联类型字段 “ 来自 ” 可以支持此业务对象。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image005.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 描述 用于记录该业务对象的一些信息。</p>
+          <p>图标 可以从系统内置的图标库中选择一个图标，作为当前业务 对象的图标，此图标用于在详情页的头部组件上显示。</p>
+          <p>启用操作日志 开启后，系统会记录该对象的操作记录，便于在出现问题 时进行问题分析。</p>
+          <p>此部分日志信息可以在销售易系统后台 （日志审计 &gt; 用户操作日志）中查看。</p>
+          <required-cleanup>
+            <p>
+              <b>[heading h6 could not be placed here]: </b>
+              <table>
+                <tgroup cols="1" colsep="1" rowsep="1">
+                  <colspec colname="c1" align="left" />
+                  <tbody>
+                    <row>
+                      <entry colname="c1">
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image005.png" />
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <b>NOTE </b>标准对象默认开启此功能，如果需要关闭，可在销售易系统后台( 新版）页面中，通过编辑标准对象进行设置。</p>
+          </required-cleanup>
+          <p>主属性设置</p>
+          <p>
+            <fig>
+              <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image006.png" />
+            </fig>
+          </p>
+          <p>配置项 说明</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image005.png" />
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 主属性名称 用于配置业务对象主属性字段的名称，系统默认填充，填充内容为：业务对象名称 +“ 名称 ”。此项可更改，支持汉字、数字、字母等字符。</p>
+          <p>类型 支持文本和自动编号。</p>
+          <p>如果选择文本，表示主属性字段的内容需要用户输入。</p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image005.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 如果选择自动编号，表示主属性字段的内容将按照配置的 规则自动生成，用户在新建页面上无法查看，且不能修 改。关于自动编号的详细介绍请参考<xref href="PaaS_Business_Model_Design_and_Management_V2104_01_设置字段.dita#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark29">新建或编辑自定义字 </xref><xref href="PaaS_Business_Model_Design_and_Management_V2104_01_设置字段.dita#ABB5312A-7A43512-548F5556DB7EE5A-6E9B7F/_bookmark29">段</xref>中的自动编号部分。</p>
+          <p>选择此对象的使用范围</p>
+          <p>
+            <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image005.png" />
+          </p>
+          <p>移动端 APP 如果需要将当前创建的自定义对象应用到移动端 APP 的某个页面中，则勾选相应页面名称前的复选框即可。</p>
+          <required-cleanup>
+            <p>
+              <b>[heading h6 could not be placed here]: </b>
+              <b>NOTE </b>所有在APP 设计器中发布过的APP 都会出现在此处。关于APP 设计器的详细信息请参考《销售易CRM_PaaS 平台_ 移动端应用的设计与管理》。</p>
+          </required-cleanup>
+          <p>网页端导航菜单 如果需要将当前创建的自定义对象应用到网页端的某个导 航菜单中，则勾选相应菜单名称前的复选框即可。</p>
+          <p>
+            <fig>
+              <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic17_image006.png" />
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>设置完成后，单击<b>保存</b>，新添加的业务对象将显示在业务对象列表中。<required-cleanup><p><b>[heading h6 could not be placed here]: </b><b>NOTE 1. </b>对于自定义对象，销售易PaaS 平台将在设置的
+ “API 名称” 后自动加上后缀：_c。</p></required-cleanup></cmd>
+        <substeps>
+          <substep>
+            <cmd>对于 1707 版之前创建的自定义对象，“API 名称” 将保持原有设置内容，即仅对新创建的自定义对象自动加后缀。</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+  </taskbody>
+</task>

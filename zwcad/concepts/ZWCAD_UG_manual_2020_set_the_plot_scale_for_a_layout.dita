@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122583-5143CAF-158815797404E97-4B1089">
+  <title>Set the Plot Scale for a Layout</title>
+  <shortdesc>When you specify
+ a scale to output your drawing, you can choose froma list of real-world
+ scales, enter</shortdesc>
+  <conbody>
+    <p>your own scale, or choose Fit to Paper to scale the drawing
+ to fit onto the selected paper size. Usually, the objects in model space
+ are displayed at the scale set in layout viewports. To plot the objects
+ in model space with the scale specified
+ in layouts, you assign the scale to 1:1.</p>
+  </conbody>
+</concept>

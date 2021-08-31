@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BB310D-A474521-F15ACD253715FD7-599F77">
+  <title>查看对象的关联关系</title>
+  <shortdesc>关联关系列表用于查看对象之间的关联关系。 遵循以下步骤，查看对象之间的关联关系 :</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在左侧导航菜单中，单击<b>对象和字段 </b>&gt; <b>关联关系列表</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【关联关系列表】页面进行查看。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>| <b>205</b></p>
+    </result>
+  </taskbody>
+</task>

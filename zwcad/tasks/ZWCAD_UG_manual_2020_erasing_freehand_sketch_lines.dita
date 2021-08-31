@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7AA4336-111F215-4A8C179535A31D6-135C1E">
+  <title>Erasing freehand sketch lines</title>
+  <shortdesc>You can erase temporary freehand sketch
+ lines that have not yet been written into the drawing by choosing the Erase option at
+ the command prompt. Those lines can be erased by moving the pen along the path they were drawn.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Once you record
+ freehand lines, you can't edit them or erase them with the Erase option of
+ SKETCH. Use the ERASE command
+ if you have finished sketching.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic252_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To erase freehand
+ sketch lines</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>While running the SKETCH
+ command, enter E. If the pen was down, it moves
+ up.</cmd>
+      </step>
+      <step>
+        <cmd>Move the cursor
+ to the end of the line you drew last and then move it back as far along the line as youwant to erase.</cmd>
+      </step>
+      <step>
+        <cmd>To end the erasure andreturnto the sketch Command
+ prompt, enter E. If you want to change the current viewport while
+ sketching, make sure the pen is up and all lines were
+ written intothe drawing.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2A4356E-14C4A11-5A88C719E0A8DE9-741C89">
+  <title>Change the Properties of Layout Viewports</title>
+  <shortdesc>Like common
+ objects, layout viewports are characterized
+ by object properties such as layer, color, linetype, linetype
+ scale and lineweight. Which are all displayed and changed on properties palette.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic680_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Viewports are created on the
+ current layer so as to control the visibility of the boundaries. The user can freeze or set plot configurations for layers in Layer Property
+ Manager to avoid plotting the viewport. The visibility
+ of the boundary is non-associative to the
+ viewport if they are located
+ in different layers.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic680_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To modify layout viewport
+ properties</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Clickthe border of the layout viewport
+ whose properties you want to modify.</cmd>
+      </step>
+      <step>
+        <cmd>Open the Properties palette through the menu option "Tools &gt; Properties" or "Modify &gt;
+ Properties".</cmd>
+      </step>
+      <step>
+        <cmd>In the Properties palette, select Standard
+ Scale, and then select
+ a new scale from</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>the list. The scale you choose
+ is applied to the viewport.</p>
+      <p>
+        <b>NOTE </b>You can select
+ only layout viewports for modification. If you click a viewport
+ on the Model tab, it makes that viewport active,
+ not available for modification.</p>
+    </result>
+  </taskbody>
+</task>

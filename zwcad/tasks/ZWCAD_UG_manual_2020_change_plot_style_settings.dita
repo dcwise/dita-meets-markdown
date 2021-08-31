@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA122438-35E1CA1-F2A8915545953A4-454E17">
+  <title>Change Plot Style Settings</title>
+  <shortdesc>Double-clicking a
+ CTB or STB file in the Plot Style Manager to open the Plot Style Table Editor.
+ The Plot Style Table Editor
+ displays the plot styles contained
+ in the specified plot style
+ table.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The General tab
+ lists general information about the table. The Properties area on the Form View
+ tab provides options for modifying colors or relevant
+ properties of plot styles.</p>
+      <p>If you are using a color-dependent plot style
+ table, the color-dependent properties (e.g. color, dither, grayscale, pen, virtual pen, screening, linetype,
+ adaptive, lineweight, line end, line join and fill style)
+ are available from the Properties area.</p>
+      <p>While all these
+ plot style properties (e.g. color, dither, grayscale, pen, virtual pen,
+ screening, linetype, adaptive,
+ lineweight, line end, line join and fill style) are changed for each plot style
+ fromthe Properties when using a named plot style table.</p>
+      <p>In a named plot
+ style table, the NORMAL plot style represents an object's default properties
+ (no plot style applied). The NORMALstyle can't be modified
+ or deleted by yourself.</p>
+      <p>Color</p>
+      <p>The plot style color default to Use Object
+ Color. With this setting, the object retains its layer or individually
+ set color. The color overrides the object's color at plot time if you assign a plot style color to
+ this plot style.</p>
+      <p>The system
+ provides 255 Color Index (ZCI) colors, a true color, or a color book color in
+ the plot style options. While the
+ True color, plot styles should be synchronized with the same color setting for
+ the plotter configurations. However, the systemtakes the latest color indexas substitute
+ color once the plotter is unable
+ to updatethe configuration to True color.</p>
+      <p>Dither</p>
+      <p>Enables dithering. A plotter uses dithering to approximate colors with dot patterns, giving
+ the impression of plotting more colors than available in
+ the ZWCAD Color Index(ZCI). If the plotter does not support dithering, the dithering setting
+ is ignored.</p>
+      <p>Dithering is usually turned off in order to avoid
+ false line typing
+ that results fromdithering of thin vectors.
+ Turning off dithering also makes dim colors more visible. When you turn
+ off dithering, ZWCAD maps colors to the
+ nearest color, resulting in a smaller
+ range of colors when plotting.
+ Dithering is available whether you use the object's color
+ or assign a plot style
+ color.</p>
+      <p>Grayscale</p>
+      <p>In case that the
+ plotter supports grayscale, the systemconverts the object's colors to grayscale
+ when you select Convert
+ to Grayscale. Light colors, such as yellow,
+ are plotted with light gray values. Dark colors are plotted
+ with dark gray
+ values.</p>
+      <p>If you set the
+ Grayscale off, the systemuses the RGB values for the entity's colors. The grayscale is available for the entity
+ color or a plot style color.</p>
+      <p>Pen</p>
+      <p>Specifies a pen to use when plotting
+ objects that use this plot
+ style. Available pens range from 1 to 32.</p>
+      <p>Virtual Pen</p>
+      <p>Specifies a virtual pen number between 1
+ and 255. Many non-pen
+ plotters can simulate pen plotters
+ using virtual pens. For many
+ devices, you can program the pen's width, fill pattern, end style, join style,
+ and color/screening fromthe
+ front panel on the plotter.</p>
+      <p>Screening</p>
+      <p>A color intensity setting determines the amount of ink ZWCAD places on the
+ paper while plotting. Using valid
+ values from 0 to 100. If set the value to 0, the color will be reduced to white. While assigning it to 100, the color
+ will be displayed at its full intensity.</p>
+      <p>Screening is effective only if the plotter is configured to plot colors or
+ grayscale, with dithering enabled as well.</p>
+      <p>Linetype</p>
+      <p>Specifies which linetype to plot style table. The default setting is Use Object Linetype.</p>
+      <p>Adaptive</p>
+      <p>You can set the
+ Adaptive option whatever the linetype is object character or plot style. The option
+ can adjust the scale of the linetype
+ to complete the linetype pattern. The line may end in the middle of the linetype pattern
+ if the Adaptive is set to OFF.</p>
+      <p>Lineweight</p>
+      <p>Uses Object
+ Lineweight is the default setting
+ for plot style lineweight. All the lineweight samples</p>
+      <p>together with
+ values are provided in the lineweight dropdown list. You can also modify an
+ existing lineweight if the one you
+ need is not available in the dropdown list. Clicks Edit Lineweights button to modify the existing lineweights.</p>
+      <p>Line End</p>
+      <p>Specifies the line
+ end style to the plot style. The
+ default setting is Use Object End Style.</p>
+      <p>Line Join</p>
+      <p>Specifies the style of the line
+ joint. The default setting is Use Object Join Style.</p>
+      <p>Fill Style</p>
+      <p>Specifies the fill
+ style for the polylines, torus and the objects filled with entities. The
+ default setting is Use Object Fill Style.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic717_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To modify plot style tables</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose File &gt; Plot from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Under Plot Style Table (pen assignments), click the pl ot style table
+ you want to modify, and then click Edit
+ button.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe General tabon Plot Style Table
+ Editor, andthen do any of the following:</cmd>
+      </step>
+      <step>
+        <cmd>Enter a new plot style description.</cmd>
+      </step>
+      <step>
+        <cmd>Select Apply
+ Global Scale Factor to Non-ISO
+ Linetypes to apply the scale factor to non-ISO
+ linetypes used for any plot style in the current
+ plot style table.</cmd>
+      </step>
+      <step>
+        <cmd>Enter a scale
+ factor to apply to non-ISO
+ linetypes used for any plot style in the current plot
+ style table.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Form View tab, and
+ then do any of the following:</cmd>
+        <info>
+          <p>Makechanges toa color-dependent plot style by selecting it in the Plot list,
+ and then make color,
+ linetype, or lineweight changes for the plot style in Properties area. Your
+ changes are saved automatically for the selected
+ plot style.</p>
+          <p>Make
+ changes to a named plot style by selecting it in the Plot list, and then make
+ color, linetype, or lineweight changes for the plot style in
+ Properties area. Your changes are saved automatically for the selected
+ plot style.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Add a new plot
+ style by clicking Add Style. Enter a new name, and then click OK. Select the options
+ for the plot style.
+ (Available for named plot styles only.)</cmd>
+      </step>
+      <step>
+        <cmd>Delete a plot style by selecting it in the Plot list, and
+ then click Delete Style.</cmd>
+        <info>
+          <p>(Available for named plot styles only.)</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

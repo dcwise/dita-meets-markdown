@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A435-68365E1-5311175A9E542A8-3F0656">
+  <title>Save and View Slides</title>
+  <shortdesc>You can save slides
+ of a drawing to view later. A slide saves the current
+ drawing in *.sld format exactly
+ as it appears on the screen. A slide is not a drawing file. You cannot
+ edit or print the slide; you can only view it.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can use slides in the following ways:</p>
+      <ul>
+        <li>Make presentations
+ by showing slides of your drawings.</li>
+        <li>Reference a slide
+ of a drawing while working
+ on a different drawing.</li>
+        <li>Present a number of slides as a slide show by using scripts.</li>
+      </ul>
+      <p>When you view a
+ slide, it temporarily replaces the current drawing. When you refresh the
+ display of the current drawing (by
+ redrawing, panning, zooming, minimizing, maximizing, or tiling), the slide image disappears, and you are returned to the current
+ drawing. A slide
+ does not include any invisible entities on layers.</p>
+      <p>To
+ create a slide</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic734_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Type <b>MSLIDE </b>and
+ then press <b>Enter</b>.</cmd>
+      </step>
+      <step>
+        <cmd>In the <b>Create Slide </b>File
+ dialog box, specify
+ the name of the slide file youwant
+ to create.</cmd>
+      </step>
+      <step>
+        <cmd>Click <b>Save</b>.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic734_image003.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Mslide</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic734_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To view a slide</p>
+      <ol>
+        <li>Type VSLIDE and then press
+ Enter.</li>
+        <li>In the Select Slide File dialog box, specify the name of the slide file youwant
+ to view.</li>
+        <li>Click Open. ZWCAD displays the slides in the current
+ drawing window.</li>
+      </ol>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic734_image005.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>Vslide</p>
+    </result>
+  </taskbody>
+</task>

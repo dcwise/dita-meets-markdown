@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A22335E1-3C4A125-487C353A1EA6B26-D0122A">
+  <title>Set 3D Thickness and Elevation</title>
+  <shortdesc>By default, the
+ program creates new two dimensional objects with a zero elevation and
+ thickness. The easiest way to create
+ a three-dimensional object is to change the elevation or thickness property of
+ an existing two-dimensionalobject.</shortdesc>
+  <taskbody>
+    <context>
+      <p>The elevation of
+ an object is its z coordinate position in relation to the xy plane in which the
+ object is drawn. An elevation of 0
+ indicates that the object is drawn on the xy plane of the current UCS. Positive elevations are above this plane; negative
+ elevations are below
+ it.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic270_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The thickness of an object is the distance it is extruded above or below its elevation. A positive thickness extrudes the object upward in the positive z-direction of the
+ object; a negative thickness extrudes it downward
+ in the negative z-direction. The thickness is applied uniformly to the entire
+ object. You can extrude any
+ two-dimensional object into a three-dimensional object by changing the
+ thickness of the object to a nonzero
+ value. For example, a circle becomes a cylinder, a line becomes a
+ three-dimensional plane, and a rectangle becomes
+ a box.</p>
+      <p>Two-dimensional entities Two-dimensional entities
+ with thickness added</p>
+      <p>You can create three-dimensionalobjects using any of the following
+ methods: Draw two-dimensionalobjects in three-dimensionalspace.</p>
+      <ul>
+        <li>Convert two-dimensional planar objects into three-dimensional objects by applying
+ elevation and thickness.</li>
+        <li>Convert two-dimensional
+ planar objects into three-dimensional objects
+ by revolving or extruding.</li>
+        <li>Create three-dimensionalobjects, such as boxes,
+ cylinders, cones, domes, spheres, and wedges.</li>
+      </ul>
+      <p>You can change the default elevation
+ and thickness values to create new objects with an elevation and thickness already applied.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic270_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set the
+ current elevation</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Type CHANGE on
+ the command line, and then press
+ Enter after selecting three-
+ dimensional objects.</cmd>
+      </step>
+      <step>
+        <cmd>Enter P (Properties) andpress
+ Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Enter E (Elev) and press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a new elevation, andthen press Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic270_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set the current
+ thickness</p>
+      <ol>
+        <li>Choose Format &gt; Thickness from the mainmenu.</li>
+        <li>Enter a new value for thickness,
+ and then press Enter.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

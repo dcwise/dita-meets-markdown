@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA1A4358-3153F4A-1C05A91517D9BA1-3FD969">
+  <title>Visibility, Color, and Linetype</title>
+  <shortdesc>You can control visibility, color, linetype and other properties by setting the layer on which the xref locates.
+ You can also assign these
+ changes as temporary or permanent.</shortdesc>
+  <conbody>
+    <p>If the systemvariable VISRETAIN
+ is set to 0, layer table stores
+ in the xref havesuperiority, modifications based on a layer made for xref of the current drawing
+ are only available
+ for the current command. These changes
+ will not be saved along with the
+ drawing. When restarting the drawing, layer table will be reloaded and changes still remain in the current
+ drawing.</p>
+    <p>If the
+ systemvariable VISRETAIN is set to 1, modifications based on a layer made of
+ xref of the cur ent drawing has superiority. Layer settings will be saved in layer table
+ of the current drawing. And in accordance with current tasks.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BD5310-D7A4534-511215A71523741-55795C">
+  <title>数据导出方法说明</title>
+  <shortdesc>遵循以下步骤，进行数据导出 :</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在左侧导航菜单中单击<b>数据管理 </b>&gt;
+ <b>数据导出</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在 【数据导出】页面，单击<b>数据导出</b>，设置需要导出的对象、字段等。</cmd>
+        <info>
+          <p>数据导出 | <b>216</b></p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic38_image002.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <b>配置项 说明</b>
+          </p>
+          <p>对象类型 选择需要导出数据的对象。</p>
+          <p>
+            <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic38_image003.png" />
+          </p>
+          <p>
+            <table>
+              <tgroup cols="1" colsep="1" rowsep="1">
+                <colspec colname="c1" align="left" />
+                <tbody>
+                  <row>
+                    <entry colname="c1">
+                      <fig>
+                        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic38_image004.png" />
+                      </fig>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+ 字段信息 设置需要导出的字段。</p>
+          <p>配置项 说明</p>
+          <p>筛选条件 设置数据导出时的筛选条件，即导出时仅导出符合此处设 置条件的数据。</p>
+          <p>单击 <b>+ 添加更多条件</b>按钮可以添加筛选条件，如果添加了多个筛选条件，则默认多个筛选条件之间的关系为 “ 与</p>
+          <p>（AND）” 的关系，如果需要更改筛选条件之间的关系， 勾选<b>启用高级公式</b>项。</p>
+          <p>高级公式的编写规则如下 :</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>有 and 和 or, 必须有括号。</cmd>
+            <info>
+              <p>错误示例 （假设有 4 个条件）：1 and 2 or 3 and 4</p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>一个括号不能同时出现 and 和 or。</cmd>
+            <info>
+              <p>错误示例 （假设有 4 个条件）：(1
+ and 2 or 3) and 4</p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>不允许出现不存在的编号。</cmd>
+            <info>
+              <p>错误示例 （假设有 4 个条件）：1 and 2 and 3 and 4</p>
+              <p>and 5</p>
+            </info>
+          </substep>
+          <substep>
+            <cmd>括号必须成对出现。</cmd>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+    <result>
+      <p>错误示例 （假设有 4 个条件）：(1
+ and 2 or 3 and 4</p>
+      <p>| <b>218</b></p>
+    </result>
+  </taskbody>
+</task>

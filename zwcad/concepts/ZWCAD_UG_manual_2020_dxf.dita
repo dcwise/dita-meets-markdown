@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A121534F-5A15159-153596FE582BD6A-5D3B8D">
+  <title>DXF</title>
+  <shortdesc>As a drawing exchange
+ file, DXF file contains a text file of drawing
+ information that is accessible for al the other CAD systems.
+ If someone else is using CAD applications capable of identifying DXF files,</shortdesc>
+  <conbody>
+    <p>you can share the drawing by saving the drawingas DXF file.</p>
+    <p>The user can
+ export files as DXF format using Save or Save As command, select DXF file
+ format from the Tools button of the
+ Export dialog boxwhen saving the drawing as DXF format. DXF files are also
+ saved as ASCII
+ or binary format.</p>
+    <p>Specify precise
+ decimal digits as you saving drawing as DXF file, controls floating-precision
+ up to 16 digits for DXF files.
+ You can also click Select
+ Object option to save some objects as DXF file.</p>
+  </conbody>
+</concept>

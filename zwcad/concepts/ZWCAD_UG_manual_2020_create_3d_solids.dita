@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12243-568365E-43C1F24A7C1C5A7-91E3A2">
+  <title>Create 3D Solids</title>
+  <shortdesc>Creates 3D solids in a drawing.
+ A solid object represents the entire volume of an object. Complexsolid shapes
+ are also easier
+ to construct and edit than wireframes
+ and meshes.</shortdesc>
+  <conbody>
+    <p>You can use the following
+ methods to create
+ solids:</p>
+    <ul>
+      <li>Combines one of the basic
+ solid shapes such as a box, cone, cylinder, sphere, torus, and wedge or by extruding a 2D object
+ along a path or revolving a 2D object
+ about an axis.</li>
+      <li>Once you have created a solid in this manner,
+ you can create more complex shapes by combining solids. You can join solids, subtract
+ solids from each other, or find the common<p>volume
+ (overlapping portion) of solids. Solids can be further modified
+ by filleting, chamfering, or changing the color of their edges.</p></li>
+      <li>Solids are displayed
+ as wireframes until you hide, shade, or render them. Additionally, you can<p>analyze solids
+ for their mass properties (volume, moments of inertia, the center of gravity,
+ and so on). You can break a solid into mesh and wireframe objects
+ using explode command.</p></li>
+      <li>The ISOLINES system variable controls the number of tessellation lines used to visualize curved portions of the wireframe. The
+ FACETRES system variable adjusts the smoothness of shaded and hidden-line objects.</li>
+    </ul>
+  </conbody>
+</concept>

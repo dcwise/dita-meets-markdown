@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A436-835E145-3C4AF21A881535A-91E559">
+  <title>Grip Type of Dynamic Blocks</title>
+  <shortdesc>Grip icons of dynamic
+ blocks are as follows.</shortdesc>
+  <conbody>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1"> Grip Name </entry>
+            <entry colname="col2"> Grip Icon </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Standard Grip </entry>
+            <entry colname="col2">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic610_image001.png" />
+              </fig>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Linear grip </entry>
+            <entry colname="col2">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic610_image002.png" />
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Rotate grip </entry>
+            <entry colname="col2">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic610_image003.png" />
+              </fig>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Flip grip </entry>
+            <entry colname="col2">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic610_image004.png" />
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Alignment grip </entry>
+            <entry colname="col2">
+              <fig>
+                <image href="../graphics/ZWCAD_UG_manual_2020_topic610_image005.png" />
+              </fig>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> Lookup grip </entry>
+            <entry colname="col2">
+              <image href="../graphics/ZWCAD_UG_manual_2020_topic610_image006.png" />
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

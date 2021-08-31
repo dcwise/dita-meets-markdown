@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AAA35665-434A1F2-1AC1755A1535164-CD6525">
+  <title>Assign User Coordinate System Orientations to Viewports</title>
+  <shortdesc>You can create multiple
+ viewports to display
+ different views of your model.
+ For example, you can specify
+ top, front, right side, and isometric views for viewports. You can also
+ define a different UCS for each view
+ to facilitate modifying objects in different views. When you make a viewport
+ current, you can use the same UCS you used the last time that the viewport was current.</shortdesc>
+  <conbody>
+    <p>The
+ systemvariable UCSVP controls the UCS in each viewport. When UCSVP is on in a viewport,
+ the systemsaves the viewport with the
+ UCS last used in that viewport and restores the UCS as the viewport is made current
+ again. When UCSVP
+ is set to 0 in a viewport, its UCS is coincident with the
+ UCS in the current viewport.</p>
+    <p>For example,
+ you can set up three viewports: a top view, front view,
+ and isometric view. If UCSVP is set to
+ 0 in the isometric viewport, the Top UCS can be applied to both the top
+ viewport and the isometric viewport.
+ When the top viewport is made current, the isometric viewport's UCS reflects
+ the UCS top viewport. Likewise, if
+ you make the front viewport current, the isometric viewport's UCS is switched
+ to match that of the front viewport.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic230_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ The following figure indicates the
+ instance illustrated above. In which the drawing 1 reflects isometric viewport of top-left or top viewports
+ in current UCS.</p>
+    <p>The second figure
+ shows the change that occurs when the lower-left, or front, the viewport is
+ made current. The UCS in the isometric
+ viewport is updated
+ to reflect the UCS of the front viewport.</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic230_image002.png" />
+    </p>
+  </conbody>
+</concept>

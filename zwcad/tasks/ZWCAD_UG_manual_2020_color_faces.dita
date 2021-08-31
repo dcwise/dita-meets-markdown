@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA4355E3-A11F5A8-1659E9126BE0904-A96A5D">
+  <title>Color Faces</title>
+  <shortdesc>You can assign a color to the faces of 3D solids. The specified color of
+ faces overwrites the color of the layer on which
+ the faces are drawn.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic420_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To color
+ a face</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing
+ &gt; Color Faces from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the face(s) to color, and press
+ Enter.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic420_image002.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify a color.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Specify the face(s)
+ to color (A) The resulting
+ entity with the face colored</p>
+    </result>
+  </taskbody>
+</task>

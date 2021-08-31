@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A12A4586-553CA15-4A1656A7913CB9E-04965D">
+  <title>Imprint, Separate, Shell, Check and Clean 3D Solids</title>
+  <shortdesc>You can change
+ the appearance of 3D objects, separate or create shells at the specified thickness
+ for 3D objects by imprinting,
+ separating or shelling. You can remove redundant edges, points, imprinted and unused objects through cleaning them. You
+ can also check to see the selected objects are the available 3D solids.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A6-85E45C1-21A7A5A75359337-9AD9AD">
+  <title>Move Faces</title>
+  <shortdesc>Moves face of a 3D solid at the specified distance. This command only
+ changes the location of the face, leaving the direction unchanged. Using object snap
+ help you specify
+ the location exactly.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic415_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To move a solid face</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing &gt; Move Faces from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the face(s) to move, andpress
+ Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a base point.</cmd>
+      </step>
+      <step>
+        <cmd>Specify an endpoint.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic415_image002.png" />
+      </p>
+      <p>Left: Specify the face(s) to move(A), the base point (B), and
+ the endpoint (C) Right: The resulting object with the face moved to the new position</p>
+    </result>
+  </taskbody>
+</task>

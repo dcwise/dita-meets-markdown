@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A68-35E53C4-15A878565791E59-2D7240">
+  <title>Scale Raster Images</title>
+  <shortdesc>To attach a
+ raster image to a current drawing, you can specify scale factor in the Image
+ dialog box, otherwise to attach it to
+ its original size. The raster
+ image will be scaled
+ by the specified factor, the scale factor is used without
+ unit by default.</shortdesc>
+  <conbody>
+    <p>If the attached
+ image contains resolution information for defining DPI, the specified scale
+ factor will be united with a
+ measure to scale attached raster image. If resolution information is not
+ included, then the original width
+ of the image will be taken as a unit for the scale factor
+ when attaching the image.</p>
+  </conbody>
+</concept>

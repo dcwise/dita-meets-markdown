@@ -1,0 +1,4195 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A4683-5145C12-14955A9342DAF29-5C30D1">
+  <title>System Variable</title>
+  <conbody>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>Name</b>
+            </entry>
+            <entry colname="col2">
+              <b>Summary</b>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>zwcadprefix</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the directory path, if any, specified by</p>
+              <p>the ZWCAD environment variable, with path separators appended if necessary.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>acadver</b>
+            </entry>
+            <entry colname="col2"> Stores the CAD version number. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>acisoutver</b>
+            </entry>
+            <entry colname="col2">
+              <p>Provides a quick guide to which commands</p>
+              <p>were removed in this release.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>aflags</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines attribute values which are associate</p>
+              <p>with blocks</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>angbase</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the zero (0) base angle with respect to the</p>
+              <p>current UCS.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>angdir</b>
+            </entry>
+            <entry colname="col2">
+              <p>From angle 0 relative to the orientation of the current UCS, controls whether the direction of positive angles is measured clockwise or</p>
+              <p>counterclockwise.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>apbox</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of the aperture box in the center of the crosshairs when you snap to an</p>
+              <p>object.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>aperture</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>area</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the last area computed by the AREA</p>
+              <p>command.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>attdia</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>attmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the visibility of attributes and whether</p>
+              <p>to maintain current visibility of each attribute</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>attreq</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether default attribute settings are used when using INSERT command or menu</p>
+              <p>items to insert blocks</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>auditctl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether AUDIT creates an audit report</p>
+              <p>(ADT) file.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>aunits</b>
+            </entry>
+            <entry colname="col2"> Sets the angle unit </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>auprec</b>
+            </entry>
+            <entry colname="col2"> Sets the decimal precision for angular units </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>autosnap</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of the AutoSnap</p>
+              <p>marker, tooltip, and magnet.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>backgroundplot</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether background plotting is turned</p>
+              <p>on or off for plotting and publishing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>backz</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the back clipping plane offset from the target plane for the current viewport, in</p>
+              <p>drawing units if back clipping of VIEWMODE</p>
+              <p>system variable is on.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>bgripobjsize</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the display size of custom grips in the Block</p>
+              <p>Editor relative to the screen display.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>bindtype</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls how xref names are handled when</p>
+              <p>binding xrefs or editing xrefs in place</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>blipmode</b>
+            </entry>
+            <entry colname="col2"> Turns on or off point mark </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>bparametersize</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the size of parameter text and features in</p>
+              <p>the Block Editor relative to the screen display.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cdate</b>
+            </entry>
+            <entry colname="col2"> Displays current system time and date. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cecolor</b>
+            </entry>
+            <entry colname="col2">
+              <p>Assigns a color to new entities without changing</p>
+              <p>the color of existing entities.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>celtscale</b>
+            </entry>
+            <entry colname="col2"> Stores the linetype scale for current entities. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>celtype</b>
+            </entry>
+            <entry colname="col2"> Stores the linetype of new entities. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>celweight</b>
+            </entry>
+            <entry colname="col2"> Sets the lineweight of new objects. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chamfera</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the first chamfer distance associated</p>
+              <p>with the distance-distance method.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chamferb</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the second chamfer distance associated</p>
+              <p>with the distance-distance method.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>chamferc</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the distance of the chamfer associated</p>
+              <p>with the distance-angle method.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chamferd</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the angle of the chamfer associated with</p>
+              <p>the distance-angle method.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>chammode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether the chamfer is created</p>
+              <p>based on the input of two distances or an angle and a distance.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>circlerad</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the default radius for circle. There is no</p>
+              <p>default radius if CIRCLERAD is set to 0.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>clayer</b>
+            </entry>
+            <entry colname="col2"> Stores the current layer. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>clistate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Indicates whether the command line is open or</p>
+              <p>closed.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cmdactive</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether a script, dialog box,</p>
+              <p>command, or transparent command is active.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cmddia</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the In-Place Text Editor is</p>
+              <p>displayed or not when executing LEADER or QLEADER command</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cmdecho</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether to turn echoing on (debug</p>
+              <p>mode) or off (run mode) when using the AutoLISP function.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cmdnames</b>
+            </entry>
+            <entry colname="col2">
+              <p>Shows the name of the commands or</p>
+              <p>transparent commands in use.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cmleaderstyle</b>
+            </entry>
+            <entry colname="col2"> Setup the current multileader style </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cmljust</b>
+            </entry>
+            <entry colname="col2"> Specifies multiline justification. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cmlscale</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines scale (width) for drawing a</p>
+              <p>multiline</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cmlstyle</b>
+            </entry>
+            <entry colname="col2"> Sets the style when drawing the multiline. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>coords</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets update frequency of coordinates on the</p>
+              <p>left of status bar.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>copymode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the COPY command repeats</p>
+              <p>automatically</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cplotstyle</b>
+            </entry>
+            <entry colname="col2"> Controls the current plot style for new objects. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cprofile</b>
+            </entry>
+            <entry colname="col2"> Displays the name of the current profile. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>crossingareacolor</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the color of the selection area during</p>
+              <p>crossing selection.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ctab</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether the drawing area displays</p>
+              <p>the Model tab or a specified layout tab</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ctablestyle</b>
+            </entry>
+            <entry colname="col2"> Sets the name of the current table style. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cursorsize</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the size of the crosshairs cursor as a</p>
+              <p>percentage of the screen size.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>cvport</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the current viewport's identification</p>
+              <p>number.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>date</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the current date and time in Modified</p>
+              <p>Julian Date format.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dblclkedit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the double click editing operation in</p>
+              <p>the drawing area.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dbmod</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the drawing modification status using</p>
+              <p>bit-code to indicate the current status.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dctmain</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays the three letter keyword for the</p>
+              <p>current main spelling dictionary.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>deflplstyle</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the default plot style for all layers in a drawing when opening a drawing that was created in a release prior to AutoCAD 2000, or for Layer 0 when creating a new drawing from</p>
+              <p>scratch without using a drawing template</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>defplstyle</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the default plot style for new objects in a drawing when opening a drawing that was created in a release prior to AutoCAD 2000, or when creating a new drawing from scratch</p>
+              <p>without using a drawing template.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>delobj</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether geometry used to create</p>
+              <p>other objects is retained or deleted.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>demandload</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies if and when to demand-load certain</p>
+              <p>applications.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>diastat</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the exit method of the most recently</p>
+              <p>used dialog box.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimadec</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the number of decimal places displayed in</p>
+              <p>angular dimensions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimalt</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the alternate units are</p>
+              <p>displayed or not in dimensions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimaltd</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the number of decimal places used in</p>
+              <p>alternate units</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimaltf</b>
+            </entry>
+            <entry colname="col2"> Specifies the multiplier for alternate units </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimaltrnd</b>
+            </entry>
+            <entry colname="col2"> Rounds off the alternate dimension units </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimalttd</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the number of decimal places for</p>
+              <p>alternate unit tolerances</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimalttz</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls suppression of zeros in alternate unit</p>
+              <p>tolerances</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimaltu</b>
+            </entry>
+            <entry colname="col2"> Specifies the text format for alternate units </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimaltz</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the suppression of zeros for alternate</p>
+              <p>unit dimension</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimapost</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the prefix or suffix that appears in</p>
+              <p>alternate unit dimension text</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimarcsym</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the location of the arc symbol in an</p>
+              <p>arc length dimension</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>dimaso</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to turn on or off the</p>
+              <p>associative dimensions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimassoc</b>
+            </entry>
+            <entry colname="col2"> Controls the associativity of dimension objects </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimasz</b>
+            </entry>
+            <entry colname="col2"> Sets the size of the dimension arrowheads </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimatfit</b>
+            </entry>
+            <entry colname="col2">
+              <p>When space is not sufficient to place dimension text and arrows within the extension lines, DIMATFIT determines how dimension text and</p>
+              <p>arrows are arranged</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimaunit</b>
+            </entry>
+            <entry colname="col2"> Controls the unit format for angular dimensions </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimazin</b>
+            </entry>
+            <entry colname="col2"> Suppresses zeros for angular dimensions </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimblk</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the arrowhead block type displayed at the</p>
+              <p>ends of dimension lines</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimblk1</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the arrowhead block type for the first end</p>
+              <p>of the dimension line when DIMSAH is on</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimblk2</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the arrowhead block type for the second</p>
+              <p>end of the dimension line when DIMSAH is on</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimcen</b>
+            </entry>
+            <entry colname="col2">
+              <p>DIMCEN only can control the center marks and center lines of circles or arcs created by the DIMCENTER, DIMDIAMETER, and DIMRADIUS</p>
+              <p>commands</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimclrd</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the color for dimension leader lines,</p>
+              <p>dimension lines and arrowheads</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimclre</b>
+            </entry>
+            <entry colname="col2"> Sets colors for dimension extension lines </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimclrt</b>
+            </entry>
+            <entry colname="col2"> Sets colors for dimension text </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimdec</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the number of decimals places displayed</p>
+              <p>for primary dimensions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimdle</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the distance beyond the extension line</p>
+              <p>that the dimension line extends when using dimension lines with oblique strokes</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimdli</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the spacing of the dimension lines</p>
+              <p>when drawing baseline dimensions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimdsep</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies a single-character decimal separator</p>
+              <p>to use when creating dimensions whose unit format is decimal</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimexe</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines how far extension lines stretch</p>
+              <p>beyond dimension lines</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimexo</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies how far extension lines offset the</p>
+              <p>objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimfit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the location for arrowheads, text and extension lines based on the space between</p>
+              <p>extension lines</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>dimfrac</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the fraction format for main unit linear</p>
+              <p>dimensions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimgap</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the distance from dimension text to the</p>
+              <p>nearest end of the dimension line</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimjogang</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the jogged angle in a jogged</p>
+              <p>dimension</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimjust</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the horizontal position of the dimension</p>
+              <p>text</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimldrblk</b>
+            </entry>
+            <entry colname="col2"> Specifies the arrow type for leaders </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimlfac</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets a scale factor for linear dimension</p>
+              <p>measurements</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimlim</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to use tolerance format of</p>
+              <p>dimension limits</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimlunit</b>
+            </entry>
+            <entry colname="col2"> Sets units for all linear dimensions </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimlwd</b>
+            </entry>
+            <entry colname="col2"> Sets lineweight to dimension lines </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimlwe</b>
+            </entry>
+            <entry colname="col2"> Sets lineweight to extension lines </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimpost</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies a text prefix or suffix (or both) to the</p>
+              <p>dimension text in linear dimensions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimrnd</b>
+            </entry>
+            <entry colname="col2">
+              <p>Rounds all dimensioning distances to the</p>
+              <p>specified value</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimsah</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls how to display the arrowhead blocks</p>
+              <p>of dimension line</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimscale</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the overall scale factor applied to dimensioning variables that specify sizes,</p>
+              <p>distances, or offsets</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimsd1</b>
+            </entry>
+            <entry colname="col2"> Controls the display of the first dimension line </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimsd2</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of the second dimension</p>
+              <p>line</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimse1</b>
+            </entry>
+            <entry colname="col2"> Controls the display of the first extension line </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimse2</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of the second extension</p>
+              <p>line</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimsho</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the update of dimension</p>
+              <p>measurements while increasing or decreasing the size of a dimension object</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimsoxd</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to suppress dimension line if</p>
+              <p>dimension line is outside of extension lines</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimstyle</b>
+            </entry>
+            <entry colname="col2"> current dimension style is displayed </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtad</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines the vertical placement of</p>
+              <p>dimension text in relation to the dimension line</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtdec</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the number of decimal places to display in</p>
+              <p>tolerance dimensions</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>dimtfac</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies a scale factor for the text height of fractions and tolerance values relative to the</p>
+              <p>dimension text height</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtih</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines the location of dimension text</p>
+              <p>between extension lines</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtix</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to place the dimension text</p>
+              <p>inside or outside the extension lines</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtm</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the lower tolerance limit for</p>
+              <p>dimension text</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtmove</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets dimension text movement rules when dimension text moves, including whether to move dimension line and whether a leader is</p>
+              <p>added</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtofl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether to draw dimension lines</p>
+              <p>between extension lines when dimension text is placed outside of the extension lines</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtoh</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the position of dimension text outside the</p>
+              <p>extension lines</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtol</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether to append tolerances to</p>
+              <p>dimension text</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtolj</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the vertical justification for tolerance</p>
+              <p>values relative to the nominal dimension text</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtp</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the upper tolerance limit for</p>
+              <p>dimension text in tolerance dimensions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtsz</b>
+            </entry>
+            <entry colname="col2">
+              <p>The product of multiplying DIMTSZ by DIMSCALE is the size of oblique strokes drawn</p>
+              <p>instead of arrowheads</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtvp</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the vertical position of dimension text</p>
+              <p>relative to the dimension line</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtxsty</b>
+            </entry>
+            <entry colname="col2"> Specifies the text style of the dimension text </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtxt</b>
+            </entry>
+            <entry colname="col2"> Specifies the height of dimension text </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimtzin</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the suppression of zeros in tolerance</p>
+              <p>dimensions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimunit</b>
+            </entry>
+            <entry colname="col2"> Sets main units for all linear dimensions </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimupt</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether to control the location of dimension line or the location of both</p>
+              <p>dimension line and dimension text</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dimzin</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the suppression of zeros in the primary</p>
+              <p>unit value of dimension</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dispsilh</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls display of silhouette edges of 3D solid objects in a 2D Wireframe or 3D Wireframe</p>
+              <p>visual style.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>distance</b>
+            </entry>
+            <entry colname="col2"> Saves the last distance calculated by DIST. </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>donutid</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the default for the inside diameter of a</p>
+              <p>donut.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>donutod</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the default for the outside diameter of a</p>
+              <p>donut.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dragmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to display the outline of the</p>
+              <p>object when you drag it.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dragp1</b>
+            </entry>
+            <entry colname="col2"> Sets the regen-drag input sampling rate. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dragp2</b>
+            </entry>
+            <entry colname="col2"> Sets the fast-drag input sampling rate. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>draworderctl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the default display behavior of overlapping objects when they are created or</p>
+              <p>edited.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>drstate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Indicates whether the Drawing Recovery</p>
+              <p>Manager window is open or closed</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dtexted</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dwgcheck</b>
+            </entry>
+            <entry colname="col2">
+              <p>Checks drawings for potential problems when</p>
+              <p>opening them.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dwgcodepage</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the system code page specified by</p>
+              <p>operating system.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dwgname</b>
+            </entry>
+            <entry colname="col2"> Stores the current drawing name. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dwgprefix</b>
+            </entry>
+            <entry colname="col2"> Stores the full path for the drawing. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dwgtitled</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether the current drawing has</p>
+              <p>been named.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>dynmode</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>edgemode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the cutting and boundary edge for the</p>
+              <p>TRIM and EXTEND commands.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>elevation</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the elevation of new objects in space view (model or paper) relative to the current</p>
+              <p>UCS.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>errno</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays the number of error codes when a LISP function call causes an error that ZWCAD+</p>
+              <p>discovers.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>expert</b>
+            </entry>
+            <entry colname="col2"> Controls whether certain prompts are issued. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>explmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether to explode compound</p>
+              <p>objects into nonuniformly scaled (NUS) blocks.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>extmax</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the upper-right point of the drawing</p>
+              <p>extents.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>extmin</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays the world coordinate of lower-left</p>
+              <p>point of the current drawing in command bar.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>extnames</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the named rules for the objects (such as</p>
+              <p>linetypes, layers, blocks) in definition tables.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>facetratio</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the aspect ratio of faceting for</p>
+              <p>cylindrical and conic solids.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>facetres</b>
+            </entry>
+            <entry colname="col2">
+              <p>Adjusts the smoothness of shaded and rendered objects and objects with hidden lines</p>
+              <p>removed.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>fielddisplay</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the field is displayed with a gray background. Does not print the</p>
+              <p>background</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>fieldeval</b>
+            </entry>
+            <entry colname="col2"> Controls field update method </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>filedia</b>
+            </entry>
+            <entry colname="col2">
+              <p>Toggles on and off the display of the file dialog</p>
+              <p>boxes.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>filletrad</b>
+            </entry>
+            <entry colname="col2"> Stores the current fillet radius. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>fillmode</b>
+            </entry>
+            <entry colname="col2"> Controls whether to fill the solid objects. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>fontalt</b>
+            </entry>
+            <entry colname="col2">
+              <p>Provides an alternate font to be used when a</p>
+              <p>font specified in the drawing is unavailable</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>fontmap</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the font mapping file when replacing</p>
+              <p>one font with another font</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>fullopen</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the current big drawing is</p>
+              <p>partially open (load partially) or fully open.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>griddisplay</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gridmode</b>
+            </entry>
+            <entry colname="col2"> Specifies whether the grid is turned on or off </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gridunit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the grid spacing (X and Y) for the</p>
+              <p>current viewport</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gripblock</b>
+            </entry>
+            <entry colname="col2"> Controls the display of grips in blocks. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gripcolor</b>
+            </entry>
+            <entry colname="col2"> Controls the color of unselected grips </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>griphot</b>
+            </entry>
+            <entry colname="col2"> Controls the color of selected grips </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>griphover</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the fill color of an unselected grip</p>
+              <p>when the cursor pauses over it</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gripobjlimit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Suppresses the display of grips when the</p>
+              <p>selection set includes more than the specified number of objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>grips</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of grips on selected</p>
+              <p>objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gripsize</b>
+            </entry>
+            <entry colname="col2"> Sets the size of the grip box in pixels. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>griptips</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of grip tips when the cursor hovers over grips on dynamic blocks and</p>
+              <p>custom objects that support grip tips</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>handles</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether object handles can be</p>
+              <p>accessed by report applications.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hideprecision</b>
+            </entry>
+            <entry colname="col2"> Controls the accuracy of hides and shades. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hidetext</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether to hide text objects</p>
+              <p>created by the TEXT or MTEXT command during a HIDE command</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>highlight</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls object highlighting; does not affect</p>
+              <p>objects selected with grips</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpang</b>
+            </entry>
+            <entry colname="col2"> Sets the angle of the pattern. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpassoc</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether hatch patterns are adjusted</p>
+              <p>automatically when boundaries are changed.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpbound</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the object created from a closed area is a polyline or a region when using BHATCH and BOUNDARY commands to fill the</p>
+              <p>closed area.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpdouble</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether to select cross-hatching for user-defined patterns. If cross-hatching is specified, then a second set of lines are drawn</p>
+              <p>at 90 degrees to the original lines.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpdraworder</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the draw order of hatches and fills.</p>
+              <p>You can set the draw order in "Hatch" dialog box through menu "Draw - Hatch".</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpgaptol</b>
+            </entry>
+            <entry colname="col2">
+              <p>Takes a group of objects that almost enclose an</p>
+              <p>area as closed pattern boundary.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpinherit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls original point of hatch target pattern</p>
+              <p>when using "Inherit Features" for hatching.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpname</b>
+            </entry>
+            <entry colname="col2"> Sets a default hatch pattern name </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hporigin</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets default pattern origin point for new</p>
+              <p>pattern objects relative to the current UCS.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hporiginmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls how HATCH determines the default</p>
+              <p>hatch origin point.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpscale</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets a scale factor for the hatch pattern, which</p>
+              <p>must be greater than 0.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpspace</b>
+            </entry>
+            <entry colname="col2">
+              <p>Designates the line spacing in user-defined</p>
+              <p>hatch patterns. The range of value is 0 or greater.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hyperlinkbase</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the path used for all relative</p>
+              <p>hyperlinks in the drawing</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>imageframe</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>imagehlt</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the entire raster image or only the raster image frame is highlighted. Only highlighting the image frame can improve</p>
+              <p>system performance.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>indexctl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether layer and spatial indexes are</p>
+              <p>created and saved in drawing files.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>insbase</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the coordinate of the insertion base</p>
+              <p>point specified by the BASE command, which is</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+            </entry>
+            <entry colname="col2">
+              <p>represented as a UCS coordinate for the current</p>
+              <p>space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>insname</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies a default block name for the INSERT</p>
+              <p>command.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>insunits</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies a drawing-units value for automatic scaling of blocks or images dragged from</p>
+              <p>DesignCenter and inserted into a drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>insunitsdefsource</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets source content units value when INSUNITS</p>
+              <p>is set to 0</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>insunitsdeftarget</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets target drawing units value when INSUNITS</p>
+              <p>is set to 0.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>intersectioncolor</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the color of polylines at the</p>
+              <p>intersection of 3D surfaces when the visual style is set to 2D Wireframe.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>intersectiondisplay</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of polylines at the</p>
+              <p>intersection of 3D surfaces when the visual style is set to 2D Wireframe</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>isavebak</b>
+            </entry>
+            <entry colname="col2">
+              <p>Improves the speed of incremental saves,</p>
+              <p>especially for large drawings.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>isavepercent</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines the amount of wasted space</p>
+              <p>tolerated in a drawing file.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>isolines</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the number of contour lines for each</p>
+              <p>surface on objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lastangle</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the angle of the last arc, line, or polyline</p>
+              <p>entered relative to the XY plane of the current UCS for the current space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lastpoint</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the value of the last point entered</p>
+              <p>relative to the current user coordinate system (UCS) for the current space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lastprompt</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the last prompt string displayed on the</p>
+              <p>command line.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>laylockfadectl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the dimming of objects are on locked</p>
+              <p>layer, the range is -90 to 90.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lenslength</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the length of the lens in millimeters used</p>
+              <p>in perspective viewing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>limcheck</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether you can create entities</p>
+              <p>outside the drawing limits.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>limmax</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the upper-right grid limits for the current</p>
+              <p>space, expressed as a world coordinate.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>limmin</b>
+            </entry>
+            <entry colname="col2">
+              <p>Saves the lower-left drawing limits for the current space, represented as a value of world</p>
+              <p>coordinate system.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>lispinit</b>
+            </entry>
+            <entry colname="col2">
+              <p>In single file interface, controls whether to</p>
+              <p>retain functions and variables defined by LISP or</p>
+              <p>confirms their validation when starting a new drawing file.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>logfilemode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the log file is maintained and</p>
+              <p>the contents of text window are written to the log file.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>logfilename</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the file name of the log file for the current</p>
+              <p>drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>logfilepath</b>
+            </entry>
+            <entry colname="col2"> Specifies the save path for the log files. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>loginname</b>
+            </entry>
+            <entry colname="col2"> Displays the login name. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ltscale</b>
+            </entry>
+            <entry colname="col2"> Sets the global linetype scale factor. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lunits</b>
+            </entry>
+            <entry colname="col2"> Sets the linear units. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>luprec</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the display precision for linear units and</p>
+              <p>coordinates.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lwdefault</b>
+            </entry>
+            <entry colname="col2"> Sets the value for the default lineweight. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lwdisplay</b>
+            </entry>
+            <entry colname="col2"> Controls whether the lineweight is displayed. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>lwunits</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether lineweight units are displayed</p>
+              <p>in inches or millimeters.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>maxactvp</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the maximum number of viewports that can be activated at one time in a</p>
+              <p>layout.MAXACTVP has no effect on the number</p>
+              <p>of viewports that are plotted.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>maxsort</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the maximum number of symbol names or</p>
+              <p>block names sorted by listing commands.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mbuttonpan</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the behavior when holding or moving</p>
+              <p>the mouse.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>measureinit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets default units (imperial or metric) when</p>
+              <p>creating new drawings.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>measurement</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets unit (Imperial or Metric) for existing</p>
+              <p>drawings.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>menuctl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the page switching of the screen</p>
+              <p>menu.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>menuecho</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls display of menu items and system</p>
+              <p>prompts.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>menuname</b>
+            </entry>
+            <entry colname="col2"> Stores the name and path of the menu file. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mirrtext</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the text direction when using the MIRROR</p>
+              <p>command to text objects</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>modemacro</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the string displayed on the status bar, such</p>
+              <p>as the current time and creator of this drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mtexted</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the application name for editing multi-line</p>
+              <p>text objects</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>mtextfixed</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets display size and direction of multi-line text</p>
+              <p>in text editor</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mtjigstring</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the sample text content displayed at the</p>
+              <p>cursor position when the MTEXT command is executed</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>mydocumentsprefix</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the full path to the My Documents folder</p>
+              <p>for the user currently logged on.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>nomutt</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to display information</p>
+              <p>feedback.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>obscuredcolor</b>
+            </entry>
+            <entry colname="col2"> Specifies the color of obscured lines. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>obscuredltype</b>
+            </entry>
+            <entry colname="col2"> Specifies the linetype of obscured lines. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>offsetdist</b>
+            </entry>
+            <entry colname="col2"> Sets the default offset distance. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>offsetgaptype</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls how to fill the potential gaps between</p>
+              <p>segments when offsetting polyline objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>oleframe</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets whether a frame is displayed and printed</p>
+              <p>on all OLE objects in ZWCAD.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>olestartup</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the source application of an</p>
+              <p>embedded OLE object loads when plotting.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>opmstate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the current display state of</p>
+              <p>Properties palette is open, closed or hidden.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>orthomode</b>
+            </entry>
+            <entry colname="col2"> Determines whether to turn on "ortho" mode. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>osmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies object snap using the bitcode of the</p>
+              <p>sum of the following values.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>osnapcoord</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether coordinates entered on the</p>
+              <p>command line override running object snaps.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>osnaphatch</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to ignore the pattern fill</p>
+              <p>object during object snap action.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>osnapnodelegacy</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the Node object snap can be</p>
+              <p>used to snap to multiline text objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>osnapz</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the object snap is</p>
+              <p>automatically projected onto a plane parallel to XY plane at the specified elevation in current</p>
+              <p>UCS.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>paperupdate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls how to handle the situation if the paper size specified in the layout is not</p>
+              <p>supported by the plotter.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pdmode</b>
+            </entry>
+            <entry colname="col2"> Controls how point objects are displayed. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pdsize</b>
+            </entry>
+            <entry colname="col2"> Sets the display size for point objects. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>peditaccept</b>
+            </entry>
+            <entry colname="col2">
+              <p>Suppresses display of the Object Selected Is Not</p>
+              <p>a Polyline prompt in PEDIT.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>pellipse</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the entity drawn with the Ellipse command is a true ellipse or an ellipse</p>
+              <p>made up of polylines.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>perimeter</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the last perimeter value calculated by</p>
+              <p>the AREA or LIST command.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pfacevmax</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the maximum number of face vertices in a</p>
+              <p>polyface mesh.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pickadd</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines adding the new selected objects to</p>
+              <p>the current selection directly or replacing the previous selected objects in the selection.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pickauto</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to display the selection</p>
+              <p>window automatically at the "Select Objects" prompt.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pickbox</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the target height for entity selection,</p>
+              <p>in pixels. The range of value is from 0 to 50.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pickdrag</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to draw a selection window</p>
+              <p>by "hold and drag "mode.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pickfirst</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether you select entities before</p>
+              <p>or after issuing a command.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pickstyle</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the use of group selection and</p>
+              <p>associative hatch selection.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>platform</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays on which Operating system ZWCAD+</p>
+              <p>is running.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plinegen</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls how linetype patterns generate</p>
+              <p>around the vertices of a 2D polyline.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plinetype</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies whether optimized 2D polylines are</p>
+              <p>used.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plinewid</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the default polyline width to a value of 0</p>
+              <p>(the default) or greater.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plotoffset</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the plot offset is relative to</p>
+              <p>the printable area or to the edge of the paper.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plotrotmode</b>
+            </entry>
+            <entry colname="col2"> Controls the orientation of plots. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>plquiet</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of optional plot-related</p>
+              <p>dialog boxes and nonfatal errors for scripts.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>polaraddang</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores additional angles for polar tracking and</p>
+              <p>polar snap.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>polarang</b>
+            </entry>
+            <entry colname="col2"> Sets the polar angle increment. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>polardist</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the snap increment when the SNAPTYPE is</p>
+              <p>set to 1 (PolarSnap).</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>polarmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls settings for polar and object snap</p>
+              <p>tracking.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>polysides</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the default number of sides for the</p>
+              <p>polygon command.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>popups</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays the status of the currently configured</p>
+              <p>display driver of dialog boxes, menu bar and icon menus.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>product</b>
+            </entry>
+            <entry colname="col2"> Returns the product name. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>progbar</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls to turn on or off the display of</p>
+              <p>progress bar.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>program</b>
+            </entry>
+            <entry colname="col2"> Returns the program name. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>projectname</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies a project name for the current</p>
+              <p>drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>projmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the projection mode used for the</p>
+              <p>trimmed and extended objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>propobjlimit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Limits the number of objects that can be</p>
+              <p>changed at one time with the Properties palette</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>proxygraphics</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies whether images of proxy objects are</p>
+              <p>saved in the drawing</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>proxynotice</b>
+            </entry>
+            <entry colname="col2"> Displays a notice when a proxy is created </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>proxyshow</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of proxy objects in a</p>
+              <p>drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>proxywebsearch</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether ZWCAD+ checks Object Enabler and determines whether Object</p>
+              <p>Enabler is available.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>psltscale</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the linetype scaling of objects</p>
+              <p>displayed in paper space viewports.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pstylemode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Indicates whether the current drawing is in a</p>
+              <p>Color-Dependent or Named Plot Style mode.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pstylepolicy</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the plot style mode, Color-Dependent or Named, that is used when opening a drawing that was created in a release prior to AutoCAD 2000 or when creating a new drawing from</p>
+              <p>scratch without using a drawing template</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>psvpscale</b>
+            </entry>
+            <entry colname="col2"> Sets view scale factor relative to paper space. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>pucsbase</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the name of the UCS that defines the</p>
+              <p>origin and orientation of orthographic UCS settings in paper space only.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>qtextmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Turns on or off "quick text" mode, and</p>
+              <p>determines how text is displayed</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rasterdpi</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls paper size and plot scaling when changing from dimensional to dimensionless</p>
+              <p>output devices, or vice versa.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rasterpreview</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether thumbnail preview images</p>
+              <p>are created and saved with the drawing.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>refeditname</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays the name of the reference being</p>
+              <p>edited.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>regenmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls automatic regeneration of the</p>
+              <p>drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rememberfolders</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines default path of Select File dialog box when executing find or save function in</p>
+              <p>ZWCAD+ system.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>roamablerootprefix</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the full path to the root folder where</p>
+              <p>roamable customizable files were installed.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>rtdisplay</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether outline of raster image or content of raster image is displayed during</p>
+              <p>running ZOOM or PAN command.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>savefile</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the file name and extension when the</p>
+              <p>current drawing is saved automatically.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>savefilepath</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the path to the directory for all</p>
+              <p>automatic save files for the current session.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>savename</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays the file name and directory path of the</p>
+              <p>most recently saved drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>savetime</b>
+            </entry>
+            <entry colname="col2"> Sets the automatic save interval, in minutes. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>screenboxes</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the number of boxes in the screen menu</p>
+              <p>area of the drawing area.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>screenmode</b>
+            </entry>
+            <entry colname="col2"> Indicates the state of the display. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>screensize</b>
+            </entry>
+            <entry colname="col2"> Stores current viewport size in pixels (X and Y). </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>sdi</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether ZWCAD+ select multiple-</p>
+              <p>drawings interface.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>selectionarea</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of effects for selection</p>
+              <p>areas.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>selectionareaopacity</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the transparency of the selection area</p>
+              <p>during window and crossing selection.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>selectioncycling</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>selectionpreview</b>
+            </entry>
+            <entry colname="col2"> Controls the display of selection previewing. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>shadedge</b>
+            </entry>
+            <entry colname="col2"> Controls the shading of edges. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>shadedif</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the ratio of diffuse reflective light to</p>
+              <p>ambient light.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>shortcutmenu</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether shortcut menu, including Default, Edit and Command mode can be used</p>
+              <p>in drawing area.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>showlayerusage</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays icons in the Layer Properties Manager</p>
+              <p>to indicate whether layers are in use.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>sketchinc</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the record increment for the SKETCH</p>
+              <p>command.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>skpoly</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies whether the SKETCH command</p>
+              <p>creates straight lines or polylines.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>snapang</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the snap and grid rotation angle for the</p>
+              <p>current viewport relative to the current UCS.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>snapbase</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the snap and grid origin point for the</p>
+              <p>current viewport relative to the current UCS.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>snapisopair</b>
+            </entry>
+            <entry colname="col2"> Sets the crosshairs to an isometric plane </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>snapmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether snap mode is on or off for</p>
+              <p>the current viewport</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>snapstyl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the snap style for the current viewport to</p>
+              <p>either standard (0) or isometric (1).</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>snaptype</b>
+            </entry>
+            <entry colname="col2"> Sets the snap type for the current viewport. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>snapunit</b>
+            </entry>
+            <entry colname="col2"> Sets the snap spacing in the x and y direction </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>solidcheck</b>
+            </entry>
+            <entry colname="col2">
+              <p>Turns 3D solid validation on and off for the</p>
+              <p>current session</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>sortents</b>
+            </entry>
+            <entry colname="col2"> Controls the order in which entities are sorted </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>splframe</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of splines and spline-fit</p>
+              <p>polylines.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>splinesegs</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the number of line segments to be</p>
+              <p>generated for each spline-fit polyline generated by the Spline option of the PEDIT command.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>splinetype</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines the type of spline curve created when using the pedit command to transform a</p>
+              <p>polyline into a spline.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>startup</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls what displays when the application is</p>
+              <p>started, or when a new drawing is opened</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>surftab1</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the number of tabulations to be generated</p>
+              <p>for the RULESURF and TABSURF commands.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>surftab2</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the mesh density in the N direction for the</p>
+              <p>REVSURF and EDGESURF commands.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>surftype</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the type of surface-fitting to be performed by the Smooth option of the PEDIT</p>
+              <p>command.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>surfu</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the surface density for PEDIT Smooth in the M direction and the U isolines density on</p>
+              <p>surface objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>surfv</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the surface density for PEDIT Smooth in the N direction and the V isolines density on</p>
+              <p>surface objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>syscodepage</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies the system code page specified by</p>
+              <p>operating system</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tabletoolbar</b>
+            </entry>
+            <entry colname="col2"> Controls the display of the Table toolbar. </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>target</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the location (as a UCS coordinate) of the</p>
+              <p>target point for the current viewport.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tdcreate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the local time and date the drawing was</p>
+              <p>created.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tdindwg</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the total editing time, which is the total elapsed time between saves of the current</p>
+              <p>drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tducreate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the universal time and date that the</p>
+              <p>drawing was created.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tdupdate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the local time and date of the last</p>
+              <p>update/save.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tdusrtimer</b>
+            </entry>
+            <entry colname="col2"> Stores the user-elapsed timer. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tduupdate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the universal time and date of the last</p>
+              <p>update or save.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tempprefix</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the folder name assigned for temporary</p>
+              <p>files, with a path separator appended.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>texteval</b>
+            </entry>
+            <entry colname="col2">
+              <p>This system variable can determine whetherthe responses to prompts are treated literally or as an LISP expression when executing TEXT</p>
+              <p>command or -TEXT command</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>textfill</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the filling of TrueType fonts while</p>
+              <p>plotting and rendering</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>textqlty</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the resolution tessellation fineness of text outlines for TrueType fonts while plotting and</p>
+              <p>rendering</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>textsize</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the default height for new text object</p>
+              <p>drawn with current text style when the current text style has no fixed height</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>textstyle</b>
+            </entry>
+            <entry colname="col2"> Sets the name for the current text style </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>thickness</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the default 3D thickness property when</p>
+              <p>creating 2D geometric objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tilemode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the switch between the last layout tab</p>
+              <p>(paper space) and the model space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tooltips</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to display the tooltips when</p>
+              <p>the mouse is moved on the toolbar buttons.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tpstate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Indicates whether the Tool Palettes window is</p>
+              <p>open or closed.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tracewid</b>
+            </entry>
+            <entry colname="col2"> Stores the default trace width. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>trackpath</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of polar and object snap</p>
+              <p>tracking alignment paths</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>trimmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether selected edges for chamfers</p>
+              <p>and fillets are trimmed.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>tspacefac</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the multiline text line-spacing distance</p>
+              <p>measured as a factor of text height</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tspacetype</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the type of line spacing used in</p>
+              <p>multiline text</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tstackalign</b>
+            </entry>
+            <entry colname="col2"> Controls the vertical alignment of stacked text </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>tstacksize</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the percentage of stacked text fraction</p>
+              <p>height relative to selected text's current height</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsbase</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the name of the UCS that defines the origin and orientation of orthographic UCS</p>
+              <p>settings.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsdetect</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsfollow</b>
+            </entry>
+            <entry colname="col2">
+              <p>Generates a plan view whenever you change</p>
+              <p>from one UCS to another.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsicon</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of UCS icon of current viewport and controls whether to display icon</p>
+              <p>at origin.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsname</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the name of the current coordinate</p>
+              <p>system for the current viewport in the current space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsorg</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the origin point of the current coordinate system for the current viewport in the current</p>
+              <p>space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsortho</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether to restore the related orthographic UCS setting automatically when</p>
+              <p>an orthographic view is restored.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsview</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether the current UCS is saved</p>
+              <p>with a named view.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsvp</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether the UCSs in other viewports are dependent or independent of the</p>
+              <p>UCS of the current viewport.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsxdir</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the X direction of the current UCS for the</p>
+              <p>current viewport in the current space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ucsydir</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the Y direction of the current UCS for the</p>
+              <p>current viewport in the current space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>undoctl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays the state of the Auto, Control options</p>
+              <p>of the UNDO command</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>undomarks</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the number of marks placed in the</p>
+              <p>UNDO control stream by the Mark option</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>undosnapshot</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>unitmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether to display the units based</p>
+              <p>on input format or previous set format</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>updatethumbnail</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls updating of the thumbnail previews for</p>
+              <p>views and layouts.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>useri1</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of integer values. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>useri2</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of integer values. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>useri3</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of integer values. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>useri4</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of integer values. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>useri5</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of integer values. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>userr1</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of real numbers. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>userr2</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of real numbers. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>userr3</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of real numbers. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>userr4</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of real numbers. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>userr5</b>
+            </entry>
+            <entry colname="col2"> Provides storage and retrieval of real numbers. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>users1</b>
+            </entry>
+            <entry colname="col2">
+              <p>Provides storage and retrieval of text string</p>
+              <p>data.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>users2</b>
+            </entry>
+            <entry colname="col2">
+              <p>Provides storage and retrieval of text string</p>
+              <p>data.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>users3</b>
+            </entry>
+            <entry colname="col2">
+              <p>Provides storage and retrieval of text string</p>
+              <p>data.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>users4</b>
+            </entry>
+            <entry colname="col2">
+              <p>Provides storage and retrieval of text string</p>
+              <p>data.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>users5</b>
+            </entry>
+            <entry colname="col2">
+              <p>Provides storage and retrieval of text string</p>
+              <p>data.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vernum</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>viewctr</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the center of the view in the current</p>
+              <p>viewport.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>viewdir</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the view settings for the current</p>
+              <p>viewport.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>viewmode</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the view settings for the current</p>
+              <p>viewport.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>viewsize</b>
+            </entry>
+            <entry colname="col2">
+              <p>Sets the height value for the current viewport</p>
+              <p>presented in drawing units.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>viewtwist</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the view rotation angle for the current</p>
+              <p>viewport.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>visretain</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines visibility, color, linetype and</p>
+              <p>lineweight of xref-dependent layers.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vpmaximizedstate</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the viewport is maximized or</p>
+              <p>not.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vsmax</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the UCS coordinate of upper-right corner</p>
+              <p>in current viewport.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>vsmin</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the UCS coordinate of lower-left corner</p>
+              <p>in current viewport.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>windowareacolor</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the background color of window</p>
+              <p>selection area</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>wmfbkgnd</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the background display when objects</p>
+              <p>are inserted in Windows metafile (WMF) format</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>wmfforegnd</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the assignment of the foreground</p>
+              <p>color when objects are inserted in Windows metafile (WMF) format.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>worlducs</b>
+            </entry>
+            <entry colname="col2">
+              <p>Specifies whether the user coordinate system</p>
+              <p>(UCS) is the same as the World Coordinate System (WCS).</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>worldview</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the input to VPORTS command is relative to default World</p>
+              <p>Coordinate System or User Coordinate System.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>wscurrent</b>
+            </entry>
+            <entry colname="col2">
+              <p>Displays the current workspace name at the Command prompt and sets a specified</p>
+              <p>workspace to be the current one.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xclipframe</b>
+            </entry>
+            <entry colname="col2">
+              <p>Determines whether xref clipping boundaries</p>
+              <p>are visible or plotted in the current drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xedit</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the current drawing can be edited in-place when being referenced by</p>
+              <p>another drawing.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xfadectl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the amount of fading within a reference being edited in place. This setting affects only the objects that are not being</p>
+              <p>edited in the reference.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xloadctl</b>
+            </entry>
+            <entry colname="col2">
+              <p>Turns xref demand-loading on and off, and</p>
+              <p>controls whether it opens the referenced drawing or a copy.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xloadpath</b>
+            </entry>
+            <entry colname="col2">
+              <p>Creates a path for storing temporary copies of</p>
+              <p>demand-loaded xref files.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xrefctl</b>
+            </entry>
+            <entry colname="col2"> Controls whether external reference log (XLG) files are created. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xrefnotify</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the notification for updated or missing</p>
+              <p>xrefs.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xreftype</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the default reference type when</p>
+              <p>attaching or overlaying an external reference.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>zoomdisphatch</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether displaying the hatch when</p>
+              <p>using PAN and ZOOM to Translate and scale.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>zoomfactor</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls how much the magnification changes when the mouse wheel moves forward or</p>
+              <p>backward.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>zoomwheel</b>
+            </entry>
+            <entry colname="col2">
+              <p>Toggles the direction of transparent zoom</p>
+              <p>operations when you use the the mouse wheel.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>zwcmdline</b>
+            </entry>
+            <entry colname="col2"> Turns on or off dynamic input function </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>zwribbontabhide</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the display of the panels on the</p>
+              <p>Ribbon.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>btmarkdisplay</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>gripdyncolor</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>layoutregenctl</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpseparate</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>hpmaxlines</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>zrxchecknotify</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>xdwgfadectl</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>millisecs</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>_ZcadSafeCMD</b>
+            </entry>
+            <entry colname="col2">
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ADCSTATE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the current state of Design</p>
+              <p>Center window is open or close</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>FRONTZ</b>
+            </entry>
+            <entry colname="col2">
+              <p>Stores the distance from front clipping plane to the target plane for the current viewport, in drawing units only when the VIEWMODE</p>
+              <p>system variable is set to 1 and “the front clip-</p>
+              <p>not-at-eye” is also set to 1</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>GRIDMAJOR</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls the frequency compared between</p>
+              <p>major grid and minor grid. The range of effective value is from 1 to 100</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BLOCKEDITLOCK</b>
+            </entry>
+            <entry colname="col2">
+              <p>Disallows opening of then Block Editor and</p>
+              <p>editing of dynamic block definitions</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BLOCKEDITOR</b>
+            </entry>
+            <entry colname="col2">
+              <p>Indicates whether or not the Block Editor is</p>
+              <p>open</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BLOCKTESTWINDOW</b>
+            </entry>
+            <entry colname="col2">
+              <p>Indicates whether or not a test window is</p>
+              <p>current</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>QCSTATE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Indicates whether or not Quick Calculator is</p>
+              <p>open or closed</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DYNDIGRIP</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls which dynamic dimensions are</p>
+              <p>displayed during grip stretch editing</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DYNDIVIS</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls how many dynamic dimensions are</p>
+              <p>displayed during grip stretch editing</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DYNPICOORDS</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether pointer input uses relative or</p>
+              <p>absolute format for coordinates</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DYNPIFORMAT</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether pointer input uses polar or</p>
+              <p>Cartesian format for coordinates</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DYNPIVIS</b>
+            </entry>
+            <entry colname="col2"> Controls when pointer input is displayed </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>BLOCKEDITMODE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether it will use REFEDIT or BEDIT</p>
+              <p>when double-clicks a block</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>PDFOSNAP</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether to enable the object</p>
+              <p>snapping for the geometry in PDF underlay.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PDFFRAME</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether to display and plot the</p>
+              <p>frame in PDF underlay.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>MSOLESCALE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control the initial size of an OLE object with text which is pasted on the Model</p>
+              <p>space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ANNOALLVISIBLE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control the display of the annotative</p>
+              <p>objects which do not support the current annotation scale.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ANNOAUTOSCALE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether annotative objects are</p>
+              <p>updated to support the annotation scale when you change it.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>ANNOTATIVEDWG</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether the drawing is inserted</p>
+              <p>into another drawing as an annotative block.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>CANNOSCALEVALUE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Display the value of the current annotation</p>
+              <p>scale.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>CANNOSCALE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Set the name of the annotation scale for the</p>
+              <p>current space.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DIMANNO</b>
+            </entry>
+            <entry colname="col2">
+              <p>Indicate whether the current dimension</p>
+              <p>style is an annotative style.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>HPANNOTATIVE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether a newly created hatch</p>
+              <p>pattern is annotative.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>LAYERDLGMODE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether to display the modal dialog boxor modeless dialog box(palette)</p>
+              <p>of the Layer Manager.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>LAYERMANAGERSTATE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether to display or close the</p>
+              <p>Layer Manager.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>WORKSPACELABEL</b>
+            </entry>
+            <entry colname="col2">
+              <p>Controls whether the name of the current</p>
+              <p>workspace is displayed in the status bar.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>GRIPADSORB</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control the display range that grips can</p>
+              <p>adsorb.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DWFDELMODE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether a block reference that generated froma DWF/DWFxfile can be</p>
+              <p>deleted.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>LENSLENGTH</b>
+            </entry>
+            <entry colname="col2">
+              <p>Store the length of the lens used in the</p>
+              <p>active viewport, and the unit is millimeter.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>HPISLANDDETECTIONMODE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether island detection is applied</p>
+              <p>to hatches.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>GRIPMULTIFUNCTIONAL</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether to turn on or off the</p>
+              <p>multifunctional grip menu.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="2" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <tbody>
+          <row>
+            <entry colname="col1">
+              <b>WIPEOUTFRAME</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control the display of frames for wipeout</p>
+              <p>entities.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DWFFRAME</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control the display and plot of the DWF</p>
+              <p>underlay frame.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>DWFOSNAP</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether to snap the objects in</p>
+              <p>DWF underlay.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>WBLOCKPATH</b>
+            </entry>
+            <entry colname="col2"> Customdefault export path of wblock. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>FILETYPEASSOC</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether to check the association</p>
+              <p>of .dwg files with ZWCAD at startup.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>OSOPTIONS</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether the endpoints of dimension extension lines are ignored when snapping</p>
+              <p>objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>SIGWARN</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether the dialog boxof Digital Signature Contents is displayed when you open a drawing file with an attached digital</p>
+              <p>signature certificate.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PDFIMPORTMODE</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control how to process the data objects in</p>
+              <p>an imported PDF file.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PDFIMPORTFILTER</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control which types of data objects in the</p>
+              <p>PDF file to be imported and converted to CAD objects.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>PDFIMPORTLAYERS</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control which layers the data objects in the</p>
+              <p>imported PDF file will be placed in.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>INPUTSEARCHOPTIONFLAGS</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether to display a list of commands with similar names while inputting the first few letters in the</p>
+              <p>command line.</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>SELECTIONCYCLING</b>
+            </entry>
+            <entry colname="col2"> Control whether to display the Selection Set dialog boxfor the overlapping objects. </entry>
+          </row>
+          <row>
+            <entry colname="col1">
+              <b>LAYOUTTAB</b>
+            </entry>
+            <entry colname="col2">
+              <p>Control whether to show or hide the Layout</p>
+              <p>tab.</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

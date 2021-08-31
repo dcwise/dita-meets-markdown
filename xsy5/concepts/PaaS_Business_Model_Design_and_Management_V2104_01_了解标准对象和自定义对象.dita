@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B1A751-1215477-B51748545117639-2D1613">
+  <title>了解标准对象和自定义对象</title>
+  <shortdesc>在销售易系统中，对象分为标准对象和自定义对象。标准对象是销售易系统预置的 对象，例如客户、联系人、销售机会。自定义对象主要根据具体的业务情况，存储 一些特定的信息，例如，创建一个名称为 “ 订车单 ” 的自定义对象，存储客户订车相关的信息。</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic9_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>了解标准字段和自定义字段 | <b>4</b></p>
+  </conbody>
+</concept>

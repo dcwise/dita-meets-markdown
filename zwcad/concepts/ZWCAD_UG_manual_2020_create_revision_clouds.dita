@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122456-643411F-154A87C1A1E535A-3B48E3">
+  <title>Create Revision Clouds</title>
+  <shortdesc>REVCLOUD creates a polyline of sequential arcs to
+ forma cloud-shaped object. Revision Cloud helps mark your drawings
+ by highlighting some important parts when reviewing
+ or redline drawings.</shortdesc>
+  <conbody>
+    <p>You can create a revision cloud
+ fromscratch, or you can convert
+ objects, such as a circle,
+ ellipse, polyline, or spline, to a revision cloud. If DELOBJ is set to 1 (the default),
+ the original object
+ is deleted once you convert an object to a revision
+ cloud.</p>
+    <p>You can set the minimumand maximum
+ default values for the arc lengths of a revision
+ cloud. You should
+ notice that the maximum arc length can't be more
+ than 3 times as big as the minimum arc length.
+ REVCLOUD stores the last used arc length as a multiple of the
+ DIMSCALEsystemvariable to provide consistency among
+ drawings with different scale factors.</p>
+    <p>Make sure that the entire area to be outlined with REVCLOUD before using the command. REVCLOUD
+ can't be transparent used and real-time panning and zooming.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic299_image001.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

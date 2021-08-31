@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12A36-86545C4-2154A87B1254453-322EE8">
+  <title>Set the search path</title>
+  <shortdesc>The Files tab of
+ Options dialog box is used by ZWCAD to search drawing support files. The
+ support files include
+ text fonts, drawings,
+ linetypes and hatch patterns. The system variable
+ MYDOCUMENTSPREFIX is designed to store the location of My
+ Documents folder for the cur ent user.</shortdesc>
+  <conbody>
+    <p>You can also specify
+ the location of temporary files on the Files tab of the Options dialog
+ box. Temporary files are
+ created on the specified path and then deleted when you exit ZWCAD program. The
+ default temporary folder
+ is specified for the location
+ that Microsoft Windows
+ uses.</p>
+    <p>You should
+ specify another location for temporary files when you run ZWCAD in a
+ write-protected director (for
+ example, if you are working on a network or open files on a CD). The director
+ must not be written-protected and can provide
+ enough disk space
+ for the temporary files.</p>
+  </conbody>
+</concept>

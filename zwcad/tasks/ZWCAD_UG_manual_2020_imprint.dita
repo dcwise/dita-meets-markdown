@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122453-64CA1F5-48A5A1E553121C0-94DA5D">
+  <title>Imprint</title>
+  <shortdesc>You can create a
+ new face of a solid face by executing imprinting operation. The following
+ objects can be imprinted: arc, circle,
+ line, 2D/3D polyline,
+ ellipse, spline, region,
+ 3D solid. To ensure the imprinting successfully, the objects to be imprinted must be
+ intersected with one or more faces. For example, when a
+ rectangular intersects with a 3D solid, you can imprint the intersecting curve.
+ Then determine whether the original objects
+ are removed or not.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic426_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To imprint
+ a solid objects</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids Editing &gt; Imprint from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the solid object you want to imprint.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object you want to imprint on the solid.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

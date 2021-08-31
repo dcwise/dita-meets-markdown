@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A710A2B1-7521A8D-15159741564264A-31B952">
+  <title>考勤统计报表</title>
+  <shortdesc>NOTE </shortdesc>
+  <conbody>
+    <p>考勤功能只能在移动端进行打卡，在Web端进行统计。</p>
+    <p>登录销售易前台首页，单击<b>统计分析</b>&gt;<b>考勤统计</b>，查看考勤报表。</p>
+    <ul>
+      <li>支持按照时间、状态、人员进行筛选</li>
+      <li>支持导出考勤报表。</li>
+      <li>拜访签到和快速签到的数据也会同步到考勤报表中，状态是拜访客户。</li>
+    </ul>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic30_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

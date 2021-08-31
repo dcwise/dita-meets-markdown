@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A22A45-6365E14-3C4A1F154859171-95962E">
+  <title>Control Status and Displaying of Grips</title>
+  <shortdesc>You can turn the use
+ of grips on and off and control
+ the size and color of grips under a different
+ status.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic388_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change grip settings</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Options
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Options dialog box, click the Selection tab.</cmd>
+      </step>
+      <step>
+        <cmd>In the Grip Size, specify the size.</cmd>
+      </step>
+      <step>
+        <cmd>In the Grips, click Enable grips.</cmd>
+      </step>
+      <step>
+        <cmd>Set the Unselected grip color, Selected
+ grip color and Hover grip color separately, to assign colors
+ for grips under a different
+ status.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>You can use grips
+ to modify objects, such as move, stretch, scale, and copy. With the Grips on,
+ the location of grips depending
+ on the type of objects
+ are displayed as follows:</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic388_image002.png" />
+      </p>
+      <p>When you
+ performquadrant grips on circles, the distance is measured fromthe center
+ point, but not the selected grip. For
+ example, in Stretch mode, you can
+ select a quadrant grip to stretch a circle, and then specify a distance at the prompt of "New circle
+ radius". The distance is measured fromthe center point, but not the selected quadrant. If you select the center
+ point, the circle
+ moves.</p>
+      <p>When a 2D solid
+ is not lie on the current UCS, the
+ object is stretched on the plane that the object is created, but not on the plane
+ of the current UCS.</p>
+      <p>The system
+ variable GRIPOBJLIMIT is used to control the number of grips displayed on the
+ selected object. The value of GRIPOBJLIMIT is not available when you add an object
+ to the current selection set. Control Grips in Blocks</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic388_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The systemvariable GRIPBLOCK is
+ used to control whether the inserted block displays a single grip or all of the grips.</p>
+    </result>
+  </taskbody>
+</task>

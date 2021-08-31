@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122455-34A1215-47825A71E59BF13-7CCB67">
+  <title>Modify Color and Transparency for Bitonal Raster Images</title>
+  <shortdesc>Bitonal raster
+ Image contains a foreground color and a background color
+ so that the current color
+ settings determine the
+ foreground color of the bitonal image as attached to the drawing. Although the lightness, contrast,
+ and fade are not adjustable for bitonal images,
+ you can modify the foreground color
+ of the image and control its transparency fromthe
+ Properties palette.</shortdesc>
+  <conbody>
+    <p>
+      <b>NOTE </b>Bitonal images
+ and their boundaries are always the same color.</p>
+  </conbody>
+</concept>

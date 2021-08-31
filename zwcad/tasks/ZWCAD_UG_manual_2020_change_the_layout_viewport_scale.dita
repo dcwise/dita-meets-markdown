@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12A56-8365E14-3CA1115A81C55A7-1E3591">
+  <title>Change the layout viewport scale</title>
+  <shortdesc>Specify
+ proportion in the Standard proportion option on Properties tab to determine the
+ proportion of each viewport relative
+ to paper space. That is to scale each viewport precisely. Scaling or extension
+ for layout viewport boundaries will
+ not change the scale of views in viewports.</shortdesc>
+  <taskbody>
+    <context>
+      <p>While working on
+ layouts, the scale factor represents the ratio of the actual size of the model
+ and the layout size. The ratio
+ generated dividing the model space unit fromdrawing space unit. For example, a drawing
+ with a ratio of 1/3
+ means one drawing
+ space unit equals to three
+ model space units.</p>
+      <p>Changing
+ the plot scale of viewports is also available
+ through ZOOM command or Viewport toolbar.</p>
+      <p>To change
+ the layout viewport scale</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic685_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Make sure youare on a layout
+ tabinpaper space.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe border of the viewport whose scale you want to modify.</cmd>
+      </step>
+      <step>
+        <cmd>Right-click and choose Properties from the shortcut
+ menu that displays.</cmd>
+      </step>
+      <step>
+        <cmd>In the Properties palette,
+ select Standard Scale, and then select a new scale from</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>the list. The scale you choose
+ is applied to the viewport.</p>
+    </result>
+  </taskbody>
+</task>

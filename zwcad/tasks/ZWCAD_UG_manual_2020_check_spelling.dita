@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA126365-43C411F-15A87A545A1E33F-B36451">
+  <title>Check Spelling</title>
+  <shortdesc>You can use the SPELL command to check the spelling of text in your drawings,
+ use various spe ling dictionaries, and create customspelling dictionary. It is comprised of the following items.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Checking the spelling
+ of text</p>
+      <p>You can use the SPELLcommand to check the spelling of single-line text, multiline text, paragraph text, attributes, attribute definitions, and dimension text.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic477_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Checking the spelling of text</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Type SPELL on the command line andpress
+ Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Select one or more text entities.</cmd>
+      </step>
+      <step>
+        <cmd>In the Check Spelling
+ dialog box, misspelled words display one at a time.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Do one of the following for each found word:</p>
+      <ul>
+        <li>Keep text unchanged — Click Ignore
+ to keep the found word unchanged in the drawing,
+ or click Ignore</li>
+        <li>All to keep all instances
+ of the found word unchanged
+ in the drawing.</li>
+        <li>Change text — Select
+ or type a word in the Suggestions box, then click Change to change the</li>
+      </ul>
+      <p>found word in the drawing
+ to the new text, or click Change All
+ to change all instances of the found word in the drawing.</p>
+      <ul>
+        <li>Click Add if you want to add the currently
+ found word to a list of customspelling words.</li>
+      </ul>
+      <p>The Check
+ Spelling dialog will recognize the added word as spelled correctly the next
+ time the word is checked for spelling.</p>
+    </result>
+  </taskbody>
+</task>

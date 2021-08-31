@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12243-5865143-C4A1F25A7B165A7-9E35B1">
+  <title>Create Radial Dimensions</title>
+  <shortdesc>You can create
+ radial dimensions for circles or arcs to measure their radial. The radial
+ dimension is a radial dimension line
+ with an arrowhead that points to a circle or arc. To display centerlines or a
+ center mark, set the systemvariable DIMCEN to nonzero.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic521_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ If the Text Placement on the Fit
+ tab of the New Dimension Style or Modify Dimension Style dialog box is set to "Over the dimension line,
+ with a leader", then the dimension is applied along with a leader line. Both center marks and lines apply only
+ to radius and diameter dimensions. They are created only when you place the dimension outside
+ the circle or arc. The size of the centerline is the distance of the centerline segment that extends
+ outside the circle
+ or arc, shown
+ in the following illustration:</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic521_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a
+ radial dimension</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Radius from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the arc or circle.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic521_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the dimension
+ line location.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the circle
+ (A), and then specify the dimension line location (B).</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic521_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </result>
+  </taskbody>
+</task>

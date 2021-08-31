@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A453-6131F14-8125715A74DA57B-2A77D1">
+  <title>Restore Layer Settings</title>
+  <shortdesc>You can not only
+ restore the saved settings but also edit, rename or delete named settings.
+ Using Layer States Manager,
+ you can import named layer
+ states that were previously export to LAS files.</shortdesc>
+  <conbody>
+    <p>Whatever layer
+ states come fromthe drawing or LAS files, only saved settings can be restored
+ and the unspecific layer settings remain
+ the original settings.</p>
+  </conbody>
+</concept>

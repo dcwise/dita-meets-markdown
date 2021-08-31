@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A3-665143C-4A11154A8A17A15-59B8B7">
+  <title>Find and Replace Text</title>
+  <shortdesc>Within the In-Place Text Editor, right-click and select Find and Replace
+ to replace the selected characters. The content of the text is replaced,
+ but the properties of the text remain.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

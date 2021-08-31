@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A5854C4A-11F1A87-45B5A79535A1656-FDFD6E">
+  <title>Create fillers</title>
+  <shortdesc>You can create fillets
+ for the specified edges of 3D objects.
+ At first, you need to specify the fillet
+ radius, and then choose
+ one method to create fillets.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If you choose Edge, the systemcreates fillets for the two selected
+ edges. If you select three
+ or more edges which
+ were around a vertex, the systemcreates a spheral vertexif the three fillets
+ have the same radius. After
+ specifying an arc radius, the system creates a sequence of fillets for the
+ tangential sequence of edges, when you use Loop
+ option and select
+ an edge.</p>
+      <p>In 3D space, as
+ the selected objects are coplanar and the extrusion direction is not parallel
+ with the Z axis, you can create
+ a fillet. If the objects
+ are on the same plane,
+ there are two kinds of extrusion direction shown
+ as follows:</p>
+      <ul>
+        <li>If the objects are on the same
+ plane with the same extrusion direction normal to that plane, the fillet
+ arc is on that plane
+ and has the same extrusion
+ direction.</li>
+        <li>For objects on the same plane
+ with opposite or different extrusion directions, the fillet arc is located on that object plane with an
+ extrusion direction normal to the object plane and inclined towards
+ the positive Z direction of the current
+ UCS. For example,
+ we assume two arcs A and B are
+ on the same plane in 3D space but have opposite extrusion directions
+ (0,0.65,0.86) and (0,– 0.65,–0.86) relative to the current UCS. The fillet arc adopts the extrusion direction (0,0.65,0.86).</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic408_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To fillet a solid</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Fillet
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the edge of the solid to fillet.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the fillet radius.</cmd>
+      </step>
+      <step>
+        <cmd>Select additionaledges to fillet,
+ and press Enter to fillet.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

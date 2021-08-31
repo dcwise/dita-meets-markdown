@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B12151-97C7453-95312154A7D1554-155138">
+  <title>报价单</title>
+  <shortdesc>报价单主要用于供应商给客户的报价，类似价格清单。报价单适用于任何交易，包括实物和服务。报价单的基本内容包含产品名称、价格、付款方式、备注信息等。</shortdesc>
+  <conbody>
+    <p>当客户对于某种产品或者服务有购买意向，需要了解价格的时候，销售人员就可以基于销售机会创建报价单，从而推进商机发展。</p>
+    <p>如果用户已经开通了CPQ功能，在新建报价单时，需要决定是否要将该报价单定为<b>主报价单</b>，只有主报价单才可以转成订单。报价单转订单的说明，请参考<xref href="ugcpq_报价单转订单.dita">报价单转订单</xref>。</p>
+  </conbody>
+</concept>

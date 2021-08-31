@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2435836-5E44112-1487105B5A9E394-24EF0C">
+  <title>Merge and unmerge cells</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic548_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Operating Steps:</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select one cell in the table.</cmd>
+      </step>
+      <step>
+        <cmd>Hold down the SHIFT key, andselect another cell to be merged.</cmd>
+      </step>
+      <step>
+        <cmd>Click
+ "Merge Cells" button on the Table toolbar, and select the way you
+ want to merge the cells. You can use
+ the following three methods for merging: All, By Row and By Column. Different merged cells will be generated
+ according to different merging ways.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A458-365E541-48D150579E32ED8-1429B8">
+  <title>Scale Objects</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic343_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can use SCALEcommand to zoomthe selected objects. You can type a scale factor or specify
+ a base point and distance to zoomobjects. A scale factor that is
+ greater than 1 enlarges the object, and a scale factor
+ that is smaller
+ than 1 shrinks the object.</p>
+      <p>You can also scale objects by comparing the basic scale and new scale. The objects become larger if the new scale
+ is large than the basic
+ scale.</p>
+      <p>The dimension
+ will be scaled along with the object
+ to scale.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic343_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To scale a selection
+ set by a scale factor</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Scale
+ from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the base point.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic343_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the scale
+ factor.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To scale an object by a scale
+ factor, select the object (A), and then specify the base point (B) and the scale
+ factor</p>
+      <p>You can also
+ scale some objects using grips. To scale an object, you select the object and
+ then click a grip. You then change
+ the size of the object
+ by moving the grip. The grip you select depends
+ on the type of object
+ you're modifying. For example, to scale a circle, select
+ a quadrant point
+ grip.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic343_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To scale an
+ object using grips</p>
+      <ol>
+        <li>Select the object.</li>
+        <li>Clicka grip to select it.</li>
+        <li>Drag the grip.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic343_image004.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Clickto release.</li>
+      </ol>
+      <p>To scale using grips, select the object (A), click a grip (B), and scale the object by dragging the grip to its new location (C)</p>
+    </result>
+  </taskbody>
+</task>

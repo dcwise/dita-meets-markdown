@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A353-654CA14-87154E19BF9685B-FAAD45">
+  <title>Access frequently used tools</title>
+  <shortdesc>The frequently
+ used buttons in the application menu include those common tools used for
+ starting or publishing a file, such
+ as: New, Open, Etransmit, Save, Save as, Plot, Plot Preview, Close, Options,
+ etc. <b>NOTE </b>You can close ZWCAD by double-clicking the Application button.</shortdesc>
+  <conbody>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic5_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </conbody>
+</concept>

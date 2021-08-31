@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA356836-5E3A11F-21A8105A9153AD8-68A2D8">
+  <title>Change the Linetype of an Object</title>
+  <shortdesc>To change the linetype
+ of an object, you can use following
+ methods:</shortdesc>
+  <conbody>
+    <ul>
+      <li>If the linetype of an object
+ is set to BYLARE, and the object is assigned to another layer, it acquired its linetype
+ fromthe new layer.</li>
+      <li>If the linetype of an object
+ is set to BYLAYER when you change
+ the linetype assigned
+ to a layer, the objects
+ on that layer which are assigned the BYLAYER linetype
+ are updated automatically.</li>
+      <li>Specify a linetype for an
+ object to override the linetype of the layer. You can specify different linetypes for each object. If you want to
+ specify a different linetype to override the
+ player- determined linetype
+ of an object, change an existing object's
+ linetype from BYLAER to a</li>
+    </ul>
+    <p>specific linetype, such as DASHED.</p>
+    <ul>
+      <li>If you want to set a linetype for a subsequently created object, you can change the cur ent linetype
+ BYLAYER to a specific one in the Linetype Control
+ on the Properties toolbar.</li>
+    </ul>
+  </conbody>
+</concept>

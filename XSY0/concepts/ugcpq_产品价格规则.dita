@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A15797C4-1245395-319154A8B515974-151E6C">
+  <title>产品价格规则</title>
+  <shortdesc>产品价格规则需要先关联一个规则组合，然后基于该规则组合设置产品和价格的规则条件以及规则行为。</shortdesc>
+  <conbody>
+    <ul>
+      <li>规则条件决定了该产品价格规则需要满足的触发条件，触发条件会根据触发顺序依次触发。</li>
+      <li>规则行为决定了，当满足了某一个规则条件后，需要触发相应的哪一种行为。</li>
+    </ul>
+    <p>规则条件和规则行为都可以通过汇总值来设置。产品价格规则的汇总值与平台的汇总值不同，平台的汇总值需要在后台进行计算，而产品价格规则的汇总值可以使得原本在后台的计算也可以在前台实现。</p>
+  </conbody>
+</concept>

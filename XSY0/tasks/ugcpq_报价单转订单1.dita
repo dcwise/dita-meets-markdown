@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1251972-4395F24-A76135597C004A9-03D119">
+  <title>报价单转订单</title>
+  <shortdesc>报价单转订单时，会将原有报价单的信息带出，并且还可以编辑订单明细。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在报价单列表页面，单击一个报价单编号，进入该报价单详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>…</b>&gt;<b>新建订单</b>。如果报价单不是主报价单，页面会给出提示。您需要选择是否要将报价单变为主报价单。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic87_image002.png">
+              </image>
+            </fig>
+          </p>
+        </info>
+      </step>
+      <step>
+        <cmd>填写订单信息，然后单击<b>确定</b>。</cmd>
+      </step>
+      <step>
+        <cmd>编辑订单明细，然后单击<b>保存</b>。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>如果需要新增产品，单击<b>+</b>号，从现有的产品列表中添加产品。</p>
+    </result>
+  </taskbody>
+</task>

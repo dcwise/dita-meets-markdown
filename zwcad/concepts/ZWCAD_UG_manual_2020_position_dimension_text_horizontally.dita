@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA2A5836-5E4534A-12A871DA5A3915D-9975AF">
+  <title>Position Dimension Text Horizontally</title>
+  <shortdesc>
+    <image href="../graphics/ZWCAD_UG_manual_2020_topic499_image001.png" />The position of text along the horizon in
+ relation to the extension lines. The settings include Centered, At Ext Line 1, At Ext Line 2, Over Ext
+ Line1, and Over Ext Line2. The following illustrations show the examples of Center and Over Ext Line 1applying
+ to dimension text.</shortdesc>
+  <conbody>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic499_image002.png" />As you create
+ dimensions, the order you specified the extension line origins determines
+ which extension line is first. For angular dimensions, the
+ order is defined around the counterclockwise. In the following figures,
+ the first extension line origin is 1 and the second
+ one is 2.</p>
+    <p>If the
+ "Place text manually when dimensioning" option on the Fit tab of the
+ Modify Dimension Style dialog boxis
+ chosen, as you create dimensions, you can place the dimension anywhere inside
+ or outside the extension
+ lines along the dimension line. This option
+ is useful when the space
+ between the extension</p>
+    <p>lines is limited.</p>
+  </conbody>
+</concept>

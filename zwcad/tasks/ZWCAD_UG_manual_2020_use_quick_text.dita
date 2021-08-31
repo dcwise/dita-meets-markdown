@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A365-451F273-AA91E5A44446A13-39FE28">
+  <title>Use Quick Text</title>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic179_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ If a drawing contains a lot of text
+ using complex fonts, only a rectangular frame defining the text is displayed or plotted when you turn
+ on Quick Text mode.</p>
+      <p>Text entities
+ require a considerable amount of time to display
+ and print. You can reduce
+ the time it takes to display or print a drawing by enabling
+ Quick Text. For example, if you're doing a preliminary check print of a drawing, you may want to turn
+ Quick Text on to speed up printing.
+ When Quick Text is enabled,
+ text entities are replaced by rectangular boxes that indicate
+ the outline of the area occupied
+ by the text.</p>
+      <p>When you turn Quick Text on or off, you must regenerate
+ the drawing before
+ the change is displayed.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic179_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn Quick Text on and off</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Options
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Clickthe Display tab.</cmd>
+      </step>
+      <step>
+        <cmd>Under Display
+ Performance, select or clear
+ the Show Text Boundary Frame Only check box.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic179_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To regenerate your drawing, do one of the following:</p>
+      <ol>
+        <li>Choose View &gt; Regen from the main menu.</li>
+        <li>Type REGEN on the command line andthen press Enter.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

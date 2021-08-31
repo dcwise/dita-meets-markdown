@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA125683-E143C11-AB75A7E5359FE5C-3697ED">
+  <title>Modify a Block Definition</title>
+  <shortdesc>You can redefine all instances of a block
+ within the current
+ drawing. To redefine a block that
+ was created in the current
+ drawing, you create a new block using
+ the same name.
+ You can update all the blocks in the current drawing by redefining the block.
+ If the block was inserted froma separate drawing file that was subsequently updated, reinsert that block to update all other instances
+ in the current drawing.</shortdesc>
+  <conbody>
+    <p>There are two
+ methods of redefining block definitions, you can choose to modify block
+ definition in current drawing or an original
+ drawing.</p>
+  </conbody>
+</concept>

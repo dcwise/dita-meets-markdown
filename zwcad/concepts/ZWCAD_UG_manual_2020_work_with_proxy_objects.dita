@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A22A4356-551F879-53A79E3962FFEDA-05BF8D">
+  <title>Work with Proxy Objects</title>
+  <shortdesc>When the Runtime
+ Extension application that created the customobject is not available to ZWCAD
+ or other host applications, a proxy object is used as a substitute for a customobject. Later, the customobject replaces the proxy
+ object if the application is available to ZWCAD.</shortdesc>
+  <conbody>
+    <p>As compared to
+ corresponding custom objects, Proxy objects are endowed with significantly
+ reduced capabilities.
+ The extent to which proxy objects can be edited is determined by the parent
+ Runtime Extension application. For example, to determine whether to erase and move
+ an object or change object properties, may or may not be possible on a proxy object,
+ depending on the application that created it.</p>
+    <p>A Proxy
+ Information dialog box will be
+ displayed when you open a drawing. Which shows the total number of proxy objects in the drawing (both graphical and
+ non-graphical) and the name of the missing
+ application and provides additional information about
+ the proxy object
+ type and display
+ state. You control
+ the display of proxy objects
+ with the dialog
+ box.</p>
+  </conbody>
+</concept>

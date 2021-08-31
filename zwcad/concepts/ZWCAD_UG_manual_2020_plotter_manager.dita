@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A435-8365E15-3CAF214A88D5579-1E5971">
+  <title>Plotter Manager</title>
+  <shortdesc>Plotter Manager
+ is a window in which all the plotter configuration (PC5) files of user
+ installation are listed. If you want to use ZWCAD default plotting properties other than that of Windows
+ system configured, you can also
+ create a new plotter configuration files for Windows system plotter. Plotter configuration settings contain port
+ information, quality of raster images and vector drawings, drawing size and customized properties based on the plotter type.</shortdesc>
+  <conbody>
+    <p>The user can
+ start an Add Plotter - Introduction Page dialog box by selecting Add New
+ Plotters option from the Name
+ pull-down boxin Printer/Plotter area on Plot dialog box, which is available for
+ creating plotter configuration using relevant information that is imported
+ as this wizard
+ required.</p>
+  </conbody>
+</concept>

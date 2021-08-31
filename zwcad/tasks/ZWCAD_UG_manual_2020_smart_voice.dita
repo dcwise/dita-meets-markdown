@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A456-835134A-125AAC5A79E393A-B34591">
+  <title>Smart Voice</title>
+  <shortdesc>Smart Voice
+ provides designers a more convenient interactive way for drawings review. The traditional ways include face to face interaction or
+ adding text annotations in the drawings (such as adding cloud lines, leads, texts,
+ etc.). However, the former one requires both of the designers in the
+ same place, which is inconvenient for recording and
+ subsequent accessing to the interactive content; while the latter one is less efficient, you need to enter a lot of
+ text and may lead to misunderstanding. As to the Smart Voice function,
+ it can help create voice comments in drawings, which
+ is more conducive to the communication between designers.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Besides,
+ a lot of other usages can be derived fromthe
+ smart voice function,
+ such as:</p>
+      <ul>
+        <li>Auxiliary description for design intent</li>
+        <li>Auxiliary tool for design thinking
+ recording</li>
+        <li>Auxiliary tool for review comments
+ description</li>
+        <li>Effects enhancement tool for design
+ demonstration</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic480_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Create voice object</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools » Smart Voice
+ » Smart Voice from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Input S(Settings) inthecommand line to specify the wayyouinsert the voice object.</cmd>
+      </step>
+      <step>
+        <cmd>Mouse over the
+ generated record button, press andhold the left mouse button to start recording.</cmd>
+      </step>
+      <step>
+        <cmd>Release the mouse to stop recording
+ and the Recordiconwill change into the Play</cmd>
+        <info>
+          <p>icon.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Command line: SMARTVOICE</cmd>
+      </step>
+      <step>
+        <cmd>You can use the following three
+ ways to insert voice objects:</cmd>
+      </step>
+      <step>
+        <cmd>Insert into Point: Specify
+ a point of absolute locationto insert the voice object;</cmd>
+      </step>
+      <step>
+        <cmd>Insert into
+ Region: Bindthe voice object to a region, the regionwill be highlighted in a dashed frame
+ when youmouse over
+ it;</cmd>
+      </step>
+      <step>
+        <cmd>Bind to Entity Object:
+ Bindthe voice to an object, the object will be highlighted in</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>a dashed
+ frame when you mouse over it.</p>
+    </result>
+  </taskbody>
+</task>

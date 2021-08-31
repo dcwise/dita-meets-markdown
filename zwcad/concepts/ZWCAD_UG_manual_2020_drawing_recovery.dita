@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB2A4568-3645A11-F2154A881524454-24C9DD">
+  <title>Drawing Recovery</title>
+  <shortdesc>Once terminated
+ by hardware problems, power failure or software problems, the application is
+ capable of backup the opened drawing
+ file. At the next startup, the programstarts "Drawing Recovery"
+ manager in which all of the
+ auto-backup drawing files that have been closed accidentally will be displayed.
+ You can open the file of your demand
+ by double-clicking at the Backup File list on the "Drawing Recovery" if there is any damage
+ to the file, the systemattempts to recover the drawing in process of backup.</shortdesc>
+  <conbody>
+    <p>When program or system stopped by accident, the drawing files need to recover are sorted into the following types.</p>
+    <ul>
+      <li>Recovered drawing file saved when the programfails (DWG)</li>
+      <li>Autosaved file, so-called "auto-save" file (zw$)</li>
+      <li>Backup file (BAK)</li>
+      <li>Source drawing file (DWG)</li>
+    </ul>
+  </conbody>
+</concept>

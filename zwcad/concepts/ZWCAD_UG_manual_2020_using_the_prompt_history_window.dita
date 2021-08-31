@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB122436-65E143C-4A11F154A87525C-741429">
+  <title>Using the Prompt History Window</title>
+  <shortdesc>The Prompt
+ History window displays a history of the commands and prompts issued since you started the current session
+ of ZWCAD. By default, the programtracks up to 256 command lines.</shortdesc>
+  <conbody>
+    <p>There is no limit
+ to the number of command lines you can track, but program performance
+ may be degraded if you choose
+ to track an excessively high
+ number of lines.</p>
+    <ul>
+      <li>To display or close the Prompt History window: Press
+ F2.</li>
+      <li>To view entries in the Prompt History window, do one of the following:<ul><li>Drag the scroll
+ bars.</li><li>Use the Up (↑) and Down (↓) arrows to display previously
+ used commands.</li></ul></li>
+      <li>To copy or paste text in the Prompt
+ History window, do one of the following to get the text field that you want:<ul><li>Highlight text using your mouse.</li><li>Press Ctrl + Shift + arrow keys to highlight
+ the desired text.</li><li>Right-click and choose whether to copy or paste in the pop-up shortcut menu.</li></ul></li>
+    </ul>
+    <p>
+      <b>TIP </b>You can also copy the entire command history by choosing
+ Copy History.</p>
+  </conbody>
+</concept>

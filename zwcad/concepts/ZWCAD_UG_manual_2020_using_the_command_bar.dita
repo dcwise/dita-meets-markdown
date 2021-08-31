@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B22A43-86E4534-11F214A87A15525-7442D9">
+  <title>Using the command bar</title>
+  <shortdesc>The command bar
+ is a dockable window in which you type ZWCAD commands and view prompts and other program messages. To display the
+ command bar, choose Tools &gt; Command Line. You can move the command
+ bar by way of dragging.</shortdesc>
+  <conbody>
+    <p>When the command
+ bar is floating, you can drag the top or bottomof the window to change the
+ number of lines of text it displays.
+ You can dock
+ the command bar at the top or bottomof the drawing.</p>
+  </conbody>
+</concept>

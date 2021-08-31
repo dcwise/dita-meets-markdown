@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A1257519-C424539-53191F248715515-1DDF30">
+  <title>新建组合产品的产品阶梯价格表</title>
+  <shortdesc id="_Hlk520396077">针对大型企业而言，每一个产品都会有不同的阶梯价格或者折扣。针对同一产品，在不同的组合产品下也会有不同的价格。产品经理或管理员在配置时，需要将组合产品与设定好的阶梯价格表进行匹配，当销售人员在生成报价单或订单时，能够根据阶梯价格表更快速地确定组合产品的价格，从而提升整体效率。</shortdesc>
+  <taskbody>
+    <context>
+      <p>产品经理或管理员设置了组合产品后，可在组合产品的详情页中，选择需要关联该组合产品的阶梯价格表。更多关于阶梯价格表的说明，请参考<xref href="../concepts/ugcpq_阶梯价格表1.dita">阶梯价格表</xref>。</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>单击<b>CRM</b>&gt;<b>产品</b>，进入产品列表页面。</cmd>
+      </step>
+      <step>
+        <cmd>找到一个组合产品，单击名称，进入组合产品的详情页面。</cmd>
+      </step>
+      <step>
+        <cmd>单击<b>相关</b>页签，找到<b>产品阶梯价格表</b>，单击<b>+</b>号，为组合产品添加阶梯价格表。</cmd>
+      </step>
+      <step>
+        <cmd>填写产品阶梯价格表信息，其中带<b>*</b>号的项为必填项。</cmd>
+        <info>
+          <p>
+            <fig>
+              <image href="../graphics/ugcpq_topic11_image002.png" />
+            </fig>
+          </p>
+          <table>
+            <tgroup cols="2" colsep="1" rowsep="1">
+              <colspec colname="col1" />
+              <colspec colname="col2" />
+              <tbody>
+                <row>
+                  <entry colname="col1">
+                    <b>配置项</b>
+                  </entry>
+                  <entry colname="col2">
+                    <b>说明</b>
+                  </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 序号 </entry>
+                  <entry colname="col2"> 用于确定报价或订单中，某一个产品计算阶梯价格表的先后顺序，并且序号不可重复。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 产品名称 </entry>
+                  <entry colname="col2"> 系统会自动显示当前组合产品的名称，并且产品名称不允许编辑。 </entry>
+                </row>
+                <row>
+                  <entry colname="col1"> 阶梯价格表名称 </entry>
+                  <entry colname="col2">
+                    <p>系统会自动显示当前组合产品的名称，并且产品名称不允许编辑。</p>
+                    <p>一个产品只能关联一个定价类型的阶梯价格表和多个折扣类型的阶梯价格表。产品的价格会按照先定价，再折扣的顺序计算。</p>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </info>
+      </step>
+      <step>
+        <cmd>单击<b>保存</b>，完成产品价格阶梯表新建。</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

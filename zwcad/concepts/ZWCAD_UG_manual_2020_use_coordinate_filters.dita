@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7AA3583-65E453C-A1F25487C15A5A9-E535F2">
+  <title>Use Coordinate Filters</title>
+  <shortdesc>Point filters provide a method of locating a point in a drawing
+ relative to another
+ point without specifying the entire coordinate. Using a point filter, you can enter partial coordinates, and then the programprompts you for the remaining coordinate
+ information. To use XYZ point filters, respond to the prompt for a coordinate with a filter
+ in the following form:</shortdesc>
+  <conbody>
+    <p>.coordinate </p>
+    <p>Where coordinate
+ is one or more of the letters x, y, and z. The programthen prompts you for the
+ filtered coordinate(s).
+ For example, if you type .xy, the program prompts you to select a point whose
+ xy coordinate
+ you wantand then prompts you for the z coordinate. The filters .x, .y, .z, .xy,
+ .xz, and .yz are all valid filters.</p>
+  </conbody>
+</concept>

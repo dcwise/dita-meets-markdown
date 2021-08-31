@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72453E1-C4A11F1-487CD15A735A3CB-B473E3">
+  <title>Helix</title>
+  <shortdesc>When you create a helix,
+ you can specify the following:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Base radius</li>
+      <li>Top radius</li>
+      <li>Helix height</li>
+      <li>Number of turns</li>
+      <li>Turn height</li>
+      <li>Twist direction</li>
+    </ul>
+    <p>You can use a helix as a path along which to sweep an object to create an
+ image as follows, sweeping a circle along a helix path to create
+ a solid model
+ of a spring.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic292_image002.png" />
+      </fig>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic292_image004.png" />
+    </p>
+  </conbody>
+</concept>

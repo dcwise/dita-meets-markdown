@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712453E-1434AF7-F159135A2144DFA-914928">
+  <title>Display Lineweights in Layouts</title>
+  <shortdesc>In paper
+ space (layout tab), lineweights are displayed in exact plotting
+ width.</shortdesc>
+  <conbody>
+    <p>In plot preview
+ and paper space, lineweights are displayed in real-world units and lineweight
+ changes with the scale factor. From
+ the Plotting Scale tab of Plot dialog box, you can control the lineweight plotting and scale in a drawing.</p>
+    <p>In paper space,
+ press LWT button on the status toolbar to turn the lineweight display on and
+ off. This change does not affect
+ the lineweight plotting.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A43-83E1453-A1F1547B591E7C5-76C97D">
+  <title>Insert Blocks with DesignCenter</title>
+  <shortdesc>The block
+ definitions created in a drawing file are displayed in DesignCenter. Use Design
+ Center to insert blocks from the
+ current drawing, right-click the block, and select insert block by specifying
+ its location, scale, and rotation.
+ You cannot add blocks to a drawing in process of another command, and you can only insert
+ or attach one
+ block at a time.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

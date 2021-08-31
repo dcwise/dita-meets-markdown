@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A72A4356-8615F21-548715B9E53A692-EA2C70">
+  <title>Remove Selection from Objects</title>
+  <shortdesc>If an object is
+ no longer needed in a selection set, you can deselect it to remove it from the
+ selection set. To remove an object
+ fromthe selection set: Press Shift, and then select the object again.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <b>NOTE
+ </b>Pressing Shift
+ while selecting objects using a crossing window removes all objects from the specified selection
+ set.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic308_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To remove all objects
+ fromthe selection set</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Press Escape.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

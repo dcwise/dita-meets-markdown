@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A722A356-6453C11-14A895195354AF3-F06556">
+  <title>Raster File Formats</title>
+  <shortdesc>Several raster
+ file formats, including Windows BMP, TIFF, PNG, TGA, SVG and JPEG are supported by the
+ non-systemraster driver. The raster driver
+ is most commonly used when a plot to files for desktop
+ publishing.</shortdesc>
+  <conbody>
+    <p>
+      <xref href="../tasks/ZWCAD_UG_manual_2020_plot_adobe_pdf_files.dita">Plot Adobe
+ PDF Files</xref>
+    </p>
+    <p>Adobe PDF file can be created fromdrawing using PDF driver.</p>
+  </conbody>
+</concept>

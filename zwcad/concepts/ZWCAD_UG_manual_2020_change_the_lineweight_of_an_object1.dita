@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AAA3E11F-214A8F1-355A79E52B1A744-6919F8">
+  <title>Change the Lineweight of an Object</title>
+  <shortdesc>There are three choices for changing the lineweight of an object:</shortdesc>
+  <conbody>
+    <ul>
+      <li>If the lineweight of an object
+ is set to BYLAYER, and you reassign the object to a different layer,
+ the object acquires its lineweight fromthe new layer.</li>
+      <li>If the lineweight of an object
+ is set to BYLAYER, you can change the
+ lineweight of the layer the object is on, and all objects assigned
+ to BYLAYER on that layer are updated
+ automatically.</li>
+      <li>Specify a lineweight for an
+ object to override the layer's lineweight. If you want to specify a lineweight to override the player-determined lineweight of an object,
+ change an existing
+ object's lineweight from BYLAYER to a specific
+ lineweight.</li>
+    </ul>
+    <p>In order to
+ create subsequent objects using a new lineweight, you have to change the
+ lineweight setting on the Properties toolbar
+ from BYLAER to the specific
+ one.</p>
+  </conbody>
+</concept>

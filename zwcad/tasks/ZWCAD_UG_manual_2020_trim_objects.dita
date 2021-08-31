@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7122A35-6551215-487D55A79AED79D-D734B8">
+  <title>Trim Objects</title>
+  <shortdesc>You can clip, or
+ trim, objects so they end at one or more implied cutting edges defined by other
+ objects. You can also trim objects
+ to the point at which they would intersect an implied cutting edge. When trimming objects, you first select the
+ cutting edges and then specify the objects to trim, selecting them either one at a time or using the fence selection method.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can trim arcs, circles,
+ lines, unclosed polylines,
+ and rays. In
+ which, arcs, circles, lines, polylines,
+ rays, infinite lines,
+ and viewports on a Layout
+ tab can act as cutting
+ edges.</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic347_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic347_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To trim an object</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Trim from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select one or more cutting edges, andthen press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object to trim.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic347_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select another object
+ to trim, or press Enter to complete
+ the command.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To trim objects, select the cutting
+ edge (A), and then select the objects
+ to trim (B)</p>
+      <p>Holding down SHIFT while selecting objects, the system
+ extends the object to the nearest boundary
+ instead of trimming
+ selectingan object.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic347_image004.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ In
+ this example, you clean up the intersection of two walls smoothly by trimming.</p>
+      <p>Using variable selection methods while trimming several objects can help you select edges or objects more easily.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic347_image005.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ In
+ the following example,
+ the cutting edges are selected using crossing selection.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic347_image002.png" />To trim several objects
+ using the fence selection method</p>
+      <ol>
+        <li>Choose Modify &gt; Trim from the mainmenu.</li>
+        <li>Select one or more cutting edges, andthen press Enter.</li>
+        <li>On the command line, type F (Fence).</li>
+        <li>Specify the first point of the fence.</li>
+        <li>Specify the second point of the fence.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic347_image006.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the next fence point,
+ or press Enter to complete
+ the command.</li>
+      </ol>
+      <p>Select the boundary
+ edge (A), and then specify the first point (B) and second point (C) of the fence</p>
+      <p>You can trim
+ objects to the nearest point of other objects. Selecting objects and clicking
+ objects to trim, the system
+ specifies the nearest objects as the
+ cutting edges. The following picture shows that the crossing boundary
+ is smooth after
+ trimming.</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic347_image007.png" />
+      </p>
+    </result>
+  </taskbody>
+</task>

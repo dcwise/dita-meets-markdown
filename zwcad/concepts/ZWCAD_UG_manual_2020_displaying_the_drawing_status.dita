@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A43-6865E15-3C411F215A7F1D5-25A93A">
+  <title>Displaying the drawing status</title>
+  <shortdesc>You can display information about
+ the current status of a drawing, including:</shortdesc>
+  <conbody>
+    <ul>
+      <li>Drawing name.</li>
+      <li>Limits.</li>
+      <li>Insertion base point.</li>
+      <li>Snap and grid settings.</li>
+      <li>Current layer, color,
+ and linetype.</li>
+      <li>Current settings for various modes
+ (fill, grid, orthogonal, snap, blips, and so on).</li>
+    </ul>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic191_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ To display the drawing
+ status</p>
+    <p>1. Choose Tools &gt; Inquiry
+ &gt; Status fromthe
+ main menu.</p>
+  </conbody>
+</concept>

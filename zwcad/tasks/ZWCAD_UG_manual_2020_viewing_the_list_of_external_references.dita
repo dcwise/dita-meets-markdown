@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A12A4636-E15CA12-57B15153917AA4F-792F59">
+  <title>Viewing the list of external references</title>
+  <shortdesc>You can view a list
+ of the external references that are linked to the current drawing two different
+ ways using the Xref Manager:</shortdesc>
+  <taskbody>
+    <context>
+      <ul>
+        <li>List View - Displays the external references in a
+ list, which allows you to sort the list of references by name,
+ status, size, type, date, or saved path.</li>
+        <li>Tree View -
+ Displays a hierarchical
+ representation of the external references and the relationships between them. The
+ tree view shows the level of nesting relationships of the attached external references.</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic582_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To view a list of external
+ references</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Xref Manager from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Click List View or Tree View.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

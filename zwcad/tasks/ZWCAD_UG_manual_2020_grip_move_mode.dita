@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA122A65-13A24A7-15251E55A17B6FD-FAD76E">
+  <title>Grip Move Mode</title>
+  <shortdesc>With grip move mode, you can move selected
+ entities by moving
+ its grips. The entity with specified grips will be highlighted and moved according to the specified orientation and position.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Objects of
+ various types need to be moved through different grips. For example, to move a
+ line, use the midpoint as grip, to
+ move curve objects, like arc, circle or ellipse, select center point or grip.
+ Not all the entities are enabled
+ grip moving.</p>
+      <p>If you press
+ ENTER or SPACE key after selecting grips, all the grip modes are displayed,
+ choose to Move and then command
+ line prompts as follows:</p>
+      <p>Specify the move point or
+ [Base point/Copy/Undo/eXit]: </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic391_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Move one or more Entities</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Select entities to move.</cmd>
+      </step>
+      <step>
+        <cmd>Clickon grips of the entity to highlight the selected gripandactivate the grip mode as Stretch.</cmd>
+      </step>
+      <step>
+        <cmd>Press ENTER to iterate grip mode until Move appears in command line. Dynamic input box displayed
+ on screen showing
+ the following manipulations:</cmd>
+        <info>
+          <p>Specify "B(Base point)" option to locate the grip.</p>
+          <p>Specify "C(Copy)" option to create a copy of the entity being moved. Specify
+ "U(Undo)" option to abort last moving.</p>
+          <p>Specify "X(eXit)" option to exit move manipulation. Specify target location
+ to grips directly.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Move the
+ pointing device to specify target location, the selected grip on objects will be moved towards the orientation
+ anddisplacement along the connecting line of the selected grip andthe target
+ point (or create
+ a copy of the entity
+ after moving).</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

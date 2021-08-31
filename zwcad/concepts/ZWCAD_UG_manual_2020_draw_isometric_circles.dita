@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A1236645-C4A1F15-481A9E55A224433-34F16F">
+  <title>Draw Isometric Circles</title>
+  <shortdesc>You can create an
+ isometric circle on the current isometric plane using Ellipse Isocircle. The
+ Isocircle option is available only when the Isometric Snap is on.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

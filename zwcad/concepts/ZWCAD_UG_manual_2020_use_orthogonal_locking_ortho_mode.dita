@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A24585-E1C411F-2154A87F15A7915-D66BD8">
+  <title>Use Orthogonal Locking (Ortho Mode)</title>
+  <shortdesc>You can restrict cursor
+ movement to the current
+ horizontal and vertical
+ axes so that you can draw at right angles,
+ or orthogonally. For example, with the default
+ 0-degree Orientation (angle
+ 0 at the "three o'clock" or "east" position), when the Draw Orthogonal option
+ is enabled, lines are restricted to 0 degrees, 90 degrees, 180 degrees, or 270 degrees.
+ As you draw lines, the rubber banding line follows either the horizontal or vertical axis, depending on
+ which axis is farthest from the cursor. When you enable the isometric snap and grid, cursor movement is restricted to orthogonal
+ equivalents within the current isometric plane.</shortdesc>
+  <conbody>
+    <p>Ortho mode and polar tracking cannot be on at the same time. Turning on Ortho turns off polar tracking. To enable
+ orthogonal drawing</p>
+  </conbody>
+</concept>

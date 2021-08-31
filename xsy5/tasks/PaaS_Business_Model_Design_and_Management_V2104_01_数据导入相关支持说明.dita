@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7BD730D-A47A435-211F5A87252745D-48FD92">
+  <title>数据导入相关支持说明</title>
+  <shortdesc>数据导入支持部分字段类型的导入，详情如下表所示 （下表中未列出的字段类型均不支持）。</shortdesc>
+  <taskbody>
+    <context>
+      <p>字段类型 导入格式说明</p>
+      <p>文本 示例：text</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image001.png" />
+        </fig>
+      </p>
+      <p>
+ 单选 填写实际的选项值内容 （非 Value 值）</p>
+      <p>多选 1. 填写实际的选项值内容 （非 Value 值）</p>
+      <p>
+ 2. 多个选项之间使用逗号分隔</p>
+      <p>文本域 示例：textarea</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 整数 示例：1000001</p>
+      <p>实数 示例：1.1</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 货币 示例：1.1</p>
+      <p>日期 使用 YYYY-MM-DD 格式</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 日期时间 使用 YYYY-MM-DD HH:MM:SS 格式</p>
+      <p>关联关系 填写 ID 或者 Name</p>
+      <p>
+ 主子明细 填写 ID 或者 Name</p>
+      <p>电话 示例：13700000000</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ 邮箱 示例：xsy@xiaoshouyi.com</p>
+      <p>网址 示例：https://xsy.com</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image001.png" />
+      </p>
+      <p>图片 1. 图片格式支持
+ jpg、jpeg、gif 和 png</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>单张图片的大小最大支持 80M</cmd>
+      </step>
+      <step>
+        <cmd>
+ 一个图片类型字段中，上传的所有图片的总大小
+ 无限制</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>百分比 填写真实值，比如 5%，需要填写为
+ 0.05</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image001.png" />
+        </fig>
+      </p>
+      <p>
+ 布尔型 填写 true 或者 false</p>
+      <p>多维度相关 填写实际的多维度名称</p>
+      <p>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image002.png" />
+      </p>
+      <p>| <b>214</b></p>
+      <p>
+        <b>字段类型 导入格式说明</b>
+      </p>
+      <p>业务类型 填写实际的业务类型名称</p>
+      <p>
+        <fig>
+          <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic36_image002.png" />
+        </fig>
+      </p>
+      <p>
+        <b>NOTE 1. </b>日期类型的字段不支持多时区，仅以导入的值为准。</p>
+      <p>
+        <b>2. </b>日期时间类型的字段支持多时区，时区以执行导入操作的用户的时区为准进行转换。</p>
+    </result>
+  </taskbody>
+</task>

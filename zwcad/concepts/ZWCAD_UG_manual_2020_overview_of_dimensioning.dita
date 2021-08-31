@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A433-514A1FA-7AC575A7159571D-C5E17F">
+  <title>Overview of Dimensioning</title>
+  <shortdesc>You can create five basic types of dimensions: linear,
+ angular, radial, diametral, and ordinate.</shortdesc>
+  <conbody>
+    <p>You can create
+ dimensions for existing entities by selecting them, or
+ you can create dimensions by selecting points within a
+ drawing. For example, you can create a linear
+ dimension either by selecting the entity to be dimensioned or by specifying the first and second extension line origins.</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic484_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Dimensions indicate the measurement
+ values of objects (e.g. length or width), distance or angles among objects, or the distance between the
+ feature point and the specified origin. You can create dimensions that can be horizontal, vertical, aligned, rotated, coordinate, baseline, or continued.</p>
+    <p>When you create a
+ dimension, the program draws it on the current layer, using the current
+ dimension style. Each dimension has an associated dimensionstyle, which controls the appearance of the dimension, such as the types of arrowheads, text style, and colors of
+ various components. You can modify existing dimension
+ styles by changing any of the dimension variable settings, and the new dimension
+ style is visible soon
+ after you confirmthe modification.</p>
+    <p>You can use the QDIM command
+ to create or edit a series of non-associative dimensions.</p>
+  </conbody>
+</concept>

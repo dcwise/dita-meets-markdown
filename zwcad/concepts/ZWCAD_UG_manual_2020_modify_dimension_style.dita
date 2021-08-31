@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A5-3651441-F54A87B16B5A1E5-392BF1">
+  <title>Modify Dimension Style</title>
+  <shortdesc>You can modify
+ all of the properties of the existing dimension objects in a drawing using
+ dimension styles. You can also create
+ a dimension style override to temporarily change a dimensioning system variable without
+ changing the current
+ dimension style.</shortdesc>
+  <conbody>
+    <p>As you create
+ dimensions, the systemapplies the default current dimension style to the
+ dimensions. The created dimension
+ remains this style unless you apply a new dimension style to it or set up
+ dimension style overrides.</p>
+    <p>You can also
+ modify the current dimension style and apply it
+ to existing dimensions. If a dimension style is changed,
+ the dimension associated with that dimension
+ style updates automatically.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AB12A435-6835E3C-F254761225C7452-CE3D4D">
+  <title>Set Model Space Viewports</title>
+  <shortdesc>In large or complex drawings, displaying different views reduces the time needed to zoom or pan in a single view.
+ Also, errors you might miss in one view may be apparent
+ in the others.</shortdesc>
+  <conbody>
+    <p>Viewports created on the Model tab completely fill the drawing area and do not overlap.
+ As you make</p>
+    <p>changes in one viewport, the others are updated simultaneously. Three model space
+ viewports are shown in the illustration.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic86_image002.png" />
+      </fig>
+    </p>
+    <p>Model space viewports</p>
+  </conbody>
+</concept>

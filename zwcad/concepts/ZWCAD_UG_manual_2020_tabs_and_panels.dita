@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A4224583-6434A21-4A8761571EF02F6-224932">
+  <title>Tabs and Panels</title>
+  <shortdesc>Under the 2D Drafting&amp;Annotation
+ working space, ribbon will
+ be displayed when you open a file, providing
+ a tool desired for creating and modifying drawings. The ribbon consists of
+ several panels, which are organized
+ into each tab according to their task label. The tools and controls in each
+ panel are also available
+ in toolbars and dialog boxes.</shortdesc>
+  <conbody>
+    <p>If you click the
+ arrow in the lower right corner of the panel, a dialog box related to this
+ panel will be opened. On the panel,
+ multiple radio buttons can be collapsed into a single button. If you click the ar ow on the right or at the bottom of the
+ button, all tool buttons in the list will be displayed in a drop-down method. If you click the button in the list, the previous button will be replaced by this button.</p>
+    <p>
+      <fig>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic8_image002.png" />
+      </fig>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic8_image004.png" />
+    </p>
+    <p>Click to launch a dialog box Radio buttons</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic8_image006.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>The Ribbon
+ tabs and panels</p>
+  </conbody>
+</concept>

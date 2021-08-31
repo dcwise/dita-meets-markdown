@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12435-6351534-1121A7C455A791E-5A7FD2">
+  <title>Entering x,y,z coordinates</title>
+  <shortdesc>When working in three dimensions, you can specify
+ x,y,z coordinates as absolute distances in relation to the
+ origin (the (0,0,0) coordinate point at which the three axes intersect) or as
+ relative coordinates based on the last point
+ selected. For example,
+ to specify the coordinate (3,4,2),
+ just specify a point 3 units along the positive
+ x-axis, 4 units along the positive y-axis,
+ and 2 units along the positive z-axis.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

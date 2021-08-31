@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AAA5665E-45C4A24-AD4525A915353CB-B738E3">
+  <title>Create Wipeouts</title>
+  <shortdesc>Wipeouts are unique entities
+ that can help you hide
+ areas of your drawing. They display with the cur ent background color, so the details behind
+ the wipeout do not display
+ or print.</shortdesc>
+  <conbody>
+    <p>Wipeouts are
+ similar to other entities — you can copy, mirror, array, erase, rotate, and
+ scale them, and they can be used in both model
+ space and paper
+ space.</p>
+    <p>If you want to
+ print the wipeout entities located in a drawing, you must print to a
+ raster-capable printer. Note that in
+ some cases you may have unexpected results when printing drawings that contain
+ wipeout entities, for example, if printing on colored paper.</p>
+  </conbody>
+</concept>

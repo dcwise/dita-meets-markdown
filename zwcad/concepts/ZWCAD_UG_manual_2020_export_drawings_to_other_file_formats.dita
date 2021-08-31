@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA255E3A-1F14157-1E592F96C58E2BD-DBF86D">
+  <title>Export Drawings to Other File Formats</title>
+  <shortdesc>Export and
+ convert ZWCAD drawings as other file formats. ZWCAD supports the output file
+ format containing: WMF,
+ DXF, BMP, DWG, DWT, PDF, EPS, DWF, SAT.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

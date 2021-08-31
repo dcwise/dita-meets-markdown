@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B1436E-453411F-21879574152E973-F5A72D">
+  <title>Displaying the previous view of a drawing</title>
+  <shortdesc>After you zoomin or pan to view a portion of your drawing
+ in greater detail,
+ you may want to zoomback
+ out to see the entire drawing. On the View &gt; Zoommenu, the Previous tool
+ lets you restore the previous view. Selecting
+ this tool repeatedly steps back through
+ up to 25 successive zoomed or panned views.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

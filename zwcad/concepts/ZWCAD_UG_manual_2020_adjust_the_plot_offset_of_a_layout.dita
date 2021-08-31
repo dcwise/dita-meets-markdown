@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A2436514-11F21B5-A791E95EA84297B-47C389">
+  <title>Adjust the Plot Offset of a Layout</title>
+  <shortdesc>You can offset
+ the geometry on the paper by entering a positive or negative value in the X and
+ Y Offset boxes. Changing
+ the plotting origin may change
+ the position of drawing on papers.</shortdesc>
+  <conbody>
+    <p>The plot origin
+ locates at the left lower corner of plotting area with an offsetvalue of 0
+ relative to X and Y direction. The
+ drawing will be moved relative to the left lower corner of the paper once you
+ assigned a positive or negative
+ value to the plot offset. While a negative offset assigns the drawing plotted
+ under the left lower corner
+ of the paper
+ and results in the plot area being
+ clipped.</p>
+    <p>Select Center
+ on Paper if the specified plot area is part of the drawing
+ rather than the
+ whole layout, which changes the position
+ of plot origin.</p>
+    <p>You can set the
+ area to be plotted in Plot dialog box. When creating new layouts, the default
+ plot option is drawing limits which
+ means plotting all the objects within the drawing paper. The plot origin is
+ (0,0), located at the left lower corner of the page.
+ ZWCAD provides the following methods
+ to select a plot area:</p>
+    <ul>
+      <li>Display: Plots the contents displayed
+ in the current view.</li>
+      <li>Extents: Plots the portion of the current
+ space of the drawing that contains objects.</li>
+      <li>Limits/Layout: When printing
+ from model space, the content of specified drawing limits will be printed. When you plot a layout,
+ entities in the printable area will be printed. The printable area's origin coordinate is calculated
+ fromits (0,0) point, and its print area is determined by the size of the drawing paper.</li>
+      <li>Window: Plots any portion of
+ the drawing you specify within the rectangle window. Click the Window button to use a pointing device to
+ specify opposite corners of the area to be plotted, and then return
+ to the Plot dialog box.</li>
+    </ul>
+  </conbody>
+</concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12A563-65143C4-A11F14A87A145A7-9E536B">
+  <title>Undo Several Actions at Once</title>
+  <shortdesc>UNDO command helps to abort multiple operations at a time.</shortdesc>
+  <conbody>
+    <p>When using UNDO
+ command, system groups a number of operations
+ assigned within BEgin and End so
+ that you can cancel all the steps as a group object at a time. Use Mark and
+ Back to enable users to cancel all
+ the later operations since the marked step. If you use Back or Number of
+ operations to undo option, the
+ drawing will be redrawn if necessary. This may happen to the end of UNDO
+ command, and the frequency of
+ redrawing can be different based on the option you select, for example, enter
+ UNDO 3 to redraw once, while
+ entering U command
+ three times to redraw three
+ times.</p>
+  </conbody>
+</concept>

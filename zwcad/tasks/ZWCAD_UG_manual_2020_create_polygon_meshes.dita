@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7124356-35E153C-A11F254A7C35B5A-79E532">
+  <title>Create Polygon Meshes</title>
+  <shortdesc>You can create a polygon mesh consisting of faces connecting three or more vertices.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You first determine the coordinates of each
+ vertex and then define each face by entering the vertex numbers for all the vertices
+ of that face. As you create each face, you can control
+ the visibility and color of each edge and
+ assign each edge to specific layers.</p>
+      <p>When creating
+ meshes, a positive vertex means an invisible edge. The system variable SPLFRAME controls whether to show the invisible
+ edges or not. If set SPLFRAME on, any assumed surfaces and invisible edges are displayed
+ as those visible
+ meshes.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic278_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a
+ Polyface mesh</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Type PFACE and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the coordinates of each vertex.</cmd>
+      </step>
+      <step>
+        <cmd>After each vertex that you specify,
+ the next vertex
+ number is displayed, and you are prompted for the coordinates of the vertex.
+ Specify the coordinates, and then press Enter. Continue
+ to specify the coordinates for eachnumbered vertex.</cmd>
+      </step>
+      <step>
+        <cmd>To finish specifyingvertex coordinates, press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the vertex numbers that
+ define the first face. You specify the face by
+ entering the vertex numbers that were
+ defined when you specified coordinates in step 2. Each face can be composed of three or more
+ numbered vertices.</cmd>
+      </step>
+      <step>
+        <cmd>To finish defining the first face, press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the next face by enteringits vertex numbers.</cmd>
+      </step>
+      <step>
+        <cmd>To complete the command, press Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP </b>To make an edge invisible, type the vertexnumber as a negative value.</p>
+    </result>
+  </taskbody>
+</task>

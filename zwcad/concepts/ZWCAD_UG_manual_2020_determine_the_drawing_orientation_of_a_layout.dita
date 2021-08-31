@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A358-3614512-5547E5370A84C20-7B4789">
+  <title>Determine the Drawing Orientation of a Layout</title>
+  <shortdesc>The drawing
+ orientation is sorted into Landscape and Portrait, which decide the plotting
+ orientation of the drawing to be seen
+ on a paper. If you select Landscape, plots the drawing using the long edge as horizontal. While selecting Portrait
+ to plot the drawing using its minor edge as horizontal Changing
+ the</shortdesc>
+  <conbody>
+    <p>drawing orientation just like rotating
+ the paper under the drawing.</p>
+    <p>Once specified
+ the drawing orientation, you can control whether to plot the top or the bottom
+ of the drawing by selecting Plot
+ Upsize-down option.</p>
+    <p>The changes
+ setupin Page Setup
+ dialog boxis still saved in layouts. Certain page settings
+ can be replaced by customized
+ plot settings, but the settings will not be saved in the layout unless you
+ click Apply to Layout option.</p>
+    <p>Additionally, changing
+ the drawing orientation will not affect the position
+ of plot origin which is located at the left lower corner of the page once rotated.</p>
+  </conbody>
+</concept>

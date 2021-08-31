@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B7531D-2A47545-212154A87125253-455C37">
+  <title>逻辑类函数</title>
+  <shortdesc>支持以下逻辑类函数：</shortdesc>
+  <conbody>
+    <ul>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark153">Case</xref>
+      </li>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark155">If</xref>
+      </li>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark157">IsNUll</xref>
+      </li>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark159">IsNumber</xref>
+      </li>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark161">Not</xref>
+      </li>
+      <li>
+        <xref href="#concept4488/_bookmark163">NullValue</xref>
+      </li>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark165">Or</xref>
+      </li>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark167">And</xref>
+      </li>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark169">IsNew</xref>
+      </li>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark171">IsClone</xref>
+      </li>
+      <li>
+        <xref href="#A7B7531D-2A47545-212154A87125253-455C37/_bookmark173">IsChanged</xref>
+      </li>
+    </ul>
+    <p id="_bookmark153">Case</p>
+    <p>
+      <b>Case</b>
+    </p>
+    <p>
+      <b>描述 </b>将表达式的值与给定的一组值进行比较，如果表达式的值等于其中的某个值， 则返回相应的结果，如果表达式的值不等于其中的任何一个值，则返回设定的 其他值 （else_result）。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>CASE(expression, value1, result1, value2, result2,..., else_result) 返回值无固定类型，根据 result 或者
+ else_result 的类型而定。expression 为字段或者用于比较的任何值。</p>
+    <p>value 和 result 成对出现，value 用于与 expression 进行比较，result 为相应的返回结果。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ else_result 为当 expression 不等于任何 value 时，需要返回的值。</p>
+    <p>
+      <b>样例 </b>在对象 “ 客户 ” 中有字段 “ 客户级别 ” 和计算公式类型字段 “ 客户级别描述 ”，其中 “ 客户级别描述
+ ” 的值根据 “ 客户级别 ” 的值自动计算，如 下：</p>
+    <p>Case(Customer.customer_level, "A",
+ "VIP 客户 ", "B"," 普通客户 ","C"," 潜在客户
+ "," 其他 ")</p>
+    <p>
+ （Customer 为对象 " 客户
+ " 的 API 名称，customer_level 为对象 " 客户 " 中的字段 " 客户级别 " 的 API 名称）</p>
+    <p>
+      <b>注意点 </b>所有 value 的数据类型必须相同，所有 result 的数据类型必须相同。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+      </fig>
+    </p>
+    <p id="_bookmark155">If</p>
+    <p>
+      <b>If</b>
+    </p>
+    <p>
+      <b>描述 </b>判断表达式的值为真还是假，条件为真 （TRUE），返回前一个值，条件为假</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ （FALSE），返回后一个值。</p>
+    <p>
+      <b>使用 </b>IF(logical_test, value_if_true, value_if_false)</p>
+    <p>返回值无固定类型，根据 value_if_true 或者 value_if_false 的类型而定。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ logical_test 为要判断的表达式。value_if_true 为表达式为真时返回的结果。value_if_false 为表达式为假时返回的结果。</p>
+    <p>
+      <b>样例 </b>在对象 “ 合同 ” 中有字段 “ 合同到期时间
+ ” 和计算公式类型字段 “ 合同状态 ”，其中 “ 合同状态 ” 的值根据 “ 合同到期时间
+ ” 的值自动计算，如 下：</p>
+    <p>If(Contract.expiration_time&lt;RealTimeToday(), " 已到期 ", " 未到期 ")</p>
+    <p>
+ （Contract 为对象 " 合同
+ " 的 API 名称，expiration_time 为对象 " 合同 " 中的字段 " 合同到期时间 " 的 API 名称）</p>
+    <p>
+      <b>注意点 </b>value_if_true 和 value_if_false 的数据类型必须相同。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+    </p>
+    <p id="_bookmark157">IsNUll</p>
+    <p>
+      <b>IsNull</b>
+    </p>
+    <p>
+      <b>描述 </b>判断表达式是否为空 (null) 或者空白 (blank)，如果为空或者空白，则返回TRUE，否则返回 FALSE。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>ISNULL(expression)</p>
+    <p>返回值为布尔型，返回
+ TRUE 或者 FALSE。</p>
+    <p>
+ expression 为要判断的表达式。</p>
+    <p>
+      <b>样例 </b>判断对象 " 订单 " 中的字段" 订单描述 " 是否为空，如下：
+ IsNull(Order.description)</p>
+    <p>
+ （Order 为对象 " 订单
+ " 的 API 名称，description 为对象 " 订单 " 中的 " 订单描述 " 的 API 名称）</p>
+    <p>
+      <b>注意点 </b>对于实数、整数、图片、文件类型的字段，如果该字段的值为空，则函数返回 值为 true。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+    </p>
+    <p id="_bookmark159">IsNumber</p>
+    <p>
+      <b>IsNumber</b>
+    </p>
+    <p>
+      <b>描述 </b>判断文本值是否为数字，如果为数字，则返回 TRUE，否则返回 FALSE。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>ISNUMBER(Text)</p>
+    <p>返回值为布尔型，返回 TRUE 或者 FALSE。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ Text 为文本型字段或者包含在双引号中的字符串。</p>
+    <p>
+      <b>样例 </b>判断对象 " 订单 " 中的字段" 账号 " 是否为数字，如下：
+ IsNumber(Order.account_number)</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ （Order 为对象 " 订单 "
+ 的 API 名称，account_number 为对象 " 订单 " 中的字段 " 账号"的 API 名称）</p>
+    <p>注意点 无</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+    </p>
+    <p id="_bookmark161">Not</p>
+    <p>
+      <b>Not</b>
+    </p>
+    <p>
+      <b>描述 </b>如果表达式为 TRUE，则返回 FALSE，如果表达式为 FALSE，则返回 TRUE。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>NOT(logical)</p>
+    <p>返回值为布尔型，返回 TRUE 或者 FALSE。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ logical 为逻辑表达式。</p>
+    <p>
+      <b>样例 </b>在对象 “ 客户 ” 中有字段 “ 客户级别 ”，客户级别为 “C” 表示该客户为潜在客户。现需要显示所有的非潜在客户 , 即如果为非潜在客户，则显示客户名称，否则为空，如下：</p>
+    <p>if(Not(IsPickVal(Custom.customer_level,"C")),Custom.customer_name,"")</p>
+    <p>
+ （Custom 为对象 “ 客户 ” 的 API 名称，customer_level 为对象 “ 客户 ” 中的字段 “ 客户级别 ” 的 API 名称，customer_name 为对象 “ 客户 ” 中的字段 “ 客户名称” 的 API 名称）</p>
+    <p>注意点 无</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+      </fig>
+    </p>
+    <p id="NullValue">NullValue</p>
+    <p>
+      <b>NullValue</b>
+    </p>
+    <p>
+      <b>描述 </b>根据参数中是否为空值来返回原值或者特定的值，从而保证没有空值 (Null) 的出现。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+    </p>
+    <p>
+      <b>使用 </b>NULLVALUE(expression, substitute_expression) 返回值类型为输入参数中的返回值类型。expression 为用于判断的字段或者字符串。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ substitute_expression 表示如果第一个参数为空值时返回的表达式值。</p>
+    <p>
+      <b>样例 </b>例如 NULLVALUE(Order.OrderDueDate,Order.CreateAt + 5), 如果OrderDueDate 为空值，返回 CreateAt + 5 的日期；如果
+ OrderDueDate 不为空值，返回 OrderDueDate。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+    </p>
+    <p>
+      <b>注意点 </b>1. 日期、数字等类型字段是只有空值 (Null)
+ 或者有值。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 2. 如果文本类型字段值为 "
+ ", 则此函数返回 False，只有是空值或者 Null 值时， 此函数返回 True。</p>
+    <p id="_bookmark165">Or</p>
+    <p>
+      <b>Or</b>
+    </p>
+    <p>
+      <b>描述 </b>判断多个逻辑表达式中是否有表达式的结果为 TRUE，并根据判断结果返回TRUE 或者 FALSE。仅当所有表达式全部为 FALSE 时才返回FALSE。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+    </p>
+    <p>
+      <b>使用 </b>OR(logical1, logical2...)</p>
+    <p>返回值为布尔型，返回 TRUE 或者 FALSE。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ logical 为逻辑表达式。</p>
+    <p>
+      <b>样例 </b>例如在对象 “ 促销商品 ” 中建立一个校验规则，当商品折扣小于 10% 或者大于 90% 时显示错误信息，如下：</p>
+    <p>OR(PromotionCommodity.commodity_discount&lt;0.1,PromotionCommod ity.commodity_discount&lt;0.9)</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ （PromotionCommodity 为对象 “ 促销商品
+ ” 的 API 名称， commodity_discount 为对象 “ 促销商品 ” 中的字段 “ 折扣 ” 的 API
+ 名称）</p>
+    <p>注意点 无</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+      </fig>
+    </p>
+    <p id="_bookmark167">And</p>
+    <p>
+      <b>And</b>
+    </p>
+    <p>
+      <b>描述 </b>判断多个逻辑表达式中是否有表达式的结果为 FALSE，并根据判断结果返回TRUE 或者 FALSE。仅当所有表达式全部为 TRUE 时才返回TRUE。</p>
+    <p>
+      <b>使用 </b>AND(logical1, logical2...)</p>
+    <p>返回值为布尔型，返回
+ TRUE 或者 FALSE。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ logical 为逻辑表达式。</p>
+    <p>
+      <b>样例 </b>例如在对象 “ 促销商品 ” 中建立一个校验规则，当商品折扣大于 90% 且小于99% 时显示错误信息，如下：</p>
+    <p>AND(PromotionCommodity.commodity_discount&gt;0.9,PromotionCommo dity.commodity_discount&lt;0.99)</p>
+    <p>
+ （PromotionCommodity 为对象 “ 促销商品
+ ” 的 API 名称， commodity_discount 为对象 “ 促销商品 ” 中的字段 “ 折扣 ” 的 API
+ 名称）</p>
+    <p>注意点 无</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+      </fig>
+    </p>
+    <p id="_bookmark169">IsNew</p>
+    <p>
+      <b>isNew</b>
+    </p>
+    <p>
+      <b>描述 </b>用来标识触发数据是新建的还是修改的，如果是新建，函数返回 TRUE，如果是修改，函数返回 FALSE。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+    </p>
+    <p>
+      <b>使用 </b>isNew()</p>
+    <p>
+ 返回值为布尔型，返回 TRUE 或者 FALSE。</p>
+    <p>
+      <b>样例 </b>例如在对象 “ 市场活动 ” 中建立一个校验规则，用户创建数据时，不能创建一个结束日期小于当天日期的数据，如下：</p>
+    <p>AND(ISNEW(),campaign.endDate&lt;RealTimeToday())</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ （campaign 为对象 “ 市场活动” 的 API 名称，endDate 为对象“ 市场活动” 中的字段 “ 结束日期”的 API 名称）</p>
+    <p>
+      <b>注意点 </b>1. 此函数无参数，但括号必须保留。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 2. 如果是复制生成的数据，则按照新建数据的逻辑，即此函数返回 True。</p>
+    <p id="_bookmark171">IsClone</p>
+    <p>
+      <b>isClone</b>
+    </p>
+    <p>
+      <b>描述 </b>用来标识新建的数据是否通过复制生成，如果是复制生成的数据，则此函数返 回 TRUE，否则返回 FALSE。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>isClone()</p>
+    <p>
+ 返回值为布尔型，返回 TRUE 或者 FALSE。</p>
+    <p>
+      <b>样例 </b>例如建立一个校验规则，判断某条数据是否是另外一条数据的克隆数据，如下： isClone()</p>
+    <p>
+      <b>注意点 </b>1. 此函数无参数，但括号必须保留。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ 2. 此函数只支持自定义对象。</p>
+    <p id="_bookmark173">IsChanged</p>
+    <p>
+      <b>isChanged</b>
+    </p>
+    <p>
+      <b>描述 </b>用来标识数据的字段值是否发生变化，如果新值和旧值不同，此函数返回TRUE，如果相同，此函数返回 FALSE。</p>
+    <p>
+      <fig>
+        <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+      </fig>
+    </p>
+    <p>
+      <b>使用 </b>isChanged(fieldName)</p>
+    <p>返回值为布尔型，返回 TRUE 或者 FALSE。</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ fieldName 为本对象上的字段名称，不支持关联对象上的字段引用。</p>
+    <p>
+      <b>样例 </b>例如在对象 “ 客户 ” 中建立一个校验规则，数据记录创建后，禁止修改名称字段，如下：</p>
+    <p>isChanged(account.accountName)</p>
+    <p>
+      <table>
+        <tgroup cols="1" colsep="1" rowsep="1">
+          <colspec colname="c1" align="left" />
+          <tbody>
+            <row>
+              <entry colname="c1">
+                <fig>
+                  <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image001.png" />
+                </fig>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+ （account 为对象 “ 客户”的 API 名称，accountName 为对象“ 客户” 中的字段 “ 客户名称 ” 的 API 名称）</p>
+    <p>
+      <b>注意点 </b>如果是新建的数据，此函数返回 False。</p>
+    <p>
+      <image href="../graphics/PaaS_Business_Model_Design_and_Management_V2104_01_topic46_image002.png" />
+    </p>
+  </conbody>
+</concept>

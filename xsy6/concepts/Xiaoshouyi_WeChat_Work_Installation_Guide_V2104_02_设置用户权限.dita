@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7BA7B78-756457F-215A71541556226-5C6B20">
+  <title>设置用户权限</title>
+  <shortdesc>设置用户权限指设置销售易应用中用户的功能权限和数据权限。</shortdesc>
+  <conbody>
+    <p>关于用户功能权限设置的详细信息请参考 《销售易 CRM_PaaS
+ 平台
+ _ 用户及权限管理》中第三章的<b>通过职能配置功能权限</b>部分。</p>
+    <p>关于数据权限设置的详细信息请参考 《销售易 CRM_PaaS 平台 _ 用户及权限管理》中第三章的<b>配置数据权限</b>部分。</p>
+  </conbody>
+</concept>

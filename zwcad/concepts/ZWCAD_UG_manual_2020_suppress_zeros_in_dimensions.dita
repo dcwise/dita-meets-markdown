@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A2AECA12-15A8B14-7E537126DEE1B93-8260CD">
+  <title>Suppress Zeros in Dimensions</title>
+  <shortdesc>Control how to deal with leading and trailing zero in the numeric portion of dimension
+ text. If you suppress
+ leading zero in decimal dimensions, 0.700 becomes .700; if you suppress trailing zero, 0.7000 becomes 0.7. If you suppress both
+ leading and trailing zeros, 0.7000 becomes .7 and 0.0000 become 0. The following paragraph shows the effect
+ of selecting zero feet and zero inches using architectural units style. If feet are included with a
+ fractional inch, the number of inches is always
+ indicated as zero and ignores
+ any option you select. So, the dimension
+ 4'-3/4" becomes 4'-0 3/4".</shortdesc>
+  <conbody>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1"> Option </entry>
+            <entry colname="col2"> Effect </entry>
+            <entry colname="col3"> Examples </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table>
+      <tgroup cols="3" colsep="1" rowsep="1">
+        <colspec colname="col1" />
+        <colspec colname="col2" />
+        <colspec colname="col3" />
+        <tbody>
+          <row>
+            <entry colname="col1"> No options selected </entry>
+            <entry colname="col2"> Includes zero feet and zero inches </entry>
+            <entry colname="col3" translate="no">
+              <p>0'-0 1/2" 0'-6" 1'-0"</p>
+              <p>1'-0 3/4"</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 0 Inches selected </entry>
+            <entry colname="col2"> Suppresses zero inches (includes zero feet) </entry>
+            <entry colname="col3" translate="no">
+              <p>0'-0 1/2" 0'-6" 1' 1'-</p>
+              <p>0 3/4"</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 0 Feet selected </entry>
+            <entry colname="col2"> Suppresses zero feet (includes zero inches) </entry>
+            <entry colname="col3" translate="no">
+              <p>1/2" 6" 1'-0" 1'-0</p>
+              <p>3/4"</p>
+            </entry>
+          </row>
+          <row>
+            <entry colname="col1"> 0 Feet and 0 Inches selected </entry>
+            <entry colname="col2"> Suppresses zero feet and zero inches </entry>
+            <entry colname="col3" translate="no"> 1/2" 6" 1' 1'-0 3/4" </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A763B10A-24B7421-391F187F1151597-4154C5">
+  <title>上传文件</title>
+  <conbody>
+    <ul>
+      <li>支持上传各种类型的文件，上传的上限是200M。</li>
+      <li>在对象下面上传的文件会进入个人文件里面，如果个人里面的文件被删除，则对象下面的文件也将不可见。</li>
+      <li>上传文件时可以设置访问权限，指定人员、群组、关联的业务、部门、全部人员的查看和编辑权限以及是否允许下载，同时在这里也可以对所在的文件夹的权限做修改。</li>
+    </ul>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic15_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

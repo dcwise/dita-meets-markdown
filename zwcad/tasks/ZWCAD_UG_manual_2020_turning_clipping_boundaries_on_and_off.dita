@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A122A4-568E141-F2154A87B1D57A7-91E559">
+  <title>Turning clipping boundaries on and off</title>
+  <shortdesc>The clipping boundaries can be controlled whether to display
+ or not through system variable</shortdesc>
+  <taskbody>
+    <context>
+      <p>XCLIPFRAME. If
+ set this systemvariable to 1, the clipping boundary can be selected and plotted
+ as a part of the object.</p>
+      <p>When a clipping
+ boundary is turned off, the boundary does not display and the entire external
+ reference is visible, provided that
+ the geometry is on a layer that is on and thawed. However, deleting a clipping boundary is permanent.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic594_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To turn clipping boundaries
+ on and off</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Clip&gt;
+ Xref from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the desired external references.</cmd>
+      </step>
+      <step>
+        <cmd>Press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>To turn off clipping
+ boundaries, choose OFF. To turnon
+ existingclipping boundaries, choose ON.</cmd>
+      </step>
+      <step>
+        <cmd>Enter an option and then press
+ Enter.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>TIP
+ </b>When the
+ XCLIPFRAME system variable is on (set to 1), you can select and print the
+ clipping boundary frame.</p>
+    </result>
+  </taskbody>
+</task>

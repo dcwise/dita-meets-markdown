@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12A43-3E143C4-1F15A7A5A5A791E-53596B">
+  <title>Check</title>
+  <shortdesc>You can check whether
+ a selected object
+ is a valid three-dimensional ACIS
+ solid. If it is a valid 3D solid, you can modify the object using the 3D
+ solid editing commands; if not, you cannot edit the object using these commands.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic429_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To check a solid</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Solids
+ Editing &gt; Check from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the objects to check.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

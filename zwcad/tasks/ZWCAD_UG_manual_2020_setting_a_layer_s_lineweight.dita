@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A712A356-8E1453C-41F214A8155A1A7-B2A7D1">
+  <title>Setting a layer's lineweight</title>
+  <shortdesc>Each layer uses a
+ default lineweight. Lineweights determine the thickness of objects both on the
+ screen and when printed.</shortdesc>
+  <taskbody>
+    <context>
+      <p>All new layers are assigned the DEFAULT lineweight, which is .25 millimeters or .01 inches.</p>
+      <p>If you want a
+ different lineweight assigned to a layer, you can easily change it using Layer
+ Properties Manager. For example, you may want different lineweights on each layer of your drawing to show separate elements, such as walls,
+ dimensions, structural steel, and electrical plans. Changing the lineweight assigned to a layer changes the
+ lineweight of all objects drawn on that layer with the BYLAYER lineweight.</p>
+      <p>When you create
+ new objects, it's a good idea to assign the BYLAYER lineweight to any objects
+ that you draw on that layer, unless
+ you want to override the layer lineweight. ZWCAD uses the BYLAYER lineweight as the default
+ lineweight setting when
+ you create objects.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic157_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change the
+ lineweight assigned to one or more
+ layers</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Format &gt; Layer from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Click the
+ Lineweight name in the layer list to open Lineweight dialog box, from which,
+ you canspecify the desired lineweight.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <b>NOTE </b>You can also assign a specific lineweight to an object, which
+ overrides the layer's lineweight setting. When you
+ create a new object, use the Format &gt; Lineweight menu option to change the
+ cur ent lineweight. For an existing
+ object, double-click this object and then modify the object's lineweight on the Properties palette that pops up.</p>
+    </result>
+  </taskbody>
+</task>

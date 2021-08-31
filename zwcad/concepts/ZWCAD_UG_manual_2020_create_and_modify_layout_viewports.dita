@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A125644A-12A8813-71557E8D4C209B4-7B1C89">
+  <title>Create and Modify Layout Viewports</title>
+  <shortdesc>When you begin working ona drawing on the Model
+ tab, it consists
+ of a single view of your model. You may have created additional views by
+ dividing the drawing space into multiple windows; each window is a separate viewport on the Model
+ tab.</shortdesc>
+  <conbody>
+    <p>On a Layout tab, you must create
+ at least one layout viewport
+ to see your model. However,
+ you can create
+ multiple layout viewports that display unique views of your model
+ located in model space. Each layout viewport is created as a separate
+ entity that you can move,
+ copy, or delete.</p>
+    <p>Click any layout
+ viewport to make it the current viewport, and then add or modify model space
+ objects in that viewport. Any changes
+ you make in one layout viewport are immediately visible in the other viewports
+ (if the other layout viewports are displaying that portion of the drawing). Zooming or panning
+ in the current
+ viewport affects only that viewport.</p>
+  </conbody>
+</concept>

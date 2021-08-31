@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A2A583-65E13C1-1F15487D557953A-41527E">
+  <title>Open</title>
+  <shortdesc>If the polylines
+ to be edited is closed, you can convert it into an open one by using the OPEN
+ option to delete the latest drawn
+ segments of the polyline.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

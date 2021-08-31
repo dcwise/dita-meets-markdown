@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A2A456-65E1534-A1F2154A816379E-3592F1">
+  <title>Dimension Circles and Arcs</title>
+  <shortdesc>If the object to
+ be dimensioned is circle or arc, the dimension line arc is placed between the
+ extensions. The dimension line arc is
+ also drawn between the extension lines when you use three points to create an angular dimension. The quadrant of the
+ dimensioned angle depends on the location that you specify for the dimension
+ line arc.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic520_image001.png" />
+        </fig>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic520_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To dimension,
+ an angle encompassed by an arc</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt; Angular from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the arc.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <fig>
+                      <image href="../graphics/ZWCAD_UG_manual_2020_topic520_image003.png" />
+                    </fig>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Specify the dimension arc location.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To dimension, the angle subtended by an arc, Select the arc (A) and then specify the dimension arc location (B).</p>
+    </result>
+  </taskbody>
+</task>

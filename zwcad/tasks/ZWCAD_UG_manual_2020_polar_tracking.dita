@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7224568-3E43C4A-1F25A7F1735795D-668A28">
+  <title>Polar Tracking</title>
+  <shortdesc>When polar tracking is turned on, guides display
+ on the screen
+ automatically at the polar angle increment</shortdesc>
+  <taskbody>
+    <context>
+      <p>that you specify. For example, if you draw a line with polar tracking
+ turned on with angle increment set as 65 degrees, the rubber-banding line displays at 65-degree increments.</p>
+      <p>Polar tracking and orthogonal locking
+ cannot be used at the same time-turning one option on turns the other option off.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic130_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To enable polar tracking
+ and specify the polar angle increment</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Drafting Settings from the main menu.</cmd>
+        <info>
+          <p>On the Object Snap toolbar, click the Object Snap Settings
+ button. Type DSETTINGS on the command line andthen press Enter.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Switch to the Polar Tracking tab.</cmd>
+      </step>
+      <step>
+        <cmd>Select the Polar Tracking Oncheckbox.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic130_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To specify
+ the polar angle increments:</p>
+      <ol>
+        <li>Select an angle from the Increment Angle drop-downlist.</li>
+        <li>Mark the Additional Angles checkbox
+ and click New to define a custom angle increment.</li>
+        <li>Click OK.</li>
+      </ol>
+      <p>
+        <b>TIP </b>To toggle polar tracking on and off at
+ any time, click the Polar Tracking button on the status bar or press F10.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic130_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To draw objects using polar tracking</p>
+      <ol>
+        <li>Turn on polar
+ tracking and start a drawing command, suchas ARC, CIRCLE, or LINE. You can also use polar tracking
+ with editing commands, suchas COPY and MOVE.</li>
+        <li>As you move your cursor to specify points,
+ notice the dotted
+ polar tracking line that appears at the tracking angles you
+ specified. Points you specify while the line is displayed conform to the polar
+ tracking angle.</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

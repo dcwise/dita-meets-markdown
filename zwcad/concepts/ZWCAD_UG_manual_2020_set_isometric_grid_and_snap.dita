@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA12585E-1A1F214-A8F5A71E5354F45-E34A8F">
+  <title>Set Isometric Grid and Snap</title>
+  <shortdesc>By aligning along three major axes,
+ isometric drawing simulates a 3D drawing from a specified viewpoint.</shortdesc>
+  <conbody>
+    <p>When the snap
+ angle is set to 0, the axes of the isometric plane are 30 degrees, 90 degrees,
+ and 150 degrees.</p>
+    <p>With Isometric Snap-on,
+ you can work on any of three isometric planes,
+ each with a pair of associated axes.</p>
+    <ul>
+      <li>Left. The left isometric plane defined by a pair of 90- and 150-degrees axes. The snap and grips</li>
+    </ul>
+    <p>align along the
+ 90- and 150-degree axes.</p>
+    <ul>
+      <li>Top. The top isometric
+ plane defined by a pair of 30- and 150-degrees axes. The snap and grips align along the 30- and 150-degrees axes.</li>
+      <li>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic101_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ Right. The right isometric plane defined by a pair of 90- and 30-degrees axes. The snap and grips align along the 90- and 30-degrees axes.</li>
+    </ul>
+    <p>In addition to
+ using ISOPLANEcommand to switch isometric planes, you can also use shortcut key
+ F5 or CTRL+E. specifying one of the three isometric planes results in Ortho
+ and crosshairs to be aligned along the corresponding isometric axes.</p>
+    <p>For example,
+ when Ortho is on, the points you specified align
+ along the simulated
+ plane you are working on. Therefore, you can draw the top plane
+ first, and switch to the left plane to draw another side, and then switch
+ to the right plane to complete the drawing.</p>
+    <p>
+      <image href="../graphics/ZWCAD_UG_manual_2020_topic101_image002.png" />
+    </p>
+  </conbody>
+</concept>

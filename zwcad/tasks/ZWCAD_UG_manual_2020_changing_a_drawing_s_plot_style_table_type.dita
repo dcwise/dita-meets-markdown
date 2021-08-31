@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA122A35-35E153C-4F5791B5A79159A-446E17">
+  <title>Changing a drawing's plot style table type</title>
+  <shortdesc>When your drawing
+ was created, it was set up to use color-dependent plot style tables (.ctb
+ files) or named plot style tables
+ (.stb files). A drawing can use one type of plot style table at a time. If
+ necessary, after a drawing
+ is created you can convert
+ the drawing to use the other type
+ of plot style table.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If you can't
+ remember what type of plot style table is assigned to your drawing, use the
+ PSTYLEMODE systemvariable to determine the plot style
+ table type.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic718_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change a drawing
+ to use named plot style tables</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Open the drawing that uses color-dependent plot style tables (.ctb files).</cmd>
+      </step>
+      <step>
+        <cmd>Type CONVERTPSTYLES, and then press Enter.</cmd>
+      </step>
+      <step>
+        <cmd>If you have already converted your individual color-dependent plot style tables to
+ named tables, click OK in the prompt
+ that displays.</cmd>
+      </step>
+      <step>
+        <cmd>In the Select File dialog box, select a named plot style table
+ (.stb file) that you want to use with the drawing.</cmd>
+      </step>
+      <step>
+        <cmd>Click Open and a message aredisplayed to confirm that the drawing is converted.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic718_image001.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To change a drawing
+ to use color-dependent plot style tables</p>
+      <ol>
+        <li>Open the drawing that uses named plot style tables (.stb files).</li>
+        <li>Type CONVERTPSTYLES, and then press Enter.</li>
+        <li>If you are sure youwant to convert the drawing and lose all plot
+ style assignments, click OK in the prompt that displays.</li>
+        <li>
+          <b>NOTE </b>Convertinga drawingto use color-dependent plot style tables
+ will remove all</li>
+      </ol>
+      <p>of the named plot style information from objects and
+ layers. However, the named plot style
+ tables are not deleted from your computer.</p>
+    </result>
+  </taskbody>
+</task>

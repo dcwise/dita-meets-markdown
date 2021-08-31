@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7A12356-E454A1F-2AF105A791E535D-66B8A8">
+  <title>Specify Polar Distances</title>
+  <shortdesc>AutoSnap
+ restricts cursor movement to increments of a polar distance you specified on
+ the Snap and Grid tab of Drafting
+ Settings dialog box. For example,
+ if you specify a length
+ of 6 units, the cursor
+ snaps the length specified to lengths of 0, 6, 12, 18, 24, and so on.</shortdesc>
+  <taskbody>
+    <context>
+      <p>When you move the cursor, a tooltip
+ displays the nearest PolarSnap increment. Only when polar tracking and snap mode
+ are on, you can restrict
+ point entry to polar distance.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic133_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To set polar snap distance</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Tools &gt; Drafting
+ Settings from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Drafting Settings
+ dialog box, on the Snap and Gridtab,
+ select Snap-On.</cmd>
+      </step>
+      <step>
+        <cmd>In Snap Type, select
+ PolarSnap.</cmd>
+      </step>
+      <step>
+        <cmd>Under Polar Spacing, enter the polar distance.</cmd>
+      </step>
+      <step>
+        <cmd>Choose the Polar Tracking
+ taband select Polar Tracking On.</cmd>
+      </step>
+      <step>
+        <cmd>Select an angle
+ from the Increment Angle list. You can specifyyour own angles by choosing Additional Angles and then New.</cmd>
+      </step>
+      <step>
+        <cmd>Choose OK.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

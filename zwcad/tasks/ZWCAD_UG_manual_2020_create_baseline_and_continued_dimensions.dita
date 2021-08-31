@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A2A35685-1C4A158-71565A759DEE1B9-3382CD">
+  <title>Create Baseline and Continued Dimensions</title>
+  <shortdesc>Both baseline and continued dimensions are
+ multiple linear dimensions. Baseline dimensions are measured fromthe same baseline
+ and continued dimensions are placed end to end.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Before creating
+ either baseline or continued dimension, you have to create a linear, aligned,
+ or angular dimension. If no dimension
+ in the current session, the system prompts for selecting linear, aligned, or angular
+ dimension. If there are dimensions in the current
+ session, you can create a baseline or continued</p>
+      <p>dimensions incrementally
+ from the most recently created dimension. Unless you specify another point as the origin, both baseline and continued
+ dimensions are always measured fromthe previous extension line.</p>
+      <p>The following illustration shows the baseline
+ and continued dimensions.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic515_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic515_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a linear baseline dimension</p>
+      <p>
+        <b>NOTE </b>Before you can use this procedure, you must first create a dimension.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Dimension &gt;
+ Baseline from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify a second extension line origin or press Enter to select a dimension
+ as a
+ baseline.</cmd>
+      </step>
+      <step>
+        <cmd>Select the next extensionline origin.</cmd>
+      </step>
+      <step>
+        <cmd>Continue selecting extension line origins
+ as required.</cmd>
+      </step>
+      <step>
+        <cmd>To end the command,
+ press Enter twice.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <table>
+          <tgroup cols="2" colsep="1" rowsep="1">
+            <colspec colname="col2" />
+            <colspec colname="col4" />
+            <tbody>
+              <row>
+                <entry morerows="2" align="left" colname="col2">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic515_image005.png" />
+                  </fig>
+                </entry>
+                <entry colname="col4" />
+              </row>
+              <row>
+                <entry align="left" colname="col4">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic515_image006.png" />
+                </entry>
+              </row>
+              <row>
+                <entry colname="col4" />
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ The program automatically places
+ the new baseline dimension above or below the previous dimension line. The distance
+ between two dimension lines is determined
+ by the Baseline Spacing value
+ on the Lines and Arrows
+ tab of the New Dimension Style or Modify
+ Dimension Style dialog
+ box.</p>
+      <p>To add a baseline dimension
+ to an existing linear dimension, select the existing
+ dimension (A), select the next extension line origin (B), and select as many additional points as you want (C).</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic515_image002.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a linear continued dimension</p>
+      <p>
+        <b>NOTE </b>Before you can use this procedure, you must first create a dimension.</p>
+      <ol>
+        <li>Choose Dimension &gt; Continue
+ from the main menu.</li>
+        <li>To select a starting
+ dimension, press Enter.</li>
+        <li>Select the next extensionline origin, and then press Enter.</li>
+        <li>Or press Enter andthen select anexisting dimension to continue.</li>
+        <li>To add continued dimensions, continue selecting extension line origins.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic515_image009.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ To end the command, press Enter twice.</li>
+      </ol>
+      <p>To add a continued dimension to an existing
+ linear dimension, select
+ the existing dimension
+ (A), select the next extension
+ line origin (B), and select another extension
+ line origin (C).</p>
+    </result>
+  </taskbody>
+</task>

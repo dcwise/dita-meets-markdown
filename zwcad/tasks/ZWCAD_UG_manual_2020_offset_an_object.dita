@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AAA43635-E45124A-7D7535755A18D37-1A0C48">
+  <title>Offset an Object</title>
+  <shortdesc>You can use the
+ offset feature to copy selected objects and align themoffset to the original
+ objects at a specified distance. You
+ can make offset objects using arcs, circles, ellipses, elliptical arcs, lines,
+ two- dimensionalpolylines, rays,
+ and infinite lines.</shortdesc>
+  <taskbody>
+    <context>
+      <p>Making offset
+ copies of curved objects creates larger or smaller curves, depending on which
+ side of the original object you place
+ the copy. For example, placing an offset copy of a circle outside the circle creates
+ a larger concentric circle; positioning the copy inside
+ the circle creates
+ a smaller concentric circle. You can
+ perform TRIM or EXTEND command while the OFFSET command is active. The result
+ is as follows:</p>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic330_image001.png" />
+        </fig>
+      </p>
+      <p>If the objects
+ to offset are 2D polyline
+ or spline, the systemtrims themautomatically when the specified</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic330_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ distance is larger than can otherwise
+ be accommodated. Displaying as follows:</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic330_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To make an offset copy by specifying the distance</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Modify &gt; Offset from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Specify the distance by selecting
+ two points or byentering a distance.</cmd>
+      </step>
+      <step>
+        <cmd>Select the object to offset.</cmd>
+      </step>
+      <step>
+        <cmd>Specify on whichside of the object
+ to place the parallel copy.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic330_image004.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select another object
+ to offset, or press Enter to complete
+ the command.</info>
+      </step>
+    </steps>
+    <result>
+      <p>To make a parallel copy, specify
+ the distance between copies by entering a distance or selecting two points (A and
+ B), select the object to copy
+ (C), and specify on which side to place the copy (D)</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic330_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To make an offset
+ copy passing through a point</p>
+      <ol>
+        <li>Choose Modify &gt; Offset from the main menu.</li>
+        <li>On the command line, type T (Through).</li>
+        <li>Select the object to offset.</li>
+        <li>Specify the point for the object
+ to pass through.</li>
+        <li>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic330_image005.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Repeat steps 3 and
+ 4, or press Enter to complete the command.</li>
+      </ol>
+      <p>To make a parallel
+ copy passing through a point, select the object to copy (A) and then specify the through point (B)</p>
+    </result>
+  </taskbody>
+</task>

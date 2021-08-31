@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA12A55E-1453C41-2547395351D9A3F-962FF9">
+  <title>Attach External References</title>
+  <shortdesc>When a drawing is
+ attached to current drawing an external reference, it will be linked to the
+ drawing, any changes to the referenced drawing
+ may affect the external reference in the current
+ drawing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>External references are inserted into the drawing
+ as block definitions and used as single
+ objects, But you should distinguish the external references and blocks.</p>
+      <p>A xref can be attached
+ to various drawing
+ simultaneously. In the same way, you can attach multiple
+ xrefs to the same drawing
+ using thefullpath or relative path that are partly defined.
+ Even without saving
+ path.</p>
+      <p>You should notice that xref must be an object
+ created in model space when inserting xrefs, you can specify the insertion scale, position and rotation angle.</p>
+      <p>When you attach an external
+ reference, its layers,
+ linetypes, text styles,
+ and other elements
+ are not added to the current drawing.
+ Rather, these elements
+ are also linked
+ fromthe referenced file.</p>
+      <p>There are two
+ ways you can attach an external reference:</p>
+      <ul>
+        <li>An attachment is an inserted
+ drawing that contains a link to the original file. Attachments can themselves contain other, nested reference
+ files. When you attach an external reference, any nested references contained
+ in the file also appear
+ in the current drawing.</li>
+        <li>An overlay is also an inserted
+ drawing that contains a link to the original file. Overlays a low you to lay a drawing on top of another
+ drawing, similar to the way you work manually with transparencies. When a drawing that contains overlaid external
+ references is itself attached or overlaid
+ as an external reference in another drawing, the overlays do not appear as part
+ of the external reference. Use
+ overlaying when you want to see reference geometry in a drawing but you do not need to include that geometry in drawings that will be used by others (nested
+ external references).</li>
+      </ul>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic579_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To attach an external
+ reference</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Xref Manager from the main menu.</cmd>
+      </step>
+      <step>
+        <cmd>Click Attach.</cmd>
+      </step>
+      <step>
+        <cmd>In the Select
+ Reference File dialog box, specify the drawing file to attach and then click Open.</cmd>
+      </step>
+      <step>
+        <cmd>In the External Reference
+ dialog box, under Reference Type, choose how you want to insert
+ the drawing:</cmd>
+        <info>
+          <p>
+            <b>Attachment </b>– Inserts a copy of the drawing and includes any other drawings
+ that are externally referenced within the referenced drawing.</p>
+          <p>
+            <b>Overlay </b>– Lays a copy of a drawing over your original
+ drawing; it does not include
+ any nested external
+ references from the externally referenced drawing.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Make any additional selections.</cmd>
+      </step>
+      <step>
+        <cmd>Click OK.</cmd>
+      </step>
+      <step>
+        <cmd>If you marked Specify
+ On-screen for any items, follow the prompts
+ to attach the external reference.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

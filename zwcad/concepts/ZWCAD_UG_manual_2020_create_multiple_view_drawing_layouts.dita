@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="AA1A4536-5E1453C-41F2125159BF127-CACD87">
+  <title>Create Multiple-View Drawing Layouts</title>
+  <shortdesc>You can print
+ your drawing directly fromthe Model tab where you created it, or you can create
+ custom layouts for printing on Layout tabs.</shortdesc>
+  <conbody>
+    <p>When printing
+ from the Model tab, you can print your drawing exactly the way it appears, or
+ you can modify the drawing before
+ printing by adding
+ dimensions, a legend,
+ or a title block.</p>
+    <p>You typically use
+ the Layout tabs for printing if you require multiple print layouts. You may
+ also want to use a Layout
+ tab for printing even if you want your drawing
+ printed only one way. For example, if you want to include large amounts of text on your printed
+ drawing, you can add the text to a
+ Layout tab so it does not clutter
+ your drawing while you work on the Model tab.</p>
+  </conbody>
+</concept>

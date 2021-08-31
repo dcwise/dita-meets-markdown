@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122A35-65E5C4A-11214891C555715-359BC8">
+  <title>About ZRX</title>
+  <shortdesc>ZRX®, the ZWCAD® Runtime
+ Extension programming environment, includes C++ libraries that are the building blocks you can use
+ to develop ZWCAD applications, extend
+ ZWCAD classes and protocol, and create new commands that operate in the same manner as built-in ZWCAD commands. You can add new classes
+ and export themfor use by other programs. You can also extend the ZRX protocol
+ by adding functions at runtime to existing ZWCAD
+ classes.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

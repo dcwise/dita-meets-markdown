@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B10AA2-24B7455-391F21487B12517-41556A">
+  <title>查看合作伙伴公告（新闻公告）</title>
+  <shortdesc>NOTE </shortdesc>
+  <conbody>
+    <p>合作伙伴公告只有登录外部人员对应的PRM才能查看，内部人员无法接受。</p>
+    <p>登录PRM前台首页，单击页面右上角的通知图标，可以在“新闻公告”中查看推送的公告内容。</p>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic56_image002.png" />
+      </fig>
+    </p>
+  </conbody>
+</concept>

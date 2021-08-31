@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A22A3568-351454A-15A715A21744D49-433FE8">
+  <title>Calculate Areas</title>
+  <shortdesc>You can calculate
+ the area and perimeter of a polygon based on a series of points you specify or
+ enclose with a circle or closed
+ polyline. You can also determine the area of several combined objects and add
+ or subtract the area of one or more objects froma total combined area.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

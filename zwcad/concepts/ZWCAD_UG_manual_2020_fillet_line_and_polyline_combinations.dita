@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A712A363-65E453C-4124A8D151A791E-53423A">
+  <title>Fillet Line and Polyline Combinations</title>
+  <shortdesc>
+    <image href="../graphics/ZWCAD_UG_manual_2020_topic362_image001.png" />If the objects to fillet are a line and a
+ polyline, the line or its extension must be intersecting with one of the polyline segments. With the Trim
+ option on, the filleted objects join with the filleted arc to form a new polyline.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

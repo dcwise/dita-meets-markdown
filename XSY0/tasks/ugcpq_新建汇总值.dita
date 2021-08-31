@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7B17124-5353547-871971516A5521D-5C6462">
+  <title>新建汇总值</title>
+  <shortdesc>汇总值可以直接被产品规则和价格规则引用。</shortdesc>
+  <taskbody>
+    <context>
+    </context>
+    <steps>
+      <step>
+        <cmd>在CRM首页，单击<b>汇总值</b>。</cmd>
+      </step>
+      <step>
+        <cmd>在页面右上角，单击<b>新建汇总值</b>。</cmd>
+      </step>
+      <step>
+        <cmd>填写汇总值的基本信息，包括名称、来源对象、所属部门和负责人。</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>
+        <fig>
+          <image href="../graphics/ugcpq_topic63_image002.png">
+          </image>
+        </fig>
+      </p>
+      <ul>
+        <li>汇总值名称：为了方便识别不同的汇总值，推荐使用简单的场景描述作为汇总值名称，例如，买5杯咖啡赠送1个咖啡杯。</li>
+        <li>来源对象：汇总值的来源对象决定了汇总值的计算需要针对哪一类的业务对象。例如，当订单总金额或者报价单总金额达到一定数量时，可以给予整单八折优惠时，汇总值的来源对象可以选择订单/订单明细或者报价单/报价单明细。</li>
+        <li>所属部门：为汇总值选择一个所属部门。只有对该部门有查看或编辑权限的人员才能够看到该汇总值的信息。</li>
+        <li>所有人：默认为当前汇总值的创建人。如果汇总值的所有人的无法再维护该汇总值或者汇总值的所属部门发生了变更，当前所有人可以将汇总值转移给他人。</li>
+      </ul>
+      <ol>
+        <li>选择<b>汇总公式</b>或者<b>计算公式</b>，来创建汇总值的汇总计算方式。</li>
+      </ol>
+    </result>
+  </taskbody>
+</task>

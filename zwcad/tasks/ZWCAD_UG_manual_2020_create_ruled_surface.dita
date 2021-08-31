@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="AA122435-8365145-C41F215815A5A79-1E53A2">
+  <title>Create Ruled Surface</title>
+  <shortdesc>RULESURF creates
+ a polygon mesh
+ representing the ruled
+ surface between two curves. The entities you select
+ define the edges of the ruled surface. The entities include the point, line,
+ spline, circle, arc or polyline. If
+ the first entity is a closed one, the other one must be closed two or a point.
+ If the first entity is a point, the
+ other one should be a closed or open entity. There is only one point as a
+ boundary curve on a ruled
+ surface.</shortdesc>
+  <taskbody>
+    <context>
+      <p>
+        <fig>
+          <image href="../graphics/ZWCAD_UG_manual_2020_topic279_image001.png" />
+        </fig>
+      </p>
+      <p>If you select a
+ closed polyline, the ruled surface begins at the last vertexand proceeds
+ backward along the polyline segments.
+ If you select open curves, selecting objects at the same side of the two
+ objects to create a ruled surface,
+ selecting objects at the different side of the two objects to create crossed
+ ruled surface, shown
+ as follows:</p>
+      <p>
+        <image href="../graphics/ZWCAD_UG_manual_2020_topic279_image002.png" />
+      </p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic279_image003.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To create a ruled surface mesh</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Draw &gt; Surfaces
+ &gt; Ruled Surface
+ from the mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>Select the first defining
+ object.</cmd>
+      </step>
+      <step>
+        <info>
+          <table>
+            <tgroup cols="1" colsep="1" rowsep="1">
+              <colspec colname="c1" align="left" />
+              <tbody>
+                <row>
+                  <entry colname="c1">
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic279_image004.png" />
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+ Select the second defining object.</info>
+      </step>
+    </steps>
+    <result>
+      <p>Select the first (A) and second (B) defining
+ objects The resulting ruled surface mesh</p>
+    </result>
+  </taskbody>
+</task>

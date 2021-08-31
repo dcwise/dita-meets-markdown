@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A5-8651453-C11F215A8714579-1E535A">
+  <title>Use Three-dimensional Coordinates</title>
+  <shortdesc>Specifying
+ coordinates in three-dimensionalspace is similar to working in two dimensions,
+ except that you also
+ use the z-axis
+ to locate coordinates. Three-dimensionalcoordinates
+ are represented in the format
+ x,y,z (2,3,6).</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

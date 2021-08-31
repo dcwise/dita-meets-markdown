@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
+<task xml:lang="en-us" id="A7225686-13C1F21-5471AA7157C557F-E5667D">
+  <title>Insert Blocks</title>
+  <shortdesc>You can insert blocks and other drawings into the current
+ drawing. When you insert a block, it is treated as a single object.
+ When you insert
+ a drawing, it is added to the current
+ drawing as a block. You can then insert
+ multiple instances of the block without reloading the original drawing file. If you change the original drawing file, those changes have no effect on the
+ current drawing unless you redefine the block
+ by reinserting the changed drawing.</shortdesc>
+  <taskbody>
+    <context>
+      <p>You can also
+ insert blocks fromanother drawing into the current drawing. Both drawings must
+ be open at the same time to do this.</p>
+      <p>When you insert a block or drawing, you must specify the insertion point,
+ scale, and rotation angle. The block's
+ insertion point is the reference
+ point specified when you created
+ the block.</p>
+      <p>When you insert a drawing as a block, the program
+ takes the specified
+ insertion point as the block</p>
+      <p>insertion point. You can change the insertion
+ point, however, by first opening
+ the original drawing
+ and redefine the block.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <fig>
+                    <image href="../graphics/ZWCAD_UG_manual_2020_topic559_image001.png" />
+                  </fig>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ You can specify the scale of a block reference using different X, Y, and Z values.</p>
+      <p>
+        <table>
+          <tgroup cols="1" colsep="1" rowsep="1">
+            <colspec colname="c1" align="left" />
+            <tbody>
+              <row>
+                <entry colname="c1">
+                  <image href="../graphics/ZWCAD_UG_manual_2020_topic559_image002.png" />
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+ To insert a block</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Choose Insert &gt; Block from the
+ mainmenu.</cmd>
+      </step>
+      <step>
+        <cmd>In the Insert Block dialog box, under Insert,
+ click Block Name.</cmd>
+      </step>
+      <step>
+        <cmd>In the Block Name box, select
+ the name of the block youwant to insert.</cmd>
+      </step>
+      <step>
+        <cmd>If you want to use the pointing device to specify the
+ insertion point, scale, and rotation,
+ select Specify On-Screen. Otherwise, enter values in the Insertion Point, Scale, and Rotationboxes.</cmd>
+      </step>
+      <step>
+        <cmd>If you want the
+ objects in the block to be inserted as individual objects instead of as a single block, select
+ Explode blockuponinsertion.</cmd>
+      </step>
+      <step>
+        <cmd>Click Insert.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

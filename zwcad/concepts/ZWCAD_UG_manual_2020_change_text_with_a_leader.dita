@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7243568-36E5CA1-11A7A12565A7953-52B987">
+  <title>Change Text with a Leader</title>
+  <shortdesc>You can change
+ the size of a leader by stretching or scaling it. Stretch changes the distance
+ between the endpoint and the annotation. The scale only updates the scale of the selected objects. For example,
+ when scaling a leader, the
+ location of the annotation keeps unchanged. A leader can be used as the
+ boundary for trimming or extending, but not be trimmed or extended.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

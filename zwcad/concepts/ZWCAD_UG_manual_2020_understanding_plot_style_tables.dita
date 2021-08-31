@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A12A45-3545C4A-12548791505A1E5-356547">
+  <title>Understanding plot style tables</title>
+  <shortdesc>A plot style
+ table is a collection of plot styles that allows you to change the appearance
+ of your printed drawing without
+ modifying the actual
+ objects in your drawing. Each plot style
+ table is saved in a file that can be located
+ on your computer, disk, or server.</shortdesc>
+  <conbody>
+    <p>A drawing
+ can use one type of plot style table at a time. There are two types of plot style tables:</p>
+    <ul>
+      <li>Color-dependent plot style
+ tables (CTB) contain a collection of plot styles based on each of the 255 index colors
+ available in a drawing. True colors and color books
+ are not applicable to color-
+ dependent plot style tables.</li>
+      <li>Named plot style tables
+ (STB) contain a collection of plot styles that you define. They can vary regardless of color.</li>
+    </ul>
+    <p>With color independent plot style
+ tables, you cannot assign plot styles to individual objects
+ or layers. To use these plot styles,
+ you assign a specific color to an entity or layer. When you specify
+ a color-dependent plot style table at printing time, the
+ entity colors and layer colors map to color based plot styles in the plot style table that you specify. If you
+ specify a plot style for a specific entity, that plot style overrides any plot style assigned to the layer
+ on which the entity resides.</p>
+    <p>Sometimes a named
+ plot style assigned to an entity or layer is not located in the plot style
+ table that is assigned to a layout or
+ drawing. This can happen if the plot style has been deleted fromthe named plot style table or if you assign a different
+ named plot style table to the drawing that does not contain the named plot style.
+ In this case, the entity is printed using its default properties. If you plan on interchanging named plot style
+ tables within the same drawing, it's a good idea to coordinate the tables to
+ use the same plot style
+ names.</p>
+    <p>If a new drawing
+ is based on a template, the new drawing uses the same type of plot style table
+ as the template. If a new drawing is
+ created without a template, the type of plot style table is specified in the New Drawing Wizard; Every drawing is
+ designed to use plot style tables, but you decide whether to implement them.</p>
+    <p>Setup plot styles to determine how a drawing
+ is plotted.</p>
+    <p>Like color
+ and linetype, plot style
+ is also a kind of object
+ property that reflected on the plotted
+ objects or layer once you plot the object with the plot style assigned. A plot style
+ controls an object's plotted properties, including
+ color, dither, grayscale, pen, virtual pen, screening, linetype,
+ adaptive, lineweight,</p>
+    <p>line end, line join and fills style.</p>
+    <p>If the plot styles conflict with the settings
+ created for objects,
+ use the plot style settings for plotting other than the settings created
+ for objects. You can close
+ these substitute settings
+ on demand.</p>
+  </conbody>
+</concept>

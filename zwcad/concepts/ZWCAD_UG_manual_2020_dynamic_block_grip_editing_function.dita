@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7A122A4-3568651-44A11214A87155A-715359">
+  <title>Dynamic Block Grip Editing Function</title>
+  <shortdesc>Dynamic block
+ definition must contain at least one parameter. For dynamic block contains
+ actions and parameters,
+ the grips associated with the points, objects or regions in the block
+ definition will be displayed. When you edit a grip, the associated
+ action will be triggered, thereby changing the block reference
+ display. You can perform manipulations such as stretch, move, flip, rotate,
+ array, scale, align and lookup
+ by dragging the grips of dynamic blocks. After you select a dynamic block with
+ the appropriate parameters and actions, you can select
+ the dynamic block
+ grip (the grip color is light
+ blue by</shortdesc>
+  <conbody>
+    <p>default, it can
+ be modified via the <u>GRIPDYNCOLOR</u> system variable) to edit, the grip will display in selected grip color, and then you can
+ perform manipulations such as stretch, move, rotate, etc. on the selected dynamic
+ block.</p>
+    <p>Parameter Type</p>
+    <p>Grip Type</p>
+    <p>Corresponding
+ Grip Editing Function</p>
+    <p>Point</p>
+    <p>/</p>
+    <p>Standard</p>
+    <p>Move, Stretch</p>
+    <p>Linear</p>
+    <p>/</p>
+    <p>Linear</p>
+    <p>Move, Scale,
+ Stretch, Array</p>
+    <p>Polar</p>
+    <p>/</p>
+    <p>Standard</p>
+    <p>Move, Scale,
+ Stretch, Polar Stretch, Array</p>
+    <p>XY</p>
+    <p>/</p>
+    <p>Standard</p>
+    <p>Move, Scale,
+ Stretch, Array</p>
+    <p>Rotate</p>
+    <p>/</p>
+    <p>Rotate</p>
+    <p>Rotate</p>
+    <p>Flip</p>
+    <p>/</p>
+    <p>Flip</p>
+    <p>Flip</p>
+    <p>Align</p>
+    <p>/</p>
+    <p>Alignment</p>
+    <p>None (The action
+ is included in the parameter)</p>
+    <p>Visibility</p>
+    <p>/</p>
+    <p>Lookup</p>
+    <p>None (This is a
+ hidden action controlled by the visibility state)</p>
+    <p>Lookup</p>
+    <p>/</p>
+    <p>Lookup</p>
+    <p>Lookup</p>
+    <p>Basepoint</p>
+    <p>/</p>
+    <p>Standard</p>
+    <p>None</p>
+    <p>Dynamic block
+ grip editing functions are related to specific parameters, so the function of
+ each grip is not listed separately, the specific relationship between themis as follows：</p>
+  </conbody>
+</concept>

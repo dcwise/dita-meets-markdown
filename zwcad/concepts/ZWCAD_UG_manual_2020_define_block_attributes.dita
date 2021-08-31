@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7122358-351534A-F24571E559C7E5E-6C69ED">
+  <title>Define Block Attributes</title>
+  <shortdesc>Attributes can be
+ attached to a block. When selecting objects to be included in the block, you
+ can select all
+ the attributes and then choose
+ the block to be attached.</shortdesc>
+  <conbody>
+    <p>The order you
+ select attributes determines the prompts displaying when inserting blocks. If
+ you select attributes by crossing selection
+ or window selection, the prompts for attributes are displayed by the order
+ of creating attributes.</p>
+  </conbody>
+</concept>

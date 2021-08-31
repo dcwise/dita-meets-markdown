@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A72A4363-5E141F1-A8D5A915357C419-57962E">
+  <title>Joined Polyline Segments</title>
+  <shortdesc>If the ends of a line or arc are connected
+ or are close to each other, you can join themto an open polyline
+ by trimming or extending.</shortdesc>
+  <conbody>
+  </conbody>
+</concept>

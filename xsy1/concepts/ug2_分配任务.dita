@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd"[]>
+<concept xml:lang="en-us" id="A7B6310A-2B17413-9F254A8F1651597-56458A">
+  <title>分配任务</title>
+  <shortdesc>如果创建的任务负责人是其他人，那创建完的任务要在“我分配的”中进行查看。</shortdesc>
+  <conbody>
+    <p>
+      <fig>
+        <image href="../graphics/ug2_topic12_image002.png" />
+      </fig>
+    </p>
+    <p>任务如果完成可以由分配人或者被分配人单击完成。</p>
+    <p>
+      <image href="../graphics/ug2_topic12_image004.png" />
+    </p>
+  </conbody>
+</concept>
