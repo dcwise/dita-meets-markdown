@@ -49,5 +49,5 @@ sh $DITA_OT/bin/dita \
     --format=webhelp-responsive \
     --input=manualset.ditamap \
     --output=bin/out \
-	-Dwebhelp.logo.image=https://www.xiaoshouyi.com/wp-content/uploads/2020/11/logo_2020_@2X_b.png \
+	-Dwebhelp.logo.image=https://www.zwsoft.cn/statics/shuipf/style2020/images/logo2.png \
 	-Dwebhelp.publishing.template=xsyCENTEROFEXCELLENCE.zip
